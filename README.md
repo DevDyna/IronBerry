@@ -51,3 +51,5 @@ ___
  
 
 Ispired from Project Isothermal and a bit from FeedTheFactory and Ultimate Alchemy
+
+Download available only on CurseForge : https://www.curseforge.com/minecraft/modpacks/ironberry-expert-skyblock
