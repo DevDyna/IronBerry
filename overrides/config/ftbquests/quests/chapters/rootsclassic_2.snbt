@@ -1,0 +1,12 @@
+{
+	id: "4E81305AC421C6C0"
+	group: "401C286CAF40DD63"
+	order_index: 0
+	filename: "rootsclassic_2"
+	title: "Roots-Classic"
+	icon: "rootsclassic:spell_powder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

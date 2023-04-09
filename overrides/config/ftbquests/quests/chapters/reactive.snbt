@@ -1,0 +1,18 @@
+{
+	id: "3D508E7D6D47BA19"
+	group: "1C5DED1C06F891EB"
+	order_index: 2
+	filename: "reactive"
+	title: "Reactive"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "reactive:journal"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
