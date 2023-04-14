@@ -1,0 +1,12 @@
+{
+	id: "578BA9E968E7B064"
+	group: ""
+	order_index: 2
+	filename: "age_1"
+	title: "Age 2"
+	icon: "reactive:crucible"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
