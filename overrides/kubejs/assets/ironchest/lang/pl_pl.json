@@ -1,0 +1,20 @@
+{
+  "_comment": "Blocks",
+  "block.ironchest.iron_chest": "Iron Chest",
+  "block.ironchest.gold_chest": "Iron Chest and Half",
+  "block.ironchest.diamond_chest": "Double Iron Chest",
+  "block.ironchest.copper_chest": "Small Chest",
+
+  "_comment": "Containers",
+  "ironchest.container.iron_chest": "Iron Chest",
+  "ironchest.container.gold_chest": "Iron Chest and Half",
+  "ironchest.container.diamond_chest": "Double Iron Chest",
+  "ironchest.container.copper_chest": "Small Iron Chest",
+  
+  "_comment": "Upgrades",
+  "item.ironchest.iron_to_gold_chest_upgrade": "T2 Upgrade",
+  "item.ironchest.gold_to_diamond_chest_upgrade": "T3 Upgrade",
+  "item.ironchest.copper_to_iron_chest_upgrade": "T1 Upgrade",
+  "item.ironchest.wood_to_copper_chest_upgrade": "T0 Upgrade"
+  
+}
