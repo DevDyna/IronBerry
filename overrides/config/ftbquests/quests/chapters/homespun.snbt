@@ -1,0 +1,467 @@
+{
+	id: "2CDB129B1A97740C"
+	group: "0AB07CEFAAABA228"
+	order_index: 0
+	filename: "homespun"
+	title: "Age 1"
+	icon: "homespun:olives"
+	subtitle: ["Homespun and more"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "1 iron berries = 1 tiny iron"
+			dependencies: ["06C31856E497690B"]
+			id: "0B54F22DD8DC5D70"
+			tasks: [{
+				id: "046B211990024B6D"
+				type: "item"
+				item: "homespun:crushing_tub"
+			}]
+			rewards: [{
+				id: "0E7DE4CCBD59EEC5"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "Time to cook"
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["0B54F22DD8DC5D70"]
+			id: "2B1BFD7285E53C55"
+			tasks: [
+				{
+					id: "08574DBD0455CFBA"
+					type: "item"
+					item: "minecraft:clay_ball"
+				}
+				{
+					id: "19D2FB220559A97E"
+					type: "item"
+					item: "ceramicbucket:unfired_clay_bucket"
+				}
+			]
+			rewards: [{
+				id: "0679B8CBB2AB3A77"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			subtitle: "1 iron berries = 2 tiny iron"
+			dependencies: ["2B1BFD7285E53C55"]
+			id: "6CC49D55C6F1B6C0"
+			tasks: [{
+				id: "0A2878A8E8A36EC3"
+				type: "item"
+				item: "homespun:evaporating_basin"
+			}]
+			rewards: [{
+				id: "1549AB10498CC1C4"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			subtitle: "Tiny version"
+			dependencies: ["0B54F22DD8DC5D70"]
+			id: "1863F568A3ACB587"
+			tasks: [{
+				id: "2995C26972A048B6"
+				type: "item"
+				item: "homespun:tiny_iron_dust"
+			}]
+			rewards: [{
+				id: "6B8BC29A24E8CC79"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "Berries"
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Drop from leaves"
+			dependencies: ["06C31856E497690B"]
+			id: "2EEF03127BC5517F"
+			tasks: [{
+				id: "1DC2666C04821463"
+				type: "item"
+				title: "Any #rootsclassic:berries"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rootsclassic:berries"
+					}
+				}
+			}]
+			rewards: [{
+				id: "50129BA378080BC8"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "Raw version"
+			dependencies: ["1863F568A3ACB587"]
+			id: "795CAAC81A73AD07"
+			tasks: [{
+				id: "3F60C1A9F003E048"
+				type: "item"
+				item: "minecraft:raw_iron"
+			}]
+			rewards: [{
+				id: "110BA65C143240C1"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["1BF41FAB7D9C28E8"]
+			id: "222BCA5CC86342AE"
+			tasks: [{
+				id: "0F83B4D1B8A816D3"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+			rewards: [{
+				id: "0C493C76BA6EA138"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "Cooked version"
+			dependencies: [
+				"795CAAC81A73AD07"
+				"222BCA5CC86342AE"
+				"3964D7DCF95CF727"
+			]
+			size: 2.0d
+			id: "5C6DF3197277F797"
+			tasks: [{
+				id: "41C7198C2513329F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "675AE22925CB54A6"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["2B1BFD7285E53C55"]
+			id: "09F6890F9C2096CE"
+			tasks: [{
+				id: "54E3914D50153966"
+				type: "item"
+				item: "minecraft:bricks"
+			}]
+			rewards: [{
+				id: "762B6EFA5CEB661A"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			shape: "hexagon"
+			subtitle: "Alloyes"
+			dependencies: ["09F6890F9C2096CE"]
+			id: "3964D7DCF95CF727"
+			tasks: [{
+				id: "633A49AAD55D012A"
+				type: "item"
+				item: "bluepower:alloyfurnace"
+			}]
+			rewards: [{
+				id: "0EAC13CC6F5015AA"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["6CC49D55C6F1B6C0"]
+			id: "1BF41FAB7D9C28E8"
+			tasks: [{
+				id: "5B0CA3B67CAD1C00"
+				type: "item"
+				item: {
+					id: "ceramicbucket:ceramic_bucket"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "thermal:crude_oil"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "742693E428D34474"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "Me and a tree"
+			icon: "homespun:ironwood_sapling"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Little step to gathering resources"
+			dependencies: ["6C63EC61EFDD4945"]
+			size: 2.0d
+			id: "06C31856E497690B"
+			tasks: [{
+				id: "3531EAD9C1BC056E"
+				type: "observation"
+				title: "A tree..."
+				icon: "homespun:ironwood_sapling"
+				timer: 0L
+				observe_type: 0
+				to_observe: "homespun:ironwood_log"
+			}]
+			rewards: [{
+				id: "45CDF6473A9FF276"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "Squashing all"
+			x: -7.5d
+			y: 4.5d
+			dependencies: ["2EEF03127BC5517F"]
+			id: "3918327B7375DF60"
+			tasks: [
+				{
+					id: "31E47787595652B3"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "7DF7A2CCC59065BC"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "3F12534552B2F977"
+					type: "item"
+					item: "minecraft:glow_ink_sac"
+				}
+				{
+					id: "22634DF4F5B34BD9"
+					type: "item"
+					item: "minecraft:paper"
+				}
+				{
+					id: "1A551ACF662B8662"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+			]
+			rewards: [{
+				id: "203C9FB912307412"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.5d
+			dependencies: ["5C6DF3197277F797"]
+			id: "7A1767209421A711"
+			tasks: [{
+				id: "5924D90CA1F25B15"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "67E24AD5C2A38A01"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.0d
+			dependencies: [
+				"7A1767209421A711"
+				"3918327B7375DF60"
+			]
+			id: "0810AF71C11E3312"
+			tasks: [{
+				id: "128D1E64979962BA"
+				type: "item"
+				item: "reactive:scroll"
+			}]
+			rewards: [{
+				id: "31576F3D5384E5AA"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			dependencies: [
+				"2EEF03127BC5517F"
+				"2B1BFD7285E53C55"
+			]
+			id: "429890C7D019308E"
+			tasks: [{
+				id: "0B5AB4E6B01B92FF"
+				type: "item"
+				item: {
+					id: "ceramicbucket:ceramic_bucket"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2242104642755CFE"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.0d
+			subtitle: "Chemistry?"
+			dependencies: [
+				"0810AF71C11E3312"
+				"429890C7D019308E"
+			]
+			size: 2.0d
+			id: "2690AFB8D51B4350"
+			tasks: [{
+				id: "611F11A4D0C7BEAA"
+				type: "item"
+				item: "reactive:crucible"
+			}]
+			rewards: [{
+				id: "2E3E9FD19AD1CE58"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["06C31856E497690B"]
+			id: "2401EC4080182DF8"
+			tasks: [{
+				id: "3656A55C343A7DA0"
+				type: "observation"
+				title: "Like Neandertal"
+				icon: "minecraft:campfire"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "588B6CDD6C7794BA"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "No more dirt?"
+			x: -6.5d
+			y: 5.5d
+			dependencies: [
+				"5C6DF3197277F797"
+				"3918327B7375DF60"
+			]
+			id: "0F8149AF718CCB25"
+			tasks: [{
+				id: "7A5ABE7364052194"
+				type: "item"
+				item: {
+					id: "pedestals:upgrade_pedestal_cobblegen"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "685D8E6CD1538307"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "pedestals:pedestals_guide"
+						}
+					}
+				}
+				{
+					id: "4F6489165C5019EC"
+					type: "item"
+					item: "thermal:iron_coin"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			subtitle: "A tank of 8 Buckets"
+			dependencies: ["5C6DF3197277F797"]
+			id: "48F917E1C82F236E"
+			tasks: [{
+				id: "4620EB28C4C63EDB"
+				type: "item"
+				item: "homespun:fluid_storage"
+			}]
+			rewards: [{
+				id: "07DAF4AB42799CD9"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			subtitle: "Big Solution"
+			dependencies: ["5C6DF3197277F797"]
+			id: "040EF4AA80C891C5"
+			tasks: [{
+				id: "20B1C6CE6ECBB9ED"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "52A8B8594FE747B7"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

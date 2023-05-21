@@ -1,0 +1,209 @@
+{
+	id: "5B34783D15AB9034"
+	group: "0AB07CEFAAABA228"
+	order_index: 2
+	filename: "3"
+	title: "Age 3"
+	icon: "tombstone:advancement_9"
+	subtitle: ["The Dark Side of the Moon"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Same but more !"
+			x: 0.0d
+			y: -14.5d
+			shape: "hexagon"
+			subtitle: "1 -> 19..27 tiny"
+			description: [
+				""
+				"Jump on top and after pressed use a button to reset"
+			]
+			dependencies: [
+				"2CED22797A3FFA7B"
+				"70CEF7D9F2C579E0"
+				"3A266E11A1D1A0CD"
+			]
+			id: "376A598686CD7197"
+			tasks: [{
+				id: "70431F7ED2C9CF7C"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "478C2B7231572C46"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -16.0d
+			dependencies: ["25DADB6F081F6920"]
+			id: "2CED22797A3FFA7B"
+			tasks: [{
+				id: "18D21BD92186D877"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -16.0d
+			dependencies: ["182E4121F73DB516"]
+			id: "25DADB6F081F6920"
+			tasks: [{
+				id: "7EEAC23D6D1EFE89"
+				type: "item"
+				item: "bluepower:purple_alloy_ingot"
+			}]
+			rewards: [{
+				id: "284F52903C211925"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			title: "More Powered Stuff!"
+			x: 0.0d
+			y: -13.0d
+			dependencies: [
+				"7A2E0BE6514D1954"
+				"16A1F0591E87CDC6"
+				"0ACF1D42F03D8C6B"
+				"70CEF7D9F2C579E0"
+				"376A598686CD7197"
+				"18DE89A1FFD27A61"
+			]
+			id: "29CECA7F57D6E40E"
+			tasks: [
+				{
+					id: "544E187B1ED44BB6"
+					type: "item"
+					item: "integrateddynamics:mechanical_squeezer"
+				}
+				{
+					id: "180C4889B5C303B6"
+					type: "item"
+					item: "integrateddynamics:mechanical_drying_basin"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -13.0d
+			subtitle: "All in one"
+			dependencies: ["3F818FA3A0D9B316"]
+			id: "70CEF7D9F2C579E0"
+			tasks: [{
+				id: "4C343F620BB9B6F2"
+				type: "item"
+				item: "kubejs:casing"
+			}]
+			rewards: [{
+				id: "783B5F9A8D0C1716"
+				type: "item"
+				item: "thermal:iron_coin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.5d
+			subtitle: "Manually builded"
+			dependencies: ["70CEF7D9F2C579E0"]
+			id: "0ACF1D42F03D8C6B"
+			tasks: [{
+				id: "1A22FAD242E3B54C"
+				type: "item"
+				item: "kubejs:machine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -14.5d
+			dependencies: ["168AA83F82F32990"]
+			id: "74C7873DC0E892B2"
+			tasks: [{
+				id: "76D13AFB6522FD0A"
+				type: "item"
+				item: "homespun:ironberry_juice_bottle"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -14.5d
+			dependencies: ["74C7873DC0E892B2"]
+			id: "3A266E11A1D1A0CD"
+			tasks: [{
+				id: "75EB855463B138D4"
+				type: "item"
+				item: "homespun:redstone_acid"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			shape: "octagon"
+			subtitle: "1 -> 28..30 tiny"
+			dependencies: [
+				"0ACF1D42F03D8C6B"
+				"3A266E11A1D1A0CD"
+			]
+			id: "18DE89A1FFD27A61"
+			tasks: [{
+				id: "78AE11565FCBAA66"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.5d
+			id: "64A86E7537347BDB"
+			tasks: [{
+				id: "20C691374919269C"
+				type: "item"
+				item: "tombstone:grave_dust"
+			}]
+		}
+		{
+			title: "Time to die"
+			icon: "tombstone:advancement_5"
+			x: 0.0d
+			y: -8.0d
+			shape: "octagon"
+			subtitle: "Corail Tombstone"
+			description: [
+				"Magic mod based around Pray but you don't need to be religious"
+				""
+				"On this modpack , Corail tombstone was been heavy modified so many outside information can be wrong"
+			]
+			dependencies: ["0ACF1D42F03D8C6B"]
+			size: 2.0d
+			id: "2BCC9E9DDD1FF086"
+			tasks: [{
+				id: "5DCA0381C1A76B60"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Gems"
+			x: -2.5d
+			y: -11.0d
+			id: "3452FF2184AA39B2"
+			tasks: [{
+				id: "2F7DEBB76F08F737"
+				type: "item"
+				title: "Any #ironberry:blue_gems"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ironberry:blue_gems"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

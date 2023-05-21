@@ -1,0 +1,32 @@
+{
+	id: "7A3B3CB3AE826748"
+	group: "546719DB2CBCB08E"
+	order_index: 1
+	filename: "money"
+	title: "Money"
+	icon: "thermal:gold_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: -0.5d
+		dependencies: ["7A99D9B117AE5D30"]
+		invisible: true
+		id: "4677F8EB2031371B"
+		tasks: [{
+			id: "533172B8C79A8294"
+			type: "item"
+			item: "ironchest:diamond_chest"
+			count: 256L
+			consume_items: true
+		}]
+		rewards: [{
+			id: "70BB6EF8C83AB1C0"
+			type: "item"
+			icon: "kubejs:iron"
+			item: "thermal:iron_coin"
+			count: 32
+		}]
+	}]
+	quest_links: [ ]
+}

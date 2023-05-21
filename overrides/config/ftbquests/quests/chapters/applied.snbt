@@ -1,0 +1,146 @@
+{
+	id: "0D738C7FE5B35932"
+	group: "0E9BF077CBFE57D1"
+	order_index: 0
+	filename: "applied"
+	title: "Applied Energistics"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.0d
+			y: -15.5d
+			width: 8.8060263653484d
+			height: 8.0d
+			rotation: 0.0d
+			image: "kubejs:textures/examples/ae2/channels.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 22.5d
+			y: -14.5d
+			width: 11.466882067851373d
+			height: 6.0d
+			rotation: 0.0d
+			image: "kubejs:textures/examples/ae2/peartopear.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 33.5d
+			y: -14.5d
+			width: 14.111292962356792d
+			height: 6.0d
+			rotation: 0.0d
+			image: "kubejs:textures/examples/ae2/peartopear_again.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: -14.0d
+			width: 7.0d
+			height: 1.9397590361445782d
+			rotation: 0.0d
+			image: "kubejs:textures/examples/ae2/toomany.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "P2P - More way"
+			icon: "ae2:me_p2p_tunnel"
+			disable_toast: true
+			x: 28.0d
+			y: -11.0d
+			subtitle: "Main solution on big storage"
+			description: [
+				"P2P are a good way when you need to transfer stuff but on a single cable"
+				""
+				"To do that you need to use a memory card and shift-click on a face of input , after them you need to repeat them on empty p2p when you want"
+				""
+				"If you need of other type of p2p you only need to click on p2p with a item of category (see JEI)"
+				""
+				"P2P cant push or pull , you something that can pull/push to tranfer between them like hoppers"
+				""
+				"Warning! P2P only work \"one to many\" not \"many to one\" so if you need to pick-up more inputs to import into another you need to use import/export with a storage bus (not work if you import and export without any storage bus)"
+			]
+			dependencies: ["0ADB5A7DCDFE2FA2"]
+			size: 2.0d
+			id: "615E33C74761E97D"
+			tasks: [{
+				id: "25327CDDE2444717"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Channels"
+			icon: "ae2:fluix_smart_cable"
+			disable_toast: true
+			x: 5.0d
+			y: -11.0d
+			subtitle: "Without controller are only 8 !"
+			description: [
+				"If you need more that only 7 *storage, on this image you can find the solution"
+				""
+				"Below there is a scheme that describe the logic of reading from networks"
+				"{@pagebreak}"
+			]
+			dependencies: ["0ADB5A7DCDFE2FA2"]
+			size: 2.0d
+			id: "32A580A439BB6BCA"
+			tasks: [{
+				id: "179135D36A72BED0"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Applied Energistics 2 - AE2"
+			icon: "ae2:charged_certus_quartz_crystal"
+			disable_toast: true
+			x: 16.0d
+			y: -11.0d
+			shape: "gear"
+			subtitle: "A network of networks , terminals , cells and more"
+			description: [
+				"All require energy [ RF/FE ] to work else all network doesn't work"
+				""
+				"Every storage bus , disk drive and other devices from ae2 require one channel to work (except energy acceptor , energy cell and vibrant chamber) until all network stop working"
+				""
+				"Quartz fiber can feed another network of energy"
+				""
+				"Smart cables and glass cables can transfert only 8 channel"
+				""
+				"Dense cable can transfer more that 32 channels but require to be attached at a controller else can stop working all network"
+				""
+				"If a cable become full of channels , you need to remove devices or move on other networks"
+			]
+			size: 2.0d
+			optional: true
+			invisible: true
+			id: "0ADB5A7DCDFE2FA2"
+			tasks: [{
+				id: "1658CC230C0488A5"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "2FD9C6C88C44E118"
+				type: "item"
+				item: "ae2:guide"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
