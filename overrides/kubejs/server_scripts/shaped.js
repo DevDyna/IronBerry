@@ -225,7 +225,16 @@ ServerEvents.recipes(event => {
     //
     //
     //
-
+    event.shaped('1x minecraft:composter', [
+            'I I',
+            'I I',
+            'III'
+        ], {
+        I: '#minecraft:wooden_slabs'
+    })
+    //
+    //
+    //
 
 
 
