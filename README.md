@@ -41,7 +41,29 @@ ___
 -  Custom Main Menu [NYC]
 
  
+Main Mods:
 
+Homespun
+
+Integrated Dynamics
+
+Reactive
+
+Pneumaticcraft
+
+Applied Energistics 2
+
+Thermal
+
+Corail Tombstone (not only for tombstone!)
+
+ Hostile Neural Networks
+
+Gateway of Eternity
+
+Pedestals
+
+and more...
  
 
  
@@ -50,6 +72,6 @@ ___
 ___
  
 
-Ispired from Project Isothermal and a bit from FeedTheFactory and Ultimate Alchemy
+Ispired from Project Isothermal and Techopolis
 
 Download available only on CurseForge : https://www.curseforge.com/minecraft/modpacks/ironberry-expert-skyblock
