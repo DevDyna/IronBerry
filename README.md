@@ -26,19 +26,19 @@ ___
 
  Feature Planned:
 
-- Quests [Still working]
+-  Quests [Still working]
 
-- Custom recipes [Still working]
+-  Custom recipes [Still working]
 
-- Custom Events [Still working]
+-  Custom Events [Still working]
 
-- Shop Creative stuff [Still working]
+-  Shop Creative stuff [Still working]
 
-- Custom Data models [NYC]
+-  Custom Data models [NYC]
 
-- Heavy custom ore processing [NYC]
+-  Heavy custom ore processing [NYC]
 
-- Custom Main Menu [NYC]
+-  Custom Main Menu [NYC]
 
  
 
