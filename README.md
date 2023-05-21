@@ -26,7 +26,7 @@ ___
 
  Feature Planned:
 
--  Quests [Still working]
+-  Quests [Still working]
 
 -  Custom recipes [Still working]
 
@@ -36,7 +36,7 @@ ___
 
 -  Custom Data models [NYC]
 
--  Heavy custom ore processing [NYC]
+-  Heavy custom ore processing [NYC]
 
 -  Custom Main Menu [NYC]
 
