@@ -1,0 +1,2282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tombstone_capter_3"
+	group: "0AB07CEFAAABA228"
+	icon: "tombstone:advancement_9"
+	id: "5B34783D15AB9034"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "78BB41380919B7CF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/bag_of_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1F56B5CB1CD195B3"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "tombstone:particle/soul"
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "64A86E7537347BDB"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:particle/ghost"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "12A99E6FC80CE5A9"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "tombstone:item/lost_tablet"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7133DB21B04048B8"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/ankh"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 45.0d
+			width: 5.0d
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5DB8FDC5E7CA7875"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -9.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5DB8FDC5E7CA7875"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.25d
+			y: -12.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2E7B3C1E394BF2AE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:items/globes/globe_flat"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.75d
+			y: -11.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "08C331DC3A0CF932"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/bag_of_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "63BA9E92202669CC"
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "tombstone:item/grave_plate"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "ftbchunks:textures/faces/minecraft/warden.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_vein"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "12A99E6FC80CE5A9"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "tombstone:item/grave_key"
+			rotation: 90.0d
+			width: 3.0d
+			x: 19.0d
+			y: -9.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2CED22797A3FFA7B"
+				"70CEF7D9F2C579E0"
+				"3A266E11A1D1A0CD"
+			]
+			description: [
+				""
+				"Jump on top and after pressed use a button to reset"
+			]
+			id: "376A598686CD7197"
+			rewards: [{
+				id: "478C2B7231572C46"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Squeezer 1 -> 19..27 tiny\\n Basin 1 -> 28..30 tiny"
+			tasks: [
+				{
+					id: "70431F7ED2C9CF7C"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "651A6342F443C5BA"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
+			title: "Same but more !"
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["25DADB6F081F6920"]
+			id: "2CED22797A3FFA7B"
+			tasks: [{
+				id: "18D21BD92186D877"
+				item: "kubejs:pre_compressed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			id: "25DADB6F081F6920"
+			rewards: [{
+				id: "284F52903C211925"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EEAC23D6D1EFE89"
+				item: "bluepower:purple_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"7A2E0BE6514D1954"
+				"16A1F0591E87CDC6"
+				"70CEF7D9F2C579E0"
+				"376A598686CD7197"
+			]
+			icon: "integrateddynamics:mechanical_squeezer"
+			id: "29CECA7F57D6E40E"
+			tasks: [
+				{
+					id: "544E187B1ED44BB6"
+					item: "integrateddynamics:mechanical_squeezer"
+					type: "item"
+				}
+				{
+					id: "180C4889B5C303B6"
+					item: "integrateddynamics:mechanical_drying_basin"
+					type: "item"
+				}
+			]
+			title: "More Powered Stuff!"
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3F818FA3A0D9B316"]
+			id: "70CEF7D9F2C579E0"
+			rewards: [{
+				id: "783B5F9A8D0C1716"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "All in one"
+			tasks: [{
+				id: "4C343F620BB9B6F2"
+				item: "kubejs:casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -18.75d
+		}
+		{
+			dependencies: ["168AA83F82F32990"]
+			id: "74C7873DC0E892B2"
+			tasks: [{
+				id: "76D13AFB6522FD0A"
+				item: "homespun:ironberry_juice_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["74C7873DC0E892B2"]
+			id: "3A266E11A1D1A0CD"
+			tasks: [{
+				id: "75EB855463B138D4"
+				item: "homespun:redstone_acid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["2BCC9E9DDD1FF086"]
+			hide: true
+			id: "64A86E7537347BDB"
+			tasks: [{
+				id: "20C691374919269C"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"48DF9D86C7F8F9F7"
+				"29CECA7F57D6E40E"
+			]
+			description: [
+				"Magic mod based around Pray but you don't need to be religious"
+				""
+				"On this modpack , Corail tombstone was been heavy modified so many outside information can be wrong"
+			]
+			icon: "tombstone:advancement_7"
+			id: "2BCC9E9DDD1FF086"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Corail Tombstone"
+			tasks: [{
+				id: "5DCA0381C1A76B60"
+				type: "checkmark"
+			}]
+			title: "Time to die"
+			x: 3.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["29CECA7F57D6E40E"]
+			id: "3452FF2184AA39B2"
+			tasks: [
+				{
+					id: "2F7DEBB76F08F737"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:blue_gems"
+						}
+					}
+					title: "Any #ironberry:blue_gems"
+					type: "item"
+				}
+				{
+					id: "7732CC2676A91D24"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "3CFDEA895CB86206"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "Gems"
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["64A86E7537347BDB"]
+			id: "7133DB21B04048B8"
+			shape: "octagon"
+			subtitle: "Perks , exorcism and pray"
+			tasks: [{
+				id: "173679780502E932"
+				item: {
+					Count: 1b
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"64A86E7537347BDB"
+				"4A6600C0D5D16679"
+			]
+			hide_dependent_lines: true
+			id: "5932367392C69B30"
+			tasks: [{
+				id: "5002B99F8A8176B0"
+				item: "tombstone:dust_of_vanishing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"64A86E7537347BDB"
+				"32FF5501A723E459"
+			]
+			hide_dependent_lines: true
+			id: "6E31B26FF3394717"
+			tasks: [{
+				id: "60F98E186A23BB44"
+				item: "tombstone:dust_of_frost"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["64A86E7537347BDB"]
+			id: "0E3E9C5B5688F70D"
+			subtitle: "Rename your friend"
+			tasks: [{
+				id: "6A64482EF397A9E2"
+				item: "tombstone:grave_plate"
+				type: "item"
+			}]
+			title: "Grave Plate"
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"64A86E7537347BDB"
+				"7163739969AAB264"
+			]
+			hide: true
+			id: "285B9826C3F0F414"
+			shape: "octagon"
+			tasks: [{
+				id: "2A23368455400A81"
+				item: "tombstone:strange_tablet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"64A86E7537347BDB"
+				"2F055BCB378D55FC"
+			]
+			id: "2263AF80BE10A372"
+			tasks: [{
+				id: "6412DB18FDB758F4"
+				item: "tombstone:smoke_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["63BA9E92202669CC"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "411A1007C8E147F8"
+			size: 2.0d
+			subtitle: "Crafting item but not here!"
+			tasks: [{
+				id: "4C1A0D42F10722E9"
+				item: "tombstone:strange_scroll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6DCCBC7AE25353C3"
+				"6240CC21E07DF06B"
+			]
+			id: "4A6600C0D5D16679"
+			tasks: [{
+				id: "2483E7843A4D0A24"
+				item: "cyclic:crusher"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"71384C57A23FDF12"
+				"018037B494C94222"
+				"3114E897FF6E3F61"
+			]
+			id: "167389B3E16BDA6A"
+			invisible: true
+			tasks: [{
+				id: "1EC07FD2EEBE90A5"
+				item: "ae2:entropy_manipulator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6F3B57552C968B42"]
+			icon: "ae2:charger"
+			id: "7177F684AAC848E2"
+			optional: true
+			subtitle: "You Spin Me Right Round Baby"
+			tasks: [
+				{
+					id: "2DC389960E934646"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "6013EEAEB7DF0044"
+					item: "ae2:crank"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["167389B3E16BDA6A"]
+			id: "6F3B57552C968B42"
+			tasks: [
+				{
+					id: "6B4BA6B979BD08A4"
+					item: "kubejs:ice_shard"
+					type: "item"
+				}
+				{
+					id: "2FCA0983DCD5DA91"
+					item: "minecraft:ice"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7177F684AAC848E2"
+				"6F3B57552C968B42"
+			]
+			id: "32FF5501A723E459"
+			tasks: [{
+				id: "06768AC1B164C038"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["58F3A3D139E87775"]
+			id: "7163739969AAB264"
+			tasks: [{
+				id: "4F6D0009F403F81E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tombstone:grave_marbles"
+					}
+				}
+				title: "Any #tombstone:grave_marbles"
+				type: "item"
+			}]
+			title: "Marbles"
+			x: -2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["167389B3E16BDA6A"]
+			id: "2F055BCB378D55FC"
+			tasks: [{
+				id: "6FD2A55EB6489E1F"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3452FF2184AA39B2"]
+			id: "5479C6B71BEF64F9"
+			tasks: [{
+				id: "32FDC9AAD640404F"
+				item: "tombstone:merchant_stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["54958A7EC60D4E74"]
+			id: "6DA70AC867C01085"
+			subtitle: "Soul on a jar"
+			tasks: [{
+				id: "298DAE514730BA57"
+				item: "tombstone:soul_receptacle"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["285B9826C3F0F414"]
+			id: "3A3D83FC3C482664"
+			shape: "diamond"
+			tasks: [{
+				id: "1B2E768709B24A79"
+				item: "tombstone:tablet_of_recall"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"285B9826C3F0F414"
+				"74E29382FC1883A7"
+			]
+			id: "709EA2130092EFB9"
+			shape: "diamond"
+			tasks: [{
+				id: "0AC8FF05B6C0C9CD"
+				item: "tombstone:tablet_of_home"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["285B9826C3F0F414"]
+			id: "0DDBD46B1AFEBDE3"
+			shape: "diamond"
+			subtitle: "Multiplayer Only"
+			tasks: [{
+				id: "6523BB68649CC831"
+				item: "tombstone:tablet_of_assistance"
+				type: "item"
+			}]
+			title: "Tablet of Assistance"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"285B9826C3F0F414"
+				"78BB41380919B7CF"
+			]
+			id: "1B1F3157BFCDA112"
+			shape: "diamond"
+			tasks: [{
+				id: "75C5DF49D989CAB6"
+				item: "tombstone:tablet_of_cupidity"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["411A1007C8E147F8"]
+			id: "76B2F07F5D5E0A1B"
+			subtitle: "Experience Storage"
+			tasks: [{
+				id: "0E3C611109A15F8D"
+				item: "tombstone:scroll_of_knowledge"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"592AB29EFAADB4D0"
+			]
+			id: "7FDADEEEF92D866C"
+			tasks: [{
+				id: "4399B2F81B20E820"
+				item: "tombstone:scroll_of_preservation"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"45C4AC011AABE1EC"
+			]
+			id: "396B0ABECBC55212"
+			tasks: [{
+				id: "6DC8DBC1FC3C2094"
+				item: "tombstone:scroll_of_unstable_intangibility"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"6CF1FD984832BEDF"
+			]
+			id: "554649C0347159C9"
+			tasks: [{
+				id: "3CC34C4A3F039EB6"
+				item: "tombstone:scroll_of_feather_fall"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["411A1007C8E147F8"]
+			id: "02AC3DC87EA57CF7"
+			tasks: [{
+				id: "293011DE75D939F1"
+				item: "tombstone:scroll_of_purification"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["411A1007C8E147F8"]
+			id: "015474317D55242A"
+			tasks: [{
+				id: "77C7D8299862968D"
+				item: "tombstone:scroll_of_true_sight"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"37189EE68DA1957E"
+			]
+			id: "7D8FB31799DFD89B"
+			subtitle: "I can reach the sky!"
+			tasks: [{
+				id: "3F175A823F3EE613"
+				item: "tombstone:scroll_of_reach"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["411A1007C8E147F8"]
+			id: "18B042EE297E9243"
+			tasks: [{
+				id: "606AE43CE3464A34"
+				item: "tombstone:scroll_of_lightning_resistance"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"2F055BCB378D55FC"
+			]
+			hide_dependency_lines: true
+			id: "74EF1BAFD7F54538"
+			tasks: [{
+				id: "4CF35D1FC9F0D9E2"
+				item: "tombstone:scroll_of_frost_resistance"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"3F8255B469D8C8D2"
+			]
+			id: "740278705FBE113E"
+			tasks: [{
+				id: "21EC89847D994EEF"
+				item: "tombstone:scroll_of_aquatic_life"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"411A1007C8E147F8"
+				"359DCED4D03B715D"
+			]
+			id: "742C6468DF5FCC43"
+			tasks: [{
+				id: "245C1BAC2FD861CE"
+				item: "tombstone:scroll_of_mercy"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["411A1007C8E147F8"]
+			id: "5202B78C2CA7DBD3"
+			subtitle: "Backup on case"
+			tasks: [{
+				id: "4C81F4ABCA55595D"
+				item: "tombstone:magic_scroll"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B0F0A9E1091DD0E"]
+			id: "0D6DDD97A2065943"
+			rewards: [{
+				id: "6552EC4A20716AFD"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DB46A78E2454007"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D6DDD97A2065943"]
+			id: "1FF4E4F20E679B85"
+			optional: true
+			rewards: [{
+				id: "1F71EA5B1015F39D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Essence of Unexpected"
+			tasks: [{
+				id: "5211CC9272421F43"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 0s
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1FF4E4F20E679B85"]
+			icon: {
+				Count: 1b
+				id: "alchemygadgetry:potion_flask"
+				tag: {
+					CustomPotionEffects: [
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 2940
+							Id: 13
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:water_breathing"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 11760
+							Id: 16
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:night_vision"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 1b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1469
+							Id: 5
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:strength"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 3920
+							Id: 18
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:weakness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 4900
+							Id: 26
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:luck"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1469
+							Id: 28
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:slow_falling"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 733
+							Id: 10
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:regeneration"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 3b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 653
+							Id: 2
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:slowness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 2b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 653
+							Id: 11
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:resistance"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 8
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:jump_boost"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 65
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:frostbite"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 4b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 68
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:discretion"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 2940
+							Id: 51
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "quark:resilience"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 16800
+							FactorCalculationData: {
+								effect_changed_timestamp: 0
+								factor_current: 0.0f
+								factor_previous_frame: 0.0f
+								factor_start: 0.0f
+								factor_target: 1.0f
+								had_effect_last_tick: 0b
+								padding_duration: 22
+							}
+							Id: 33
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:darkness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 9600
+							Id: 67
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:earthly_garden"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1400
+							Id: 81
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "reactive:no_gravity"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 3600
+							Id: 78
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "cyclic:frost_walker"
+						}
+					]
+					fullness: 18
+				}
+			}
+			id: "20BDF1B4BEF0753C"
+			optional: true
+			secret: true
+			shape: "diamond"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					Count: 1b
+					id: "alchemygadgetry:potion_flask"
+					tag: {
+						CustomPotionEffects: [
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 2940
+								Id: 13
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:water_breathing"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 11760
+								Id: 16
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:night_vision"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 1b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1469
+								Id: 5
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:strength"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 3920
+								Id: 18
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:weakness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 4900
+								Id: 26
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:luck"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1469
+								Id: 28
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:slow_falling"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 733
+								Id: 10
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:regeneration"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 3b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 653
+								Id: 2
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:slowness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 2b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 653
+								Id: 11
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:resistance"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 8
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:jump_boost"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 65
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:frostbite"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 4b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 68
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:discretion"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 2940
+								Id: 51
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "quark:resilience"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 16800
+								FactorCalculationData: {
+									effect_changed_timestamp: 0
+									factor_current: 0.0f
+									factor_previous_frame: 0.0f
+									factor_start: 0.0f
+									factor_target: 1.0f
+									had_effect_last_tick: 0b
+									padding_duration: 22
+								}
+								Id: 33
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:darkness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 9600
+								Id: 67
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:earthly_garden"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1400
+								Id: 81
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "reactive:no_gravity"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 3600
+								Id: 78
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "cyclic:frost_walker"
+							}
+						]
+						fullness: 18
+					}
+				}
+				id: "3F7CA7D6C31C6F58"
+				title: "A Furious Cocktail"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["5A803F21F63BEA65"]
+			id: "63BA9E92202669CC"
+			tasks: [{
+				id: "1753DACBDA7107E6"
+				item: "kubejs:scroll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1F56B5CB1CD195B3"
+				"6E31B26FF3394717"
+				"5932367392C69B30"
+			]
+			id: "7E8FA26E1A3924A5"
+			optional: true
+			shape: "pentagon"
+			subtitle: "A little boost"
+			tasks: [{
+				id: "77F949966C663CF0"
+				item: {
+					Count: 1b
+					id: "tombstone:fishing_rod_of_misadventure"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1F56B5CB1CD195B3"
+				"2263AF80BE10A372"
+			]
+			id: "642719B0E6FA2529"
+			optional: true
+			shape: "heart"
+			subtitle: "The new love"
+			tasks: [{
+				id: "694483AA73ADA408"
+				item: "cyclic:ender_fishing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "3F0ADDDB9A667132"
+			optional: true
+			shape: "diamond"
+			subtitle: "A Classic way"
+			tasks: [{
+				id: "51B9B523DA5EDEDB"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["578BA9E968E7B064"]
+			id: "1F56B5CB1CD195B3"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Vanilla Style"
+			tasks: [{
+				id: "74112ABB59AA2980"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "6CF1FD984832BEDF"
+			tasks: [{
+				id: "28F1F7A02BC436E9"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "3F8255B469D8C8D2"
+			tasks: [{
+				id: "4E7DBAD18EB48E26"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "592AB29EFAADB4D0"
+			tasks: [{
+				id: "613C3626F808F338"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "45C4AC011AABE1EC"
+			tasks: [{
+				id: "3D523D641A8BC244"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0DDBD46B1AFEBDE3"
+				"1B1F3157BFCDA112"
+				"709EA2130092EFB9"
+				"3A3D83FC3C482664"
+			]
+			id: "5A803F21F63BEA65"
+			shape: "octagon"
+			subtitle: "Unlimited One"
+			tasks: [{
+				id: "4ECD31E63A720687"
+				item: "kubejs:omni"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["578BA9E968E7B064"]
+			id: "12A99E6FC80CE5A9"
+			tasks: [{
+				id: "4E0F439FBF1A001F"
+				item: "reactive:stardust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["12A99E6FC80CE5A9"]
+			id: "37189EE68DA1957E"
+			tasks: [{
+				id: "196D0D3899D1657A"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12A99E6FC80CE5A9"
+				"0D6DDD97A2065943"
+			]
+			id: "61161170162203B7"
+			tasks: [{
+				id: "207579535F3574ED"
+				item: "kubejs:iron_rod"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"2BCC9E9DDD1FF086"
+				"6240CC21E07DF06B"
+			]
+			id: "58F3A3D139E87775"
+			tasks: [{
+				id: "5E259640D9D10D64"
+				item: "quark:sturdy_stone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"64A86E7537347BDB"
+				"3452FF2184AA39B2"
+			]
+			id: "71384C57A23FDF12"
+			tasks: [{
+				id: "17B2DF92B81280AC"
+				item: "tombstone:impregnated_diamond"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["61161170162203B7"]
+			id: "018037B494C94222"
+			tasks: [{
+				id: "35A65F4D46B38D65"
+				item: "tombstone:bone_needle"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "54958A7EC60D4E74"
+			tasks: [{
+				id: "307BB312823A3B3C"
+				item: "kubejs:soul"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F0F2D13448390AF"]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:warden_gate_large"
+				}
+			}
+			id: "57D5E48E5EC2EFE0"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "26E32E226826B6C0"
+				item: "minecraft:warden_spawn_egg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E7B3C1E394BF2AE"]
+			id: "78BB41380919B7CF"
+			tasks: [{
+				id: "6347CC51887BB340"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["578BA9E968E7B064"]
+			id: "2E7B3C1E394BF2AE"
+			tasks: [{
+				id: "171BC84AC90A00B9"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"578BA9E968E7B064"
+				"64A86E7537347BDB"
+			]
+			id: "3114E897FF6E3F61"
+			tasks: [{
+				id: "21D70CB05E4A60D0"
+				item: "kubejs:rose"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"02AC3DC87EA57CF7"
+				"7FDADEEEF92D866C"
+				"740278705FBE113E"
+				"554649C0347159C9"
+				"015474317D55242A"
+				"74EF1BAFD7F54538"
+			]
+			id: "0E6D91BEA58EF2B0"
+			tasks: [{
+				id: "7A8DC5BC1879AB66"
+				item: "kubejs:scroll_safety"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5202B78C2CA7DBD3"
+				"76B2F07F5D5E0A1B"
+				"7D8FB31799DFD89B"
+				"742C6468DF5FCC43"
+				"18B042EE297E9243"
+				"396B0ABECBC55212"
+			]
+			id: "4D2E8CFB00E7D02C"
+			tasks: [{
+				id: "43655B275AEB8359"
+				item: "kubejs:scroll_discontinuity"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3CF427D28764EE4F"
+				"6DA70AC867C01085"
+				"0E6D91BEA58EF2B0"
+			]
+			description: [
+				"Do you need of a good guy?"
+				"Need of a good warrior?"
+				"This is the quest that you need now!"
+			]
+			id: "3AE5CD008B44982C"
+			optional: true
+			subtitle: "A cheap way"
+			tasks: [{
+				id: "7556E5D3CF333705"
+				item: "kubejs:grave_spawn"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3CF427D28764EE4F"
+				"6DA70AC867C01085"
+			]
+			id: "6B8DDA098675365C"
+			optional: true
+			tasks: [{
+				id: "247BEA96E5D92771"
+				item: "kubejs:illuminati"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1BEF9782AAE08017"]
+			id: "3CF427D28764EE4F"
+			optional: true
+			tasks: [{
+				id: "3804A66DA736F5EE"
+				item: "exoticbirds:phoenix_egg"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EF6B10F9F4FD2E1"]
+			id: "514745AA0A403DD0"
+			subtitle: "I want you!"
+			tasks: [{
+				id: "31A3A1CAC3473BBA"
+				item: {
+					Count: 1b
+					id: "alchemygadgetry:potion_flask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"15DE813782E5A124"
+				"578BA9E968E7B064"
+			]
+			id: "0EF6B10F9F4FD2E1"
+			optional: true
+			tasks: [{
+				id: "01E4FE4DBB51AEF9"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0E6D91BEA58EF2B0"
+				"4D2E8CFB00E7D02C"
+				"6DA70AC867C01085"
+			]
+			description: ["To beat all mobs you need to use your best strategy and the most powerful thing available at now by Tombstone"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:warden"
+					}
+				}
+			}
+			id: "7F0F2D13448390AF"
+			shape: "square"
+			subtitle: "One of most dangerous Boss Battle"
+			tasks: [{
+				id: "7E7A6E509D6737E3"
+				title: "Hordes of mobs want kill you , you are read?"
+				type: "checkmark"
+			}]
+			title: "The Final countdown"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1BEF9782AAE08017"
+				"2E2661A8A6FBCE3F"
+				"3B8D921168A164BF"
+			]
+			id: "495E52057373CF9B"
+			tasks: [{
+				id: "79C55DF9812AB04D"
+				item: "exoticbirds:egg_incubator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A6600C0D5D16679"]
+			id: "3B8D921168A164BF"
+			tasks: [{
+				id: "56A2DC97A351C36A"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["126DB54048F2A068"]
+			hide_dependency_lines: true
+			id: "7D42A107B37BAC03"
+			optional: true
+			tasks: [{
+				id: "5459500354BFC936"
+				item: "tombstone:voodoo_poppet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3F818FA3A0D9B316"]
+			id: "5DB8FDC5E7CA7875"
+			tasks: [{
+				id: "05BC4053CBCA065E"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5DB8FDC5E7CA7875"]
+			id: "4C25842283BC5873"
+			tasks: [{
+				id: "5270653890727A52"
+				item: "thermal:compost"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"35BD3AD826A482C4"
+				"4C25842283BC5873"
+				"4B0F0A9E1091DD0E"
+			]
+			id: "282E614B7FEEF251"
+			tasks: [{
+				id: "0F7AD70FC65CD197"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"282E614B7FEEF251"
+				"35BD3AD826A482C4"
+			]
+			id: "1811CCF80691AB3D"
+			tasks: [
+				{
+					id: "0864303ED555BC74"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "2452B5F4A8506D24"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "Rich Soil Process"
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1811CCF80691AB3D"]
+			id: "08C331DC3A0CF932"
+			tasks: [{
+				id: "11D7AFD82AD8B766"
+				item: "kubejs:rich_bone_meal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["08C331DC3A0CF932"]
+			id: "74E29382FC1883A7"
+			tasks: [{
+				id: "54F821FB15494E20"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["29CECA7F57D6E40E"]
+			icon: {
+				Count: 1b
+				id: "minecraft:bundle"
+				tag: {
+					enchant: 1b
+				}
+			}
+			id: "63530FEA1B294B96"
+			tasks: [{
+				id: "30C73A75BC7D42FB"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "Bundled"
+			x: 0.75d
+			y: -18.0d
+		}
+		{
+			dependencies: ["379F607A99F58C90"]
+			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
+			id: "35BD3AD826A482C4"
+			rewards: [{
+				id: "7C93AC35971C2BB5"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DEBABEB293F5DD1"
+				item: "essentials:fertile_soil_wheat"
+				type: "item"
+			}]
+			title: "Croptopic?"
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"78BB41380919B7CF"
+				"6DCCBC7AE25353C3"
+				"5C6DF3197277F797"
+				"31E47787595652B3"
+				"222BCA5CC86342AE"
+			]
+			id: "5BFECB31235212FC"
+			size: 2.0d
+			tasks: [{
+				id: "08ECA575CF44F3E3"
+				item: "kubejs:ore_bone_meal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["63530FEA1B294B96"]
+			id: "2945A2E25BD04276"
+			tasks: [
+				{
+					id: "6798165D1C52F883"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+				{
+					id: "4D85AAD07367EE20"
+					item: "integrateddynamics:crystalized_chorus_chunk"
+					type: "item"
+				}
+			]
+			title: "Crystallized Chunks"
+			x: -0.75d
+			y: -17.25d
+		}
+		{
+			dependencies: ["5479C6B71BEF64F9"]
+			id: "54CE92765F3E4304"
+			optional: true
+			tasks: [{
+				id: "194C6EBE6DCF8414"
+				item: "tombstone:christmas_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -18.75d
+		}
+		{
+			dependencies: ["2945A2E25BD04276"]
+			icon: "kubejs:processor"
+			id: "31C7366B2D51ED2C"
+			rewards: [{
+				id: "428DE42F15F06A34"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F85A8854E0861D4"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+				{
+					id: "4169303251599B97"
+					item: "kubejs:processor"
+					type: "item"
+				}
+				{
+					id: "0314573E13FFEEAC"
+					item: {
+						Count: 1b
+						id: "integrateddynamics:enhancement_offset"
+						tag: {
+							value: 4
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Logic Menril Network"
+			x: -3.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["31C7366B2D51ED2C"]
+			id: "0A9EB2A394692CC3"
+			tasks: [
+				{
+					id: "721A545405CD23FC"
+					item: "integrateddynamics:menril_wood"
+					type: "item"
+				}
+				{
+					id: "019088F1A321135C"
+					item: "integrateddynamics:menril_wood_stripped"
+					type: "item"
+				}
+			]
+			title: "Menril Generators"
+			x: -6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["126DB54048F2A068"]
+			hide_dependency_lines: true
+			id: "190BF1366A412083"
+			optional: true
+			tasks: [
+				{
+					id: "167EB59CDE06A4D9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:effigy"
+						}
+					}
+					title: "Any #ironberry:effigy"
+					type: "item"
+				}
+				{
+					id: "16074D194BF1C0ED"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:cure"
+						}
+					}
+					title: "Any #ironberry:cure"
+					type: "item"
+				}
+			]
+			title: "Effigies"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3AE5CD008B44982C"]
+			id: "126DB54048F2A068"
+			optional: true
+			tasks: [{
+				id: "7223874B063A1727"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+	]
+	subtitle: ["The Dark Side of the Moon"]
+	title: "Age 3"
+}

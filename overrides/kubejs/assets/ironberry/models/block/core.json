@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "layer0": "minecraft:block/sculk",
+	"layer1": "ironberry:block/core"
+  }
+}

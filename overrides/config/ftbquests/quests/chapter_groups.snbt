@@ -2,6 +2,5 @@
 	chapter_groups: [
 		{ id: "0AB07CEFAAABA228", title: "Campaign" }
 		{ id: "0E9BF077CBFE57D1", title: "Examples" }
-		{ id: "546719DB2CBCB08E", title: "Trade Center" }
 	]
 }

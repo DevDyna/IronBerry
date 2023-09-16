@@ -1,7 +1,5 @@
-
-#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
-	#The Application ID of the Discord App to use
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
 	applicationID = 762726289341677668
 	#Enable/Disable the mod
 	enabled = true
@@ -14,239 +12,200 @@
 	#Internal Version Number. NO TOUCHY!
 	version = 18
 
-#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = "Game Starting..."
 	#The second line of text under the app name
-	state = "Game Starting..."
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Main Menu event
+	[[init.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is currently lazy"
-	#The seconds line of text under the app name
-	state = "Chilling in the menu"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	description = "%player% still on Main Menu"
+	#The second line of text under the app name
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Server List event
+	[[main_menu.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% is looking for a server"
 	#The second line of text under the app name
-	state = "Searching for friends"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Realms Screen event
+	[[server_list.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
-	state = "Browsing Realms"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Join Game Event
+	[[realms_list.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% is joining a game"
 	#The second line of text under the app name
-	state = "Joining Game"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Single Player Event
+	[[join_game.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "Currently on Sky"
 	#The second line of text under the app name
-	state = "Playing lonely mode"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Multi Player Event
+	[[single_player.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
 	description = "Playing on %servername% with %players% players"
 	#The second line of text under the app name
-	state = "Playing online"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#The Realms Game Event
+	[[multi_player.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
 	#The first line of text under the app name
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
-	state = "Playing on a Realm"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#Fallback event for disabled events
+	[[realms.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [generic]
 	#The first line of text under the app name
 	description = "Playing Minecraft"
 	#The second line of text under the app name
-	state = ""
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = "IronBerry Expert"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	#The buttons to display on Discord 
 
-#Custom Config Variables that you can use
+	[[generic.buttons]]
+		label = "IronBerry Expert"
+		url = "https://www.curseforge.com/minecraft/modpacks/ironberry-expert"
+
 [custom]
 	#Must these variables be parsed along with other variables
-	enabled = true
+	enabled = false
 	#Your custom variables to add
 	variables = []
 
-#Dimension Information Overrides
 [dimension_overrides]
-	#Allows you to override the displayed values for dimensions
 	enabled = false
-
-	#The Dimensions to override
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "overworld"
-		#The first line of text under the app name
-		description = "%player% is in The Overworld"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["overworld"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the Overworld"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
-		#The buttons to display on Discord
-		buttons = []
-
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_nether"
-		#The first line of text under the app name
-		description = "%player% is in The Nether"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["nether"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the Nether"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
-		#The buttons to display on Discord
-		buttons = []
-
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_end"
-		#The first line of text under the app name
-		description = "%player% is in The End"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["end"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "In the End"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["mclogo"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "%mods% mods installed"
-		#The buttons to display on Discord
-		buttons = []
+	dimensions = []
 

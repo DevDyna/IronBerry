@@ -25,4 +25,5 @@ StartupEvents.registry('block', event => {
 	.displayName('🔥Instability🔥')
 	.model('ironberry:block/instability')
 	.noDrops()
+	
 })

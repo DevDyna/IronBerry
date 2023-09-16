@@ -1,70 +1,65 @@
 {
-	id: "0D738C7FE5B35932"
-	group: "0E9BF077CBFE57D1"
-	order_index: 0
-	filename: "applied"
-	title: "Applied Energistics"
-	icon: "ae2:controller"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied"
+	group: "0E9BF077CBFE57D1"
+	icon: "ae2:controller"
+	id: "0D738C7FE5B35932"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "kubejs:textures/examples/ae2/channels.png"
+			rotation: 0.0d
+			width: 8.8060263653484d
 			x: 5.0d
 			y: -15.5d
-			width: 8.8060263653484d
-			height: 8.0d
-			rotation: 0.0d
-			image: "kubejs:textures/examples/ae2/channels.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "kubejs:textures/examples/ae2/peartopear.png"
+			rotation: 0.0d
+			width: 11.466882067851373d
 			x: 22.5d
 			y: -14.5d
-			width: 11.466882067851373d
-			height: 6.0d
-			rotation: 0.0d
-			image: "kubejs:textures/examples/ae2/peartopear.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "kubejs:textures/examples/ae2/peartopear_again.png"
+			rotation: 0.0d
+			width: 14.111292962356792d
 			x: 33.5d
 			y: -14.5d
-			width: 14.111292962356792d
-			height: 6.0d
-			rotation: 0.0d
-			image: "kubejs:textures/examples/ae2/peartopear_again.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.9397590361445782d
+			hover: [ ]
+			image: "kubejs:textures/examples/ae2/toomany.png"
+			rotation: 0.0d
+			width: 7.0d
 			x: 13.0d
 			y: -14.0d
-			width: 7.0d
-			height: 1.9397590361445782d
-			rotation: 0.0d
-			image: "kubejs:textures/examples/ae2/toomany.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 	]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "P2P - More way"
-			icon: "ae2:me_p2p_tunnel"
-			disable_toast: true
-			x: 28.0d
-			y: -11.0d
-			subtitle: "Main solution on big storage"
+			dependencies: ["0ADB5A7DCDFE2FA2"]
 			description: [
 				"P2P are a good way when you need to transfer stuff but on a single cable"
 				""
@@ -76,43 +71,41 @@
 				""
 				"Warning! P2P only work \"one to many\" not \"many to one\" so if you need to pick-up more inputs to import into another you need to use import/export with a storage bus (not work if you import and export without any storage bus)"
 			]
-			dependencies: ["0ADB5A7DCDFE2FA2"]
-			size: 2.0d
+			disable_toast: true
+			icon: "ae2:me_p2p_tunnel"
 			id: "615E33C74761E97D"
+			size: 2.0d
+			subtitle: "Main solution on big storage"
 			tasks: [{
 				id: "25327CDDE2444717"
 				type: "checkmark"
 			}]
+			title: "P2P - More way"
+			x: 28.0d
+			y: -11.0d
 		}
 		{
-			title: "Channels"
-			icon: "ae2:fluix_smart_cable"
-			disable_toast: true
-			x: 5.0d
-			y: -11.0d
-			subtitle: "Without controller are only 8 !"
+			dependencies: ["0ADB5A7DCDFE2FA2"]
 			description: [
 				"If you need more that only 7 *storage, on this image you can find the solution"
 				""
 				"Below there is a scheme that describe the logic of reading from networks"
 				"{@pagebreak}"
 			]
-			dependencies: ["0ADB5A7DCDFE2FA2"]
-			size: 2.0d
+			disable_toast: true
+			icon: "ae2:fluix_smart_cable"
 			id: "32A580A439BB6BCA"
+			size: 2.0d
+			subtitle: "Without controller are only 8 !"
 			tasks: [{
 				id: "179135D36A72BED0"
 				type: "checkmark"
 			}]
+			title: "Channels"
+			x: 5.0d
+			y: -11.0d
 		}
 		{
-			title: "Applied Energistics 2 - AE2"
-			icon: "ae2:charged_certus_quartz_crystal"
-			disable_toast: true
-			x: 16.0d
-			y: -11.0d
-			shape: "gear"
-			subtitle: "A network of networks , terminals , cells and more"
 			description: [
 				"All require energy [ RF/FE ] to work else all network doesn't work"
 				""
@@ -126,21 +119,30 @@
 				""
 				"If a cable become full of channels , you need to remove devices or move on other networks"
 			]
-			size: 2.0d
-			optional: true
-			invisible: true
+			disable_toast: true
+			icon: "ae2:charged_certus_quartz_crystal"
 			id: "0ADB5A7DCDFE2FA2"
-			tasks: [{
-				id: "1658CC230C0488A5"
-				type: "item"
-				item: "ae2:certus_quartz_crystal"
-			}]
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "2FD9C6C88C44E118"
-				type: "item"
 				item: "ae2:guide"
+				type: "item"
 			}]
+			secret: true
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A network of networks , terminals , cells and more"
+			tasks: [{
+				disable_toast: true
+				id: "1658CC230C0488A5"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Applied Energistics 2 - AE2"
+			x: 16.0d
+			y: -11.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Applied Energistics"
 }

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_directional",
+    "textures": {
+        "particle": "ironberry:block/berrygen/red",
+        "down": "ironberry:block/berrygen/violet",
+        "up": "ironberry:block/berrygen/purple",
+        "north": "ironberry:block/berrygen/red",
+        "east": "ironberry:block/berrygen/blue",
+        "south": "ironberry:block/berrygen/white",
+        "west": "ironberry:block/berrygen/iron"
+    }
+}

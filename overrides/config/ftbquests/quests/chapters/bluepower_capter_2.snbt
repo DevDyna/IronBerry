@@ -1,0 +1,818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bluepower_capter_2"
+	group: "0AB07CEFAAABA228"
+	icon: "bluepower:blue_alloy_ingot"
+	id: "578BA9E968E7B064"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "182E4121F73DB516"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:blocks/machines/alloyfurnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4B24A85196F52905"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:item/acid_bottle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "32619673FCC124C2"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:blocks/indigo_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "182E4121F73DB516"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "rootsclassic:items/sylvan_robe"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -12.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "58F795EFD59E0409"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/gui/elements/info_output.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.75d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "379F607A99F58C90"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:textures/items/bluestone_cathode_tile.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["568AF71C55EB2708"]
+			icon: "reactive:mind_bottle"
+			id: "6100D1B5545583E3"
+			rewards: [{
+				id: "35ADFE3C606F2D65"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "127776C083B1A2E3"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Magic/Mind Source"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["568AF71C55EB2708"]
+			icon: "reactive:light_bottle"
+			id: "29F14948C66CC37E"
+			rewards: [{
+				id: "1F2411AA570DC39B"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E6C3A76D6F7144D"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "Light Source"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"568AF71C55EB2708"
+				"4BC1FD1A50A9043B"
+			]
+			icon: "reactive:verdant_bottle"
+			id: "379F607A99F58C90"
+			invisible: true
+			rewards: [{
+				id: "0EEF7570B3020546"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BE749B232CA956C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tombstone:seeds"
+					}
+				}
+				title: "Any #tombstone:seeds"
+				type: "item"
+			}]
+			title: "Nature/Verdane Source"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2690AFB8D51B4350"]
+			description: ["Drop stuff on it convert water into \"stranger powers\""]
+			icon: "minecraft:brewing_stand"
+			id: "32619673FCC124C2"
+			rewards: [
+				{
+					id: "571C84BE9A43571A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "reactive:journal"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BAA68EDEF837E3"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Abra Cadabra"
+			tasks: [{
+				id: "53C234EAAF0588DC"
+				type: "checkmark"
+			}]
+			title: "Chemical Reaction #1"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["32619673FCC124C2"]
+			description: ["All power sources can be founded by searching on JEI with $source"]
+			id: "7142BA297B3B2BCB"
+			rewards: [{
+				id: "510C50C465739A05"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53F5D636DDC6E7CA"
+				type: "checkmark"
+			}]
+			title: "Tooltip"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3E23DA536435A586"]
+			description: ["Power can change items into others or create reactions with them and grow on your world , be careful"]
+			icon: "thermal:potion_amplifier_augment"
+			id: "568AF71C55EB2708"
+			rewards: [{
+				id: "27CCB64C705DF71E"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Bim Bum Bam"
+			tasks: [{
+				id: "4E5C74091C7E3BB5"
+				type: "checkmark"
+			}]
+			title: "Chemical Reaction #2"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32619673FCC124C2"]
+			description: [
+				"A simple example of how to use :"
+				"Step 1 : Place the crucible"
+				"Step 2 : Pickup a bucket (iron) of water and click on them"
+				"Step 3 : Drop some $source items (like redstone)"
+				""
+				"You have successful created a pool with a source"
+				""
+				"To use the source you need to drop on it the item to transmute"
+			]
+			icon: "reactive:mind_bottle"
+			id: "3E23DA536435A586"
+			rewards: [{
+				id: "65629E8C658A88AA"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4730E8734AEFDA4B"
+				type: "checkmark"
+			}]
+			title: "Magic Power!"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"66428E9F71ABAF8C"
+				"379F607A99F58C90"
+			]
+			icon: "reactive:acid_bottle"
+			id: "4B24A85196F52905"
+			invisible: true
+			rewards: [{
+				id: "4823FCFE41057CA6"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "373D790E67D487DC"
+				item: "bluepower:indigo_dye"
+				type: "item"
+			}]
+			title: "Acid/Caustic Source"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4B24A85196F52905"
+				"4B6FE1B6BB79056B"
+			]
+			icon: "reactive:body_bottle"
+			id: "182E4121F73DB516"
+			invisible: true
+			rewards: [{
+				id: "2E6CF39A36417FAF"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C71B443A1383765"
+					item: "bluepower:teslatite_dust"
+					type: "item"
+				}
+				{
+					id: "36B2C1F76554E195"
+					item: "bluepower:blue_alloy_ingot"
+					type: "item"
+				}
+			]
+			title: "Body/Stock Source"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4B24A85196F52905"
+				"6DCCBC7AE25353C3"
+			]
+			icon: "reactive:soul_bottle"
+			id: "4B6FE1B6BB79056B"
+			rewards: [{
+				id: "5DA39E05E9495233"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DCDB5A05F62901D"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			title: "Soul Source"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			id: "58F795EFD59E0409"
+			invisible: true
+			rewards: [
+				{
+					id: "04E4512D5C5888CE"
+					item: "bluepower:multimeter"
+					type: "item"
+				}
+				{
+					id: "2C1D533CD432B8EF"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Finally I can cook !"
+			tasks: [{
+				id: "2B2CFE73FF57D798"
+				item: "bluepower:blulectric_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"58F795EFD59E0409"
+				"6C79057BC3C2862B"
+			]
+			id: "399ADFBEADD73757"
+			rewards: [{
+				id: "170B0CE6318DDB39"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "No more fuel need !"
+			tasks: [{
+				id: "5CECC1BCFA31F986"
+				item: "bluepower:solar_panel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58F795EFD59E0409"]
+			id: "16A1F0591E87CDC6"
+			rewards: [{
+				id: "0DE68C3AC504D643"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Volts Transportation"
+			tasks: [{
+				id: "48C6DA287AAB6756"
+				item: "bluepower:blulectric_cable"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58F795EFD59E0409"]
+			id: "7A2E0BE6514D1954"
+			rewards: [{
+				id: "139BBB1C4B51022D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E550F686EC7DA7D"
+				item: "bluepower:blulectric_alloyfurnace"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"379F607A99F58C90"
+				"182E4121F73DB516"
+			]
+			icon: "minecraft:pointed_dripstone"
+			id: "168AA83F82F32990"
+			rewards: [{
+				id: "0493B1E4BA2074C4"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "620F546B0AF45EF6"
+				item: "minecraft:pointed_dripstone"
+				type: "item"
+			}]
+			title: "Matter from caves on sky?"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["15DE813782E5A124"]
+			id: "6C79057BC3C2862B"
+			rewards: [{
+				id: "65FF6EFC0B2B4CBD"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "593B17F80C6FDA91"
+				item: "bluepower:silicon_boule"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6C79057BC3C2862B"]
+			id: "47F363945E546C9C"
+			rewards: [{
+				id: "1AEC639BA68E605D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AAF0AE2AD6B7348"
+				item: "prettypipes:blank_module"
+				type: "item"
+			}]
+			title: "Modules"
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"47F363945E546C9C"
+				"4A12A2F18A469DC0"
+			]
+			description: ["Tip: when you need of something , if you can , automate now!"]
+			icon: "kubejs:blank"
+			id: "3F818FA3A0D9B316"
+			rewards: [{
+				id: "1888E0E5B6BD3532"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Item Logistics"
+			tasks: [
+				{
+					id: "0A6992419229A4C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:item_devices"
+						}
+					}
+					title: "Any #ironberry:item_devices"
+					type: "item"
+				}
+				{
+					id: "5F5A592385E59175"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:module"
+						}
+					}
+					title: "Any #ironberry:module"
+					type: "item"
+				}
+			]
+			title: "Now the fun start !"
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["32619673FCC124C2"]
+			description: ["Crucible support hopper and dispencer automation"]
+			id: "31F5E8B16F79A4C0"
+			rewards: [{
+				id: "6C2026A3A6A66043"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D4E8FFFCE89A9B3"
+				title: "Automaton"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6DCCBC7AE25353C3"]
+			id: "4D83A432C2E62030"
+			rewards: [{
+				id: "586879D84F472721"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46EF2E54D2B80EB3"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			id: "48DF9D86C7F8F9F7"
+			rewards: [{
+				id: "63CC55D3325E20E7"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FDDC1B5FDB65F5B"
+				item: "bluepower:teslatite_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["48DF9D86C7F8F9F7"]
+			id: "365357DAE11BCDDD"
+			rewards: [{
+				id: "78720F3A65F5C521"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5142580E3E4F5714"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["48DF9D86C7F8F9F7"]
+			id: "354AD43B8290DBB2"
+			optional: true
+			rewards: [{
+				id: "5D192C04547DA8DB"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Powerful rituals"
+			tasks: [{
+				id: "418B276385CB93BE"
+				item: "rootsclassic:attuned_standing_stone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			description: ["Right click with one of them on a crucible full of a source , you can store them and re-use when need"]
+			id: "0C41582D9B528820"
+			rewards: [{
+				id: "3A885EEA5E42BF49"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "reactive:quartz_bottle"
+				id: "0A7DB68643ED899E"
+				item: "reactive:quartz_bottle"
+				title: "Bottle of Source"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6100D1B5545583E3"]
+			id: "66428E9F71ABAF8C"
+			rewards: [{
+				id: "77C182F6EE98F628"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Accept any small_flowers but not all flowers!"
+			tasks: [{
+				id: "5F602849FEA723A4"
+				item: "bluepower:indigo_flower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["168AA83F82F32990"]
+			id: "15DE813782E5A124"
+			rewards: [{
+				id: "4499B032E9AD0143"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01888506EBEA3FFE"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["568AF71C55EB2708"]
+			icon: "reactive:warp_bottle"
+			id: "6945270274F113D6"
+			optional: true
+			rewards: [{
+				id: "162F16CCF2897795"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C37F883A13BC5AE"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Warp Source"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6945270274F113D6"]
+			id: "402E62814FB726A8"
+			rewards: [{
+				id: "09B4927929BE3AA7"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "See the manual"
+			tasks: [{
+				id: "0D6787CDCAC7E9E7"
+				item: "reactive:salt"
+				type: "item"
+			}]
+			title: "Waste Recycler"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29F14948C66CC37E"]
+			id: "6DCCBC7AE25353C3"
+			rewards: [{
+				id: "4C455342A4CD9F5D"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "110739DBDE1B6133"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DCCBC7AE25353C3"]
+			id: "76FD8211F70232CD"
+			rewards: [{
+				id: "4790903B102E56C8"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Fluid Logistics"
+			tasks: [{
+				id: "6457B6D4C6F233FB"
+				item: "thermal:fluid_cell_frame"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			id: "1520C94178BF9F61"
+			rewards: [{
+				id: "3EF6DE6EBA511A40"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4335D5A688870C7D"
+				item: "bluepower:infused_teslatite_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1520C94178BF9F61"]
+			icon: "thermal:energy_cell_frame"
+			id: "0E65FD4F5E076C3C"
+			rewards: [{
+				id: "73A0A9D7E78C7466"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Energy Logistics"
+			tasks: [{
+				id: "5A6FC7B418778D3F"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"47F363945E546C9C"
+				"0C41582D9B528820"
+			]
+			id: "4A12A2F18A469DC0"
+			rewards: [{
+				id: "413ABEC65A58E1F9"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77E450384ACD4519"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["365357DAE11BCDDD"]
+			icon: "minecraft:cobblestone"
+			id: "6240CC21E07DF06B"
+			rewards: [{
+				id: "134AEF3F597A575A"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2B8DD105E336C14B"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "4E71B671486B356A"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6240CC21E07DF06B"]
+			id: "2E2661A8A6FBCE3F"
+			tasks: [{
+				id: "30081427A1F98961"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["76FD8211F70232CD"]
+			id: "359DCED4D03B715D"
+			tasks: [{
+				id: "0CB587B04498097D"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Blue technology and Chemistry"]
+	title: "Age 2"
+}

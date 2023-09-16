@@ -1,0 +1,642 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_4"
+	group: "0AB07CEFAAABA228"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "18480D6C6EE13345"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "7122E2300227720D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/items/thread_bookwyrm.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ars_nouveau:blocks/warp_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "21D1AC62E75E02D0"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3A08B1886E919A64"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/green_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7122E2300227720D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/red_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1195D2548F5BCAED"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/gui/storage_tab2.png"
+			rotation: 0.0d
+			width: 1.15d
+			x: -14.95d
+			y: -6.8999999999999995d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1195D2548F5BCAED"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "twilightforest:block/rainbow_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: -14.9d
+			y: -6.9d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55D19E748CA9B615"]
+			id: "61144D1CC43E29F2"
+			subtitle: "Potion Mixer"
+			tasks: [{
+				id: "470E13B3822E6BFE"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5856ACD8338DB76C"
+				"3A08B1886E919A64"
+			]
+			id: "0AA9D57D86BE0AA2"
+			tasks: [{
+				id: "30E78A45F4ED453A"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7122E2300227720D"]
+			id: "58F0EB52C803B031"
+			subtitle: "Storage Sensor"
+			tasks: [{
+				id: "0F00EB329C1B7056"
+				item: "ars_nouveau:item_detector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5856ACD8338DB76C"]
+			id: "0F1025CAE768CED4"
+			tasks: [{
+				id: "18ED914EF4724BFD"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5856ACD8338DB76C"]
+			id: "7D862267974C6F95"
+			tasks: [{
+				id: "7847D1F8B8912C01"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:potion_flask_extend_time"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			title: "More Flasks"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55D19E748CA9B615"]
+			id: "167B6D1AAF2B1E81"
+			subtitle: "Potion Applier"
+			tasks: [{
+				id: "77FC4A0038DDE07F"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["589E1908B016B84F"]
+			id: "21D1AC62E75E02D0"
+			subtitle: "Mana generator"
+			tasks: [
+				{
+					id: "7DD411BE9A113EA2"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "3012AE81B10EC8AE"
+					item: "ars_nouveau:alchemical_sourcelink"
+					type: "item"
+				}
+				{
+					id: "16329A39B0EEB19F"
+					item: "ars_nouveau:mycelial_sourcelink"
+					type: "item"
+				}
+			]
+			title: "SourceLinks"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0AA9D57D86BE0AA2"
+				"5F47CC7E53EBC408"
+			]
+			id: "4C02393C5CA6E4C2"
+			tasks: [{
+				id: "6098A001207462DD"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["589E1908B016B84F"]
+			id: "3A08B1886E919A64"
+			tasks: [{
+				id: "5EA6795CDD527A73"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["589E1908B016B84F"]
+			id: "5856ACD8338DB76C"
+			tasks: [
+				{
+					id: "6C33722DCB9743ED"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "544E134C165C7AA7"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "211C80ABC2C7E819"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21D1AC62E75E02D0"]
+			id: "17611B82115E5E21"
+			subtitle: "Mana Storage"
+			tasks: [{
+				id: "466D10D2DA82E99C"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5856ACD8338DB76C"
+				"3A08B1886E919A64"
+			]
+			id: "5F47CC7E53EBC408"
+			tasks: [{
+				id: "07FA49473071900F"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C02393C5CA6E4C2"]
+			id: "74CF38E97F84FF97"
+			tasks: [{
+				id: "470D1A84470CF749"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2EF34AD3D05D4C30"]
+			id: "3D996AEBE2D15324"
+			tasks: [{
+				id: "138C8C37B79FE870"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3452FF2184AA39B2"
+				"578BA9E968E7B064"
+			]
+			id: "2EF34AD3D05D4C30"
+			tasks: [{
+				id: "2253F71D28E5659D"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C5F437EB0E170A4"]
+			description: ["Little squirrel that can harvest berries and transfert items"]
+			id: "277CB86B123E9B80"
+			tasks: [{
+				id: "7B6F3419FFAA13D1"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The cuttest hopper"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7122E2300227720D"]
+			id: "21DF2350DEA11ECE"
+			tasks: [{
+				id: "59BC75F5CA3BC5B4"
+				item: "ars_nouveau:repository"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23FF5767215D7F90"]
+			id: "32882D3801FEE679"
+			tasks: [{
+				id: "43140D3D2657121A"
+				item: "ars_nouveau:mob_jar"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17611B82115E5E21"
+				"514745AA0A403DD0"
+			]
+			id: "55D19E748CA9B615"
+			subtitle: "Potion Storage"
+			tasks: [{
+				id: "751D03D4C3C1CA99"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17611B82115E5E21"]
+			id: "2879FC0B65057008"
+			tasks: [{
+				id: "219AB03A361D9CBB"
+				item: "ars_nouveau:bucket_of_source"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5856ACD8338DB76C"]
+			id: "4EC78384B08F4D7F"
+			subtitle: "More lollipop"
+			tasks: [{
+				id: "312E1A1747CCC28E"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57D5E48E5EC2EFE0"]
+			id: "1C5F437EB0E170A4"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "This isn't Vault hunting!"
+			tasks: [
+				{
+					id: "41227C05FC011EB9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:gift_loot"
+						}
+					}
+					title: "Any #ironberry:gift_loot"
+					type: "item"
+				}
+				{
+					id: "35865788C1F4847B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:boss_loot"
+						}
+					}
+					title: "Any #ironberry:boss_loot"
+					type: "item"
+				}
+			]
+			title: "Treasure Hunting"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"57D5E48E5EC2EFE0"
+				"1C5F437EB0E170A4"
+			]
+			dependency_requirement: "all_started"
+			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
+			hide_dependency_lines: true
+			id: "642A560192E69BA9"
+			rewards: [{
+				id: "611BE2B73618B670"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "714A02955E6FF999"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1C5F437EB0E170A4"]
+			id: "589E1908B016B84F"
+			shape: "octagon"
+			tasks: [{
+				id: "7101DD79C6582B75"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "The gem of everything"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C5F437EB0E170A4"]
+			id: "7122E2300227720D"
+			tasks: [{
+				id: "7E8573C3D2DF406B"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4D2E8CFB00E7D02C"
+				"7122E2300227720D"
+			]
+			id: "2EEA85762E3ABE98"
+			tasks: [{
+				id: "5E3642A04C9DACAA"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			title: "Unique Storage"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["589E1908B016B84F"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "1195D2548F5BCAED"
+			shape: "diamond"
+			title: "Twilight Utility"
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5856ACD8338DB76C"
+				"17611B82115E5E21"
+			]
+			id: "23FF5767215D7F90"
+			subtitle: "More drops !"
+			tasks: [{
+				id: "48861FACBDE17F07"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+	]
+	title: "Age 4"
+}
