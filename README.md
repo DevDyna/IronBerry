@@ -1,77 +1,48 @@
 # IronBerry
+  
 
-___
+## Description:
 
- Description:
- 
- Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron berries you can obtain iron , iron to craft better machinery to process much better the iron berries and start "the chemistry" and on next ..... try now!
+ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron berries you can obtain iron , iron to craft better machinery to process much better the iron berries and start reactions and on next ..... try now!
 
- ___
+ 
 
- Main Feature:
+## Main Feature:
 
-- Craft the creative item to complete all modpack
+- Full overhaul of many vanilla content
 
--  Possibility to autocraft any items (required on progress)
+- Unique content : custom boss battle , custom resource gathering , custom rituals 
 
-- Custom resource "generator" without need to wait of growing stuff (like seeds , budding crystals , chickens or sieving)
+- Not a classic resource gathering like sieving !
 
-- Staged with ages of progression
+- Retro mods mixed with modern mods
 
- 
-___
- 
+- No monotone resource generators
 
- 
+- Information everywhere
 
- Feature Planned:
-
--  Quests [Still working]
-
--  Custom recipes [Still working]
-
--  Custom Events [Still working]
-
--  Shop Creative stuff [Still working]
-
--  Custom Data models [NYC]
-
--  Heavy custom ore processing [NYC]
-
--  Custom Main Menu [NYC]
-
- 
-Main Mods:
-
-Homespun
-
-Integrated Dynamics
-
-Reactive
-
-Pneumaticcraft
-
-Applied Energistics 2
-
-Thermal
-
-Corail Tombstone (not only for tombstone!)
-
- Hostile Neural Networks
-
-Gateway of Eternity
-
-Pedestals
-
-and more...
- 
-
- 
+- Custom recipe on world writed by zero
 
 
-___
- 
 
-Ispired from Project Isothermal and Techopolis
+## Feature on progress:
 
-Download available only on CurseForge : https://www.curseforge.com/minecraft/modpacks/ironberry-expert-skyblock
+- Stage 1 [END-BETA]
+
+- Stage 2 [END-BETA]
+
+- Stage 3 [BETA - coming soon]
+
+- Stage 4 [NYC]
+
+-  Stage 5 [NYC]
+
+
+
+## Feature Planned:
+
+- New logo [WIP]
+
+- Custom Description Page [NYC]
+
+- Custom Main Menu [NYC]
