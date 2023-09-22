@@ -1,1 +1,3 @@
 *.html linguist-detectable=false
+*.nbt linguist-detectable=true
+*.toml linguist-detectable=true
