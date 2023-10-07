@@ -2,49 +2,25 @@
 On github only experimental/dev release so can change after a few of days without release!
 
 
+## Description and various info
+See on Curseforge
 
-### Description:
-
- Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron berries you can obtain iron , iron to craft better machinery to process much better the iron berries and start reactions and on next ..... try now!
-
- 
-
-## Main Feature:
-
-- Full overhaul of many vanilla content
-
-- Unique content : custom boss battle , custom resource gathering , custom rituals 
-
-- Not a classic resource gathering like sieving !
-
-- Retro mods mixed with modern mods
-
-- No monotone resource generators
-
-- Information everywhere
-
-- Custom recipe on world writed by zero
-
-
-
-## Feature on progress:
-
-- Stage 1 [END-BETA]
-
-- Stage 2 [END-BETA]
-
-- Stage 3 [BETA - coming soon]
-
-- Stage 4 [NYC]
-
--  Stage 5 [NYC]
-
+### Age 1 
+    Homespun #1 , Bluepower #1 and ExoticBirds #1 , IronChest , SophisticatedStorage
+### Age 2
+    Bluepower #2 , Reactive #1 , RootsClassic #1 , Thermal #1 , PrettyPipes , Pedestals #1
+### Age 3
+    TombStone #1 , GatewayofEthernity #1 , AlchemyGadgetry #1 , ExoticBirds #2 , InventoryPets #1 , IntegratedDynamics #1
+### Age 4 [WIP]
+    ArsMagika #1 , NuclearCraft #1 , HostileNeuralNetworks #1 , SculkTransporting #1 , PneumaticCraft #1
+### Age 5 [NYC]
+    Thermal #2 , PneumaticCraft #2 
 
 
 ## Feature Planned:
 
-- New logo [WIP]
-
-- Custom Description Page [NYC]
-
-- Custom Main Menu [NYC]
+    New logo [WIP]
+    
+    Custom Universal Patchouli book [NYC]
+    
+    Custom Main Menu [WIP]
