@@ -1,5 +1,7 @@
 # IronBerry
   
+## RELEASE ONLY ON CURSEFORGE
+
 
 ## Description:
 
