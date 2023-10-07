@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": {
+				"min": 7,
+				"max": 21
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "inventorypets:nugget_emerald"
+				}
+			]
+		}
+	]
+}

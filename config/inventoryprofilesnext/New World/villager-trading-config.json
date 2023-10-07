@@ -1,0 +1,156 @@
+{
+    "globalBookmarks": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            },
+            {
+                "resultItem": "minecraft:stone_pickaxe",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    },
+    "localBookmarks": {
+        "3eda20f8-37f3-41a3-b446-717d18121b4e": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:iron_ingot"
+            }
+        ]
+    },
+    "globalBookmarks1": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            },
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:flint"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    },
+    "localBookmarks1": {
+        "3eda20f8-37f3-41a3-b446-717d18121b4e": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            },
+            {
+                "resultItem": "minecraft:bell",
+                "priceItem1": "minecraft:emerald"
+            }
+        ]
+    },
+    "globalBookmarks2": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            },
+            {
+                "resultItem": "minecraft:iron_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s}]}"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    },
+    "localBookmarks2": {
+        "3eda20f8-37f3-41a3-b446-717d18121b4e": [
+            {
+                "resultItem": "minecraft:emerald",
+                "priceItem1": "minecraft:diamond"
+            }
+        ]
+    }
+}

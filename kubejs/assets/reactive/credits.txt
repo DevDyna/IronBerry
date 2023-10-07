@@ -1,0 +1,2 @@
+Reactive Rubidium Compatibility Pack
+https://github.com/hjake123/reactive/blob/main/rubidium/reactive+rubidium.zip

@@ -1,0 +1,122 @@
+{
+    "globalBookmarks": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    },
+    "globalBookmarks1": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    },
+    "localBookmarks1": {
+        "3eda20f8-37f3-41a3-b446-717d18121b4e": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ]
+    },
+    "globalBookmarks2": {
+        "armorer": [
+        ],
+        "butcher": [
+        ],
+        "cartographer": [
+        ],
+        "cleric": [
+        ],
+        "farmer": [
+        ],
+        "fisherman": [
+        ],
+        "fletcher": [
+        ],
+        "leatherworker": [
+        ],
+        "librarian": [
+        ],
+        "mason": [
+        ],
+        "shepherd": [
+        ],
+        "toolsmith": [
+            {
+                "resultItem": "minecraft:stone_shovel",
+                "priceItem1": "minecraft:emerald",
+                "resultItemNBT": "{Damage:0}"
+            }
+        ],
+        "weaponsmith": [
+        ],
+        "nitwit": [
+        ],
+        "none": [
+        ]
+    }
+}
