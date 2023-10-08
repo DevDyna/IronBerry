@@ -22,123 +22,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -12.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -13.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -14.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -14.0d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -14.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -13.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -12.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -12.0d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "589E1908B016B84F"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "ars_nouveau:blocks/warp_portal"
-			rotation: 0.0d
-			width: 1.25d
-			x: -13.0d
-			y: -6.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "21D1AC62E75E02D0"
 			dev: false
 			height: 1.0d
@@ -265,8 +148,8 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
@@ -617,10 +500,10 @@
 			dependencies: ["589E1908B016B84F"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "1195D2548F5BCAED"
-			shape: "diamond"
+			shape: "square"
 			title: "Twilight Utility"
-			x: -13.0d
-			y: -6.0d
+			x: -14.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
