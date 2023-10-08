@@ -2,45 +2,12 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
+				"min": 1,
 				"max": 6
 			},
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "ars_nouveau:greater_experience_gem",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 4,
-								"max": 8
-							},
-							"add": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "ars_nouveau:experience_gem",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 8,
-								"max": 32
-							},
-							"add": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
 					"name": "reactive:stardust",
 					"functions": [
 						{
@@ -48,51 +15,253 @@
 							"count": {
 								"min": 1,
 								"max": 16
-							},
-							"add": true
+							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"name": "twilightforest:borer_essence",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "kubejs:topaz",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "kubejs:jade",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "kubejs:iolite",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "kubejs:aquamarine",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 16
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 24,
+				"max": 64
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ars_nouveau:starby_gift"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "ars_nouveau:experience_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "ars_nouveau:greater_experience_gem"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 4,
+				"max": 24
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:knightmetal_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:steeleaf_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:ironwood_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:fiery_ingot"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "quark:white_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:orange_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:magenta_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:light_blue_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:yellow_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:lime_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:pink_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:gray_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:light_gray_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:black_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:red_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:green_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:brown_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:blue_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:purple_rune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "quark:cyan_rune"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
 					"name": "tombstone:soul_receptacle",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
-							},
-							"add": true
+								"max": 6
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "exoticbirds:phoenix_egg"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "ars_nouveau:starby_gift",
+					"name": "ars_nouveau:bookwyrm_charm",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 8
-							},
-							"add": true
+								"min": 1,
+								"max": 4
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"name": "ars_nouveau:bookwyrm_charm"
+					"name": "thermaloot:variable_capacitor",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "exoticbirds:phoenix_egg",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						}
+					]
 				}
 			]
 		}
