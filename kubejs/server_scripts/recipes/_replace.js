@@ -116,4 +116,8 @@ event.replaceInput({output:'ars_nouveau:source_berry_pie'},'minecraft:egg','#roo
 event.replaceInput({output:'ars_nouveau:scryers_crystal'},'minecraft:ender_eye','minecraft:fermented_spider_eye')
 
 event.replaceInput({output:'ars_nouveau:enchanting_apparatus'},'minecraft:diamond','reactive:stardust')
+
+event.replaceInput({output:'minecraft:jukebox'},'minecraft:diamond','#minecraft:music_discs')
+
+
 })
