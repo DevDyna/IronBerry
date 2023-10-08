@@ -106,4 +106,9 @@ StartupEvents.registry('item', event => {
 	.texture('ironberry:item/processor')
 	.displayName('Menril MicroProcessor Chip')
 	
+		event.create('ritual_tablet')
+    .texture('ironberry:item/ritual_tablet')
+	.displayName(' Empty Ritual Tablet')
+	
+	
 })
