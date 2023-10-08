@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
             'thermal:machine_centrifuge',
         ],
         ['thermal:machine_frame', '#thermal:machines'])
-    //thermal devices
+    //item devices
     scut([
             'thermal:device_fisher',
             'thermal:device_soil_infuser',
@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
         ],
         ['tombstone:dark_marble', '#tombstone:decorative_graves', ])
 
-    //TE fluid frame
+    //fluid devices
     scut([
             'thermal:fluid_duct',
             'thermal:fluid_duct_windowed',
@@ -117,9 +117,10 @@ ServerEvents.recipes(event => {
             'thermal:fluid_cell',
             'thermal:device_hive_extractor',
             'thermal:device_tree_extractor',
+			'thermal:device_xp_condenser',
         ],
         ['thermal:fluid_cell_frame', '#ironberry:fluid_devices', ])
-    //TE energy frame
+    //energy devices
     scut([
             'thermal:charge_bench',
             'thermal:tinker_bench',
@@ -162,6 +163,7 @@ ServerEvents.recipes(event => {
             'minecraft:birch_sapling',
             'minecraft:spruce_sapling',
             'minecraft:oak_sapling',
+			'thermal:rubberwood_sapling',
         ], ['#minecraft:saplings'])
 
 //controller to link

@@ -175,7 +175,7 @@ ServerEvents.tags('item', event => {
 	'ars_nouveau:glyph_cold_snap', 'ars_nouveau:glyph_summon_decoy', 'ars_nouveau:glyph_projectile', 'ars_nouveau:glyph_infuse', 'ars_nouveau:glyph_hex', 'ars_nouveau:glyph_underfoot', 'ars_nouveau:glyph_linger', 'ars_nouveau:glyph_light', 'ars_nouveau:glyph_dispel', 'ars_nouveau:glyph_delay', 'ars_nouveau:glyph_extract', 'ars_nouveau:glyph_slowfall', 'ars_nouveau:glyph_pierce', 'ars_nouveau:glyph_pull', 'ars_nouveau:glyph_sense_magic', 'ars_nouveau:glyph_wind_shear', 'ars_nouveau:glyph_craft', 'ars_nouveau:glyph_explosion', 'ars_nouveau:glyph_flare', 'ars_nouveau:glyph_rune', 'ars_nouveau:glyph_summon_undead', 'ars_nouveau:glyph_break', 'ars_nouveau:glyph_accelerate', 'ars_nouveau:glyph_orbit', 'ars_nouveau:glyph_extend_time', 'ars_nouveau:glyph_decelerate', 'ars_nouveau:glyph_aoe', 'ars_nouveau:burst', 'ars_nouveau:glyph_self', 'ars_nouveau:glyph_summon_vex', 'ars_nouveau:glyph_summon_steed', 'ars_nouveau:glyph_wall', 'ars_nouveau:glyph_freeze', 'ars_nouveau:glyph_gust', 'ars_nouveau:glyph_harvest', 'ars_nouveau:glyph_place_block',
 	'ars_nouveau:glyph_interact', 'ars_nouveau:glyph_ender_inventory', 'ars_nouveau:glyph_intangible', 'ars_nouveau:glyph_duration_down', 'ars_nouveau:glyph_redstone_signal', 'ars_nouveau:glyph_sensitive', 'ars_nouveau:glyph_fell', 'ars_nouveau:glyph_exchange', 'ars_nouveau:glyph_fangs', 'ars_nouveau:glyph_leap', 'ars_nouveau:glyph_glide', 'ars_nouveau:glyph_heal', 'ars_nouveau:glyph_bounce', 'ars_nouveau:glyph_amplify', 'ars_nouveau:glyph_harm', 'ars_nouveau:glyph_ignite', 'ars_nouveau:glyph_animate_block', 'ars_nouveau:glyph_blink', 'ars_nouveau:glyph_rotate', 'ars_nouveau:glyph_launch', 'ars_nouveau:glyph_smelt', 'ars_nouveau:glyph_pickup', 'ars_nouveau:glyph_lightning', 'ars_nouveau:glyph_conjure_water', 'ars_nouveau:glyph_touch', 'ars_nouveau:glyph_evaporate', 'ars_nouveau:glyph_crush', 'ars_nouveau:glyph_snare', 'ars_nouveau:glyph_split', 'ars_nouveau:glyph_firework', 'ars_nouveau:glyph_gravity', 'ars_nouveau:glyph_dampen', 'ars_nouveau:glyph_name', 'ars_nouveau:glyph_summon_wolves', 'ars_nouveau:glyph_grow', 'ars_nouveau:glyph_cut',
 	'ars_nouveau:void_prism', 'ars_nouveau:rotating_spell_turret', 'ars_nouveau:magelight_torch', 'ars_nouveau:sky_block', 'ars_nouveau:glyph_invisibility', 'ars_nouveau:glyph_phantom_block', 'ars_nouveau:glyph_fortune', 'ars_nouveau:glyph_wither', 'ars_nouveau:glyph_toss', 'ars_nouveau:ring_of_greater_discount', 'ars_nouveau:spell_parchment', 'ars_nouveau:amulet_of_mana_boost', 'ars_nouveau:amulet_of_mana_regen', 'ars_nouveau:dull_trinket', 'ars_nouveau:whirlisprig_charm', 'ars_nouveau:wand', 'ars_nouveau:wixie_charm', 'ars_nouveau:caster_tome', 'ars_nouveau:wilden_tribute', 'ars_nouveau:summon_focus', 'ars_nouveau:enchanters_mirror', 'ars_nouveau:shapers_focus', 'ars_nouveau:amethyst_golem_charm', 'ars_nouveau:annotated_codex', 'ars_nouveau:enchanters_eye', 'ars_nouveau:mage_block', 'ars_nouveau:wixie_cauldron', 'ars_nouveau:creative_source_jar', 'ars_nouveau:sconce', 'ars_nouveau:timer_spell_turret', 'ars_nouveau:basic_spell_turret', 'ars_nouveau:spell_turret', 'ars_nouveau:archwood_chest', 'ars_nouveau:spell_prism', 'ars_nouveau:whirlisprig_flower', 'ars_nouveau:alteration_table',
-	'ars_nouveau:thread_kindling', 'ars_nouveau:thread_wixie', 'ars_nouveau:thread_repairing', 'ars_nouveau:novice_spell_book', 'ars_nouveau:apprentice_spell_book', 'ars_nouveau:archmage_spell_book', 'ars_nouveau:creative_spell_book', 'ars_nouveau:ring_of_potential', 'ars_nouveau:ring_of_lesser_discount', 'ars_nouveau:spell_bow', 'ars_nouveau:amplify_arrow', 'ars_nouveau:spell_crossbow', 'ars_nouveau:pierce_arrow', 'ars_nouveau:familiar_amethyst_golem', 'ars_nouveau:familiar_bookwyrm', 'ars_nouveau:familiar_drygmy', 'ars_nouveau:familiar_whirlisprig', 'ars_nouveau:familiar_wixie', 'ars_nouveau:familiar_starbuncle', 'ars_nouveau:thread_warding', 'ars_nouveau:thread_feather', 'ars_nouveau:thread_undying', 'ars_nouveau:thread_chilling', 'ars_nouveau:thread_starbuncle', 'ars_nouveau:thread_life_drain', 'ars_nouveau:thread_spellpower', 'ars_nouveau:thread_drygmy', 'ars_nouveau:thread_whirlisprig', 'ars_nouveau:thread_heights', 'ars_nouveau:thread_depths', 'ars_nouveau:blank_thread', 'ars_nouveau:thread_gliding', 'ars_nouveau:thread_magic_capacity',
+	'ars_nouveau:thread_kindling', 'ars_nouveau:thread_wixie', 'ars_nouveau:thread_repairing', 'ars_nouveau:novice_spell_book', 'ars_nouveau:apprentice_spell_book', 'ars_nouveau:archmage_spell_book', 'ars_nouveau:creative_spell_book', 'ars_nouveau:ring_of_potential', 'ars_nouveau:ring_of_lesser_discount', 'ars_nouveau:spell_bow', 'ars_nouveau:spell_crossbow', 'ars_nouveau:familiar_amethyst_golem', 'ars_nouveau:familiar_bookwyrm', 'ars_nouveau:familiar_drygmy', 'ars_nouveau:familiar_whirlisprig', 'ars_nouveau:familiar_wixie', 'ars_nouveau:familiar_starbuncle', 'ars_nouveau:thread_warding', 'ars_nouveau:thread_feather', 'ars_nouveau:thread_undying', 'ars_nouveau:thread_chilling', 'ars_nouveau:thread_starbuncle', 'ars_nouveau:thread_life_drain', 'ars_nouveau:thread_spellpower', 'ars_nouveau:thread_drygmy', 'ars_nouveau:thread_whirlisprig', 'ars_nouveau:thread_heights', 'ars_nouveau:thread_depths', 'ars_nouveau:blank_thread', 'ars_nouveau:thread_gliding', 'ars_nouveau:thread_magic_capacity',
 	
 	'ars_nouveau:ghostweave', 'ars_nouveau:falseweave', 'ars_nouveau:mirrorweave', 'ars_nouveau:magebloom_block',
 	'ars_nouveau:vitalic_sourcelink',
@@ -610,6 +610,7 @@ ServerEvents.tags('item', event => {
             'thermal:fluid_cell',
             'thermal:device_hive_extractor',
             'thermal:device_tree_extractor',
+			'thermal:device_xp_condenser',
         ])
 
     event.add('ironberry:energy_devices', [
@@ -745,6 +746,8 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:source_berry',
             'ars_nouveau:split_arrow',
             'ars_nouveau:source_gem',
+			'ars_nouveau:pierce_arrow',
+			'ars_nouveau:amplify_arrow',
         ])
 
     event.add('ironberry:boss_loot', [
@@ -847,6 +850,10 @@ ServerEvents.tags('item', event => {
 	'inventorypets:pet_creeper',
 	'inventorypets:pet_pacman',
 	])
+	
+	
+	
+	event.add('ironberry:ars_arrows',['ars_nouveau:pierce_arrow', 'ars_nouveau:split_arrow', 'ars_nouveau:amplify_arrow'])
 	
 	
 	
