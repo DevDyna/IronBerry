@@ -106,4 +106,8 @@ ServerEvents.recipes(event => {
 	[2,1,1],
 	'ars_nouveau:dominion_wand',1)
 
+	alloy(['#ironberry:ritual_tablets'],[1],'kubejs:ritual_tablet',1)
+
+	alloy(['#ironberry:ars_arrows'],[1],'minecraft:arrow',16)
+
 })
