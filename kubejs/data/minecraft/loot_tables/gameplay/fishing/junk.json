@@ -56,6 +56,11 @@
           "name": "kubejs:soul",
           "weight": 10
         },
+		{
+          "type": "minecraft:item",
+          "name": "froglins:froglin_egg",
+          "weight": 10
+        },
         {
           "type": "minecraft:item",
           "functions": [
