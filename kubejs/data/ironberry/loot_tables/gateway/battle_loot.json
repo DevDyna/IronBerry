@@ -251,7 +251,129 @@
 							"condition": "minecraft:random_chance",
 							"chance": 0.25
 						}
-					]
+					],
+					"functions":[
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"BaseMod": {
+        "min": 0,
+        "max": 3
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.2}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"RFMax": {
+        "min": 2,
+        "max": 8
+      }},
+      "RFXfer": {
+        "min": 2,
+        "max": 8
+      },
+      "conditions": [{"condition": "random_chance", "chance": 0.3}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"FluidMax": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.25}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"Radius": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {
+        "CycProc": 1
+      },
+      "conditions": [{"condition": "random_chance", "chance": 0.05}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {
+        "SecNull": 1
+      },
+      "conditions": [{"condition": "random_chance", "chance": 0.05}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {
+        "XpStr": 1
+      },
+      "conditions": [{"condition": "random_chance", "chance": 0.05}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"PotionAmp": {
+        "min": 2,
+        "max": 8
+      },
+      "PotionDur":  {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineMin": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.03}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachinePri": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineSec": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineCat": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineEnergy": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.4}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachinePower": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.4}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineSpeed": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.3}]
+    },
+    { "function": "thermaloot:apply_augment_data",
+      "augments": {"MachineXp": {
+        "min": 2,
+        "max": 8
+      }},
+      "conditions": [{"condition": "random_chance", "chance": 0.1}]
+    },
+    {
+      "function": "thermaloot:name"
+    }
+  ]
 				},
 				{
 					"type": "minecraft:item",
