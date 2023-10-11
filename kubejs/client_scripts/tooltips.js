@@ -87,7 +87,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
     tipplusplus('alchemygadgetry:potion_slingshot', '§aClick §f, §4Boing §f, §dEffect!')
     tipplusplus('#ironberry:gift_loot', '§eObtained by open a §6Starbuncle Gift')
-    tipplusplus('#ironberry:boss_loot', '§cAlso can be obtained by defeating the §4Gateway of Wardens')
+    tipplusplus('#ironberry:boss_loot', '§cAlso can be obtained by defeating the §4Gateway of Bosses')
     tipplusplus('exoticbirds:nest', 'Place and wait until a §6egg §fspawn')
     tipplusplus('exoticbirds:egg_identifier', 'Using §credstone §fcan identify if mysterious eggs can be bird eggs')
     tipplusplus('exoticbirds:egg_incubator', '§aIncrease chance §fof success to spawn a §bbird §fwhen launched a egg')
@@ -101,6 +101,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:disabled', 'IronBerry : §cItem Disabled')
     tipplusplus('#ironberry:hide', 'IronBerry : §cItem Hidden')
     tipplusplus('farmersdelight:cutting_board', 'Can be automated using a §7Deployer')
+	tipplusplus('#ironberry:boss_drop','§cAlso can be obtained by killing mobs from the §4Gateway of Bosses')
+	tipplusplus('luggage:luggage','A cute chest pet')
 })
 
 /*
