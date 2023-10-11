@@ -629,7 +629,6 @@ ServerEvents.tags('item', event => {
             'ae2:network_tool',
             'essentials:wrench',
             'integrateddynamics:wrench',
-            'laserio:laser_wrench',
             'pipez:wrench',
             'pneumaticcraft:pneumatic_wrench',
             'cyclic:cable_wrench',
@@ -685,6 +684,7 @@ ServerEvents.tags('item', event => {
             'kubejs:soul',
 			'minecraft:saddle',
 			'minecraft:leather_boots',
+			'froglins:froglin_egg',
         ])
 
     event.add('ironberry:white_stones', [
@@ -758,6 +758,17 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:greater_experience_gem',
             'ars_nouveau:experience_gem',
             'ars_nouveau:bookwyrm_charm',
+			'#quark:runes',
+			'twilightforest:steeleaf_ingot', 
+			'twilightforest:fiery_ingot', 
+			'kubejs:iolite', 
+			'kubejs:aquamarine', 
+			'kubejs:jade', 
+			'twilightforest:borer_essence', 
+			'kubejs:topaz', 
+			'thermaloot:variable_capacitor', 
+			'twilightforest:ironwood_ingot', 
+			'twilightforest:knightmetal_ingot',
         ])
 
 	event.add('ironberry:indigo_flowers',[
@@ -855,6 +866,11 @@ ServerEvents.tags('item', event => {
 	
 	event.add('ironberry:ars_arrows',['ars_nouveau:pierce_arrow', 'ars_nouveau:split_arrow', 'ars_nouveau:amplify_arrow'])
 	
+	
+	event.add('ironberry:boss_drop',[
+	
+	'minecraft:spider_eye', 'minecraft:string', 'minecraft:ender_pearl', 'twilightforest:minoshroom_trophy', 'minecraft:coal', 'minecraft:bone', 'twilightforest:arctic_fur', 'twilightforest:towerwood', 'thermal:blizz_rod', 'thermal:blitz_rod', 'minecraft:blaze_rod', 'thermal:basalz_rod', 'twilightforest:knight_phantom_trophy', 'minecraft:wheat', 'minecraft:gold_nugget', 'twilightforest:torchberries', 'twilightforest:lich_trophy', 'minecraft:iron_ingot', 'minecraft:snowball', 'quark:soul_bead', 'minecraft:arrow', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', 'ars_nouveau:wilden_horn', 'twilightforest:armor_shard', 'minecraft:paper', 'twilightforest:magic_map_focus', 'minecraft:book', 'minecraft:glowstone_dust', 'twilightforest:raw_meef', 'twilightforest:maze_map_focus', 'minecraft:leather', 'twilightforest:meef_stroganoff',
+	])
 	
 	
 	
