@@ -165,175 +165,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "ftbchunks:textures/faces/minecraft/warden.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -9.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: -12.0d
-			y: -13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: -17.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
-			y: -20.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.0d
-			y: -15.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_vein"
-			rotation: 0.0d
-			width: 1.0d
-			x: 12.0d
-			y: -2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_sensor_tendril_inactive"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: -15.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_sensor_tendril_inactive"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_sensor_tendril_inactive"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.0d
-			y: -10.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "7F0F2D13448390AF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:block/sculk_sensor_tendril_inactive"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: -16.5d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "12A99E6FC80CE5A9"
 			dev: false
 			height: 3.0d
@@ -343,6 +174,46 @@
 			width: 3.0d
 			x: 19.0d
 			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "126DB54048F2A068"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/uncrafting_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2CDD39A4497DE414"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "twilightforest:block/rainbow_oak_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2CDD39A4497DE414"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/gui/storage_tab2.png"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: -4.0d
 		}
 	]
 	order_index: 2
@@ -359,11 +230,6 @@
 				"Jump on top and after pressed use a button to reset"
 			]
 			id: "376A598686CD7197"
-			rewards: [{
-				id: "478C2B7231572C46"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			shape: "hexagon"
 			subtitle: "Squeezer 1 -> 19..27 tiny\\n Basin 1 -> 28..30 tiny"
 			tasks: [
@@ -396,11 +262,6 @@
 		{
 			dependencies: ["182E4121F73DB516"]
 			id: "25DADB6F081F6920"
-			rewards: [{
-				id: "284F52903C211925"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7EEAC23D6D1EFE89"
 				item: "bluepower:purple_alloy_ingot"
@@ -437,11 +298,6 @@
 		{
 			dependencies: ["3F818FA3A0D9B316"]
 			id: "70CEF7D9F2C579E0"
-			rewards: [{
-				id: "783B5F9A8D0C1716"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
 			subtitle: "All in one"
 			tasks: [{
 				id: "4C343F620BB9B6F2"
@@ -1942,11 +1798,9 @@
 			dependencies: [
 				"0E6D91BEA58EF2B0"
 				"4D2E8CFB00E7D02C"
-				"6DA70AC867C01085"
+				"01E815BCB8D09A12"
 			]
 			description: ["To beat all mobs you need to use your best strategy and the most powerful thing available at now by Tombstone"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			icon: {
 				Count: 1b
 				id: "hostilenetworks:data_model"
@@ -1960,9 +1814,15 @@
 			shape: "square"
 			subtitle: "One of most dangerous Boss Battle"
 			tasks: [{
-				id: "7E7A6E509D6737E3"
-				title: "Hordes of mobs want kill you , you are read?"
-				type: "checkmark"
+				id: "6AA06C38B0E2659B"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:battle_gate_large"
+					}
+				}
+				type: "item"
 			}]
 			title: "The Final countdown"
 			x: 4.5d
@@ -2275,6 +2135,56 @@
 			}]
 			x: 7.0d
 			y: -10.0d
+		}
+		{
+			id: "01E815BCB8D09A12"
+			tasks: [{
+				id: "66C3417E3F3AAA09"
+				item: {
+					Count: 1b
+					id: "rootsclassic:altar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F0F2D13448390AF"]
+			id: "2CDD39A4497DE414"
+			shape: "square"
+			tasks: [{
+				id: "383617F08AC5BCB3"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_portal_miniature_structure"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Much better that at home"
+			x: 2.9d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F0F2D13448390AF"]
+			dependency_requirement: "all_started"
+			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
+			id: "642A560192E69BA9"
+			rewards: [{
+				id: "611BE2B73618B670"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "714A02955E6FF999"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]

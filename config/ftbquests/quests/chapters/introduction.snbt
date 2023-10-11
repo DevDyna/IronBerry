@@ -373,6 +373,19 @@
 			x: -9.0d
 			y: -4.9d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "58B49792D4827F5F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "gateways:item/gate_pearl_med"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -9.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

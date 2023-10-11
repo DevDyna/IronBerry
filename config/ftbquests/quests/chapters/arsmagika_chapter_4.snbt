@@ -71,33 +71,6 @@
 			x: -10.0d
 			y: -8.0d
 		}
-		{
-			click: ""
-			corner: false
-			dependency: "1195D2548F5BCAED"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ars_nouveau:textures/gui/storage_tab2.png"
-			rotation: 0.0d
-			width: 1.15d
-			x: -14.95d
-			y: -6.8999999999999995d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "1195D2548F5BCAED"
-			dev: false
-			height: 0.75d
-			hover: [ ]
-			image: "twilightforest:block/rainbow_oak_sapling"
-			order: 1
-			rotation: 0.0d
-			width: 0.75d
-			x: -14.9d
-			y: -6.9d
-		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -430,31 +403,21 @@
 					title: "Any #ironberry:boss_loot"
 					type: "item"
 				}
+				{
+					id: "2862A226CB29BD75"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:boss_drop"
+						}
+					}
+					title: "Any #ironberry:boss_drop"
+					type: "item"
+				}
 			]
 			title: "Treasure Hunting"
 			x: -6.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"57D5E48E5EC2EFE0"
-				"1C5F437EB0E170A4"
-			]
-			dependency_requirement: "all_started"
-			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
-			hide_dependency_lines: true
-			id: "642A560192E69BA9"
-			rewards: [{
-				id: "611BE2B73618B670"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "714A02955E6FF999"
-				item: "minecraft:sculk_catalyst"
-				type: "item"
-			}]
-			x: -8.0d
 			y: -8.0d
 		}
 		{
@@ -497,15 +460,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["589E1908B016B84F"]
-			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "1195D2548F5BCAED"
-			shape: "square"
-			title: "Twilight Utility"
-			x: -14.0d
-			y: -7.0d
-		}
-		{
 			dependencies: [
 				"5856ACD8338DB76C"
 				"17611B82115E5E21"
@@ -519,6 +473,34 @@
 			}]
 			x: -9.0d
 			y: -1.0d
+		}
+		{
+			id: "42AA46B26C7E74DC"
+			tasks: [{
+				id: "4791E2960F21943A"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:fission_reactor_controller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "087A5EF088DDED0E"
+			tasks: [{
+				id: "048269CE1B19903E"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:assembler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
 		}
 	]
 	title: "Age 4"
