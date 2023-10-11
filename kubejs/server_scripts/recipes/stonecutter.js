@@ -139,7 +139,6 @@ ServerEvents.recipes(event => {
             'ae2:network_tool',
             'essentials:wrench',
             'integrateddynamics:wrench',
-            'laserio:laser_wrench',
             'pipez:wrench',
             'pneumaticcraft:pneumatic_wrench',
             'cyclic:cable_wrench',
@@ -213,5 +212,8 @@ scut([
 ],['#ironberry:pets','exoticbirds:phoenix_egg'])
 
 
+
+
+scut(['luggage:luggage'],['#ironberry:storage_box'])
 
 })
