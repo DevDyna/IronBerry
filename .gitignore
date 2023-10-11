@@ -144,3 +144,5 @@ defaultconfigs/ftbchunks/ftbchunks-world.snbt
 defaultconfigs/ftbessentials-server.snbt
 defaultconfigs/ftbultimine/ftbultimine-client.snbt
 defaultconfigs/ftbultimine/ftbultimine-server.snbt
+config/jetboots-server.toml
+config/jetboots-client.toml
