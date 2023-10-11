@@ -34,7 +34,6 @@ config/classicbar-client.toml
 defaultconfigs/ftbchunks/client-config.snbt
 defaultconfigs/ceramicbucket-server.toml
 config/twerk-config.toml
-config/clienttweaks-common.toml
 config/cofh_core-client.toml
 config/commoncapabilities-common.toml
 config/cofh_core-common.toml
@@ -108,7 +107,6 @@ config/merequester-common.toml
 config/mcpitanlibarch/blacklist.json
 config/NoChatReports/README.md
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
-config/MouseTweaks.cfg
 config/nuclearcraft-common.toml
 config/pedestals-common.toml
 config/pneumaticcraft-common.toml
