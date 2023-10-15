@@ -146,3 +146,12 @@ defaultconfigs/ftbultimine/ftbultimine-client.snbt
 defaultconfigs/ftbultimine/ftbultimine-server.snbt
 config/jetboots-server.toml
 config/jetboots-client.toml
+config/Mekanism/client.toml
+config/Mekanism/common.toml
+config/Mekanism/gear.toml
+config/Mekanism/general.toml
+config/Mekanism/machine-storage.toml
+config/Mekanism/machine-usage.toml
+config/Mekanism/tiers.toml
+config/Mekanism/world.toml
+config/skyblockbuilder/common-config.json5
