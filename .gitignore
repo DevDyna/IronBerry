@@ -155,3 +155,6 @@ config/Mekanism/machine-usage.toml
 config/Mekanism/tiers.toml
 config/Mekanism/world.toml
 config/skyblockbuilder/common-config.json5
+config/Mekanism/generators.toml
+config/Mekanism/generators-gear.toml
+config/Mekanism/generator-storage.toml
