@@ -3,7 +3,7 @@ ItemEvents.tooltip(event => {
 
     function tipplusplus(id, desc) {
         event.addAdvanced(id, (item, advanced, text) => {
-
+			try{
             for (let i = 1; i < 10; i++) {
                 if (text.get(i) != null) {
                     if (!event.isShift()) {
@@ -15,6 +15,9 @@ ItemEvents.tooltip(event => {
                     }
                 }
             }
+			}catch(error){}
+			
+			
         })
     }
 
