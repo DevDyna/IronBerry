@@ -107,7 +107,6 @@ config/merequester-common.toml
 config/mcpitanlibarch/blacklist.json
 config/NoChatReports/README.md
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
-config/nuclearcraft-common.toml
 config/pedestals-common.toml
 config/pneumaticcraft-common.toml
 config/jade/jade.json
