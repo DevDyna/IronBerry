@@ -77,6 +77,11 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+	'pipez:item_pipe', 
+	'pipez:energy_pipe', 
+	'pipez:gas_pipe', 
+	'pipez:fluid_pipe', 
+	'pipez:universal_pipe',
 			'jetboots:armor_core', 
 			'ars_nouveau:jump_ring', 
 			'jetboots:rocket_boots', 
@@ -173,7 +178,7 @@ ServerEvents.tags('item', event => {
     //JEI hide , recipe any side removed
     event.add('ironberry:disabled', [
 			'jetboots:engine_upgrade', 'jetboots:muffled_upgrade', 'jetboots:underwater_upgrade', 'jetboots:thruster_upgrade', 'jetboots:jetboots', 'jetboots:guardian_pants', 'jetboots:guardian_helmet', 'jetboots:guardian_jacket',
-	
+			'pipez:improved_upgrade', 'pipez:advanced_upgrade', 'pipez:ultimate_upgrade', 'pipez:infinity_upgrade',
 	
 	
             'ars_nouveau:scribes_table',
