@@ -40,10 +40,10 @@ function ItemOrTagAndCount(value, count) {
     }
 }
 //json creator
-function JsonMakeItem(value){
-	return {
-		"item":value
-	}
+function JsonMakeItem(value) {
+    return {
+        "item": value
+    }
 }
 //cut all except the string between the walls and return
 function doublewall(string, start, end) {
@@ -118,10 +118,18 @@ function roll_time(chance) { // more = common | less = rare
 }
 
 function RegX(string, replace) {
-    if (typeof optionalValue != 'undefined') {		//if replace still defined
+    if (typeof optionalValue != 'undefined') { //if replace still defined
         return string.replace(/[^a-zA-Z0-9_ ]/g, replace)
     } else {
         return string.replace(/[^a-zA-Z0-9_ ]/g, '')
     }
 
+}
+//rnd bool again
+function rnd_booldozer(min, max) {
+    if (rnd(min, max) == max) {
+        return true
+    } else {
+        return false
+    }
 }
