@@ -62,6 +62,30 @@ ServerEvents.recipes(event => {
 			'cyclic:crusher/redstone_observer',
 			'cyclic:crusher/redsone_comparator', //redsone o.o
 			'ars_nouveau:stable_warp_scroll',
+			'mekanism:coolant/sodium',
+			'mekanism:coolant/water',
+			'mekanism:processing/fissile_fuel',
+			'mekanism:rotary/brine',
+			'mekanism:rotary/chlorine',
+			'mekanism:rotary/ethene',
+			'mekanism:rotary/hydrofluoric_acid',
+			'mekanism:rotary/hydrogen',
+			'mekanism:rotary/hydrogen_chloride',
+			'mekanism:rotary/lithium',
+			'mekanism:rotary/oxygen',
+			'mekanism:rotary/sodium',
+			'mekanism:rotary/steam',
+			'mekanism:rotary/sulfuric_acid',
+			'mekanism:rotary/sulfur_dioxide',
+			'mekanism:rotary/sulfur_trioxide',
+			'mekanism:rotary/superheated_sodium',
+			'mekanism:rotary/uranium_hexafluoride',
+			'mekanism:rotary/uranium_oxide',
+			'mekanism:rotary/water_vapor',
+			'mekanismgenerators:rotary/deuterium',
+			'mekanismgenerators:rotary/fusion_fuel',
+			'mekanismgenerators:rotary/tritium',
+			'mekanismgenerators:rotary/',
 			
         ])
 
@@ -78,21 +102,17 @@ ServerEvents.recipes(event => {
         ])
 
     remod([
-			'angelring',					//done
+			'angelring',					
 			'gateways',					//todo
-            'thermal',					//todo
+            //'thermal',				//todo
             'cobblefordays',			//todo
-            'ironchest',					//done
+            'ironchest',					
             'systeams',					//todo
-            'prettypipes',					//done
+            'prettypipes',				//done
             'modularrouters',			//todo
-            'pneumaticcraft',			//todo	
-            //'integrateddynamics',			//done
-            //'integratedtunnels',			//done
-            //'integratednbt',				//done
-			'alchemygadgetry',			//todo
-			//'ars_nouveau',				//done
-			'inventorypets',			//todo
+            'pneumaticcraft',			//todo
+			'alchemygadgetry',		
+			'inventorypets',			
 			'hostilenetworks',			//todo
         ])
 
