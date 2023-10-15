@@ -4,10 +4,6 @@ ServerEvents.recipes(event => {
 
 
 //recipe items tag fix
-event.replaceInput({ input: 'bluepower:silver_block'},'bluepower:silver_block','thermal:silver_block')
-event.replaceInput({ input: 'bluepower:silver_ingot'},'bluepower:silver_ingot','thermal:silver_ingot')
-event.replaceOutput({ output: 'bluepower:silver_block'},'bluepower:silver_block','thermal:silver_block')
-event.replaceOutput({ output: 'bluepower:silver_ingot'},'bluepower:silver_ingot','thermal:silver_ingot')
 event.replaceInput({ output: '#exoticbirds:birdcages'},'minecraft:oak_slab','#minecraft:wooden_slabs')
 event.replaceInput({ input: '#ironberry:tables'},'minecraft:crafting_table','#ironberry:tables')
 event.replaceInput({ input: 'cyclic:compressed_cobblestone' },'cyclic:compressed_cobblestone','quark:sturdy_stone')
@@ -74,11 +70,6 @@ event.replaceInput({output : 'supplementaries:soap'},'minecraft:porkchop','minec
 //unify sticky
 event.replaceInput({input : 'minecraft:slime_ball'},'minecraft:slime_ball','#ironberry:sticky')
 
-//copper nugget unify
-event.replaceInput({input:'#forge:nuggets/copper'},'#forge:nuggets/copper','homespun:copper_nugget')
-event.replaceOutput({output:'#forge:nuggets/copper'},'#forge:nuggets/copper','homespun:copper_nugget')
-
-
 //tanzanite
 event.replaceInput({input:'bluepower:amethyst_gem'},'bluepower:amethyst_gem','minecraft:amethyst_shard')
 event.replaceOutput({output:'bluepower:amethyst_gem'},'bluepower:amethyst_gem','minecraft:amethyst_shard')
@@ -118,6 +109,40 @@ event.replaceInput({output:'ars_nouveau:scryers_crystal'},'minecraft:ender_eye',
 event.replaceInput({output:'ars_nouveau:enchanting_apparatus'},'minecraft:diamond','reactive:stardust')
 
 event.replaceInput({output:'minecraft:jukebox'},'minecraft:diamond','#minecraft:music_discs')
+
+
+//more unify
+
+
+//copper nugget unify
+event.replaceInput({input:'#forge:nuggets/copper'},'#forge:nuggets/copper','homespun:copper_nugget')
+event.replaceOutput({output:'#forge:nuggets/copper'},'#forge:nuggets/copper','homespun:copper_nugget')
+
+//other unify
+let unify ={
+	type:["lead","tin","tungsten","electrum","bronze","silver","zinc","steel"],
+	block:['thermal:lead_block', 'thermal:tin_block', 'bluepower:tungsten_block', 'thermal:electrum_block', 'thermal:bronze_block', 'thermal:silver_block', 'bluepower:zinc_block','mekanism:block_steel'],
+	ingot:['thermal:lead_ingot', 'thermal:tin_ingot', 'bluepower:tungsten_ingot', 'thermal:electrum_ingot', 'mekanism:ingot_bronze', 'thermal:silver_ingot', 'bluepower:zinc_ingot','mekanism:ingot_steel'],
+	nugget:['thermal:lead_nugget', 'thermal:tin_nugget', 'bluepower:tungsten_nugget', 'thermal:electrum_nugget', 'thermal:bronze_nugget', 'thermal:silver_nugget', 'bluepower:zinc_nugget','mekanism:nugget_steel'],
+	dust:['thermal:lead_dust', 'thermal:tin_dust', 'bluepower:tungsten_dust', 'thermal:electrum_dust', 'thermal:bronze_dust', 'thermal:silver_dust', 'bluepower:zinc_dust','mekanism:dust_steel']
+}
+
+for(let i=0;i<unify.type.length;i++){
+event.replaceInput({input:'#forge:nuggets/'+unify.type[i]},'#forge:nuggets/'+unify.type[i],unify.nugget[i])
+event.replaceOutput({output:'#forge:nuggets/'+unify.type[i]},'#forge:nuggets/'+unify.type[i],unify.nugget[i])
+event.replaceInput({input:'#forge:ingots/'+unify.type[i]},'#forge:ingots/'+unify.type[i],unify.ingot[i])
+event.replaceOutput({output:'#forge:ingots/'+unify.type[i]},'#forge:ingots/'+unify.type[i],unify.ingot[i])
+event.replaceInput({input:'#forge:storage_blocks/'+unify.type[i]},'#forge:storage_blocks/'+unify.type[i],unify.block[i])
+event.replaceOutput({output:'#forge:storage_blocks/'+unify.type[i]},'#forge:storage_blocks/'+unify.type[i],unify.block[i])
+event.replaceInput({input:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.type[i],unify.dust[i])
+event.replaceOutput({output:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.type[i],unify.dust[i])
+}
+
+
+
+
+
+
 
 
 })
