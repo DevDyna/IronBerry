@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-	    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 40,
         "experience": 0.0,
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-		    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 40,
         "experience": 0.0,
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-		    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 40,
         "experience": 0.0,
@@ -80,8 +80,8 @@ ServerEvents.recipes(event => {
     })
     //
     //
-	
-					    event.custom({
+
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 40,
         "experience": 0.0,
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-						    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 40,
         "experience": 0.0,
@@ -125,9 +125,9 @@ ServerEvents.recipes(event => {
     })
     //
     //
-	
-	
-							    event.custom({
+
+
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 80,
         "experience": 0.0,
@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-							    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 80,
         "experience": 0.0,
@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-								    event.custom({
+    event.custom({
         "type": "farmersdelight:cooking",
         "cookingtime": 80,
         "experience": 1.0,
@@ -185,20 +185,34 @@ ServerEvents.recipes(event => {
                 "item": 'minecraft:cookie'
             }, {
                 "item": 'minecraft:blaze_rod'
-            },{
-				"item": 'minecraft:cookie'
-			}
+            }, {
+                "item": 'minecraft:cookie'
+            }
         ],
         "recipe_book_tab": "meals",
         "result": {
             "item": 'inventorypets:holiday_cookie',
-			"count" : 2
+            "count": 2
         }
     })
     //
     //
-	
-	
-	
-	
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [{
+                "item": 'twilightforest:meef_stroganoff'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'nuclearcraft:dominos',
+            "count": 2
+        }
+    })
+    //
+    //
+
+
 })
