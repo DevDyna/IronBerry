@@ -27,12 +27,19 @@
 			icon: "engineersdecor:sign_danger"
 			id: "011EF10BA0231613"
 			optional: true
-			rewards: [{
-				command: "/reload"
-				id: "5A7A460E6397FED3"
-				player_command: true
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/reload"
+					id: "5A7A460E6397FED3"
+					player_command: true
+					type: "command"
+				}
+				{
+					command: "/kubejs reload client_scripts"
+					id: "3BD2338792390DAF"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "351CB64C175028D0"
