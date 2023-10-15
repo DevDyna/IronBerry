@@ -1,4 +1,4 @@
-//priority -1
+//priority 0
 JEIEvents.hideItems(event => {
 
 	event.hide(['#ironberry:disabled','#ironberry:hide'])
@@ -16,16 +16,20 @@ JEIEvents.information(event=>{
 	event.addItem('tombstone:magic_scroll','Can be obtained by right click with a strange scroll while a potion effect still active')
 })
 
-JEIEvents.hideFluids(event => {
-
+JEIEvents.hideFluids(event => {	
 	event.hide(['#ironberry:disabled','#ironberry:hide'])
 })
 
  
 const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
 JEIEvents.hideCustom(event => {
-  event.get($MekanismJEI.TYPE_GAS).hideAll()
+  //event.get($MekanismJEI.TYPE_GAS).hideAll()
   event.get($MekanismJEI.TYPE_INFUSION).hideAll()
   event.get($MekanismJEI.TYPE_PIGMENT).hideAll()
   event.get($MekanismJEI.TYPE_SLURRY).hideAll()
+})
+
+JEIEvents.addItems(event=>{
+	event.add('mekanism:creative_fluid_tank')
+	event.add('mekanism:creative_chemical_tank')
 })
