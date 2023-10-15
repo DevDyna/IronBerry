@@ -110,4 +110,7 @@ ServerEvents.recipes(event => {
 
 	alloy(['#ironberry:ars_arrows'],[1],'minecraft:arrow',16)
 
+	alloy(['pipez:fluid_pipe', 'pipez:item_pipe', 'pipez:energy_pipe', 'pipez:gas_pipe', 'prettypipes:pressurizer'],[2,2,2,2,1],'pipez:universal_pipe',16)
+
+
 })

@@ -111,4 +111,9 @@ function moless(base,variants){
 	
 	less(['cyclic:trash','ars_nouveau:blank_parchment'],'ars_nouveau:deny_scroll')
 	
+	less(['pipez:basic_upgrade','sophisticatedstorage:advanced_filter_upgrade','sophisticatedstorage:advanced_filter_upgrade'],'8x pipez:gas_pipe')
+	less(['pipez:basic_upgrade','thermal:energy_duct','thermal:energy_duct'],'8x pipez:energy_pipe')
+	less(['pipez:basic_upgrade','minecraft:bucket','minecraft:bucket'],'8x pipez:fluid_pipe')
+	less(['pipez:basic_upgrade','minecraft:hopper','minecraft:dropper'],'8x pipez:item_pipe')
+	
 })
