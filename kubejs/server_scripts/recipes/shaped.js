@@ -559,6 +559,16 @@ ServerEvents.recipes(event => {
     //
     //
     //
+	    event.shaped('minecraft:hopper', [
+            'I I',
+            'ICI',
+            ' I '
+        ], {
+        C: '#forge:chests/wooden',
+		I: 'minecraft:iron_ingot'
+    })
+	
+	
 	
 	
 		function shaplus(item_input,slot_input,output){
@@ -584,13 +594,5 @@ ServerEvents.recipes(event => {
 	
 	//shaplus(['ars_nouveau:archwood_planks','ars_nouveau:archwood_slab'],[[0,2,3,5],[1,4]],'ars_nouveau:repository')
 	shaplus(['minecraft:glass_bottle','#forge:glass'],[[4],[3,5,6,7,8]],'supplementaries:jar')
-	
-	
-
-	
-	
-	
-	
-	
 	
 })
