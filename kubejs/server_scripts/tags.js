@@ -1,4 +1,4 @@
-//priority 10
+//priority 100
 ServerEvents.tags('item', event => {
     //integrateddynamics remove all tags to prevent show as #minecraft:logs and more
     event.removeAllTagsFrom('integrateddynamics:menril_log')
