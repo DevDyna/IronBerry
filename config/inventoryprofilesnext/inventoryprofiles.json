@@ -3,12 +3,24 @@
         "enable_profiles": {
             "value": false
         },
+        "enable_lock_slots": {
+            "value": false
+        },
+        "enable_lock_slots_per_server": false,
+        "enable_auto_refill": {
+            "value": false
+        },
         "villager_trading_group_1": {
             "value": true
         },
         "villager_trading_group_2": {
             "value": true
         },
+        "enable_updates_check": false,
+        "highlight_clicking_slot": false,
+        "sort_at_cursor": false,
+        "move_all_at_cursor": false,
+        "ignore_durability": false,
         "first_run": false
     },
     "GuiSettings": {
@@ -48,12 +60,17 @@
         }
     },
     "AutoRefillSettings": {
+        "ignore_locked_slots": false,
         "refill_armor": {
             "value": false
         },
         "refill_before_tool_break": {
             "value": false
         },
+        "disable_for_loyalty_items": false,
+        "auto_refill_match_custom_name": false,
+        "auto_refill_match_nbt": false,
+        "auto_refill_ignore_nbt_for_buckets": false,
         "visual_durability_notification": {
             "value": false
         },
@@ -93,7 +110,8 @@
             "main": {
                 "keys": ""
             }
-        }
+        },
+        "scroll_auto_pickup_next_for_single": false
     },
     "Hotkeys": {
         "open_config_menu": {
@@ -190,6 +208,11 @@
             "main": {
                 "keys": ""
             }
+        }
+    },
+    "Tweaks": {
+        "container_swipe_moving_items": {
+            "value": false
         }
     }
 }
