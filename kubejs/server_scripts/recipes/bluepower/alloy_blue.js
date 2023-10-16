@@ -112,5 +112,9 @@ ServerEvents.recipes(event => {
 
 	alloy(['pipez:fluid_pipe', 'pipez:item_pipe', 'pipez:energy_pipe', 'pipez:gas_pipe', 'prettypipes:pressurizer'],[2,2,2,2,1],'pipez:universal_pipe',16)
 
+	alloy(['twilightforest:lich_trophy'],[1],'kubejs:boss_trophy',1)
+	
+	alloy(['#ironberry:miniboss_trophy'],[1],'kubejs:miniboss_trophy',1)
 
+	alloy(['minecraft:bone_block', 'minecraft:sculk'],[3,3],'minecraft:sculk_catalyst',1)
 })

@@ -106,6 +106,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('farmersdelight:cutting_board', 'Can be automated using a §7Deployer')
 	tipplusplus('#ironberry:boss_drop','§cAlso can be obtained by killing mobs from the §4Gateway of Bosses')
 	tipplusplus('luggage:luggage','A cute chest pet')
+	tipplusplus('#ironberry:echodrop','Drop §9echo shards §fwhen broken')
+	tipplusplus('minecraft:echo_shard', 'Obtained by breaking §7sculk blocks')
 })
 
 /*
