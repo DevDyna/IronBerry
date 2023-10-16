@@ -646,6 +646,7 @@ ServerEvents.tags('item', event => {
         ])
 
     event.add('ironberry:wrench_fix', [
+			'nuclearcraft:multitool',
             'thermal:wrench',
             'ae2:certus_quartz_wrench',
             'ae2:nether_quartz_wrench',
