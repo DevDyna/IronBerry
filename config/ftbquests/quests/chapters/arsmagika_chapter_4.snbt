@@ -16,13 +16,12 @@
 			image: "ars_nouveau:textures/items/thread_bookwyrm.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -7.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "21D1AC62E75E02D0"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -35,15 +34,14 @@
 		{
 			click: ""
 			corner: false
-			dependency: "3A08B1886E919A64"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "ars_nouveau:blocks/green_archwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -4.0d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			click: ""
@@ -76,32 +74,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["55D19E748CA9B615"]
-			id: "61144D1CC43E29F2"
-			subtitle: "Potion Mixer"
-			tasks: [{
-				id: "470E13B3822E6BFE"
-				item: "ars_nouveau:potion_melder"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"5856ACD8338DB76C"
-				"3A08B1886E919A64"
-			]
-			id: "0AA9D57D86BE0AA2"
-			tasks: [{
-				id: "30E78A45F4ED453A"
-				item: "ars_nouveau:relay_collector"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["7122E2300227720D"]
 			id: "58F0EB52C803B031"
 			subtitle: "Storage Sensor"
@@ -110,8 +82,8 @@
 				item: "ars_nouveau:item_detector"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
@@ -121,8 +93,8 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
@@ -139,70 +111,8 @@
 				type: "item"
 			}]
 			title: "More Flasks"
-			x: -9.0d
+			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["55D19E748CA9B615"]
-			id: "167B6D1AAF2B1E81"
-			subtitle: "Potion Applier"
-			tasks: [{
-				id: "77FC4A0038DDE07F"
-				item: "ars_nouveau:potion_diffuser"
-				type: "item"
-			}]
-			x: -15.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["589E1908B016B84F"]
-			id: "21D1AC62E75E02D0"
-			subtitle: "Mana generator"
-			tasks: [
-				{
-					id: "7DD411BE9A113EA2"
-					item: "ars_nouveau:agronomic_sourcelink"
-					type: "item"
-				}
-				{
-					id: "3012AE81B10EC8AE"
-					item: "ars_nouveau:alchemical_sourcelink"
-					type: "item"
-				}
-				{
-					id: "16329A39B0EEB19F"
-					item: "ars_nouveau:mycelial_sourcelink"
-					type: "item"
-				}
-			]
-			title: "SourceLinks"
-			x: -11.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"0AA9D57D86BE0AA2"
-				"5F47CC7E53EBC408"
-			]
-			id: "4C02393C5CA6E4C2"
-			tasks: [{
-				id: "6098A001207462DD"
-				item: "ars_nouveau:relay_splitter"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["589E1908B016B84F"]
-			id: "3A08B1886E919A64"
-			tasks: [{
-				id: "5EA6795CDD527A73"
-				item: "ars_nouveau:relay"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
@@ -226,45 +136,8 @@
 				}
 			]
 			title: "Enchanting Apparatus"
-			x: -7.0d
+			x: 3.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["21D1AC62E75E02D0"]
-			id: "17611B82115E5E21"
-			subtitle: "Mana Storage"
-			tasks: [{
-				id: "466D10D2DA82E99C"
-				item: "ars_nouveau:source_jar"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"5856ACD8338DB76C"
-				"3A08B1886E919A64"
-			]
-			id: "5F47CC7E53EBC408"
-			tasks: [{
-				id: "07FA49473071900F"
-				item: "ars_nouveau:relay_deposit"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4C02393C5CA6E4C2"]
-			id: "74CF38E97F84FF97"
-			tasks: [{
-				id: "470D1A84470CF749"
-				item: "ars_nouveau:relay_warp"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2EF34AD3D05D4C30"]
@@ -274,8 +147,8 @@
 				item: "ars_nouveau:green_archwood_sapling"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -292,11 +165,10 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["1C5F437EB0E170A4"]
 			description: ["Little squirrel that can harvest berries and transfert items"]
 			id: "277CB86B123E9B80"
 			tasks: [{
@@ -309,8 +181,8 @@
 				type: "item"
 			}]
 			title: "The cuttest hopper"
-			x: -5.0d
-			y: -6.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7122E2300227720D"]
@@ -320,8 +192,8 @@
 				item: "ars_nouveau:repository"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["23FF5767215D7F90"]
@@ -331,33 +203,7 @@
 				item: "ars_nouveau:mob_jar"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"17611B82115E5E21"
-				"514745AA0A403DD0"
-			]
-			id: "55D19E748CA9B615"
-			subtitle: "Potion Storage"
-			tasks: [{
-				id: "751D03D4C3C1CA99"
-				item: "ars_nouveau:potion_jar"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["17611B82115E5E21"]
-			id: "2879FC0B65057008"
-			tasks: [{
-				id: "219AB03A361D9CBB"
-				item: "ars_nouveau:bucket_of_source"
-				type: "item"
-			}]
-			x: -11.0d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -369,59 +215,10 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["57D5E48E5EC2EFE0"]
-			id: "1C5F437EB0E170A4"
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "This isn't Vault hunting!"
-			tasks: [
-				{
-					id: "41227C05FC011EB9"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ironberry:gift_loot"
-						}
-					}
-					title: "Any #ironberry:gift_loot"
-					type: "item"
-				}
-				{
-					id: "35865788C1F4847B"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ironberry:boss_loot"
-						}
-					}
-					title: "Any #ironberry:boss_loot"
-					type: "item"
-				}
-				{
-					id: "2862A226CB29BD75"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ironberry:boss_drop"
-						}
-					}
-					title: "Any #ironberry:boss_drop"
-					type: "item"
-				}
-			]
-			title: "Treasure Hunting"
-			x: -6.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["1C5F437EB0E170A4"]
 			id: "589E1908B016B84F"
 			shape: "octagon"
 			tasks: [{
@@ -430,18 +227,17 @@
 				type: "item"
 			}]
 			title: "The gem of everything"
-			x: -9.0d
-			y: -6.0d
+			x: 3.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1C5F437EB0E170A4"]
 			id: "7122E2300227720D"
 			tasks: [{
 				id: "7E8573C3D2DF406B"
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 6.0d
 			y: -8.0d
 		}
 		{
@@ -456,14 +252,11 @@
 				type: "item"
 			}]
 			title: "Unique Storage"
-			x: -2.0d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"5856ACD8338DB76C"
-				"17611B82115E5E21"
-			]
+			dependencies: ["5856ACD8338DB76C"]
 			id: "23FF5767215D7F90"
 			subtitle: "More drops !"
 			tasks: [{
@@ -471,7 +264,7 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -9.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -485,8 +278,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.0d
+			x: -11.0d
+			y: -2.0d
 		}
 		{
 			id: "087A5EF088DDED0E"
@@ -499,8 +292,154 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.0d
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			id: "50BF629AA3EF5AC5"
+			tasks: [{
+				id: "0B46668FB45E4AAF"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:alloy_smelter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			id: "3F799A3D653ECAC6"
+			shape: "gear"
+			tasks: [{
+				id: "11FEB6589E9A87C1"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:chassis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "4C624E7DFD3E414E"
+			tasks: [{
+				id: "4F82CF669F668481"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:steel_frame"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			id: "001837ABABCBC3F4"
+			tasks: [{
+				id: "0EF8546BD05089FF"
+				item: {
+					Count: 1b
+					id: "mekanism:steel_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			id: "1FE2BB2E4BDB24C0"
+			tasks: [{
+				id: "32530DAAF7CA4944"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:manufactory"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			id: "3A789C65771B255F"
+			tasks: [{
+				id: "5A0622427539D0DF"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:manual_compressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			id: "7EABBDB739B99D38"
+			tasks: [
+				{
+					id: "146A7253555AC646"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7A62969416CF87B1"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_laser"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "33A527509D5E4EB4"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0BA98369D7A90F3D"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_io_unit_import"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "08B934D74402CD90"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_io_unit_export"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "04F791E2BD4350F0"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:assembly_platform"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -6.0d
 		}
 	]
 	title: "Age 4"

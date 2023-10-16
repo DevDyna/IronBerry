@@ -200,7 +200,7 @@
 			rotation: 0.0d
 			width: 0.75d
 			x: 2.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			click: ""
@@ -213,7 +213,33 @@
 			rotation: 0.0d
 			width: 1.15d
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "190BF1366A412083"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alchemygadgetry:item/vitamins"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
 			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "essentials:item/candle_lilypad"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -5.0d
 		}
 	]
 	order_index: 2
@@ -628,6 +654,7 @@
 		}
 		{
 			dependencies: ["54958A7EC60D4E74"]
+			description: ["Sacred texts see that was the key of another dimension"]
 			id: "6DA70AC867C01085"
 			subtitle: "Soul on a jar"
 			tasks: [{
@@ -1628,17 +1655,24 @@
 				Count: 1b
 				id: "gateways:gate_pearl"
 				tag: {
-					gateway: "gateways:warden_gate_large"
+					gateway: "gateways:battle_gate_large"
 				}
 			}
 			id: "57D5E48E5EC2EFE0"
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
-				id: "26E32E226826B6C0"
-				item: "minecraft:warden_spawn_egg"
+				id: "09E17D63AD33D86E"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:battle_gate_large"
+					}
+				}
 				type: "item"
 			}]
+			title: "The Real Battle"
 			x: 4.5d
 			y: -7.5d
 		}
@@ -1798,9 +1832,8 @@
 			dependencies: [
 				"0E6D91BEA58EF2B0"
 				"4D2E8CFB00E7D02C"
-				"01E815BCB8D09A12"
 			]
-			description: ["To beat all mobs you need to use your best strategy and the most powerful thing available at now by Tombstone"]
+			description: ["To beat all mobs you need to use your best strategy"]
 			icon: {
 				Count: 1b
 				id: "hostilenetworks:data_model"
@@ -1814,19 +1847,19 @@
 			shape: "square"
 			subtitle: "One of most dangerous Boss Battle"
 			tasks: [{
-				id: "6AA06C38B0E2659B"
+				id: "17EA3CBF6BFC306E"
 				item: {
 					Count: 1b
 					id: "gateways:gate_pearl"
 					tag: {
-						gateway: "gateways:battle_gate_large"
+						gateway: "gateways:simple_gate"
 					}
 				}
 				type: "item"
 			}]
 			title: "The Final countdown"
 			x: 4.5d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2073,6 +2106,7 @@
 		{
 			dependencies: ["31C7366B2D51ED2C"]
 			id: "0A9EB2A394692CC3"
+			optional: true
 			tasks: [
 				{
 					id: "721A545405CD23FC"
@@ -2122,7 +2156,7 @@
 			]
 			title: "Effigies"
 			x: 2.0d
-			y: -10.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3AE5CD008B44982C"]
@@ -2137,54 +2171,32 @@
 			y: -10.0d
 		}
 		{
-			id: "01E815BCB8D09A12"
-			tasks: [{
-				id: "66C3417E3F3AAA09"
-				item: {
-					Count: 1b
-					id: "rootsclassic:altar"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7F0F2D13448390AF"]
+			dependencies: [
+				"7F0F2D13448390AF"
+				"6DA70AC867C01085"
+			]
+			icon: {
+				Count: 1b
+				id: "twilightforest:twilight_portal_miniature_structure"
+				tag: { }
+			}
 			id: "2CDD39A4497DE414"
+			secret: true
 			shape: "square"
 			tasks: [{
-				id: "383617F08AC5BCB3"
-				item: {
+				dimension: "twilightforest:twilight_forest"
+				icon: {
 					Count: 1b
 					id: "twilightforest:twilight_portal_miniature_structure"
 					tag: { }
 				}
-				type: "item"
+				id: "7B20C3CBFCAF9EE1"
+				secret: true
+				type: "dimension"
 			}]
-			title: "Much better that at home"
-			x: 2.9d
-			y: -4.0d
-		}
-		{
-			dependencies: ["7F0F2D13448390AF"]
-			dependency_requirement: "all_started"
-			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
-			id: "642A560192E69BA9"
-			rewards: [{
-				id: "611BE2B73618B670"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "714A02955E6FF999"
-				item: "minecraft:sculk_catalyst"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.0d
+			title: "What is this place?"
+			x: 2.8d
+			y: 0.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]

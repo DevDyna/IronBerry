@@ -812,6 +812,81 @@
 			x: 2.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4B6FE1B6BB79056B"]
+			dependency_requirement: "all_started"
+			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
+			id: "642A560192E69BA9"
+			rewards: [{
+				id: "611BE2B73618B670"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "714A02955E6FF999"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["642A560192E69BA9"]
+			id: "5FD859340BCA2236"
+			rewards: [{
+				id: "6633B52E73500F77"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "sculktransporting:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3EF73500EE43A9C1"
+					item: {
+						Count: 1b
+						id: "sculktransporting:sculk_receiver"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2219F9ADEA52D74E"
+					item: {
+						Count: 1b
+						id: "sculktransporting:sculk_transmitter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "04D52895848E16C9"
+					item: {
+						Count: 1b
+						id: "sculktransporting:sculk_emitter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "44DC785BCBBEB353"
+					item: {
+						Count: 1b
+						id: "sculktransporting:sculk_barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wireless item transfer"
+			x: -2.0d
+			y: -1.0d
+		}
 	]
 	subtitle: ["Blue technology and Chemistry"]
 	title: "Age 2"
