@@ -32,4 +32,6 @@ JEIEvents.hideCustom(event => {
 JEIEvents.addItems(event=>{
 	event.add('mekanism:creative_fluid_tank')
 	event.add('mekanism:creative_chemical_tank')
+	event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'))
+	event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:simple_gate"}'))
 })
