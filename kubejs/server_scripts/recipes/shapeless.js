@@ -114,6 +114,18 @@ function moless(base,variants){
 	less(['pipez:basic_upgrade','sophisticatedstorage:advanced_filter_upgrade','sophisticatedstorage:advanced_filter_upgrade'],'8x pipez:gas_pipe')
 	less(['pipez:basic_upgrade','thermal:energy_duct','thermal:energy_duct'],'8x pipez:energy_pipe')
 	less(['pipez:basic_upgrade','minecraft:bucket','minecraft:bucket'],'8x pipez:fluid_pipe')
-	less(['pipez:basic_upgrade','minecraft:hopper','minecraft:dropper'],'8x pipez:item_pipe')
+	less(['pipez:basic_upgrade','#ironberry:vanilla_pipe','#ironberry:vanilla_pipe'],'8x pipez:item_pipe')
+	
+	
+	less(['kubejs:quantity_base', 'minecraft:echo_shard', 'minecraft:sculk_shrieker'],'sculktransporting:quantity_modifier_tier_1')
+	less(['sculktransporting:quantity_modifier_tier_1', 'minecraft:echo_shard', 'minecraft:sculk_shrieker'],'sculktransporting:quantity_modifier_tier_2')
+	less(['sculktransporting:quantity_modifier_tier_2', 'minecraft:echo_shard', 'minecraft:sculk_shrieker'],'sculktransporting:quantity_modifier_tier_3')
+	less(['kubejs:speed_base', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_1')
+	less(['sculktransporting:speed_modifier_tier_1', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_2')
+	less(['sculktransporting:speed_modifier_tier_2', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_3')
+	less(['sculktransporting:speed_modifier_tier_3', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_4')
+
+	
+	
 	
 })

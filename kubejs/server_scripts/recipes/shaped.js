@@ -568,6 +568,28 @@ ServerEvents.recipes(event => {
 		I: 'minecraft:iron_ingot'
     })
 	
+		    event.shaped('kubejs:quantity_base', [
+            'EEE',
+            'ESE',
+            'EEE'
+        ], {
+        E: 'minecraft:echo_shard',
+		S: 'minecraft:sculk'
+    })
+	
+		    event.shaped('kubejs:speed_base', [
+            'EEE',
+            'EBE',
+            'EEE'
+        ], {
+        E: 'minecraft:echo_shard',
+		B: 'minecraft:sculk_catalyst'
+    })
+	
+	
+	
+	
+	
 	
 	
 	
