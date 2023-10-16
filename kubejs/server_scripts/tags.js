@@ -25,6 +25,10 @@ ServerEvents.tags('item', event => {
     event.add('reactive:mind_sources', 'bluepower:amethyst_gem')
     event.add('reactive:soul_sources', 'bluepower:sapphire_gem')
 
+	//twilight activator
+	event.remove('twilightforest:portal/activator','minecraft:diamond')
+	event.add('twilightforest:portal/activator','tombstone:soul_receptacle')
+	
     //remove indigo
     event.removeAllTagsFrom('bluepower:indigo_flower')
 
@@ -77,6 +81,15 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+	'gateways:gate_pearl',
+	'sculktransporting:speed_modifier_tier_1', 
+	'sculktransporting:speed_modifier_tier_2', 
+	'sculktransporting:speed_modifier_tier_3', 
+	'sculktransporting:speed_modifier_tier_4', 
+	'sculktransporting:quantity_modifier_tier_1', 
+	'sculktransporting:quantity_modifier_tier_3', 
+	'sculktransporting:quantity_modifier_tier_2',
+	'sculktransporting:sculk_emitter', 'sculktransporting:sculk_receiver', 'sculktransporting:sculk_transmitter', 'sculktransporting:sculk_barrel',
 	'pipez:item_pipe', 
 	'pipez:energy_pipe', 
 	'pipez:gas_pipe', 
@@ -179,8 +192,6 @@ ServerEvents.tags('item', event => {
     event.add('ironberry:disabled', [
 			'jetboots:engine_upgrade', 'jetboots:muffled_upgrade', 'jetboots:underwater_upgrade', 'jetboots:thruster_upgrade', 'jetboots:jetboots', 'jetboots:guardian_pants', 'jetboots:guardian_helmet', 'jetboots:guardian_jacket',
 			'pipez:improved_upgrade', 'pipez:advanced_upgrade', 'pipez:ultimate_upgrade', 'pipez:infinity_upgrade',
-	
-	
             'ars_nouveau:scribes_table',
             'ars_nouveau:abjuration_essence', 'ars_nouveau:water_essence', 'ars_nouveau:manipulation_essence', 'ars_nouveau:earth_essence', 'ars_nouveau:fire_essence', 'ars_nouveau:conjuration_essence', 'ars_nouveau:air_essence',
             'ars_nouveau:imbuement_chamber',
@@ -405,6 +416,7 @@ ServerEvents.tags('item', event => {
 
     //JEI hide item
     event.add('ironberry:hide', [
+			'gateways:gate_pearl',
             'mekanism:creative_fluid_tank',
 			'mekanism:creative_chemical_tank',
             'cyclic:compressed_cobblestone',
@@ -650,10 +662,7 @@ ServerEvents.tags('item', event => {
             'ae2:cell_workbench',
         ])
 
-    event.add('ironberry:nosilk', [
-            'minecraft:sculk',
-            'minecraft:sculk_catalyst',
-        ])
+    event.add('ironberry:nosilk', ['minecraft:sculk_catalyst', 'minecraft:sculk_sensor', 'minecraft:sculk_shrieker'])
 
     event.add('ironberry:ae2_wireless', [
             'ae2wtlib:wireless_universal_terminal',
@@ -875,6 +884,12 @@ ServerEvents.tags('item', event => {
             'minecraft:spider_eye', 'minecraft:string', 'minecraft:ender_pearl', 'twilightforest:minoshroom_trophy', 'minecraft:coal', 'minecraft:bone', 'twilightforest:arctic_fur', 'twilightforest:towerwood', 'thermal:blizz_rod', 'thermal:blitz_rod', 'minecraft:blaze_rod', 'thermal:basalz_rod', 'twilightforest:knight_phantom_trophy', 'minecraft:wheat', 'minecraft:gold_nugget', 'twilightforest:torchberries', 'twilightforest:lich_trophy', 'minecraft:iron_ingot', 'minecraft:snowball', 'quark:soul_bead', 'minecraft:arrow', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', 'ars_nouveau:wilden_horn', 'twilightforest:armor_shard', 'minecraft:paper', 'twilightforest:magic_map_focus', 'minecraft:book', 'minecraft:glowstone_dust', 'twilightforest:raw_meef', 'twilightforest:maze_map_focus', 'minecraft:leather', 'twilightforest:meef_stroganoff',
         ])
 
+
+	event.add('ironberry:vanilla_pipe',['minecraft:hopper', 'minecraft:dropper'])
+	event.add('ironberry:miniboss_trophy',['twilightforest:minoshroom_trophy', 'twilightforest:knight_phantom_trophy'])
+	
+	event.add('ironberry:echodrop',['minecraft:sculk', 'minecraft:sculk_vein'])
+	
 })
 
 ServerEvents.tags('block', event => {
