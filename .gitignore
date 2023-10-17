@@ -157,3 +157,6 @@ config/skyblockbuilder/common-config.json5
 config/Mekanism/generators.toml
 config/Mekanism/generators-gear.toml
 config/Mekanism/generator-storage.toml
+.vscode/
+kubejs/jsconfig.json
+kubejs/config/probejs.json
