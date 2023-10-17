@@ -108,6 +108,8 @@ ItemEvents.tooltip(event => {
 	tipplusplus('luggage:luggage','A cute chest pet')
 	tipplusplus('#ironberry:echodrop','Drop §9echo shards §fwhen broken')
 	tipplusplus('minecraft:echo_shard', 'Obtained by breaking §7sculk blocks')
+    tipplusplus('#ironberry:onlyplayer','§4Only player can use this item!')
+
 })
 
 /*

@@ -890,7 +890,9 @@ ServerEvents.tags('item', event => {
 	event.add('ironberry:miniboss_trophy',['twilightforest:minoshroom_trophy', 'twilightforest:knight_phantom_trophy'])
 	
 	event.add('ironberry:echodrop',['minecraft:sculk', 'minecraft:sculk_vein'])
-	
+
+    event.add('ironberry:onlyplayer',['kubejs:grave_spawn', 'kubejs:ore_bone_meal', 'kubejs:rich_bone_meal', 'tombstone:strange_scroll'])
+
 })
 
 ServerEvents.tags('block', event => {
