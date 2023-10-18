@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    //pnc fuels
+/*     //pnc fuels
     event.custom({
         "type": "pneumaticcraft:fuel_quality",
         "air_per_bucket": 1000,
@@ -13,6 +13,6 @@ ServerEvents.recipes(event => {
     //
     //
     //
-
+ */
 
 })

@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
 			'mekanism:coolant/sodium',
 			'mekanism:coolant/water',
 			'mekanism:processing/fissile_fuel',
-			'mekanism:rotary/brine',
+/* 			'mekanism:rotary/brine',
 			'mekanism:rotary/chlorine',
 			'mekanism:rotary/ethene',
 			'mekanism:rotary/hydrofluoric_acid',
@@ -80,13 +80,10 @@ ServerEvents.recipes(event => {
 			'mekanism:rotary/sulfur_trioxide',
 			'mekanism:rotary/superheated_sodium',
 			'mekanism:rotary/uranium_hexafluoride',
-			'mekanism:rotary/uranium_oxide',
-			'mekanism:rotary/water_vapor',
-			'mekanismgenerators:rotary/deuterium',
+			'mekanism:rotary/uranium_oxide', */
+/* 			'mekanismgenerators:rotary/deuterium',
 			'mekanismgenerators:rotary/fusion_fuel',
-			'mekanismgenerators:rotary/tritium',
-			'mekanismgenerators:rotary/',
-			
+			'mekanismgenerators:rotary/tritium', */
         ])
 
     remtype([
@@ -99,6 +96,11 @@ ServerEvents.recipes(event => {
 			'ars_nouveau:reactive_enchantment',
 			'ars_nouveau:enchantment',
 			'ars_nouveau:armor_upgrade',
+			'mekanismgenerators:rotary',
+			'cyclic:generator_fluid',
+			'cyclic:generator_item',
+			'mekanism:rotary',
+			'mekanism:oxidizing',
         ])
 
     remod([
@@ -107,12 +109,11 @@ ServerEvents.recipes(event => {
             //'thermal',				//todo
             'cobblefordays',			//todo
             'ironchest',					
-            'systeams',					//todo
             'prettypipes',				//done
             'modularrouters',			//todo
             'pneumaticcraft',			//todo
 			'alchemygadgetry',		
-			'inventorypets',			
+			//'inventorypets',			
 			'hostilenetworks',			//todo
         ])
 

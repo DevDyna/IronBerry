@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-
+/* 
     event.custom({
         "type": "pneumaticcraft:fluid_mixer",
         "input1": {
@@ -18,5 +18,5 @@ ServerEvents.recipes(event => {
         "pressure": 0,
         "time": 40
     })
-
+ */
 })
