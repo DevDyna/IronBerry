@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 	event.custom({
   "type": "mekanism:fission",
   "input": {
-    "gas": "mekanism:steam",
+    "gas": "kubejs:methane",
     "amount": 1
   },
   "output": {
@@ -11,6 +11,6 @@ ServerEvents.recipes(event => {
     "amount": 1
   },
   "heat": 0.1
-}).id('mekasteam')
+}).id('mekagen')
 	
 })
