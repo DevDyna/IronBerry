@@ -3,7 +3,11 @@
 	default_quest_shape: ""
 	filename: "arsmagika_chapter_4"
 	group: "0AB07CEFAAABA228"
-	icon: "twilightforest:twilight_portal_miniature_structure"
+	icon: {
+		Count: 1b
+		id: "engineersdecor:sign_caution"
+		tag: { }
+	}
 	id: "18480D6C6EE13345"
 	images: [
 		{
@@ -321,8 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			id: "4C624E7DFD3E414E"
@@ -440,6 +444,31 @@
 			]
 			x: -16.0d
 			y: -6.0d
+		}
+		{
+			id: "123D0BCDB0FD19BF"
+			tasks: [
+				{
+					id: "41ECE67AA1C8E502"
+					item: {
+						Count: 1b
+						id: "cyclic:solidifier"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21813B497623FB3B"
+					item: {
+						Count: 1b
+						id: "cyclic:melter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
 		}
 	]
 	title: "Age 4"

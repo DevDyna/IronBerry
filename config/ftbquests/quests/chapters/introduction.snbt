@@ -601,7 +601,6 @@
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "01F1E6045E52FEF7"
-				secret: true
 				type: "dimension"
 			}]
 			title: "Do you want more?"

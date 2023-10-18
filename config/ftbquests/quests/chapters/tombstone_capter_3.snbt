@@ -1163,7 +1163,6 @@
 			}
 			id: "20BDF1B4BEF0753C"
 			optional: true
-			secret: true
 			shape: "diamond"
 			tasks: [{
 				advancement: "minecraft:nether/all_potions"
@@ -2181,7 +2180,6 @@
 				tag: { }
 			}
 			id: "2CDD39A4497DE414"
-			secret: true
 			shape: "square"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -2191,7 +2189,6 @@
 					tag: { }
 				}
 				id: "7B20C3CBFCAF9EE1"
-				secret: true
 				type: "dimension"
 			}]
 			title: "What is this place?"

@@ -574,7 +574,6 @@
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
-			secret: true
 			subtitle: "I need coal to craft iron , wood to fuel them, charcoal to lit around !"
 			tasks: [{
 				id: "7FA0D7A4868BF0BA"
