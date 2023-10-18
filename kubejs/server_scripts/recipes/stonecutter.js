@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             for (let i = 0; i < result.length; i++) {
                 event.stonecutting(
                     result[i],
-                    input[j])
+                    input[j]).id(RegX(input[j]+'_n'+i))
             }
         }
     }
