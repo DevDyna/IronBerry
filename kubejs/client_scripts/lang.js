@@ -1,6 +1,6 @@
-ClientEvents.highPriorityAssets(event => {  
+ClientEvents.lang('en_us',event => {  
  
-  event.addLang('gas.kubejs.methane', 'Methane Gas')
-  event.addLang('gateways.simple_gate','Tutorial of how to die by')
-  event.addLang('gateways.battle_gate_large','Bosses')
+  event.add('gas.kubejs.methane', 'Methane Gas')
+  event.add('gateways.simple_gate','Tutorial of how to die by')
+  event.add('gateways.battle_gate_large','Bosses')
 })
