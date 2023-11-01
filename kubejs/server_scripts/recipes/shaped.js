@@ -586,6 +586,28 @@ ServerEvents.recipes(event => {
 		B: 'minecraft:sculk_catalyst'
     })
 	
+			    event.shaped('ars_nouveau:imbuement_chamber', [
+            'ECE',
+            'EBE',
+            'ECE'
+        ], {
+        E: 'ars_nouveau:archwood_planks',
+		B: 'ars_nouveau:source_gem',
+		C: 'minecraft:gold_ingot'
+    })
+	
+/* 	event.shaped('thoriumreactors:white_industrial_block_brick', [
+            'EEE',
+            'EBE',
+            'EEE'
+        ], {
+        E: 'minecraft:iron_nugget',
+		B: 'minecraft:bricks'
+    }) */
+	
+	
+	
+	
 	
 	
 	
