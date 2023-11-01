@@ -470,6 +470,48 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			id: "7E6FD4B34AA43BA9"
+			tasks: [{
+				id: "58CE6C4B2730A406"
+				item: {
+					Count: 1b
+					id: "thoriumreactors:enriched_uranium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "6A75F878974792BB"
+			tasks: [{
+				id: "28BB7DE986728203"
+				item: {
+					Count: 1b
+					id: "thoriumreactors:molten_salt_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "60AEE0BEBD1EA943"
+			tasks: [{
+				id: "635EC6951F0178BB"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:imbuement_chamber"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	title: "Age 4"
 }

@@ -1838,7 +1838,7 @@
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
-						id: "hostilenetworks:warden"
+						id: "hostilenetworks:grave_guardian"
 					}
 				}
 			}

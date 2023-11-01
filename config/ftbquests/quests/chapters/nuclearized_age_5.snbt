@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nuclearized_age_5"
+	group: "0AB07CEFAAABA228"
+	icon: {
+		Count: 1b
+		id: "thoriumreactors:thorium"
+		tag: { }
+	}
+	id: "26DBA736A666D5A2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Age 5"
+}
