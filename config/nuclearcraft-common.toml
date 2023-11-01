@@ -3,7 +3,7 @@
 	#Ticks
 	base_time = 240
 	#FE per Tick
-	base_power = 100
+	base_power = 10
 	#Generally used for server optimization. Processors will skip defined amount of ticks then and do nothing.
 	#This won't affect recipe production performance
 	#Let's say it will skip 2 ticks, and then it will multiply recipe progress by amount if skipped ticks.
