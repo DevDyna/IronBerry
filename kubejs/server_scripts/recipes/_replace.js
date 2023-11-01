@@ -138,4 +138,7 @@ event.replaceInput({input:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.t
 event.replaceOutput({output:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.type[i],unify.dust[i])
 }
 
+
+event.replaceInput({input:'twilightforest:raven_feather'},'twilightforest:raven_feather','#forge:feathers')
+
 })

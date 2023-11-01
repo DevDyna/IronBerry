@@ -25,10 +25,10 @@ ServerEvents.tags('item', event => {
     event.add('reactive:mind_sources', 'bluepower:amethyst_gem')
     event.add('reactive:soul_sources', 'bluepower:sapphire_gem')
 
-	//twilight activator
-	event.remove('twilightforest:portal/activator','minecraft:diamond')
-	event.add('twilightforest:portal/activator','tombstone:soul_receptacle')
-	
+    //twilight activator
+    event.remove('twilightforest:portal/activator', 'minecraft:diamond')
+    event.add('twilightforest:portal/activator', 'tombstone:soul_receptacle')
+
     //remove indigo
     event.removeAllTagsFrom('bluepower:indigo_flower')
 
@@ -45,7 +45,10 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:red_archwood_sapling',
             'ars_nouveau:purple_archwood_sapling',
             'ars_nouveau:blue_archwood_sapling'])
-
+	
+	NoTag(event,['twilightforest:armor_shard_cluster','thermal:sapphire', 'thermal:ruby',])
+	
+	
     //----------------------------------------------------------------//
 
     //tombstone tags
@@ -81,58 +84,59 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
-		'inventorypets:pet_wither',
-	'inventorypets:pet_slime',
-	'inventorypets:pet_pufferfish',
-	'inventorypets:pet_shield',
-	'inventorypets:pet_heart',
-	'inventorypets:pet_dubstep',
-	'inventorypets:pet_torch',
-	'inventorypets:pet_silverfish',
-	'inventorypets:pet_pixie',
-	'inventorypets:pet_cheetah',
-	'inventorypets:pet_quiver',
-	'inventorypets:pet_banana',
-	'inventorypets:pet_jukebox',
-	'inventorypets:pet_furnace',
-	'inventorypets:pet_enchanting_table',
-	'inventorypets:pet_double_chest',
-	'inventorypets:pet_crafting_table',
-	'inventorypets:pet_chest',
-	'inventorypets:pet_brewing_stand',
-	'inventorypets:pet_bed',
-	'inventorypets:pet_anvil',
-	'inventorypets:pet_squid',
-	'inventorypets:pet_sheep',
-	'inventorypets:pet_pig',
-	'inventorypets:pet_ocelot',
-	'inventorypets:pet_mooshroom',
-	'inventorypets:pet_cow',
-	'inventorypets:pet_chicken',
-	'inventorypets:pet_spider',
-	'inventorypets:pet_snow_golem',
-	'inventorypets:pet_iron_golem',
-	'inventorypets:pet_creeper',
-	'inventorypets:pet_pacman',
-	
-	'gateways:gate_pearl',
-	'sculktransporting:speed_modifier_tier_1', 
-	'sculktransporting:speed_modifier_tier_2', 
-	'sculktransporting:speed_modifier_tier_3', 
-	'sculktransporting:speed_modifier_tier_4', 
-	'sculktransporting:quantity_modifier_tier_1', 
-	'sculktransporting:quantity_modifier_tier_3', 
-	'sculktransporting:quantity_modifier_tier_2',
-	'sculktransporting:sculk_emitter', 'sculktransporting:sculk_receiver', 'sculktransporting:sculk_transmitter', 'sculktransporting:sculk_barrel',
-	'pipez:item_pipe', 
-	'pipez:energy_pipe', 
-	'pipez:gas_pipe', 
-	'pipez:fluid_pipe', 
-	'pipez:universal_pipe',
-			'jetboots:armor_core', 
-			'ars_nouveau:jump_ring', 
-			'jetboots:rocket_boots', 
-			'jetboots:shock_absorber_upgrade',
+	'thoriumreactors:white_industrial_block_brick',
+		'ars_nouveau:imbuement_chamber',
+            'inventorypets:pet_wither',
+            'inventorypets:pet_slime',
+            'inventorypets:pet_pufferfish',
+            'inventorypets:pet_shield',
+            'inventorypets:pet_heart',
+            'inventorypets:pet_dubstep',
+            'inventorypets:pet_torch',
+            'inventorypets:pet_silverfish',
+            'inventorypets:pet_pixie',
+            'inventorypets:pet_cheetah',
+            'inventorypets:pet_quiver',
+            'inventorypets:pet_banana',
+            'inventorypets:pet_jukebox',
+            'inventorypets:pet_furnace',
+            'inventorypets:pet_enchanting_table',
+            'inventorypets:pet_double_chest',
+            'inventorypets:pet_crafting_table',
+            'inventorypets:pet_chest',
+            'inventorypets:pet_brewing_stand',
+            'inventorypets:pet_bed',
+            'inventorypets:pet_anvil',
+            'inventorypets:pet_squid',
+            'inventorypets:pet_sheep',
+            'inventorypets:pet_pig',
+            'inventorypets:pet_ocelot',
+            'inventorypets:pet_mooshroom',
+            'inventorypets:pet_cow',
+            'inventorypets:pet_chicken',
+            'inventorypets:pet_spider',
+            'inventorypets:pet_snow_golem',
+            'inventorypets:pet_iron_golem',
+            'inventorypets:pet_creeper',
+            'inventorypets:pet_pacman',
+
+            'sculktransporting:speed_modifier_tier_1',
+            'sculktransporting:speed_modifier_tier_2',
+            'sculktransporting:speed_modifier_tier_3',
+            'sculktransporting:speed_modifier_tier_4',
+            'sculktransporting:quantity_modifier_tier_1',
+            'sculktransporting:quantity_modifier_tier_3',
+            'sculktransporting:quantity_modifier_tier_2',
+            'sculktransporting:sculk_emitter', 'sculktransporting:sculk_receiver', 'sculktransporting:sculk_transmitter', 'sculktransporting:sculk_barrel',
+            'pipez:item_pipe',
+            'pipez:energy_pipe',
+            'pipez:gas_pipe',
+            'pipez:fluid_pipe',
+            'pipez:universal_pipe',
+            'jetboots:armor_core',
+            'ars_nouveau:jump_ring',
+            'jetboots:rocket_boots',
+            'jetboots:shock_absorber_upgrade',
             'ars_nouveau:ritual_brazier',
             'ars_nouveau:potion_melder',
             'ars_nouveau:relay_splitter',
@@ -207,6 +211,8 @@ ServerEvents.tags('item', event => {
 
     //recipe input side removed (as ingrendient)
     event.add('ironberry:input', [
+	'hostilenetworks:twilight_prediction',
+	'twilightforest:fiery_blood', 'twilightforest:fiery_tears',
             'pedestals:upgrade_pedestal_base',
             'homespun:tiny_iron_dust',
             'tombstone:essence_of_undeath',
@@ -217,31 +223,33 @@ ServerEvents.tags('item', event => {
     event.add('ironberry:any', [
             'homespun:crushing_tub',
             'homespun:tiny_iron_dust',
-            '#forge:coins',
             'homespun:cast_iron_block',
             '#forge:ores',
         ])
 
-    //JEI hide , recipe any side removed
+    //JEI hide , recipe any side removed , literally deleted
     event.add('ironberry:disabled', [
-			'jetboots:engine_upgrade', 'jetboots:muffled_upgrade', 'jetboots:underwater_upgrade', 'jetboots:thruster_upgrade', 'jetboots:jetboots', 'jetboots:guardian_pants', 'jetboots:guardian_helmet', 'jetboots:guardian_jacket',
-			'pipez:improved_upgrade', 'pipez:advanced_upgrade', 'pipez:ultimate_upgrade', 'pipez:infinity_upgrade',
+	'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction',
+	'twilightforest:maze_map', 'twilightforest:magic_map',
+            'hostilenetworks:deep_learner',
+            'hostilenetworks:blank_data_model',
+            'jetboots:engine_upgrade', 'jetboots:muffled_upgrade', 'jetboots:underwater_upgrade', 'jetboots:thruster_upgrade', 'jetboots:jetboots', 'jetboots:guardian_pants', 'jetboots:guardian_helmet', 'jetboots:guardian_jacket',
+            'pipez:improved_upgrade', 'pipez:advanced_upgrade', 'pipez:ultimate_upgrade', 'pipez:infinity_upgrade',
             'ars_nouveau:scribes_table',
             'ars_nouveau:abjuration_essence', 'ars_nouveau:water_essence', 'ars_nouveau:manipulation_essence', 'ars_nouveau:earth_essence', 'ars_nouveau:fire_essence', 'ars_nouveau:conjuration_essence', 'ars_nouveau:air_essence',
-            'ars_nouveau:imbuement_chamber',
             'ars_nouveau:glyph_cold_snap', 'ars_nouveau:glyph_summon_decoy', 'ars_nouveau:glyph_projectile', 'ars_nouveau:glyph_infuse', 'ars_nouveau:glyph_hex', 'ars_nouveau:glyph_underfoot', 'ars_nouveau:glyph_linger', 'ars_nouveau:glyph_light', 'ars_nouveau:glyph_dispel', 'ars_nouveau:glyph_delay', 'ars_nouveau:glyph_extract', 'ars_nouveau:glyph_slowfall', 'ars_nouveau:glyph_pierce', 'ars_nouveau:glyph_pull', 'ars_nouveau:glyph_sense_magic', 'ars_nouveau:glyph_wind_shear', 'ars_nouveau:glyph_craft', 'ars_nouveau:glyph_explosion', 'ars_nouveau:glyph_flare', 'ars_nouveau:glyph_rune', 'ars_nouveau:glyph_summon_undead', 'ars_nouveau:glyph_break', 'ars_nouveau:glyph_accelerate', 'ars_nouveau:glyph_orbit', 'ars_nouveau:glyph_extend_time', 'ars_nouveau:glyph_decelerate', 'ars_nouveau:glyph_aoe', 'ars_nouveau:burst', 'ars_nouveau:glyph_self', 'ars_nouveau:glyph_summon_vex', 'ars_nouveau:glyph_summon_steed', 'ars_nouveau:glyph_wall', 'ars_nouveau:glyph_freeze', 'ars_nouveau:glyph_gust', 'ars_nouveau:glyph_harvest', 'ars_nouveau:glyph_place_block',
             'ars_nouveau:glyph_interact', 'ars_nouveau:glyph_ender_inventory', 'ars_nouveau:glyph_intangible', 'ars_nouveau:glyph_duration_down', 'ars_nouveau:glyph_redstone_signal', 'ars_nouveau:glyph_sensitive', 'ars_nouveau:glyph_fell', 'ars_nouveau:glyph_exchange', 'ars_nouveau:glyph_fangs', 'ars_nouveau:glyph_leap', 'ars_nouveau:glyph_glide', 'ars_nouveau:glyph_heal', 'ars_nouveau:glyph_bounce', 'ars_nouveau:glyph_amplify', 'ars_nouveau:glyph_harm', 'ars_nouveau:glyph_ignite', 'ars_nouveau:glyph_animate_block', 'ars_nouveau:glyph_blink', 'ars_nouveau:glyph_rotate', 'ars_nouveau:glyph_launch', 'ars_nouveau:glyph_smelt', 'ars_nouveau:glyph_pickup', 'ars_nouveau:glyph_lightning', 'ars_nouveau:glyph_conjure_water', 'ars_nouveau:glyph_touch', 'ars_nouveau:glyph_evaporate', 'ars_nouveau:glyph_crush', 'ars_nouveau:glyph_snare', 'ars_nouveau:glyph_split', 'ars_nouveau:glyph_firework', 'ars_nouveau:glyph_gravity', 'ars_nouveau:glyph_dampen', 'ars_nouveau:glyph_name', 'ars_nouveau:glyph_summon_wolves', 'ars_nouveau:glyph_grow', 'ars_nouveau:glyph_cut',
             'ars_nouveau:void_prism', 'ars_nouveau:rotating_spell_turret', 'ars_nouveau:magelight_torch', 'ars_nouveau:sky_block', 'ars_nouveau:glyph_invisibility', 'ars_nouveau:glyph_phantom_block', 'ars_nouveau:glyph_fortune', 'ars_nouveau:glyph_wither', 'ars_nouveau:glyph_toss', 'ars_nouveau:ring_of_greater_discount', 'ars_nouveau:spell_parchment', 'ars_nouveau:amulet_of_mana_boost', 'ars_nouveau:amulet_of_mana_regen', 'ars_nouveau:dull_trinket', 'ars_nouveau:whirlisprig_charm', 'ars_nouveau:wand', 'ars_nouveau:wixie_charm', 'ars_nouveau:caster_tome', 'ars_nouveau:wilden_tribute', 'ars_nouveau:summon_focus', 'ars_nouveau:enchanters_mirror', 'ars_nouveau:shapers_focus', 'ars_nouveau:amethyst_golem_charm', 'ars_nouveau:annotated_codex', 'ars_nouveau:enchanters_eye', 'ars_nouveau:mage_block', 'ars_nouveau:wixie_cauldron', 'ars_nouveau:sconce', 'ars_nouveau:timer_spell_turret', 'ars_nouveau:basic_spell_turret', 'ars_nouveau:spell_turret', 'ars_nouveau:archwood_chest', 'ars_nouveau:spell_prism', 'ars_nouveau:whirlisprig_flower', 'ars_nouveau:alteration_table',
             'ars_nouveau:thread_kindling', 'ars_nouveau:thread_wixie', 'ars_nouveau:thread_repairing', 'ars_nouveau:novice_spell_book', 'ars_nouveau:apprentice_spell_book', 'ars_nouveau:archmage_spell_book', 'ars_nouveau:creative_spell_book', 'ars_nouveau:ring_of_potential', 'ars_nouveau:ring_of_lesser_discount', 'ars_nouveau:spell_bow', 'ars_nouveau:spell_crossbow', 'ars_nouveau:familiar_amethyst_golem', 'ars_nouveau:familiar_bookwyrm', 'ars_nouveau:familiar_drygmy', 'ars_nouveau:familiar_whirlisprig', 'ars_nouveau:familiar_wixie', 'ars_nouveau:familiar_starbuncle', 'ars_nouveau:thread_warding', 'ars_nouveau:thread_feather', 'ars_nouveau:thread_undying', 'ars_nouveau:thread_chilling', 'ars_nouveau:thread_starbuncle', 'ars_nouveau:thread_life_drain', 'ars_nouveau:thread_spellpower', 'ars_nouveau:thread_drygmy', 'ars_nouveau:thread_whirlisprig', 'ars_nouveau:thread_heights', 'ars_nouveau:thread_depths', 'ars_nouveau:blank_thread', 'ars_nouveau:thread_gliding', 'ars_nouveau:thread_magic_capacity',
             'mekanism:elite_injecting_factory', 'mekanism:elite_purifying_factory', 'mekanism:elite_combining_factory', 'mekanism:elite_compressing_factory', 'mekanism:elite_crushing_factory', 'mekanism:elite_enriching_factory', 'mekanism:elite_smelting_factory', 'mekanism:advanced_sawing_factory', 'mekanism:advanced_infusing_factory', 'mekanism:advanced_injecting_factory', 'mekanism:advanced_purifying_factory', 'mekanism:advanced_combining_factory', 'mekanism:advanced_compressing_factory', 'mekanism:advanced_crushing_factory', 'mekanism:advanced_enriching_factory', 'mekanism:advanced_smelting_factory', 'mekanism:basic_sawing_factory', 'mekanism:basic_infusing_factory', 'mekanism:basic_injecting_factory', 'mekanism:basic_purifying_factory', 'mekanism:basic_combining_factory', 'mekanism:basic_compressing_factory', 'mekanism:basic_crushing_factory', 'mekanism:basic_enriching_factory', 'mekanism:basic_smelting_factory', 'mekanism:reprocessed_fissile_fragment', 'mekanism:pellet_polonium', 'mekanism:pellet_plutonium', 'mekanism:electrolytic_core', 'mekanism:hdpe_stick', 'mekanism:hdpe_sheet', 'mekanism:hdpe_rod', 'mekanism:hdpe_pellet', 'mekanism:enriched_tin', 'mekanism:enriched_gold', 'mekanism:enriched_refined_obsidian',
-            'mekanism:enriched_diamond', 'mekanism:enriched_redstone', 'mekanism:enriched_carbon', 'mekanism:ultimate_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:basic_tier_installer', 'mekanism:upgrade_stone_generator', 'mekanism:upgrade_anchor', 'mekanism:upgrade_gas', 'mekanism:upgrade_filter', 'mekanism:upgrade_energy', 'mekanism:upgrade_speed', 'mekanism:module_frost_walker_unit', 'mekanism:module_magnetic_attraction_unit', 'mekanism:module_hydraulic_propulsion_unit', 'mekanism:module_motorized_servo_unit', 'mekanism:module_locomotive_boosting_unit', 'mekanism:module_hydrostatic_repulsor_unit', 'mekanism:module_gyroscopic_stabilization_unit', 'mekanism:module_elytra_unit', 'mekanism:module_gravitational_modulating_unit', 'mekanism:module_charge_distribution_unit', 'mekanism:module_jetpack_unit', 'mekanism:module_dosimeter_unit', 'mekanism:module_nutritional_injection_unit', 'mekanism:module_vision_enhancement_unit', 'mekanism:module_inhalation_purification_unit', 'mekanism:module_electrolytic_breathing_unit', 'mekanism:module_teleportation_unit', 'mekanism:module_vein_mining_unit', 'mekanism:module_blasting_unit', 'mekanism:module_fortune_unit', 'mekanism:module_silk_touch_unit', 'mekanism:module_shearing_unit', 'mekanism:module_farming_unit','mekanism:rotary_condensentrator', 'mekanism:module_attack_amplification_unit', 'mekanism:module_excavation_escalation_unit', 'mekanism:module_radiation_shielding_unit', 'mekanism:module_laser_dissipation_unit', 'mekanism:module_color_modulation_unit', 'mekanism:module_energy_unit', 'mekanism:module_base', 'mekanism:hdpe_elytra', 'mekanism:scuba_mask', 'mekanism:flamethrower', 'mekanism:qio_drive_supermassive', 'mekanism:qio_drive_time_dilating', 'mekanism:qio_drive_hyper_dense', 'mekanism:qio_drive_base', 'mekanism:portable_qio_dashboard', 'mekanism:canteen', 'mekanism:seismic_reader', 'mekanism:crafting_formula', 'mekanism:configuration_card', 'mekanism:portable_teleporter', 'mekanism:dictionary', 'mekanism:network_reader', 'mekanism:energy_tablet', 'mekanism:robit', 'mekanism:electric_bow', 'mekanism:mekasuit_boots', 'mekanism:free_runners_armored', 'mekanism:free_runners', 'mekanism:mekasuit_pants', 'mekanism:mekasuit_bodyarmor', 'mekanism:jetpack_armored', 'mekanism:jetpack', 'mekanism:scuba_tank', 'mekanism:mekasuit_helmet', 'mekanism:meka_tool', 'mekanism:qio_redstone_adapter', 'mekanism:qio_exporter', 'mekanism:qio_importer', 'mekanism:qio_dashboard', 'mekanism:qio_drive_array', 'mekanism:dimensional_stabilizer', 'mekanism:supercharged_coil', 'mekanism:sps_port', 'mekanism:sps_casing', 'mekanism:painting_machine', 'mekanism:pigment_mixer', 'mekanism:pigment_extractor', 'mekanism:antiprotonic_nucleosynthesizer', 'mekanism:modification_station', 'mekanism:fuelwood_heater', 'mekanism:formulaic_assemblicator', 'mekanism:resistive_heater', 'mekanism:oredictionificator', 'mekanism:solar_neutron_activator', 'mekanism:quantum_entangloporter', 'mekanism:laser_tractor_beam', 'mekanism:laser_amplifier', 'mekanism:laser', 'mekanism:nutritional_liquifier', 'mekanism:isotopic_centrifuge', 'mekanism:pressurized_reaction_chamber', 'mekanism:seismic_vibrator', 'mekanism:chemical_crystallizer', 'mekanism:chemical_washer', 'mekanism:chemical_dissolution_chamber', 'mekanism:precision_sawmill', 'mekanism:electrolytic_separator', 'mekanism:chemical_injection_chamber', 'mekanism:chemical_infuser', 'mekanism:chargepad', 'mekanism:personal_chest', 'mekanism:personal_barrel', 'mekanism:electric_pump', 'mekanism:teleporter', 'mekanism:energized_smelter', 'mekanism:purification_chamber', 'mekanism:metallurgic_infuser', 'mekanism:digital_miner', 'mekanism:crusher', 'mekanism:combiner', 'mekanism:osmium_compressor', 'mekanism:enrichment_chamber', 'mekanism:industrial_alarm', 'mekanism:radioactive_waste_barrel', 'mekanism:security_desk', 'mekanism:thermal_evaporation_block', 'mekanism:thermal_evaporation_valve', 'mekanism:thermal_evaporation_controller', 'mekanism:dynamic_valve', 'mekanism:dynamic_tank', 'mekanism:teleporter_frame', 'mekanism:ultimate_bin', 'mekanism:elite_bin', 'mekanism:advanced_bin', 'mekanism:basic_bin', 'mekanism:ultimate_sawing_factory', 'mekanism:ultimate_infusing_factory', 'mekanism:ultimate_injecting_factory', 'mekanism:ultimate_purifying_factory', 'mekanism:ultimate_combining_factory', 'mekanism:ultimate_compressing_factory', 'mekanism:ultimate_crushing_factory', 'mekanism:ultimate_enriching_factory', 'mekanism:ultimate_smelting_factory', 'mekanism:elite_sawing_factory', 'mekanism:elite_infusing_factory', 'mekanism:module_geiger_unit', 'mekanism:salt', 'mekanism:sawdust', 'mekanism:enriched_iron', 'mekanism:chlorine_bucket', 'mekanism:sulfuric_acid_bucket', 'mekanism:sulfur_dioxide_bucket', 'mekanism:sulfur_trioxide_bucket', 'mekanism:lithium_bucket', 'mekanism:brine_bucket', 'mekanism:superheated_sodium_bucket', 'mekanism:module_geiger_unit', 'mekanism:salt', 'mekanism:sawdust', 'mekanism:enriched_iron', 'mekanism:hydrofluoric_acid_bucket', 'mekanism:uranium_oxide_bucket', 'mekanism:steam_bucket', 'mekanism:sodium_bucket', 'mekanism:heavy_water_bucket', 'mekanism:uranium_hexafluoride_bucket', 'mekanism:nutritional_paste_bucket', 'mekanism:cardboard_box', 'mekanism:block_salt', 'mekanism:hydrogen_bucket', 'mekanism:oxygen_bucket', 'mekanism:hydrogen_chloride_bucket', 'mekanism:ethene_bucket', 'mekanismgenerators:laser_focus_matrix', 'mekanismgenerators:fusion_reactor_logic_adapter', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:saturating_condenser', 'mekanismgenerators:turbine_vent', 'mekanismgenerators:turbine_valve', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:electromagnetic_coil', 'mekanismgenerators:rotational_complex', 'mekanismgenerators:turbine_rotor', 'mekanismgenerators:wind_generator', 'mekanismgenerators:advanced_solar_generator', 'mekanismgenerators:bio_generator', 'mekanismgenerators:solar_generator', 'mekanismgenerators:heat_generator', 'mekanism:fluidic_plenisher', 'mekanism:boiler_casing', 'mekanism:pressure_disperser', 'mekanism:superheating_element', 'mekanismgenerators:tritium_bucket', 'mekanismgenerators:fusion_fuel_bucket', 'mekanismgenerators:deuterium_bucket', 'mekanismgenerators:bioethanol_bucket', 'mekanismgenerators:module_geothermal_generator_unit', 'mekanismgenerators:module_solar_recharging_unit', 'mekanismgenerators:turbine_blade', 'mekanismgenerators:hohlraum', 'mekanismgenerators:solar_panel', 'ars_nouveau:ghostweave', 'ars_nouveau:falseweave', 'ars_nouveau:mirrorweave', 'ars_nouveau:magebloom_block', 'ars_nouveau:vitalic_sourcelink', 'ars_nouveau:volcanic_sourcelink', 'ars_nouveau:dowsing_rod', 'ars_nouveau:enchanters_shield',
+            'mekanism:enriched_diamond', 'mekanism:enriched_redstone', 'mekanism:enriched_carbon', 'mekanism:ultimate_tier_installer', 'mekanism:elite_tier_installer', 'mekanism:advanced_tier_installer', 'mekanism:basic_tier_installer', 'mekanism:upgrade_stone_generator', 'mekanism:upgrade_anchor', 'mekanism:upgrade_gas', 'mekanism:upgrade_filter', 'mekanism:upgrade_energy', 'mekanism:upgrade_speed', 'mekanism:module_frost_walker_unit', 'mekanism:module_magnetic_attraction_unit', 'mekanism:module_hydraulic_propulsion_unit', 'mekanism:module_motorized_servo_unit', 'mekanism:module_locomotive_boosting_unit', 'mekanism:module_hydrostatic_repulsor_unit', 'mekanism:module_gyroscopic_stabilization_unit', 'mekanism:module_elytra_unit', 'mekanism:module_gravitational_modulating_unit', 'mekanism:module_charge_distribution_unit', 'mekanism:module_jetpack_unit', 'mekanism:module_dosimeter_unit', 'mekanism:module_nutritional_injection_unit', 'mekanism:module_vision_enhancement_unit', 'mekanism:module_inhalation_purification_unit', 'mekanism:module_electrolytic_breathing_unit', 'mekanism:module_teleportation_unit', 'mekanism:module_vein_mining_unit', 'mekanism:module_blasting_unit', 'mekanism:module_fortune_unit', 'mekanism:module_silk_touch_unit', 'mekanism:module_shearing_unit', 'mekanism:module_farming_unit', 'mekanism:rotary_condensentrator', 'mekanism:module_attack_amplification_unit', 'mekanism:module_excavation_escalation_unit', 'mekanism:module_radiation_shielding_unit', 'mekanism:module_laser_dissipation_unit', 'mekanism:module_color_modulation_unit', 'mekanism:module_energy_unit', 'mekanism:module_base', 'mekanism:hdpe_elytra', 'mekanism:scuba_mask', 'mekanism:flamethrower', 'mekanism:qio_drive_supermassive', 'mekanism:qio_drive_time_dilating', 'mekanism:qio_drive_hyper_dense', 'mekanism:qio_drive_base', 'mekanism:portable_qio_dashboard', 'mekanism:canteen', 'mekanism:seismic_reader', 'mekanism:crafting_formula', 'mekanism:configuration_card', 'mekanism:portable_teleporter', 'mekanism:dictionary', 'mekanism:network_reader', 'mekanism:energy_tablet', 'mekanism:robit', 'mekanism:electric_bow', 'mekanism:mekasuit_boots', 'mekanism:free_runners_armored', 'mekanism:free_runners', 'mekanism:mekasuit_pants', 'mekanism:mekasuit_bodyarmor', 'mekanism:jetpack_armored', 'mekanism:jetpack', 'mekanism:scuba_tank', 'mekanism:mekasuit_helmet', 'mekanism:meka_tool', 'mekanism:qio_redstone_adapter', 'mekanism:qio_exporter', 'mekanism:qio_importer', 'mekanism:qio_dashboard', 'mekanism:qio_drive_array', 'mekanism:dimensional_stabilizer', 'mekanism:supercharged_coil', 'mekanism:sps_port', 'mekanism:sps_casing', 'mekanism:painting_machine', 'mekanism:pigment_mixer', 'mekanism:pigment_extractor', 'mekanism:antiprotonic_nucleosynthesizer', 'mekanism:modification_station', 'mekanism:fuelwood_heater', 'mekanism:formulaic_assemblicator', 'mekanism:resistive_heater', 'mekanism:oredictionificator', 'mekanism:solar_neutron_activator', 'mekanism:quantum_entangloporter', 'mekanism:laser_tractor_beam', 'mekanism:laser_amplifier', 'mekanism:laser', 'mekanism:nutritional_liquifier', 'mekanism:isotopic_centrifuge', 'mekanism:pressurized_reaction_chamber', 'mekanism:seismic_vibrator', 'mekanism:chemical_crystallizer', 'mekanism:chemical_washer', 'mekanism:chemical_dissolution_chamber', 'mekanism:precision_sawmill', 'mekanism:electrolytic_separator', 'mekanism:chemical_injection_chamber', 'mekanism:chemical_infuser', 'mekanism:chargepad', 'mekanism:personal_chest', 'mekanism:personal_barrel', 'mekanism:electric_pump', 'mekanism:teleporter', 'mekanism:energized_smelter', 'mekanism:purification_chamber', 'mekanism:metallurgic_infuser', 'mekanism:digital_miner', 'mekanism:crusher', 'mekanism:combiner', 'mekanism:osmium_compressor', 'mekanism:enrichment_chamber', 'mekanism:industrial_alarm', 'mekanism:radioactive_waste_barrel', 'mekanism:security_desk', 'mekanism:thermal_evaporation_block', 'mekanism:thermal_evaporation_valve', 'mekanism:thermal_evaporation_controller', 'mekanism:dynamic_valve', 'mekanism:dynamic_tank', 'mekanism:teleporter_frame', 'mekanism:ultimate_bin', 'mekanism:elite_bin', 'mekanism:advanced_bin', 'mekanism:basic_bin', 'mekanism:ultimate_sawing_factory', 'mekanism:ultimate_infusing_factory', 'mekanism:ultimate_injecting_factory', 'mekanism:ultimate_purifying_factory', 'mekanism:ultimate_combining_factory', 'mekanism:ultimate_compressing_factory', 'mekanism:ultimate_crushing_factory', 'mekanism:ultimate_enriching_factory', 'mekanism:ultimate_smelting_factory', 'mekanism:elite_sawing_factory', 'mekanism:elite_infusing_factory', 'mekanism:module_geiger_unit', 'mekanism:salt', 'mekanism:sawdust', 'mekanism:enriched_iron', 'mekanism:chlorine_bucket', 'mekanism:sulfuric_acid_bucket', 'mekanism:sulfur_dioxide_bucket', 'mekanism:sulfur_trioxide_bucket', 'mekanism:lithium_bucket', 'mekanism:brine_bucket', 'mekanism:superheated_sodium_bucket', 'mekanism:module_geiger_unit', 'mekanism:salt', 'mekanism:sawdust', 'mekanism:enriched_iron', 'mekanism:hydrofluoric_acid_bucket', 'mekanism:uranium_oxide_bucket', 'mekanism:steam_bucket', 'mekanism:sodium_bucket', 'mekanism:heavy_water_bucket', 'mekanism:uranium_hexafluoride_bucket', 'mekanism:nutritional_paste_bucket', 'mekanism:cardboard_box', 'mekanism:block_salt', 'mekanism:hydrogen_bucket', 'mekanism:oxygen_bucket', 'mekanism:hydrogen_chloride_bucket', 'mekanism:ethene_bucket', 'mekanismgenerators:laser_focus_matrix', 'mekanismgenerators:fusion_reactor_logic_adapter', 'mekanismgenerators:fusion_reactor_port', 'mekanismgenerators:fusion_reactor_frame', 'mekanismgenerators:fusion_reactor_controller', 'mekanismgenerators:saturating_condenser', 'mekanismgenerators:turbine_vent', 'mekanismgenerators:turbine_valve', 'mekanismgenerators:turbine_casing', 'mekanismgenerators:electromagnetic_coil', 'mekanismgenerators:rotational_complex', 'mekanismgenerators:turbine_rotor', 'mekanismgenerators:wind_generator', 'mekanismgenerators:advanced_solar_generator', 'mekanismgenerators:bio_generator', 'mekanismgenerators:solar_generator', 'mekanismgenerators:heat_generator', 'mekanism:fluidic_plenisher', 'mekanism:boiler_casing', 'mekanism:pressure_disperser', 'mekanism:superheating_element', 'mekanismgenerators:tritium_bucket', 'mekanismgenerators:fusion_fuel_bucket', 'mekanismgenerators:deuterium_bucket', 'mekanismgenerators:bioethanol_bucket', 'mekanismgenerators:module_geothermal_generator_unit', 'mekanismgenerators:module_solar_recharging_unit', 'mekanismgenerators:turbine_blade', 'mekanismgenerators:hohlraum', 'mekanismgenerators:solar_panel', 'ars_nouveau:ghostweave', 'ars_nouveau:falseweave', 'ars_nouveau:mirrorweave', 'ars_nouveau:magebloom_block', 'ars_nouveau:vitalic_sourcelink', 'ars_nouveau:volcanic_sourcelink', 'ars_nouveau:dowsing_rod', 'ars_nouveau:enchanters_shield',
             'mekanism:ultimate_thermodynamic_conductor', 'mekanism:elite_thermodynamic_conductor', 'mekanism:advanced_thermodynamic_conductor', 'mekanism:basic_thermodynamic_conductor',
-			'nuclearcraft:bronze_ingot', 'nuclearcraft:zinc_ingot', 'nuclearcraft:bronze_block', 'nuclearcraft:tin_block', 'nuclearcraft:silver_block', 'nuclearcraft:zinc_block', 'mekanism:block_tin', 'mekanism:block_lead', 'mekanism:block_bronze', 'thermal:bronze_ingot', 'bluepower:silver_nugget', 'bluepower:silver_ingot', 'mekanism:nugget_bronze', 'nuclearcraft:electrum_nugget', 'nuclearcraft:lead_nugget', 'nuclearcraft:bronze_nugget', 'nuclearcraft:tin_nugget', 'nuclearcraft:silver_nugget', 'nuclearcraft:zinc_nugget', 'nuclearcraft:tungsten_ingot', 'nuclearcraft:tin_ingot', 'nuclearcraft:lead_block', 'nuclearcraft:electrum_block', 'bluepower:silver_block', 'mekanism:nugget_lead', 'mekanism:nugget_tin', 'mekanism:ingot_lead', 'mekanism:ingot_tin', 'nuclearcraft:lead_ingot', 'nuclearcraft:electrum_ingot', 'nuclearcraft:silver_ingot',
-			'nuclearcraft:tin_dust', 'mekanism:dust_tin', 'nuclearcraft:tungsten_dust', 'nuclearcraft:electrum_dust', 'nuclearcraft:bronze_dust', 'bluepower:silver_dust', 'nuclearcraft:silver_dust', 'mekanism:dust_bronze', 'nuclearcraft:zinc_dust', 'mekanism:dust_lead', 'nuclearcraft:lead_dust',
-			'ars_nouveau:ritual_gravity', 'ars_nouveau:glyph_randomize', 'ars_nouveau:spell_sensor',
-			'nuclearcraft:steel_ingot', 'nuclearcraft:steel_dust', 'nuclearcraft:steel_block', 'nuclearcraft:steel_nugget',
-			
-			'ars_nouveau:runic_chalk',
+            'nuclearcraft:bronze_ingot', 'nuclearcraft:zinc_ingot', 'nuclearcraft:bronze_block', 'nuclearcraft:tin_block', 'nuclearcraft:silver_block', 'nuclearcraft:zinc_block', 'mekanism:block_tin', 'mekanism:block_lead', 'mekanism:block_bronze', 'thermal:bronze_ingot', 'bluepower:silver_nugget', 'bluepower:silver_ingot', 'mekanism:nugget_bronze', 'nuclearcraft:electrum_nugget', 'nuclearcraft:lead_nugget', 'nuclearcraft:bronze_nugget', 'nuclearcraft:tin_nugget', 'nuclearcraft:silver_nugget', 'nuclearcraft:zinc_nugget', 'nuclearcraft:tungsten_ingot', 'nuclearcraft:tin_ingot', 'nuclearcraft:lead_block', 'nuclearcraft:electrum_block', 'bluepower:silver_block', 'mekanism:nugget_lead', 'mekanism:nugget_tin', 'mekanism:ingot_lead', 'mekanism:ingot_tin', 'nuclearcraft:lead_ingot', 'nuclearcraft:electrum_ingot', 'nuclearcraft:silver_ingot',
+            'nuclearcraft:tin_dust', 'mekanism:dust_tin', 'nuclearcraft:tungsten_dust', 'nuclearcraft:electrum_dust', 'nuclearcraft:bronze_dust', 'bluepower:silver_dust', 'nuclearcraft:silver_dust', 'mekanism:dust_bronze', 'nuclearcraft:zinc_dust', 'mekanism:dust_lead', 'nuclearcraft:lead_dust',
+            'ars_nouveau:ritual_gravity', 'ars_nouveau:glyph_randomize', 'ars_nouveau:spell_sensor',
+            'nuclearcraft:steel_ingot', 'nuclearcraft:steel_dust', 'nuclearcraft:steel_block', 'nuclearcraft:steel_nugget',
+
+            'ars_nouveau:runic_chalk',
             'ars_nouveau:archmage_boots',
             'ars_nouveau:apprentice_boots',
             'ars_nouveau:novice_boots',
@@ -255,7 +263,7 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:archmage_hood',
             'ars_nouveau:apprentice_hood',
             'ars_nouveau:enchanters_sword',
-			'mekanism:boiler_valve',
+            'mekanism:boiler_valve',
             'integratedtunnels:part_exporter_world_item',
             'integratedtunnels:part_exporter_world_block',
             'integratedtunnels:part_exporter_world_fluid',
@@ -450,9 +458,8 @@ ServerEvents.tags('item', event => {
 
     //JEI hide item
     event.add('ironberry:hide', [
-			'gateways:gate_pearl',
             'mekanism:creative_fluid_tank',
-			'mekanism:creative_chemical_tank',
+            'mekanism:creative_chemical_tank',
             'cyclic:compressed_cobblestone',
             'angelring:diamond_ring',
             'angelring:resonant_angel_ring',
@@ -680,7 +687,7 @@ ServerEvents.tags('item', event => {
         ])
 
     event.add('ironberry:wrench_fix', [
-			'nuclearcraft:multitool',
+            'nuclearcraft:multitool',
             'thermal:wrench',
             'ae2:certus_quartz_wrench',
             'ae2:nether_quartz_wrench',
@@ -919,13 +926,15 @@ ServerEvents.tags('item', event => {
             'minecraft:spider_eye', 'minecraft:string', 'minecraft:ender_pearl', 'twilightforest:minoshroom_trophy', 'minecraft:coal', 'minecraft:bone', 'twilightforest:arctic_fur', 'twilightforest:towerwood', 'thermal:blizz_rod', 'thermal:blitz_rod', 'minecraft:blaze_rod', 'thermal:basalz_rod', 'twilightforest:knight_phantom_trophy', 'minecraft:wheat', 'minecraft:gold_nugget', 'twilightforest:torchberries', 'twilightforest:lich_trophy', 'minecraft:iron_ingot', 'minecraft:snowball', 'quark:soul_bead', 'minecraft:arrow', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_wing', 'ars_nouveau:wilden_horn', 'twilightforest:armor_shard', 'minecraft:paper', 'twilightforest:magic_map_focus', 'minecraft:book', 'minecraft:glowstone_dust', 'twilightforest:raw_meef', 'twilightforest:maze_map_focus', 'minecraft:leather', 'twilightforest:meef_stroganoff',
         ])
 
+    event.add('ironberry:vanilla_pipe', ['minecraft:hopper', 'minecraft:dropper'])
+    event.add('ironberry:miniboss_trophy', ['twilightforest:minoshroom_trophy', 'twilightforest:knight_phantom_trophy'])
 
-	event.add('ironberry:vanilla_pipe',['minecraft:hopper', 'minecraft:dropper'])
-	event.add('ironberry:miniboss_trophy',['twilightforest:minoshroom_trophy', 'twilightforest:knight_phantom_trophy'])
-	
-	event.add('ironberry:echodrop',['minecraft:sculk', 'minecraft:sculk_vein'])
+    event.add('ironberry:echodrop', ['minecraft:sculk', 'minecraft:sculk_vein'])
 
-    event.add('ironberry:onlyplayer',['kubejs:grave_spawn', 'kubejs:ore_bone_meal', 'kubejs:rich_bone_meal', 'tombstone:strange_scroll'])
+    event.add('ironberry:onlyplayer', ['kubejs:grave_spawn', 'kubejs:ore_bone_meal', 'kubejs:rich_bone_meal', 'tombstone:strange_scroll'])
+
+	event.add('ironberry:source_gems',['minecraft:lapis_lazuli', 'minecraft:amethyst_shard'])
+
 
 })
 

@@ -48,9 +48,9 @@ ServerEvents.recipes(event => {
     //-----------------------------------------------//
     remid([
 			'craftingstation:crafting_station_slab',						
-            'homespun:crushing_flint_from_gravel',			
-            'homespun:crushing_sugar_from_beets',		
-            'homespun:crushing_ironberry_juice_from_ironberries',
+            'homespun:crushing/crushing_flint_from_gravel',			
+            'homespun:crushing/crushing_sugar_from_beets',		
+            'homespun:crushing/crushing_ironberry_juice_from_ironberries',
             'homespun:evaporating_tiny_iron_dust_from_ironberry_juice',
             'homespun:crushing_tiny_iron_dust_from_raw_iron',
             'pedestals:pedestals/pedestal_stone',
@@ -105,16 +105,14 @@ ServerEvents.recipes(event => {
 
     remod([
 			'angelring',					
-			'gateways',					//todo
+			'gateways',
             //'thermal',				//todo
             'cobblefordays',			//todo
             'ironchest',					
-            'prettypipes',				//done
+            'prettypipes',				
             'modularrouters',			//todo
             'pneumaticcraft',			//todo
 			'alchemygadgetry',		
-			//'inventorypets',			
-			'hostilenetworks',			//todo
         ])
 
 })
