@@ -32,4 +32,10 @@ StartupEvents.registry('block', event => {
     .model('ironberry:block/instability')
     .noDrops()
 
+	event.create('machine_frame')
+    .material('lantern')
+    .hardness(1.0)
+    .displayName('Machine Frame')
+    .model('ironberry:block/machine_frame')
+
 })
