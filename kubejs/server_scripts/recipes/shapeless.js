@@ -125,7 +125,7 @@ function moless(base,variants){
 	less(['sculktransporting:speed_modifier_tier_2', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_3')
 	less(['sculktransporting:speed_modifier_tier_3', 'minecraft:echo_shard', 'minecraft:sculk_sensor'],'sculktransporting:speed_modifier_tier_4')
 
-	
+	less(['9x twilightforest:armor_shard'],'twilightforest:armor_shard_cluster')
 	
 	
 })
