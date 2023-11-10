@@ -197,22 +197,4 @@ ServerEvents.recipes(event => {
     })
     //
     //
-    event.custom({
-        "type": "farmersdelight:cooking",
-        "cookingtime": 200,
-        "experience": 1.0,
-        "ingredients": [{
-                "item": 'twilightforest:meef_stroganoff'
-            }
-        ],
-        "recipe_book_tab": "meals",
-        "result": {
-            "item": 'nuclearcraft:dominos',
-            "count": 2
-        }
-    })
-    //
-    //
-
-
 })

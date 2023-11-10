@@ -9,13 +9,4 @@ ItemEvents.modification(event => {
         item.maxDamage = 2048
     })
 
-
-  event.modify('nuclearcraft:dominos', item => {
-    item.foodProperties = food => {
-        food.hunger(20)
-        food.saturation(20)
-        food.fastToEat(true)
-    }
-  })
-
 })

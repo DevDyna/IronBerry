@@ -117,4 +117,7 @@ ServerEvents.recipes(event => {
 	alloy(['#ironberry:miniboss_trophy'],[1],'kubejs:miniboss_trophy',1)
 
 	alloy(['minecraft:bone_block', 'minecraft:sculk'],[3,3],'minecraft:sculk_catalyst',1)
+	
+	
+	//alloy([],)
 })

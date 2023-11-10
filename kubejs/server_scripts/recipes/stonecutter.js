@@ -17,7 +17,6 @@ ServerEvents.recipes(event => {
 	}
 
 
-
     //servos
     scut([
             'thermal:energy_limiter_attachment',
@@ -133,7 +132,6 @@ ServerEvents.recipes(event => {
 
     //wrenches
     scut([
-			'nuclearcraft:multitool',
             'thermal:wrench',
             'ae2:certus_quartz_wrench',
             'ae2:nether_quartz_wrench',
