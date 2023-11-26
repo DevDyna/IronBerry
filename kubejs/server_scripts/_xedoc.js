@@ -69,14 +69,3 @@ try {
         }
     }) */
 } catch (error) {}
-//tombstone soul_type
-function soultype(event, type) {
-    Utils.server.runCommandSilent(`/setblock ${event.block.x} ${event.block.y} ${event.block.z} ${event.block.id}[soul_type= ${type} ]`)
-    Utils.server.runCommandSilent(`/particle minecraft:witch ${event.block.x} ${event.block.y+1} ${event.block.z} 0 0 0 0.5 100`)
-    let inv = event.player.inventory
-        if (!event.player.isCreative()) {
-            inv.extractItem(inv.find('kubejs:soul'), 1, false)
-        }
-        event.player.give('tombstone:soul_receptacle')
-
-}
