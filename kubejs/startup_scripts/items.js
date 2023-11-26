@@ -124,5 +124,9 @@ StartupEvents.registry('item', event => {
 	event.create('bioplastic')
 	.texture('ironberry:item/bioplastic')
 	.displayName('Bio Plastic')
+	
+	event.create('patina')
+	.texture('ironberry:item/patina')
+	.displayName('Patina')
 
 })
