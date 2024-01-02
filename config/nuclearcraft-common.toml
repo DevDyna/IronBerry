@@ -52,7 +52,7 @@
 
 #Settings for heat sinks
 [heat_sink]
-	#Cooling rate H/t: prismarine, aluminum, manganese, glowstone, slime, gold, liquid_nitrogen, lithium, carobbiite, enderium, end_stone, tin, copper, fluorite, lapis, obsidian, purpur, cryotheum, villiaumite, magnesium, quartz, arsenic, liquid_helium, nether_brick, water, lead, diamond, iron, silver, boron, emerald, redstone
+	#Cooling rate H/t: prismarine, aluminum, manganese, glowstone, netherite, slime, gold, liquid_nitrogen, lithium, carobbiite, enderium, end_stone, tin, copper, fluorite, lapis, obsidian, purpur, cryotheum, villiaumite, magnesium, quartz, arsenic, liquid_helium, nether_brick, water, lead, diamond, iron, silver, boron, emerald, redstone
 	cooling_rate = [115.0, 175.0, 150.0, 90.0, 145.0, 120.0, 185.0, 130.0, 140.0, 120.0, 40.0, 120.0, 80.0, 160.0, 120.0, 40.0, 95.0, 160.0, 180.0, 110.0, 90.0, 135.0, 140.0, 70.0, 60.0, 60.0, 150.0, 80.0, 170.0, 160.0, 160.0, 90.0]
 	#You can define blocks by block_name. So water_heat_sink will fall back to nuclearcraft:water_heat_sink. Or qualify it with namespace like some_mod:some_block.
 	#Or use block tag key. #nuclearcraft:fission_reactor_casing will fall back to blocks with this tag. Do not forget to put #.
@@ -98,6 +98,7 @@
 	boron = ["quartz_heat_sink", "#nuclearcraft:fission_reactor_casing|#nuclearcraft:moderators"]
 	emerald = ["fission_reactor_solid_fuel_cell", "#nuclearcraft:moderators"]
 	redstone = ["fission_reactor_solid_fuel_cell"]
+	netherite = ["obsidian_heat_sink", "fission_reactor_irradiation_chamber"]
 
 #Settings for Fission Reactor
 [fission_reactor]
@@ -116,6 +117,18 @@
 	#Each attachment of moderator to fuel cell will increase fuel heat generation by given percent value.
 	#Range: 0.0 ~ 1000.0
 	moderator_heat_multiplier = 33.34
+	#Reactor min size.
+	#Range: 3 ~ 24
+	min_size = 3
+	#Reactor max size.
+	#Range: 5 ~ 24
+	max_size = 24
+	#How much reactor may collect heat before meltdown.
+	#Range: 1000.0 ~ 1.0E8
+	heat_capacity = 1000000.0
+	#Rate at which steam recipes produced.
+	#Range: 0.01 ~ 1000000.0
+	boiling_mult = 5.0
 
 #Settings for Radiation
 [radiation]
@@ -258,4 +271,54 @@
 	wasteland = true
 	#Dimension ID for Wasteland
 	wastelandID = -4848
+
+#Settings for Fusion Reactor
+[fusion_reactor]
+	#Min reactor size.
+	#Range: 1 ~ 24
+	min_size = 1
+	#Max reactor size.
+	#Range: 3 ~ 48
+	max_size = 32
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 0.0 ~ 20.0
+	reactor_explosion_radius = 4.0
+	#Minimal magnetic field required to operate reactor. (Depends on reactor size).
+	#Range: 1.0 ~ 100.0
+	minimal_magnetic_field = 8.0
+	#Affects heating rate for plasma by rf amplifiers.
+	#Range: 0.01 ~ 100.0
+	rf_amplification_multiplier = 5.0
+	#Affects plasma energy to FE converion rate.
+	#Range: 0.01 ~ 10.0
+	plasma_to_energy_convertion = 1.0
+
+#Settings for Turbine
+[turbine]
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 3 ~ 24
+	min_size = 3
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 5 ~ 24
+	max_size = 24
+	#Efficiency %: gold, aluminium, copper, magnesium, beryllium, silver
+	efficiency = [104.0, 98.0, 110.0, 86.0, 90.0, 112.0]
+	#You can define blocks by block_name. So copper_turbine_coil will fall back to nuclearcraft:copper_turbine_coil. Or qualify it with namespace like some_mod:some_block.
+	#Or use block tag key. #nuclearcraft:fission_reactor_casing will fall back to blocks with this tag. Do not forget to put #.
+	#if you need AND condition, add comma separated values "block1", "block2" means AND condition
+	#if you need OR condition, use | separator. "block1|block2" means block1 or block2
+	#By default you have rule condition is 'At least 1'. So if you define some block, it will go in the rule as 'at least 1'
+	#Validation options: >2 means at least 2 (use any number)
+	#-2 means between, it is always 2 (opposite sides)
+	#<2 means less than 2 (use any number)
+	#=2 means exact 2 (use any number)
+	#^3 means 3 blocks in the corner (shared vertex or edge). possible values 2 and 3
+	#Default placement rules have all examples
+	placement_explanations = ""
+	gold = ["turbine_beryllium_coil"]
+	aluminium = ["turbine_gold_coil|turbine_magnesium_coil|turbine_beryllium_coil|turbine_gold_coil|turbine_copper_coil"]
+	copper = ["turbine_gold_coil"]
+	magnesium = ["turbine_bearing"]
+	beryllium = ["turbine_magnesium_coil"]
+	silver = ["turbine_magnesium_coil", "turbine_gold_coil"]
 
