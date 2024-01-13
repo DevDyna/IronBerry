@@ -71,9 +71,9 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/rich_bone_meal')
     .displayName('Rich Fertilizer')
 
-    //temporarly added , maybe on a future will removed
+    //temporarly added , maybe on a future will removed if added https://github.com/capnkirok/Inventory-Pets/issues/555
     event.create('illuminati')
-    .texture('ironberry:item/illuminati_yota')
+    .texture('inventorypets:item/illuminati_new')
     .displayName('Illuminati Yota')
 
     event.create('pre_compressed')
