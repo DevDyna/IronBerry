@@ -13,6 +13,11 @@
 		{ Count: 1b, id: "minecraft:dirt" }
 		{ Count: 1b, id: "minecraft:dirt" }
 		{ Count: 1b, id: "minecraft:grass_block" }
+		{
+			Count: 1b
+			id: "tiab:time_in_a_bottle"
+			tag: { }
+		}
 	]
 	emergency_items_cooldown: 300
 	grid_scale: 1.0d
