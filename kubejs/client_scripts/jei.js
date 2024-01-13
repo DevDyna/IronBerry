@@ -11,6 +11,7 @@ JEIEvents.information(event => {
     event.addItem('homespun:ironberries', 'You can obtain by break ironwood leaves')
     event.addItem('supplementaries:ash', '§0Obtained by set on §cfire §0wood stuff')
     event.addItem('tombstone:magic_scroll', 'Can be obtained by right click with a strange scroll while a potion effect still active')
+	event.addItem('#ironberry:patina_source','When deoxidized can spawn some patina')
 })
 JEIEvents.hideFluids(event => {
     event.hide(['mekanism:hydrogen', 'mekanism:oxygen', 'mekanism:chlorine', 'mekanism:sulfur_dioxide', 'mekanism:sulfur_trioxide', 'mekanism:sulfuric_acid', 'mekanism:hydrogen_chloride', 'mekanism:hydrofluoric_acid', 'mekanism:uranium_oxide', 'mekanism:uranium_hexafluoride', 'mekanism:ethene', 'mekanism:sodium', ])
