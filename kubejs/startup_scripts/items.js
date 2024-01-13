@@ -9,6 +9,10 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/rose')
     .displayName('Rose')
 
+	event.create('lore')
+    .texture('ironberry:item/lore')
+    .displayName('The LORE')
+
     //gems
     event.create('alpha')
     .texture('ironberry:item/gems/alpha')
