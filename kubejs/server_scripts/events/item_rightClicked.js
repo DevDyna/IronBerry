@@ -67,9 +67,9 @@ ItemEvents.rightClicked('kubejs:illuminati', event => {
             if (!event.player.isCreative())
                 event.player.addItemCooldown(event.item, 200)
                 let random = 0
-                    if (rnd(0, 100) == 0) {
+                    if (rnd(0, 10) == 0) {
 
-                        random = rnd(1000, 12000)
+                        random = rnd(12000, 48000)
 
                             let min = Math.floor(Math.floor(random / 20) / 60)
                             let sec = Math.floor(Math.floor(random / 20) - Math.floor((random / 60) / 20) * 60)
@@ -78,17 +78,17 @@ ItemEvents.rightClicked('kubejs:illuminati', event => {
                             }
                             let star = String.fromCharCode(9733)
                             event.player.notify(Notification.make(e => {
-                                    e.text = [Text.of(star).gold(), " + " + min + ":" + sec + '! ', Text.of(star).gold()]
+                                    e.text = [Text.of(star).gold(), " Added " + min + ":" + sec + '! ', Text.of(star).gold()]
                                     e.outlineColor = '#016055'
                                         e.backgroundColor = '#40E862'
                                         e.borderColor = '#267623'
                                 }))
 
                             Utils.server.runCommandSilent(`/title ${event.player.uuid} title "Time skipped of :${random}"`)
-                            Utils.server.runCommandSilent(`/execute at ${event.player.uuid} run playsound inventorypets:illuminati_confirmed block @a ~ ~ ~`)
+                            Utils.server.runCommandSilent(`/execute at ${event.player.uuid} run playsound inventorypets:illuminati_confirmed block @p ~ ~ ~`)
                     }
                     if (random == 0) {
-                        Utils.server.runCommandSilent(`/execute at ${event.player.uuid} run playsound inventorypets:illuminati block @a ~ ~ ~`)
+                        Utils.server.runCommandSilent(`/execute at ${event.player.uuid} run playsound inventorypets:illuminati block @p ~ ~ ~`)
                     }
 
                     event.player.inventory.getItem(event.player.inventory.find('tiab:time_in_a_bottle')).nbt.storedTime += random
