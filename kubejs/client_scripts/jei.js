@@ -13,7 +13,7 @@ JEIEvents.information(event => {
     event.addItem('tombstone:magic_scroll', 'Can be obtained by right click with a strange scroll while a potion effect still active')
 })
 JEIEvents.hideFluids(event => {
-    event.hide(['#ironberry:disabled', '#ironberry:hide'])
+    event.hide(['mekanism:hydrogen', 'mekanism:oxygen', 'mekanism:chlorine', 'mekanism:sulfur_dioxide', 'mekanism:sulfur_trioxide', 'mekanism:sulfuric_acid', 'mekanism:hydrogen_chloride', 'mekanism:hydrofluoric_acid', 'mekanism:uranium_oxide', 'mekanism:uranium_hexafluoride', 'mekanism:ethene', 'mekanism:sodium', ])
 })
 const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
     JEIEvents.hideCustom(event => {
@@ -22,9 +22,9 @@ const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
         event.get($MekanismJEI.TYPE_PIGMENT).hideAll()
         event.get($MekanismJEI.TYPE_SLURRY).hideAll()
     })
-JEIEvents.addItems(event => {
-    event.add('mekanism:creative_fluid_tank')
-    event.add('mekanism:creative_chemical_tank')
-    event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'))
-    event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:simple_gate"}'))
-})
+    JEIEvents.addItems(event => {
+        event.add('mekanism:creative_fluid_tank')
+        event.add('mekanism:creative_chemical_tank')
+        //event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'))
+        //event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:simple_gate"}'))
+    })

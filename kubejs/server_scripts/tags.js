@@ -732,21 +732,10 @@ ServerEvents.tags('block', event => {
 
 })
 
-ServerEvents.tags('fluid', event => {
+/*ServerEvents.tags('fluid', event => {
 
-    event.add('ironberry:disabled', [
-            'mekanism:hydrogen',
-            'mekanism:oxygen',
-            'mekanism:chlorine',
-            'mekanism:sulfur_dioxide',
-            'mekanism:sulfur_trioxide',
-            'mekanism:sulfuric_acid',
-            'mekanism:hydrogen_chloride',
-            'mekanism:hydrofluoric_acid',
-            'mekanism:uranium_oxide',
-            'mekanism:uranium_hexafluoride',
-            'mekanism:ethene',
-            'mekanism:sodium',
-        ])
+     event.add('ironberry:disabled', [
+        ]) 
 
 })
+*/
