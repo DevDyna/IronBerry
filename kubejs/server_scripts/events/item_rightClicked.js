@@ -84,7 +84,6 @@ ItemEvents.rightClicked('kubejs:illuminati', event => {
                                         e.borderColor = '#267623'
                                 }))
 
-                            Utils.server.runCommandSilent(`/title ${event.player.uuid} title "Time skipped of :${random}"`)
                             Utils.server.runCommandSilent(`/execute at ${event.player.uuid} run playsound inventorypets:illuminati_confirmed block @p ~ ~ ~`)
                     }
                     if (random == 0) {
@@ -101,7 +100,7 @@ ItemEvents.rightClicked('kubejs:illuminati', event => {
             event.player.addItemCooldown(event.item, 140)
             event.player.notify(Notification.make(e => {
                     e.text = [Text.of("Missing")]
-                    e.icon = 'ironberry:textures/item/tiab.png'
+                    e.icon = 'ironberry:textures/item/tiab.png'		//item texture fix
                         e.outlineColor = '#0009FF'
                         e.backgroundColor = '#03CDFF'
                         e.borderColor = '#039BFF'
