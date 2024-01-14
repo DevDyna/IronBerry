@@ -191,33 +191,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "2CDD39A4497DE414"
-			dev: false
-			height: 0.75d
-			hover: [ ]
-			image: "twilightforest:block/rainbow_oak_sapling"
-			order: 1
-			rotation: 0.0d
-			width: 0.75d
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "2CDD39A4497DE414"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ars_nouveau:textures/gui/storage_tab2.png"
-			rotation: 0.0d
-			width: 1.15d
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "190BF1366A412083"
 			dev: false
 			height: 1.0d
@@ -1671,7 +1644,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Real Battle"
+			title: "Time to fight"
 			x: 4.5d
 			y: -7.5d
 		}
@@ -1846,15 +1819,8 @@
 			shape: "square"
 			subtitle: "One of most dangerous Boss Battle"
 			tasks: [{
-				id: "17EA3CBF6BFC306E"
-				item: {
-					Count: 1b
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:simple_gate"
-					}
-				}
-				type: "item"
+				id: "0C402109886C5A1C"
+				type: "checkmark"
 			}]
 			title: "The Final countdown"
 			x: 4.5d
@@ -2168,32 +2134,6 @@
 			}]
 			x: 7.0d
 			y: -10.0d
-		}
-		{
-			dependencies: [
-				"7F0F2D13448390AF"
-				"6DA70AC867C01085"
-			]
-			icon: {
-				Count: 1b
-				id: "twilightforest:twilight_portal_miniature_structure"
-				tag: { }
-			}
-			id: "2CDD39A4497DE414"
-			shape: "square"
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				icon: {
-					Count: 1b
-					id: "twilightforest:twilight_portal_miniature_structure"
-					tag: { }
-				}
-				id: "7B20C3CBFCAF9EE1"
-				type: "dimension"
-			}]
-			title: "What is this place?"
-			x: 2.8d
-			y: 0.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]
