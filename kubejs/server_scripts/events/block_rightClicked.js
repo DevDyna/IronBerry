@@ -133,7 +133,7 @@ BlockEvents.rightClicked(event => {
                 compost.x += 0.5
                 compost.z += 0.5
                 compost.item = Item.of('kubejs:patina')
-                compost.item.count = 1
+                compost.item.count = rnd(1,4)
                 compost.spawn()
         }
     })
