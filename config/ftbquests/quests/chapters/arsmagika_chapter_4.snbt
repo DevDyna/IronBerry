@@ -3,11 +3,7 @@
 	default_quest_shape: ""
 	filename: "arsmagika_chapter_4"
 	group: "0AB07CEFAAABA228"
-	icon: {
-		Count: 1b
-		id: "engineersdecor:sign_caution"
-		tag: { }
-	}
+	icon: "ars_nouveau:jar_of_light"
 	id: "18480D6C6EE13345"
 	images: [
 		{
@@ -148,7 +144,14 @@
 			id: "3D996AEBE2D15324"
 			tasks: [{
 				id: "138C8C37B79FE870"
-				item: "ars_nouveau:green_archwood_sapling"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:magic_trees"
+					}
+				}
+				title: "Any #ironberry:magic_trees"
 				type: "item"
 			}]
 			x: 6.0d
