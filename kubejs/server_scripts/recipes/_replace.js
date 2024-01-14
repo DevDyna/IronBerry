@@ -66,7 +66,7 @@ event.replaceInput({ output: 'sophisticatedstorage:stack_upgrade_tier_4'},'minec
 
 
 //soap made of potato
-event.replaceInput({output : 'supplementaries:soap'},'minecraft:porkchop','minecraft:potato')
+event.replaceInput({output : 'supplementaries:soap'},'minecraft:porkchop','#ironberry:soap_popera')
 //unify sticky
 event.replaceInput({input : 'minecraft:slime_ball'},'minecraft:slime_ball','#ironberry:sticky')
 
@@ -140,5 +140,8 @@ event.replaceOutput({output:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify
 
 
 event.replaceInput({input:'twilightforest:raven_feather'},'twilightforest:raven_feather','#forge:feathers')
+
+
+
 
 })
