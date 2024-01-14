@@ -119,7 +119,8 @@ ServerEvents.tags('item', event => {
             'inventorypets:pet_iron_golem',
             'inventorypets:pet_creeper',
             'inventorypets:pet_pacman',
-
+			'thermal:fluid_cell_frame',
+			'thermal:energy_cell_frame',
             'sculktransporting:speed_modifier_tier_1',
             'sculktransporting:speed_modifier_tier_2',
             'sculktransporting:speed_modifier_tier_3',
@@ -695,6 +696,10 @@ ServerEvents.tags('item', event => {
 	event.add('ironberry:source_gems',['minecraft:lapis_lazuli', 'minecraft:amethyst_shard'])
 
 	event.add('ironberry:patina_source',    ['minecraft:oxidized_copper', 'minecraft:oxidized_cut_copper', 'minecraft:oxidized_cut_copper_stairs', 'minecraft:oxidized_cut_copper_slab', 'quark:oxidized_cut_copper_vertical_slab', 'minecraft:weathered_copper', 'minecraft:weathered_cut_copper', 'minecraft:weathered_cut_copper_stairs', 'minecraft:weathered_cut_copper_slab', 'quark:weathered_cut_copper_vertical_slab', 'minecraft:exposed_copper', 'minecraft:exposed_cut_copper', 'minecraft:exposed_cut_copper_stairs', 'minecraft:exposed_cut_copper_slab', 'quark:exposed_cut_copper_vertical_slab'])
+
+	event.add('ironberry:soap_popera',['minecraft:potato', 'kubejs:patina'])
+
+	event.add('ironberry:magic_trees',['ars_nouveau:blue_archwood_sapling', 'ars_nouveau:purple_archwood_sapling', 'ars_nouveau:green_archwood_sapling', 'ars_nouveau:red_archwood_sapling'])
 
 })
 
