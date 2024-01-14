@@ -109,7 +109,10 @@ ItemEvents.tooltip(event => {
 	tipplusplus('#ironberry:echodrop','Drop §9echo shards §fwhen broken')
 	tipplusplus('minecraft:echo_shard', 'Obtained by breaking §7sculk blocks')
     tipplusplus('#ironberry:onlyplayer','§4Only player can use this item!')
-	tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
+	//tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
+	tipplusplus('ironberry:patina','Obtained by using axes on a oxidized copper block')
+
+
 
 })
 
