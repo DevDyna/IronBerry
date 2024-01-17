@@ -9,7 +9,7 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/rose')
     .displayName('Rose')
 
-	event.create('lore')
+    event.create('lore')
     .texture('ironberry:item/lore')
     .displayName('The LORE')
 
@@ -107,30 +107,29 @@ StartupEvents.registry('item', event => {
     event.create('ritual_tablet')
     .texture('ironberry:item/ritual_tablet')
     .displayName(' Empty Ritual Tablet')
-	
-	    event.create('boss_trophy')
+
+    event.create('boss_trophy')
     .texture('ironberry:item/boss_trophy')
     .displayName('Boss Trophy')
-	
-		    event.create('miniboss_trophy')
+
+    event.create('miniboss_trophy')
     .texture('ironberry:item/miniboss_trophy')
     .displayName('MiniBoss Trophy')
 
-		    event.create('speed_base')
+    event.create('speed_base')
     .texture('ironberry:item/speed_base')
     .displayName('Speed Upgrade Base')
 
-		    event.create('quantity_base')
+    event.create('quantity_base')
     .texture('ironberry:item/quantity_base')
     .displayName('Quantity Upgrade Base')
-	
-	
-	event.create('silicon_plated')
-	.texture('ironberry:item/silicon_plate')
-	.displayName('Siliconed Plastic plate')
-	
-	event.create('patina')
-	.texture('ironberry:item/patina')
-	.displayName('Patina')
+
+    event.create('silicon_plated')
+    .texture('ironberry:item/silicon_plate')
+    .displayName('Siliconed Plastic plate')
+
+    event.create('patina')
+    .texture('ironberry:item/patina')
+    .displayName('Patina')
 
 })
