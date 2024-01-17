@@ -197,4 +197,104 @@ ServerEvents.recipes(event => {
     })
     //
     //
+	    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 80,
+        "experience": 1.0,
+        "ingredients": [{
+                "item": 'twilightforest:meef_stroganoff'
+            },{
+                "item": 'twilightforest:meef_stroganoff'
+            },{
+                "item": 'twilightforest:meef_stroganoff'
+            },{
+                "item": 'twilightforest:meef_stroganoff'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'nuclearcraft:dominos',
+            "count": 4
+        }
+    })
+    //
+    //
+	
+		    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 80,
+        "experience": 1.0,
+        "ingredients": [{
+                "item": 'minecraft:glass_bottle'
+            },{
+                "item": 'minecraft:ghast_tear'
+            },{
+                "item": 'minecraft:ghast_tear'
+            },{
+                "item": 'minecraft:ghast_tear'
+            },{
+                "item": 'minecraft:ghast_tear'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'twilightforest:fiery_tears',
+            "count": 1
+        }
+    })
+    //
+    //
+	
+		    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 80,
+        "experience": 1.0,
+        "ingredients": [{
+                "item": 'minecraft:glass_bottle'
+            },{
+                "item": 'twilightforest:borer_essence'
+            },{
+                "item": 'twilightforest:borer_essence'
+            },{
+                "item": 'twilightforest:borer_essence'
+            },{
+                "item": 'twilightforest:borer_essence'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'twilightforest:fiery_blood',
+            "count": 1
+        }
+    })
+    //
+    //
+	
+			    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 80,
+        "experience": 1.0,
+        "ingredients": [{
+                "item": 'twilightforest:fiery_tears'
+            },{
+                "item": 'twilightforest:fiery_blood'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'reactive:acid_bottle',
+            "count": 2
+        }
+    })
+    //
+    //
+	
+	
+	
+	
+	
+	
+	
+	
+	
 })
