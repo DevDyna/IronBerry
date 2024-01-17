@@ -126,7 +126,7 @@ StartupEvents.registry('item', event => {
 
     event.create('silicon_plated')
     .texture('ironberry:item/silicon_plate')
-    .displayName('Siliconed Plastic plate')
+    .displayName('Siliconed Plastic Plate')
 
     event.create('patina')
     .texture('ironberry:item/patina')
