@@ -687,4 +687,6 @@ ServerEvents.recipes(event => {
 
 	shapex(['pneumaticcraft:pressure_chamber_wall', 'pneumaticcraft:reinforced_pressure_tube'],'pneumaticcraft:pressure_chamber_valve')
 
+	shapex(['pneumaticcraft:pressure_chamber_wall'],'pneumaticcraft:pressure_chamber_glass')
+
 })
