@@ -125,9 +125,9 @@ StartupEvents.registry('item', event => {
     .displayName('Quantity Upgrade Base')
 	
 	
-	event.create('bioplastic')
-	.texture('ironberry:item/bioplastic')
-	.displayName('Bio Plastic')
+	event.create('silicon_plated')
+	.texture('ironberry:item/silicon_plate')
+	.displayName('Siliconed Plastic plate')
 	
 	event.create('patina')
 	.texture('ironberry:item/patina')
