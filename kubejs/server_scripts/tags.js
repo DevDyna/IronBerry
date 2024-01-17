@@ -224,6 +224,8 @@ ServerEvents.tags('item', event => {
 
     //recipe any side removed
     event.add('ironberry:any', [
+	'mekanism:basic_fluid_tank', 'mekanism:advanced_fluid_tank', 'mekanism:elite_fluid_tank', 'mekanism:ultimate_fluid_tank',
+	'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction',
 	'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
 	'twilightforest:maze_map',
             'homespun:crushing_tub',
