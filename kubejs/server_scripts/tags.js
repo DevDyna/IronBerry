@@ -84,6 +84,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+	'hostilenetworks:empty_prediction',
 	'thoriumreactors:white_industrial_block_brick',
 		'ars_nouveau:imbuement_chamber',
             'inventorypets:pet_wither',
@@ -208,6 +209,7 @@ ServerEvents.tags('item', event => {
             '#tombstone:magic_books',
             'ae2:entropy_manipulator',
             'integrateddynamics:variablestore',
+			'twilightforest:magic_map',
         ])
 
     //recipe input side removed (as ingrendient)
@@ -222,6 +224,8 @@ ServerEvents.tags('item', event => {
 
     //recipe any side removed
     event.add('ironberry:any', [
+	'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
+	'twilightforest:maze_map',
             'homespun:crushing_tub',
             'homespun:tiny_iron_dust',
             'homespun:cast_iron_block',
