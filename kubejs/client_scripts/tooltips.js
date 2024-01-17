@@ -112,6 +112,7 @@ ItemEvents.tooltip(event => {
 	//tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
 	tipplusplus('kubejs:patina','Obtained by using axes on a §boxidized§f §6copper block')
 
+	tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'],'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
 
 
 })
