@@ -678,6 +678,13 @@ ServerEvents.recipes(event => {
 	'hostilenetworks:loot_fabricator')
 	
 	shapex(['thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'cyclic:tank', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen'],'thoriumreactors:water_source_block')
-	
-	
+	shapex(['pneumaticcraft:ingot_iron_compressed','cyclic:tank','pneumaticcraft:ingot_iron_compressed'],'2x pneumaticcraft:small_tank')
+	shapex(['kubejs:pre_compressed', 'kubejs:pre_compressed', 'kubejs:pre_compressed', 'kubejs:pre_compressed', 'kubejs:blank', 'kubejs:pre_compressed', 'kubejs:pre_compressed', 'kubejs:pre_compressed', 'kubejs:pre_compressed'],'64x pneumaticcraft:pressure_chamber_wall')
+
+	shapex(['minecraft:hopper', 'pneumaticcraft:pressure_chamber_wall', 'uppers:upper'],'2x pneumaticcraft:pressure_chamber_interface')
+
+	shapex(['integrateddynamics:cable', 'thermal:basalz_rod', 'integrateddynamics:cable', 'thermal:blitz_rod', 'kubejs:processor', 'twilightforest:arctic_fur', 'integrateddynamics:cable', 'thermal:blizz_rod', 'integrateddynamics:cable'],'16x pneumaticcraft:reinforced_pressure_tube')
+
+	shapex(['pneumaticcraft:pressure_chamber_wall', 'pneumaticcraft:reinforced_pressure_tube'],'pneumaticcraft:pressure_chamber_valve')
+
 })
