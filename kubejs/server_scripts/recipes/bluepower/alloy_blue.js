@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
 	alloy(['minecraft:stone_slab', 'minecraft:smooth_stone_slab', 'quark:blank_rune'],[1,1,1],'kubejs:ritual_tablet',8)
 
 
-
+	alloy(['kubejs:patina', 'hostilenetworks:twilight_prediction'],[1,1],'hostilenetworks:empty_prediction',1)
 
 	//alloy([],)
 
