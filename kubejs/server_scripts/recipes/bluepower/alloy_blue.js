@@ -118,6 +118,16 @@ ServerEvents.recipes(event => {
 
 	alloy(['minecraft:bone_block', 'minecraft:sculk'],[3,3],'minecraft:sculk_catalyst',1)
 	
+	alloy(['#quark:runes_lootable'],[1],'quark:blank_rune',1)
 	
+	alloy(['kubejs:ritual_tablet', 'kubejs:processor'],[1,1],'hostilenetworks:empty_prediction',16)
+
+	alloy(['minecraft:stone_slab', 'minecraft:smooth_stone_slab', 'quark:blank_rune'],[1,1,1],'kubejs:ritual_tablet',8)
+
+
+
+
 	//alloy([],)
+
+
 })
