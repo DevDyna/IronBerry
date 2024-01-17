@@ -27,6 +27,7 @@ function ItemOrTag(value) {
 }
 //check if value is a tag or item and return as json + count value
 function ItemOrTagAndCount(value, count) {
+	try{
     if (value.charAt(0) === '#') {
         return {
             "tag": cut(value, 1),
@@ -38,6 +39,12 @@ function ItemOrTagAndCount(value, count) {
             "count": count
         }
     }
+	}catch(e){
+		        return {
+            "item": value,
+            "count": count
+        }
+	}
 }
 //return as json + count value
 function ItemAndCount(value, count) {
