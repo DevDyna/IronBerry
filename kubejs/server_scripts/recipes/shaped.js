@@ -554,89 +554,130 @@ ServerEvents.recipes(event => {
         ], {
         C: 'dyenamics:maroon_wool',
         E: 'kubejs:grave_spawn',
-		W: 'homespun:stripped_ironwood_wood'
+        W: 'homespun:stripped_ironwood_wood'
     })
     //
     //
     //
-	    event.shaped('minecraft:hopper', [
+    event.shaped('minecraft:hopper', [
             'I I',
             'ICI',
             ' I '
         ], {
         C: '#forge:chests/wooden',
-		I: 'minecraft:iron_ingot'
+        I: 'minecraft:iron_ingot'
     })
-	
-		    event.shaped('kubejs:quantity_base', [
+
+    event.shaped('kubejs:quantity_base', [
             'EEE',
             'ESE',
             'EEE'
         ], {
         E: 'minecraft:echo_shard',
-		S: 'minecraft:sculk'
+        S: 'minecraft:sculk'
     })
-	
-		    event.shaped('kubejs:speed_base', [
+
+    event.shaped('kubejs:speed_base', [
             'EEE',
             'EBE',
             'EEE'
         ], {
         E: 'minecraft:echo_shard',
-		B: 'minecraft:sculk_catalyst'
+        B: 'minecraft:sculk_catalyst'
     })
-	
-			    event.shaped('ars_nouveau:imbuement_chamber', [
+
+    event.shaped('ars_nouveau:imbuement_chamber', [
             'ECE',
             'EBE',
             'ECE'
         ], {
         E: 'ars_nouveau:archwood_planks',
-		B: 'ars_nouveau:source_gem',
-		C: 'minecraft:gold_ingot'
+        B: 'ars_nouveau:source_gem',
+        C: 'minecraft:gold_ingot'
     })
-	
-/* 	event.shaped('thoriumreactors:white_industrial_block_brick', [
-            'EEE',
-            'EBE',
-            'EEE'
+
+    event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'), [
+            'AWS',
+            'BDB',
+            'SWA'
         ], {
-        E: 'minecraft:iron_nugget',
-		B: 'minecraft:bricks'
+        S: 'kubejs:scroll_discontinuity',
+        A: 'kubejs:scroll_safety',
+        B: 'tombstone:dark_marble',
+        W: 'tombstone:white_marble',
+        D: 'tombstone:voodoo_poppet'
+    })
+
+    event.shaped(Item.of('hostilenetworks:data_model', '{data_model:{data:250,id:"hostilenetworks:grave_guardian"}}'), [
+            'ABC',
+            'DEF',
+            'GHI'
+        ], {
+        I: 'twilightforest:magic_map_focus',
+        A: 'kubejs:processor',
+        C: 'twilightforest:maze_map_focus',
+        D: 'kubejs:ritual_tablet',
+        B: 'exoticbirds:phoenix_egg',
+        H: 'thermaloot:variable_capacitor',
+        G: 'tombstone:soul_receptacle',
+        F: 'quark:blank_rune',
+        E: Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}').strongNBT()
+
+    })
+
+    /* 	event.shaped('thoriumreactors:white_industrial_block_brick', [
+    'EEE',
+    'EBE',
+    'EEE'
+    ], {
+    E: 'minecraft:iron_nugget',
+    B: 'minecraft:bricks'
     }) */
+
+    function shapex(items, result) {
+        event.shaped(result, ['ABC', 'DEF', 'GHI'], {
+            A: items[0],
+            B: items[1],
+            C: items[2],
+            D: items[3],
+            E: items[4],
+            F: items[5],
+            G: items[6],
+            H: items[7],
+            I: items[8]
+        })
+    }
+
+    function shaplus(item_input, slot_input, output) {
+        let recipe = [[], [], []]
+        for (let i = 0; i < slot_input.length; i++) {
+            for (let j = 0; j < slot_input[i].length; j++) {
+                //set on recipe index of array[[],[],[]] of array[] item_input of index i
+                recipe[Math.floor(slot_input[i][j] / 3)][slot_input[i][j] - (3 * Math.floor(slot_input[i][j] / 3))] = item_input[i]
+            }
+        }
+        let id = ''
+            for (let i = 0; i < item_input.length; i++) {
+                id = id + item_input[i] + '_' + slot_input[i].length
+            }
+            event.shaped(output, recipe).id(RegX(id + output))
+    }
+
+    /*
+    012
+    345
+    678
+     */
+
+    //shaplus(['ars_nouveau:archwood_planks','ars_nouveau:archwood_slab'],[[0,2,3,5],[1,4]],'ars_nouveau:repository')
+    shaplus(['minecraft:glass_bottle', '#forge:glass'], [[4], [3, 5, 6, 7, 8]], 'supplementaries:jar')
+    shapex(['kubejs:miniboss_trophy', 'ars_nouveau:mob_jar', 'kubejs:miniboss_trophy', 'kubejs:aquamarine', 'kubejs:machine_frame', 'kubejs:jade', 'kubejs:miniboss_trophy', 'thermaloot:variable_capacitor', 'kubejs:miniboss_trophy'], 'hostilenetworks:sim_chamber')
+    shapex(['twilightforest:ironwood_ingot', 'kubejs:processor', 'twilightforest:knightmetal_ingot', 'kubejs:topaz', 'kubejs:machine', 'kubejs:iolite', 'twilightforest:knightmetal_ingot', 'twilightforest:steeleaf_ingot', 'twilightforest:ironwood_ingot'], 'kubejs:machine_frame')
+	shapex(
+	['kubejs:boss_trophy', 'ars_nouveau:mob_jar', 'kubejs:boss_trophy', 'twilightforest:fiery_ingot', 'kubejs:machine_frame', 'twilightforest:carminite', 'kubejs:boss_trophy', 'quark:blank_rune', 'kubejs:boss_trophy'],
+	'hostilenetworks:loot_fabricator')
 	
+	shapex(['thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'cyclic:tank', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen'],'thoriumreactors:water_source_block')
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		function shaplus(item_input,slot_input,output){
-		let recipe = [[],[],[]]
-		for(let i =0 ;i<slot_input.length;i++){			
-			for(let j=0;j<slot_input[i].length;j++){
-			//set on recipe index of array[[],[],[]] of array[] item_input of index i
-			recipe[Math.floor(slot_input[i][j]/3)][slot_input[i][j] - (3*Math.floor(slot_input[i][j]/3))] = item_input[i]
-			}
-		}
-		let id = ''
-		for(let i=0;i<item_input.length;i++){
-			id = id+item_input[i]+'_'+slot_input[i].length
-		}
-		event.shaped(output,recipe).id(RegX(id+output))
-	}
-	
-	/*
-	012
-	345
-	678
-	*/
-	
-	//shaplus(['ars_nouveau:archwood_planks','ars_nouveau:archwood_slab'],[[0,2,3,5],[1,4]],'ars_nouveau:repository')
-	shaplus(['minecraft:glass_bottle','#forge:glass'],[[4],[3,5,6,7,8]],'supplementaries:jar')
 	
 })
