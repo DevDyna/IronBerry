@@ -744,10 +744,8 @@ ServerEvents.tags('block', event => {
 
 })
 
-/*ServerEvents.tags('fluid', event => {
+ServerEvents.tags('fluid', event => {
 
-     event.add('ironberry:disabled', [
-        ]) 
+     event.add('ironberry:chad_water', 'minecraft:water') 
 
 })
-*/
