@@ -45,10 +45,9 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:red_archwood_sapling',
             'ars_nouveau:purple_archwood_sapling',
             'ars_nouveau:blue_archwood_sapling'])
-	
-	NoTag(event,['twilightforest:armor_shard_cluster','thermal:sapphire', 'thermal:ruby',])
-	
-	
+
+    NoTag(event, ['twilightforest:armor_shard_cluster', 'thermal:sapphire', 'thermal:ruby', ])
+
     //----------------------------------------------------------------//
 
     //tombstone tags
@@ -84,9 +83,12 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
-	'hostilenetworks:empty_prediction',
-	'thoriumreactors:white_industrial_block_brick',
-		'ars_nouveau:imbuement_chamber',
+			'prettypipes:blank_module', 
+			'prettypipes:pipe',
+			'#ironberry:module',
+            'hostilenetworks:empty_prediction',
+            'thoriumreactors:white_industrial_block_brick',
+            'ars_nouveau:imbuement_chamber',
             'inventorypets:pet_wither',
             'inventorypets:pet_slime',
             'inventorypets:pet_pufferfish',
@@ -120,8 +122,8 @@ ServerEvents.tags('item', event => {
             'inventorypets:pet_iron_golem',
             'inventorypets:pet_creeper',
             'inventorypets:pet_pacman',
-			'thermal:fluid_cell_frame',
-			'thermal:energy_cell_frame',
+            'thermal:fluid_cell_frame',
+            'thermal:energy_cell_frame',
             'sculktransporting:speed_modifier_tier_1',
             'sculktransporting:speed_modifier_tier_2',
             'sculktransporting:speed_modifier_tier_3',
@@ -129,7 +131,10 @@ ServerEvents.tags('item', event => {
             'sculktransporting:quantity_modifier_tier_1',
             'sculktransporting:quantity_modifier_tier_3',
             'sculktransporting:quantity_modifier_tier_2',
-            'sculktransporting:sculk_emitter', 'sculktransporting:sculk_receiver', 'sculktransporting:sculk_transmitter', 'sculktransporting:sculk_barrel',
+            'sculktransporting:sculk_emitter', 
+			'sculktransporting:sculk_receiver', 
+			'sculktransporting:sculk_transmitter', 
+			'sculktransporting:sculk_barrel',
             'pipez:item_pipe',
             'pipez:energy_pipe',
             'pipez:gas_pipe',
@@ -209,25 +214,24 @@ ServerEvents.tags('item', event => {
             '#tombstone:magic_books',
             'ae2:entropy_manipulator',
             'integrateddynamics:variablestore',
-			'twilightforest:magic_map',
+            'twilightforest:magic_map',
         ])
 
     //recipe input side removed (as ingrendient)
     event.add('ironberry:input', [
-	'hostilenetworks:twilight_prediction',
-	'twilightforest:fiery_blood', 'twilightforest:fiery_tears',
+            'hostilenetworks:twilight_prediction',
+            'twilightforest:fiery_blood', 'twilightforest:fiery_tears',
             'pedestals:upgrade_pedestal_base',
             'homespun:tiny_iron_dust',
             'tombstone:essence_of_undeath',
             'ars_nouveau:blank_parchment',
         ])
+	
+	event.add('ironberry:any',global.disabledItem)
 
     //recipe any side removed
     event.add('ironberry:any', [
-	'mekanism:basic_fluid_tank', 'mekanism:advanced_fluid_tank', 'mekanism:elite_fluid_tank', 'mekanism:ultimate_fluid_tank',
-	'hostilenetworks:overworld_prediction', 'hostilenetworks:nether_prediction', 'hostilenetworks:end_prediction',
-	'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
-	'twilightforest:maze_map',
+            'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
             'homespun:crushing_tub',
             'homespun:tiny_iron_dust',
             'homespun:cast_iron_block',
@@ -235,13 +239,13 @@ ServerEvents.tags('item', event => {
         ])
 
     //JEI hide , recipe any side removed , literally deleted
-/*     event.add('ironberry:disabled', [
-        ]) */
+    /*     event.add('ironberry:disabled', [
+    ]) */
 
     //JEI hide item
-/*     event.add('ironberry:hide', [
+    /*     event.add('ironberry:hide', [
 
-        ]) */
+    ]) */
 
     //crushing output uniform
     event.add('ironberry:crushing_output', [
@@ -269,6 +273,15 @@ ServerEvents.tags('item', event => {
 
     //prettypipes modules
     event.add('ironberry:module', [
+            'ppfluids:low_fluid_retrieval_module',
+            'ppfluids:low_fluid_extraction_module',
+            'ppfluids:medium_fluid_extraction_module',
+            'ppfluids:high_fluid_extraction_module',
+            'ppfluids:low_fluid_filter_module',
+            'ppfluids:medium_fluid_filter_module', 
+			'ppfluids:high_fluid_filter_module', 
+			'ppfluids:medium_fluid_retrieval_module', 
+			'ppfluids:high_fluid_retrieval_module',
             'prettypipes:stack_size_module',
             'prettypipes:redstone_module',
             'prettypipes:filter_increase_modifier',
@@ -699,13 +712,13 @@ ServerEvents.tags('item', event => {
 
     event.add('ironberry:onlyplayer', ['kubejs:grave_spawn', 'kubejs:ore_bone_meal', 'kubejs:rich_bone_meal', 'tombstone:strange_scroll'])
 
-	event.add('ironberry:source_gems',['minecraft:lapis_lazuli', 'minecraft:amethyst_shard'])
+    event.add('ironberry:source_gems', ['minecraft:lapis_lazuli', 'minecraft:amethyst_shard'])
 
-	event.add('ironberry:patina_source',    ['minecraft:oxidized_copper', 'minecraft:oxidized_cut_copper', 'minecraft:oxidized_cut_copper_stairs', 'minecraft:oxidized_cut_copper_slab', 'quark:oxidized_cut_copper_vertical_slab', 'minecraft:weathered_copper', 'minecraft:weathered_cut_copper', 'minecraft:weathered_cut_copper_stairs', 'minecraft:weathered_cut_copper_slab', 'quark:weathered_cut_copper_vertical_slab', 'minecraft:exposed_copper', 'minecraft:exposed_cut_copper', 'minecraft:exposed_cut_copper_stairs', 'minecraft:exposed_cut_copper_slab', 'quark:exposed_cut_copper_vertical_slab'])
+    event.add('ironberry:patina_source', ['minecraft:oxidized_copper', 'minecraft:oxidized_cut_copper', 'minecraft:oxidized_cut_copper_stairs', 'minecraft:oxidized_cut_copper_slab', 'quark:oxidized_cut_copper_vertical_slab', 'minecraft:weathered_copper', 'minecraft:weathered_cut_copper', 'minecraft:weathered_cut_copper_stairs', 'minecraft:weathered_cut_copper_slab', 'quark:weathered_cut_copper_vertical_slab', 'minecraft:exposed_copper', 'minecraft:exposed_cut_copper', 'minecraft:exposed_cut_copper_stairs', 'minecraft:exposed_cut_copper_slab', 'quark:exposed_cut_copper_vertical_slab'])
 
-	event.add('ironberry:soap_popera',['minecraft:potato', 'kubejs:patina'])
+    event.add('ironberry:soap_popera', ['minecraft:potato', 'kubejs:patina'])
 
-	event.add('ironberry:magic_trees',['ars_nouveau:blue_archwood_sapling', 'ars_nouveau:purple_archwood_sapling', 'ars_nouveau:green_archwood_sapling', 'ars_nouveau:red_archwood_sapling'])
+    event.add('ironberry:magic_trees', ['ars_nouveau:blue_archwood_sapling', 'ars_nouveau:purple_archwood_sapling', 'ars_nouveau:green_archwood_sapling', 'ars_nouveau:red_archwood_sapling'])
 
 })
 
@@ -746,6 +759,6 @@ ServerEvents.tags('block', event => {
 
 ServerEvents.tags('fluid', event => {
 
-     event.add('ironberry:chad_water', 'minecraft:water') 
+    event.add('ironberry:chad_water', 'minecraft:water')
 
 })
