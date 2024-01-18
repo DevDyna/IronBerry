@@ -138,9 +138,12 @@ event.replaceInput({input:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.t
 event.replaceOutput({output:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify.type[i],unify.dust[i])
 }
 
-
 event.replaceInput({input:'twilightforest:raven_feather'},'twilightforest:raven_feather','#forge:feathers')
 
+event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:glass','kubejs:instability')
+
+event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:lava_bucket','thermal:device_rock_gen')
+event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:water_bucket','bluepower:block_breaker')
 
 
 
