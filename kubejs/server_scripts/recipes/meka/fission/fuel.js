@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
   },
   "output": {
     "gas": "mekanism:ethene",
-    "amount": 1
+    "amount": 100
   },
   "heat": 0.1
 }).id('mekagen')
