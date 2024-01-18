@@ -101,8 +101,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:ore_bone_meal', 'Right click on §dCobbled Deepslate §fit can convert into §6Ores')
     tipplusplus('minecraft:bundle', 'Can be used on §9Deployer §fto extract item inside of them')
     tipplusplus('#ironberry:bundled', 'To see the recipe , press §9U §fon §6bundle')
-    tipplusplus('#ironberry:disabled', 'IronBerry : §cItem Disabled')
-    tipplusplus('#ironberry:hide', 'IronBerry : §cItem Hidden')
+    //tipplusplus('#ironberry:disabled', 'IronBerry : §cItem Disabled')
+    //tipplusplus('#ironberry:hide', 'IronBerry : §cItem Hidden')
     tipplusplus('farmersdelight:cutting_board', 'Can be automated using a §7Deployer')
 	tipplusplus('#ironberry:boss_drop','§cAlso can be obtained by killing mobs from the §4Gateway of Bosses')
 	tipplusplus('luggage:luggage','A cute chest pet')
@@ -111,8 +111,9 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:onlyplayer','§4Only player can use this item!')
 	//tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
 	tipplusplus('kubejs:patina','Obtained by using axes on a §boxidized§f §6copper block')
-
+	tipplusplus('pedestals:upgrade_pedestal_cobblegen','Every §680 tick§f rool a §epool')
 	tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'],'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
+	tipplusplus(global.disabledItem,'§cItem Disabled')
 
 
 })
