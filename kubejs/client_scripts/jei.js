@@ -23,9 +23,10 @@ const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
         event.get($MekanismJEI.TYPE_PIGMENT).hideAll()
         event.get($MekanismJEI.TYPE_SLURRY).hideAll()
     })
+	//show items without nbt
     JEIEvents.addItems(event => {
-        event.add('mekanism:creative_fluid_tank')
-        event.add('mekanism:creative_chemical_tank')
-        //event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'))
-        //event.add(Item.of('gateways:gate_pearl', '{gateway:"gateways:simple_gate"}'))
+		global.hiddenItems.forEach(item=>{
+		event.add(item)	
+		})
+        
     })
