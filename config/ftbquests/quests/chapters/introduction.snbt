@@ -380,7 +380,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "gateways:item/gate_pearl_med"
+			image: "gateways:item/gate_pearl_large"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
