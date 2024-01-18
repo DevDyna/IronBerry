@@ -9,6 +9,7 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('integrateddynamics:menril_leaves')
     event.removeAllTagsFrom('integrateddynamics:menril_sapling')
     event.removeAllTagsFrom('integrateddynamics:menril_planks')
+	event.removeAllTagsFrom('thermal:sapphire')
     //reactive sources
     event.get('reactive:body_sources').removeAll()
     event.get('reactive:caustic_sources').removeAll()
