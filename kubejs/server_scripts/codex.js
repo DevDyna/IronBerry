@@ -20,35 +20,28 @@ function ItemOrTag(value) {
             "tag": cut(value, 1)
         }
     } else {
-        return {
-            "item": value
-        }
+        return JsonMakeItem(value)
     }
 }
 //check if value is a tag or item and return as json + count value
 function ItemOrTagAndCount(value, count) {
-	try{
-    if (value.charAt(0) === '#') {
+    if (count < 2) {
+        return ItemOrTag(value)
+    } else if (value.charAt(0) === '#') {
         return {
             "tag": cut(value, 1),
             "count": count
         }
     } else {
-        return {
-            "item": value,
-            "count": count
-        }
+        return ItemAndCount(value, count)
     }
-	}catch(e){
-		        return {
-            "item": value,
-            "count": count
-        }
-	}
+
 }
 //return as json + count value
 function ItemAndCount(value, count) {
-    return {
+        if (count < 2) {
+        return JsonMakeItem(value)
+    } else return {
         "item": value,
         "count": count
     }
