@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
 
 	alloy(['kubejs:patina', 'hostilenetworks:twilight_prediction'],[1,1],'hostilenetworks:empty_prediction',1)
 
-	alloy(['pneumaticcraft:plastic', 'nuclearcraft:silicon_gem'],[1,1],'pneumaticcraft:empty_pcb',1)
+	alloy(['pneumaticcraft:plastic', 'nuclearcraft:silicon_gem'],[1,1],'pneumaticcraft:empty_pcb',4)
 
 	//alloy([],)
 
