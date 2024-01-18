@@ -687,7 +687,6 @@ ServerEvents.recipes(event => {
 
 	shapex(['pneumaticcraft:pressure_chamber_wall', 'pneumaticcraft:reinforced_pressure_tube'],Item.of('pneumaticcraft:pressure_chamber_valve', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:pressure_chamber_valve'],Item.of('pneumaticcraft:pressure_chamber_valve', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
-	shapex(['pneumaticcraft:pressure_chamber_wall'],'pneumaticcraft:pressure_chamber_glass')
 	shapex(['pneumaticcraft:liquid_compressor'],Item.of('pneumaticcraft:liquid_compressor', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:thermopneumatic_processing_plant'],Item.of('pneumaticcraft:thermopneumatic_processing_plant', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:fluid_mixer'],Item.of('pneumaticcraft:fluid_mixer', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
