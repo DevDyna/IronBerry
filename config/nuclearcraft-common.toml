@@ -3,7 +3,7 @@
 	#Ticks
 	base_time = 240
 	#FE per Tick
-	base_power = 10
+	base_power = 100
 	#Generally used for server optimization. Processors will skip defined amount of ticks then and do nothing.
 	#This won't affect recipe production performance
 	#Let's say it will skip 2 ticks, and then it will multiply recipe progress by amount if skipped ticks.
@@ -15,7 +15,7 @@
 	#Allow processor registration: rock_crusher, decay_hastener, irradiator, nuclear_furnace, extractor, electrolyzer, pressurizer, alloy_smelter, melter, analyzer, ingot_former, pump, fuel_reprocessor, leacher, crystallizer, assembler, steam_turbine, supercooler, centrifuge, chemical_reactor, fluid_infuser, isotope_separator, fluid_enricher, gas_scrubber, manufactory
 	register_processor = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
 	#Processor power: rock_crusher, decay_hastener, irradiator, nuclear_furnace, extractor, electrolyzer, pressurizer, alloy_smelter, melter, analyzer, ingot_former, pump, fuel_reprocessor, leacher, crystallizer, assembler, steam_turbine, supercooler, centrifuge, chemical_reactor, fluid_infuser, isotope_separator, fluid_enricher, gas_scrubber, manufactory
-	processor_power = [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+	processor_power = [20, 20, 0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
 	#Time for processor to proceed recipe: rock_crusher, decay_hastener, irradiator, nuclear_furnace, extractor, electrolyzer, pressurizer, alloy_smelter, melter, analyzer, ingot_former, pump, fuel_reprocessor, leacher, crystallizer, assembler, steam_turbine, supercooler, centrifuge, chemical_reactor, fluid_infuser, isotope_separator, fluid_enricher, gas_scrubber, manufactory
 	processor_time = [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200]
 
@@ -53,7 +53,7 @@
 #Settings for heat sinks
 [heat_sink]
 	#Cooling rate H/t: prismarine, aluminum, manganese, glowstone, netherite, slime, gold, liquid_nitrogen, lithium, carobbiite, enderium, end_stone, tin, copper, fluorite, lapis, obsidian, purpur, cryotheum, villiaumite, magnesium, quartz, arsenic, liquid_helium, nether_brick, water, lead, diamond, iron, silver, boron, emerald, redstone
-	cooling_rate = [115.0, 175.0, 150.0, 90.0, 145.0, 120.0, 185.0, 130.0, 140.0, 120.0, 40.0, 120.0, 80.0, 160.0, 120.0, 40.0, 95.0, 160.0, 180.0, 110.0, 90.0, 135.0, 140.0, 70.0, 60.0, 60.0, 150.0, 80.0, 170.0, 160.0, 160.0, 90.0]
+	cooling_rate = [115.0, 175.0, 150.0, 130.0, 150.0, 145.0, 120.0, 185.0, 130.0, 140.0, 120.0, 40.0, 120.0, 80.0, 160.0, 120.0, 40.0, 95.0, 160.0, 180.0, 110.0, 90.0, 135.0, 140.0, 70.0, 60.0, 60.0, 150.0, 80.0, 170.0, 160.0, 160.0, 90.0]
 	#You can define blocks by block_name. So water_heat_sink will fall back to nuclearcraft:water_heat_sink. Or qualify it with namespace like some_mod:some_block.
 	#Or use block tag key. #nuclearcraft:fission_reactor_casing will fall back to blocks with this tag. Do not forget to put #.
 	#if you need AND condition, add comma separated values "block1", "block2" means AND condition
@@ -70,11 +70,12 @@
 	aluminum = ["quartz_heat_sink", "lapis_heat_sink"]
 	manganese = ["fission_reactor_solid_fuel_cell>2"]
 	glowstone = ["#nuclearcraft:moderators>2"]
+	netherite = ["obsidian_heat_sink", "fission_reactor_irradiation_chamber"]
 	slime = ["water_heat_sink", "lead_heat_sink"]
 	gold = ["water_heat_sink", "redstone_heat_sink"]
 	liquid_nitrogen = ["copper_heat_sink", "purpur_heat_sink"]
 	lithium = ["lead_heat_sink-2"]
-	carobbiite = ["end_stone_heat_sink", "copper_heat_sink"]
+	carobbiite = ["end_stone_heat_sink", "fission_reactor_irradiation_chamber"]
 	enderium = ["#nuclearcraft:fission_reactor_casing^3"]
 	end_stone = ["enderium_heat_sink"]
 	tin = ["lapis_heat_sink-2"]
@@ -94,17 +95,46 @@
 	lead = ["iron_heat_sink"]
 	diamond = ["copper_heat_sink", "quartz_heat_sink"]
 	iron = ["gold_heat_sink"]
-	silver = ["glowstone_heat_sink>2", "tin_heat_sink"]
+	silver = ["glowstone_heat_sink>2", "tin_heat_sink|fission_reactor_irradiation_chamber"]
 	boron = ["quartz_heat_sink", "#nuclearcraft:fission_reactor_casing|#nuclearcraft:moderators"]
 	emerald = ["fission_reactor_solid_fuel_cell", "#nuclearcraft:moderators"]
 	redstone = ["fission_reactor_solid_fuel_cell"]
-	netherite = ["obsidian_heat_sink", "fission_reactor_irradiation_chamber"]
 
-#Settings for Fission Reactor
-[fission_reactor]
+#Settings for Fusion Reactor
+[fusion_reactor]
+	#Min reactor size.
+	#Range: 1 ~ 24
+	min_size = 1
+	#Max reactor size.
+	#Range: 3 ~ 48
+	max_size = 32
 	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
 	#Range: 0.0 ~ 20.0
 	reactor_explosion_radius = 4.0
+	#Minimal magnetic field required to operate reactor. (Depends on reactor size).
+	#Range: 1.0 ~ 100.0
+	minimal_magnetic_field = 8.0
+	#Affects heating rate for plasma by rf amplifiers.
+	#Range: 0.01 ~ 100.0
+	rf_amplification_multiplier = 5.0
+	#Affects plasma energy to FE converion rate.
+	#Range: 0.01 ~ 10.0
+	plasma_to_energy_convertion = 1.0
+
+#Settings for Fission Reactor
+[fission_reactor]
+	#Reactor min size.
+	#Range: 3 ~ 24
+	min_size = 3
+	#Reactor max size.
+	#Range: 5 ~ 24
+	max_size = 24
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 0.0 ~ 20.0
+	reactor_explosion_radius = 4.0
+	#How much reactor may collect heat before meltdown.
+	#Range: 1000.0 ~ 1.0E8
+	heat_capacity = 1000000.0
 	#Affects how relation of reactor cooling and heating affects to FE generation.
 	#Range: 0.01 ~ 20.0
 	heat_multiplier = 1.0
@@ -117,23 +147,43 @@
 	#Each attachment of moderator to fuel cell will increase fuel heat generation by given percent value.
 	#Range: 0.0 ~ 1000.0
 	moderator_heat_multiplier = 33.34
-	#Reactor min size.
-	#Range: 3 ~ 24
-	min_size = 3
-	#Reactor max size.
-	#Range: 5 ~ 24
-	max_size = 24
-	#How much reactor may collect heat before meltdown.
-	#Range: 1000.0 ~ 1.0E8
-	heat_capacity = 1000000.0
 	#Rate at which steam recipes produced.
 	#Range: 0.01 ~ 1000000.0
 	boiling_mult = 5.0
 
+#Settings for Turbine
+[turbine]
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 3 ~ 24
+	min_size = 3
+	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
+	#Range: 5 ~ 24
+	max_size = 24
+	#Efficiency %: gold, aluminium, copper, magnesium, beryllium, silver
+	efficiency = [104.0, 98.0, 110.0, 86.0, 90.0, 112.0]
+	#You can define blocks by block_name. So copper_turbine_coil will fall back to nuclearcraft:copper_turbine_coil. Or qualify it with namespace like some_mod:some_block.
+	#Or use block tag key. #nuclearcraft:fission_reactor_casing will fall back to blocks with this tag. Do not forget to put #.
+	#if you need AND condition, add comma separated values "block1", "block2" means AND condition
+	#if you need OR condition, use | separator. "block1|block2" means block1 or block2
+	#By default you have rule condition is 'At least 1'. So if you define some block, it will go in the rule as 'at least 1'
+	#Validation options: >2 means at least 2 (use any number)
+	#-2 means between, it is always 2 (opposite sides)
+	#<2 means less than 2 (use any number)
+	#=2 means exact 2 (use any number)
+	#^3 means 3 blocks in the corner (shared vertex or edge). possible values 2 and 3
+	#Default placement rules have all examples
+	placement_explanations = ""
+	gold = ["turbine_beryllium_coil"]
+	aluminium = ["turbine_gold_coil|turbine_magnesium_coil|turbine_beryllium_coil|turbine_gold_coil|turbine_copper_coil"]
+	copper = ["turbine_gold_coil"]
+	magnesium = ["turbine_bearing"]
+	beryllium = ["turbine_magnesium_coil"]
+	silver = ["turbine_magnesium_coil", "turbine_gold_coil"]
+
 #Settings for Radiation
 [radiation]
 	#If radiation is enabled.
-	enabled = false
+	enabled = true
 	#General background radiation everywhere (pRad).
 	#Total radiation = background_radiation + dimension_radiation + chunk_radiation + in-game exposure
 	#Range: 0 ~ 10000
@@ -157,7 +207,7 @@
 	#List of items what cleans player radiation when used (pRad). Format: item_id|radiation
 	radiation_removal_items = ["minecraft:golden_carrot|500000", "minecraft:golden_apple|20000000", "minecraft:enchanted_golden_apple|100000000", "nuclearcraft:dominos|50000000", "nuclearcraft:moresmore|100000000", "nuclearcraft:evenmoresmore|200000000", "nuclearcraft:radaway|300000000"]
 	#List of items what have radiation (pRad). Format: item_id|radiation
-	items_radiation = ["mekanism:pellet_polonium|200000", "mekanism:pellet_plutonium|150000", "mekanism:reprocessed_fissile_fragment|180000"]
+	items_radiation = ["nuclearcraft:spaxelhoe_thorium|50000", "mekanism:pellet_polonium|4000000", "mekanism:pellet_plutonium|2500000", "mekanism:reprocessed_fissile_fragment|1800000"]
 	#List of armor items and default shielding lvl. Format: item_id|radiation
 	armor_shielding = ["mekanism:hazmat_mask|3", "mekanism:hazmat_gown|5", "mekanism:hazmat_pants|4", "mekanism:hazmat_boots|3", "mekanism:mekasuit_helmet|5", "mekanism:mekasuit_bodyarmor|5", "mekanism:mekasuit_pants|5", "mekanism:mekasuit_boots|5", "nuclearcraft:hazmat_mask|3", "nuclearcraft:hazmat_chest|5", "nuclearcraft:hazmat_pants|4", "nuclearcraft:hazmat_boots|3", "nuclearcraft:hev_helmet|5", "nuclearcraft:hev_chest|7", "nuclearcraft:hev_pants|6", "nuclearcraft:hev_boots|5"]
 	#Natural radiation per biome: uRad
@@ -179,11 +229,11 @@
 	#Allow rtg registration: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
 	register_panel = [true, true, true, true]
 	#Panel power generation: du, elite, advanced, basic
-	panel_power = [80, 320, 20, 5]
+	panel_power = [400, 1500, 100, 25]
 	#rtg generation: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
-	rtg_power = [10, 100, 400, 2000]
+	rtg_power = [20, 200, 800, 4000]
 	#rtg radiation: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
-	rtg_radiation = [56, 578000, 2000000, 19000000]
+	rtg_radiation = [56, 57800, 200000, 1900000]
 	#Steam turbine (one block) base power gen
 	steam_turbine_power_gen = 50
 
@@ -192,20 +242,20 @@
 	#If Electromagnets are registered.
 	registered = [true, true, true, true, true]
 	#Power consumption (FE/t): niobium_tin_electromagnet, magnesium_diboride_electromagnet, bscco_electromagnet, niobium_titanium_electromagnet, basic_electromagnet
-	power = [4000, 2000, 16000, 8000, 1000]
+	power = [1500, 1000, 3000, 2000, 500]
 	#Magnetic field strength: niobium_tin_electromagnet, magnesium_diboride_electromagnet, bscco_electromagnet, niobium_titanium_electromagnet, basic_electromagnet
-	heat = [1.0, 0.5, 4.0, 2.0, 0.2]
+	heat = [1.0, 0.5, 4.0, 2.0, 0.25]
 
 #Settings for RF Amplifiers
 [rf_amplifiers]
 	#If RF Amplifier are registered.
 	registered = [true, true, true, true, true]
 	#Power consumption (FE/t): basic_rf_amplifier, niobium_titanium_rf_amplifier, magnesium_diboride_rf_amplifier, niobium_tin_rf_amplifier, bscco_rf_amplifier
-	power = [500, 4000, 1000, 2000, 8000]
+	power = [250, 1500, 500, 750, 2500]
 	#Heat generation: basic_rf_amplifier, niobium_titanium_rf_amplifier, magnesium_diboride_rf_amplifier, niobium_tin_rf_amplifier, bscco_rf_amplifier
 	heat = [300, 2260, 500, 1140, 4500]
 	#Amplification Voltage: basic_rf_amplifier, niobium_titanium_rf_amplifier, magnesium_diboride_rf_amplifier, niobium_tin_rf_amplifier, bscco_rf_amplifier
-	voltage = [200000, 2000000, 500000, 1000000, 4000000]
+	voltage = [500000, 3000000, 1000000, 2000000, 4000000]
 
 [energy_storage]
 	#Allow block registration: basic_voltaic_pile, elite_voltaic_pile, advanced_voltaic_pile, basic_lithium_ion_battery, elite_lithium_ion_battery, du_lithium_ion_battery, du_voltaic_pile, advanced_lithium_ion_battery
@@ -271,54 +321,4 @@
 	wasteland = true
 	#Dimension ID for Wasteland
 	wastelandID = -4848
-
-#Settings for Fusion Reactor
-[fusion_reactor]
-	#Min reactor size.
-	#Range: 1 ~ 24
-	min_size = 1
-	#Max reactor size.
-	#Range: 3 ~ 48
-	max_size = 32
-	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
-	#Range: 0.0 ~ 20.0
-	reactor_explosion_radius = 4.0
-	#Minimal magnetic field required to operate reactor. (Depends on reactor size).
-	#Range: 1.0 ~ 100.0
-	minimal_magnetic_field = 8.0
-	#Affects heating rate for plasma by rf amplifiers.
-	#Range: 0.01 ~ 100.0
-	rf_amplification_multiplier = 5.0
-	#Affects plasma energy to FE converion rate.
-	#Range: 0.01 ~ 10.0
-	plasma_to_energy_convertion = 1.0
-
-#Settings for Turbine
-[turbine]
-	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
-	#Range: 3 ~ 24
-	min_size = 3
-	#Explosion size if reactor overheats. 4 - TNT size. Set to 0 to disable explosion.
-	#Range: 5 ~ 24
-	max_size = 24
-	#Efficiency %: gold, aluminium, copper, magnesium, beryllium, silver
-	efficiency = [104.0, 98.0, 110.0, 86.0, 90.0, 112.0]
-	#You can define blocks by block_name. So copper_turbine_coil will fall back to nuclearcraft:copper_turbine_coil. Or qualify it with namespace like some_mod:some_block.
-	#Or use block tag key. #nuclearcraft:fission_reactor_casing will fall back to blocks with this tag. Do not forget to put #.
-	#if you need AND condition, add comma separated values "block1", "block2" means AND condition
-	#if you need OR condition, use | separator. "block1|block2" means block1 or block2
-	#By default you have rule condition is 'At least 1'. So if you define some block, it will go in the rule as 'at least 1'
-	#Validation options: >2 means at least 2 (use any number)
-	#-2 means between, it is always 2 (opposite sides)
-	#<2 means less than 2 (use any number)
-	#=2 means exact 2 (use any number)
-	#^3 means 3 blocks in the corner (shared vertex or edge). possible values 2 and 3
-	#Default placement rules have all examples
-	placement_explanations = ""
-	gold = ["turbine_beryllium_coil"]
-	aluminium = ["turbine_gold_coil|turbine_magnesium_coil|turbine_beryllium_coil|turbine_gold_coil|turbine_copper_coil"]
-	copper = ["turbine_gold_coil"]
-	magnesium = ["turbine_bearing"]
-	beryllium = ["turbine_magnesium_coil"]
-	silver = ["turbine_magnesium_coil", "turbine_gold_coil"]
 
