@@ -12,6 +12,10 @@ StartupEvents.registry('item', event => {
     event.create('lore')
     .texture('ironberry:item/lore')
     .displayName('The LORE')
+	
+	event.create('raw_plastic')
+    .texture('ironberry:item/raw_plastic')
+    .displayName('Raw Plastic')
 
     //gems
     event.create('alpha')
