@@ -87,6 +87,8 @@ ServerEvents.recipes(event => {
         ])
 
     remtype([
+			'thermal:devices/rock_gen/rock_gen_deepslate',
+			'thermal:devices/rock_gen/rock_gen_cobbled_deepslate',
 			'pneumaticcraft:assembly_laser',
 			'pneumaticcraft:assembly_drill',
 			'pneumaticcraft:thermo_plant',
