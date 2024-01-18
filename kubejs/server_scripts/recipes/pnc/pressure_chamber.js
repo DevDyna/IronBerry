@@ -94,9 +94,9 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
-                "item": 'pneumaticcraft:small_tank'
+                "item": 'reactive:stardust'
             },{
-				"item":'minecraft:ice'	
+				"item":'twilightforest:steeleaf_ingot'
 			},{
 				"item":'froglins:froglin_egg'
 			}, {
@@ -136,34 +136,8 @@ ServerEvents.recipes(event => {
         "inputs": [{
                 "item": 'pneumaticcraft:small_tank'
             },{
-				"item":'minecraft:ice'	
-			},{
-				"item":'froglins:froglin_egg'
-			}, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 2,
-                "item": 'kubejs:aquamarine'
-            }, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 3,
-                "item": 'nuclearcraft:silicon_gem'
-            }, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 4,
-                "item": 'kubejs:iolite'
-            }, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 5,
-                "item": 'kubejs:jade'
-            }, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 6,
-                "item": 'twilightforest:borer_essence'
-            }, {
-                "type": "pneumaticcraft:stacked_item",
-                "count": 7,
-                "item": 'kubejs:topaz'
-            }
+				"item":'kubejs:raw_plastic'
+			}
         ],
         "pressure": 2.5,
         "results": [{
