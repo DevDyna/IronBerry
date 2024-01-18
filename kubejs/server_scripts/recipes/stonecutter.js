@@ -92,6 +92,15 @@ ServerEvents.recipes(event => {
             'prettypipes:tag_filter_modifier',
             'prettypipes:round_robin_sorting_modifier',
             'prettypipes:random_sorting_modifier',
+			'ppfluids:low_fluid_retrieval_module', 
+			'ppfluids:low_fluid_extraction_module', 
+			'ppfluids:medium_fluid_extraction_module', 
+			'ppfluids:high_fluid_extraction_module', 
+			'ppfluids:low_fluid_filter_module', 
+			'ppfluids:medium_fluid_filter_module', 
+			'ppfluids:high_fluid_filter_module', 
+			'ppfluids:medium_fluid_retrieval_module', 
+			'ppfluids:high_fluid_retrieval_module',
         ],
         ['prettypipes:blank_module', '#ironberry:module'])
 
