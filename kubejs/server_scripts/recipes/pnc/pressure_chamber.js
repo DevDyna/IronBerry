@@ -127,13 +127,51 @@ ServerEvents.recipes(event => {
         ],
         "pressure": 2.5,
         "results": [{
+                "item": 'kubejs:raw_plastic'}
+        ]
+    })
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'pneumaticcraft:small_tank'
+            },{
+				"item":'minecraft:ice'	
+			},{
+				"item":'froglins:froglin_egg'
+			}, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "item": 'kubejs:aquamarine'
+            }, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 3,
+                "item": 'nuclearcraft:silicon_gem'
+            }, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 4,
+                "item": 'kubejs:iolite'
+            }, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 5,
+                "item": 'kubejs:jade'
+            }, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 6,
+                "item": 'twilightforest:borer_essence'
+            }, {
+                "type": "pneumaticcraft:stacked_item",
+                "count": 7,
+                "item": 'kubejs:topaz'
+            }
+        ],
+        "pressure": 2.5,
+        "results": [{
                 "item": 'pneumaticcraft:small_tank',
                 "nbt": '{BlockEntityTag:{SavedTanks:{Tank:{Amount:32000,FluidName:"pneumaticcraft:plastic"}}}}'
             }
         ]
     })
-
-
 
 
 
