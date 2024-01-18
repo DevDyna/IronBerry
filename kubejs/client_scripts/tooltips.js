@@ -85,7 +85,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:rich_bone_meal', 'Right click on §2rich soil §fto spawn random §abushes')
     tipplusplus('kubejs:illuminati', 'Right click give §eextra time §fat your §bTime in a Bottle')
     tipplusplus('#farmersdelight:wild_crops', 'Obtained by using §6rich bone meal §fon §2rich soil')
-    tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fmany eggs')
+    tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fafter many eggs')
     tipplusplus('kubejs:grave_spawn', 'Spawn a grave guardian , a warrior full of potions and cheap trades')
     tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
     tipplusplus('alchemygadgetry:potion_slingshot', '§aClick §f, §4Boing §f, §dEffect!')
