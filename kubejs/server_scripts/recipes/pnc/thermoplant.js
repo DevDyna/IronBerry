@@ -39,6 +39,40 @@ ServerEvents.recipes(event => {
     "amount": 100
   }
 })
+//------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "pneumaticcraft:plastic",
+    "amount": 100
+  },
+  "temperature": {
+    "min_temp": 272
+  },  "item_output": {
+    "item": "pneumaticcraft:plastic"
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	})
 
