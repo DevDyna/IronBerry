@@ -87,6 +87,12 @@ ServerEvents.recipes(event => {
         ])
 
     remtype([
+			'pneumaticcraft:assembly_laser',
+			'pneumaticcraft:assembly_drill',
+			'pneumaticcraft:thermo_plant',
+			'pneumaticcraft:explosion_crafting',
+			'pneumaticcraft:pressure_chamber',
+			'pneumaticcraft:fluid_mixer',
             'pedestals:cobblegen',
 			'integrateddynamics:drying_basin',
 			'integrateddynamics:mechanical_drying_basin',
