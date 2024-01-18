@@ -84,6 +84,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'pneumaticcraft:assembly_program_drill_laser',
 			'prettypipes:blank_module', 
 			'prettypipes:pipe',
 			'#ironberry:module',
@@ -220,6 +221,7 @@ ServerEvents.tags('item', event => {
 
     //recipe input side removed (as ingrendient)
     event.add('ironberry:input', [
+			'pneumaticcraft:failed_pcb',
             'hostilenetworks:twilight_prediction',
             'twilightforest:fiery_blood', 'twilightforest:fiery_tears',
             'pedestals:upgrade_pedestal_base',
