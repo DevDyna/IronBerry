@@ -103,8 +103,7 @@ ServerEvents.recipes(event => {
 			'mekanism:oxidizing',
         ])
 
-    remod([
-			'angelring',					
+    remod([					
 			//'gateways',
             //'thermal',				//todo
             //'cobblefordays',			//todo
