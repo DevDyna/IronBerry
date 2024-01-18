@@ -536,6 +536,11 @@
 			icon: "ae2:charger"
 			id: "7177F684AAC848E2"
 			optional: true
+			rewards: [{
+				id: "2A0F636270548B65"
+				item: "ae2:guide"
+				type: "item"
+			}]
 			subtitle: "You Spin Me Right Round Baby"
 			tasks: [
 				{
@@ -1429,6 +1434,17 @@
 			]
 			id: "642719B0E6FA2529"
 			optional: true
+			rewards: [{
+				id: "41DE71195228BD2F"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+				type: "item"
+			}]
 			shape: "heart"
 			subtitle: "The new love"
 			tasks: [{
@@ -1868,6 +1884,17 @@
 		{
 			dependencies: ["3F818FA3A0D9B316"]
 			id: "5DB8FDC5E7CA7875"
+			rewards: [{
+				id: "66D175C6A6178E7C"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05BC4053CBCA065E"
 				item: "thermal:device_composter"
@@ -1969,11 +1996,24 @@
 			dependencies: ["379F607A99F58C90"]
 			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
 			id: "35BD3AD826A482C4"
-			rewards: [{
-				id: "7C93AC35971C2BB5"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7C93AC35971C2BB5"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1D7203E87A5FD149"
+					item: {
+						Count: 1b
+						id: "essentials:guide_book"
+						tag: {
+							"patchouli:book": "essentials:manual"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1DEBABEB293F5DD1"
 				item: "essentials:fertile_soil_wheat"
@@ -2070,8 +2110,24 @@
 		}
 		{
 			dependencies: ["31C7366B2D51ED2C"]
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_cobblegen"
+				tag: { }
+			}
 			id: "0A9EB2A394692CC3"
 			optional: true
+			rewards: [{
+				id: "0C1602565898192A"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "engineersdecor:engineersdecor_manual"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "721A545405CD23FC"
