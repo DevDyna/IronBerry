@@ -128,4 +128,6 @@ function moless(base,variants){
 	less(['9x twilightforest:armor_shard'],'twilightforest:armor_shard_cluster')
 	
 	
+	less(['pneumaticcraft:module_expansion_card', 'kubejs:printed_plate'],'kubejs:assembly_plate')
+	
 })
