@@ -755,6 +755,46 @@
 			x: -2.0d
 			y: 3.0d
 		}
+		{
+			id: "5C74D85E4D1BAF16"
+			tasks: [{
+				id: "63685EB6BA70C96D"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "3E574FA479B5F6D9"
+			tasks: [{
+				id: "38DD0AB938003E8D"
+				item: "kubejs:assembly_plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "25C8EBB27319D90F"
+			tasks: [{
+				id: "107D8225C2690217"
+				item: "kubejs:printed_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "77AECDAFB721B3A2"
+			tasks: [{
+				id: "3D45864968D007A7"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
 	]
 	title: "Age 4"
 }
