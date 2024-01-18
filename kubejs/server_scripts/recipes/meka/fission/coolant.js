@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
     "amount": 1
   },
   "output": {
-    "gas": "mekanism:ethene",
-    "amount": 99
+    "gas": "mekanism:steam",
+    "amount": 1
   },
   "thermalEnthalpy": 10,
   "conductivity": 0.5,
