@@ -147,13 +147,101 @@ ServerEvents.recipes(event => {
         ]
     })
 
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'kubejs:assembly_plate'
+            },{
+				"item":'reactive:stardust'
+			}
+        ],
+        "pressure": 2.5,
+        "results": [{
+                "item": 'pneumaticcraft:assembly_program_laser'
+            }
+        ]
+    })
 
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'kubejs:assembly_plate'
+            },{
+				"item":'thermal:drill_head'
+			}
+        ],
+        "pressure": 2.5,
+        "results": [{
+                "item": 'pneumaticcraft:assembly_program_drill'
+            }
+        ]
+    })
 
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'pneumaticcraft:assembly_program_drill'
+            },{
+				"item":'pneumaticcraft:assembly_program_laser'
+			}
+        ],
+        "pressure": 2.5,
+        "results": [{
+                "item": 'pneumaticcraft:assembly_program_drill_laser'
+            }
+        ]
+    })
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'kubejs:printed_plate'
+            },{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 5,
+				"tag":'rootsclassic:berries'
+			}
+        ],
+        "pressure": -0.5,
+        "results": [{
+                "item": 'minecraft:paper'
+            },{
+                "item": 'minecraft:glowstone_dust'
+            },{
+                "item": 'minecraft:ink_sac'
+            },{
+                "item": 'minecraft:glow_ink_sac'
+            },{
+                "item": 'minecraft:redstone'
+            },{
+                "item": 'kubejs:printed_plate'
+            }
+        ]
+    })
 
-
-
-
-
-
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'quark:soul_bead'
+            },{
+				"item":'twilightforest:maze_map_focus'
+			},{
+				"item":'pneumaticcraft:pressure_gauge'
+			},{
+				"item":'twilightforest:magic_map_focus'
+			},{
+				"item":'pneumaticcraft:plastic'
+			}
+        ],
+        "pressure": 2.0,
+        "results": [{
+                "item": 'kubejs:printed_plate'
+            }
+        ]
+    })
 
 })
