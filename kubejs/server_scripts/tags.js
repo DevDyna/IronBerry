@@ -228,6 +228,7 @@ ServerEvents.tags('item', event => {
         ])
 	
 	event.add('ironberry:any',global.disabledItem)
+	event.add('ironberry:clear_nbt',global.hiddenItems)
 
     //recipe any side removed
     event.add('ironberry:any', [
