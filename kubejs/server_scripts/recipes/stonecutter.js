@@ -148,7 +148,6 @@ ServerEvents.recipes(event => {
             'essentials:wrench',
             'integrateddynamics:wrench',
             'pipez:wrench',
-            'pneumaticcraft:pneumatic_wrench',
             'cyclic:cable_wrench',
 
         ], ['minecraft:stick', '#ironberry:wrench_fix'])
