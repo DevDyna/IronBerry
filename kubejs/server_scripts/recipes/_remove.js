@@ -105,13 +105,13 @@ ServerEvents.recipes(event => {
 
     remod([
 			'angelring',					
-			'gateways',
+			//'gateways',
             //'thermal',				//todo
-            'cobblefordays',			//todo
-            'ironchest',					
-            'prettypipes',				
-            'modularrouters',			//todo
-            'pneumaticcraft',			//todo
+            //'cobblefordays',			//todo
+            //'ironchest',					
+            //'prettypipes',				
+            //'modularrouters',			//todo
+            //'pneumaticcraft',			//todo
 			'alchemygadgetry',		
         ])
 
