@@ -685,8 +685,23 @@ ServerEvents.recipes(event => {
 
 	shapex(['integrateddynamics:cable', 'thermal:basalz_rod', 'integrateddynamics:cable', 'thermal:blitz_rod', 'kubejs:processor', 'twilightforest:arctic_fur', 'integrateddynamics:cable', 'thermal:blizz_rod', 'integrateddynamics:cable'],'16x pneumaticcraft:reinforced_pressure_tube')
 
-	shapex(['pneumaticcraft:pressure_chamber_wall', 'pneumaticcraft:reinforced_pressure_tube'],'pneumaticcraft:pressure_chamber_valve')
-
+	shapex(['pneumaticcraft:pressure_chamber_wall', 'pneumaticcraft:reinforced_pressure_tube'],Item.of('pneumaticcraft:pressure_chamber_valve', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:pressure_chamber_valve'],Item.of('pneumaticcraft:pressure_chamber_valve', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:pressure_chamber_wall'],'pneumaticcraft:pressure_chamber_glass')
+	shapex(['pneumaticcraft:liquid_compressor'],Item.of('pneumaticcraft:liquid_compressor', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:thermopneumatic_processing_plant'],Item.of('pneumaticcraft:thermopneumatic_processing_plant', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:fluid_mixer'],Item.of('pneumaticcraft:fluid_mixer', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['minecraft:air','supplementaries:crank','minecraft:air','minecraft:air', 'pneumaticcraft:reinforced_pressure_tube','minecraft:air','minecraft:air', 'kubejs:pre_compressed','minecraft:air'],'pneumaticcraft:manual_compressor')
+	shapex(['pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube'],Item.of('pneumaticcraft:liquid_compressor', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube'],Item.of('pneumaticcraft:thermopneumatic_processing_plant', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:small_tank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube'],Item.of('pneumaticcraft:fluid_mixer', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:uv_light_box'],Item.of('pneumaticcraft:uv_light_box', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'kubejs:blank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed'],Item.of('pneumaticcraft:uv_light_box', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'kubejs:blank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:etching_tank')
+
+
+
+
+
 
 })
