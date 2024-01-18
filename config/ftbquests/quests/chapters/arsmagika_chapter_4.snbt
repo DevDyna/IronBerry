@@ -574,6 +574,17 @@
 		}
 		{
 			id: "1989FA3D5FD3027B"
+			rewards: [{
+				id: "24388E066ABD2AD0"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74627CA742F388BF"
 				item: "pneumaticcraft:manual_compressor"
