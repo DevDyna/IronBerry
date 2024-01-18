@@ -285,7 +285,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.0d
 			y: -2.0d
 		}
 		{
@@ -299,8 +299,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -6.0d
+			x: -13.0d
+			y: -4.0d
 		}
 		{
 			id: "50BF629AA3EF5AC5"
@@ -313,8 +313,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -7.0d
+			x: -13.0d
+			y: -5.0d
 		}
 		{
 			id: "3F799A3D653ECAC6"
@@ -328,8 +328,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -13.0d
+			y: -2.0d
 		}
 		{
 			id: "4C624E7DFD3E414E"
@@ -342,8 +342,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -9.0d
+			x: -13.0d
+			y: -6.0d
 		}
 		{
 			id: "001837ABABCBC3F4"
@@ -356,8 +356,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			id: "1FE2BB2E4BDB24C0"
@@ -370,22 +370,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.0d
-		}
-		{
-			id: "3A789C65771B255F"
-			tasks: [{
-				id: "5A0622427539D0DF"
-				item: {
-					Count: 1b
-					id: "pneumaticcraft:manual_compressor"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -16.0d
-			y: -8.0d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			id: "7EABBDB739B99D38"
@@ -445,8 +431,8 @@
 					type: "item"
 				}
 			]
-			x: -16.0d
-			y: -6.0d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			id: "123D0BCDB0FD19BF"
@@ -470,8 +456,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: -4.0d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
 			id: "7E6FD4B34AA43BA9"
@@ -484,8 +470,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -13.0d
+			y: 0.0d
 		}
 		{
 			id: "6A75F878974792BB"
@@ -498,8 +484,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			id: "60AEE0BEBD1EA943"
@@ -512,8 +498,251 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "454C844EB3F196F4"
+			tasks: [{
+				id: "7DA5EE94C7FA53D9"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "1BDE3FAE685E81F0"
+			tasks: [{
+				id: "1D82B6E0FD2CF29F"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "48DACA7A3BECBECC"
+			tasks: [{
+				id: "1167C3990E7F8C70"
+				item: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:grave_guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "2BC6A3411051A140"
+			tasks: [{
+				id: "24195AC7491E5F1D"
+				item: "hostilenetworks:empty_prediction"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "19B6C89234831909"
+			tasks: [{
+				id: "7A74E5684E37BCC7"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:small_tank"
+					tag: {
+						BlockEntityTag: {
+							SavedTanks: {
+								Tank: {
+									Amount: 32000
+									FluidName: "pneumaticcraft:plastic"
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
 			y: -2.0d
+		}
+		{
+			id: "1989FA3D5FD3027B"
+			tasks: [{
+				id: "74627CA742F388BF"
+				item: "pneumaticcraft:manual_compressor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			id: "60B38F9E4BC71FF6"
+			tasks: [
+				{
+					id: "236BE97DB9DB6EA4"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "5B6818B3692BFA77"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "1207A752F22ACCF3"
+			tasks: [{
+				id: "3873234FEE67C248"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "7832CA4A1E6D674F"
+			tasks: [{
+				id: "6AAADA3D332842A6"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "495CB86940BB2D25"
+			tasks: [{
+				id: "0AB1C9B3FCF21B67"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "15CF5E8AA4B5EDE2"
+			tasks: [{
+				id: "2289FAE47F38DEFB"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "6ED044B16F1D4FC7"
+			tasks: [{
+				id: "77AEA74F87BADEB3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "191DF7A9C5834BB0"
+			tasks: [{
+				id: "6DC61F43EEECBEB8"
+				item: "kubejs:instability"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "43472F3778420E0F"
+			tasks: [{
+				id: "2CCB5467F5C7C9EB"
+				item: "nuclearcraft:silicon_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "687CC991CC35C3C6"
+			tasks: [{
+				id: "68B4C1365AB4B80A"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "5F2878DD3C53AF80"
+			tasks: [{
+				id: "3AB97B66E4825E8F"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0A73E58829467953"
+			tasks: [{
+				id: "0D1E859D2C6FE7AB"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:uv_light_box"
+					tag: {
+						BlockEntityTag: {
+							UpgradeInventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "pneumaticcraft:security_upgrade"
+								}]
+								Size: 4
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "15A70C622AD262F9"
+			tasks: [{
+				id: "0D48FEB8FF358FD8"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "38B081C5E2174761"
+			tasks: [{
+				id: "7CC9EB9D425BB1D4"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "4C1618310A6DE95A"
+			tasks: [{
+				id: "74AB6FE59126B6FD"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 	]
 	title: "Age 4"
