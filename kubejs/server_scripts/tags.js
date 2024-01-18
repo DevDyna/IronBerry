@@ -476,7 +476,6 @@ ServerEvents.tags('item', event => {
             'essentials:wrench',
             'integrateddynamics:wrench',
             'pipez:wrench',
-            'pneumaticcraft:pneumatic_wrench',
             'cyclic:cable_wrench',
         ])
 
