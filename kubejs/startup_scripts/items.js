@@ -135,5 +135,9 @@ StartupEvents.registry('item', event => {
     event.create('patina')
     .texture('ironberry:item/patina')
     .displayName('Patina')
+	
+	event.create('assembly_plate')
+    .texture('ironberry:item/assembly_plate')
+    .displayName('Assembly Program plate')
 
 })
