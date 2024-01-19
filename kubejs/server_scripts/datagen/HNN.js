@@ -57,7 +57,7 @@ ServerEvents.highPriorityData(event => {
             "gui_x_offset": 0.0,
             "gui_y_offset": 0.0,
             "gui_z_offset": 0.0,
-            "sim_cost": 4096,
+            "sim_cost": 100,
             "input": {
                 "item": "hostilenetworks:empty_prediction",
                 "count": 1
@@ -69,10 +69,10 @@ ServerEvents.highPriorityData(event => {
             "trivia": "hostilenetworks.trivia.grave_guardian",
             "fabricator_drops": objson,
             "tier_data": [
-                250,
-                750,
-                1500,
-                2500
+                1,
+                2001,
+                4001,
+                8001
             ],
             "data_per_kill": [
                 1,
