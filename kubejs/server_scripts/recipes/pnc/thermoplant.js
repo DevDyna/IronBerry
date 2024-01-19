@@ -53,7 +53,22 @@ ServerEvents.recipes(event => {
     "item": "pneumaticcraft:plastic"
   }
 })
-
+//------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_steam",
+    "amount": 100
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "fluid_output": {
+    "fluid": "thermal:crude_oil",
+    "amount": 100
+  }
+})
 
 
 
