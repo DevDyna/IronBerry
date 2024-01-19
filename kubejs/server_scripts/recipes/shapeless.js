@@ -129,5 +129,20 @@ function moless(base,variants){
 	
 	
 	less(['pneumaticcraft:module_expansion_card', 'kubejs:printed_plate'],'kubejs:assembly_plate')
+	less(['minecraft:chest', 'minecraft:minecart'],'minecraft:chest_minecart')
+	
+	less(['minecraft:hopper', 'minecraft:sculk_sensor', 'minecraft:echo_shard'],'sculktransporting:sculk_emitter')
+	less(['essentials:item_chute', 'minecraft:sculk', 'minecraft:echo_shard'],'sculktransporting:sculk_transmitter')
+	less(['uppers:upper', 'minecraft:sculk_shrieker', 'minecraft:echo_shard'],'sculktransporting:sculk_receiver')
+	less(['minecraft:barrel', 'minecraft:echo_shard', 'minecraft:echo_shard'],'sculktransporting:sculk_barrel')
+	less(['minecraft:string', 'quark:bottled_cloud'],'4x cyclic:cloud')
+	less(['#ironberry:storage_box','#ironberry:storage_box'],'cyclic:crate')
+	less(['ars_nouveau:stable_warp_scroll', 'minecraft:redstone', 'cyclic:battery'],'cyclic:teleport')
+	
+	less(['minecraft:charcoal', 'minecraft:paper'],'2x cyclic:carbon_paper')
+	
+	
+	
+	//less([],)
 	
 })
