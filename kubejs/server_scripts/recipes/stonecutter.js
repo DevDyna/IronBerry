@@ -223,4 +223,9 @@ scut([
 
 scut(['luggage:luggage'],['#ironberry:storage_box'])
 
+scut(['cyclic:location_data', 'cyclic:blockstate_data', 'cyclic:settings_data', 'cyclic:shape_data','cyclic:filter_data', 'cyclic:entity_data', 'cyclic:sound_data'],['#ironberry:magic_cards','cyclic:carbon_paper'])
+
+
+
+
 })
