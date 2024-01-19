@@ -30,11 +30,53 @@ ServerEvents.recipes(event => {
             "result": ItemAndCount(output, count)
         }).id(RegX(input + "_" + output + "_" + count))
     }
+	function drill_laser(input,middle,middle_count,output,output_count){
+	drill(input,middle,middle_count)
+	laser(middle,output,output_count)
+	}
 	//-----------------------------------------------------------------------------------------------------------//
 	
 	laser('#minecraft:logs_that_burn',"supplementaries:ash",16)
 	drill("supplementaries:ash","minecraft:gold_nugget",1)
 	
+
+	
+	drill_laser('pneumaticcraft:empty_pcb','pneumaticcraft:unassembled_pcb',1,'pneumaticcraft:printed_circuit_board',1)
+
+	laser('pneumaticcraft:upgrade_matrix','minecraft:lapis_lazuli',16)
+
+	drill_laser('homespun:ironberries','homespun:tiny_iron_dust',4,'minecraft:raw_iron',4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     })
