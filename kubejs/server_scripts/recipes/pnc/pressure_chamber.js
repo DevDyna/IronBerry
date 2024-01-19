@@ -340,7 +340,25 @@ ServerEvents.recipes(event => {
         ]
     })	
 	
-	
+				//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'pneumaticcraft:vacuum_module'
+            },{
+				"item":'pneumaticcraft:plastic'
+			},{
+				"item":'pneumaticcraft:transistor'
+			},{
+				"item":'pneumaticcraft:printed_circuit_board'
+			}
+        ],
+        "pressure": 1.6,
+        "results": [{
+                "item": 'pneumaticcraft:camo_applicator'
+            }
+        ]
+    })
 	
 	
 	
