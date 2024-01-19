@@ -30,3 +30,11 @@ const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
 		})
         
     })
+
+JEIEvents.hideItems(event => {
+	global.uselessItems.forEach(item=>{
+		event.hide(item)
+	})
+	
+	
+})
