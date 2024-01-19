@@ -143,5 +143,6 @@ StartupEvents.registry('item', event => {
 	event.create('printed_plate')
     .texture('ironberry:item/printed_plate')
     .displayName('Printed Plate')
+	
 
 })
