@@ -145,12 +145,12 @@ event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:glass','kubejs:ins
 event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:lava_bucket','thermal:device_rock_gen')
 event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:water_bucket','bluepower:block_breaker')
 
-event.replaceInput({input:'#forge:chests'},'#forge:chests','minecraft:chest')
-event.replaceInput({input:'#forge:chests/trapped'},'#forge:chests/trapped','minecraft:trapped_chest')
+//event.replaceInput({input:'#forge:chests'},'#forge:chests','minecraft:chest')
+//event.replaceInput({input:'#forge:chests/trapped'},'#forge:chests/trapped','minecraft:trapped_chest')
 
 event.replaceInput({input:'cyclic:apple_honey'},'cyclic:apple_honey','minecraft:apple')
 
-event.replaceInput({output:'cyclic:fisher'},'minecraft:cobweb','minecraft:string')
+//event.replaceInput({output:'cyclic:fisher'},'minecraft:cobweb','minecraft:string')
 
 event.replaceInput({output:'cyclic:structure'},'minecraft:quartz','engineersdecor:factory_placer')
 event.replaceInput({output:'cyclic:structure'},'cyclic:gem_amber','minecraft:painting')
