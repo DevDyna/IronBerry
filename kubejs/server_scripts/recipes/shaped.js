@@ -697,7 +697,7 @@ ServerEvents.recipes(event => {
 	shapex(['pneumaticcraft:uv_light_box'],Item.of('pneumaticcraft:uv_light_box', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'kubejs:blank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed'],Item.of('pneumaticcraft:uv_light_box', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'kubejs:blank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:etching_tank')
-
+	shapex(['minecraft:observer', 'bluepower:blue_doped_wafer', 'minecraft:observer'],'minecraft:daylight_detector')
 
 
 
