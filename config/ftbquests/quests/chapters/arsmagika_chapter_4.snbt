@@ -795,6 +795,45 @@
 			x: -3.0d
 			y: 6.0d
 		}
+		{
+			id: "49EF230160C853BD"
+			tasks: [{
+				id: "4770613FB7A4D067"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:pnc_modules"
+					}
+				}
+				title: "Any #ironberry:pnc_modules"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "1F6228FEDB0B9048"
+			tasks: [{
+				id: "0879514AA1E5F922"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			icon: "pneumaticcraft:security_upgrade"
+			id: "406410AD4DCF1465"
+			subtitle: "Water"
+			tasks: [{
+				id: "575D350C7C285B55"
+				type: "checkmark"
+			}]
+			title: "Gas Busting"
+			x: -5.0d
+			y: -2.0d
+		}
 	]
 	title: "Age 4"
 }
