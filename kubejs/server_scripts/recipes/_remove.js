@@ -47,6 +47,9 @@ ServerEvents.recipes(event => {
     })
     //-----------------------------------------------//
     remid([
+			'thermal:machines/refinery/refinery_resin',
+			'thermal:devices/rock_gen/rock_gen_deepslate',
+			'thermal:devices/rock_gen/rock_gen_cobbled_deepslate',
 			'craftingstation:crafting_station_slab',						
             'homespun:crushing/crushing_flint_from_gravel',			
             'homespun:crushing/crushing_sugar_from_beets',		
@@ -87,8 +90,8 @@ ServerEvents.recipes(event => {
         ])
 
     remtype([
-			'thermal:devices/rock_gen/rock_gen_deepslate',
-			'thermal:devices/rock_gen/rock_gen_cobbled_deepslate',
+			'cyclic:melter',
+			'cyclic:solidifier',
 			'pneumaticcraft:assembly_laser',
 			'pneumaticcraft:assembly_drill',
 			'pneumaticcraft:thermo_plant',
