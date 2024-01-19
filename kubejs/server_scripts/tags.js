@@ -786,5 +786,5 @@ ServerEvents.tags('fluid', event => {
 
     event.add('ironberry:chad_water', 'minecraft:water')
 	event.add('ironberry:chad_steam','mekanism:steam')
-
+	event.add('ironberry:chad_glow','thermal:glowstone')
 })
