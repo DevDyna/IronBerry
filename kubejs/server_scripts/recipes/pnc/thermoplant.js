@@ -57,11 +57,11 @@ ServerEvents.recipes(event => {
   "type": "pneumaticcraft:thermo_plant",
   "fluid_input": {
 	  "type": "pneumaticcraft:fluid",
-    "tag": "ironberry:chad_water",
+    "tag": "ironberry:chad_steam",
     "amount": 100
   },
       "item_input": {
-    "tag": 'minecraft:minecraft:logs_that_burn'
+    "item": 'minecraft:coal'
   },
   "temperature": {
     "min_temp": 272
@@ -107,10 +107,58 @@ ServerEvents.recipes(event => {
   }
 })
   
+    //------------------------------------------------------//
+  	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_glow",
+    "amount": 1000
+  },
+  "item_input": {
+    "item": 'minecraft:iron_block'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'minecraft:raw_copper_block'
+  }
+})
   
-  
-  
-  
+      //------------------------------------------------------//
+  	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "item_input": {
+    "item": 'minecraft:glowstone_dust'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "fluid_output": {
+    "fluid": "thermal:glowstone",
+  "amount": 250
+  }
+})
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_water",
+    "amount": 1000
+  },
+      "item_input": {
+    "item": 'minecraft:redstone'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "fluid_output": {
+    "fluid": "mekanism:steam",
+  "amount": 10
+  }
+  })
   
 
 
