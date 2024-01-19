@@ -203,6 +203,8 @@ ServerEvents.recipes(event => {
 				"type": "pneumaticcraft:stacked_item",
                 "count": 5,
 				"tag":'rootsclassic:berries'
+			},{
+				"item": 'ars_nouveau:starby_gift'
 			}
         ],
         "pressure": -0.5,
@@ -243,5 +245,86 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-
+//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'bluepower:teslatite_dust'
+            },{
+				"item":'pneumaticcraft:plastic'
+			},{
+				"item":'pneumaticcraft:printed_circuit_board'
+			}
+        ],
+        "pressure": 2.0,
+        "results": [{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 4,
+                "item": 'pneumaticcraft:upgrade_matrix'
+            }
+        ]
+    })
+	//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'bluepower:teslatite_dust'
+            },{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 2,
+				"item":'minecraft:redstone_torch'
+			}
+        ],
+        "pressure": 2.0,
+        "results": [{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 6,
+                "item": 'pneumaticcraft:capacitor'
+            }
+        ]
+    })
+		//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'bluepower:tungsten_ingot'
+            },{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 3,
+				"item":'minecraft:redstone_torch'
+			}
+        ],
+        "pressure": 2.0,
+        "results": [{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 6,
+                "item": 'pneumaticcraft:transistor'
+            }
+        ]
+    })
+		//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'twilightforest:fiery_ingot'
+            },{
+				"item":'kubejs:pre_compressed'
+			}
+        ],
+        "pressure": 2.0,
+        "results": [{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 2,
+                "item": 'bluepower:tungsten_ingot'
+            }
+        ]
+    })	
+	
+	
+	
+	
+	
+	
+	
+	
 })
