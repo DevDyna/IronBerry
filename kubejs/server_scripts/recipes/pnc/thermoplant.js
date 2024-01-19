@@ -19,7 +19,6 @@ ServerEvents.recipes(event => {
   }
 })
 
-
 //------------------------------------------------------//
 	event.custom({
   "type": "pneumaticcraft:thermo_plant",
@@ -58,17 +57,62 @@ ServerEvents.recipes(event => {
   "type": "pneumaticcraft:thermo_plant",
   "fluid_input": {
 	  "type": "pneumaticcraft:fluid",
-    "tag": "ironberry:chad_steam",
+    "tag": "ironberry:chad_water",
     "amount": 100
+  },
+      "item_input": {
+    "tag": 'minecraft:minecraft:logs_that_burn'
   },
   "temperature": {
     "min_temp": 272
   },
   "fluid_output": {
     "fluid": "thermal:crude_oil",
+  "amount": 100
+  }
+  })
+ //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_water",
     "amount": 100
+  },
+    "item_input": {
+    "item": 'minecraft:glowstone_dust'
+  },
+  "temperature": {
+    "min_temp": 272
+  },  "item_output": {
+    "item": 'thermal:rosin'
   }
 })
+  //------------------------------------------------------//
+  	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "minecraft:lava",
+    "amount": 1000
+  },
+  "item_input": {
+    "item": 'cyclic:gem_amber'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'cyclic:gem_obsidian'
+  }
+})
+  
+  
+  
+  
+  
+  
+
 
 
 
