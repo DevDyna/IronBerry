@@ -608,7 +608,7 @@ ServerEvents.recipes(event => {
         D: 'tombstone:voodoo_poppet'
     })
 
-    event.shaped(Item.of('hostilenetworks:data_model', '{data_model:{data:250,id:"hostilenetworks:grave_guardian"}}'), [
+    event.shaped(Item.of('hostilenetworks:data_model', '{data_model:{data:1,id:"hostilenetworks:grave_guardian"}}'), [
             'ABC',
             'DEF',
             'GHI'
