@@ -10,6 +10,8 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('integrateddynamics:menril_sapling')
     event.removeAllTagsFrom('integrateddynamics:menril_planks')
 	event.removeAllTagsFrom('thermal:sapphire')
+	event.removeAllTagsFrom('pneumaticcraft:smart_chest')
+	event.removeAllTagsFrom('pneumaticcraft:reinforced_chest')
     //reactive sources
     event.get('reactive:body_sources').removeAll()
     event.get('reactive:caustic_sources').removeAll()
@@ -84,6 +86,12 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'ironchest:diamond_chest', 
+			'ironchest:gold_chest', 
+			'ironchest:iron_chest',
+			'pneumaticcraft:large_tank',
+			'thermal:phytogro', 
+			'thermal:phytosoil',
 			'#ironberry:magic_cards',
 			'cyclic:carbon_paper',
 			'cyclic:cloud',
@@ -224,6 +232,9 @@ ServerEvents.tags('item', event => {
 
     //recipe input side removed (as ingrendient)
     event.add('ironberry:input', [
+			'pneumaticcraft:upgrade_matrix',
+			'cyclic:gem_amber',
+			'cyclic:gem_obsidian',
 			'pneumaticcraft:failed_pcb',
             'hostilenetworks:twilight_prediction',
             'twilightforest:fiery_blood', 'twilightforest:fiery_tears',
@@ -238,6 +249,7 @@ ServerEvents.tags('item', event => {
 
     //recipe any side removed
     event.add('ironberry:any', [
+			'thermal:rosin',
             'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
             'homespun:crushing_tub',
             'homespun:tiny_iron_dust',
@@ -729,6 +741,9 @@ ServerEvents.tags('item', event => {
 
 	event.add('ironberry:magic_cards',['cyclic:location_data', 'cyclic:blockstate_data', 'cyclic:settings_data', 'cyclic:shape_data','cyclic:filter_data', 'cyclic:entity_data', 'cyclic:sound_data'])
 
+	event.add('ironberry:drop_sand',['minecraft:lily_pad', 'minecraft:gold_nugget', 'minecraft:nautilus_shell', 'minecraft:bone'])
+
+	event.add('ironberry:pnc_modules',['pneumaticcraft:logistics_module', 'pneumaticcraft:regulator_tube_module', 'pneumaticcraft:air_grate_module', 'pneumaticcraft:flow_detector_module', 'pneumaticcraft:pressure_gauge_module', 'pneumaticcraft:safety_tube_module', 'pneumaticcraft:vacuum_module', 'pneumaticcraft:redstone_module', 'pneumaticcraft:thermostat_module', 'pneumaticcraft:charging_module'])
 
 })
 
