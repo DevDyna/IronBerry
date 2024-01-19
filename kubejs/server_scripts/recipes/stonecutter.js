@@ -178,7 +178,8 @@ ServerEvents.recipes(event => {
 //trash recycle
 	switch_scut(['cyclic:trash','thermal:machine_null_augment'])
 
-
+	scut(['pneumaticcraft:logistics_module', 'pneumaticcraft:regulator_tube_module', 'pneumaticcraft:air_grate_module', 'pneumaticcraft:flow_detector_module', 'pneumaticcraft:pressure_gauge_module', 'pneumaticcraft:safety_tube_module', 'pneumaticcraft:vacuum_module', 'pneumaticcraft:redstone_module', 'pneumaticcraft:thermostat_module', 'pneumaticcraft:charging_module'],
+	['pneumaticcraft:ingot_iron_compressed','#ironberry:pnc_modules'])
 
 
 
