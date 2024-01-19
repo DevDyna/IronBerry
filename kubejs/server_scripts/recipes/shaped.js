@@ -698,9 +698,17 @@ ServerEvents.recipes(event => {
 	shapex(['pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'kubejs:blank', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed', 'bluepower:cagelamp_rgb', 'pneumaticcraft:ingot_iron_compressed'],Item.of('pneumaticcraft:uv_light_box', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:small_tank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'kubejs:blank', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:etching_tank')
 	shapex(['minecraft:observer', 'bluepower:blue_doped_wafer', 'minecraft:observer'],'minecraft:daylight_detector')
+	shapex(['pneumaticcraft:assembly_controller'],Item.of('pneumaticcraft:assembly_controller', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	
+	
+	shapex(['minecraft:air','pneumaticcraft:pressure_gauge','minecraft:air', 'pneumaticcraft:plastic', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:reinforced_pressure_tube', 'pneumaticcraft:ingot_iron_compressed'],Item.of('pneumaticcraft:assembly_controller', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:plastic','minecraft:air', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:assembly_platform')
+	shapex(['minecraft:air','pneumaticcraft:module_expansion_card', 'pneumaticcraft:transistor', 'pneumaticcraft:plastic', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:assembly_laser')
+	shapex(['minecraft:air','pneumaticcraft:module_expansion_card', 'pneumaticcraft:capacitor', 'pneumaticcraft:plastic', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:assembly_drill')
+	shapex(['minecraft:air','minecraft:hopper','minecraft:air', 'pneumaticcraft:plastic', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:assembly_io_unit_import')
+	shapex(['minecraft:air','uppers:upper','minecraft:air', 'pneumaticcraft:plastic', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:plastic', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed'],'pneumaticcraft:assembly_io_unit_export')
 
-
-
-
-
+	shapex(['minecraft:air','pneumaticcraft:reinforced_pressure_tube','minecraft:air','minecraft:air','minecraft:smooth_stone_slab','minecraft:air'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	shapex(['pneumaticcraft:charging_station'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	
 })
