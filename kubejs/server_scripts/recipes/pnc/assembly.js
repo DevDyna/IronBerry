@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
 	//-----------------------------------------------------------------------------------------------------------//
 	
 	laser('#minecraft:logs_that_burn',"supplementaries:ash",16)
-	drill("supplementaries:ash","minecraft:gold_nugget",1)
+	drill("supplementaries:ash","minecraft:gold_nugget",4)
 	
 
 	
