@@ -140,8 +140,26 @@ function moless(base,variants){
 	less(['ars_nouveau:stable_warp_scroll', 'minecraft:redstone', 'cyclic:battery'],'cyclic:teleport')
 	
 	less(['minecraft:charcoal', 'minecraft:paper'],'2x cyclic:carbon_paper')
+	less(['minecraft:barrel', 'minecraft:string', 'cyclic:ender_fishing'],'cyclic:fisher')
 	
+	less(['pneumaticcraft:upgrade_matrix','2x minecraft:lever'],'pneumaticcraft:security_upgrade')
+	less(['pneumaticcraft:upgrade_matrix','8x pneumaticcraft:reinforced_pressure_tube'],'pneumaticcraft:volume_upgrade')
+	less(['pneumaticcraft:upgrade_matrix','4x bluepower:tungsten_carbide'],'pneumaticcraft:speed_upgrade')
+	less(['4x pneumaticcraft:reinforced_pressure_tube'],'pneumaticcraft:tube_junction')
 	
+	less(['2x pneumaticcraft:small_tank'],'pneumaticcraft:medium_tank')
+	less(['2x pneumaticcraft:medium_tank'],'pneumaticcraft:large_tank')
+	less(['4x pneumaticcraft:large_tank'],'pneumaticcraft:huge_tank')
+	
+	less(['4x pneumaticcraft:small_tank'],'pneumaticcraft:large_tank')
+	less(['8x pneumaticcraft:medium_tank'],'pneumaticcraft:huge_tank')
+
+	less(['pneumaticcraft:upgrade_matrix', 'sophisticatedstorage:advanced_hopper_upgrade'],'pneumaticcraft:dispenser_upgrade')
+	less(['pneumaticcraft:upgrade_matrix','essentials:item_chute' ],'pneumaticcraft:range_upgrade')
+	less(['pneumaticcraft:upgrade_matrix', 'sophisticatedstorage:advanced_magnet_upgrade'],'pneumaticcraft:magnet_upgrade')
+	less(['pneumaticcraft:ingot_iron_compressed', 'minecraft:chest'],'pneumaticcraft:reinforced_chest')
+	
+	less(['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:reinforced_chest', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:smart_chest')
 	
 	//less([],)
 	
