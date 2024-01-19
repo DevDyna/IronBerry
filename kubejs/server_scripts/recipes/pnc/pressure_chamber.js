@@ -200,8 +200,6 @@ ServerEvents.recipes(event => {
         "inputs": [{
                 "item": 'kubejs:printed_plate'
             },{
-				"type": "pneumaticcraft:stacked_item",
-                "count": 5,
 				"tag":'rootsclassic:berries'
 			},{
 				"item": 'ars_nouveau:starby_gift'
@@ -319,6 +317,45 @@ ServerEvents.recipes(event => {
             }
         ]
     })	
+	
+			//-------------------------------------------------------//
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'minecraft:redstone'
+            },{
+				"item":'ars_nouveau:source_gem'
+			},{
+				"item":'bluepower:teslatite_dust'
+			},{
+				"item":'thermal:rosin'
+			}
+        ],
+        "pressure": 1.0,
+        "results": [{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 4,
+                "item": 'cyclic:gem_amber'
+            }
+        ]
+    })	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
