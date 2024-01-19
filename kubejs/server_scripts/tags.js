@@ -84,6 +84,9 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'#ironberry:magic_cards',
+			'cyclic:carbon_paper',
+			'cyclic:cloud',
 			'pneumaticcraft:assembly_program_drill_laser',
 			'prettypipes:blank_module', 
 			'prettypipes:pipe',
@@ -529,6 +532,7 @@ ServerEvents.tags('item', event => {
             'minecraft:saddle',
             'minecraft:leather_boots',
             'froglins:froglin_egg',
+			'minecraft:prismarine_shard',
         ])
 
     event.add('ironberry:white_stones', [
@@ -723,6 +727,9 @@ ServerEvents.tags('item', event => {
 
     event.add('ironberry:magic_trees', ['ars_nouveau:blue_archwood_sapling', 'ars_nouveau:purple_archwood_sapling', 'ars_nouveau:green_archwood_sapling', 'ars_nouveau:red_archwood_sapling'])
 
+	event.add('ironberry:magic_cards',['cyclic:location_data', 'cyclic:blockstate_data', 'cyclic:settings_data', 'cyclic:shape_data','cyclic:filter_data', 'cyclic:entity_data', 'cyclic:sound_data'])
+
+
 })
 
 ServerEvents.tags('block', event => {
@@ -763,5 +770,6 @@ ServerEvents.tags('block', event => {
 ServerEvents.tags('fluid', event => {
 
     event.add('ironberry:chad_water', 'minecraft:water')
+	event.add('ironberry:chad_steam','mekanism:steam')
 
 })
