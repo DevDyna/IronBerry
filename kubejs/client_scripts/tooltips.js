@@ -60,7 +60,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:indigo_flowers', 'Can be used to craft indigo flower')
     tipplusplus('#ironberry:ae_workshop', 'Can be used to open §acells §for configure §atools')
     tipplusplus('#ironberry:ae_outside', 'Can work outside the §anetwork')
-    tipplusplus('ordinarycrook:wooden_crook', '§6You can used to break only $leaves or $crops')
+    tipplusplus('kubejs:crook', 'Like a §6hoe §fbut better!')
     tipplusplus('#ironberry:nosilk', 'Dont require §bSilk Touch §fto break it')
     tipplusplus('#tombstone:seeds', '§6Obtained by breaking tall grass or using a Bag of Seeds')
     tipplusplus('reactive:crucible', '§6Obtained by clicking a crucible with a scrool of transmutation')
