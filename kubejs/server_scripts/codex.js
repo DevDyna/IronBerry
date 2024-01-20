@@ -81,11 +81,11 @@ function Feach(e, group) {
         return found
 }
 //notification easy
-function ENotify(event, text, icon, outlineColor, backgroundColor, borderColor) {
+function ENotify(event, text, itemIcon, outlineColor, backgroundColor, borderColor) {
 
     event.player.notify(Notification.make(e => {
             e.text = text
-                e.icon = icon
+                e.itemIcon = itemIcon
                 e.outlineColor = outlineColor
                 e.backgroundColor = backgroundColor
                 e.borderColor = borderColor
