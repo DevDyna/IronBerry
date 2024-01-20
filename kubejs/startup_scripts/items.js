@@ -144,5 +144,12 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/printed_plate')
     .displayName('Printed Plate')
 	
+	event.create('crook','hoe')
+	.parentModel('ironberry:item/crook')
+	.unstackable()
+	.texture('ironberry:item/crook')
+    .displayName('Wooden Crook')
+	.tier('iron')
+	.maxDamage(2048)
 
 })
