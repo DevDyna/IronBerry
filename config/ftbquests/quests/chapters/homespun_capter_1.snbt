@@ -588,9 +588,18 @@
 			dependencies: ["2EEF03127BC5517F"]
 			icon: {
 				Count: 1b
-				id: "ordinarycrook:wooden_crook"
+				id: "kubejs:crook"
 				tag: {
 					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 10s
+					}]
+					"quark:RuneAttached": 1b
+					"quark:RuneColor": {
+						Count: 1b
+						id: "quark:blank_rune"
+					}
 				}
 			}
 			id: "0FAD94243960F731"
@@ -600,10 +609,32 @@
 				type: "item"
 			}]
 			subtitle: "Use a crook"
-			tasks: [{
-				id: "0A5ECCE3ECC0F9A5"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "0A5ECCE3ECC0F9A5"
+					type: "checkmark"
+				}
+				{
+					id: "0DA8F97CD7AA26A2"
+					item: {
+						Count: 1b
+						id: "kubejs:crook"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 10s
+							}]
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:blank_rune"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Need More?"
 			x: -6.0d
 			y: 1.5d
