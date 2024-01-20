@@ -711,4 +711,21 @@ ServerEvents.recipes(event => {
 	shapex(['minecraft:air','pneumaticcraft:reinforced_pressure_tube','minecraft:air','minecraft:air','minecraft:smooth_stone_slab','minecraft:air'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:charging_station'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	
+	    event.shaped(Item.of('kubejs:crook', '{"quark:RuneAttached":1b,"quark:RuneColor":{Count:1b,id:"quark:blank_rune"}}').enchant('minecraft:fortune', 10), [
+            'SS ',
+            ' S ',
+            ' S '
+        ], {
+        S: 'minecraft:stick'
+    })
+    //
+    //
+    //
+	
+	
+	
+	
+	
+	
+	
 })
