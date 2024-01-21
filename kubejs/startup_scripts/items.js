@@ -151,5 +151,9 @@ StartupEvents.registry('item', event => {
     .displayName('Wooden Crook')
 	.tier('iron')
 	.maxDamage(2048)
-
+	
+	
+	event.create('solidified_resin')
+	.texture('ironberry:item/solidified_resin')
+	.displayName('Solidified Refined Resin')
 })
