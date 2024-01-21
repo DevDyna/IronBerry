@@ -742,6 +742,9 @@ ServerEvents.tags('item', event => {
 
 	event.add('ironberry:pnc_modules',['pneumaticcraft:logistics_module', 'pneumaticcraft:regulator_tube_module', 'pneumaticcraft:air_grate_module', 'pneumaticcraft:flow_detector_module', 'pneumaticcraft:pressure_gauge_module', 'pneumaticcraft:safety_tube_module', 'pneumaticcraft:vacuum_module', 'pneumaticcraft:redstone_module', 'pneumaticcraft:thermostat_module', 'pneumaticcraft:charging_module'])
 
+	event.add('ironbery:good_berries',['ars_nouveau:source_berry','homespun:ironberries'])
+
+
 })
 
 ServerEvents.tags('block', event => {
@@ -784,4 +787,9 @@ ServerEvents.tags('fluid', event => {
     event.add('ironberry:chad_water', 'minecraft:water')
 	event.add('ironberry:chad_steam','mekanism:steam')
 	event.add('ironberry:chad_glow','thermal:glowstone')
+	event.add('ironberry:chad_merlin','integrateddynamics:menril_resin') // not my fault but i decide it , and now i keep! j.j
+	event.add('ironberry:chad_chorus','integrateddynamics:liquid_chorus')
+
+
+
 })
