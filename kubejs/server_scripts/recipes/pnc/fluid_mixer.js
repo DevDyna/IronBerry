@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 	event.custom({
   "type": "pneumaticcraft:fluid_mixer",
   "input1": {
-	      "type": "pneumaticcraft:fluid",
+	"type": "pneumaticcraft:fluid",
     "tag": "ironberry:chad_water",
     "amount": 1000
   },
