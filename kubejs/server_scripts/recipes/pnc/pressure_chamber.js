@@ -3,12 +3,12 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
-                "item": 'minecraft:iron_ingot'
+                "item": 'minecraft:iron_nugget'
             }, {
-                "item": 'minecraft:bricks'
+                "item": 'minecraft:brick'
             }
         ],
-        "pressure": 2.5,
+        "pressure": 3.0,
         "results": [{
                 "item": 'pedestals:block_pedestal'
             }
