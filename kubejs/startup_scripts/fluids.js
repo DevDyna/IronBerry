@@ -24,7 +24,7 @@ StartupEvents.registry('fluid', event => {
         .bucketColor(color)
         .displayName(titleCase(name))
     }
-
+/*
     molten('tin', 0x9fc4c0)
     molten('copper', 0x47b55)
     molten('iron', 0xd5d5d5)
@@ -44,7 +44,8 @@ StartupEvents.registry('fluid', event => {
     molten('enderium', 0x1d7d8a)
     molten('tungsten carbide', 0x5e5e5e)
     molten('flux infused', 0xf8ebaa)
+	*/
 	simple('acid',0x912D2D)
-
+	simple('refined_resin',0xFFFF66)
 
 })
