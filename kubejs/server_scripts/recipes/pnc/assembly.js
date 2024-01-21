@@ -47,11 +47,11 @@ ServerEvents.recipes(event => {
 
 	drill_laser('homespun:ironberries','homespun:tiny_iron_dust',4,'minecraft:raw_iron',4)
 
+	drill_laser('minecraft:raw_copper','kubejs:patina',12,'homespun:copper_nugget',3)
 
+	laser('minecraft:sand','minecraft:red_sand',1)
 
-
-
-
+	drill_laser('minecraft:iron_ingot','thermal:silver_ingot',1,'thermal:lead_ingot',1)
 
 
 
