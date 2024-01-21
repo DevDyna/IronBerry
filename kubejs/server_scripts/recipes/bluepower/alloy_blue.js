@@ -137,5 +137,6 @@ ServerEvents.recipes(event => {
 	
 	alloy(['thermal:silver_ingot', 'minecraft:gold_ingot'],[1,1],'thermal:electrum_ingot',2)
 	
+	alloy(['minecraft:glowstone_dust', 'minecraft:grass'],[1,1],'minecraft:glow_lichen',2)
 
 })
