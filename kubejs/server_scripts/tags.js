@@ -28,10 +28,6 @@ ServerEvents.tags('item', event => {
     event.add('reactive:mind_sources', 'bluepower:amethyst_gem')
     event.add('reactive:soul_sources', 'bluepower:sapphire_gem')
 
-    //twilight activator
-    event.remove('twilightforest:portal/activator', 'minecraft:diamond')
-    event.add('twilightforest:portal/activator', 'tombstone:soul_receptacle')
-
     //remove indigo
     event.removeAllTagsFrom('bluepower:indigo_flower')
 
@@ -86,6 +82,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'cyclic:packager',
 			'ironchest:diamond_chest', 
 			'ironchest:gold_chest', 
 			'ironchest:iron_chest',
