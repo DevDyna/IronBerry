@@ -127,9 +127,15 @@ ServerEvents.recipes(event => {
 
 	alloy(['kubejs:patina', 'hostilenetworks:twilight_prediction'],[1,1],'hostilenetworks:empty_prediction',1)
 
-	alloy(['pneumaticcraft:plastic', 'nuclearcraft:silicon_gem'],[1,1],'pneumaticcraft:empty_pcb',4)
+	alloy(['pneumaticcraft:plastic', 'minecraft:redstone', 'pneumaticcraft:capacitor', 'pneumaticcraft:transistor'],[1,1,1,1],'pneumaticcraft:empty_pcb',4)
+	
+	alloy(['twilightforest:knightmetal_ingot', 'twilightforest:ironwood_ingot'],[1,1],'kubejs:pre_compressed',4)
+	
+	alloy(['pneumaticcraft:failed_pcb'],[1],'pneumaticcraft:empty_pcb',1)
 	
 	//alloy([],)
-
+	
+	alloy(['thermal:silver_ingot', 'minecraft:gold_ingot'],[1,1],'thermal:electrum_ingot',2)
+	
 
 })
