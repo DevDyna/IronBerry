@@ -67,6 +67,7 @@ data.entity.banned = [
     'minecraft:chicken',
     'minecraft:wandering_trader',
     'minecraft:trader_llama',
+	'supplementaries:red_merchant',
 ]
 
 data.block.deepslate_ores.name = [
