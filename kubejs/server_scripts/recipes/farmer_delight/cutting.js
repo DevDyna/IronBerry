@@ -147,7 +147,40 @@ ServerEvents.recipes(event => {
     })	
 	
 	
+	//make sense
+	//---------//
+					event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [{
+                "item": 'minecraft:iron_ingot'
+            }
+        ],
+        "result": [	    
+		{
+      "item": 'thermal:drill_head'
+    }
+        ],
+        "tool": {
+            "tag": "forge:tools/pickaxes"
+        }
+    })	
 	
+						event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [{
+                "item": 'minecraft:iron_ingot'
+            }
+        ],
+        "result": [	    
+		{
+      "item": 'thermal:saw_blade'
+    }
+        ],
+        "tool": {
+            "tag": "forge:tools/axes"
+        }
+    })	
+	//---------//
 	
 	
 	
