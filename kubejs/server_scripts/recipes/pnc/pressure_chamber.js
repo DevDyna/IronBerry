@@ -87,7 +87,9 @@ ServerEvents.recipes(event => {
         "results": [{
                 "item": 'kubejs:machine',
 				"count": 4
-            }
+            },{
+				"item": 'thermal:saw_blade'
+			}
         ]
     })
     //-------------------------------------------------------//
