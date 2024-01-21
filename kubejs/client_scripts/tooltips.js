@@ -82,7 +82,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:ice_shard', 'Obtained by break §bice')
     tipplusplus('#ironberry:spore_colony', 'Obtained by placing a mushroom on top of a §2rich soil')
     tipplusplus('minecraft:gold_nugget', 'Obtained by breaking §7ash §fwith a §bshovel§f')
-	tipplusplus('#ironberry:drop_sand','Obtained by breaking §6sand')
+	tipplusplus('#ironberry:drop_sand','Obtained by breaking §6red sand')
     tipplusplus('kubejs:rich_bone_meal', 'Right click on §2rich soil §fto spawn random §abushes')
     tipplusplus('kubejs:illuminati', 'Right click give §eextra time §fat your §bTime in a Bottle')
     tipplusplus('#farmersdelight:wild_crops', 'Obtained by using §6rich bone meal §fon §2rich soil')
