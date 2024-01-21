@@ -54,7 +54,7 @@ function moless(base,variants){
 	less(['sophisticatedstorage:upgrade_base','minecraft:piston'],'sophisticatedstorage:advanced_pickup_upgrade')
 	less(['sophisticatedstorage:upgrade_base','minecraft:ender_pearl'],'sophisticatedstorage:magnet_upgrade')
 	less(['sophisticatedstorage:magnet_upgrade','minecraft:ender_pearl'],'sophisticatedstorage:advanced_magnet_upgrade')
-	
+	less(['#ironberry:tables','sophisticatedstorage:upgrade_base'],'sophisticatedstorage:crafting_upgrade')
 	less(['4x sophisticatedstorage:upgrade_base'],'sophisticatedstorage:compacting_upgrade')
 	less(['4x sophisticatedstorage:compacting_upgrade'],'sophisticatedstorage:advanced_compacting_upgrade')
 
