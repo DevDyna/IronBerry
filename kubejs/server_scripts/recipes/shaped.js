@@ -624,6 +624,20 @@ ServerEvents.recipes(event => {
         E: Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}').strongNBT()
 
     })
+	
+event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'), [
+            'PGP',
+            'GSG',
+            'PGP'
+        ], {
+        S: 'tombstone:soul_receptacle',
+        P: 'pneumaticcraft:plastic',
+        G: Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:grave_guardian"}}').strongNBT()
+    })
+	
+	
+	
+	
 
     /* 	event.shaped('thoriumreactors:white_industrial_block_brick', [
     'EEE',
@@ -710,6 +724,17 @@ ServerEvents.recipes(event => {
 
 	shapex(['minecraft:air','pneumaticcraft:reinforced_pressure_tube','minecraft:air','minecraft:air','minecraft:smooth_stone_slab','minecraft:air'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
 	shapex(['pneumaticcraft:charging_station'],Item.of('pneumaticcraft:charging_station', '{BlockEntityTag:{UpgradeInventory:{Items:[{Count:1b,Slot:0,id:"pneumaticcraft:security_upgrade"}],Size:4}}}'))
+	
+	shapex(['sophisticatedstorage:advanced_hopper_upgrade', 'sophisticatedstorage:advanced_compacting_upgrade', 'sophisticatedstorage:compression_upgrade', 'sophisticatedstorage:compacting_upgrade', 'craftingstation:crafting_station', 'sophisticatedstorage:compacting_upgrade', 'sophisticatedstorage:compression_upgrade', 'sophisticatedstorage:advanced_compacting_upgrade', 'sophisticatedstorage:advanced_hopper_upgrade'],'cyclic:packager')
+	shapex(['sophisticatedstorage:crafting_upgrade', 'pneumaticcraft:ingot_iron_compressed', 'sophisticatedstorage:crafting_upgrade', 'pneumaticcraft:ingot_iron_compressed', 'cyclic:packager', 'pneumaticcraft:ingot_iron_compressed', 'sophisticatedstorage:crafting_upgrade', 'pneumaticcraft:ingot_iron_compressed', 'sophisticatedstorage:crafting_upgrade'],'cyclic:crafter')
+	
+	shapex(['pneumaticcraft:ingot_iron_compressed', 'integrateddynamics:cable', 'pneumaticcraft:ingot_iron_compressed'],'16x pneumaticcraft:reinforced_pressure_tube')
+	
+	
+	
+	
+	
+	
 	
 	    event.shaped(Item.of('kubejs:crook', '{"quark:RuneAttached":1b,"quark:RuneColor":{Count:1b,id:"quark:blank_rune"}}').enchant('minecraft:fortune', 10), [
             'SS ',
