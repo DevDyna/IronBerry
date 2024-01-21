@@ -5,18 +5,3 @@ On github only experimental/dev release so can change after a few of days withou
 if you want play you need to know that!
  
 Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron berries you can obtain iron , iron to craft better machinery to process much better the iron berries and start reactions and on more..... try to see now!
-
-
-## Age 0 
-
-Various informations , useful links and easter eggs
-
-## Age 1 
-
-Obtaining wood , berries , processing dirts to produce clay to generate dirt and bird nest ?! 
-
-## Age 2 
-
-Chemistry with vials , blue machines and pipes
-
-And soon...
