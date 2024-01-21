@@ -52,25 +52,6 @@ ServerEvents.recipes(event => {
     "item": "pneumaticcraft:plastic"
   }
 })
-//------------------------------------------------------//
-	event.custom({
-  "type": "pneumaticcraft:thermo_plant",
-  "fluid_input": {
-	  "type": "pneumaticcraft:fluid",
-    "tag": "ironberry:chad_steam",
-    "amount": 100
-  },
-      "item_input": {
-    "item": 'minecraft:coal'
-  },
-  "temperature": {
-    "min_temp": 272
-  },
-  "fluid_output": {
-    "fluid": "thermal:crude_oil",
-  "amount": 100
-  }
-  })
  //------------------------------------------------------//
 	event.custom({
   "type": "pneumaticcraft:thermo_plant",
@@ -208,7 +189,7 @@ ServerEvents.recipes(event => {
     "amount": 10
   },
       "item_input": {
-    "tag": 'ironbery:good_berries'
+    "tag": 'ironberry:good_berries'
   },
   "temperature": {
     "min_temp": 272
@@ -218,10 +199,74 @@ ServerEvents.recipes(event => {
 	"amount": 100
   }
   })
-
-
-
-
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_merlin",
+    "amount": 10
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'integrateddynamics:crystalized_menril_chunk'
+  }
+  })
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_chorus",
+    "amount": 10
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'integrateddynamics:crystalized_chorus_chunk'
+  }
+  })
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_oil",
+    "amount": 10
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'thermal:bitumen'
+  },
+  "fluid_output":{
+	  "fluid": "thermal:crude_oil",
+	  "amount": 1
+  }
+  })
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_resin",
+    "amount": 100
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_input": {
+    "item": 'thermal:rosin'
+  },
+  "fluid_output":{
+	  "fluid": "kubejs:refined_resin",
+	  "amount": 10
+  }
+  })
 
 
 
