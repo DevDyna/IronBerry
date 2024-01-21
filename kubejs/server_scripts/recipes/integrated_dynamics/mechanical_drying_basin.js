@@ -97,6 +97,52 @@ ServerEvents.recipes(event => {
     })
     //
     //
+				    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:sandstone',
+        "fluid": {
+            "fluid": "integrateddynamics:liquid_chorus",
+            "amount": 10
+        },
+        "duration": 80,
+        "result": {
+            "item": 'minecraft:end_stone'
+        }
+    })
+	//
+    //
+				    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:chorus_fruit',
+        "duration": 500,
+        "result": {
+            "item": 'minecraft:chorus_plant'
+        }
+    })
+	//
+	//
+					    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:chorus_plant',
+        "duration": 500,
+        "result": {
+            "item": 'minecraft:chorus_flower'
+        }
+    })	
+	//
+	//
+					    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:glow_berries',
+        "duration": 200,
+        "result": {
+            "item": 'minecraft:sweet_berries'
+        }
+    })
+	
+	
+	
+	
 	
 	
 })
