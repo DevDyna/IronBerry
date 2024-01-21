@@ -45,7 +45,15 @@ StartupEvents.registry('fluid', event => {
     molten('tungsten carbide', 0x5e5e5e)
     molten('flux infused', 0xf8ebaa)
 	*/
-	simple('acid',0x912D2D)
-	simple('refined_resin',0xFFFF66)
+
+        event.create('acid')
+        .thickTexture(0x912D2D)
+        .bucketColor(0x912D2D)
+        .displayName('Acid')
+		
+		event.create('refined_resin')
+        .thickTexture(0xFFB266)
+        .bucketColor(0xFFB266)
+        .displayName('Refined Resin')
 
 })
