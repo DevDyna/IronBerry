@@ -160,11 +160,64 @@ ServerEvents.recipes(event => {
   }
   })
   
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_merlin",
+    "amount": 10
+  },
+      "item_input": {
+    "item": 'ars_nouveau:source_berry'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'integrateddynamics:menril_berries'
+  }
+  })
 
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_water",
+    "amount": 1000
+  },
+      "item_input": {
+    "tag": 'ironberry:blue_gems'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "fluid_output": {
+    "fluid": 'integrateddynamics:menril_resin',
+	"amount": 100
+  }
+  })
 
-
-
-
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_glow",
+    "amount": 10
+  },
+      "item_input": {
+    "tag": 'ironbery:good_berries'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "fluid_output": {
+    "fluid": 'integrateddynamics:liquid_chorus',
+	"amount": 100
+  }
+  })
 
 
 
