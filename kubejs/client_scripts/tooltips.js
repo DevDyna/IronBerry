@@ -115,8 +115,8 @@ ItemEvents.tooltip(event => {
 	tipplusplus('pedestals:upgrade_pedestal_cobblegen','Every §680 tick§f rool a §epool')
 	tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'],'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
 	tipplusplus(global.disabledItem,'§cItem Disabled')
-	tipplusplus('#ironberry:bucket_fuel','Liquid fuels for liquid compressor')
-	tipplusplus('minecraft:obsidian','Can be broken by using a §1sapphire§f pickaxe')
+	tipplusplus('#ironberry:bucket_fuel','§5Fuels §ffor §2liquid §fcompressor')
+	tipplusplus('minecraft:obsidian','Can be broken using a §1sapphire§f pickaxe')
 
 })
 
