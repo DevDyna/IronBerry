@@ -27,6 +27,27 @@ function moless(base,variants){
 }
 }catch(e){}
 //----------------------------------------------//
+try{
+function supless(base,result,variants){
+		
+		variants.forEach(ingredient=>{
+			less([base,ingredient],result)	//forge:beds+ *dye* = *bed with dye* -> beds[[bed,dye],[bed,dye]]
+		})
+
+}
+}catch(e){}
+//----------------------------------------------//
+try{
+function emolimix(jump,variants){
+		
+		for(let i=0;i<variants.length-1;i++){
+			less([variants[i],jump],variants[i+1])
+		}
+
+
+}
+}catch(e){}
+//----------------------------------------------//
     less([
             'minecraft:bowl',
             '3x #rootsclassic:berries'
@@ -162,5 +183,26 @@ function moless(base,variants){
 	less(['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:reinforced_chest', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:smart_chest')
 	
 	//less([],)
+
+	moless('pneumaticcraft:upgrade_matrix',[
+	['pneumaticcraft:ender_visor_upgrade', 'minecraft:carved_pumpkin'],
+	['pneumaticcraft:gilded_upgrade', 'minecraft:gold_ingot'],
+	['pneumaticcraft:stomp_upgrade', '#minecraft:wool'],
+	['pneumaticcraft:elytra_upgrade', 'minecraft:elytra'],
+	['pneumaticcraft:flippers_upgrade', 'thermal:diving_boots'],
+	['pneumaticcraft:radiation_shielding_upgrade', 'inventorypets:pet_shield'],
+	['pneumaticcraft:scuba_upgrade', 'homespun:fluid_storage'],
+	['pneumaticcraft:night_vision_upgrade', 'cyclic:apple_lapis'],
+	['pneumaticcraft:armor_upgrade', 'jetboots:armor_core'],
+	['pneumaticcraft:charging_upgrade', 'pneumaticcraft:charging_module'],
+	['pneumaticcraft:search_upgrade', 'tombstone:tablet_of_cupidity'],
+	['pneumaticcraft:coordinate_tracker_upgrade', 'minecraft:clock'],
+	['pneumaticcraft:block_tracker_upgrade', 'minecraft:recovery_compass'],
+	['pneumaticcraft:item_life_upgrade', 'cyclic:apple_diamond'],
+	['pneumaticcraft:entity_tracker_upgrade', 'minecraft:compass'],
+	])
+	
+	emolimix('jetboots:rocket_boots',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:jet_boots_upgrade_1', 'pneumaticcraft:jet_boots_upgrade_2', 'pneumaticcraft:jet_boots_upgrade_3', 'pneumaticcraft:jet_boots_upgrade_4', 'pneumaticcraft:jet_boots_upgrade_5'])
+	emolimix('ars_nouveau:jump_ring',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:jumping_upgrade_1', 'pneumaticcraft:jumping_upgrade_2', 'pneumaticcraft:jumping_upgrade_3', 'pneumaticcraft:jumping_upgrade_4'])
 	
 })
