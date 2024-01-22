@@ -28,7 +28,7 @@ body:
     attributes:
       label: Description
       description: Describe it
-      placeholder: sqrt(-1) - sqrt(i) = -0,707106781 + 0,292893219 i
+      placeholder: 1 / sqrt(i) = 0,707106781 - 0,707106781 i
     validations:
       required: true
       
