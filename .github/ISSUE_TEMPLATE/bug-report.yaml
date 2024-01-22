@@ -1,0 +1,53 @@
+name: Bug Report
+description: Have you find a bug ? Squash it!
+title: "[Bug]: "
+labels: [bug, need support]
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Core
+      description: Biip Boop , Something happen !
+      options:
+        - label: I have searched for this issue on this repository
+          required: true
+        - label: This bug persist and I need help
+          required: true
+          
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Environment
+      description: Biip Boop , Something happen !
+      options:
+        - label: Singleplayer/Local - NO LAN
+        - label: Multiplayer        - LAN
+        - label: Multiplayer        - Dedicated server
+        
+  - type: input
+    id: version
+    attributes:
+      label: Modpack Version
+      placeholder: ex. 0.7c
+      description: Insert a valid version !
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-desc
+    attributes:
+      label: Description
+      description: What happen
+      placeholder: Describe what you are doing
+    validations:
+      required: true
+      
+      
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure
+      description: Describe layer by layer what you have done (please not from prehistory to now , only basics..)
+      placeholder: Describe here!
+    validations:
+      required: true
