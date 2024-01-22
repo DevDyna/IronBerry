@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
 
 	drill_laser('minecraft:iron_ingot','thermal:silver_ingot',1,'thermal:lead_ingot',1)
 
-
+	laser('kubejs:solidified_resin','nuclearcraft:bioplastic',2)
 
 
 
