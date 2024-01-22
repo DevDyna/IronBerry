@@ -1,0 +1,44 @@
+name: New Feature
+description: All good ideas
+title: ""
+labels: [enhancement, need support]
+assignees: DevDyna
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Core
+      description: Biip Boop , Something happen !
+      options:
+        - label: I have searched for this issue on this repository
+          required: true
+        - label: I like what you are doing
+          required: true
+          
+  - type: checkboxes
+    id: case
+    attributes:
+      label: What is your case?
+      description: 
+      options:
+        - label: New Mod to add and why
+        - label: Enable a disabled item with X scope
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe it
+      placeholder: sqrt(-1) - sqrt(i) = -0,707106781 + 0,292893219 i
+    validations:
+      required: true
+      
+      
+  - type: input
+    id: missing-case
+    attributes:
+      label: Missing Your Case ?
+      description: Write he what case you have find that still missing on *case* section
+      placeholder: Hey can you add *lollypop* because can be overpowered ??? [NO]
+    validations:
+      required: false
