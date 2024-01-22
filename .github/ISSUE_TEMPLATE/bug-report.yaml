@@ -2,6 +2,7 @@ name: Bug Report
 description: Have you find a bug ? Squash it!
 title: "[Bug]: "
 labels: [bug, need support]
+assignees: DevDyna
 body:
   - type: checkboxes
     id: new-issue
@@ -14,15 +15,17 @@ body:
         - label: This bug persist and I need help
           required: true
           
-  - type: checkboxes
+  - type: dropdown
     id: environment
     attributes:
       label: Environment
-      description: Biip Boop , Something happen !
+      description: Blup Blup , We are on deep !
       options:
         - label: Singleplayer/Local - NO LAN
         - label: Multiplayer        - LAN
         - label: Multiplayer        - Dedicated server
+         validations:
+    required: true
         
   - type: input
     id: version
@@ -34,7 +37,7 @@ body:
       required: true
 
   - type: textarea
-    id: bug-desc
+    id: description
     attributes:
       label: Description
       description: What happen
