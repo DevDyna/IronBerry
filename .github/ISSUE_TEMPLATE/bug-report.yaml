@@ -24,8 +24,8 @@ body:
         - Singleplayer/Local | NO LAN
         - Multiplayer        | LAN
         - Multiplayer        | Dedicated server
-      validations:
-       required: true
+    validations:
+      required: true
         
   - type: input
     id: version
