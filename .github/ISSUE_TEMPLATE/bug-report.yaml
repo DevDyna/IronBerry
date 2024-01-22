@@ -32,7 +32,7 @@ body:
     attributes:
       label: Modpack Version
       placeholder: ex. 0.7c
-      description: Insert a valid version !
+      description: Insert a valid version (beta and releases allowed)
     validations:
       required: true
 
@@ -40,8 +40,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: What happen
-      placeholder: Describe what you are doing
+      description: Describe what happen to you
+      placeholder: Desc.content.push(*any*)/0
     validations:
       required: true
       
@@ -50,7 +50,7 @@ body:
     id: procedure
     attributes:
       label: Procedure
-      description: Describe layer by layer what you have done (please not from prehistory to now , only basics..)
-      placeholder: Describe here!
+      description: Describe layer by layer about how to reproduce it (please not from prehistory to now , only basics..)
+      placeholder: ...
     validations:
       required: true
