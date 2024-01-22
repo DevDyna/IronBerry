@@ -163,4 +163,10 @@ event.replaceInput({output:'cyclic:detector_entity'},'minecraft:quartz','bluepow
 event.replaceInput({output:'cyclic:detector_item'},'minecraft:quartz','bluepower:red_alloy_ingot')
 
 
+event.replaceInput({output: 'pneumaticcraft:compressed_iron_boots'},'minecraft:leather_boots','minecraft:iron_boots')
+event.replaceInput({output: 'pneumaticcraft:compressed_iron_leggings'},'minecraft:leather_leggings','minecraft:iron_leggings')
+event.replaceInput({output: 'pneumaticcraft:compressed_iron_chestplate'},'minecraft:leather_chestplate','minecraft:iron_chestplate')
+event.replaceInput({output: 'pneumaticcraft:compressed_iron_helmet'},'minecraft:leather_helmet','minecraft:iron_helmet')
+
+
 })
