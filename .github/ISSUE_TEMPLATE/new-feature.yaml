@@ -1,5 +1,5 @@
 name: New Feature
-description: All good ideas
+description: All good ideas can be usefull !
 labels: [enhancement, need support]
 assignees: DevDyna
 body:
@@ -37,7 +37,7 @@ body:
     id: missing-case
     attributes:
       label: Missing Your Case ?
-      description: Write he what case you have find that still missing on *case* section
+      description: Write he what case you have find that still missing on **case** section
       placeholder: Hey can you add *lollypop* because can be overpowered ??? [NO]
     validations:
       required: false
