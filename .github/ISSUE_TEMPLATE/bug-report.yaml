@@ -53,3 +53,12 @@ body:
       placeholder: f(x y)=log z
     validations:
       required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Additional things
+      description: Anything else , included videos , gifs , screenshots and more..
+      placeholder: ln x- ln y
+    validations:
+      required: true
