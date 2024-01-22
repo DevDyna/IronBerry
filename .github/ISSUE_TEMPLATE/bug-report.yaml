@@ -41,7 +41,7 @@ body:
     attributes:
       label: Description
       description: Describe what happen to you
-      placeholder: Desc.content.push(*any*)/0
+      placeholder: sqrt(-1) - sqrt(i) = -0,707106781 + 0,292893219 i
     validations:
       required: true
       
@@ -51,6 +51,6 @@ body:
     attributes:
       label: Procedure
       description: Describe layer by layer about how to reproduce it (please not from prehistory to now , only basics..)
-      placeholder: ...
+      placeholder: f(x y)=log z
     validations:
       required: true
