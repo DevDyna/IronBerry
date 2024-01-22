@@ -375,8 +375,8 @@
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
+			hide: true
 			id: "7A1767209421A711"
-			invisible: true
 			rewards: [{
 				id: "67E24AD5C2A38A01"
 				item: "thermal:iron_coin"
@@ -397,7 +397,6 @@
 				"3918327B7375DF60"
 			]
 			id: "0810AF71C11E3312"
-			invisible: true
 			rewards: [{
 				id: "31576F3D5384E5AA"
 				item: "thermal:iron_coin"
@@ -416,8 +415,8 @@
 				"2EEF03127BC5517F"
 				"2B1BFD7285E53C55"
 			]
+			hide: true
 			id: "429890C7D019308E"
-			invisible: true
 			rewards: [{
 				id: "2242104642755CFE"
 				item: "thermal:iron_coin"
@@ -445,8 +444,8 @@
 				"0810AF71C11E3312"
 				"429890C7D019308E"
 			]
+			hide: true
 			id: "2690AFB8D51B4350"
-			invisible: true
 			rewards: [{
 				id: "2E3E9FD19AD1CE58"
 				item: "thermal:iron_coin"
@@ -489,7 +488,6 @@
 				"3918327B7375DF60"
 			]
 			id: "0F8149AF718CCB25"
-			invisible: true
 			rewards: [
 				{
 					id: "685D8E6CD1538307"
@@ -524,8 +522,9 @@
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
+			hide: true
 			id: "48F917E1C82F236E"
-			invisible: true
+			invisible_until_tasks: 2
 			rewards: [{
 				id: "07DAF4AB42799CD9"
 				item: "thermal:iron_coin"
@@ -550,8 +549,8 @@
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
+			hide: true
 			id: "040EF4AA80C891C5"
-			invisible: true
 			rewards: [{
 				id: "52A8B8594FE747B7"
 				item: "thermal:iron_coin"
@@ -708,9 +707,9 @@
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
+			hide: true
 			icon: "sophisticatedstorage:hopper_upgrade"
 			id: "3EB0B80628F0E1B5"
-			invisible: true
 			rewards: [{
 				id: "3EB5FBD997036285"
 				item: "thermal:iron_coin"
@@ -772,8 +771,8 @@
 				"5C6DF3197277F797"
 			]
 			description: ["A good suggest: keep on farming eggs , on future will be essentials !"]
+			hide: true
 			id: "1BEF9782AAE08017"
-			invisible: true
 			rewards: [{
 				id: "537E027D88CDE47D"
 				item: "thermal:iron_coin"

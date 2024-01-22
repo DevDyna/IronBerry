@@ -129,9 +129,9 @@
 				"568AF71C55EB2708"
 				"4BC1FD1A50A9043B"
 			]
+			hide: true
 			icon: "reactive:verdant_bottle"
 			id: "379F607A99F58C90"
-			invisible: true
 			rewards: [{
 				id: "0EEF7570B3020546"
 				item: "thermal:iron_coin"
@@ -259,9 +259,9 @@
 				"66428E9F71ABAF8C"
 				"379F607A99F58C90"
 			]
+			hide: true
 			icon: "reactive:acid_bottle"
 			id: "4B24A85196F52905"
-			invisible: true
 			rewards: [{
 				id: "4823FCFE41057CA6"
 				item: "thermal:iron_coin"
@@ -283,7 +283,6 @@
 			]
 			icon: "reactive:body_bottle"
 			id: "182E4121F73DB516"
-			invisible: true
 			rewards: [{
 				id: "2E6CF39A36417FAF"
 				item: "thermal:iron_coin"
@@ -310,6 +309,7 @@
 				"4B24A85196F52905"
 				"6DCCBC7AE25353C3"
 			]
+			hide: true
 			icon: "reactive:soul_bottle"
 			id: "4B6FE1B6BB79056B"
 			rewards: [{
@@ -329,7 +329,6 @@
 		{
 			dependencies: ["182E4121F73DB516"]
 			id: "58F795EFD59E0409"
-			invisible: true
 			rewards: [
 				{
 					id: "04E4512D5C5888CE"
@@ -358,6 +357,7 @@
 				"58F795EFD59E0409"
 				"6C79057BC3C2862B"
 			]
+			hide: true
 			id: "399ADFBEADD73757"
 			rewards: [{
 				id: "170B0CE6318DDB39"
@@ -466,6 +466,7 @@
 				"4A12A2F18A469DC0"
 			]
 			description: ["Tip: when you need of something , if you can , automate now!"]
+			hide: true
 			icon: "kubejs:blank"
 			id: "3F818FA3A0D9B316"
 			rewards: [{
@@ -541,6 +542,7 @@
 		}
 		{
 			dependencies: ["182E4121F73DB516"]
+			hide: true
 			id: "48DF9D86C7F8F9F7"
 			rewards: [{
 				id: "63CC55D3325E20E7"
@@ -752,6 +754,7 @@
 				"47F363945E546C9C"
 				"0C41582D9B528820"
 			]
+			hide: true
 			id: "4A12A2F18A469DC0"
 			rewards: [{
 				id: "413ABEC65A58E1F9"

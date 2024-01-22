@@ -228,6 +228,7 @@
 				""
 				"Jump on top and after pressed use a button to reset"
 			]
+			hide: true
 			id: "376A598686CD7197"
 			shape: "hexagon"
 			subtitle: "Squeezer 1 -> 19..27 tiny\\n Basin 1 -> 28..30 tiny"
@@ -249,6 +250,7 @@
 		}
 		{
 			dependencies: ["25DADB6F081F6920"]
+			hide: true
 			id: "2CED22797A3FFA7B"
 			tasks: [{
 				id: "18D21BD92186D877"
@@ -276,6 +278,7 @@
 				"70CEF7D9F2C579E0"
 				"376A598686CD7197"
 			]
+			hide: true
 			icon: "integrateddynamics:mechanical_squeezer"
 			id: "29CECA7F57D6E40E"
 			tasks: [
@@ -296,6 +299,7 @@
 		}
 		{
 			dependencies: ["3F818FA3A0D9B316"]
+			hide: true
 			id: "70CEF7D9F2C579E0"
 			subtitle: "All in one"
 			tasks: [{
@@ -319,6 +323,7 @@
 		}
 		{
 			dependencies: ["74C7873DC0E892B2"]
+			hide: true
 			id: "3A266E11A1D1A0CD"
 			tasks: [{
 				id: "75EB855463B138D4"
@@ -330,7 +335,6 @@
 		}
 		{
 			dependencies: ["2BCC9E9DDD1FF086"]
-			hide: true
 			id: "64A86E7537347BDB"
 			tasks: [{
 				id: "20C691374919269C"
@@ -350,6 +354,7 @@
 				""
 				"On this modpack , Corail tombstone was been heavy modified so many outside information can be wrong"
 			]
+			hide: true
 			icon: "tombstone:advancement_7"
 			id: "2BCC9E9DDD1FF086"
 			shape: "octagon"
@@ -365,6 +370,7 @@
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
+			hide: true
 			id: "3452FF2184AA39B2"
 			tasks: [
 				{
@@ -418,6 +424,7 @@
 				"64A86E7537347BDB"
 				"4A6600C0D5D16679"
 			]
+			hide: true
 			hide_dependent_lines: true
 			id: "5932367392C69B30"
 			tasks: [{
@@ -433,6 +440,7 @@
 				"64A86E7537347BDB"
 				"32FF5501A723E459"
 			]
+			hide: true
 			hide_dependent_lines: true
 			id: "6E31B26FF3394717"
 			tasks: [{
@@ -477,6 +485,7 @@
 				"64A86E7537347BDB"
 				"2F055BCB378D55FC"
 			]
+			hide: true
 			id: "2263AF80BE10A372"
 			tasks: [{
 				id: "6412DB18FDB758F4"
@@ -488,6 +497,7 @@
 		}
 		{
 			dependencies: ["63BA9E92202669CC"]
+			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "411A1007C8E147F8"
@@ -521,8 +531,8 @@
 				"018037B494C94222"
 				"3114E897FF6E3F61"
 			]
+			hide: true
 			id: "167389B3E16BDA6A"
-			invisible: true
 			tasks: [{
 				id: "1EC07FD2EEBE90A5"
 				item: "ae2:entropy_manipulator"
@@ -610,6 +620,7 @@
 		}
 		{
 			dependencies: ["167389B3E16BDA6A"]
+			hide: true
 			id: "2F055BCB378D55FC"
 			tasks: [{
 				id: "6FD2A55EB6489E1F"
@@ -621,6 +632,7 @@
 		}
 		{
 			dependencies: ["3452FF2184AA39B2"]
+			hide: true
 			id: "5479C6B71BEF64F9"
 			tasks: [{
 				id: "32FDC9AAD640404F"
@@ -689,6 +701,7 @@
 				"285B9826C3F0F414"
 				"78BB41380919B7CF"
 			]
+			hide: true
 			id: "1B1F3157BFCDA112"
 			shape: "diamond"
 			tasks: [{
@@ -716,6 +729,7 @@
 				"411A1007C8E147F8"
 				"592AB29EFAADB4D0"
 			]
+			hide: true
 			id: "7FDADEEEF92D866C"
 			tasks: [{
 				id: "4399B2F81B20E820"
@@ -730,6 +744,7 @@
 				"411A1007C8E147F8"
 				"45C4AC011AABE1EC"
 			]
+			hide: true
 			id: "396B0ABECBC55212"
 			tasks: [{
 				id: "6DC8DBC1FC3C2094"
@@ -744,6 +759,7 @@
 				"411A1007C8E147F8"
 				"6CF1FD984832BEDF"
 			]
+			hide: true
 			id: "554649C0347159C9"
 			tasks: [{
 				id: "3CC34C4A3F039EB6"
@@ -806,6 +822,7 @@
 				"411A1007C8E147F8"
 				"2F055BCB378D55FC"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "74EF1BAFD7F54538"
 			tasks: [{
@@ -821,6 +838,7 @@
 				"411A1007C8E147F8"
 				"3F8255B469D8C8D2"
 			]
+			hide: true
 			id: "740278705FBE113E"
 			tasks: [{
 				id: "21EC89847D994EEF"
@@ -835,6 +853,7 @@
 				"411A1007C8E147F8"
 				"359DCED4D03B715D"
 			]
+			hide: true
 			id: "742C6468DF5FCC43"
 			tasks: [{
 				id: "245C1BAC2FD861CE"
@@ -857,7 +876,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4B0F0A9E1091DD0E"]
+			dependencies: [
+				"4B0F0A9E1091DD0E"
+				"578BA9E968E7B064"
+			]
 			id: "0D6DDD97A2065943"
 			rewards: [{
 				id: "6552EC4A20716AFD"
@@ -876,7 +898,6 @@
 		{
 			dependencies: ["0D6DDD97A2065943"]
 			id: "1FF4E4F20E679B85"
-			optional: true
 			rewards: [{
 				id: "1F71EA5B1015F39D"
 				item: "thermal:iron_coin"
@@ -900,6 +921,7 @@
 		}
 		{
 			dependencies: ["1FF4E4F20E679B85"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "alchemygadgetry:potion_flask"
@@ -1394,6 +1416,7 @@
 		}
 		{
 			dependencies: ["5A803F21F63BEA65"]
+			hide: true
 			id: "63BA9E92202669CC"
 			tasks: [{
 				id: "1753DACBDA7107E6"
@@ -1471,6 +1494,7 @@
 		}
 		{
 			dependencies: ["578BA9E968E7B064"]
+			hide: true
 			id: "1F56B5CB1CD195B3"
 			shape: "octagon"
 			size: 2.0d
@@ -1540,6 +1564,7 @@
 				"709EA2130092EFB9"
 				"3A3D83FC3C482664"
 			]
+			hide: true
 			id: "5A803F21F63BEA65"
 			shape: "octagon"
 			subtitle: "Unlimited One"
@@ -1564,6 +1589,7 @@
 		}
 		{
 			dependencies: ["12A99E6FC80CE5A9"]
+			hide: true
 			id: "37189EE68DA1957E"
 			tasks: [{
 				id: "196D0D3899D1657A"
@@ -1578,6 +1604,7 @@
 				"12A99E6FC80CE5A9"
 				"0D6DDD97A2065943"
 			]
+			hide: true
 			id: "61161170162203B7"
 			tasks: [{
 				id: "207579535F3574ED"
@@ -1592,6 +1619,7 @@
 				"2BCC9E9DDD1FF086"
 				"6240CC21E07DF06B"
 			]
+			hide: true
 			id: "58F3A3D139E87775"
 			tasks: [{
 				id: "5E259640D9D10D64"
@@ -1606,6 +1634,7 @@
 				"64A86E7537347BDB"
 				"3452FF2184AA39B2"
 			]
+			hide: true
 			id: "71384C57A23FDF12"
 			tasks: [{
 				id: "17B2DF92B81280AC"
@@ -1617,6 +1646,7 @@
 		}
 		{
 			dependencies: ["61161170162203B7"]
+			hide: true
 			id: "018037B494C94222"
 			tasks: [{
 				id: "35A65F4D46B38D65"
@@ -1639,6 +1669,7 @@
 		}
 		{
 			dependencies: ["7F0F2D13448390AF"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "gateways:gate_pearl"
@@ -1691,6 +1722,7 @@
 				"578BA9E968E7B064"
 				"64A86E7537347BDB"
 			]
+			hide: true
 			id: "3114E897FF6E3F61"
 			tasks: [{
 				id: "21D70CB05E4A60D0"
@@ -1747,6 +1779,7 @@
 				"Need of a good warrior?"
 				"This is the quest that you need now!"
 			]
+			hide: true
 			id: "3AE5CD008B44982C"
 			optional: true
 			subtitle: "A cheap way"
@@ -1763,6 +1796,7 @@
 				"3CF427D28764EE4F"
 				"6DA70AC867C01085"
 			]
+			hide: true
 			id: "6B8DDA098675365C"
 			optional: true
 			tasks: [{
@@ -1774,9 +1808,11 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["1BEF9782AAE08017"]
+			dependencies: [
+				"1BEF9782AAE08017"
+				"578BA9E968E7B064"
+			]
 			id: "3CF427D28764EE4F"
-			optional: true
 			tasks: [{
 				id: "3804A66DA736F5EE"
 				item: "exoticbirds:phoenix_egg"
@@ -1787,6 +1823,7 @@
 		}
 		{
 			dependencies: ["0EF6B10F9F4FD2E1"]
+			hide: true
 			id: "514745AA0A403DD0"
 			subtitle: "I want you!"
 			tasks: [{
@@ -1807,7 +1844,6 @@
 				"578BA9E968E7B064"
 			]
 			id: "0EF6B10F9F4FD2E1"
-			optional: true
 			tasks: [{
 				id: "01E4FE4DBB51AEF9"
 				item: "minecraft:glass"
@@ -1822,6 +1858,7 @@
 				"4D2E8CFB00E7D02C"
 			]
 			description: ["To beat all mobs you need to use your best strategy"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "hostilenetworks:data_model"
@@ -1848,6 +1885,7 @@
 				"2E2661A8A6FBCE3F"
 				"3B8D921168A164BF"
 			]
+			hide: true
 			id: "495E52057373CF9B"
 			tasks: [{
 				id: "79C55DF9812AB04D"
@@ -1859,6 +1897,7 @@
 		}
 		{
 			dependencies: ["4A6600C0D5D16679"]
+			hide: true
 			id: "3B8D921168A164BF"
 			tasks: [{
 				id: "56A2DC97A351C36A"
@@ -1920,6 +1959,7 @@
 				"4C25842283BC5873"
 				"4B0F0A9E1091DD0E"
 			]
+			hide: true
 			id: "282E614B7FEEF251"
 			tasks: [{
 				id: "0F7AD70FC65CD197"
@@ -1934,6 +1974,7 @@
 				"282E614B7FEEF251"
 				"35BD3AD826A482C4"
 			]
+			hide: true
 			id: "1811CCF80691AB3D"
 			tasks: [
 				{
@@ -1953,6 +1994,7 @@
 		}
 		{
 			dependencies: ["1811CCF80691AB3D"]
+			hide: true
 			id: "08C331DC3A0CF932"
 			tasks: [{
 				id: "11D7AFD82AD8B766"
@@ -1964,6 +2006,7 @@
 		}
 		{
 			dependencies: ["08C331DC3A0CF932"]
+			hide: true
 			id: "74E29382FC1883A7"
 			tasks: [{
 				id: "54F821FB15494E20"
@@ -1975,6 +2018,7 @@
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "minecraft:bundle"
@@ -2031,6 +2075,7 @@
 				"31E47787595652B3"
 				"222BCA5CC86342AE"
 			]
+			hide: true
 			id: "5BFECB31235212FC"
 			size: 2.0d
 			tasks: [{
@@ -2043,6 +2088,7 @@
 		}
 		{
 			dependencies: ["63530FEA1B294B96"]
+			hide: true
 			id: "2945A2E25BD04276"
 			tasks: [
 				{
@@ -2074,6 +2120,7 @@
 		}
 		{
 			dependencies: ["2945A2E25BD04276"]
+			hide: true
 			icon: "kubejs:processor"
 			id: "31C7366B2D51ED2C"
 			rewards: [{
@@ -2110,6 +2157,7 @@
 		}
 		{
 			dependencies: ["31C7366B2D51ED2C"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "pedestals:upgrade_pedestal_cobblegen"
