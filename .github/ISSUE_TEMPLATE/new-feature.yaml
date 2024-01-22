@@ -41,3 +41,12 @@ body:
       placeholder: Hey can you add *lollypop* because can be overpowered ??? [NO]
     validations:
       required: false
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Additional things
+      description: Anything else , included videos , gifs , screenshots and more..
+      placeholder: ln x- ln y
+    validations:
+      required: true
