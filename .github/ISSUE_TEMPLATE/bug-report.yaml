@@ -21,9 +21,9 @@ body:
       label: Environment
       description: Blup Blup , We are on deep !
       options:
-        - label: Singleplayer/Local - NO LAN
-        - label: Multiplayer        - LAN
-        - label: Multiplayer        - Dedicated server
+        - label: Singleplayer/Local | NO LAN
+        - label: Multiplayer        | LAN
+        - label: Multiplayer        | Dedicated server
          validations:
     required: true
         
