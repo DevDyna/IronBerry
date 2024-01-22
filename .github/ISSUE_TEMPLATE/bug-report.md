@@ -2,19 +2,10 @@
 name: Bug Report
 about: Have you find a bug ? Squash it!
 title: "[BUG]: "
-labels: bug 
+labels: bug , need support
 assignees: DevDyna
-
-body:
-- type: markdown
-  attributes:
-    value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
 
 ---
 
 *Describe what you have to say*
-*also*
+*also if you have images or other way to see what you have find , can be good*
