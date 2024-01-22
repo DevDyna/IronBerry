@@ -1,7 +1,7 @@
 //priority 9
 ServerEvents.recipes(event => {
     ////recipe removed
-    //-----------------------------------------------//
+/*     //-----------------------------------------------//
     let remod = (modlist) => {
 
         for (let i = 0; i < modlist.length; i++) {
@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
                 mod: modlist[i]
             })
         }
-    }
+    } */
     //-----------------------------------------------//
     let remid = (idlist) => {
 
@@ -123,13 +123,17 @@ ServerEvents.recipes(event => {
 			'mekanism:oxidizing',
         ])
 
-    remod([					
-            'thermal',				//todo			
-			'alchemygadgetry',		
-        ])
+		
+		event.remove({ mod : 'alchemygadgetry'})
+		event.remove({ mod : 'thermal'})
+		event.remove({ mod : 'nuclearcraft'})
 
+/* 		  event.forEachRecipe({ mod: "nuclearcraft" }, recipe => {
+		console.log(recipe.getId())
+        event.remove({ id: recipe.getId() })
 
-
-
+  }) */
+  
+  //event.remove({ id: 'nuclearcraft:alloy_smelter/dusts_tin-dusts_silver'})
 
 })
