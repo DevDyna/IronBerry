@@ -1,6 +1,6 @@
 name: Bug Report
 description: Have you find a bug ? Squash it!
-title: "[Bug]: "
+title: ""
 labels: [bug, need support]
 assignees: DevDyna
 body:
