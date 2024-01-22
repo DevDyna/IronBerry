@@ -82,6 +82,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'cyclic:melter',
 			'cyclic:packager',
 			'ironchest:diamond_chest', 
 			'ironchest:gold_chest', 
@@ -531,6 +532,7 @@ ServerEvents.tags('item', event => {
         ])
 
     event.add('ironberry:fishing', [
+			'minecraft:phantom_membrane',
             'minecraft:chicken',
             'minecraft:feather',
             'minecraft:nautilus_shell',
@@ -794,7 +796,7 @@ ServerEvents.tags('fluid', event => {
 	event.add('ironberry:chad_ethanol','pneumaticcraft:ethanol')
 	event.add('ironberry:chad_oil','pneumaticcraft:oil')
 	event.add('ironberry:chad_resin','thermal:resin')
-	
+	event.add('ironberry:chad_refined','kubejs:refined_resin')
 
 
 })
