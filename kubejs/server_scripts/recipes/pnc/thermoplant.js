@@ -268,11 +268,77 @@ ServerEvents.recipes(event => {
   }
   })
 
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_refined",
+    "amount": 100
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'kubejs:solidified_resin'
+  }
+  })
 
-
-
-
-
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_refined",
+    "amount": 1000
+  },
+  
+	"item_input":{
+		"item": 'pipez:item_pipe'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'cyclic:wireless_item'
+  }
+  })
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_refined",
+    "amount": 1000
+  },
+	"item_input":{
+		"item": 'pipez:energy_pipe'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'cyclic:wireless_energy'
+  }
+  })
+  //------------------------------------------------------//
+	event.custom({
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+	  "type": "pneumaticcraft:fluid",
+    "tag": "ironberry:chad_refined",
+    "amount": 1000
+  },
+	"item_input":{
+		"item": 'pipez:fluid_pipe'
+  },
+  "temperature": {
+    "min_temp": 272
+  },
+  "item_output": {
+    "item": 'cyclic:wireless_fluid'
+  }
+  })
 
 
 
