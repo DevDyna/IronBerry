@@ -205,4 +205,27 @@ function emolimix(jump,variants){
 	emolimix('jetboots:rocket_boots',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:jet_boots_upgrade_1', 'pneumaticcraft:jet_boots_upgrade_2', 'pneumaticcraft:jet_boots_upgrade_3', 'pneumaticcraft:jet_boots_upgrade_4', 'pneumaticcraft:jet_boots_upgrade_5'])
 	emolimix('ars_nouveau:jump_ring',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:jumping_upgrade_1', 'pneumaticcraft:jumping_upgrade_2', 'pneumaticcraft:jumping_upgrade_3', 'pneumaticcraft:jumping_upgrade_4'])
 	
+	
+	moless('cyclic:apple_sprout',[
+	['cyclic:apple_sprout_emerald', 'minecraft:emerald'],
+	['cyclic:apple_sprout_diamond', 'minecraft:diamond'],
+	
+	
+	])
+	
+	moless('minecraft:enchanted_golden_apple',[
+	['cyclic:apple_bone', 'minecraft:bone_meal'],
+	['cyclic:apple_iron', 'minecraft:iron_ingot'],
+	['cyclic:apple_lapis', 'minecraft:lapis_lazuli'],
+	['cyclic:apple_chocolate', 'minecraft:cocoa_beans'],
+	['cyclic:apple_prismarine', 'minecraft:prismarine_shard'],
+	['cyclic:apple_chorus', 'minecraft:chorus_fruit'],
+	
+	
+	])
+	
+	less(['minecraft:enchanted_golden_apple','minecraft:enchanted_golden_apple'],'2x cyclic:apple_sprout')
+	less(['ars_nouveau:starbuncle_shards', 'twilightforest:borer_essence'],'ars_nouveau:starbuncle_charm')
+	
+	
 })
