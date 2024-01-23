@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
     })
 }
 
-
+//EnApp(input-itemstack,input-itemstack[],output-itemstack,source-integer,nbtflag-boolean)
 
 
 EnApp('minecraft:lectern',['kubejs:scroll_discontinuity','minecraft:bookshelf','minecraft:bookshelf','minecraft:bookshelf','minecraft:bookshelf'],'ars_nouveau:storage_lectern',1000,false)
@@ -54,6 +54,15 @@ EnApp('jetboots:armor_core',['#minecraft:wool','#minecraft:wool','#minecraft:woo
 EnApp('ars_nouveau:mundane_belt',['ars_nouveau:belt_of_unstable_gifts','ars_nouveau:belt_of_levitation'],'ars_nouveau:jump_ring',1000,false)
 EnApp('minecraft:gold_block',['minecraft:coal','minecraft:coal','minecraft:coal','minecraft:coal','minecraft:coal','minecraft:coal','minecraft:coal','minecraft:coal'],'jetboots:armor_core',1000,false)
 EnApp('restrictions:glassboots',['ars_nouveau:jump_ring','ars_nouveau:jump_ring','jetboots:armor_core','jetboots:armor_core'],'jetboots:rocket_boots',1000,false)
+
+EnApp('minecraft:golden_apple',['quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate'],'minecraft:enchanted_golden_apple',10000,false)
+
+
+
+
+
+
+
 
 
 
