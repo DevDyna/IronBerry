@@ -739,9 +739,9 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 	shapex(['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card','pneumaticcraft:compressed_iron_chestplate', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_chestplate')
 	shapex(['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card','pneumaticcraft:compressed_iron_helmet', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_helmet')
 	
-	shapex(['minecraft:air','minecraft:gold_ingot', 'homespun:copper_nugget', 'bluepower:brass_ingot', 'ars_nouveau:starbuncle_shards', 'minecraft:gold_ingot', 'homespun:copper_nugget', 'bluepower:brass_ingot'],'thermal:diving_boots')
+	shapex(['minecraft:air','minecraft:gold_ingot', 'homespun:copper_nugget', 'bluepower:brass_ingot', 'minecraft:golden_boots', 'minecraft:gold_ingot', 'homespun:copper_nugget', 'bluepower:brass_ingot'],'thermal:diving_boots')
 	shapex(['minecraft:string', 'minecraft:saddle', 'minecraft:string', 'minecraft:phantom_membrane','minecraft:air', 'minecraft:phantom_membrane', 'minecraft:phantom_membrane','minecraft:air', 'minecraft:phantom_membrane'],'minecraft:elytra')
-	
+
 	
 	    event.shaped(Item.of('kubejs:crook', '{"quark:RuneAttached":1b,"quark:RuneColor":{Count:1b,id:"quark:blank_rune"}}').enchant('minecraft:fortune', 10), [
             'SS ',
