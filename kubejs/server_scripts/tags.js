@@ -82,6 +82,10 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+			'cyclic:apple_chorus',
+			'cyclic:apple_sprout',
+			'cyclic:apple_sprout_diamond', 
+			'cyclic:apple_sprout_emerald',
 			'cyclic:melter',
 			'cyclic:packager',
 			'ironchest:diamond_chest', 
