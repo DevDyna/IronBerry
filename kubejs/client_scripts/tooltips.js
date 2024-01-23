@@ -116,7 +116,7 @@ ItemEvents.tooltip(event => {
 	tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'],'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
 	tipplusplus(global.disabledItem,'§cItem Disabled')
 	tipplusplus('#ironberry:bucket_fuel','§5Fuels §ffor §2liquid §fcompressor')
-	tipplusplus('minecraft:obsidian','Can be broken using a §1sapphire§f pickaxe')
+	tipplusplus('minecraft:obsidian','Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
 
 })
 
