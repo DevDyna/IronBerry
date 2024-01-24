@@ -11,8 +11,6 @@ body:
       options:
         - label: I have searched for this issue on this repository
           required: true
-        - label: I like what you are doing
-          required: true
           
 
   - type: markdown
