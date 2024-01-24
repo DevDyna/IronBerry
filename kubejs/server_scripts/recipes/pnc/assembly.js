@@ -8,7 +8,17 @@ ServerEvents.recipes(event => {
         "program": "drill",
         "result": {
             "item": "tombstone:gift",
-            "nbt": '{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"tombstone:gift",tag:{Items:[{Count:1,id:"minecraft:player_head",tag:{SkullOwner:"DevDyna"}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}'
+            "nbt": '{Items:[{Count:1,id:"tombstone:gift",tag:{
+				Items:[{Count:1,id:"tombstone:gift",tag:{
+					Items:[{Count:1,id:"tombstone:gift",tag:{
+						Items:[{Count:1,id:"tombstone:gift",tag:{
+							Items:[{Count:1,id:"tombstone:gift",tag:{
+								Items:[{Count:1,id:"tombstone:gift",tag:{
+									Items:[{Count:1,id:"tombstone:gift",tag:{
+										Items:[{Count:1,id:"tombstone:gift",tag:{
+											Items:[{Count:1,id:"tombstone:gift",tag:{
+												Items:[{Count:1,id:"tombstone:gift",tag:{
+													Items:[{Count:1,id:"minecraft:player_head",tag:{SkullOwner:"DevDyna"}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}'
         }
     })
     //-----------------------------------------------------------------------------------------------------------//
@@ -30,53 +40,27 @@ ServerEvents.recipes(event => {
             "result": ItemAndCount(output, count)
         }).id(RegX(input + "_" + output + "_" + count))
     }
-	function drill_laser(input,middle,middle_count,output,output_count){
-	drill(input,middle,middle_count)
-	laser(middle,output,output_count)
-	}
-	//-----------------------------------------------------------------------------------------------------------//
-	
-	laser('#minecraft:logs_that_burn',"supplementaries:ash",16)
-	drill("supplementaries:ash","minecraft:gold_nugget",4)
-	
+    function drill_laser(input, middle, middle_count, output, output_count) {
+        drill(input, middle, middle_count)
+        laser(middle, output, output_count)
+    }
+    //-----------------------------------------------------------------------------------------------------------//
 
-	
-	drill_laser('pneumaticcraft:empty_pcb','pneumaticcraft:unassembled_pcb',1,'pneumaticcraft:printed_circuit_board',1)
+    laser('#minecraft:logs_that_burn', "supplementaries:ash", 16)
+    drill("supplementaries:ash", "minecraft:gold_nugget", 4)
 
-	laser('pneumaticcraft:upgrade_matrix','minecraft:lapis_lazuli',16)
+    drill_laser('pneumaticcraft:empty_pcb', 'pneumaticcraft:unassembled_pcb', 1, 'pneumaticcraft:printed_circuit_board', 1)
 
-	drill_laser('homespun:ironberries','homespun:tiny_iron_dust',4,'minecraft:raw_iron',4)
+    laser('pneumaticcraft:upgrade_matrix', 'minecraft:lapis_lazuli', 16)
 
-	drill_laser('minecraft:raw_copper','kubejs:patina',12,'homespun:copper_nugget',3)
+    drill_laser('homespun:ironberries', 'homespun:tiny_iron_dust', 4, 'minecraft:raw_iron', 4)
 
-	laser('minecraft:sand','minecraft:red_sand',1)
+    drill_laser('minecraft:raw_copper', 'kubejs:patina', 12, 'homespun:copper_nugget', 3)
 
-	drill_laser('minecraft:iron_ingot','thermal:silver_ingot',1,'thermal:lead_ingot',1)
+    laser('minecraft:sand', 'minecraft:red_sand', 1)
 
-	laser('kubejs:solidified_resin','nuclearcraft:bioplastic',2)
+    drill_laser('minecraft:iron_ingot', 'thermal:silver_ingot', 1, 'thermal:lead_ingot', 1)
 
+    laser('kubejs:solidified_resin', 'nuclearcraft:bioplastic', 2)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    })
+})
