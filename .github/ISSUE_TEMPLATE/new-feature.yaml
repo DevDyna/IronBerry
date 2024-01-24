@@ -27,17 +27,21 @@ body:
         - label: Remove/Modify some Quests
         - label: New Recipes
         - label: Remove/Modify some Recipes
-        - label: Stage 0
-        - label: Stage 1
-        - label: Stage 2
-        - label: Stage 3
 
-  - type: markdown
-    attributes:
-      value: "## Welcome!"
-  - type: markdown
-    attributes:
-      value: "## Welcome!"
+
+- type: dropdown
+  id: stage
+  attributes:
+    label: Stage
+    options:
+        - None
+        - Introduction
+        - Campain 1
+        - Campain 2
+        - Campain 3
+        - Campain 4
+  validations:
+    required: true
 
 
         
