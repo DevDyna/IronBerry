@@ -17,7 +17,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "Case Section"
+      value: "## Case Section"
 
   - type: dropdown
     id: stage
