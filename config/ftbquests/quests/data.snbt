@@ -19,7 +19,7 @@
 			tag: { }
 		}
 	]
-	emergency_items_cooldown: 300
+	emergency_items_cooldown: 30000
 	grid_scale: 1.0d
 	icon: "homespun:ironberries"
 	lock_message: ""
