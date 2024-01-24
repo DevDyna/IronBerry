@@ -24,7 +24,7 @@ body:
     attributes:
       label: Stage Selection
       options:
-        - *Empty*
+        - <Empty>
         - Introduction
         - Campain 1
         - Campain 2
@@ -38,7 +38,7 @@ body:
     attributes:
       label: MOD Selection
       options:
-        - *Empty*
+        - <Empty>
         - Add / Include
         - Modify
         - Remove / Exclude
@@ -50,7 +50,7 @@ body:
     attributes:
       label: QUEST Selection
       options:
-        - *Empty*
+        - <Empty>
         - Add / Include
         - Modify
         - Remove / Exclude
@@ -62,7 +62,7 @@ body:
     attributes:
       label: RECIPES / EVENTS Selection
       options:
-        - *Empty*
+        - <Empty>
         - Add / Include
         - Modify
         - Remove / Exclude
