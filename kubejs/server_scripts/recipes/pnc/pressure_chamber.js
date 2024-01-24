@@ -129,7 +129,10 @@ ServerEvents.recipes(event => {
         ],
         "pressure": 2.5,
         "results": [{
-                "item": 'kubejs:raw_plastic'}
+				"type": "pneumaticcraft:stacked_item",
+                "count": 4,
+                "item": 'kubejs:raw_plastic'
+				}
         ]
     })
 //-------------------------------------------------------//
@@ -138,6 +141,8 @@ ServerEvents.recipes(event => {
         "inputs": [{
                 "item": 'pneumaticcraft:small_tank'
             },{
+				"type": "pneumaticcraft:stacked_item",
+                "count": 16,
 				"item":'kubejs:raw_plastic'
 			}
         ],
@@ -331,6 +336,8 @@ ServerEvents.recipes(event => {
 				"item":'bluepower:teslatite_dust'
 			},{
 				"item":'thermal:rosin'
+			},{
+				"item":'exoticbirds:ambrosia'
 			}
         ],
         "pressure": 1.0,
