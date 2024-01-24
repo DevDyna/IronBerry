@@ -34,7 +34,7 @@ body:
       required: false
 
   - type: dropdown
-    id: stage
+    id: mod
     attributes:
       label: MOD Selection
       options:
@@ -46,7 +46,7 @@ body:
       required: false
 
   - type: dropdown
-    id: stage
+    id: quest
     attributes:
       label: QUEST Selection
       options:
@@ -58,7 +58,7 @@ body:
       required: false
 
   - type: dropdown
-    id: stage
+    id: kubejs
     attributes:
       label: RECIPES / EVENTS Selection
       options:
