@@ -28,9 +28,9 @@ body:
         - label: New Recipes
         - label: Remove/Modify some Recipes
         - label: Stage 0
-        - label: Stage 0
-        - label: Stage 0
-        - label: Stage 0
+        - label: Stage 1
+        - label: Stage 2
+        - label: Stage 3
 
   - type: markdown
     attributes:
