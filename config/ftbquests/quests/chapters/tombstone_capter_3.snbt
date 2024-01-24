@@ -318,8 +318,8 @@
 				item: "homespun:ironberry_juice_bottle"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -21.0d
+			x: 5.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["74C7873DC0E892B2"]
@@ -1691,7 +1691,7 @@
 				}
 				type: "item"
 			}]
-			title: "Time to fight"
+			title: "Strange Creatures"
 			x: 4.5d
 			y: -7.5d
 		}
@@ -2238,6 +2238,87 @@
 			}]
 			x: 7.0d
 			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3452FF2184AA39B2"
+				"78BB41380919B7CF"
+			]
+			hide_dependency_lines: true
+			id: "2EF34AD3D05D4C30"
+			tasks: [{
+				id: "2253F71D28E5659D"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2EF34AD3D05D4C30"]
+			id: "3D996AEBE2D15324"
+			tasks: [{
+				id: "138C8C37B79FE870"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:magic_trees"
+					}
+				}
+				title: "Any #ironberry:magic_trees"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1475C91788772545"]
+			id: "46A59C0911F6E07D"
+			tasks: [{
+				id: "2223BBC4168A4D5B"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["46A59C0911F6E07D"]
+			id: "3D3B12890B82E138"
+			tasks: [{
+				id: "22B55464352A5525"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3D3B12890B82E138"]
+			id: "3276B82300E1E29B"
+			tasks: [{
+				id: "7E51F07065A1EFEE"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4B0F0A9E1091DD0E"]
+			id: "1475C91788772545"
+			tasks: [{
+				id: "2DD440AFAF082C0E"
+				item: "tombstone:bag_of_seeds"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -17.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]

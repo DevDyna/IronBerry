@@ -375,6 +375,7 @@
 		}
 		{
 			click: ""
+			color: 16711935
 			corner: false
 			dependency: "58B49792D4827F5F"
 			dev: false
@@ -387,7 +388,7 @@
 			y: -9.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

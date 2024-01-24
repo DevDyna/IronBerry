@@ -1,9 +1,8 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "arsmagika_chapter_4"
-	group: "0AB07CEFAAABA228"
+	group: ""
 	icon: "ars_nouveau:jar_of_light"
 	id: "18480D6C6EE13345"
 	images: [
@@ -17,8 +16,8 @@
 			image: "ars_nouveau:textures/items/thread_bookwyrm.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
-			y: -6.0d
+			x: -0.3928571428571388d
+			y: -9.142857142857146d
 		}
 		{
 			click: ""
@@ -30,19 +29,20 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -10.0d
-			y: -2.0d
+			y: -17.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "ars_nouveau:blocks/green_archwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -9.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -54,8 +54,8 @@
 			image: "ars_nouveau:blocks/purple_archwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -9.0d
+			x: 7.428571428571431d
+			y: -13.666666666666664d
 		}
 		{
 			click: ""
@@ -67,11 +67,448 @@
 			image: "ars_nouveau:blocks/red_archwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
+			x: 4.785714285714285d
+			y: -4.357142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "craftingstation:block/top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/lich"
+			order: 1
+			rotation: 30.0d
+			width: 1.0d
+			x: -2.7448979591836746d
+			y: -16.622448979591837d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "twilightforest:block/pedestal/snow_queen"
+			order: 1
+			rotation: -25.0d
+			width: 1.0d
+			x: -3.1632653061224474d
+			y: -16.285714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:blocks/machines/alloyfurnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 1.0d
+			hover: ["i know that Naga is not related on quests!"]
+			image: "twilightforest:block/pedestal/naga"
+			rotation: -20.0d
+			width: 1.0d
+			x: -3.2040816326530646d
+			y: -16.89795918367347d
+		}
+		{
+			click: ""
+			color: 109567
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pneumaticcraft:textures/gui/icon/gui_right_arrow.png"
+			order: 1
+			rotation: 180.0d
+			width: 1.0d
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:blocks/machines/circuit_database_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/blank_data_model"
+			rotation: 0.0d
+			width: 1.0d
 			x: -10.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 0.25d
+			hover: [ ]
+			image: "minecraft:textures/particle/soul_fire_flame.png"
+			order: 1
+			rotation: -10.0d
+			width: 0.25d
+			x: -3.408163265306122d
+			y: -16.653061224489797d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 0.25d
+			hover: [ ]
+			image: "minecraft:textures/particle/soul_fire_flame.png"
+			order: 1
+			rotation: -5.0d
+			width: 0.25d
+			x: -2.6785714285714306d
+			y: -16.974489795918366d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "13AC5CDCB6BA0118"
+			dev: false
+			height: 0.25d
+			hover: [ ]
+			image: "minecraft:textures/particle/soul_fire_flame.png"
+			order: 1
+			rotation: 15.0d
+			width: 0.25d
+			x: -2.540816326530603d
+			y: -16.193877551020414d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "pneumaticcraft:block/chest/bottom_panel"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
 			y: -8.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/bottom_left"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/top_right"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/bottom_right"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/top_left"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "537D1068DF269C4B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:textures/item/polymer_clay.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.571428571428569d
+			y: -14.642857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BC6A3411051A140"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/empty_prediction"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.702380952380956d
+			y: -13.63095238095238d
+		}
+		{
+			click: ""
+			color: 6723993
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/prediction"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.22108843537415d
+			y: -5.142857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BC6A3411051A140"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/empty_prediction"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.357142857142854d
+			y: -13.94047619047619d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BC6A3411051A140"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/empty_prediction"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.96598639455783d
+			y: -13.214285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BC6A3411051A140"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/empty_prediction"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -14.07142857142857d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/red_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.285714285714285d
+			y: -4.785714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7122E2300227720D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.690476190476197d
+			y: -14.547619047619051d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7122E2300227720D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0476190476190439d
+			y: -14.285714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7122E2300227720D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.30952380952381d
+			y: -10.380952380952387d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/green_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.80952380952381d
+			y: -6.809523809523803d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/green_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.047619047619044d
+			y: -3.952380952380956d
+		}
 	]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -83,7 +520,7 @@
 				item: "ars_nouveau:item_detector"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 2.0d
 			y: -8.0d
 		}
 		{
@@ -94,8 +531,8 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 9.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
@@ -112,8 +549,8 @@
 				type: "item"
 			}]
 			title: "More Flasks"
-			x: 1.0d
-			y: -3.0d
+			x: 8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
@@ -137,48 +574,14 @@
 				}
 			]
 			title: "Enchanting Apparatus"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2EF34AD3D05D4C30"]
-			id: "3D996AEBE2D15324"
-			tasks: [{
-				id: "138C8C37B79FE870"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "ironberry:magic_trees"
-					}
-				}
-				title: "Any #ironberry:magic_trees"
-				type: "item"
-			}]
 			x: 6.0d
-			y: -2.0d
+			y: -12.0d
 		}
 		{
-			dependencies: [
-				"3452FF2184AA39B2"
-				"578BA9E968E7B064"
-			]
-			id: "2EF34AD3D05D4C30"
-			tasks: [{
-				id: "2253F71D28E5659D"
-				item: {
-					Count: 1b
-					id: "ars_nouveau:dominion_wand"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
+			dependencies: ["6241AF156E12230C"]
 			description: ["Little squirrel that can harvest berries and transfert items"]
 			id: "277CB86B123E9B80"
+			shape: "heart"
 			tasks: [{
 				id: "7B6F3419FFAA13D1"
 				item: {
@@ -189,30 +592,35 @@
 				type: "item"
 			}]
 			title: "The cuttest hopper"
-			x: 2.0d
-			y: -4.0d
+			x: 1.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7122E2300227720D"]
 			id: "21DF2350DEA11ECE"
+			subtitle: "$ git init"
 			tasks: [{
 				id: "59BC75F5CA3BC5B4"
 				item: "ars_nouveau:repository"
 				type: "item"
 			}]
-			x: 6.0d
+			title: "Git Storage"
+			x: 0.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["23FF5767215D7F90"]
+			dependencies: [
+				"5B34783D15AB9034"
+				"3D996AEBE2D15324"
+			]
 			id: "32882D3801FEE679"
 			tasks: [{
 				id: "43140D3D2657121A"
 				item: "ars_nouveau:mob_jar"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: -9.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
@@ -223,10 +631,11 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
+			dependencies: ["6241AF156E12230C"]
 			id: "589E1908B016B84F"
 			shape: "octagon"
 			tasks: [{
@@ -234,18 +643,20 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "The gem of everything"
-			x: 3.0d
-			y: -8.0d
+			title: "Gem of everything"
+			x: 4.0d
+			y: -12.0d
 		}
 		{
+			dependencies: ["37A4995447CCBD53"]
 			id: "7122E2300227720D"
+			shape: "diamond"
 			tasks: [{
 				id: "7E8573C3D2DF406B"
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -254,17 +665,29 @@
 				"7122E2300227720D"
 			]
 			id: "2EEA85762E3ABE98"
+			shape: "gear"
 			tasks: [{
 				id: "5E3642A04C9DACAA"
 				item: "ars_nouveau:storage_lectern"
 				type: "item"
 			}]
 			title: "Unique Storage"
-			x: 8.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["5856ACD8338DB76C"]
+			dependencies: [
+				"5856ACD8338DB76C"
+				"5ABFE8B146D354FC"
+				"750F03F7ABADA4F0"
+				"376284337BC4AC03"
+				"6AA6B308C3DBDF63"
+				"736ADE86CB77D17C"
+				"0E4A7C81C48F881E"
+				"6DA8A88475B663A1"
+				"1637BB8A971EE3DF"
+				"041DF0E1A4888239"
+			]
 			id: "23FF5767215D7F90"
 			subtitle: "More drops !"
 			tasks: [{
@@ -272,110 +695,17 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 6.0d
+			y: -14.0d
 		}
 		{
-			id: "42AA46B26C7E74DC"
-			tasks: [{
-				id: "4791E2960F21943A"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:fission_reactor_controller"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: -2.0d
-		}
-		{
-			id: "087A5EF088DDED0E"
-			tasks: [{
-				id: "048269CE1B19903E"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:assembler"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -4.0d
-		}
-		{
-			id: "50BF629AA3EF5AC5"
-			tasks: [{
-				id: "0B46668FB45E4AAF"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:alloy_smelter"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -5.0d
-		}
-		{
-			id: "3F799A3D653ECAC6"
-			shape: "gear"
-			tasks: [{
-				id: "11FEB6589E9A87C1"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:chassis"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -2.0d
-		}
-		{
-			id: "4C624E7DFD3E414E"
-			tasks: [{
-				id: "4F82CF669F668481"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:steel_frame"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -6.0d
-		}
-		{
-			id: "001837ABABCBC3F4"
-			tasks: [{
-				id: "0EF8546BD05089FF"
-				item: {
-					Count: 1b
-					id: "mekanism:steel_casing"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -7.0d
-		}
-		{
-			id: "1FE2BB2E4BDB24C0"
-			tasks: [{
-				id: "32530DAAF7CA4944"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:manufactory"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: -3.0d
-		}
-		{
+			dependencies: [
+				"5C74D85E4D1BAF16"
+				"77AECDAFB721B3A2"
+			]
 			id: "7EABBDB739B99D38"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [
 				{
 					id: "146A7253555AC646"
@@ -432,10 +762,12 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
+			title: "Assembly Line"
+			x: 1.0d
 			y: -3.0d
 		}
 		{
+			dependencies: ["52D98F751BCB3396"]
 			id: "123D0BCDB0FD19BF"
 			tasks: [
 				{
@@ -457,39 +789,13 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: -1.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			id: "7E6FD4B34AA43BA9"
-			tasks: [{
-				id: "58CE6C4B2730A406"
-				item: {
-					Count: 1b
-					id: "thoriumreactors:enriched_uranium"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -13.0d
-			y: 0.0d
-		}
-		{
-			id: "6A75F878974792BB"
-			tasks: [{
-				id: "28BB7DE986728203"
-				item: {
-					Count: 1b
-					id: "thoriumreactors:molten_salt_bucket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["589E1908B016B84F"]
 			id: "60AEE0BEBD1EA943"
+			shape: "diamond"
 			tasks: [{
 				id: "635EC6951F0178BB"
 				item: {
@@ -499,58 +805,43 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.0d
+			x: 4.0d
+			y: -13.0d
 		}
 		{
+			dependencies: [
+				"595415D4A63714B9"
+				"32882D3801FEE679"
+				"2B6FA57DC9B2B4CA"
+				"55A38E5BE32D4887"
+				"537D1068DF269C4B"
+				"1B0273BD7D629386"
+			]
 			id: "454C844EB3F196F4"
 			tasks: [{
 				id: "7DA5EE94C7FA53D9"
 				item: "hostilenetworks:sim_chamber"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: -9.0d
+			y: -13.0d
 		}
 		{
-			id: "1BDE3FAE685E81F0"
-			tasks: [{
-				id: "1D82B6E0FD2CF29F"
-				item: "hostilenetworks:loot_fabricator"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			id: "48DACA7A3BECBECC"
-			tasks: [{
-				id: "1167C3990E7F8C70"
-				item: {
-					Count: 1b
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:grave_guardian"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
+			dependencies: [
+				"454C844EB3F196F4"
+				"7FBF8CD1BB885034"
+			]
 			id: "2BC6A3411051A140"
 			tasks: [{
 				id: "24195AC7491E5F1D"
 				item: "hostilenetworks:empty_prediction"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: -12.0d
+			y: -13.0d
 		}
 		{
+			dependencies: ["025020D50A32DAFA"]
 			id: "19B6C89234831909"
 			tasks: [{
 				id: "7A74E5684E37BCC7"
@@ -570,10 +861,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["06A9AD200AD93BEC"]
 			id: "1989FA3D5FD3027B"
 			rewards: [{
 				id: "24388E066ABD2AD0"
@@ -591,10 +883,12 @@
 				item: "pneumaticcraft:manual_compressor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -7.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["1989FA3D5FD3027B"]
+			hide_dependent_lines: true
 			id: "60B38F9E4BC71FF6"
 			tasks: [
 				{
@@ -608,20 +902,24 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -6.0d
+			title: "Pressure Chamber"
+			x: -3.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["60B38F9E4BC71FF6"]
+			hide_dependent_lines: true
 			id: "1207A752F22ACCF3"
 			tasks: [{
 				id: "3873234FEE67C248"
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["1207A752F22ACCF3"]
 			description: ["$ironberry:bucket_fuel"]
 			id: "7832CA4A1E6D674F"
 			tasks: [{
@@ -629,50 +927,58 @@
 				item: "pneumaticcraft:liquid_compressor"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1207A752F22ACCF3"]
 			id: "495CB86940BB2D25"
 			tasks: [{
 				id: "0AB1C9B3FCF21B67"
 				item: "pneumaticcraft:fluid_mixer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["1207A752F22ACCF3"]
 			id: "15CF5E8AA4B5EDE2"
 			tasks: [{
 				id: "2289FAE47F38DEFB"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["15CF5E8AA4B5EDE2"]
 			id: "6ED044B16F1D4FC7"
 			tasks: [{
 				id: "77AEA74F87BADEB3"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"6ED044B16F1D4FC7"
+				"495CB86940BB2D25"
+			]
 			id: "191DF7A9C5834BB0"
 			tasks: [{
 				id: "6DC61F43EEECBEB8"
 				item: "kubejs:instability"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["60B38F9E4BC71FF6"]
 			id: "43472F3778420E0F"
 			tasks: [{
 				id: "2CCB5467F5C7C9EB"
@@ -680,19 +986,15 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			id: "687CC991CC35C3C6"
-			tasks: [{
-				id: "68B4C1365AB4B80A"
-				item: "pneumaticcraft:plastic"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
+			dependencies: [
+				"60B38F9E4BC71FF6"
+				"025020D50A32DAFA"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5F2878DD3C53AF80"
 			tasks: [{
 				id: "3AB97B66E4825E8F"
@@ -700,9 +1002,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["19B6C89234831909"]
 			id: "0A73E58829467953"
 			tasks: [{
 				id: "0D1E859D2C6FE7AB"
@@ -724,60 +1027,77 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"38B081C5E2174761"
+				"5F2878DD3C53AF80"
+			]
 			id: "15A70C622AD262F9"
 			tasks: [{
 				id: "0D48FEB8FF358FD8"
 				item: "pneumaticcraft:unassembled_pcb"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["0A73E58829467953"]
 			id: "38B081C5E2174761"
 			tasks: [{
 				id: "7CC9EB9D425BB1D4"
 				item: "pneumaticcraft:etching_tank"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"15A70C622AD262F9"
+				"13716144352C8BCA"
+				"0995F72C09F9CE18"
+			]
 			id: "4C1618310A6DE95A"
 			tasks: [{
 				id: "74AB6FE59126B6FD"
 				item: "pneumaticcraft:printed_circuit_board"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["4C1618310A6DE95A"]
 			id: "5C74D85E4D1BAF16"
 			tasks: [{
 				id: "63685EB6BA70C96D"
 				item: "pneumaticcraft:module_expansion_card"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["25C8EBB27319D90F"]
+			hide_dependency_lines: true
 			id: "3E574FA479B5F6D9"
 			tasks: [{
 				id: "38DD0AB938003E8D"
 				item: "kubejs:assembly_plate"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
+			dependencies: [
+				"54A2ADA3F97C307A"
+				"60B38F9E4BC71FF6"
+			]
 			id: "25C8EBB27319D90F"
 			tasks: [{
 				id: "107D8225C2690217"
@@ -785,19 +1105,21 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3E574FA479B5F6D9"]
 			id: "77AECDAFB721B3A2"
 			tasks: [{
 				id: "3D45864968D007A7"
 				item: "pneumaticcraft:assembly_program_drill_laser"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["1207A752F22ACCF3"]
 			id: "49EF230160C853BD"
 			tasks: [{
 				id: "4770613FB7A4D067"
@@ -811,29 +1133,716 @@
 				title: "Any #ironberry:pnc_modules"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["60B38F9E4BC71FF6"]
 			id: "1F6228FEDB0B9048"
 			tasks: [{
 				id: "0879514AA1E5F922"
 				item: "pneumaticcraft:upgrade_matrix"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["7832CA4A1E6D674F"]
 			icon: "pneumaticcraft:security_upgrade"
 			id: "406410AD4DCF1465"
-			subtitle: "Water"
+			subtitle: "$bucket_fuel"
 			tasks: [{
 				id: "575D350C7C285B55"
 				type: "checkmark"
 			}]
 			title: "Gas Busting"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B283A3B6B92CB18"
+				"4169303251599B97"
+				"70D6A00E5106B8B8"
+				"2FCF3C0C274337CF"
+				"790F699B31A32792"
+				"47A9FE8B6818B32D"
+			]
+			hide_dependency_lines: true
+			id: "595415D4A63714B9"
+			tasks: [{
+				id: "1319D159A5AF4D63"
+				item: "kubejs:machine_frame"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:starby_gift"
+				tag: { }
+			}
+			id: "37A4995447CCBD53"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "This isn't Vault Hunting!"
+			tasks: [{
+				id: "42FCF4C783D5B1EB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:boss_loot"
+					}
+				}
+				title: "Any #ironberry:boss_loot"
+				type: "item"
+			}]
+			title: "Treasure Hunting"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"5698817E3F59F06C"
+				"0CAA1AF5A799B392"
+				"45DF9C391B0F4735"
+				"2B2C54079C37F020"
+			]
+			id: "06A9AD200AD93BEC"
+			tasks: [{
+				id: "290CC6FE330BE52E"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "5698817E3F59F06C"
+			tasks: [{
+				id: "37373A7942360BB2"
+				item: "thermal:blizz_rod"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "0CAA1AF5A799B392"
+			tasks: [{
+				id: "37067F46B1728E5C"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "2B2C54079C37F020"
+			tasks: [{
+				id: "3CBA01867D63C69E"
+				item: "thermal:blitz_rod"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "45DF9C391B0F4735"
+			tasks: [{
+				id: "397F8AC1D43B45B3"
+				item: "thermal:basalz_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "2FCF3C0C274337CF"
+			tasks: [{
+				id: "38505F147ACBB01C"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "47A9FE8B6818B32D"
+			tasks: [{
+				id: "1404CC553BF1D967"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "790F699B31A32792"
+			tasks: [{
+				id: "1244D283686F85D5"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "5B283A3B6B92CB18"
+			tasks: [{
+				id: "6BBFF8EBAA95FEDE"
+				item: "kubejs:topaz"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "70D6A00E5106B8B8"
+			tasks: [{
+				id: "035609D13B42F9C3"
+				item: "kubejs:iolite"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["589E1908B016B84F"]
+			hide_dependency_lines: true
+			id: "2755A2FC0A6CCDBA"
+			tasks: [{
+				id: "3AE415733135193D"
+				item: "cyclic:gem_amber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2755A2FC0A6CCDBA"
+				"6ED044B16F1D4FC7"
+			]
+			hide_dependency_lines: true
+			id: "52D98F751BCB3396"
+			tasks: [{
+				id: "4353C82D15462E41"
+				item: "cyclic:gem_obsidian"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "48096F4214AFE876"
+			tasks: [{
+				id: "24B2280CA4C1B8A9"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starby_gift"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6DA8A88475B663A1"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "16F9EA325F27B467"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "376284337BC4AC03"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "1B403E4ED266D7AE"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1637BB8A971EE3DF"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "6799D38ABDA53141"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			id: "6A09D52DC3FC4A36"
+			tasks: [{
+				id: "03C0B391E2A5BAFF"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			id: "02940E3E691B83B9"
+			tasks: [{
+				id: "0CF03E37ED98C34F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:ritual_tablets"
+					}
+				}
+				title: "Any #ironberry:ritual_tablets"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6241AF156E12230C"]
+			id: "30DB31F58CD8AA3A"
+			tasks: [{
+				id: "274FD52A9A2BC673"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3276B82300E1E29B"
+				"37A4995447CCBD53"
+			]
+			hide_dependent_lines: true
+			id: "736ADE86CB77D17C"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "657DF447369BE6F4"
+				item: "ars_nouveau:blank_glyph"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "251CDF48844D0AF4"
+			tasks: [{
+				id: "75A6C29BF43BAB6B"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "3E859B66E205E1E1"
+			tasks: [{
+				id: "5DCB83422144F3A9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quark:runes"
+					}
+				}
+				title: "Any #quark:runes"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "03639A1C221E916F"
+			tasks: [{
+				id: "775DE34E236727CA"
+				item: "twilightforest:borer_essence"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			id: "041DF0E1A4888239"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "5C77CBB099F100BF"
+				item: "ars_nouveau:wilden_horn"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "1B0273BD7D629386"
+			tasks: [{
+				id: "67B22A0972D4AFDE"
+				item: "thermaloot:variable_capacitor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			id: "6AA6B308C3DBDF63"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "74C64412DC85B898"
+				item: "ars_nouveau:wilden_spike"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			id: "0E4A7C81C48F881E"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "76053E90EB8E910D"
+				item: "ars_nouveau:wilden_wing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			id: "750F03F7ABADA4F0"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "4736F14568A4CE8F"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			id: "5ABFE8B146D354FC"
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				id: "1FF53337288BCCDD"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "55A38E5BE32D4887"
+			tasks: [{
+				id: "444876F80E8CE447"
+				item: "kubejs:jade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			id: "537D1068DF269C4B"
+			tasks: [{
+				id: "58FBCD3F3469A2C4"
+				item: "kubejs:aquamarine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "7E018B377A7CEC14"
+			tasks: [{
+				id: "42765615CBB5EE10"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
 			x: -5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "3F984506FEB681D8"
+			tasks: [{
+				id: "1C1489BD04D7B503"
+				item: "twilightforest:maze_map_focus"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "2A4795B84422F53A"
+			tasks: [{
+				id: "5688D6716864B57F"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "54A2ADA3F97C307A"
+			tasks: [{
+				id: "1D0FA98110927846"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "2DEB4FDF14D61AD1"
+			tasks: [{
+				id: "0524AF005EFDCD5E"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["29B980DF97BE93DB"]
+			id: "34081F830D9AAE70"
+			tasks: [{
+				id: "0FE9F4BA97DE0A17"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["03639A1C221E916F"]
+			id: "4703DFAD11337DCA"
+			tasks: [{
+				id: "3A7EAEB0E550B5C8"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["37A4995447CCBD53"]
+			hide_dependent_lines: true
+			icon: "tombstone:villager_gift"
+			id: "29B980DF97BE93DB"
+			shape: "gear"
+			tasks: [{
+				id: "17D0C93D6774ADE7"
+				title: "Gateway Drop"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["48096F4214AFE876"]
+			icon: "mowlib:icon_hand"
+			id: "6241AF156E12230C"
+			tasks: [{
+				id: "397415A722E24A95"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:gift_loot"
+					}
+				}
+				title: "Any #ironberry:gift_loot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["02940E3E691B83B9"]
+			hide_dependent_lines: true
+			id: "7FBF8CD1BB885034"
+			tasks: [{
+				id: "0F149321B6B47E12"
+				item: "kubejs:ritual_tablet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"2DEB4FDF14D61AD1"
+				"7E018B377A7CEC14"
+			]
+			hide_dependent_lines: true
+			id: "2B6FA57DC9B2B4CA"
+			tasks: [{
+				id: "18A6D3764D5E0113"
+				item: "kubejs:miniboss_trophy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["34081F830D9AAE70"]
+			hide_dependent_lines: true
+			id: "13AC5CDCB6BA0118"
+			tasks: [{
+				id: "51EFD81807AA226C"
+				item: "kubejs:boss_trophy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"4703DFAD11337DCA"
+				"251CDF48844D0AF4"
+				"595415D4A63714B9"
+				"32882D3801FEE679"
+				"13AC5CDCB6BA0118"
+				"3E859B66E205E1E1"
+				"454C844EB3F196F4"
+			]
+			id: "02242C8B71A2FF7A"
+			tasks: [{
+				id: "3E89A85B12B169D4"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"02242C8B71A2FF7A"
+				"3F984506FEB681D8"
+				"2A4795B84422F53A"
+				"7FBF8CD1BB885034"
+			]
+			id: "1939AE89F5A2E9DB"
+			subtitle: "No more need of grinding!"
+			tasks: [{
+				id: "2856A116B433EAB6"
+				item: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 1
+							id: "hostilenetworks:grave_guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"60B38F9E4BC71FF6"
+				"43472F3778420E0F"
+			]
+			hide_dependency_lines: true
+			id: "025020D50A32DAFA"
+			tasks: [{
+				id: "1543ED050FE5B65F"
+				item: "kubejs:raw_plastic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B38F9E4BC71FF6"]
+			hide_dependent_lines: true
+			id: "0995F72C09F9CE18"
+			tasks: [{
+				id: "6570D3DC10935842"
+				item: "pneumaticcraft:capacitor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60B38F9E4BC71FF6"]
+			hide_dependent_lines: true
+			id: "13716144352C8BCA"
+			tasks: [{
+				id: "16F5C19A0675D863"
+				item: "pneumaticcraft:transistor"
+				type: "item"
+			}]
+			x: -4.0d
 			y: -2.0d
 		}
 	]

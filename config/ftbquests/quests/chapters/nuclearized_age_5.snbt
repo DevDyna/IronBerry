@@ -10,8 +10,136 @@
 		tag: { }
 	}
 	id: "26DBA736A666D5A2"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4C624E7DFD3E414E"
+			tasks: [{
+				id: "4F82CF669F668481"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:steel_frame"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "001837ABABCBC3F4"
+			tasks: [{
+				id: "0EF8546BD05089FF"
+				item: {
+					Count: 1b
+					id: "mekanism:steel_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "50BF629AA3EF5AC5"
+			tasks: [{
+				id: "0B46668FB45E4AAF"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:alloy_smelter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "087A5EF088DDED0E"
+			tasks: [{
+				id: "048269CE1B19903E"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:assembler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1FE2BB2E4BDB24C0"
+			tasks: [{
+				id: "32530DAAF7CA4944"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:manufactory"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "42AA46B26C7E74DC"
+			tasks: [{
+				id: "4791E2960F21943A"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:fission_reactor_controller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3F799A3D653ECAC6"
+			shape: "gear"
+			tasks: [{
+				id: "11FEB6589E9A87C1"
+				item: {
+					Count: 1b
+					id: "nuclearcraft:chassis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "6A75F878974792BB"
+			tasks: [{
+				id: "28BB7DE986728203"
+				item: {
+					Count: 1b
+					id: "thoriumreactors:molten_salt_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "7E6FD4B34AA43BA9"
+			tasks: [{
+				id: "58CE6C4B2730A406"
+				item: {
+					Count: 1b
+					id: "thoriumreactors:enriched_uranium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+	]
 	title: "Age 5"
 }
