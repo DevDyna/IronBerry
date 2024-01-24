@@ -18,7 +18,10 @@ body:
   - type: markdown
     attributes:
       value: "## Case Section"
-      description: What is your case?
+  - type: markdown
+    attributes:
+      value: "What is your case?"
+
 
   - type: dropdown
     id: stage
