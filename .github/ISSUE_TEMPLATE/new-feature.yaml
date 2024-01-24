@@ -20,9 +20,22 @@ body:
       label: Case Section
       description: What is your case?
       options:
-        - label: New Mod to add and why
+        - label: New Mod to add
+        - label: Modify some Mods 
         - label: Enable a disabled item with X scope
+        - label: New Quests
+        - label: Remove/Modify some Quests
+        - label: New Recipes
+        - label: Remove/Modify some Recipes
+        - label: Stage 0
+        - label: Stage 0
+        - label: Stage 0
+        - label: Stage 0
 
+  - type: markdown
+      attributes:
+         value: "## Welcome!"
+        
   - type: textarea
     id: description
     attributes:
