@@ -29,19 +29,19 @@ body:
         - label: Remove/Modify some Recipes
 
 
-- type: dropdown
-  id: stage
-  attributes:
-    label: Stage
-    options:
-      - None
-      - Introduction
-      - Campain 1
-      - Campain 2
-      - Campain 3
-      - Campain 4
-  validations:
-    required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options:
+        - None
+        - Introduction
+        - Campain 1
+        - Campain 2
+        - Campain 3
+        - Campain 4
+    validations:
+      required: true
 
 
         
