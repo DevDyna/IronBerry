@@ -34,12 +34,12 @@ body:
   attributes:
     label: Stage
     options:
-        - None
-        - Introduction
-        - Campain 1
-        - Campain 2
-        - Campain 3
-        - Campain 4
+      - None
+      - Introduction
+      - Campain 1
+      - Campain 2
+      - Campain 3
+      - Campain 4
   validations:
     required: true
 
