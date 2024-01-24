@@ -751,6 +751,8 @@ ServerEvents.tags('item', event => {
 	event.add('ironberry:good_berries',['ars_nouveau:source_berry','homespun:ironberries'])
 
 	event.add('ironberry:bucket_fuel',['minecraft:water_bucket', 'pneumaticcraft:biodiesel_bucket', 'pneumaticcraft:ethanol_bucket'])
+	
+	event.add('ironberry:birds_cooked',['exoticbirds:cooked_birdmeat', 'minecraft:cooked_chicken'])
 
 })
 
