@@ -22,7 +22,7 @@ ItemEvents.tooltip(event => {
     }
 
     tipplusplus('minecraft:clay_ball', '§6Obtained by crushing dirt on crushing tub')
-    tipplusplus('minecraft:campfire', '§6Item form require silk touch')
+    tipplusplus('minecraft:campfire', '§6Item form dont require silk touch')
     tipplusplus('reactive:scroll', '§6Right click a cauldron to convert into a crucible')
     tipplusplus('minecraft:bone_meal', '§6Obtained by compost stuff on composter')
     tipplusplus('minecraft:string', '§6Obtained by flax plants')
