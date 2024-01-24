@@ -1,0 +1,71 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Copy 0",
+    "author": "DevDyna",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 4,
+      "max_y": 4,
+      "max_z": 4
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 61,
+          "item": {
+            "id": "thoriumreactors:reactor_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:reactor_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:reactor_core"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 31,
+          "item": {
+            "id": "thoriumreactors:reactor_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 2,
+          "item": {
+            "id": "thoriumreactors:reactor_graphite_moderator"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:reactor_rod_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "thoriumreactors:reactor_valve"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/7WVPW/bMBCGKd75I0p/QlsEHTp06py1mYuOSRaDsWhbgCQKJOXW/fU9Sq/ij8KokyIe9FAyee/Lu6OUK3WluDDR5EqpPB/GilQerC9NVf62XqV/1CREE+1c8XdTW/Uxbpwvu9pbs4zOh1sMFksTymadFlwY6cO5SOvKhHBBoFzlP7xrrY+lDXM1XZllcsDWhCgicdda9W5VdWWxcF1su6j+Kb011da+RrqzlS1E03eyv9nGmthbSffPqu/Pps75V4jmwVSxcuu1CE9Wpgp7pS9nU+tNuymjXdSusN7IoxcU7PO5qN4VsocmeldV9pKIl1TuWmzWb1+4QXkSRGgzSue9dNm8pfKsdT+t3/fMqZN5WHpT13/X9tP5Lvr/Chzn4Xo4PC9LxJWi1gUWLasOfhmoQQL5aEKmMlCDhIV8FEDmgRokBOYjAZkHapAgzCcGMlCDBPKzwdHhQA0SyONfWbro5He41wMZlAXDPSEljLigBglkVic7H6hBAnm0lCVSyl9/z6BcdZqlNZ6DaWr/nPCcUCKGXs9J8qXhS8PXSaYHapBAHlOUJU6TH4Ifgg/CaoI+QZ+gT8gLQZ+gf1TBDNQggTxWOEucpf4SzlN+uG/WDPPAVDr0F6O/GP01zANFgNFfjP5i9BejvxjuGPtg7IOxD8Y+OFdT+WLIC1kOounS+VKzO7u92zXycZ4+ua4pgoSry+YByjK8H4fm1yP0ZPiwH96Pw7J57J3ICW7SCZ5+c+3u5qts/uDlMO9TdPPUlVUhb4K1KdY2htuiq+vd4uAd8ge3itHPOAgAAA\u003d\u003d"
+}

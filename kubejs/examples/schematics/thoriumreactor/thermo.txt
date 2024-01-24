@@ -1,0 +1,50 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Copy 3",
+    "author": "DevDyna",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 2,
+      "max_z": 4
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 25,
+          "item": {
+            "id": "thoriumreactors:thermal_conductor"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:thermal_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 15,
+          "item": {
+            "id": "thoriumreactors:thermal_heat_sink"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "thoriumreactors:thermal_valve"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/62UPXPbMAyGwQ/Lju7apV17l3bv1C1rMucypll0jInYvEqkjh9OnV9f0oRcdXDrXCMOgCDyeQECpxbgAqRWUbUAsGyrDwLagN6o3rygzx+ghUWIKmIL7Z13I/poMKygeVJrYzewsM7H7Qpk3I8I79bO9crGztgxRcjhWzUgfIpb500aPKp1dD5cxS36QfXdTvU7LBr/EJ9An0+B1s7qVEJnwM6q5P1UiUvxTUs5oS6fMfxWOVnnFlXsgrE/Xq+0HN0zetS5QJ9wpoxqpvzlLzccvet7/J8rDvk2j1f8oRSTw91Tn4x+65E5K4WPf6bwyl5fgBhdkFn0Kxwflld5eF71vQZynCw/WAF1gwBGlnPaT4cYWQ5HlxGHEYcRhxGHEWcS5XSIE4fPkexgZeFw4nDicOJw4gjiCDosiCOIIygfQRxBHEGcbBeFI4mTbVPFK0cSRxJHEkcSRxJHttDklmn0uaMqlf7A8gZ3N3ubf2PNo0tWBwFyMPZ7zbu495Orfj6UJKpbNvDq3k+usQ+HpuUJsGUCmms37i+/5U7Ppmx1aNDlYzK9zrOzUXqDMVzpNAz7bjaMvwC6WlyFYgUAAA\u003d\u003d"
+}

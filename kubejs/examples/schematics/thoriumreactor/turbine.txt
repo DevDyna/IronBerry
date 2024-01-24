@@ -1,0 +1,92 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Copy 0",
+    "author": "DevDyna",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 4,
+      "max_y": 6,
+      "max_z": 4
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "thoriumreactors:electromagnetic_coil"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 8,
+          "item": {
+            "id": "thoriumreactors:molybdenum_block"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 68,
+          "item": {
+            "id": "thoriumreactors:turbine_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:turbine_controller"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 45,
+          "item": {
+            "id": "thoriumreactors:turbine_glass"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:turbine_power_port"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 2,
+          "item": {
+            "id": "thoriumreactors:turbine_rotation_mount"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 5,
+          "item": {
+            "id": "thoriumreactors:turbine_rotor"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "thoriumreactors:turbine_valve"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 12,
+          "item": {
+            "id": "thoriumreactors:turbine_vent"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/8WWz27bMAzGJZFxU+/fC2xDMQw79zj0up6HHbteAsXWUmO2Fch2uuxF9rqjrM9DEiBo13ZYDvrJDkXyo0QluVKnikvb21wp9SpPc0Uq71yobF39dEG+ULmadb3t3VzxZ9s49ba/8aEamuBs0fvQXfRDWFatWxS2q9pVXHBPT2+OeVrVtuvu4ShX+Zfg1y70levmKvtmi5jBrPWhv1FTmNfHwmxc2/9FumeHfhpfb5ela4dmsax98f3hGfOt6/onT/j9oR9Xu6IPvrGr1vVVsSh8VT8iaWefMOkjQcyw/hPiw7EQwYuHyreLxg+PCba/DUeP58bWG/eAKMvalq5T+uNcnQbXlrIoBu3D4O4OKhp9eKrNencsytrfuiBjeEgVJ33n/0Nf6W/bf39STsYCuTKp2rlyOj/sXDlH61v4Vhqwrt0jpB7EuqPxThWtfcfi9pfa+WjQgATynoFWGjQgYSHvORA70IAEx7wXQOxAAxIC814CYgcakJAYTwnOUnANGpBmsANVBjmgAQnkbL8kGjQggTx9pdPAYExhfAZlQXoGZWF6CRqQGHacjESPHgfQgDQyi3o09Gjo0dCjoUdDz8HORJ7EwUCPgR7hfCxxPCRmZB51GaxK7016ZjBKGN8T3oPi0ECn8FnUaaDTQKeBTgOdyQ7PNHLUaaDTQKfwedRpoNNA58HJSjQggTxtoU5kMB4V6CKsJugh6CHoIewbQQ9BD0EPQQ9h3wh6CHoIegh6CPtG0EPQc9ABiQYkkKcW1elI6pEv4v4x+jPZgeKA0Z+M/mT0Z7IDJQCjPxn9yejPZAfKyOhPRn8y+jPZgVIC4ctYl5EGpBnswFgi1IVRF0ZdGHXhXGU3Tn5agtyBdojXnTq5dJvLbSt/XbOl3ORlJ+k1VfsVSmR6NU3tj2vkL9NokKXp1fS2aq/HTORCbeOFmn3y6+3ZuRzynXt5Ppb8bDlUdSmX8MqWK9d3F+XQNNvFzvX9G+ATPGBWCwAA"
+}
