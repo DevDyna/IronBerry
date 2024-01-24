@@ -140,6 +140,46 @@
 			x: -3.0d
 			y: 1.0d
 		}
+		{
+			id: "2B43C4FF561B52A2"
+			tasks: [{
+				id: "600E47E5DFD57AA5"
+				item: "nuclearcraft:bioplastic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "31EAF2E88604E6FD"
+			tasks: [{
+				id: "34EC98A335C955C7"
+				item: "kubejs:silicon_plated"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "4885D497784749F6"
+			tasks: [{
+				id: "4D02C74F2AE06E20"
+				item: "nuclearcraft:plate_basic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "152F5B457DF4C6AB"
+			subtitle: "/kubejs/example/schematics"
+			tasks: [{
+				id: "49E6A7B7592F6F49"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
 	]
 	title: "Age 5"
 }
