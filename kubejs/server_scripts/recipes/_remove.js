@@ -52,6 +52,7 @@ ServerEvents.recipes(event => {
 	
 	
     remid([	
+			'cyclic:crusher/jukebox',
 			//'thermal:machines/refinery/refinery_crude_oil',
 			//'thermal:machines/refinery/refinery_resin',
 			//'thermal:devices/rock_gen/rock_gen_deepslate',
