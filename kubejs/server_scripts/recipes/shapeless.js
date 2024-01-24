@@ -228,4 +228,9 @@ function emolimix(jump,variants){
 	less(['ars_nouveau:starbuncle_shards', 'twilightforest:borer_essence'],'ars_nouveau:starbuncle_charm')
 	
 	
+	less(['farmersdelight:fried_egg', 'minecraft:bread', 'farmersdelight:fried_egg'],'farmersdelight:egg_sandwich')
+	less(['minecraft:bread', '#ironberry:birds_cooked', 'farmersdelight:cabbage_leaf'],'farmersdelight:chicken_sandwich')	
+	less(['minecraft:bread', 'twilightforest:cooked_meef', 'farmersdelight:cabbage', 'farmersdelight:tomato'],'farmersdelight:hamburger')	
+	less(['minecraft:honey_bottle','minecraft:slime_ball'],'2x minecraft:honey_bottle')
+	
 })
