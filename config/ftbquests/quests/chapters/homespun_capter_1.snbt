@@ -821,31 +821,33 @@
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
-			icon: {
-				Count: 1b
-				id: "ars_nouveau:starby_gift"
-				tag: { }
-			}
+			icon: "tombstone:christmas_gift"
 			id: "7C0CBDADCB245324"
 			optional: true
 			rewards: [{
-				id: "78A0CEE23CF82761"
+				id: "1E221BEECC149B3E"
 				item: {
 					Count: 1b
-					id: "pneumaticcraft:amadron_tablet"
+					id: "tombstone:gift"
 					tag: {
-						UpgradeCache: {
-							volume: 25
-						}
-						UpgradeInventory: {
-							Items: [{
-								Count: 25b
-								Slot: 0
-								id: "pneumaticcraft:volume_upgrade"
-							}]
-							Size: 9
-						}
-						"pneumaticcraft:air": 300000
+						Items: [{
+							Count: 1b
+							id: "pneumaticcraft:amadron_tablet"
+							tag: {
+								UpgradeCache: {
+									volume: 25
+								}
+								UpgradeInventory: {
+									Items: [{
+										Count: 25b
+										Slot: 0
+										id: "pneumaticcraft:volume_upgrade"
+									}]
+									Size: 9
+								}
+								"pneumaticcraft:air": 300000
+							}
+						}]
 					}
 				}
 				type: "item"
