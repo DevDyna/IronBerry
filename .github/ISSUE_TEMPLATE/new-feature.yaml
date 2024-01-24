@@ -34,7 +34,7 @@ body:
     attributes:
       label: Stage
       options:
-        - None
+        - Empty
         - Introduction
         - Campain 1
         - Campain 2
