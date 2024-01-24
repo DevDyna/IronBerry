@@ -230,6 +230,11 @@
 			]
 			hide: true
 			id: "376A598686CD7197"
+			rewards: [{
+				id: "0C0522613F34B561"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Squeezer 1 -> 19..27 tiny\\n Basin 1 -> 28..30 tiny"
 			tasks: [
@@ -252,6 +257,11 @@
 			dependencies: ["25DADB6F081F6920"]
 			hide: true
 			id: "2CED22797A3FFA7B"
+			rewards: [{
+				id: "5250DFE4633392A3"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18D21BD92186D877"
 				item: "kubejs:pre_compressed"
@@ -263,6 +273,11 @@
 		{
 			dependencies: ["182E4121F73DB516"]
 			id: "25DADB6F081F6920"
+			rewards: [{
+				id: "6BC5171A8D9657E0"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EEAC23D6D1EFE89"
 				item: "bluepower:purple_alloy_ingot"
@@ -281,6 +296,11 @@
 			hide: true
 			icon: "integrateddynamics:mechanical_squeezer"
 			id: "29CECA7F57D6E40E"
+			rewards: [{
+				id: "6A07270749B488DF"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "544E187B1ED44BB6"
@@ -301,6 +321,11 @@
 			dependencies: ["3F818FA3A0D9B316"]
 			hide: true
 			id: "70CEF7D9F2C579E0"
+			rewards: [{
+				id: "700069977B03B1A1"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "All in one"
 			tasks: [{
 				id: "4C343F620BB9B6F2"
@@ -313,6 +338,11 @@
 		{
 			dependencies: ["168AA83F82F32990"]
 			id: "74C7873DC0E892B2"
+			rewards: [{
+				id: "14E845C0A622E16A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76D13AFB6522FD0A"
 				item: "homespun:ironberry_juice_bottle"
@@ -325,6 +355,11 @@
 			dependencies: ["74C7873DC0E892B2"]
 			hide: true
 			id: "3A266E11A1D1A0CD"
+			rewards: [{
+				id: "29607B4C7E9FFB3A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75EB855463B138D4"
 				item: "homespun:redstone_acid"
@@ -336,6 +371,11 @@
 		{
 			dependencies: ["2BCC9E9DDD1FF086"]
 			id: "64A86E7537347BDB"
+			rewards: [{
+				id: "4E0E9619770DA704"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "20C691374919269C"
 				item: "tombstone:grave_dust"
@@ -357,6 +397,11 @@
 			hide: true
 			icon: "tombstone:advancement_7"
 			id: "2BCC9E9DDD1FF086"
+			rewards: [{
+				id: "7D5636DF62259CFF"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Corail Tombstone"
@@ -372,6 +417,11 @@
 			dependencies: ["29CECA7F57D6E40E"]
 			hide: true
 			id: "3452FF2184AA39B2"
+			rewards: [{
+				id: "2BACDDED90618CB3"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2F7DEBB76F08F737"
@@ -403,6 +453,11 @@
 		{
 			dependencies: ["64A86E7537347BDB"]
 			id: "7133DB21B04048B8"
+			rewards: [{
+				id: "7EC110A6414A5C05"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "Perks , exorcism and pray"
 			tasks: [{
@@ -427,6 +482,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "5932367392C69B30"
+			rewards: [{
+				id: "40EA09040F1C6B6F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5002B99F8A8176B0"
 				item: "tombstone:dust_of_vanishing"
@@ -443,6 +503,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "6E31B26FF3394717"
+			rewards: [{
+				id: "0A0F73F8A5CDDED4"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60F98E186A23BB44"
 				item: "tombstone:dust_of_frost"
@@ -454,6 +519,11 @@
 		{
 			dependencies: ["64A86E7537347BDB"]
 			id: "0E3E9C5B5688F70D"
+			rewards: [{
+				id: "2609E11B2EB8B843"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "Rename your friend"
 			tasks: [{
 				id: "6A64482EF397A9E2"
@@ -471,6 +541,11 @@
 			]
 			hide: true
 			id: "285B9826C3F0F414"
+			rewards: [{
+				id: "27AF4C1BF50FA8DD"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "2A23368455400A81"
@@ -487,6 +562,11 @@
 			]
 			hide: true
 			id: "2263AF80BE10A372"
+			rewards: [{
+				id: "4C786B4FEAEC3E36"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6412DB18FDB758F4"
 				item: "tombstone:smoke_ball"
@@ -501,6 +581,11 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "411A1007C8E147F8"
+			rewards: [{
+				id: "05C421A119AD576F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			subtitle: "Crafting item but not here!"
 			tasks: [{
@@ -517,6 +602,11 @@
 				"6240CC21E07DF06B"
 			]
 			id: "4A6600C0D5D16679"
+			rewards: [{
+				id: "3074AB48AF59B81B"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2483E7843A4D0A24"
 				item: "cyclic:crusher"
@@ -533,6 +623,11 @@
 			]
 			hide: true
 			id: "167389B3E16BDA6A"
+			rewards: [{
+				id: "7D732FCC1D8ACD69"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EC07FD2EEBE90A5"
 				item: "ae2:entropy_manipulator"
@@ -546,11 +641,18 @@
 			icon: "ae2:charger"
 			id: "7177F684AAC848E2"
 			optional: true
-			rewards: [{
-				id: "2A0F636270548B65"
-				item: "ae2:guide"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A0F636270548B65"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					id: "09E9BEF7F80858CB"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			subtitle: "You Spin Me Right Round Baby"
 			tasks: [
 				{
@@ -570,6 +672,11 @@
 		{
 			dependencies: ["167389B3E16BDA6A"]
 			id: "6F3B57552C968B42"
+			rewards: [{
+				id: "6BDA4FDA37239137"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B4BA6B979BD08A4"
@@ -591,6 +698,11 @@
 				"6F3B57552C968B42"
 			]
 			id: "32FF5501A723E459"
+			rewards: [{
+				id: "3770F721E4EF5128"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06768AC1B164C038"
 				item: "minecraft:blue_ice"
@@ -602,6 +714,11 @@
 		{
 			dependencies: ["58F3A3D139E87775"]
 			id: "7163739969AAB264"
+			rewards: [{
+				id: "7CEE379870E45478"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F6D0009F403F81E"
 				item: {
@@ -622,6 +739,11 @@
 			dependencies: ["167389B3E16BDA6A"]
 			hide: true
 			id: "2F055BCB378D55FC"
+			rewards: [{
+				id: "77677D5D10852DD9"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FD2A55EB6489E1F"
 				item: "minecraft:snowball"
@@ -634,6 +756,11 @@
 			dependencies: ["3452FF2184AA39B2"]
 			hide: true
 			id: "5479C6B71BEF64F9"
+			rewards: [{
+				id: "7BF2173A694DF89D"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32FDC9AAD640404F"
 				item: "tombstone:merchant_stone"
@@ -646,6 +773,11 @@
 			dependencies: ["54958A7EC60D4E74"]
 			description: ["Sacred texts see that was the key of another dimension"]
 			id: "6DA70AC867C01085"
+			rewards: [{
+				id: "247D6F3616558A27"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "Soul on a jar"
 			tasks: [{
 				id: "298DAE514730BA57"
@@ -658,6 +790,11 @@
 		{
 			dependencies: ["285B9826C3F0F414"]
 			id: "3A3D83FC3C482664"
+			rewards: [{
+				id: "457F75336B530A3D"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1B2E768709B24A79"
@@ -673,6 +810,11 @@
 				"74E29382FC1883A7"
 			]
 			id: "709EA2130092EFB9"
+			rewards: [{
+				id: "216AB105249F8E59"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0AC8FF05B6C0C9CD"
@@ -685,6 +827,11 @@
 		{
 			dependencies: ["285B9826C3F0F414"]
 			id: "0DDBD46B1AFEBDE3"
+			rewards: [{
+				id: "4D17A4FE340980E1"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Multiplayer Only"
 			tasks: [{
@@ -703,6 +850,11 @@
 			]
 			hide: true
 			id: "1B1F3157BFCDA112"
+			rewards: [{
+				id: "7FEBA1A56312489A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "75C5DF49D989CAB6"
@@ -715,6 +867,11 @@
 		{
 			dependencies: ["411A1007C8E147F8"]
 			id: "76B2F07F5D5E0A1B"
+			rewards: [{
+				id: "22F8C51181B9930A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "Experience Storage"
 			tasks: [{
 				id: "0E3C611109A15F8D"
@@ -731,6 +888,11 @@
 			]
 			hide: true
 			id: "7FDADEEEF92D866C"
+			rewards: [{
+				id: "65B474334BC75D22"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4399B2F81B20E820"
 				item: "tombstone:scroll_of_preservation"
@@ -746,6 +908,11 @@
 			]
 			hide: true
 			id: "396B0ABECBC55212"
+			rewards: [{
+				id: "7C7C24DAD3C0A89F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DC8DBC1FC3C2094"
 				item: "tombstone:scroll_of_unstable_intangibility"
@@ -761,6 +928,11 @@
 			]
 			hide: true
 			id: "554649C0347159C9"
+			rewards: [{
+				id: "06FC59678DD00286"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CC34C4A3F039EB6"
 				item: "tombstone:scroll_of_feather_fall"
@@ -772,6 +944,11 @@
 		{
 			dependencies: ["411A1007C8E147F8"]
 			id: "02AC3DC87EA57CF7"
+			rewards: [{
+				id: "40C3A4376AE0DA5A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "293011DE75D939F1"
 				item: "tombstone:scroll_of_purification"
@@ -783,6 +960,11 @@
 		{
 			dependencies: ["411A1007C8E147F8"]
 			id: "015474317D55242A"
+			rewards: [{
+				id: "1B04EA388A8169A2"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77C7D8299862968D"
 				item: "tombstone:scroll_of_true_sight"
@@ -797,6 +979,11 @@
 				"37189EE68DA1957E"
 			]
 			id: "7D8FB31799DFD89B"
+			rewards: [{
+				id: "37FB5C97905E05F0"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "I can reach the sky!"
 			tasks: [{
 				id: "3F175A823F3EE613"
@@ -809,6 +996,11 @@
 		{
 			dependencies: ["411A1007C8E147F8"]
 			id: "18B042EE297E9243"
+			rewards: [{
+				id: "43F70D80D9B3E11E"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "606AE43CE3464A34"
 				item: "tombstone:scroll_of_lightning_resistance"
@@ -825,6 +1017,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "74EF1BAFD7F54538"
+			rewards: [{
+				id: "394DA4A2A74536C8"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CF35D1FC9F0D9E2"
 				item: "tombstone:scroll_of_frost_resistance"
@@ -840,6 +1037,11 @@
 			]
 			hide: true
 			id: "740278705FBE113E"
+			rewards: [{
+				id: "55BC9D4D8BAAAF08"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21EC89847D994EEF"
 				item: "tombstone:scroll_of_aquatic_life"
@@ -855,6 +1057,11 @@
 			]
 			hide: true
 			id: "742C6468DF5FCC43"
+			rewards: [{
+				id: "575373859502F7F1"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "245C1BAC2FD861CE"
 				item: "tombstone:scroll_of_mercy"
@@ -866,6 +1073,11 @@
 		{
 			dependencies: ["411A1007C8E147F8"]
 			id: "5202B78C2CA7DBD3"
+			rewards: [{
+				id: "1468DF174B248C29"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "Backup on case"
 			tasks: [{
 				id: "4C81F4ABCA55595D"
@@ -881,11 +1093,18 @@
 				"578BA9E968E7B064"
 			]
 			id: "0D6DDD97A2065943"
-			rewards: [{
-				id: "6552EC4A20716AFD"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6552EC4A20716AFD"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "604D3E78ED06A978"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "2DB46A78E2454007"
@@ -898,11 +1117,18 @@
 		{
 			dependencies: ["0D6DDD97A2065943"]
 			id: "1FF4E4F20E679B85"
-			rewards: [{
-				id: "1F71EA5B1015F39D"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1F71EA5B1015F39D"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1E385E6FE082673D"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "Essence of Unexpected"
 			tasks: [{
@@ -1163,6 +1389,11 @@
 			}
 			id: "20BDF1B4BEF0753C"
 			optional: true
+			rewards: [{
+				id: "287584B12358B28F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				advancement: "minecraft:nether/all_potions"
@@ -1418,6 +1649,11 @@
 			dependencies: ["5A803F21F63BEA65"]
 			hide: true
 			id: "63BA9E92202669CC"
+			rewards: [{
+				id: "6BEFA3BD9C317F17"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1753DACBDA7107E6"
 				item: "kubejs:scroll"
@@ -1434,6 +1670,11 @@
 			]
 			id: "7E8FA26E1A3924A5"
 			optional: true
+			rewards: [{
+				id: "72A7643A9F8C441C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			subtitle: "A little boost"
 			tasks: [{
@@ -1457,17 +1698,24 @@
 			]
 			id: "642719B0E6FA2529"
 			optional: true
-			rewards: [{
-				id: "41DE71195228BD2F"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "cyclic:cyclic_guide_book"
+			rewards: [
+				{
+					id: "41DE71195228BD2F"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "cyclic:cyclic_guide_book"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0E9CF6A6F170B4EF"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			shape: "heart"
 			subtitle: "The new love"
 			tasks: [{
@@ -1482,6 +1730,11 @@
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "3F0ADDDB9A667132"
 			optional: true
+			rewards: [{
+				id: "6FF65F502BE8F0C9"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "A Classic way"
 			tasks: [{
@@ -1496,6 +1749,11 @@
 			dependencies: ["578BA9E968E7B064"]
 			hide: true
 			id: "1F56B5CB1CD195B3"
+			rewards: [{
+				id: "2158F8B99C18EB9C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "Vanilla Style"
@@ -1516,6 +1774,11 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "6CF1FD984832BEDF"
+			rewards: [{
+				id: "507FE50F27FE2C56"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "28F1F7A02BC436E9"
 				item: "minecraft:feather"
@@ -1527,6 +1790,11 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "3F8255B469D8C8D2"
+			rewards: [{
+				id: "7B9D2957028E4B40"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E7DBAD18EB48E26"
 				item: "minecraft:nautilus_shell"
@@ -1538,6 +1806,11 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "592AB29EFAADB4D0"
+			rewards: [{
+				id: "77E7EA148C761003"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "613C3626F808F338"
 				item: "minecraft:rabbit_foot"
@@ -1549,6 +1822,11 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "45C4AC011AABE1EC"
+			rewards: [{
+				id: "6443C16B847EF422"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D523D641A8BC244"
 				item: "minecraft:ghast_tear"
@@ -1566,6 +1844,11 @@
 			]
 			hide: true
 			id: "5A803F21F63BEA65"
+			rewards: [{
+				id: "474171B61ADCBBBB"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "Unlimited One"
 			tasks: [{
@@ -1579,6 +1862,11 @@
 		{
 			dependencies: ["578BA9E968E7B064"]
 			id: "12A99E6FC80CE5A9"
+			rewards: [{
+				id: "631083120EB17051"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E0F439FBF1A001F"
 				item: "reactive:stardust"
@@ -1591,6 +1879,11 @@
 			dependencies: ["12A99E6FC80CE5A9"]
 			hide: true
 			id: "37189EE68DA1957E"
+			rewards: [{
+				id: "4E2E1B99616335D1"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "196D0D3899D1657A"
 				item: "minecraft:sunflower"
@@ -1606,6 +1899,11 @@
 			]
 			hide: true
 			id: "61161170162203B7"
+			rewards: [{
+				id: "292A4C1C76295484"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "207579535F3574ED"
 				item: "kubejs:iron_rod"
@@ -1621,6 +1919,11 @@
 			]
 			hide: true
 			id: "58F3A3D139E87775"
+			rewards: [{
+				id: "51F27965E75459A5"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E259640D9D10D64"
 				item: "quark:sturdy_stone"
@@ -1636,6 +1939,11 @@
 			]
 			hide: true
 			id: "71384C57A23FDF12"
+			rewards: [{
+				id: "6862A8E6EFF1A5FF"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17B2DF92B81280AC"
 				item: "tombstone:impregnated_diamond"
@@ -1648,6 +1956,11 @@
 			dependencies: ["61161170162203B7"]
 			hide: true
 			id: "018037B494C94222"
+			rewards: [{
+				id: "1092E98EAF26AF2C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35A65F4D46B38D65"
 				item: "tombstone:bone_needle"
@@ -1659,6 +1972,11 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "54958A7EC60D4E74"
+			rewards: [{
+				id: "599392D064C86D9E"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "307BB312823A3B3C"
 				item: "kubejs:soul"
@@ -1698,6 +2016,11 @@
 		{
 			dependencies: ["2E7B3C1E394BF2AE"]
 			id: "78BB41380919B7CF"
+			rewards: [{
+				id: "2173A3E534E2B68B"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6347CC51887BB340"
 				item: "minecraft:gold_nugget"
@@ -1709,6 +2032,11 @@
 		{
 			dependencies: ["578BA9E968E7B064"]
 			id: "2E7B3C1E394BF2AE"
+			rewards: [{
+				id: "6479712DE2330114"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "171BC84AC90A00B9"
 				item: "supplementaries:ash"
@@ -1724,6 +2052,11 @@
 			]
 			hide: true
 			id: "3114E897FF6E3F61"
+			rewards: [{
+				id: "5E46FAA32F4FC3B9"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21D70CB05E4A60D0"
 				item: "kubejs:rose"
@@ -1742,6 +2075,11 @@
 				"74EF1BAFD7F54538"
 			]
 			id: "0E6D91BEA58EF2B0"
+			rewards: [{
+				id: "4831077BD8432D93"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A8DC5BC1879AB66"
 				item: "kubejs:scroll_safety"
@@ -1760,6 +2098,11 @@
 				"396B0ABECBC55212"
 			]
 			id: "4D2E8CFB00E7D02C"
+			rewards: [{
+				id: "65015F08380B1820"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43655B275AEB8359"
 				item: "kubejs:scroll_discontinuity"
@@ -1825,6 +2168,11 @@
 			dependencies: ["0EF6B10F9F4FD2E1"]
 			hide: true
 			id: "514745AA0A403DD0"
+			rewards: [{
+				id: "10F69D801DA43363"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			subtitle: "I want you!"
 			tasks: [{
 				id: "31A3A1CAC3473BBA"
@@ -1844,6 +2192,11 @@
 				"578BA9E968E7B064"
 			]
 			id: "0EF6B10F9F4FD2E1"
+			rewards: [{
+				id: "449F0BD45174C2C0"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01E4FE4DBB51AEF9"
 				item: "minecraft:glass"
@@ -1869,6 +2222,11 @@
 				}
 			}
 			id: "7F0F2D13448390AF"
+			rewards: [{
+				id: "4742540BEE0A5AF7"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "One of most dangerous Boss Battle"
 			tasks: [{
@@ -1887,6 +2245,11 @@
 			]
 			hide: true
 			id: "495E52057373CF9B"
+			rewards: [{
+				id: "3AFF1C4FACAF8CBA"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79C55DF9812AB04D"
 				item: "exoticbirds:egg_incubator"
@@ -1899,6 +2262,11 @@
 			dependencies: ["4A6600C0D5D16679"]
 			hide: true
 			id: "3B8D921168A164BF"
+			rewards: [{
+				id: "59A108F8C50B2674"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56A2DC97A351C36A"
 				item: "minecraft:blaze_rod"
@@ -1912,6 +2280,11 @@
 			hide_dependency_lines: true
 			id: "7D42A107B37BAC03"
 			optional: true
+			rewards: [{
+				id: "5B94833BA13151DC"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5459500354BFC936"
 				item: "tombstone:voodoo_poppet"
@@ -1923,17 +2296,24 @@
 		{
 			dependencies: ["3F818FA3A0D9B316"]
 			id: "5DB8FDC5E7CA7875"
-			rewards: [{
-				id: "66D175C6A6178E7C"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "thermal:guidebook"
+			rewards: [
+				{
+					id: "66D175C6A6178E7C"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7CB635C19A0103FB"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "05BC4053CBCA065E"
 				item: "thermal:device_composter"
@@ -1945,6 +2325,11 @@
 		{
 			dependencies: ["5DB8FDC5E7CA7875"]
 			id: "4C25842283BC5873"
+			rewards: [{
+				id: "17343908B2467C77"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5270653890727A52"
 				item: "thermal:compost"
@@ -1961,6 +2346,11 @@
 			]
 			hide: true
 			id: "282E614B7FEEF251"
+			rewards: [{
+				id: "2FCE513D02738C79"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F7AD70FC65CD197"
 				item: "thermal:phytogro"
@@ -1976,6 +2366,11 @@
 			]
 			hide: true
 			id: "1811CCF80691AB3D"
+			rewards: [{
+				id: "4972C473EDABB727"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0864303ED555BC74"
@@ -1996,6 +2391,11 @@
 			dependencies: ["1811CCF80691AB3D"]
 			hide: true
 			id: "08C331DC3A0CF932"
+			rewards: [{
+				id: "5D91EB7A321DB00E"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11D7AFD82AD8B766"
 				item: "kubejs:rich_bone_meal"
@@ -2008,6 +2408,11 @@
 			dependencies: ["08C331DC3A0CF932"]
 			hide: true
 			id: "74E29382FC1883A7"
+			rewards: [{
+				id: "20B4BA48988D8A70"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54F821FB15494E20"
 				item: "minecraft:red_mushroom"
@@ -2027,6 +2432,11 @@
 				}
 			}
 			id: "63530FEA1B294B96"
+			rewards: [{
+				id: "2BA3DA5EBD2414DC"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30C73A75BC7D42FB"
 				item: "minecraft:bundle"
@@ -2057,6 +2467,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "59A876CDBCDD2B32"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "1DEBABEB293F5DD1"
@@ -2077,6 +2492,11 @@
 			]
 			hide: true
 			id: "5BFECB31235212FC"
+			rewards: [{
+				id: "5A576062D37A5852"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "08ECA575CF44F3E3"
@@ -2090,6 +2510,11 @@
 			dependencies: ["63530FEA1B294B96"]
 			hide: true
 			id: "2945A2E25BD04276"
+			rewards: [{
+				id: "6D189F0B1FB11CC9"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6798165D1C52F883"
@@ -2110,6 +2535,11 @@
 			dependencies: ["5479C6B71BEF64F9"]
 			id: "54CE92765F3E4304"
 			optional: true
+			rewards: [{
+				id: "570930E0BC65D59C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "194C6EBE6DCF8414"
 				item: "tombstone:christmas_hat"
@@ -2123,11 +2553,18 @@
 			hide: true
 			icon: "kubejs:processor"
 			id: "31C7366B2D51ED2C"
-			rewards: [{
-				id: "428DE42F15F06A34"
-				item: "integrateddynamics:on_the_dynamics_of_integration"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "428DE42F15F06A34"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+				{
+					id: "6F43BD59DA372CF4"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4F85A8854E0861D4"
@@ -2165,17 +2602,24 @@
 			}
 			id: "0A9EB2A394692CC3"
 			optional: true
-			rewards: [{
-				id: "0C1602565898192A"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "engineersdecor:engineersdecor_manual"
+			rewards: [
+				{
+					id: "0C1602565898192A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4409BB7FC0361655"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "721A545405CD23FC"
@@ -2197,6 +2641,11 @@
 			hide_dependency_lines: true
 			id: "190BF1366A412083"
 			optional: true
+			rewards: [{
+				id: "48F0DE1BAB3E5F91"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "167EB59CDE06A4D9"
@@ -2231,6 +2680,11 @@
 			dependencies: ["3AE5CD008B44982C"]
 			id: "126DB54048F2A068"
 			optional: true
+			rewards: [{
+				id: "70EC0404E9A77060"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7223874B063A1727"
 				item: "twilightforest:uncrafting_table"
@@ -2246,6 +2700,11 @@
 			]
 			hide_dependency_lines: true
 			id: "2EF34AD3D05D4C30"
+			rewards: [{
+				id: "455176A87F977386"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2253F71D28E5659D"
 				item: {
@@ -2261,6 +2720,11 @@
 		{
 			dependencies: ["2EF34AD3D05D4C30"]
 			id: "3D996AEBE2D15324"
+			rewards: [{
+				id: "424F8015CDE1CD53"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "138C8C37B79FE870"
 				item: {
@@ -2279,6 +2743,11 @@
 		{
 			dependencies: ["1475C91788772545"]
 			id: "46A59C0911F6E07D"
+			rewards: [{
+				id: "38760506180FB590"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2223BBC4168A4D5B"
 				item: "ars_nouveau:magebloom_crop"
@@ -2290,6 +2759,11 @@
 		{
 			dependencies: ["46A59C0911F6E07D"]
 			id: "3D3B12890B82E138"
+			rewards: [{
+				id: "644FD94D007D12AE"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22B55464352A5525"
 				item: "ars_nouveau:magebloom_fiber"
@@ -2301,6 +2775,11 @@
 		{
 			dependencies: ["3D3B12890B82E138"]
 			id: "3276B82300E1E29B"
+			rewards: [{
+				id: "73EF9C04096EF195"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E51F07065A1EFEE"
 				item: "ars_nouveau:blank_parchment"
@@ -2312,6 +2791,11 @@
 		{
 			dependencies: ["4B0F0A9E1091DD0E"]
 			id: "1475C91788772545"
+			rewards: [{
+				id: "187764CF6F30D665"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DD440AFAF082C0E"
 				item: "tombstone:bag_of_seeds"
