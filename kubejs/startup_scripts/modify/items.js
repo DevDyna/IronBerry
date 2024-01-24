@@ -5,5 +5,9 @@ ItemEvents.modification(event => {
             item.maxStackSize = 64
         }
     })
+	
+	event.modify('homespun:ironberry_juice_bottle',item=>{
+		item.maxStackSize = 64
+	})
 
 })
