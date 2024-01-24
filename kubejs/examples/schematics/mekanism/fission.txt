@@ -1,0 +1,57 @@
+{
+  "header": {
+    "version": "2.1.0",
+    "mc_version": "1.17.1",
+    "name": "Copy 2",
+    "author": "DevDyna",
+    "bounding_box": {
+      "min_x": 0,
+      "min_y": 0,
+      "min_z": 0,
+      "max_x": 2,
+      "max_y": 3,
+      "max_z": 2
+    },
+    "material_list": {
+      "root_type": "buildinggadgets:entries",
+      "root_entry": [
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "mekanismgenerators:control_rod_assembly"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 1,
+          "item": {
+            "id": "mekanismgenerators:fission_fuel_assembly"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 25,
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_casing"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 4,
+          "item": {
+            "id": "mekanismgenerators:fission_reactor_port"
+          }
+        },
+        {
+          "item_type": "buildinggadgets:simple_item",
+          "count": 5,
+          "item": {
+            "id": "mekanismgenerators:reactor_glass"
+          }
+        }
+      ]
+    }
+  },
+  "body": "H4sIAAAAAAAA/7VUzU7cMBAej3fDEiGeYQ9IhStHrnCuOFIukXc9GywcO7Kd0vTpa28maFdCFKiaQ2Zsj78fj+Ua4BQWWiVVA8BJPeUgoY4UjLLmN4W8ADUsY1KJVrD4rjqCq46elTOxa8lRUMmHeLMzMRrvmkBqmyearYrGtWXvX0BrqO+D7ykkQzEzdF4TLI3rhwQz4bcPEPY+pA/QzZDrNyBnqNaqGD8v/WxnB6Mb69uWNCyp69P4auHyHQu7gWyTKanb2PGrR3buh5TPrNl6b5X7L2f3Gb9v0W69S8HbJnj9z3bP2O6Liom+YPYUZO/jItNcwMEnOOLRhADBC3hUgCC4EOcNkrdxRHkMLTjinIrykwU/x0XBF/tVLHFZ8PdjRJYmp7GQjCOPJYtXZWxBlFgVfGT9yNXI+pH1I+Mj60fGxxqqJ1KawgoqNaQnH+Dkjn7ejS6/G9XGD05Hmdti3I8JoaQPc6p+PU44JS0Fckof5lnjHvfMuYeu9LC69f24vs4dOrgPq72V9WYwVud3pVW6pRRv9NB1Y3Nwbf4A6SRIh9MEAAA\u003d"
+}
