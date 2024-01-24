@@ -14,34 +14,77 @@ body:
         - label: I like what you are doing
           required: true
           
-  - type: checkboxes
-    id: case
-    attributes:
-      label: Case Section
-      description: What is your case?
-      options:
-        - label: New Mod to add
-        - label: Modify some Mods 
-        - label: Enable a disabled item with X scope
-        - label: New Quests
-        - label: Remove/Modify some Quests
-        - label: New Recipes
-        - label: Remove/Modify some Recipes
 
+  - type: markdown
+    attributes:
+      value: Case Section
 
   - type: dropdown
     id: stage
     attributes:
-      label: Stage
+      label: Stage Selection
       options:
-        - Empty
+        - *Empty*
         - Introduction
         - Campain 1
         - Campain 2
         - Campain 3
         - Campain 4
     validations:
-      required: true
+      required: false
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: MOD Selection
+      options:
+        - *Empty*
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: QUEST Selection
+      options:
+        - *Empty*
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: RECIPES / EVENTS Selection
+      options:
+        - *Empty*
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: case
+    attributes:
+      label: Various Selection
+      description: What is your case?
+      options:
+        - label: Enable a disabled item with X scope
+
+
+
+
+
+
+
+
+
 
 
         
