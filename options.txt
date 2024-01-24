@@ -42,7 +42,7 @@ incompatibleResourcePacks:["quark:emote_resources","file/better-nature.zip","fil
 lastServer:
 lang:en_us
 soundDevice:""
-chatVisibility:0
+chatVisibility:2
 chatOpacity:1.0
 chatLineSpacing:0.0
 textBackgroundOpacity:0.25925968096371277
