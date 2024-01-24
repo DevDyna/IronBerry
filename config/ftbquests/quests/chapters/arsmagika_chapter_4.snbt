@@ -22,6 +22,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "537D1068DF269C4B"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -73,6 +74,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "37A4995447CCBD53"
 			dev: false
 			height: 4.0d
 			hover: [ ]
@@ -85,6 +87,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "37A4995447CCBD53"
 			dev: false
 			height: 3.0d
 			hover: [ ]
@@ -152,6 +155,7 @@
 			click: ""
 			color: 109567
 			corner: false
+			dependency: "5B283A3B6B92CB18"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -165,6 +169,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "5B283A3B6B92CB18"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -177,14 +182,15 @@
 		{
 			click: ""
 			corner: false
+			dependency: "1939AE89F5A2E9DB"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "hostilenetworks:item/blank_data_model"
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.0d
-			y: -10.0d
+			x: -11.0d
+			y: -11.0d
 		}
 		{
 			click: ""
@@ -243,6 +249,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -255,6 +262,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -267,6 +275,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -279,6 +288,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -291,6 +301,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -303,6 +314,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -315,6 +327,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -327,6 +340,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -339,6 +353,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "60B38F9E4BC71FF6"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -355,7 +370,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "hostilenetworks:textures/item/polymer_clay.png"
+			image: "hostilenetworks:block/simulation_chamber_north"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.571428571428569d
@@ -378,6 +393,7 @@
 			click: ""
 			color: 6723993
 			corner: false
+			dependency: "1939AE89F5A2E9DB"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -507,6 +523,58 @@
 			x: -8.047619047619044d
 			y: -3.952380952380956d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "589E1908B016B84F"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/red_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.778911564625851d
+			y: -5.261904761904759d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "537D1068DF269C4B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.411564625850339d
+			y: -17.999999999999993d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "537D1068DF269C4B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.340136054421777d
+			y: -17.571428571428573d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "537D1068DF269C4B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:blocks/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.44727891156463d
+			y: -15.642857142857146d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -555,6 +623,7 @@
 		{
 			dependencies: ["589E1908B016B84F"]
 			id: "5856ACD8338DB76C"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6C33722DCB9743ED"
@@ -769,6 +838,7 @@
 		{
 			dependencies: ["52D98F751BCB3396"]
 			id: "123D0BCDB0FD19BF"
+			shape: "square"
 			tasks: [
 				{
 					id: "41ECE67AA1C8E502"
@@ -789,8 +859,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 4.0d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
@@ -969,6 +1039,7 @@
 				"495CB86940BB2D25"
 			]
 			id: "191DF7A9C5834BB0"
+			shape: "heart"
 			tasks: [{
 				id: "6DC61F43EEECBEB8"
 				item: "kubejs:instability"
@@ -985,8 +1056,8 @@
 				item: "nuclearcraft:silicon_gem"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1144,13 +1215,14 @@
 				item: "pneumaticcraft:upgrade_matrix"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7832CA4A1E6D674F"]
 			icon: "pneumaticcraft:security_upgrade"
 			id: "406410AD4DCF1465"
+			shape: "diamond"
 			subtitle: "$bucket_fuel"
 			tasks: [{
 				id: "575D350C7C285B55"
@@ -1181,11 +1253,7 @@
 		}
 		{
 			hide_dependent_lines: true
-			icon: {
-				Count: 1b
-				id: "ars_nouveau:starby_gift"
-				tag: { }
-			}
+			icon: "quark:rainbow_rune"
 			id: "37A4995447CCBD53"
 			shape: "octagon"
 			size: 3.0d
@@ -1345,8 +1413,8 @@
 				item: "cyclic:gem_obsidian"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37A4995447CCBD53"]
@@ -1526,6 +1594,7 @@
 		{
 			dependencies: ["37A4995447CCBD53"]
 			id: "1B0273BD7D629386"
+			shape: "pentagon"
 			tasks: [{
 				id: "67B22A0972D4AFDE"
 				item: "thermaloot:variable_capacitor"
@@ -1632,7 +1701,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["29B980DF97BE93DB"]
@@ -1647,14 +1716,16 @@
 		}
 		{
 			dependencies: ["29B980DF97BE93DB"]
+			hide_dependent_lines: true
 			id: "54A2ADA3F97C307A"
+			shape: "diamond"
 			tasks: [{
 				id: "1D0FA98110927846"
 				item: "quark:soul_bead"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["29B980DF97BE93DB"]
@@ -1741,6 +1812,7 @@
 			]
 			hide_dependent_lines: true
 			id: "2B6FA57DC9B2B4CA"
+			shape: "octagon"
 			tasks: [{
 				id: "18A6D3764D5E0113"
 				item: "kubejs:miniboss_trophy"
@@ -1753,6 +1825,7 @@
 			dependencies: ["34081F830D9AAE70"]
 			hide_dependent_lines: true
 			id: "13AC5CDCB6BA0118"
+			shape: "octagon"
 			tasks: [{
 				id: "51EFD81807AA226C"
 				item: "kubejs:boss_trophy"
@@ -1788,7 +1861,7 @@
 				"7FBF8CD1BB885034"
 			]
 			id: "1939AE89F5A2E9DB"
-			subtitle: "No more need of grinding!"
+			subtitle: "No more need of killing!"
 			tasks: [{
 				id: "2856A116B433EAB6"
 				item: {
@@ -1830,8 +1903,8 @@
 				item: "pneumaticcraft:capacitor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["60B38F9E4BC71FF6"]
@@ -1842,7 +1915,7 @@
 				item: "pneumaticcraft:transistor"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -2.0d
 		}
 	]
