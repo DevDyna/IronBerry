@@ -9,19 +9,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "78BB41380919B7CF"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "tombstone:item/bag_of_seeds"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -15.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "1F56B5CB1CD195B3"
 			dev: false
 			height: 4.0d
@@ -100,58 +87,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "5DB8FDC5E7CA7875"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "reactive:block/flower_vine"
-			rotation: 0.0d
-			width: 1.0d
-			x: -12.0d
-			y: -9.75d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "5DB8FDC5E7CA7875"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "reactive:block/flower_vine"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.25d
-			y: -12.75d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "2E7B3C1E394BF2AE"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "supplementaries:items/globes/globe_flat"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.75d
-			y: -11.25d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "08C331DC3A0CF932"
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "tombstone:item/bag_of_seeds"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "63BA9E92202669CC"
 			dev: false
 			height: 5.0d
@@ -211,8 +146,8 @@
 			image: "essentials:item/candle_lilypad"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -5.0d
+			x: 8.0d
+			y: -6.0d
 		}
 	]
 	order_index: 2
@@ -268,22 +203,6 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["182E4121F73DB516"]
-			id: "25DADB6F081F6920"
-			rewards: [{
-				id: "6BC5171A8D9657E0"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7EEAC23D6D1EFE89"
-				item: "bluepower:purple_alloy_ingot"
-				type: "item"
-			}]
-			x: 0.0d
 			y: -19.5d
 		}
 		{
@@ -492,8 +411,8 @@
 				item: "tombstone:dust_of_vanishing"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -12.0d
+			x: 0.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -601,6 +520,7 @@
 				"6DCCBC7AE25353C3"
 				"6240CC21E07DF06B"
 			]
+			hide: true
 			id: "4A6600C0D5D16679"
 			rewards: [{
 				id: "3074AB48AF59B81B"
@@ -612,8 +532,8 @@
 				item: "cyclic:crusher"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -12.0d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -784,8 +704,8 @@
 				item: "tombstone:soul_receptacle"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["285B9826C3F0F414"]
@@ -878,8 +798,8 @@
 				item: "tombstone:scroll_of_knowledge"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -898,8 +818,8 @@
 				item: "tombstone:scroll_of_preservation"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.5d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -918,8 +838,8 @@
 				item: "tombstone:scroll_of_unstable_intangibility"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -4.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -938,8 +858,8 @@
 				item: "tombstone:scroll_of_feather_fall"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -954,8 +874,8 @@
 				item: "tombstone:scroll_of_purification"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -4.5d
+			x: 10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -970,8 +890,8 @@
 				item: "tombstone:scroll_of_true_sight"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.5d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -990,8 +910,8 @@
 				item: "tombstone:scroll_of_reach"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.5d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -1006,8 +926,8 @@
 				item: "tombstone:scroll_of_lightning_resistance"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1028,7 +948,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1047,8 +967,8 @@
 				item: "tombstone:scroll_of_aquatic_life"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -4.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1067,8 +987,8 @@
 				item: "tombstone:scroll_of_mercy"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -0.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -1084,14 +1004,15 @@
 				item: "tombstone:magic_scroll"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -2.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"4B0F0A9E1091DD0E"
 				"578BA9E968E7B064"
 			]
+			hide: true
 			id: "0D6DDD97A2065943"
 			rewards: [
 				{
@@ -1116,6 +1037,7 @@
 		}
 		{
 			dependencies: ["0D6DDD97A2065943"]
+			hide: true
 			id: "1FF4E4F20E679B85"
 			rewards: [
 				{
@@ -1785,7 +1707,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
@@ -1800,8 +1722,8 @@
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -5.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
@@ -1816,8 +1738,8 @@
 				item: "minecraft:rabbit_foot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -5.5d
+			x: 10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
@@ -1832,8 +1754,8 @@
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -5.5d
+			x: 14.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1861,6 +1783,7 @@
 		}
 		{
 			dependencies: ["578BA9E968E7B064"]
+			hide: true
 			id: "12A99E6FC80CE5A9"
 			rewards: [{
 				id: "631083120EB17051"
@@ -1982,8 +1905,8 @@
 				item: "kubejs:soul"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -5.5d
+			x: 8.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7F0F2D13448390AF"]
@@ -2014,38 +1937,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["2E7B3C1E394BF2AE"]
-			id: "78BB41380919B7CF"
-			rewards: [{
-				id: "2173A3E534E2B68B"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6347CC51887BB340"
-				item: "minecraft:gold_nugget"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["578BA9E968E7B064"]
-			id: "2E7B3C1E394BF2AE"
-			rewards: [{
-				id: "6479712DE2330114"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "171BC84AC90A00B9"
-				item: "supplementaries:ash"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -11.5d
-		}
-		{
 			dependencies: [
 				"578BA9E968E7B064"
 				"64A86E7537347BDB"
@@ -2074,6 +1965,7 @@
 				"015474317D55242A"
 				"74EF1BAFD7F54538"
 			]
+			hide_dependent_lines: true
 			id: "0E6D91BEA58EF2B0"
 			rewards: [{
 				id: "4831077BD8432D93"
@@ -2086,7 +1978,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2097,6 +1989,7 @@
 				"18B042EE297E9243"
 				"396B0ABECBC55212"
 			]
+			hide_dependent_lines: true
 			id: "4D2E8CFB00E7D02C"
 			rewards: [{
 				id: "65015F08380B1820"
@@ -2108,8 +2001,8 @@
 				item: "kubejs:scroll_discontinuity"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -0.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2124,15 +2017,14 @@
 			]
 			hide: true
 			id: "3AE5CD008B44982C"
-			optional: true
 			subtitle: "A cheap way"
 			tasks: [{
 				id: "7556E5D3CF333705"
 				item: "kubejs:grave_spawn"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2140,6 +2032,7 @@
 				"6DA70AC867C01085"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "6B8DDA098675365C"
 			optional: true
 			tasks: [{
@@ -2147,22 +2040,24 @@
 				item: "kubejs:illuminati"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -8.0d
+			x: -6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
 				"1BEF9782AAE08017"
 				"578BA9E968E7B064"
 			]
+			hide: true
 			id: "3CF427D28764EE4F"
+			shape: "octagon"
 			tasks: [{
 				id: "3804A66DA736F5EE"
 				item: "exoticbirds:phoenix_egg"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -9.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0EF6B10F9F4FD2E1"]
@@ -2183,14 +2078,15 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.5d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"15DE813782E5A124"
 				"578BA9E968E7B064"
 			]
+			hide: true
 			id: "0EF6B10F9F4FD2E1"
 			rewards: [{
 				id: "449F0BD45174C2C0"
@@ -2202,8 +2098,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -8.0d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2255,8 +2151,8 @@
 				item: "exoticbirds:egg_incubator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4A6600C0D5D16679"]
@@ -2272,14 +2168,13 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -11.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["126DB54048F2A068"]
 			hide_dependency_lines: true
 			id: "7D42A107B37BAC03"
-			optional: true
 			rewards: [{
 				id: "5B94833BA13151DC"
 				item: "thermal:electrum_coin"
@@ -2290,136 +2185,8 @@
 				item: "tombstone:voodoo_poppet"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["3F818FA3A0D9B316"]
-			id: "5DB8FDC5E7CA7875"
-			rewards: [
-				{
-					id: "66D175C6A6178E7C"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "thermal:guidebook"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7CB635C19A0103FB"
-					item: "thermal:electrum_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "05BC4053CBCA065E"
-				item: "thermal:device_composter"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["5DB8FDC5E7CA7875"]
-			id: "4C25842283BC5873"
-			rewards: [{
-				id: "17343908B2467C77"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5270653890727A52"
-				item: "thermal:compost"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -11.5d
-		}
-		{
-			dependencies: [
-				"35BD3AD826A482C4"
-				"4C25842283BC5873"
-				"4B0F0A9E1091DD0E"
-			]
-			hide: true
-			id: "282E614B7FEEF251"
-			rewards: [{
-				id: "2FCE513D02738C79"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0F7AD70FC65CD197"
-				item: "thermal:phytogro"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"282E614B7FEEF251"
-				"35BD3AD826A482C4"
-			]
-			hide: true
-			id: "1811CCF80691AB3D"
-			rewards: [{
-				id: "4972C473EDABB727"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0864303ED555BC74"
-					item: "farmersdelight:organic_compost"
-					type: "item"
-				}
-				{
-					id: "2452B5F4A8506D24"
-					item: "farmersdelight:rich_soil"
-					type: "item"
-				}
-			]
-			title: "Rich Soil Process"
-			x: -9.0d
+			x: 2.0d
 			y: -10.0d
-		}
-		{
-			dependencies: ["1811CCF80691AB3D"]
-			hide: true
-			id: "08C331DC3A0CF932"
-			rewards: [{
-				id: "5D91EB7A321DB00E"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "11D7AFD82AD8B766"
-				item: "kubejs:rich_bone_meal"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["08C331DC3A0CF932"]
-			hide: true
-			id: "74E29382FC1883A7"
-			rewards: [{
-				id: "20B4BA48988D8A70"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "54F821FB15494E20"
-				item: "minecraft:red_mushroom"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -8.5d
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
@@ -2445,66 +2212,6 @@
 			title: "Bundled"
 			x: 0.75d
 			y: -18.0d
-		}
-		{
-			dependencies: ["379F607A99F58C90"]
-			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
-			id: "35BD3AD826A482C4"
-			rewards: [
-				{
-					id: "7C93AC35971C2BB5"
-					item: "thermal:iron_coin"
-					type: "item"
-				}
-				{
-					id: "1D7203E87A5FD149"
-					item: {
-						Count: 1b
-						id: "essentials:guide_book"
-						tag: {
-							"patchouli:book": "essentials:manual"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "59A876CDBCDD2B32"
-					item: "thermal:electrum_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1DEBABEB293F5DD1"
-				item: "essentials:fertile_soil_wheat"
-				type: "item"
-			}]
-			title: "Croptopic?"
-			x: -9.0d
-			y: -8.5d
-		}
-		{
-			dependencies: [
-				"78BB41380919B7CF"
-				"6DCCBC7AE25353C3"
-				"5C6DF3197277F797"
-				"31E47787595652B3"
-				"222BCA5CC86342AE"
-			]
-			hide: true
-			id: "5BFECB31235212FC"
-			rewards: [{
-				id: "5A576062D37A5852"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "08ECA575CF44F3E3"
-				item: "kubejs:ore_bone_meal"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -10.5d
 		}
 		{
 			dependencies: ["63530FEA1B294B96"]
@@ -2679,7 +2386,6 @@
 		{
 			dependencies: ["3AE5CD008B44982C"]
 			id: "126DB54048F2A068"
-			optional: true
 			rewards: [{
 				id: "70EC0404E9A77060"
 				item: "thermal:electrum_coin"
@@ -2690,14 +2396,15 @@
 				item: "twilightforest:uncrafting_table"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"3452FF2184AA39B2"
 				"78BB41380919B7CF"
 			]
+			hide: true
 			hide_dependency_lines: true
 			id: "2EF34AD3D05D4C30"
 			rewards: [{
@@ -2714,8 +2421,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: -18.0d
+			x: -7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2EF34AD3D05D4C30"]
@@ -2737,72 +2444,44 @@
 				title: "Any #ironberry:magic_trees"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -18.0d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["1475C91788772545"]
-			id: "46A59C0911F6E07D"
+			dependencies: [
+				"182E4121F73DB516"
+				"578BA9E968E7B064"
+			]
+			hide: true
+			id: "25DADB6F081F6920"
 			rewards: [{
-				id: "38760506180FB590"
+				id: "6BC5171A8D9657E0"
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2223BBC4168A4D5B"
-				item: "ars_nouveau:magebloom_crop"
+				id: "7EEAC23D6D1EFE89"
+				item: "bluepower:purple_alloy_ingot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -17.0d
+			x: 0.0d
+			y: -20.0d
 		}
 		{
-			dependencies: ["46A59C0911F6E07D"]
-			id: "3D3B12890B82E138"
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "79957A3C971BB4B5"
 			rewards: [{
-				id: "644FD94D007D12AE"
+				id: "7A18BF6C75AA5676"
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "22B55464352A5525"
-				item: "ars_nouveau:magebloom_fiber"
+				id: "60D5D1BC7749A839"
+				item: "cyclic:fisher"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["3D3B12890B82E138"]
-			id: "3276B82300E1E29B"
-			rewards: [{
-				id: "73EF9C04096EF195"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E51F07065A1EFEE"
-				item: "ars_nouveau:blank_parchment"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["4B0F0A9E1091DD0E"]
-			id: "1475C91788772545"
-			rewards: [{
-				id: "187764CF6F30D665"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DD440AFAF082C0E"
-				item: "tombstone:bag_of_seeds"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -17.0d
+			x: 15.0d
+			y: -8.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]

@@ -29,8 +29,8 @@
 			image: "reactive:item/acid_bottle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -7.0d
+			x: -0.2023809523809561d
+			y: -6.75d
 		}
 		{
 			click: ""
@@ -84,12 +84,78 @@
 			x: 0.0d
 			y: -9.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "1475C91788772545"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:item/bag_of_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2E7B3C1E394BF2AE"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:items/globes/globe_flat"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.678571428571431d
+			y: -12.083333333333336d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "282E614B7FEEF251"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.785714285714285d
+			y: -10.142857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "08C331DC3A0CF932"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.642857142857146d
+			y: -5.607142857142861d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1520C94178BF9F61"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "bluepower:textures/blocks/machines/motor_front_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.4404761904761827d
+			y: -4.464285714285715d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["568AF71C55EB2708"]
+			hide: true
 			icon: "reactive:mind_bottle"
 			id: "6100D1B5545583E3"
 			rewards: [{
@@ -108,6 +174,7 @@
 		}
 		{
 			dependencies: ["568AF71C55EB2708"]
+			hide: true
 			icon: "reactive:light_bottle"
 			id: "29F14948C66CC37E"
 			rewards: [{
@@ -150,12 +217,13 @@
 				type: "item"
 			}]
 			title: "Nature/Verdane Source"
-			x: 0.5d
-			y: -7.5d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2690AFB8D51B4350"]
 			description: ["Drop stuff on it convert water into \"stranger powers\""]
+			hide: true
 			icon: "minecraft:brewing_stand"
 			id: "32619673FCC124C2"
 			rewards: [
@@ -190,6 +258,7 @@
 		{
 			dependencies: ["32619673FCC124C2"]
 			description: ["All power sources can be founded by searching on JEI with $source"]
+			hide: true
 			id: "7142BA297B3B2BCB"
 			rewards: [{
 				id: "510C50C465739A05"
@@ -208,6 +277,7 @@
 		{
 			dependencies: ["3E23DA536435A586"]
 			description: ["Power can change items into others or create reactions with them and grow on your world , be careful"]
+			hide: true
 			icon: "thermal:potion_amplifier_augment"
 			id: "568AF71C55EB2708"
 			rewards: [{
@@ -238,6 +308,7 @@
 				""
 				"To use the source you need to drop on it the item to transmute"
 			]
+			hide: true
 			icon: "reactive:mind_bottle"
 			id: "3E23DA536435A586"
 			rewards: [{
@@ -301,8 +372,8 @@
 				}
 			]
 			title: "Body/Stock Source"
-			x: -2.5d
-			y: -6.0d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -375,6 +446,7 @@
 		}
 		{
 			dependencies: ["58F795EFD59E0409"]
+			hide: true
 			id: "16A1F0591E87CDC6"
 			rewards: [{
 				id: "0DE68C3AC504D643"
@@ -392,6 +464,7 @@
 		}
 		{
 			dependencies: ["58F795EFD59E0409"]
+			hide: true
 			id: "7A2E0BE6514D1954"
 			rewards: [{
 				id: "139BBB1C4B51022D"
@@ -411,6 +484,8 @@
 				"379F607A99F58C90"
 				"182E4121F73DB516"
 			]
+			hide: true
+			hide_dependent_lines: true
 			icon: "minecraft:pointed_dripstone"
 			id: "168AA83F82F32990"
 			rewards: [{
@@ -424,11 +499,12 @@
 				type: "item"
 			}]
 			title: "Matter from caves on sky?"
-			x: -2.5d
-			y: -9.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["15DE813782E5A124"]
+			hide: true
 			id: "6C79057BC3C2862B"
 			rewards: [{
 				id: "65FF6EFC0B2B4CBD"
@@ -445,6 +521,7 @@
 		}
 		{
 			dependencies: ["6C79057BC3C2862B"]
+			hide: true
 			id: "47F363945E546C9C"
 			rewards: [{
 				id: "1AEC639BA68E605D"
@@ -509,6 +586,7 @@
 		{
 			dependencies: ["32619673FCC124C2"]
 			description: ["Crucible support hopper and dispencer automation"]
+			hide: true
 			id: "31F5E8B16F79A4C0"
 			rewards: [{
 				id: "6C2026A3A6A66043"
@@ -526,6 +604,7 @@
 		}
 		{
 			dependencies: ["6DCCBC7AE25353C3"]
+			hide: true
 			id: "4D83A432C2E62030"
 			rewards: [{
 				id: "586879D84F472721"
@@ -612,13 +691,14 @@
 		}
 		{
 			dependencies: ["6100D1B5545583E3"]
+			hide: true
 			id: "66428E9F71ABAF8C"
 			rewards: [{
 				id: "77C182F6EE98F628"
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
-			subtitle: "Accept any small_flowers but not all flowers!"
+			subtitle: "Accept any $small_flowers but not all flowers!"
 			tasks: [{
 				id: "5F602849FEA723A4"
 				item: "bluepower:indigo_flower"
@@ -645,6 +725,7 @@
 		}
 		{
 			dependencies: ["568AF71C55EB2708"]
+			hide: true
 			icon: "reactive:warp_bottle"
 			id: "6945270274F113D6"
 			optional: true
@@ -665,6 +746,7 @@
 		{
 			dependencies: ["6945270274F113D6"]
 			id: "402E62814FB726A8"
+			optional: true
 			rewards: [{
 				id: "09B4927929BE3AA7"
 				item: "thermal:iron_coin"
@@ -682,6 +764,7 @@
 		}
 		{
 			dependencies: ["29F14948C66CC37E"]
+			hide: true
 			id: "6DCCBC7AE25353C3"
 			rewards: [{
 				id: "4C455342A4CD9F5D"
@@ -698,6 +781,7 @@
 		}
 		{
 			dependencies: ["6DCCBC7AE25353C3"]
+			hide: true
 			id: "76FD8211F70232CD"
 			rewards: [{
 				id: "4790903B102E56C8"
@@ -732,6 +816,7 @@
 		}
 		{
 			dependencies: ["1520C94178BF9F61"]
+			hide: true
 			icon: "thermal:energy_cell_frame"
 			id: "0E65FD4F5E076C3C"
 			rewards: [{
@@ -889,6 +974,296 @@
 			title: "Wireless item transfer"
 			x: -2.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["4B0F0A9E1091DD0E"]
+			hide: true
+			id: "1475C91788772545"
+			rewards: [{
+				id: "187764CF6F30D665"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DD440AFAF082C0E"
+				item: "tombstone:bag_of_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1475C91788772545"]
+			id: "46A59C0911F6E07D"
+			rewards: [{
+				id: "38760506180FB590"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2223BBC4168A4D5B"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["46A59C0911F6E07D"]
+			id: "3D3B12890B82E138"
+			rewards: [{
+				id: "644FD94D007D12AE"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B55464352A5525"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3D3B12890B82E138"]
+			id: "3276B82300E1E29B"
+			rewards: [{
+				id: "73EF9C04096EF195"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E51F07065A1EFEE"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2E7B3C1E394BF2AE"]
+			hide: true
+			id: "78BB41380919B7CF"
+			rewards: [{
+				id: "2173A3E534E2B68B"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6347CC51887BB340"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"78BB41380919B7CF"
+				"6DCCBC7AE25353C3"
+				"5C6DF3197277F797"
+				"31E47787595652B3"
+				"222BCA5CC86342AE"
+				"08C331DC3A0CF932"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "5BFECB31235212FC"
+			rewards: [{
+				id: "5A576062D37A5852"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "08ECA575CF44F3E3"
+				item: "kubejs:ore_bone_meal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["08C331DC3A0CF932"]
+			hide: true
+			id: "74E29382FC1883A7"
+			rewards: [{
+				id: "20B4BA48988D8A70"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F821FB15494E20"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1811CCF80691AB3D"]
+			hide: true
+			id: "08C331DC3A0CF932"
+			rewards: [{
+				id: "5D91EB7A321DB00E"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11D7AFD82AD8B766"
+				item: "kubejs:rich_bone_meal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["578BA9E968E7B064"]
+			hide: true
+			id: "2E7B3C1E394BF2AE"
+			rewards: [{
+				id: "6479712DE2330114"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "171BC84AC90A00B9"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"282E614B7FEEF251"
+				"35BD3AD826A482C4"
+			]
+			hide: true
+			id: "1811CCF80691AB3D"
+			rewards: [{
+				id: "4972C473EDABB727"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0864303ED555BC74"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "2452B5F4A8506D24"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			title: "Rich Soil Process"
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["379F607A99F58C90"]
+			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
+			hide_dependency_lines: true
+			id: "35BD3AD826A482C4"
+			rewards: [
+				{
+					id: "7C93AC35971C2BB5"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1D7203E87A5FD149"
+					item: {
+						Count: 1b
+						id: "essentials:guide_book"
+						tag: {
+							"patchouli:book": "essentials:manual"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59A876CDBCDD2B32"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DEBABEB293F5DD1"
+				item: "essentials:fertile_soil_wheat"
+				type: "item"
+			}]
+			title: "Croptopic?"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"35BD3AD826A482C4"
+				"4C25842283BC5873"
+				"4B0F0A9E1091DD0E"
+			]
+			hide: true
+			id: "282E614B7FEEF251"
+			rewards: [{
+				id: "2FCE513D02738C79"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F7AD70FC65CD197"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5DB8FDC5E7CA7875"]
+			id: "4C25842283BC5873"
+			rewards: [{
+				id: "17343908B2467C77"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5270653890727A52"
+				item: "thermal:compost"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3F818FA3A0D9B316"]
+			id: "5DB8FDC5E7CA7875"
+			rewards: [
+				{
+					id: "66D175C6A6178E7C"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB635C19A0103FB"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05BC4053CBCA065E"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.0d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]

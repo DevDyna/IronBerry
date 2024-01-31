@@ -1268,6 +1268,8 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["5B34783D15AB9034"]
+			hide: true
 			hide_dependent_lines: true
 			icon: "quark:rainbow_rune"
 			id: "37A4995447CCBD53"

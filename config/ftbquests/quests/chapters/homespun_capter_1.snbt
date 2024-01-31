@@ -9,6 +9,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "2EEF03127BC5517F"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -21,6 +22,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "06C31856E497690B"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -33,6 +35,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "06C31856E497690B"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -45,6 +48,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "429890C7D019308E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -57,6 +61,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "3964D7DCF95CF727"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -69,6 +74,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "5E390E92C666B71F"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -97,6 +103,7 @@
 	quests: [
 		{
 			dependencies: ["06C31856E497690B"]
+			hide: true
 			id: "0B54F22DD8DC5D70"
 			rewards: [{
 				id: "0E7DE4CCBD59EEC5"
@@ -114,6 +121,7 @@
 		}
 		{
 			dependencies: ["0B54F22DD8DC5D70"]
+			hide: true
 			id: "2B1BFD7285E53C55"
 			rewards: [{
 				id: "0679B8CBB2AB3A77"
@@ -139,6 +147,7 @@
 		}
 		{
 			dependencies: ["2B1BFD7285E53C55"]
+			hide: true
 			id: "6CC49D55C6F1B6C0"
 			rewards: [{
 				id: "1549AB10498CC1C4"
@@ -156,6 +165,7 @@
 		}
 		{
 			dependencies: ["0B54F22DD8DC5D70"]
+			hide: true
 			id: "1863F568A3ACB587"
 			rewards: [{
 				id: "6B8BC29A24E8CC79"
@@ -173,6 +183,7 @@
 		}
 		{
 			dependencies: ["06C31856E497690B"]
+			hide: true
 			id: "2EEF03127BC5517F"
 			rewards: [{
 				id: "50129BA378080BC8"
@@ -198,6 +209,7 @@
 		}
 		{
 			dependencies: ["1863F568A3ACB587"]
+			hide: true
 			id: "795CAAC81A73AD07"
 			rewards: [{
 				id: "110BA65C143240C1"
@@ -215,6 +227,7 @@
 		}
 		{
 			dependencies: ["1BF41FAB7D9C28E8"]
+			hide: true
 			id: "222BCA5CC86342AE"
 			rewards: [{
 				id: "0C493C76BA6EA138"
@@ -235,6 +248,7 @@
 				"222BCA5CC86342AE"
 				"3964D7DCF95CF727"
 			]
+			hide: true
 			id: "5C6DF3197277F797"
 			rewards: [{
 				id: "675AE22925CB54A6"
@@ -254,6 +268,7 @@
 		}
 		{
 			dependencies: ["2B1BFD7285E53C55"]
+			hide: true
 			id: "09F6890F9C2096CE"
 			rewards: [{
 				id: "762B6EFA5CEB661A"
@@ -270,6 +285,7 @@
 		}
 		{
 			dependencies: ["09F6890F9C2096CE"]
+			hide: true
 			id: "3964D7DCF95CF727"
 			rewards: [{
 				id: "0EAC13CC6F5015AA"
@@ -288,6 +304,7 @@
 		}
 		{
 			dependencies: ["6CC49D55C6F1B6C0"]
+			hide: true
 			id: "1BF41FAB7D9C28E8"
 			rewards: [{
 				id: "742693E428D34474"
@@ -336,6 +353,7 @@
 		}
 		{
 			dependencies: ["2EEF03127BC5517F"]
+			hide: true
 			id: "3918327B7375DF60"
 			rewards: [{
 				id: "203C9FB912307412"
@@ -396,6 +414,7 @@
 				"7A1767209421A711"
 				"3918327B7375DF60"
 			]
+			hide: true
 			id: "0810AF71C11E3312"
 			rewards: [{
 				id: "31576F3D5384E5AA"
@@ -463,6 +482,7 @@
 		}
 		{
 			dependencies: ["06C31856E497690B"]
+			hide: true
 			id: "2401EC4080182DF8"
 			rewards: [{
 				id: "588B6CDD6C7794BA"
@@ -487,6 +507,7 @@
 				"5C6DF3197277F797"
 				"3918327B7375DF60"
 			]
+			hide: true
 			id: "0F8149AF718CCB25"
 			rewards: [
 				{
@@ -567,6 +588,7 @@
 		}
 		{
 			dependencies: ["2401EC4080182DF8"]
+			hide: true
 			id: "585B0C360C0D87B2"
 			rewards: [{
 				id: "3CBBA9161EB20767"
@@ -608,38 +630,33 @@
 				type: "item"
 			}]
 			subtitle: "Use a crook"
-			tasks: [
-				{
-					id: "0A5ECCE3ECC0F9A5"
-					type: "checkmark"
-				}
-				{
-					id: "0DA8F97CD7AA26A2"
-					item: {
-						Count: 1b
-						id: "kubejs:crook"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:fortune"
-								lvl: 10s
-							}]
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:blank_rune"
-							}
+			tasks: [{
+				id: "0DA8F97CD7AA26A2"
+				item: {
+					Count: 1b
+					id: "kubejs:crook"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 10s
+						}]
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:blank_rune"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			title: "Need More?"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["06C31856E497690B"]
+			hide: true
 			id: "4BC1FD1A50A9043B"
 			rewards: [{
 				id: "244E39A7C64D6E00"
@@ -657,6 +674,7 @@
 		}
 		{
 			dependencies: ["2EEF03127BC5517F"]
+			hide: true
 			icon: "rootsclassic:fruit_salad"
 			id: "53388E906F046599"
 			rewards: [{
@@ -675,6 +693,7 @@
 		}
 		{
 			dependencies: ["4BC1FD1A50A9043B"]
+			hide: true
 			id: "5AA0616FF02D35F1"
 			rewards: [{
 				id: "35D1AED21F6BB4EB"
@@ -691,6 +710,7 @@
 		}
 		{
 			dependencies: ["5AA0616FF02D35F1"]
+			hide: true
 			id: "0C6E55F845EF8A4E"
 			rewards: [{
 				id: "0E0C0BD2AF74F385"
@@ -726,6 +746,7 @@
 		}
 		{
 			dependencies: ["06C31856E497690B"]
+			hide: true
 			id: "5E390E92C666B71F"
 			rewards: [
 				{
@@ -751,6 +772,7 @@
 		}
 		{
 			dependencies: ["5E390E92C666B71F"]
+			hide: true
 			id: "4A5FDA2EDB80EF5F"
 			rewards: [{
 				id: "7F083D146C504842"
@@ -790,6 +812,7 @@
 		{
 			dependencies: ["5C6DF3197277F797"]
 			description: ["@Restrictions allow push/pull any stuff\\n\\nCheck it if can be useful to you!"]
+			hide: true
 			id: "06D7C25BAE1A73F4"
 			subtitle: "One block , one function"
 			tasks: [{
@@ -803,6 +826,7 @@
 		}
 		{
 			dependencies: ["2690AFB8D51B4350"]
+			hide: true
 			hide_dependent_lines: true
 			id: "4B0F0A9E1091DD0E"
 			rewards: [{
@@ -816,11 +840,12 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.5d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C6DF3197277F797"]
+			hide: true
 			icon: "tombstone:christmas_gift"
 			id: "7C0CBDADCB245324"
 			optional: true
