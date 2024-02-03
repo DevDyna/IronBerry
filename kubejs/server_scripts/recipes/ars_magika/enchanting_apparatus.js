@@ -58,13 +58,11 @@ EnApp('restrictions:glassboots',['ars_nouveau:jump_ring','ars_nouveau:jump_ring'
 EnApp('minecraft:golden_apple',['quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate', 'quark:golden_apple_crate'],'minecraft:enchanted_golden_apple',10000,false)
 
 
-	EnApp('pneumaticcraft:compressed_iron_boots',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_boots',100,true)
-	EnApp('pneumaticcraft:compressed_iron_leggings', ['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card','pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_leggings',100,true)
-	EnApp('pneumaticcraft:compressed_iron_chestplate',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_chestplate',100,true)
-	EnApp('pneumaticcraft:compressed_iron_helmet',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:upgrade_matrix'],'pneumaticcraft:pneumatic_helmet',100,true)
-	
 
-
+	EnApp('pneumaticcraft:compressed_iron_boots',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_boots',100,true)
+	EnApp('pneumaticcraft:compressed_iron_leggings',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_leggings',100,true)
+	EnApp('pneumaticcraft:compressed_iron_chestplate',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_chestplate',100,true)
+	EnApp('pneumaticcraft:compressed_iron_helmet',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_helmet',100,true)
 
 
 
