@@ -5,4 +5,4 @@
 - Go on TEMPLATE MANAGER with a COPY-PASTE gadget
 - CTRL-V or press PASTE button
 
-*SUCCESSFUL PASTED*
+**SUCCESSFUL PASTED**
