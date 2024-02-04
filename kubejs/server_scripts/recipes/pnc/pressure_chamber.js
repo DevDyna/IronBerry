@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
         "pressure": 2.5,
         "results": [{
                 "item": 'kubejs:casing',
-				"count": 4
+                "count": 4
             }
         ]
     })
@@ -86,10 +86,10 @@ ServerEvents.recipes(event => {
         "pressure": 2.5,
         "results": [{
                 "item": 'kubejs:machine',
-				"count": 4
-            },{
-				"item": 'thermal:saw_blade'
-			}
+                "count": 4
+            }, {
+                "item": 'thermal:saw_blade'
+            }
         ]
     })
     //-------------------------------------------------------//
@@ -97,11 +97,11 @@ ServerEvents.recipes(event => {
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'reactive:stardust'
-            },{
-				"item":'twilightforest:steeleaf_ingot'
-			},{
-				"item":'froglins:froglin_egg'
-			}, {
+            }, {
+                "item": 'twilightforest:steeleaf_ingot'
+            }, {
+                "item": 'froglins:froglin_egg'
+            }, {
                 "type": "pneumaticcraft:stacked_item",
                 "count": 2,
                 "item": 'kubejs:aquamarine'
@@ -129,22 +129,22 @@ ServerEvents.recipes(event => {
         ],
         "pressure": 2.5,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 4,
                 "item": 'kubejs:raw_plastic'
-				}
+            }
         ]
     })
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'pneumaticcraft:small_tank'
-            },{
-				"type": "pneumaticcraft:stacked_item",
+            }, {
+                "type": "pneumaticcraft:stacked_item",
                 "count": 16,
-				"item":'kubejs:raw_plastic'
-			}
+                "item": 'kubejs:raw_plastic'
+            }
         ],
         "pressure": 2.5,
         "results": [{
@@ -154,14 +154,14 @@ ServerEvents.recipes(event => {
         ]
     })
 
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'kubejs:assembly_plate'
-            },{
-				"item":'reactive:stardust'
-			}
+            }, {
+                "item": 'reactive:stardust'
+            }
         ],
         "pressure": 2.5,
         "results": [{
@@ -170,14 +170,14 @@ ServerEvents.recipes(event => {
         ]
     })
 
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'kubejs:assembly_plate'
-            },{
-				"item":'thermal:drill_head'
-			}
+            }, {
+                "item": 'thermal:drill_head'
+            }
         ],
         "pressure": 2.5,
         "results": [{
@@ -186,14 +186,14 @@ ServerEvents.recipes(event => {
         ]
     })
 
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'pneumaticcraft:assembly_program_drill'
-            },{
-				"item":'pneumaticcraft:assembly_program_laser'
-			}
+            }, {
+                "item": 'pneumaticcraft:assembly_program_laser'
+            }
         ],
         "pressure": 2.5,
         "results": [{
@@ -201,48 +201,48 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'kubejs:printed_plate'
-            },{
-				"tag":'rootsclassic:berries'
-			},{
-				"item": 'ars_nouveau:starby_gift'
-			}
+            }, {
+                "tag": 'rootsclassic:berries'
+            }, {
+                "item": 'ars_nouveau:starby_gift'
+            }
         ],
         "pressure": -0.5,
         "results": [{
                 "item": 'minecraft:paper'
-            },{
+            }, {
                 "item": 'minecraft:glowstone_dust'
-            },{
+            }, {
                 "item": 'minecraft:ink_sac'
-            },{
+            }, {
                 "item": 'minecraft:glow_ink_sac'
-            },{
+            }, {
                 "item": 'minecraft:redstone'
-            },{
+            }, {
                 "item": 'kubejs:printed_plate'
             }
         ]
     })
 
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'quark:soul_bead'
-            },{
-				"item":'twilightforest:maze_map_focus'
-			},{
-				"item":'pneumaticcraft:pressure_gauge'
-			},{
-				"item":'twilightforest:magic_map_focus'
-			},{
-				"item":'pneumaticcraft:plastic'
-			}
+            }, {
+                "item": 'twilightforest:maze_map_focus'
+            }, {
+                "item": 'pneumaticcraft:pressure_gauge'
+            }, {
+                "item": 'twilightforest:magic_map_focus'
+            }, {
+                "item": 'pneumaticcraft:plastic'
+            }
         ],
         "pressure": 2.0,
         "results": [{
@@ -250,117 +250,117 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'bluepower:teslatite_dust'
-            },{
-				"item":'pneumaticcraft:plastic'
-			},{
-				"item":'pneumaticcraft:printed_circuit_board'
-			}
+            }, {
+                "item": 'pneumaticcraft:plastic'
+            }, {
+                "item": 'pneumaticcraft:printed_circuit_board'
+            }
         ],
         "pressure": 2.0,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 4,
                 "item": 'pneumaticcraft:upgrade_matrix'
             }
         ]
     })
-	//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'bluepower:teslatite_dust'
-            },{
-				"type": "pneumaticcraft:stacked_item",
+            }, {
+                "type": "pneumaticcraft:stacked_item",
                 "count": 2,
-				"item":'minecraft:redstone_torch'
-			}
+                "item": 'minecraft:redstone_torch'
+            }
         ],
         "pressure": 2.0,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 6,
                 "item": 'pneumaticcraft:capacitor'
             }
         ]
     })
-		//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'bluepower:tungsten_ingot'
-            },{
-				"type": "pneumaticcraft:stacked_item",
+            }, {
+                "type": "pneumaticcraft:stacked_item",
                 "count": 3,
-				"item":'minecraft:redstone_torch'
-			}
+                "item": 'minecraft:redstone_torch'
+            }
         ],
         "pressure": 2.0,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 6,
                 "item": 'pneumaticcraft:transistor'
             }
         ]
     })
-		//-------------------------------------------------------//
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'twilightforest:fiery_ingot'
-            },{
-				"item":'kubejs:pre_compressed'
-			}
+            }, {
+                "item": 'kubejs:pre_compressed'
+            }
         ],
         "pressure": 2.0,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 2,
                 "item": 'bluepower:tungsten_ingot'
             }
         ]
-    })	
-	
-			//-------------------------------------------------------//
+    })
+
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'minecraft:redstone'
-            },{
-				"item":'ars_nouveau:source_gem'
-			},{
-				"item":'bluepower:teslatite_dust'
-			},{
-				"item":'thermal:rosin'
-			},{
-				"item":'exoticbirds:ambrosia'
-			}
+            }, {
+                "item": 'ars_nouveau:source_gem'
+            }, {
+                "item": 'bluepower:teslatite_dust'
+            }, {
+                "item": 'thermal:rosin'
+            }, {
+                "item": 'exoticbirds:ambrosia'
+            }
         ],
         "pressure": 1.0,
         "results": [{
-				"type": "pneumaticcraft:stacked_item",
+                "type": "pneumaticcraft:stacked_item",
                 "count": 4,
                 "item": 'cyclic:gem_amber'
             }
         ]
-    })	
-	
-				//-------------------------------------------------------//
+    })
+
+    //-------------------------------------------------------//
     event.custom({
         "type": "pneumaticcraft:pressure_chamber",
         "inputs": [{
                 "item": 'pneumaticcraft:vacuum_module'
-            },{
-				"item":'pneumaticcraft:plastic'
-			},{
-				"item":'pneumaticcraft:transistor'
-			},{
-				"item":'pneumaticcraft:printed_circuit_board'
-			}
+            }, {
+                "item": 'pneumaticcraft:plastic'
+            }, {
+                "item": 'pneumaticcraft:transistor'
+            }, {
+                "item": 'pneumaticcraft:printed_circuit_board'
+            }
         ],
         "pressure": 1.6,
         "results": [{
@@ -368,6 +368,42 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    //-------------------------------------------------------//
+
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'thermal:rubber'
+            }, {
+                "item": 'thermal:sulfur'
+            }
+        ],
+        "pressure": 3.0,
+        "results": [{
+			"type": "pneumaticcraft:stacked_item",
+                "count": 4,
+                "item": 'thermal:cured_rubber'
+            }
+        ]
+    })
+	
+	    //-------------------------------------------------------//
+
+    event.custom({
+        "type": "pneumaticcraft:pressure_chamber",
+        "inputs": [{
+                "item": 'pneumaticcraft:plastic'
+            }, {
+                "item": 'nuclearcraft:silicon_gem'
+            }
+        ],
+        "pressure": 3.0,
+        "results": [{
+                "item": 'kubejs:plastic_mixture'
+            }
+        ]
+    })
 	
 	
 	
@@ -375,20 +411,5 @@ ServerEvents.recipes(event => {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 })
