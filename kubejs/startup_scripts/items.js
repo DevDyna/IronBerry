@@ -156,4 +156,10 @@ StartupEvents.registry('item', event => {
 	event.create('solidified_resin')
 	.texture('ironberry:item/solidified_resin')
 	.displayName('Solidified Refined Resin')
+	
+	event.create('plastic_mixture')
+	.texture('ironberry:item/plastic_mixture')
+	.displayName('Plastic Mixture')
+	
+	
 })
