@@ -289,7 +289,24 @@ ServerEvents.recipes(event => {
     //
     //
 	
-	
+				    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 10,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'thermal:fluid_cell_frame'
+            },{
+                "item": 'thermal:phytogro'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'cyclic:sprinkler',
+            "count": 1
+        }
+    })
+    //
+    //
 	
 	
 	
