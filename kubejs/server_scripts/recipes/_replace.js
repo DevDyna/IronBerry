@@ -152,8 +152,8 @@ event.replaceInput({input:'cyclic:apple_honey'},'cyclic:apple_honey','minecraft:
 
 //event.replaceInput({output:'cyclic:fisher'},'minecraft:cobweb','minecraft:string')
 
-event.replaceInput({output:'cyclic:structure'},'minecraft:quartz','engineersdecor:factory_placer')
-event.replaceInput({output:'cyclic:structure'},'cyclic:gem_amber','minecraft:painting')
+// event.replaceInput({output:'cyclic:structure'},'minecraft:quartz','engineersdecor:factory_placer')
+// event.replaceInput({output:'cyclic:structure'},'cyclic:gem_amber','minecraft:painting')
 
 event.replaceInput({output:'cyclic:storage_bag'},'minecraft:diamond','sophisticatedstorage:advanced_hopper_upgrade')
 
