@@ -15,6 +15,9 @@ JEIEvents.information(event => {
 })
 JEIEvents.hideFluids(event => {
     event.hide(['mekanism:hydrogen', 'mekanism:oxygen', 'mekanism:chlorine', 'mekanism:sulfur_dioxide', 'mekanism:sulfur_trioxide', 'mekanism:sulfuric_acid', 'mekanism:hydrogen_chloride', 'mekanism:hydrofluoric_acid', 'mekanism:uranium_oxide', 'mekanism:uranium_hexafluoride', 'mekanism:ethene', 'mekanism:sodium', ])
+
+
+
 })
 const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
     JEIEvents.hideCustom(event => {
