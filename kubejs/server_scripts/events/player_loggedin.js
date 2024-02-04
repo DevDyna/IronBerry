@@ -1,3 +1,5 @@
-PlayerEvents.loggedIn(e => {
-    e.server.schedule(10, c => e.server.runCommandSilent(`execute as ${e.player.name} run kubejs reload client_scripts`))
+PlayerEvents.loggedIn(event => {
+        event.server.runCommandSilent(`gamerule doMobSpawning false`)
+        event.server.runCommandSilent(`gamerule doTraderSpawning false`)
+        event.server.runCommandSilent(`gamerule doWeatherCycle false`)
 })
