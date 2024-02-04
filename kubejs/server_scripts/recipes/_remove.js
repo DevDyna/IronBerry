@@ -1,15 +1,6 @@
 //priority 9
 ServerEvents.recipes(event => {
     ////recipe removed
-/*     //-----------------------------------------------//
-    let remod = (modlist) => {
-
-        for (let i = 0; i < modlist.length; i++) {
-            event.remove({
-                mod: modlist[i]
-            })
-        }
-    } */
     //-----------------------------------------------//
     let remid = (idlist) => {
 
@@ -29,7 +20,7 @@ ServerEvents.recipes(event => {
         }
     }
     //-----------------------------------------------//
-				//Dynamic Tag Remover//
+    //Dynamic Tag Remover//
     event.remove({
         output: [
             '#ironberry:output',
@@ -46,96 +37,96 @@ ServerEvents.recipes(event => {
         ]
     })
     //-----------------------------------------------//
-	
-	
-	
-	
-	
-    remid([	
-			'cyclic:crusher/jukebox',
-			//'thermal:machines/refinery/refinery_crude_oil',
-			//'thermal:machines/refinery/refinery_resin',
-			//'thermal:devices/rock_gen/rock_gen_deepslate',
-			//'thermal:devices/rock_gen/rock_gen_cobbled_deepslate',
-			'craftingstation:crafting_station_slab',						
-            'homespun:crushing/crushing_flint_from_gravel',			
-            'homespun:crushing/crushing_sugar_from_beets',		
+
+
+    remid([
+            'cyclic:crusher/jukebox',
+            //'thermal:machines/refinery/refinery_crude_oil',
+            //'thermal:machines/refinery/refinery_resin',
+            //'thermal:devices/rock_gen/rock_gen_deepslate',
+            //'thermal:devices/rock_gen/rock_gen_cobbled_deepslate',
+            'craftingstation:crafting_station_slab',
+            'homespun:crushing/crushing_flint_from_gravel',
+            'homespun:crushing/crushing_sugar_from_beets',
             'homespun:crushing/crushing_ironberry_juice_from_ironberries',
             'homespun:evaporating_tiny_iron_dust_from_ironberry_juice',
             'homespun:crushing_tiny_iron_dust_from_raw_iron',
             'pedestals:pedestals/pedestal_stone',
             'minecraft:raw_iron',
-			'cyclic:compat/sturdy_stone',
-			'cyclic:compressed_cobblestone',
-			'twilightforest:uncrafting/tipped_arrow_uncraft',
-			'cyclic:compressed_cobblestone_u',
-			'cyclic:crusher/redstone_observer',
-			'cyclic:crusher/redsone_comparator', //redsone o.o
-			'ars_nouveau:stable_warp_scroll',
-			'mekanism:coolant/sodium',
-			'mekanism:coolant/water',
-			'mekanism:processing/fissile_fuel',
-/* 			'mekanism:rotary/brine',
-			'mekanism:rotary/chlorine',
-			'mekanism:rotary/ethene',
-			'mekanism:rotary/hydrofluoric_acid',
-			'mekanism:rotary/hydrogen',
-			'mekanism:rotary/hydrogen_chloride',
-			'mekanism:rotary/lithium',
-			'mekanism:rotary/oxygen',
-			'mekanism:rotary/sodium',
-			'mekanism:rotary/steam',
-			'mekanism:rotary/sulfuric_acid',
-			'mekanism:rotary/sulfur_dioxide',
-			'mekanism:rotary/sulfur_trioxide',
-			'mekanism:rotary/superheated_sodium',
-			'mekanism:rotary/uranium_hexafluoride',
-			'mekanism:rotary/uranium_oxide', */
-/* 			'mekanismgenerators:rotary/deuterium',
-			'mekanismgenerators:rotary/fusion_fuel',
-			'mekanismgenerators:rotary/tritium', */
+            'cyclic:compat/sturdy_stone',
+            'cyclic:compressed_cobblestone',
+            'twilightforest:uncrafting/tipped_arrow_uncraft',
+            'cyclic:compressed_cobblestone_u',
+            'cyclic:crusher/redstone_observer',
+            'cyclic:crusher/redsone_comparator', //redsone o.o
+            'ars_nouveau:stable_warp_scroll',
+            'mekanism:coolant/sodium',
+            'mekanism:coolant/water',
+            'mekanism:processing/fissile_fuel',
+            /* 			'mekanism:rotary/brine',
+            'mekanism:rotary/chlorine',
+            'mekanism:rotary/ethene',
+            'mekanism:rotary/hydrofluoric_acid',
+            'mekanism:rotary/hydrogen',
+            'mekanism:rotary/hydrogen_chloride',
+            'mekanism:rotary/lithium',
+            'mekanism:rotary/oxygen',
+            'mekanism:rotary/sodium',
+            'mekanism:rotary/steam',
+            'mekanism:rotary/sulfuric_acid',
+            'mekanism:rotary/sulfur_dioxide',
+            'mekanism:rotary/sulfur_trioxide',
+            'mekanism:rotary/superheated_sodium',
+            'mekanism:rotary/uranium_hexafluoride',
+            'mekanism:rotary/uranium_oxide', */
+            /* 			'mekanismgenerators:rotary/deuterium',
+            'mekanismgenerators:rotary/fusion_fuel',
+            'mekanismgenerators:rotary/tritium', */
         ])
 
     remtype([
-/* 			'thermal:machines',
-		    'thermal:sawmill',
-			'thermal:tree_extractor', */
-			'cyclic:melter',
-			'cyclic:solidifier',
-			'pneumaticcraft:assembly_laser',
-			'pneumaticcraft:assembly_drill',
-			'pneumaticcraft:thermo_plant',
-			'pneumaticcraft:explosion_crafting',
-			'pneumaticcraft:pressure_chamber',
-			'pneumaticcraft:fluid_mixer',
+			'mekanism:energy_conversion',
+            'minecraft:mek_chemical_conversion',
+            /* 			'thermal:machines',
+            'thermal:sawmill',
+            'thermal:tree_extractor', */
+            'cyclic:melter',
+            'cyclic:solidifier',
+            'pneumaticcraft:assembly_laser',
+            'pneumaticcraft:assembly_drill',
+            'pneumaticcraft:thermo_plant',
+            'pneumaticcraft:explosion_crafting',
+            'pneumaticcraft:pressure_chamber',
+            'pneumaticcraft:fluid_mixer',
             'pedestals:cobblegen',
-			'integrateddynamics:drying_basin',
-			'integrateddynamics:mechanical_drying_basin',
-			'integrateddynamics:mechanical_squeezer',
-			'integrateddynamics:squeezer',
-			'ars_nouveau:imbuement',
-			'ars_nouveau:reactive_enchantment',
-			'ars_nouveau:enchantment',
-			'ars_nouveau:armor_upgrade',
-			'mekanismgenerators:rotary',
-			'cyclic:generator_fluid',
-			'cyclic:generator_item',
-			'mekanism:rotary',
-			'mekanism:oxidizing',
+            'integrateddynamics:drying_basin',
+            'integrateddynamics:mechanical_drying_basin',
+            'integrateddynamics:mechanical_squeezer',
+            'integrateddynamics:squeezer',
+            'ars_nouveau:imbuement',
+            'ars_nouveau:reactive_enchantment',
+            'ars_nouveau:enchantment',
+            'ars_nouveau:armor_upgrade',
+            'mekanismgenerators:rotary',
+            'cyclic:generator_fluid',
+            'cyclic:generator_item',
+            'mekanism:rotary',
+            'mekanism:oxidizing',
+			'mekanism:processing',
         ])
 
-		
-		event.remove({ mod : 'alchemygadgetry'})
-		event.remove({ mod : 'thermal'})
-		event.remove({ mod : 'nuclearcraft'})
-		event.remove({ mod : 'gateways'})
-
-/* 		  event.forEachRecipe({ mod: "nuclearcraft" }, recipe => {
-		console.log(recipe.getId())
-        event.remove({ id: recipe.getId() })
-
-  }) */
-  
-  //event.remove({ id: 'nuclearcraft:alloy_smelter/dusts_tin-dusts_silver'})
+    event.remove({
+        mod: 'alchemygadgetry'
+    })
+    event.remove({
+        mod: 'thermal'
+    })
+    event.remove({
+        mod: 'nuclearcraft'
+    })
+    event.remove({
+        mod: 'gateways'
+    })
 
 })
+
