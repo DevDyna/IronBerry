@@ -141,4 +141,6 @@ ServerEvents.recipes(event => {
 	
 	alloy(['minecraft:glowstone_dust', 'minecraft:grass'],[1,1],'minecraft:glow_lichen',2)
 
+	alloy(['minecraft:coal','bluepower:teslatite_dust'],[1,2],'bluepower:battery',2)
+
 })
