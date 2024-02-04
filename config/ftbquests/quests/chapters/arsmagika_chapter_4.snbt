@@ -577,7 +577,7 @@
 			y: -15.642857142857146d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -831,33 +831,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["52D98F751BCB3396"]
-			id: "123D0BCDB0FD19BF"
-			shape: "square"
-			tasks: [
-				{
-					id: "41ECE67AA1C8E502"
-					item: {
-						Count: 1b
-						id: "cyclic:solidifier"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "21813B497623FB3B"
-					item: {
-						Count: 1b
-						id: "cyclic:melter"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: -12.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["589E1908B016B84F"]
 			id: "60AEE0BEBD1EA943"
 			shape: "diamond"
@@ -1033,22 +1006,6 @@
 			}]
 			x: -7.0d
 			y: -1.0d
-		}
-		{
-			dependencies: [
-				"6ED044B16F1D4FC7"
-				"495CB86940BB2D25"
-			]
-			hide: true
-			id: "191DF7A9C5834BB0"
-			shape: "heart"
-			tasks: [{
-				id: "6DC61F43EEECBEB8"
-				item: "kubejs:instability"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["60B38F9E4BC71FF6"]
@@ -1432,22 +1389,6 @@
 			}]
 			x: -3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"2755A2FC0A6CCDBA"
-				"6ED044B16F1D4FC7"
-			]
-			hide: true
-			hide_dependency_lines: true
-			id: "52D98F751BCB3396"
-			tasks: [{
-				id: "4353C82D15462E41"
-				item: "cyclic:gem_obsidian"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["37A4995447CCBD53"]
