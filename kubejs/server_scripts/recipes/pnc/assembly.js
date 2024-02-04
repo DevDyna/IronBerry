@@ -53,4 +53,7 @@ ServerEvents.recipes(event => {
 
     laser('kubejs:solidified_resin', 'nuclearcraft:bioplastic', 2)
 
+	laser('kubejs:plastic_mixture','kubejs:silicon_plated',1)
+
+
 })
