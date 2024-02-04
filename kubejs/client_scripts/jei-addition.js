@@ -5,11 +5,6 @@ $jei.ars = Java.loadClass('com.hollingsworth.arsnouveau.client.jei.JEIArsNouveau
 $jei.mow = Java.loadClass('com.mowmaster.pedestals.Compat.JEI.JEIPedestalsRecipeTypes')
 
 JEIAddedEvents.registerRecipeCatalysts(jei =>{
-   /* jei.data.addRecipeCatalyst(,$jei.pnc.PLASTIC_SOLIDIFYING)
-	jei.data.addRecipeCatalyst(,$jei.ars.IMBUEMENT_RECIPE_TYPE)
-	jei.data.addRecipeCatalyst(,$jei.ars.ENCHANTING_APP_RECIPE_TYPE)
-*/
-
 
 	jei.data.addRecipeCatalyst(Item.of('pneumaticcraft:small_tank', '{BlockEntityTag:{SavedTanks:{Tank:{Amount:32000,FluidName:"pneumaticcraft:plastic"}}}}'),$jei.pnc.PLASTIC_SOLIDIFYING)
 
@@ -28,3 +23,6 @@ JEIAddedEvents.registerRecipeCatalysts(jei =>{
 	jei.data.addRecipeCatalyst('pedestals:block_pedestal',$jei.mow.COBBLE_GEN_RECIPE)
 
 })
+
+
+
