@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "26DBA736A666D5A2"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,8 +23,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 12.0d
+			y: -8.0d
 		}
 		{
 			id: "001837ABABCBC3F4"
@@ -37,8 +37,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
 			id: "50BF629AA3EF5AC5"
@@ -51,8 +51,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			id: "087A5EF088DDED0E"
@@ -65,8 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			id: "1FE2BB2E4BDB24C0"
@@ -79,8 +79,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			id: "42AA46B26C7E74DC"
@@ -93,8 +93,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
 			id: "3F799A3D653ECAC6"
@@ -108,8 +108,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 12.0d
+			y: -7.0d
 		}
 		{
 			id: "6A75F878974792BB"
@@ -122,8 +122,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			id: "7E6FD4B34AA43BA9"
@@ -136,8 +136,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 8.0d
+			y: -8.0d
 		}
 		{
 			id: "2B43C4FF561B52A2"
@@ -146,8 +146,8 @@
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			id: "31EAF2E88604E6FD"
@@ -156,8 +156,8 @@
 				item: "kubejs:silicon_plated"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			id: "4885D497784749F6"
@@ -166,8 +166,8 @@
 				item: "nuclearcraft:plate_basic"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			id: "152F5B457DF4C6AB"
@@ -177,8 +177,8 @@
 				id: "49E6A7B7592F6F49"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			id: "3BBD296D62152BE5"
@@ -187,8 +187,8 @@
 				item: "thoriumreactors:reactor_casing"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			id: "06A531620346F341"
@@ -197,8 +197,8 @@
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			id: "6D22F5E6A3EA85E8"
@@ -219,6 +219,101 @@
 			}]
 			x: -6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2755A2FC0A6CCDBA"
+				"6ED044B16F1D4FC7"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "52D98F751BCB3396"
+			tasks: [{
+				id: "4353C82D15462E41"
+				item: "cyclic:gem_obsidian"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52D98F751BCB3396"]
+			id: "123D0BCDB0FD19BF"
+			shape: "square"
+			tasks: [
+				{
+					id: "41ECE67AA1C8E502"
+					item: {
+						Count: 1b
+						id: "cyclic:solidifier"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21813B497623FB3B"
+					item: {
+						Count: 1b
+						id: "cyclic:melter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["123D0BCDB0FD19BF"]
+			id: "6E1302B3D9FDBDB5"
+			tasks: [{
+				id: "16D0A9D8B9C33AB2"
+				item: "cyclic:biomass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E1302B3D9FDBDB5"]
+			id: "55628480845DB31F"
+			tasks: [{
+				id: "19AFC04212DDB4CB"
+				item: "cyclic:peat_unbaked"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "705EF3533D32E5CF"
+			tasks: [{
+				id: "664462A26A714F84"
+				item: "cyclic:peat_farm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "646E5959C53D3605"
+			tasks: [{
+				id: "4CD3C342BF2DC9B8"
+				item: "cyclic:peat_fuel_enriched"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "3C1E2464FB392627"
+			tasks: [{
+				id: "205B683C5A1CFA5F"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Processing on Reaction"]
