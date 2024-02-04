@@ -25,25 +25,6 @@ ServerEvents.recipes(event => {
             'thermal:servo_attachment',
         ],
         ['minecraft:paper', '#thermal:attachment', ])
-    //thermal machines
-    scut([
-            'thermal:machine_bottler',
-            'thermal:machine_crafter',
-            'thermal:machine_insolator',
-            'thermal:machine_chiller',
-            'thermal:machine_press',
-            'thermal:machine_refinery',
-            'thermal:machine_crystallizer',
-            'thermal:machine_pyrolyzer',
-            'thermal:machine_crucible',
-            'thermal:machine_furnace',
-            'thermal:machine_sawmill',
-            'thermal:machine_pulverizer',
-            'thermal:machine_smelter',
-            'thermal:machine_brewer',
-            'thermal:machine_centrifuge',
-        ],
-        ['thermal:machine_frame', '#thermal:machines'])
     //item devices
     scut([
             'thermal:device_fisher',
