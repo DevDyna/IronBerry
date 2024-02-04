@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
 		event.remove({ mod : 'alchemygadgetry'})
 		event.remove({ mod : 'thermal'})
 		event.remove({ mod : 'nuclearcraft'})
-		event.remove({ mod: 'gateways'})
+		event.remove({ mod : 'gateways'})
 
 /* 		  event.forEachRecipe({ mod: "nuclearcraft" }, recipe => {
 		console.log(recipe.getId())
