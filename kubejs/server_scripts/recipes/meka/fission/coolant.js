@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 	event.custom({
   "type": "mekanism:fluid_coolant",
   "input": {
-    "fluid": "thoriumreactors:heated_molten_salt",
+    "fluid": "minecraft:water",
     "amount": 1
   },
   "output": {
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
   },
   "thermalEnthalpy": 10,
   "conductivity": 0.5,
-  "efficiency": 1.0,
+  "efficiency": 10.0,
   "outputEfficiency": 1.0
 })
 	
