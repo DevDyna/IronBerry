@@ -1,0 +1,100 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_1"
+	group: "0AB07CEFAAABA228"
+	icon: "inventorypets:start_button"
+	id: "08457B35F5B0B70C"
+	images: [{
+		click: ""
+		corner: false
+		dependency: "58B49792D4827F5F"
+		dev: false
+		height: 4.0d
+		hover: [ ]
+		image: "tombstone:textures/aura/aura1.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: -2.0d
+		y: 2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A8850E87A14F9D7"
+			invisible: true
+			shape: "octagon"
+			tasks: [{
+				id: "2B258BBCD4889697"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-769016811
+								2070627897
+								-1149438140
+								-976979346
+							]
+							Name: "DevDyna"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwNzA2Mjg2NTI3MCwKICAicHJvZmlsZUlkIiA6ICJkMjI5YmMxNTdiNmI0NjM5YmI3Y2Y3NDRjNWM0N2E2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXZEeW5hIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2YTExNWNlMTE3NzExOWQ3ODMxZWNlMzVhZGFjZTIwMDgxOTI0OTg1NTM1MjM0MTYxZTRjZjA4NmMwY2E5ODQiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "0DC7F8AB3A083BFF"
+			invisible: true
+			shape: "diamond"
+			tasks: [{
+				id: "6DDA334C5B7371FA"
+				item: {
+					Count: 1b
+					id: "tombstone:decorative_subaraki_grave"
+					tag: {
+						model_texture: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4162843221C8A4CD"
+			invisible: true
+			shape: "pentagon"
+			tasks: [{
+				id: "32C8E6FD40EF98C1"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: -3.2285714285714278d
+			y: 3.5714285714285765d
+		}
+		{
+			id: "191DF7A9C5834BB0"
+			invisible: true
+			shape: "heart"
+			tasks: [{
+				id: "6DC61F43EEECBEB8"
+				item: "kubejs:instability"
+				type: "item"
+			}]
+			x: -0.7142857142857224d
+			y: 3.6571428571428584d
+		}
+	]
+	subtitle: ["Easter egg Hunting!"]
+	title: "Age 0"
+}
