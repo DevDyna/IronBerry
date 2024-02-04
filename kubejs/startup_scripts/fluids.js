@@ -55,5 +55,10 @@ StartupEvents.registry('fluid', event => {
         .thickTexture(0xFFB266)
         .bucketColor(0xFFB266)
         .displayName('Refined Resin')
+		
+		event.create('liquid_silicon')
+		.thickTexture(0xa1afa6)
+		.bucketColor(0xa1afa6)
+		.displayName('Liquid Silicon')
 
 })
