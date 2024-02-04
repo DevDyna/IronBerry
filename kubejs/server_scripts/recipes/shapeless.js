@@ -233,4 +233,7 @@ function emolimix(jump,variants){
 	less(['minecraft:bread', 'twilightforest:cooked_meef', 'farmersdelight:cabbage', 'farmersdelight:tomato'],'farmersdelight:hamburger')	
 	less(['minecraft:honey_bottle','minecraft:slime_ball'],'2x minecraft:honey_bottle')
 	
+	
+	less(['#ironberry:tables','#ironberry:storage_box'],'bluepower:project_table')
+	
 })
