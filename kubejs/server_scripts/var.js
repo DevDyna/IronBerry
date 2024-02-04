@@ -1,10 +1,6 @@
 //priority 99999
 const data = {
 
-    entity: {
-        banned: []
-    },
-
     block: {
         tombstone: [],
         leaves: [],
@@ -23,7 +19,7 @@ const data = {
 
 }
 
-
+/* 
 data.entity.banned = [
     'minecraft:zombie',
     'minecraft:creeper',
@@ -68,7 +64,7 @@ data.entity.banned = [
     'minecraft:wandering_trader',
     'minecraft:trader_llama',
 	'supplementaries:red_merchant',
-]
+] */
 
 data.block.deepslate_ores.name = [
     'minecraft:deepslate_coal_ore',
