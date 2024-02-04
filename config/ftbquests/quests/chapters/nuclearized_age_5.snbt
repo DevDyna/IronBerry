@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nuclearized_age_5"
@@ -178,7 +177,7 @@
 				id: "49E6A7B7592F6F49"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -201,7 +200,27 @@
 			x: -3.0d
 			y: 3.0d
 		}
+		{
+			id: "6D22F5E6A3EA85E8"
+			tasks: [{
+				id: "7D3F0F209CF92D1D"
+				item: "ten3:machine_matter_condenser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "6CAEDA6D836CFA49"
+			tasks: [{
+				id: "14CCC849DB698CB4"
+				item: "ten3:liquid_bizarrerie_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
 	]
-	subtitle: ["Too Many Reactions"]
+	subtitle: ["Processing on Reaction"]
 	title: "Age 5"
 }
