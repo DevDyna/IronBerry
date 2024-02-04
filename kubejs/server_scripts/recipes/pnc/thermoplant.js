@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
   "fluid_input": {
 	  "type": "pneumaticcraft:fluid",
     "tag": "ironberry:chad_oil",
-    "amount": 10
+    "amount": 1
   },
   "temperature": {
     "min_temp": 272
@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
   },
   "fluid_output":{
 	  "fluid": "thermal:crude_oil",
-	  "amount": 1
+	  "amount": 10
   }
   })
   //------------------------------------------------------//
@@ -339,6 +339,75 @@ ServerEvents.recipes(event => {
     "item": 'cyclic:wireless_fluid'
   }
   })
+
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_latex",
+      "amount": 10
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "item_output": {
+      "item": 'thermal:rubber'
+    }
+    })
+
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_crude_oil",
+      "amount": 250
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "item_output": {
+      "item": 'minecraft:coal'
+    }
+    })
+
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_sap",
+      "amount": 1000
+    },
+    "item_input":{
+      "item": 'minecraft:coal'
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "fluid_output": {
+      "fluid": 'thermal:syrup',
+	  "amount": 1000
+    }
+    })
+
+
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_syrup",
+      "amount": 125
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "item_output": {
+      "item": 'thermal:sulfur'
+    }
+    })
 
 
 
