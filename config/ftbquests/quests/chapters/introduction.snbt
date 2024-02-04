@@ -552,28 +552,9 @@
 			}
 			id: "1B534087222484D3"
 			rewards: [{
-				id: "4B505A60ED6F9C88"
-				item: {
-					Count: 1b
-					id: "minecraft:player_head"
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								-769016811
-								2070627897
-								-1149438140
-								-976979346
-							]
-							Name: "DevDyna"
-							Properties: {
-								textures: [{
-									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MTQxNjU3MTc3NSwKICAicHJvZmlsZUlkIiA6ICJkMjI5YmMxNTdiNmI0NjM5YmI3Y2Y3NDRjNWM0N2E2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXZEeW5hIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2YTExNWNlMTE3NzExOWQ3ODMxZWNlMzVhZGFjZTIwMDgxOTI0OTg1NTM1MjM0MTYxZTRjZjA4NmMwY2E5ODQiCiAgICB9CiAgfQp9"
-								}]
-							}
-						}
-					}
-				}
-				type: "item"
+				id: "3D05C6428788B51A"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "gear"
 			subtitle: "Write here!"
