@@ -803,6 +803,10 @@ ServerEvents.tags('fluid', event => {
 	event.add('ironberry:chad_oil','pneumaticcraft:oil')
 	event.add('ironberry:chad_resin','thermal:resin')
 	event.add('ironberry:chad_refined','kubejs:refined_resin')
+    event.add('ironberry:chad_latex','thermal:latex')
+    event.add('ironberry:chad_sap','thermal:sap')
+    event.add('ironberry:chad_syrup','thermal:syrup')
+    event.add('ironberry:chad_crude_oil','thermal:crude_oil')
 
 
 })
