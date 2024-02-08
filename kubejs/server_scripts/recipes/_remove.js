@@ -82,11 +82,18 @@ ServerEvents.recipes(event => {
             /* 			'mekanismgenerators:rotary/deuterium',
             'mekanismgenerators:rotary/fusion_fuel',
             'mekanismgenerators:rotary/tritium', */
+            'mekanism:processing/iron/crystal/from_slurry',
+            'mekanism:processing/tin/crystal/from_slurry',
+            'mekanism:processing/uranium/crystal/from_slurry',
+            'mekanism:processing/lead/crystal/from_slurry',
+            'mekanism:processing/osmium/crystal/from_slurry',
+            'mekanism:processing/gold/crystal/from_slurry',
+            'mekanism:processing/copper/crystal/from_slurry',
+            'mekanism:crystallizing/lithium',
         ])
 
     remtype([
 			'mekanism:energy_conversion',
-            'minecraft:mek_chemical_conversion',
             /* 			'thermal:machines',
             'thermal:sawmill',
             'thermal:tree_extractor', */

@@ -146,28 +146,30 @@
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["123D0BCDB0FD19BF"]
 			id: "31EAF2E88604E6FD"
 			tasks: [{
 				id: "34EC98A335C955C7"
 				item: "kubejs:silicon_plated"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["31EAF2E88604E6FD"]
 			id: "4885D497784749F6"
 			tasks: [{
 				id: "4D02C74F2AE06E20"
 				item: "nuclearcraft:plate_basic"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			id: "152F5B457DF4C6AB"
@@ -197,8 +199,8 @@
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -7.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "6D22F5E6A3EA85E8"

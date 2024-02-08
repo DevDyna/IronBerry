@@ -82,6 +82,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+        'mekanism:pellet_antimatter',
 			'cyclic:apple_chorus',
 			'cyclic:apple_sprout',
 			'cyclic:apple_sprout_diamond', 
