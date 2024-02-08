@@ -41,7 +41,9 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["4885D497784749F6"]
 			id: "50BF629AA3EF5AC5"
+			shape: "diamond"
 			tasks: [{
 				id: "0B46668FB45E4AAF"
 				item: {
@@ -51,8 +53,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -8.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4885D497784749F6"]
@@ -348,6 +350,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["50BF629AA3EF5AC5"]
 			id: "0496DF45F94AC1F8"
 			tasks: [{
 				id: "7B0D875A68C7CADC"
@@ -356,6 +359,17 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["06A531620346F341"]
+			id: "0235AD43D99C6287"
+			tasks: [{
+				id: "3BE02DE9D4B4089C"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Processing on Reaction"]

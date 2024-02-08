@@ -61,4 +61,14 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xa1afa6)
 		.displayName('Liquid Silicon')
 
+        event.create('dustite')
+		.thickTexture(0xA9A9A8)
+		.bucketColor(0xA9A9A8)
+		.displayName('Dustite (fluid)')
+
+        event.create('clumperio') 
+		.thickTexture(0x86E4AB)
+		.bucketColor(0x86E4AB)
+		.displayName('Clumperio (fluid)')
+
 })

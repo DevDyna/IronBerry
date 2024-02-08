@@ -68,6 +68,16 @@
 			x: -2.0d
 			y: -2.0d
 		}
+		{
+			id: "7376B8B653E2AB9A"
+			tasks: [{
+				id: "5E2884587E41A233"
+				title: "Gamerules"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
 	]
 	title: "Admin Stuff"
 }

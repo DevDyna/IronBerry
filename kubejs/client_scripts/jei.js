@@ -20,19 +20,19 @@ JEIEvents.hideFluids(event => {
 
 })
 const $MekanismJEI = Java.loadClass('mekanism.client.jei.MekanismJEI')
-    JEIEvents.hideCustom(event => {
-        event.get($MekanismJEI.TYPE_GAS).hideAll()
-        event.get($MekanismJEI.TYPE_INFUSION).hideAll()
-        event.get($MekanismJEI.TYPE_PIGMENT).hideAll()
-        event.get($MekanismJEI.TYPE_SLURRY).hideAll()
-    })
+JEIEvents.hideCustom(event => {
+
+    event.get($MekanismJEI.TYPE_GAS).hide(global.whitelistGasses)
+    event.get($MekanismJEI.TYPE_INFUSION).hideAll()
+    event.get($MekanismJEI.TYPE_PIGMENT).hideAll()
+    event.get($MekanismJEI.TYPE_SLURRY).hideAll()
+})
 	//show items without nbt
-    JEIEvents.addItems(event => {
-		global.hiddenItems.forEach(item=>{
-		event.add(item)	
-		})
-        
-    })
+JEIEvents.addItems(event => {
+	global.hiddenItems.forEach(item=>{
+	event.add(item)	
+	})
+})
 
 JEIEvents.hideItems(event => {
 	global.uselessItems.forEach(item=>{

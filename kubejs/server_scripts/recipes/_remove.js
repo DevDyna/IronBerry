@@ -90,6 +90,9 @@ ServerEvents.recipes(event => {
             'mekanism:processing/gold/crystal/from_slurry',
             'mekanism:processing/copper/crystal/from_slurry',
             'mekanism:crystallizing/lithium',
+            'mekanism:separator/water',
+            'mekanismgenerators:separator/heavy_water',
+            'mekanism:separator/brine',
         ])
 
     remtype([

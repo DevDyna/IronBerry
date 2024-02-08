@@ -411,7 +411,7 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: ["By press [default key : GRAVE] you active FTB ultimine , a tool to break many blocks at same time"]
+			description: ["A powerful tool to break many blocks at same time"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -509,9 +509,16 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: ["Not else , only symmetry checkmark :P"]
+			description: [
+				"This modpack require enable some gamerules that sometime could be disabled by server owner:"
+				""
+				"- doFireTick : true"
+				"- doWeatherCycle : false"
+				"- doTraderSpawning : false"
+				"- doMobSpawning : false"
+			]
 			hide_dependency_lines: true
-			icon: "engineersdecor:sign_exit"
+			icon: "minecraft:campfire"
 			id: "7A793669CAC029B2"
 			rewards: [{
 				id: "0FD3FFCAE3440C50"
@@ -519,11 +526,12 @@
 				xp: 100
 			}]
 			shape: "gear"
+			subtitle: "Basic setting up"
 			tasks: [{
 				id: "01E86D8D9EB821CA"
-				title: "Very Expert"
 				type: "checkmark"
 			}]
+			title: "This is fine"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -560,9 +568,10 @@
 			subtitle: "Write here!"
 			tasks: [{
 				id: "0557172191B7D2D1"
-				title: "You found a issue?"
+				title: "[press anyway]"
 				type: "checkmark"
 			}]
+			title: "You found a issue?"
 			x: -7.5d
 			y: -4.5d
 		}
