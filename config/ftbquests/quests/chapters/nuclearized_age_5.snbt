@@ -55,6 +55,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["4885D497784749F6"]
 			id: "087A5EF088DDED0E"
 			tasks: [{
 				id: "048269CE1B19903E"
@@ -65,8 +66,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "1FE2BB2E4BDB24C0"
@@ -193,6 +194,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["3C1E2464FB392627"]
 			id: "06A531620346F341"
 			tasks: [{
 				id: "5C5D7B2B25D417ED"
@@ -288,6 +290,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["646E5959C53D3605"]
 			id: "705EF3533D32E5CF"
 			tasks: [{
 				id: "664462A26A714F84"
@@ -298,6 +301,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["55628480845DB31F"]
 			id: "646E5959C53D3605"
 			tasks: [{
 				id: "4CD3C342BF2DC9B8"
@@ -308,6 +312,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"087A5EF088DDED0E"
+				"646E5959C53D3605"
+			]
 			id: "3C1E2464FB392627"
 			tasks: [{
 				id: "205B683C5A1CFA5F"
@@ -316,6 +324,38 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["06A531620346F341"]
+			id: "48A6B588707038BA"
+			tasks: [{
+				id: "218C1AEFACDD129C"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A6B588707038BA"]
+			id: "6F936C459AC7FA54"
+			tasks: [{
+				id: "0A6BA84A49A02F0E"
+				item: "nuclearcraft:boron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "0496DF45F94AC1F8"
+			tasks: [{
+				id: "7B0D875A68C7CADC"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Processing on Reaction"]

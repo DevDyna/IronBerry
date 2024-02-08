@@ -185,7 +185,24 @@ ServerEvents.recipes(event => {
     //
     //
 	
-	
+    event.custom({
+        "type": "mowlib:dualhandedcrafting",
+        "blockTarget": {
+            "item": 'minecraft:campfire'
+        },
+          "mainhandTool": {
+            "tag": 'forge:tools/axes'
+        },
+        "offhandTool": {
+            "tag": 'forge:tools/axes'
+        },
+        "result": {
+            "item": 'minecraft:charcoal',
+			"count": 2
+        }
+    })
+    //
+    //
 	
 	
 	

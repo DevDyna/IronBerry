@@ -165,7 +165,14 @@
 			}]
 			tasks: [{
 				id: "127776C083B1A2E3"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "reactive:mind_sources"
+					}
+				}
+				title: "Any #reactive:mind_sources"
 				type: "item"
 			}]
 			title: "Magic/Mind Source"
@@ -185,6 +192,7 @@
 			tasks: [{
 				id: "6E6C3A76D6F7144D"
 				item: "minecraft:glowstone_dust"
+				title: "Any #reactive:light_sources"
 				type: "item"
 			}]
 			title: "Light Source"
@@ -341,6 +349,7 @@
 			tasks: [{
 				id: "373D790E67D487DC"
 				item: "bluepower:indigo_dye"
+				title: "Any #reactive:caustic_sources"
 				type: "item"
 			}]
 			title: "Acid/Caustic Source"
@@ -367,7 +376,14 @@
 				}
 				{
 					id: "36B2C1F76554E195"
-					item: "bluepower:blue_alloy_ingot"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "reactive:body_sources"
+						}
+					}
+					title: "Any #reactive:body_sources"
 					type: "item"
 				}
 			]
@@ -391,6 +407,7 @@
 			tasks: [{
 				id: "6DCDB5A05F62901D"
 				item: "minecraft:sculk"
+				title: "Any #reactive:soul_sources"
 				type: "item"
 			}]
 			title: "Soul Source"

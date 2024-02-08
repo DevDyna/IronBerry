@@ -4,6 +4,17 @@ const $GasDeferredRegister = Java.loadClass('mekanism.common.registration.impl.G
 const GASES = new $GasDeferredRegister('kubejs')
 
 GASES.register('methane', 0xA020F0)
+
+GASES.register('dustite', 0xA020F0)
+GASES.register('clumperio', 0xA020F0)
+GASES.register('clay', 0xA020F0)
+GASES.register('tesla', 0xA020F0)
+GASES.register('red', 0xA020F0)
+GASES.register('glow', 0xA020F0)
+GASES.register('nucleonium', 0xA020F0)
+
+
+
 /* 
 const $attribute = Java.loadClass('mekanism.api.chemical.gas.attribute.GasAttributes')
 const $float = Java.loadClass('mekanism.api.math.FloatingLong')

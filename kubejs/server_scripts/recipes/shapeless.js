@@ -236,4 +236,7 @@ function emolimix(jump,variants){
 	
 	less(['#ironberry:tables','#ironberry:storage_box'],'bluepower:project_table')
 	
+	less(['homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget'],'minecraft:copper_ingot')
+
+
 })
