@@ -21,6 +21,8 @@ ItemEvents.tooltip(event => {
         })
     }
 
+    tipplusplus('minecraft:coal','§6Early game dont use it as fuel , it will very expensive')
+    tipplusplus('minecraft:dirt','§6Early game dont use too much until you could automate')
     tipplusplus('minecraft:clay_ball', '§6Obtained by crushing dirt on crushing tub')
     tipplusplus('minecraft:campfire', '§6Item form dont require silk touch')
     tipplusplus('reactive:scroll', '§6Right click a cauldron to convert into a crucible')

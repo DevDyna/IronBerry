@@ -13,6 +13,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"4885D497784749F6"
+				"2B43C4FF561B52A2"
+			]
 			id: "4C624E7DFD3E414E"
 			tasks: [{
 				id: "4F82CF669F668481"
@@ -23,8 +27,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			id: "001837ABABCBC3F4"
@@ -41,7 +45,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["4885D497784749F6"]
+			dependencies: ["4C624E7DFD3E414E"]
 			id: "50BF629AA3EF5AC5"
 			shape: "diamond"
 			tasks: [{
@@ -53,11 +57,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["4885D497784749F6"]
+			dependencies: ["4C624E7DFD3E414E"]
 			id: "087A5EF088DDED0E"
 			tasks: [{
 				id: "048269CE1B19903E"
@@ -143,13 +147,14 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["78B8301419809CE3"]
 			id: "2B43C4FF561B52A2"
 			tasks: [{
 				id: "600E47E5DFD57AA5"
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -164,15 +169,18 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["31EAF2E88604E6FD"]
+			dependencies: [
+				"31EAF2E88604E6FD"
+				"78B8301419809CE3"
+			]
 			id: "4885D497784749F6"
 			tasks: [{
 				id: "4D02C74F2AE06E20"
 				item: "nuclearcraft:plate_basic"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			id: "152F5B457DF4C6AB"
@@ -357,8 +365,8 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
@@ -370,6 +378,27 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			id: "46650594DAFC04AF"
+			tasks: [{
+				id: "476C0C06E022E7E0"
+				item: "thermal:bitumen"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46650594DAFC04AF"]
+			id: "78B8301419809CE3"
+			tasks: [{
+				id: "6A73A20C308E8FDD"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
 		}
 	]
 	subtitle: ["Processing on Reaction"]

@@ -750,8 +750,8 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
     //
     //
 	
-	//shapex([])
-	
+	shapex(['nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'nuclearcraft:steel_frame', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic'],'nuclearcraft:alloy_smelter')
+	shapex(['nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:steel_frame', 'nuclearcraft:plate_basic'],'nuclearcraft:assembler')
 	
 	
 	

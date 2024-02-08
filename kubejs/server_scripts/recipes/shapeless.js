@@ -238,5 +238,8 @@ function emolimix(jump,variants){
 	
 	less(['homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget','homespun:copper_nugget'],'minecraft:copper_ingot')
 
+	less(['thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen','thermal:bitumen'],'thermal:bitumen_block')
+
+	less(['thermal:bitumen_block'],'9x thermal:bitumen')
 
 })

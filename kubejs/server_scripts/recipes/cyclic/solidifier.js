@@ -113,8 +113,54 @@ ServerEvents.recipes(event => {
 })
 //------------------------------//
 
-
-
+event.custom({
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": 'pneumaticcraft:module_expansion_card'
+  },{
+	  "item": 'kubejs:printed_plate'
+  },{
+    "item": 'pneumaticcraft:plastic'
+  }
+  ],
+  "mix": {
+    "fluid": "pneumaticcraft:etching_acid",
+    "count": 100
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 60
+	},
+  "result": {
+    "item": 'nuclearcraft:empty_sink',
+	"count": 1
+  }
+})
+//------------------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": 'nuclearcraft:empty_sink'
+  },{
+	  "item": 'nuclearcraft:bioplastic'
+  },{
+    "item": 'nuclearcraft:plate_basic'
+  }
+  ],
+  "mix": {
+    "fluid": "pneumaticcraft:etching_acid",
+    "count": 100
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 60
+	},
+  "result": {
+    "item": 'nuclearcraft:steel_frame',
+	"count": 1
+  }
+})
+//------------------------------//
 
 
 
