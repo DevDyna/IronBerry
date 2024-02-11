@@ -6,7 +6,7 @@ const GASES = new $GasDeferredRegister('kubejs')
 GASES.register('methane', 0x7D7D07)
 
 GASES.register('dustite', 0xA9A9A8)
-GASES.register('clumperio', 0x86E4AB)
+GASES.register('clumperio', 0xF065F0)
 GASES.register('clay', 0xC3C3C3)
 GASES.register('tesla', 0x3A8BE8)
 GASES.register('red', 0xD40F0F)

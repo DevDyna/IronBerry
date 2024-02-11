@@ -24,6 +24,17 @@
 		{
 			id: "7A8850E87A14F9D7"
 			invisible: true
+			rewards: [{
+				id: "1737E120FE9499EB"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 0s
+					}
+				}
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "2B258BBCD4889697"
@@ -55,6 +66,17 @@
 		{
 			id: "0DC7F8AB3A083BFF"
 			invisible: true
+			rewards: [{
+				id: "1B195EDD5F90C5DE"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 5s
+					}
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6DDA334C5B7371FA"
@@ -73,6 +95,17 @@
 		{
 			id: "4162843221C8A4CD"
 			invisible: true
+			rewards: [{
+				id: "5FC97CC82D2BE89E"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 1s
+					}
+				}
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "32C8E6FD40EF98C1"
@@ -85,6 +118,17 @@
 		{
 			id: "191DF7A9C5834BB0"
 			invisible: true
+			rewards: [{
+				id: "33229B1917982AB4"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 3s
+					}
+				}
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				id: "6DC61F43EEECBEB8"

@@ -10,27 +10,27 @@ ServerEvents.recipes(event => {
     ],
     "outputFluids": [
       {
-        "amount": 800,
-        "fluid": "kubejs:boron"
-      },
-      {
-        "amount": 50,
+        "amount": 200,
         "fluid": "kubejs:graphite"
       },
       {
-        "amount": 50,
+        "amount": 200,
+        "fluid": "kubejs:boron"
+      },
+      {
+        "amount": 150,
         "fluid": "kubejs:thorium"
       },
       {
-        "amount": 10,
-        "fluid": "kubejs:shibuichi"
+        "amount": 150,
+        "fluid": "kubejs:tin"
       },
       {
-        "amount": 10,
+        "amount": 150,
         "fluid": "kubejs:magnesium"
       },
       {
-        "amount": 10,
+        "amount": 150,
         "fluid": "kubejs:uranium"
       }
     ],

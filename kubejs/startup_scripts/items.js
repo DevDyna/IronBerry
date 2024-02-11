@@ -138,7 +138,7 @@ StartupEvents.registry('item', event => {
 	
 	event.create('assembly_plate')
     .texture('ironberry:item/assembly_plate')
-    .displayName('Assembly Program : Empty')
+    .displayName('Programmable Printed Plate')
 	
 	event.create('printed_plate')
     .texture('ironberry:item/printed_plate')

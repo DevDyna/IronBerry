@@ -1,6 +1,4 @@
 ServerEvents.recipes(event => {
-
-
 event.custom({
     "type": "nuclearcraft:assembler",
     "input": [
@@ -35,6 +33,13 @@ event.custom({
     "radiation": 0.0,
     "timeModifier": 1.0
   })
+
+
+
+
+
+
+
 
 
 })

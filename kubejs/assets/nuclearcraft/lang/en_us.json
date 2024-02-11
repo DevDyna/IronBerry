@@ -1,3 +1,5 @@
 ﻿{
-  "item.nuclearcraft.steel_frame": "Basic Frame"
+  "item.nuclearcraft.steel_frame": "Basic Frame",
+  "item.nuclearcraft.upgrade_energy": "Machine Program: Energy",
+  "item.nuclearcraft.upgrade_speed": "Machine Program: Speed"
 }

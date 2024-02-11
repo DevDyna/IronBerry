@@ -40,6 +40,10 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ironchest:upgrades/gold_to_diamond_chest_upgrade',
+        'ironchest:upgrades/iron_to_gold_chest_upgrade',
+        'ironchest:upgrades/copper_to_iron_chest_upgrade',
+        'ironchest:upgrades/wood_to_copper_chest_upgrade',
             'cyclic:crusher/jukebox',
             //'thermal:machines/refinery/refinery_crude_oil',
             //'thermal:machines/refinery/refinery_resin',

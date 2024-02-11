@@ -18,5 +18,6 @@ ServerEvents.recipes(event => {
     crystallizer("kubejs:tesla",100,"bluepower:teslatite_dust")
     crystallizer("kubejs:red",100,"minecraft:redstone")
     crystallizer("kubejs:glow",100,"minecraft:glowstone_dust")
+    crystallizer('mekanims:lithium',100,'mekanism:dust_lithium')
 
 })

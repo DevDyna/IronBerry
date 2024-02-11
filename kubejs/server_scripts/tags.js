@@ -162,11 +162,11 @@ ServerEvents.tags('item', event => {
             'ars_nouveau:jump_ring',
             'jetboots:rocket_boots',
             'jetboots:shock_absorber_upgrade',
-            'ars_nouveau:ritual_brazier',
+
             'ars_nouveau:potion_melder',
             'ars_nouveau:relay_splitter',
             'ars_nouveau:relay_warp',
-            'ars_nouveau:brazier_relay',
+
             'ars_nouveau:belt_of_levitation',
             'ars_nouveau:drygmy_charm',
             'ars_nouveau:belt_of_unstable_gifts',

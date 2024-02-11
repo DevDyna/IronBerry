@@ -38,8 +38,6 @@ EnApp('ars_nouveau:blank_glyph',['ars_nouveau:wixie_shards', 'ars_nouveau:wilden
 
 EnApp('alchemygadgetry:potion_flask',['ars_nouveau:source_jar'],'ars_nouveau:potion_jar',0,false)
 
-EnApp('ars_nouveau:ritual_brazier',['ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay'],'ars_nouveau:brazier_relay',0,false)
-
 EnApp('ars_nouveau:relay_splitter',['ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay','ars_nouveau:relay'],'ars_nouveau:relay_warp',0,false)
 EnApp('ars_nouveau:relay',['ars_nouveau:relay_collector','ars_nouveau:relay_deposit'],'ars_nouveau:relay_splitter',1000,false)
 EnApp('ars_nouveau:potion_diffuser',['alchemygadgetry:potion_flask','ars_nouveau:potion_jar','ars_nouveau:source_jar','ars_nouveau:potion_jar'],'ars_nouveau:potion_melder',0,false)
@@ -47,8 +45,6 @@ EnApp('ars_nouveau:potion_diffuser',['alchemygadgetry:potion_flask','ars_nouveau
 EnApp('ars_nouveau:blank_parchment',['tombstone:strange_scroll','tombstone:strange_scroll','tombstone:strange_scroll','tombstone:strange_scroll'],'ars_nouveau:blank_glyph',0,false)
 
 
-
-EnApp('ars_nouveau:source_gem_block',['ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal'],'ars_nouveau:ritual_brazier',0,false)
 
 EnApp('jetboots:armor_core',['#minecraft:wool','#minecraft:wool','#minecraft:wool','#minecraft:wool'],'jetboots:shock_absorber_upgrade',1000,false)
 EnApp('ars_nouveau:mundane_belt',['ars_nouveau:belt_of_unstable_gifts','ars_nouveau:belt_of_levitation'],'ars_nouveau:jump_ring',1000,false)

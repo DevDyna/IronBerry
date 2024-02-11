@@ -67,8 +67,8 @@ StartupEvents.registry('fluid', event => {
 		.displayName('Dustite (fluid)')
 
         event.create('clumperio') 
-		.thickTexture(0x86E4AB)
-		.bucketColor(0x86E4AB)
+		.thickTexture(0xF065F0)
+		.bucketColor(0xF065F0)
 		.displayName('Clumperio (fluid)')
 
         event.create('micio')
@@ -96,10 +96,10 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0x1D2421)
 		.displayName('Synthetic Thorium')
 
-        event.create('shibuichi')
+        event.create('tin')
         .thickTexture(0x989F85)
 		.bucketColor(0x989F85)
-		.displayName('Synthetic Shibuichi')
+		.displayName('Synthetic Tin')
 
         event.create('magnesium')
         .thickTexture(0xEFABF6)

@@ -754,7 +754,17 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 	shapex(['nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:steel_frame', 'nuclearcraft:plate_basic'],'nuclearcraft:assembler')
 	
 	
-	
-	
+
+    shapex(['nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'mekanism:steel_casing', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic'],'mekanism:electrolytic_separator')
+	shapex(['nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'kubejs:printed_plate', 'mekanism:steel_casing', 'kubejs:printed_plate', 'nuclearcraft:plate_basic', 'kubejs:printed_plate', 'nuclearcraft:plate_basic'],'mekanismgenerators:gas_burning_generator')
+	shapex(['nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'mekanism:steel_casing', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic'],'mekanism:chemical_oxidizer')
+    shapex(['nuclearcraft:empty_sink', 'kubejs:printed_plate', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'mekanism:steel_casing', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'kubejs:printed_plate', 'nuclearcraft:empty_sink'],'mekanism:rotary_condensentrator')
+    shapex(['nuclearcraft:plate_basic',  'nuclearcraft:empty_sink','nuclearcraft:plate_basic', 'kubejs:printed_plate', 'mekanism:steel_casing', 'kubejs:printed_plate', 'nuclearcraft:plate_basic','nuclearcraft:empty_sink',  'nuclearcraft:plate_basic'],'mekanism:chemical_crystallizer')
+
+
+
+
+
+
 	
 })

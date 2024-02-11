@@ -143,4 +143,6 @@ ServerEvents.recipes(event => {
 
 	alloy(['minecraft:coal','bluepower:teslatite_dust'],[1,2],'bluepower:battery',2)
 
+        alloy(['mekanism:dust_lithium'],[2],'mekanism:lithium_ingot',1)
+
 })

@@ -395,9 +395,15 @@
 			icon: "tombstone:grave_key"
 			id: "58B49792D4827F5F"
 			rewards: [{
-				id: "4356AE92103C0504"
-				type: "xp"
-				xp: 100
+				id: "694BAA1E0D29E143"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 0s
+					}
+				}
+				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
@@ -422,9 +428,15 @@
 			}
 			id: "0BAD1439524D1EE2"
 			rewards: [{
-				id: "5E8D0D55D3D26CE0"
-				type: "xp"
-				xp: 100
+				id: "7FEBB14D45EBEBFE"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 5s
+					}
+				}
+				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -443,9 +455,15 @@
 			icon: "kubejs:wip"
 			id: "2398F1BAEB8D2519"
 			rewards: [{
-				id: "2DD79348E12A7A40"
-				type: "xp"
-				xp: 100
+				id: "15FE381CB76D2E25"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 3s
+					}
+				}
+				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -483,19 +501,26 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: [
-				"You dont want see any recipe popup? Unlock all!"
-				"Or disable on video settings"
-			]
+			description: ["If you fall off your island , you didnt' die!"]
 			hide_dependency_lines: true
-			icon: "minecraft:knowledge_book"
+			icon: {
+				Count: 1b
+				id: "tombstone:decorative_grave_cross"
+				tag: {
+					model_texture: 0
+				}
+			}
 			id: "65D86C59B921A549"
 			rewards: [{
-				command: "/recipe give @p *"
-				icon: "minecraft:knowledge_book"
-				id: "62678C9E3836DBE1"
-				player_command: true
-				type: "command"
+				id: "01C101C6A70287D9"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 1s
+					}
+				}
+				type: "item"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -521,9 +546,15 @@
 			icon: "minecraft:campfire"
 			id: "7A793669CAC029B2"
 			rewards: [{
-				id: "0FD3FFCAE3440C50"
-				type: "xp"
-				xp: 100
+				id: "13B93359C78D80F7"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 3s
+					}
+				}
+				type: "item"
 			}]
 			shape: "gear"
 			subtitle: "Basic setting up"
@@ -560,15 +591,21 @@
 			}
 			id: "1B534087222484D3"
 			rewards: [{
-				id: "3D05C6428788B51A"
-				type: "xp"
-				xp: 100
+				id: "10A76302E0AA0ECD"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 2s
+					}
+				}
+				type: "item"
 			}]
 			shape: "gear"
 			subtitle: "Write here!"
 			tasks: [{
 				id: "0557172191B7D2D1"
-				title: "[press anyway]"
+				title: "[press anyway to obtain the lollipop]"
 				type: "checkmark"
 			}]
 			title: "You found a issue?"
