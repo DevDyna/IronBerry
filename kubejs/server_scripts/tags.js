@@ -82,6 +82,8 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+        'mekanismgenerators:fission_reactor_logic_adapter',
+        'mekanismgenerators:fission_reactor_port',
         'cyclic:sprinkler',
         'mekanism:chemical_crystallizer',
         'mekanism:pellet_antimatter',
@@ -254,6 +256,9 @@ ServerEvents.tags('item', event => {
 
     //recipe any side removed
     event.add('ironberry:any', [
+        'mekanism:advanced_control_circuit', 
+        'mekanism:ultimate_control_circuit', 
+        'mekanism:elite_control_circuit', 
 			'thermal:rosin',
             'hostilenetworks:loot_fabricator', 'hostilenetworks:sim_chamber',
             'homespun:crushing_tub',
@@ -757,6 +762,7 @@ ServerEvents.tags('item', event => {
 	
 	event.add('ironberry:birds_cooked',['exoticbirds:cooked_birdmeat', 'minecraft:cooked_chicken'])
 
+    event.add('ironberry:mid_ingots',[ 'thermal:tin_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:thorium_ingot', 'nuclearcraft:uranium_ingot', 'nuclearcraft:boron_ingot', 'nuclearcraft:magnesium_ingot'])
 })
 
 ServerEvents.tags('block', event => {

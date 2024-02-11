@@ -595,17 +595,6 @@
 		}
 		{
 			dependencies: ["5856ACD8338DB76C"]
-			id: "0F1025CAE768CED4"
-			tasks: [{
-				id: "18ED914EF4724BFD"
-				item: "ars_nouveau:ritual_brazier"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["5856ACD8338DB76C"]
 			id: "7D862267974C6F95"
 			tasks: [{
 				id: "7847D1F8B8912C01"
@@ -620,7 +609,7 @@
 			}]
 			title: "More Flasks"
 			x: 8.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
@@ -690,8 +679,8 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 7.302721088435369d
+			y: -10.413690476190482d
 		}
 		{
 			dependencies: ["6241AF156E12230C"]

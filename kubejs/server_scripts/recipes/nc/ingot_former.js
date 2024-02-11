@@ -14,9 +14,9 @@ ServerEvents.recipes(event => {
               "item": output
             }
           ],
-          "powerModifier": 1.0,
-          "radiation": 1.0,
-          "timeModifier": 1.0
+          "powerModifier": 500.0,
+          "radiation": 0.0,
+          "timeModifier": 0.25
         })
     }
 

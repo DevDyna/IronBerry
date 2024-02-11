@@ -55,5 +55,6 @@ ServerEvents.recipes(event => {
 
 	laser('kubejs:plastic_mixture','kubejs:silicon_plated',1)
 
+    laser('pneumaticcraft:printed_circuit_board','mekanism:basic_control_circuit',2)
 
 })

@@ -9,6 +9,44 @@
 		tag: { }
 	}
 	id: "26DBA736A666D5A2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cyclic:items/peat_biomass"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cyclic:blocks/solidifier"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nuclearcraft:block/processor/alloy_smelter_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -27,22 +65,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -4.0d
-		}
-		{
-			id: "001837ABABCBC3F4"
-			tasks: [{
-				id: "0EF8546BD05089FF"
-				item: {
-					Count: 1b
-					id: "mekanism:steel_casing"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -7.0d
 		}
 		{
 			dependencies: ["4C624E7DFD3E414E"]
@@ -57,7 +81,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -73,7 +97,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			id: "1FE2BB2E4BDB24C0"
@@ -154,24 +178,13 @@
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["123D0BCDB0FD19BF"]
-			id: "31EAF2E88604E6FD"
-			tasks: [{
-				id: "34EC98A335C955C7"
-				item: "kubejs:silicon_plated"
-				type: "item"
-			}]
-			x: 0.0d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: [
-				"31EAF2E88604E6FD"
 				"78B8301419809CE3"
+				"123D0BCDB0FD19BF"
 			]
 			id: "4885D497784749F6"
 			tasks: [{
@@ -179,19 +192,87 @@
 				item: "nuclearcraft:plate_basic"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
+			dependencies: ["06A531620346F341"]
 			id: "152F5B457DF4C6AB"
+			rewards: [
+				{
+					id: "7FDCE946C73076C0"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								2085223044
+								-2025307395
+								-1735971033
+								-965562790
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C20BF85321F60AF"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								1804752495
+								-1480048527
+								-1907807541
+								748982222
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6424A7E292752C93"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								1471438768
+								2141735968
+								-1236556662
+								1172667355
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "018C4F6E5EA954EE"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								-161427434
+								1210010715
+								-2111619084
+								19967316
+							]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "/kubejs/example/schematics"
 			tasks: [{
 				id: "49E6A7B7592F6F49"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -8.0d
+			title: "How can i build that ?"
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "3BBD296D62152BE5"
@@ -206,13 +287,14 @@
 		{
 			dependencies: ["3C1E2464FB392627"]
 			id: "06A531620346F341"
+			subtitle: "Suggest to set on 0.1mb/tick and never increase"
 			tasks: [{
 				id: "5C5D7B2B25D417ED"
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "6D22F5E6A3EA85E8"
@@ -222,9 +304,10 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["6D22F5E6A3EA85E8"]
 			id: "6CAEDA6D836CFA49"
 			tasks: [{
 				id: "14CCC849DB698CB4"
@@ -232,7 +315,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -323,39 +406,34 @@
 		}
 		{
 			dependencies: [
-				"087A5EF088DDED0E"
 				"646E5959C53D3605"
+				"0F2299A58A58EDC5"
 			]
 			id: "3C1E2464FB392627"
-			tasks: [{
-				id: "205B683C5A1CFA5F"
-				item: "mekanism:chemical_oxidizer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "205B683C5A1CFA5F"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "14263E917501B185"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+				{
+					id: "6E4FC9E63C68DB17"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+				{
+					id: "382A27ED3B5B1114"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["06A531620346F341"]
-			id: "48A6B588707038BA"
-			tasks: [{
-				id: "218C1AEFACDD129C"
-				item: "mekanism:electrolytic_separator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["48A6B588707038BA"]
-			id: "6F936C459AC7FA54"
-			tasks: [{
-				id: "0A6BA84A49A02F0E"
-				item: "nuclearcraft:boron_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["50BF629AA3EF5AC5"]
@@ -365,8 +443,8 @@
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
@@ -386,7 +464,7 @@
 				item: "thermal:bitumen"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -397,10 +475,61 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -8.0d
 		}
+		{
+			dependencies: ["1B8615BAC47B6BB1"]
+			id: "6138769A65F12025"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1410934E9E1988DD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:mid_ingots"
+						}
+					}
+					title: "Any #ironberry:mid_ingots"
+					type: "item"
+				}
+				{
+					id: "740E5486977B41F8"
+					item: "nuclearcraft:lithium_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"087A5EF088DDED0E"
+				"50BF629AA3EF5AC5"
+			]
+			id: "0F2299A58A58EDC5"
+			tasks: [{
+				id: "5D49EC340A49589A"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06A531620346F341"]
+			id: "1B8615BAC47B6BB1"
+			tasks: [{
+				id: "3D1C39238AE3FAB5"
+				item: "nuclearcraft:centrifuge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
 	]
-	subtitle: ["Processing on Reaction"]
+	subtitle: ["Run an' Run"]
 	title: "Age 5"
 }

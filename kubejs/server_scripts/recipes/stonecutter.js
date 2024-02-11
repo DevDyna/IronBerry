@@ -163,6 +163,7 @@ ServerEvents.recipes(event => {
 	['pneumaticcraft:ingot_iron_compressed','#ironberry:pnc_modules'])
 
 
+    switch_scut(['mekanismgenerators:reactor_glass', 'mekanism:structural_glass'])
 
 scut([
 	'inventorypets:pet_wither',

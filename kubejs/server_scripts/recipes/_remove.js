@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'mekanism:teleportation_core',
         'ironchest:upgrades/gold_to_diamond_chest_upgrade',
         'ironchest:upgrades/iron_to_gold_chest_upgrade',
         'ironchest:upgrades/copper_to_iron_chest_upgrade',

@@ -760,11 +760,11 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 	shapex(['nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'mekanism:steel_casing', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic', 'nuclearcraft:plate_basic'],'mekanism:chemical_oxidizer')
     shapex(['nuclearcraft:empty_sink', 'kubejs:printed_plate', 'nuclearcraft:empty_sink', 'nuclearcraft:plate_basic', 'mekanism:steel_casing', 'nuclearcraft:plate_basic', 'nuclearcraft:empty_sink', 'kubejs:printed_plate', 'nuclearcraft:empty_sink'],'mekanism:rotary_condensentrator')
     shapex(['nuclearcraft:plate_basic',  'nuclearcraft:empty_sink','nuclearcraft:plate_basic', 'kubejs:printed_plate', 'mekanism:steel_casing', 'kubejs:printed_plate', 'nuclearcraft:plate_basic','nuclearcraft:empty_sink',  'nuclearcraft:plate_basic'],'mekanism:chemical_crystallizer')
-
-
-
-
-
-
+    shapex(['nuclearcraft:steel_frame', 'nuclearcraft:steel_frame','minecraft:air', 'nuclearcraft:steel_frame', 'nuclearcraft:steel_frame'],'16x mekanismgenerators:fission_reactor_casing')
+    shapex(['mekanismgenerators:fission_reactor_casing', 'minecraft:comparator', 'mekanismgenerators:fission_reactor_casing'],'2x mekanismgenerators:fission_reactor_logic_adapter')
+    shapex(['mekanismgenerators:fission_reactor_casing', 'pipez:universal_pipe', 'mekanismgenerators:fission_reactor_casing'],'2x mekanismgenerators:fission_reactor_port')
+    shapex(['minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'bluepower:reinforced_sapphire_glass', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air'],'4x mekanismgenerators:reactor_glass')
+    shapex(['quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'mekanismgenerators:fission_reactor_casing', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod'],'8x mekanismgenerators:fission_fuel_assembly')
+    shapex(['minecraft:comparator', 'mekanismgenerators:fission_reactor_casing', 'minecraft:comparator', 'quark:iron_rod', 'mekanismgenerators:fission_fuel_assembly', 'quark:iron_rod', 'quark:iron_rod', 'minecraft:air', 'quark:iron_rod'],'2x mekanismgenerators:control_rod_assembly')
 	
 })
