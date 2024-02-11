@@ -10,9 +10,9 @@ ServerEvents.recipes(event => {
     "gas": "mekanism:steam",
     "amount": 1
   },
-  "thermalEnthalpy": 10,
-  "conductivity": 0.5,
-  "efficiency": 10.0,
+  "thermalEnthalpy": 1.0,
+  "conductivity": 1.0,
+  "efficiency": 1.0,
   "outputEfficiency": 1.0
 })
 	

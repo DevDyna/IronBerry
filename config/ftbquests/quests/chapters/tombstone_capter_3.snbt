@@ -2204,6 +2204,7 @@
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
+			subtitle: "Fish is my name!"
 			tasks: [{
 				id: "30C73A75BC7D42FB"
 				item: "minecraft:bundle"

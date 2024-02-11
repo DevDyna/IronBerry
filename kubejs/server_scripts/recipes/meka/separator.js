@@ -17,10 +17,12 @@ ServerEvents.recipes(event => {
             }
         })
     }
-    separator("mekanism:ethene",2,"kubejs:clumperio",1,"mekanism:steam",1)
-    separator("mekanism:steam",10,"kubejs:dustite",9,"kubejs:nucleonium",1)
+    separator("kubejs:micio",2,"kubejs:clumperio",1,"mekanism:lithium",1)
+    separator("mekanism:lithium",10,"kubejs:dustite",9,"kubejs:nucleonium",1)
     separator('kubejs:clumperio',10,'kubejs:clay',4,'kubejs:tesla',1)
     separator("kubejs:dustite",6,'kubejs:red',1,'kubejs:glow',2)
+    separator('mekanism:steam',1250,'mekanism:ethene',1,"kubejs:pyrotheum",2)
+    
 
 
 

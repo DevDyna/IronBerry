@@ -741,45 +741,6 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["568AF71C55EB2708"]
-			hide: true
-			icon: "reactive:warp_bottle"
-			id: "6945270274F113D6"
-			optional: true
-			rewards: [{
-				id: "162F16CCF2897795"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4C37F883A13BC5AE"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			title: "Warp Source"
-			x: 7.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["6945270274F113D6"]
-			id: "402E62814FB726A8"
-			optional: true
-			rewards: [{
-				id: "09B4927929BE3AA7"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
-			subtitle: "See the manual"
-			tasks: [{
-				id: "0D6787CDCAC7E9E7"
-				item: "reactive:salt"
-				type: "item"
-			}]
-			title: "Waste Recycler"
-			x: 7.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["29F14948C66CC37E"]
 			hide: true
 			id: "6DCCBC7AE25353C3"
@@ -920,7 +881,7 @@
 		{
 			dependencies: ["4B6FE1B6BB79056B"]
 			dependency_requirement: "all_started"
-			description: ["If dropped on a crucible a sculk catalyst with soul inside , can spread on world !"]
+			description: ["If dropped on a crucible a sculk catalyst with high soul inside , can spread on world !"]
 			id: "642A560192E69BA9"
 			rewards: [{
 				id: "611BE2B73618B670"
@@ -1135,7 +1096,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["578BA9E968E7B064"]
+			dependencies: ["3F818FA3A0D9B316"]
 			hide: true
 			id: "2E7B3C1E394BF2AE"
 			rewards: [{
@@ -1183,6 +1144,7 @@
 			dependencies: ["379F607A99F58C90"]
 			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
 			hide_dependency_lines: true
+			icon: "essentials:fertile_soil_wheat"
 			id: "35BD3AD826A482C4"
 			rewards: [
 				{
@@ -1209,7 +1171,14 @@
 			]
 			tasks: [{
 				id: "1DEBABEB293F5DD1"
-				item: "essentials:fertile_soil_wheat"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:soils"
+					}
+				}
+				title: "Any #ironberry:soils"
 				type: "item"
 			}]
 			title: "Croptopic?"
@@ -1218,7 +1187,6 @@
 		}
 		{
 			dependencies: [
-				"35BD3AD826A482C4"
 				"4C25842283BC5873"
 				"4B0F0A9E1091DD0E"
 			]

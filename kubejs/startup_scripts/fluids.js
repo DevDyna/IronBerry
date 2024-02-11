@@ -71,4 +71,43 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0x86E4AB)
 		.displayName('Clumperio (fluid)')
 
+        event.create('micio')
+        .thickTexture(0x69F5BD)
+		.bucketColor(0x69F5BD)
+		.displayName('Micio (fluid)')
+
+        event.create('superio')
+        .thickTexture(0xDABF55)
+		.bucketColor(0xDABF55)
+		.displayName('Superio (fluid)')
+//----------------------------------------//
+        event.create('boron')
+        .thickTexture(0x868782)
+		.bucketColor(0x868782)
+		.displayName('Synthetic Boron')
+
+        event.create('graphite')
+        .thickTexture(0x272B29)
+		.bucketColor(0x272B29)
+		.displayName('Synthetic Graphite')
+
+        event.create('thorium')
+        .thickTexture(0x1D2421)
+		.bucketColor(0x1D2421)
+		.displayName('Synthetic Thorium')
+
+        event.create('shibuichi')
+        .thickTexture(0x989F85)
+		.bucketColor(0x989F85)
+		.displayName('Synthetic Shibuichi')
+
+        event.create('magnesium')
+        .thickTexture(0xEFABF6)
+		.bucketColor(0xEFABF6)
+		.displayName('Synthetic Magnesium')
+
+        event.create('uranium')
+        .thickTexture(0x3BB23B)
+		.bucketColor(0x3BB23B)
+		.displayName('Synthetic Uranium')
 })

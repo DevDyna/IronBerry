@@ -3,26 +3,49 @@ ItemEvents.tooltip(event => {
 
     function tipplusplus(id, desc) {
         event.addAdvanced(id, (item, advanced, text) => {
-			try{
-            for (let i = 1; i < 10; i++) {
-                if (text.get(i) != null) {
-                    if (!event.isShift()) {
-							text.add(i, '§8[§fLeft Shift§8]')
-						break
-                    } else if (event.isShift()) {
-                        text.add(i, Text.of(desc)) //.color(0xD8A903)
-						break
+            try {
+                for (let i = 1; i < 10; i++) {
+                    if (text.get(i) != null) {
+                        if (!event.isShift()) {
+                            text.add(i, '§8[§fLeft Shift§8]')
+                            break
+                        } else if (event.isShift()) {
+                            text.add(i, Text.of(desc)) //.color(0xD8A903)
+                            break
+                        }
                     }
                 }
-            }
-			}catch(error){}
-			
-			
+            } catch (error) { }
+
+
         })
     }
 
-    tipplusplus('minecraft:coal','§6Early game dont use it as fuel , it will very expensive')
-    tipplusplus('minecraft:dirt','§6Early game dont use too much until you could automate')
+    let source = [['acid', '§c'], ['body', '§4'], ['mind', '§d'], ['soul', '§b'],['light','§6'],['verdant','§a']]
+
+    source.forEach(essence => {
+        
+
+        if (essence[0] == 'acid'){
+            tipplusplus('#reactive:caustic_sources', 'Source of ' + essence[1] + essence[0])
+            tipplusplus('reactive:' + essence[0] + '_bottle', 'See ' + essence[1] + '$caustic')
+        }else{
+        tipplusplus('reactive:' + essence[0] + '_bottle', 'See ' + essence[1] + '$' + essence[0])
+            tipplusplus('#reactive:' + essence[0] + '_sources', 'Source of ' + essence[1] + essence[0])
+        }
+    })
+
+    /*tipplusplus('reactive:acid_bottle', 'See §c$acid')
+    tipplusplus('reactive:body_bottle', 'See §4$body')
+    tipplusplus('reactive:mind_bottle', 'See §d$mind')
+    tipplusplus('reactive:soul_bottle', 'See §b$soul')
+    */
+
+    tipplusplus('minecraft:leather', 'Can be obtained by processing item from fishing')
+    tipplusplus('kubejs:rich_bone_meal', '§8[§fArea affected : §crange 3 block§8]')
+    tipplusplus('kubejs:ore_bone_meal', '§8[§fArea affected : §crange 7 block§8]')
+    tipplusplus('minecraft:coal', '§6Early game dont use it as fuel , it will very expensive')
+    tipplusplus('minecraft:dirt', '§6Early game dont use too much until you could automate')
     tipplusplus('minecraft:clay_ball', '§6Obtained by crushing dirt on crushing tub')
     tipplusplus('minecraft:campfire', '§6Item form dont require silk touch')
     tipplusplus('reactive:scroll', '§6Right click a cauldron to convert into a crucible')
@@ -71,12 +94,6 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:ae_charged', 'Can be charged using a §acharger')
     tipplusplus('#ironberry:fishing', 'Can be obtained by a §aFishing')
     tipplusplus('tombstone:lost_tablet', 'Dont §ctravel §fbecause §cisnt spawned')
-    tipplusplus('reactive:acid_bottle', 'See §c$acid')
-    tipplusplus('reactive:body_bottle', 'See §4$body')
-    tipplusplus('reactive:mind_bottle', 'See §d$mind')
-    tipplusplus('reactive:soul_bottle', 'See §b$soul')
-    tipplusplus('reactive:verdant_bottle', 'See §a$verdant')
-    tipplusplus('reactive:light_bottle', 'See §e$light')
     tipplusplus('#ironberry:indigo_flowers', 'Bonemeal §aGrass block §fto obtain')
     tipplusplus('tombstone:white_marble', '§cDue NBT issue you cannot craft white gravestone on stonecutter')
     tipplusplus('kubejs:soul', 'Can be used on a §5Grave §fwith soul to obtain a §dSoul Receptacle')
@@ -84,10 +101,10 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:ice_shard', 'Obtained by break §bice')
     tipplusplus('#ironberry:spore_colony', 'Obtained by placing a mushroom on top of a §2rich soil')
     tipplusplus('minecraft:gold_nugget', 'Obtained by breaking §7ash §fwith a §bshovel§f')
-	tipplusplus('#ironberry:drop_sand','Obtained by breaking §6red sand')
+    tipplusplus('#ironberry:drop_sand', 'Obtained by breaking §6red sand')
     tipplusplus('kubejs:rich_bone_meal', 'Right click on §2rich soil §fto spawn random §abushes')
     tipplusplus('kubejs:illuminati', 'Right click give §eextra time §fat your §bTime in a Bottle')
-    tipplusplus('#farmersdelight:wild_crops', 'Obtained by using §6rich bone meal §fon §2rich soil')
+    tipplusplus('#farmersdelight:wild_crops', 'Obtained by using §6rich fertilizer §fon §2rich soil')
     tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fafter many eggs')
     tipplusplus('kubejs:grave_spawn', 'Spawn a grave guardian , a warrior full of potions and cheap trades')
     tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
@@ -107,18 +124,18 @@ ItemEvents.tooltip(event => {
     //tipplusplus('#ironberry:disabled', 'IronBerry : §cItem Disabled')
     //tipplusplus('#ironberry:hide', 'IronBerry : §cItem Hidden')
     tipplusplus('farmersdelight:cutting_board', 'Can be automated using a §7Deployer')
-	tipplusplus('#ironberry:boss_drop','§cAlso can be obtained by killing mobs from the §4Gateway of Bosses')
-	tipplusplus('luggage:luggage','A cute chest pet')
-	tipplusplus('#ironberry:echodrop','Drop §9echo shards §fwhen broken')
-	tipplusplus('minecraft:echo_shard', 'Obtained by breaking §7sculk blocks')
-    tipplusplus('#ironberry:onlyplayer','§4Only player can use this item!')
-	//tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
-	tipplusplus('kubejs:patina','Obtained by using axes on a §boxidized§f §6copper block')
-	tipplusplus('pedestals:upgrade_pedestal_cobblegen','Every §680 tick§f rool a §epool')
-	tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'],'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
-	tipplusplus(global.disabledItem,'§cItem Disabled')
-	tipplusplus('#ironberry:bucket_fuel','§5Fuels §ffor §2liquid §fcompressor')
-	tipplusplus('minecraft:obsidian','Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
+    tipplusplus('#ironberry:boss_drop', '§cAlso can be obtained by killing mobs from the §4Gateway of Bosses')
+    tipplusplus('luggage:luggage', 'A cute chest pet')
+    tipplusplus('#ironberry:echodrop', 'Drop §9echo shards §fwhen broken')
+    tipplusplus('minecraft:echo_shard', 'Obtained by breaking §7sculk blocks')
+    tipplusplus('#ironberry:onlyplayer', '§4Only player can use this item!')
+    //tipplusplus(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_large"}'),'§6Obtained by complete a simple gateway')
+    tipplusplus('kubejs:patina', 'Obtained by using axes on a §boxidized§f §6copper block')
+    tipplusplus('pedestals:upgrade_pedestal_cobblegen', 'Every §680 tick§f rool a §epool')
+    tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'], 'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
+    tipplusplus(global.disabledItem, '§cItem Disabled')
+    tipplusplus('#ironberry:bucket_fuel', '§5Fuels §ffor §2liquid §fcompressor')
+    tipplusplus('minecraft:obsidian', 'Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
 
 })
 

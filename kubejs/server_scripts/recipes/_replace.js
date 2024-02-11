@@ -140,10 +140,10 @@ event.replaceOutput({output:'#forge:dusts/'+unify.type[i]},'#forge:dusts/'+unify
 
 event.replaceInput({input:'twilightforest:raven_feather'},'twilightforest:raven_feather','#forge:feathers')
 
-event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:glass','kubejs:instability')
+event.replaceInput({output:'cobblefordays:tier_3'},'minecraft:glass','kubejs:instability')
 
-event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:lava_bucket','thermal:device_rock_gen')
-event.replaceInput({output:'#ironberry:cobblegen'},'minecraft:water_bucket','bluepower:block_breaker')
+event.replaceInput({output:'cobblefordays:tier_3'},'minecraft:lava_bucket','thermal:device_rock_gen')
+event.replaceInput({output:'cobblefordays:tier_3'},'minecraft:water_bucket','bluepower:block_breaker')
 
 //event.replaceInput({input:'#forge:chests'},'#forge:chests','minecraft:chest')
 //event.replaceInput({input:'#forge:chests/trapped'},'#forge:chests/trapped','minecraft:trapped_chest')

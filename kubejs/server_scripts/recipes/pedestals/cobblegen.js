@@ -16,9 +16,6 @@ ServerEvents.recipes(event => {
         "blockBelow": {
             "item": "minecraft:dripstone_block"
         },
-		        "energy": {
-            "energyValue": 1000
-        },
         "result": {
             "item": "minecraft:sand"
         }
@@ -31,7 +28,7 @@ ServerEvents.recipes(event => {
             "item": "integrateddynamics:menril_wood"
         },
         "energy": {
-            "energyValue": 10000
+            "energyValue": 1000
         },
 
         "result": {
@@ -55,4 +52,22 @@ ServerEvents.recipes(event => {
     })
 	    //
     //
+    event.custom({
+        "type": "pedestals:cobblegen",
+        "blockBelow": {
+            "item": "minecraft:cobblestone"
+        },
+        "inputFluidStack": {
+            "fluid": "minecraft:water",
+            "count": 1000
+        },
+        "result": {
+            "item": "minecraft:cobblestone"
+        }
+    })
+	    //
+    //
+
+
+
 })

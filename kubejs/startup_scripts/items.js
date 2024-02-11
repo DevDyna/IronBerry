@@ -161,5 +161,11 @@ StartupEvents.registry('item', event => {
 	.texture('ironberry:item/plastic_mixture')
 	.displayName('Plastic Mixture')
 	
-	
+	event.create('explosion')
+    .texture('pneumaticcraft:gui/jei/explosion')
+
+    event.create('upgrade_template')
+    .texture('ironberry:item/upgrade_template')
+    .displayName('Upgrade Base')
+
 })

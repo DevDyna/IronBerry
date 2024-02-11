@@ -82,6 +82,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+        'cyclic:sprinkler',
         'mekanism:chemical_crystallizer',
         'mekanism:pellet_antimatter',
 			'cyclic:apple_chorus',
@@ -286,13 +287,13 @@ ServerEvents.tags('item', event => {
         ])
 
     //cobblefordays uniform
-    event.add('ironberry:cobblegen', [
+    /*event.add('ironberry:cobblegen', [
             'cobblefordays:tier_1',
             'cobblefordays:tier_2',
             'cobblefordays:tier_3',
             'cobblefordays:tier_4',
             'cobblefordays:tier_5',
-        ])
+        ])*/
 
     //prettypipes modules
     event.add('ironberry:module', [

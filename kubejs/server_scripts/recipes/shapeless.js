@@ -242,4 +242,8 @@ function emolimix(jump,variants){
 
 	less(['thermal:bitumen_block'],'9x thermal:bitumen')
 
+	less(['kubejs:acid_bucket'],'reactive:acid_bucket')
+
+	less(['rootsclassic:verdant_sprig','minecraft:lime_stained_glass'],'cyclic:terra_glass')
+
 })
