@@ -538,9 +538,9 @@
 				"This modpack require enable some gamerules that sometime could be disabled by server owner:"
 				""
 				"- doFireTick : true"
-				"- doWeatherCycle : false"
 				"- doTraderSpawning : false"
 				"- doMobSpawning : false"
+				""
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:campfire"

@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
       "type": "nuclearcraft:assembler",
       "input": ingredient,
       "output": output,
-      "powerModifier": 500.0,
+      "powerModifier": 50.0,
       "radiation": 0.0,
       "timeModifier": 0.25
     }).id(RegX(input_item + '_' + item_out, '_'))
@@ -41,11 +41,13 @@ ServerEvents.recipes(event => {
   smart_assembly(['kubejs:assembly_plate', 'pneumaticcraft:transistor', 'pneumaticcraft:pressure_gauge', 'pipez:basic_upgrade'],'nuclearcraft:upgrade_energy')
 
 
+    assembly(['mekanism:block_steel', 'nuclearcraft:steel_frame', 'mekanism:alloy_atomic', 'mekanism:steel_casing'],[8,4,1,1],'nuclearcraft:chassis',1)
 
+    smart_assembly(['bluepower:blulectric_alloyfurnace', 'nuclearcraft:chassis', 'mekanism:chemical_crystallizer'],'nuclearcraft:ingot_former')
 
+    smart_assembly(['bluepower:blulectric_alloyfurnace', 'nuclearcraft:chassis', 'mekanism:electrolytic_separator'],'nuclearcraft:centrifuge')
 
-
-
+    smart_assembly(['nuclearcraft:bioplastic','mekanism:ingot_bronze', 'nuclearcraft:plate_basic', 'nuclearcraft:tough_alloy_ingot'],'nuclearcraft:plate_advanced')
 
 
 

@@ -500,11 +500,19 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "411A1007C8E147F8"
-			rewards: [{
-				id: "05C421A119AD576F"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "05C421A119AD576F"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "284FA4BD25FE93A4"
+					item: "tombstone:strange_scroll"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Crafting item but not here!"
 			tasks: [{
@@ -519,6 +527,7 @@
 			dependencies: [
 				"6DCCBC7AE25353C3"
 				"6240CC21E07DF06B"
+				"3F818FA3A0D9B316"
 			]
 			hide: true
 			id: "4A6600C0D5D16679"
@@ -1009,8 +1018,8 @@
 		}
 		{
 			dependencies: [
+				"3F818FA3A0D9B316"
 				"4B0F0A9E1091DD0E"
-				"578BA9E968E7B064"
 			]
 			hide: true
 			id: "0D6DDD97A2065943"
@@ -1782,7 +1791,7 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["578BA9E968E7B064"]
+			dependencies: ["3F818FA3A0D9B316"]
 			hide: true
 			id: "12A99E6FC80CE5A9"
 			rewards: [{
@@ -2046,7 +2055,7 @@
 		{
 			dependencies: [
 				"1BEF9782AAE08017"
-				"578BA9E968E7B064"
+				"3F818FA3A0D9B316"
 			]
 			hide: true
 			id: "3CF427D28764EE4F"
@@ -2084,7 +2093,7 @@
 		{
 			dependencies: [
 				"15DE813782E5A124"
-				"578BA9E968E7B064"
+				"3F818FA3A0D9B316"
 			]
 			hide: true
 			id: "0EF6B10F9F4FD2E1"
@@ -2451,7 +2460,7 @@
 		{
 			dependencies: [
 				"182E4121F73DB516"
-				"578BA9E968E7B064"
+				"3F818FA3A0D9B316"
 			]
 			hide: true
 			id: "25DADB6F081F6920"

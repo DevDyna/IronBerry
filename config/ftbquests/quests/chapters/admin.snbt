@@ -5,18 +5,44 @@
 	group: ""
 	icon: "engineersdecor:sign_caution"
 	id: "16E435778A200D54"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 4.0d
-		hover: [ ]
-		image: "ftbquests:block/screen_side"
-		rotation: 0.0d
-		width: 4.0d
-		x: -1.0d
-		y: -1.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:block/screen_side"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:block/detector"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:block/detector_on"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 3.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -56,6 +82,9 @@
 				"The solution at this problem : restart the game / restart the server and will automatically fix"
 				""
 				"Why do you can fix them? This issue still caused by Kubejs so i cant do nothing"
+				""
+				""
+				"If happen write a issue with it!"
 			]
 			icon: "engineersdecor:sign_caution"
 			id: "2379F3AFBC850D29"
@@ -69,14 +98,67 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["58B49792D4827F5F"]
+			icon: "quark:monster_box"
 			id: "7376B8B653E2AB9A"
+			rewards: [{
+				command: "/gamerule doMobSpawning false"
+				id: "45A8E1F902603DBB"
+				type: "command"
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "5E2884587E41A233"
 				title: "Gamerules"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			title: "Mob Spawn"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58B49792D4827F5F"]
+			icon: {
+				Count: 1b
+				id: "cyclic:fire_killer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55FDA0EF6F2C5C16"
+			rewards: [{
+				command: "/gamerule doFireTick true"
+				id: "4E0FB9D1A4C9E909"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4687411B70F58E0D"
+				title: "Gamerules"
+				type: "checkmark"
+			}]
+			title: "Firetick"
+			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["58B49792D4827F5F"]
+			icon: "minecraft:wandering_trader_spawn_egg"
+			id: "513D9DF87818066C"
+			rewards: [{
+				command: "/gamerule doTraderSpawning false"
+				id: "62BAC62690480A85"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2F2D784A379381AE"
+				title: "Gamerules"
+				type: "checkmark"
+			}]
+			title: "Trader"
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "Admin Stuff"

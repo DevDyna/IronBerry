@@ -19,10 +19,10 @@ ServerEvents.recipes(event => {
                 "item": output
               }
             ],
-            "powerModifier": 500.0,
+            "powerModifier": 50.0,
             "radiation": 0.0,
             "timeModifier": 0.25
-          })
+          }).id(RegX(item_a +item_b+ '_' + output, '_'))
     }
 
     alloy('thermal:bitumen',1,'twilightforest:ironwood_ingot',1,'mekanism:ingot_steel',2)
@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
     function smart_alloy(item_list,output){
       alloy(item_list[0],1,item_list[1],1,output,1)
     }
+
 
     function infusion(ingredient,in_list,out_list){
       in_list.forEach((element , index) => {
@@ -48,6 +49,13 @@ ServerEvents.recipes(event => {
     smart_alloy(['nuclearcraft:basic_electric_circuit', 'pipez:fluid_pipe'],'mekanism:basic_mechanical_pipe')
     smart_alloy(['nuclearcraft:basic_electric_circuit', 'pipez:energy_pipe'],'mekanism:basic_universal_cable')
     smart_alloy(['nuclearcraft:basic_electric_circuit', 'pipez:gas_pipe'],'mekanism:basic_pressurized_tube')
+
+
+    alloy('thermal:tin_ingot',1, 'minecraft:copper_ingot',3,'mekanism:ingot_bronze',4)
+    alloy('nuclearcraft:boron_ingot',1,'mekanism:ingot_steel',1, 'nuclearcraft:ferroboron_ingot',2)
+    alloy('nuclearcraft:ferroboron_ingot',1, 'nuclearcraft:lithium_ingot',1, 'nuclearcraft:tough_alloy_ingot',2)
+
+
 
 
 })

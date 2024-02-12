@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
           "powerModifier": 500.0,
           "radiation": 0.0,
           "timeModifier": 0.25
-        })
+        }).id(RegX(fluid +amount+ '_' + output, '_'))
     }
 
 

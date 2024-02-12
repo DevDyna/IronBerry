@@ -43,8 +43,44 @@
 			image: "nuclearcraft:block/processor/alloy_smelter_powered"
 			rotation: 0.0d
 			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nuclearcraft:block/energy/rtg/uranium/side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.271428571428558d
+			y: -2.4690476190476147d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thoriumreactors:block/reactor_core_up_fueled"
+			rotation: 0.0d
+			width: 1.0d
 			x: -7.0d
-			y: 1.0d
+			y: -3.0d
 		}
 	]
 	order_index: 5
@@ -66,40 +102,34 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4C624E7DFD3E414E"]
-			id: "50BF629AA3EF5AC5"
-			shape: "diamond"
-			tasks: [{
-				id: "0B46668FB45E4AAF"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:alloy_smelter"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C624E7DFD3E414E"]
 			id: "087A5EF088DDED0E"
-			tasks: [{
-				id: "048269CE1B19903E"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:assembler"
-					tag: { }
+			subtitle: "Too many energy wasted !?"
+			tasks: [
+				{
+					id: "048269CE1B19903E"
+					item: {
+						Count: 1b
+						id: "nuclearcraft:assembler"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 0.0d
+				{
+					id: "544217C16203B1FF"
+					item: "nuclearcraft:alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "Nuclear Simply Machines"
+			x: 2.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["1749654EEB1ECEDC"]
 			id: "1FE2BB2E4BDB24C0"
 			tasks: [{
 				id: "32530DAAF7CA4944"
@@ -110,8 +140,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -8.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			id: "42AA46B26C7E74DC"
@@ -124,10 +154,11 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["06A531620346F341"]
 			id: "3F799A3D653ECAC6"
 			shape: "gear"
 			tasks: [{
@@ -139,8 +170,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "6A75F878974792BB"
@@ -179,7 +210,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -193,10 +224,11 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
+			description: ["If you lost one of them you can find same schematic on folder: /kubejs/example/schematics"]
 			id: "152F5B457DF4C6AB"
 			rewards: [
 				{
@@ -265,7 +297,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "/kubejs/example/schematics"
+			subtitle: "I have a gift"
 			tasks: [{
 				id: "49E6A7B7592F6F49"
 				type: "checkmark"
@@ -281,20 +313,24 @@
 				item: "thoriumreactors:reactor_casing"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -7.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C1E2464FB392627"]
+			description: ["Suggest to set on 0.1mb/tick and never increase if you want stay safe :p"]
+			icon: "kubejs:explosion"
 			id: "06A531620346F341"
-			subtitle: "Suggest to set on 0.1mb/tick and never increase"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "5C5D7B2B25D417ED"
 				item: "mekanismgenerators:fission_reactor_casing"
 				type: "item"
 			}]
+			title: "Bad Explosions"
 			x: 2.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "6D22F5E6A3EA85E8"
@@ -390,8 +426,8 @@
 				item: "cyclic:peat_farm"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["55628480845DB31F"]
@@ -432,29 +468,31 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			title: "Chemistry 2.0 #1"
+			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["50BF629AA3EF5AC5"]
+			dependencies: ["087A5EF088DDED0E"]
 			id: "0496DF45F94AC1F8"
 			tasks: [{
 				id: "7B0D875A68C7CADC"
 				item: "mekanism:basic_universal_cable"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
 			id: "0235AD43D99C6287"
+			subtitle: "Solution of a simply problem"
 			tasks: [{
 				id: "3BE02DE9D4B4089C"
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -501,35 +539,51 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"087A5EF088DDED0E"
-				"50BF629AA3EF5AC5"
-			]
+			dependencies: ["087A5EF088DDED0E"]
 			id: "0F2299A58A58EDC5"
 			tasks: [{
 				id: "5D49EC340A49589A"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["06A531620346F341"]
+			dependencies: ["3F799A3D653ECAC6"]
 			id: "1B8615BAC47B6BB1"
+			tasks: [
+				{
+					id: "3D1C39238AE3FAB5"
+					item: "nuclearcraft:centrifuge"
+					type: "item"
+				}
+				{
+					id: "29F69B0AE1563157"
+					item: "nuclearcraft:ingot_former"
+					type: "item"
+				}
+			]
+			title: "Chemistry 2.0 #2"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6138769A65F12025"]
+			id: "1749654EEB1ECEDC"
 			tasks: [{
-				id: "3D1C39238AE3FAB5"
-				item: "nuclearcraft:centrifuge"
+				id: "60048DC5744323C9"
+				item: "nuclearcraft:plate_advanced"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 3.0d
+			y: 4.0d
 		}
 	]
-	subtitle: ["Run an' Run"]
+	subtitle: ["Wasting resources on reactions!"]
 	title: "Age 5"
 }

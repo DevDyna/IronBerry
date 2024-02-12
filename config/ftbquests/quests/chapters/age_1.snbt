@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "age_1"
 	group: "0AB07CEFAAABA228"
-	icon: "inventorypets:start_button"
+	icon: "inventorypets:windows_xp"
 	id: "08457B35F5B0B70C"
 	images: [{
 		click: ""
@@ -140,5 +140,5 @@
 		}
 	]
 	subtitle: ["Easter egg Hunting!"]
-	title: "Age 0"
+	title: "Age xp"
 }
