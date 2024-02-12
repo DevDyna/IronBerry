@@ -1659,6 +1659,7 @@
 		}
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
+			description: ["Use Crescent Hammer to see where need to be water!"]
 			id: "3F0ADDDB9A667132"
 			optional: true
 			rewards: [{

@@ -150,6 +150,7 @@ ServerEvents.recipes(event => {
         alloy(['pipez:basic_upgrade'],[5],'pipez:improved_upgrade',1)
         alloy(['pipez:improved_upgrade'],[5],'pipez:advanced_upgrade',1)
 
+        alloy(['minecraft:echo_shard'],[4],'minecraft:sculk',1)
 
 
     })

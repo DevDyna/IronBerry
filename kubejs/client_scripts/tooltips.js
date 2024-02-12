@@ -92,7 +92,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:ae2_wireless', 'Require to work a §aAccess point §fto work')
     tipplusplus('tombstone:strange_scroll', '§6Right click with it if you have any effect , the effect can be absorbed on the scroll and reused later')
     tipplusplus('#ironberry:ae_charged', 'Can be charged using a §acharger')
-    tipplusplus('#ironberry:fishing', 'Can be obtained by a §aFishing')
+    tipplusplus('#ironberry:fishing', 'Can be obtained by §aFishing')
     tipplusplus('tombstone:lost_tablet', 'Dont §ctravel §fbecause §cisnt spawned')
     tipplusplus('#ironberry:indigo_flowers', 'Bonemeal §aGrass block §fto obtain')
     tipplusplus('tombstone:white_marble', '§cDue NBT issue you cannot craft white gravestone on stonecutter')

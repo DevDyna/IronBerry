@@ -249,4 +249,8 @@ function emolimix(jump,variants){
 	less(['mekanism:block_steel'],'9x mekanism:ingot_steel')
 	less(['mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel'],'mekanism:block_steel',1)
 	
+	less(['mekanism:basic_logistical_transporter','minecraft:repeater'],'mekanism:restrictive_transporter')
+	less(['mekanism:basic_logistical_transporter','minecraft:redstone_torch'],'mekanism:diversion_transporter')
+
+
 })
