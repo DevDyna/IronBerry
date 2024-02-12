@@ -1180,6 +1180,12 @@
 		}
 		{
 			dependencies: ["7832CA4A1E6D674F"]
+			description: [
+				"Liquids that can be used as fuel:"
+				"- Water 1x"
+				"- Ethanol 4x speed"
+				"- Biodiesel 4x efficiency"
+			]
 			hide: true
 			icon: "pneumaticcraft:security_upgrade"
 			id: "406410AD4DCF1465"

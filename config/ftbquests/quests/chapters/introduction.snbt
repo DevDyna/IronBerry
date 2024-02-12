@@ -540,7 +540,10 @@
 				"- doFireTick : true"
 				"- doTraderSpawning : false"
 				"- doMobSpawning : false"
+				"- doDaylightCycle : false"
 				""
+				"Also:"
+				"- time set noon"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:campfire"

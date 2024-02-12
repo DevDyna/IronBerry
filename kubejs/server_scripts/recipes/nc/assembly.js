@@ -11,9 +11,9 @@ ServerEvents.recipes(event => {
       "type": "nuclearcraft:assembler",
       "input": ingredient,
       "output": output,
-      "powerModifier": 50.0,
+      "powerModifier": (global.nc.energy/10),
       "radiation": 0.0,
-      "timeModifier": 0.25
+      "timeModifier": (global.nc.speed*2)
     }).id(RegX(input_item + '_' + item_out, '_'))
   }
 

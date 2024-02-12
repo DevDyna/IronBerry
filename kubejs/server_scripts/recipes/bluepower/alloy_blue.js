@@ -145,4 +145,11 @@ ServerEvents.recipes(event => {
 
         alloy(['mekanism:dust_lithium'],[2],'nuclearcraft:lithium_ingot',1)
 
-})
+        alloy(['bluepower:red_doped_wafer', 'bluepower:blue_doped_wafer', 'bluepower:purple_alloy_ingot'],[2,2,1],'bluepower:solar_panel',4)
+
+        alloy(['pipez:basic_upgrade'],[5],'pipez:improved_upgrade',1)
+        alloy(['pipez:improved_upgrade'],[5],'pipez:advanced_upgrade',1)
+
+
+
+    })

@@ -246,7 +246,7 @@ function emolimix(jump,variants){
 
 	less(['rootsclassic:verdant_sprig','minecraft:lime_stained_glass'],'cyclic:terra_glass')
 
-
-
+	less(['mekanism:block_steel'],'9x mekanism:ingot_steel')
+	less(['mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel', 'mekanism:ingot_steel'],'mekanism:block_steel',1)
 	
 })

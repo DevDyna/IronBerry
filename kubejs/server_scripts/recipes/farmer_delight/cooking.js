@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         "ingredients": [{
                 "item": "minecraft:sugar"
             }, {
-                "item": "minecraft:sugar"
+                "item": 'supplementaries:candy'
             }, {
                 "item": "minecraft:stick"
             }

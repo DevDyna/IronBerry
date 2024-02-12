@@ -1,6 +1,6 @@
 JEIEvents.hideItems(event => {
     event.hide(global.disabledItem)
-	event.hide(global.hiddenItems)
+	event.hide(global.clearNBT)
 })
 JEIEvents.information(event => {
     event.addItem('#ironberry:blue_slabs', 'Can be created by placing on a crafting grid a saw and a solid block')
@@ -29,7 +29,7 @@ JEIEvents.hideCustom(event => {
 })
 	//show items without nbt
 JEIEvents.addItems(event => {
-	global.hiddenItems.forEach(item=>{
+	global.clearNBT.forEach(item=>{
 	event.add(item)	
 	})
 })
@@ -38,6 +38,12 @@ JEIEvents.hideItems(event => {
 	global.uselessItems.forEach(item=>{
 		event.hide(item)
 	})
-	
-	
+})
+
+JEIEvents.hideItems(event=>{
+    event.hide(/nuclearcraft:(?:\w+_bucket)/)
+})
+
+JEIEvents.hideFluids(event=>{
+    event.hide(/nuclearcraft:\w+/)
 })

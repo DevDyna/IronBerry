@@ -82,6 +82,7 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+        'pipez:improved_upgrade', 'pipez:advanced_upgrade',
         'mekanismgenerators:fission_reactor_logic_adapter',
         'mekanismgenerators:fission_reactor_port',
         'cyclic:sprinkler',

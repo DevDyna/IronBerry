@@ -19,49 +19,52 @@ ServerEvents.recipes(event => {
 	"count": 8
   }
 })
-
-//------------------------------//
+	//------------------------------//
 	event.custom({
-  "type": "cyclic:solidifier",
+    "type": "cyclic:solidifier",
     "ingredients":[ {
-    "tag": 'rootsclassic:berries'
-  }
-  ],
-  "mix": {
-    "fluid": "minecraft:water",
-    "count": 100
-  },
-	"energy": {
-		"rfpertick": 10,
-		"ticks": 20
-	},
-  "result": {
-    "item": 'cyclic:biomass',
-	"count": 1
-  }
-})
-//------------------------------//
+      "item": 'kubejs:silicon_plated'
+    },{
+      "item": 'kubejs:silicon_plated'
+    }
+    ],
+    "mix": {
+      "fluid": "kubejs:liquid_silicon",
+      "count": 400
+    },
+    "energy": {
+      "rfpertick": 100,
+      "ticks": 120
+    },
+    "result": {
+      "item": 'nuclearcraft:plate_basic',
+    "count": 16
+    }
+  })
+	//------------------------------//
 	event.custom({
-  "type": "cyclic:solidifier",
-  "ingredients":[ {
-    "item": 'cyclic:peat_fuel'
-  },{
-    "item": 'cyclic:peat_fuel'
-  }
-  ],
-  "mix": {
-    "fluid": "minecraft:water",
-    "count": 200
-  },
-	"energy": {
-		"rfpertick": 10,
-		"ticks": 120
-	},
-  "result": {
-    "item": 'cyclic:peat_fuel_enriched',
-	"count": 2
-  }
-})
+    "type": "cyclic:solidifier",
+    "ingredients":[ {
+      "item": 'kubejs:silicon_plated'
+    },{
+      "item": 'kubejs:silicon_plated'
+    },{
+      "item": 'kubejs:silicon_plated'
+    }
+    ],
+    "mix": {
+      "fluid": "kubejs:liquid_silicon",
+      "count": 600
+    },
+    "energy": {
+      "rfpertick": 100,
+      "ticks": 120
+    },
+    "result": {
+      "item": 'nuclearcraft:plate_basic',
+    "count": 24
+    }
+  })
 //------------------------------//
 
 	event.custom({
@@ -161,6 +164,145 @@ event.custom({
   }
 })
 //------------------------------//
+//-----------------------------------------PEAT----------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": 'cyclic:peat_fuel'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 100
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 120
+	},
+  "result": {
+    "item": 'cyclic:peat_fuel_enriched',
+	"count": 1
+  }
+})
+//------------------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": 'cyclic:peat_fuel'
+  },{
+    "item": 'cyclic:peat_fuel'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 200
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 120
+	},
+  "result": {
+    "item": 'cyclic:peat_fuel_enriched',
+	"count": 2
+  }
+})
+//------------------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": 'cyclic:peat_fuel'
+  },{
+    "item": 'cyclic:peat_fuel'
+  },{
+    "item": 'cyclic:peat_fuel'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 300
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 120
+	},
+  "result": {
+    "item": 'cyclic:peat_fuel_enriched',
+	"count": 3
+  }
+})
+//-------------------------------------BIOMASS-----------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+    "ingredients":[ {
+    "tag": 'rootsclassic:berries'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 100
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 20
+	},
+  "result": {
+    "item": 'cyclic:biomass',
+	"count": 1
+  }
+})
+//------------------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+    "ingredients":[ {
+    "tag": 'rootsclassic:berries'
+  },{
+    "tag": 'rootsclassic:berries'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 200
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 20
+	},
+  "result": {
+    "item": 'cyclic:biomass',
+	"count": 2
+  }
+})
+//------------------------------//
+event.custom({
+  "type": "cyclic:solidifier",
+    "ingredients":[ {
+    "tag": 'rootsclassic:berries'
+  },{
+    "tag": 'rootsclassic:berries'
+  },{
+    "tag": 'rootsclassic:berries'
+  }
+  ],
+  "mix": {
+    "fluid": "minecraft:water",
+    "count": 300
+  },
+	"energy": {
+		"rfpertick": 10,
+		"ticks": 20
+	},
+  "result": {
+    "item": 'cyclic:biomass',
+	"count": 3
+  }
+})
+
+
+
+
+
+
+
 
 
 

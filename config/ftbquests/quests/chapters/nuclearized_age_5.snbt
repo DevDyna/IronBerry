@@ -140,7 +140,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -155,7 +155,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
@@ -202,7 +202,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["78B8301419809CE3"]
+			dependencies: [
+				"7EABBDB739B99D38"
+				"15CF5E8AA4B5EDE2"
+			]
 			id: "2B43C4FF561B52A2"
 			tasks: [{
 				id: "600E47E5DFD57AA5"
@@ -213,10 +216,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"78B8301419809CE3"
-				"123D0BCDB0FD19BF"
-			]
+			dependencies: ["123D0BCDB0FD19BF"]
 			id: "4885D497784749F6"
 			tasks: [{
 				id: "4D02C74F2AE06E20"
@@ -333,27 +333,6 @@
 			y: 2.0d
 		}
 		{
-			id: "6D22F5E6A3EA85E8"
-			tasks: [{
-				id: "7D3F0F209CF92D1D"
-				item: "ten3:machine_matter_condenser"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["6D22F5E6A3EA85E8"]
-			id: "6CAEDA6D836CFA49"
-			tasks: [{
-				id: "14CCC849DB698CB4"
-				item: "ten3:liquid_bizarrerie_bucket"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
 			dependencies: [
 				"2755A2FC0A6CCDBA"
 				"6ED044B16F1D4FC7"
@@ -393,6 +372,7 @@
 					type: "item"
 				}
 			]
+			title: "Chambers"
 			x: -2.0d
 			y: -6.0d
 		}
@@ -426,8 +406,8 @@
 				item: "cyclic:peat_farm"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55628480845DB31F"]
@@ -496,14 +476,15 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["15CF5E8AA4B5EDE2"]
 			id: "46650594DAFC04AF"
 			tasks: [{
 				id: "476C0C06E022E7E0"
 				item: "thermal:bitumen"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["46650594DAFC04AF"]
@@ -513,8 +494,8 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1B8615BAC47B6BB1"]
@@ -539,11 +520,15 @@
 					type: "item"
 				}
 			]
+			title: "Ingot Fantastic"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["087A5EF088DDED0E"]
+			dependencies: [
+				"087A5EF088DDED0E"
+				"78B8301419809CE3"
+			]
 			id: "0F2299A58A58EDC5"
 			tasks: [{
 				id: "5D49EC340A49589A"
@@ -580,7 +565,7 @@
 				item: "nuclearcraft:plate_advanced"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.0d
 		}
 	]

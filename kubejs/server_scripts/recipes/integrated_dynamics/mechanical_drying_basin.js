@@ -139,7 +139,20 @@ ServerEvents.recipes(event => {
             "item": 'minecraft:sweet_berries'
         }
     })
-	
+	    //
+    //
+    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'bluepower:blulectric_furnace',
+        "fluid": {
+            "fluid": "kubejs:acid",
+            "amount": 1000
+        },
+        "duration": 100,
+        "result": {
+            "item": 'ten3:machine_smelter'
+        }
+    })
 	
 	
 	

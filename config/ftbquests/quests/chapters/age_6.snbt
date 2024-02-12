@@ -7,6 +7,28 @@
 	id: "208C2C6949C0260D"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6D22F5E6A3EA85E8"]
+			id: "6CAEDA6D836CFA49"
+			tasks: [{
+				id: "14CCC849DB698CB4"
+				item: "ten3:liquid_bizarrerie_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "6D22F5E6A3EA85E8"
+			tasks: [{
+				id: "7D3F0F209CF92D1D"
+				item: "ten3:machine_matter_condenser"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
 	title: "Age 6"
 }
