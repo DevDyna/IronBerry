@@ -417,15 +417,12 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: ["A powerful tool to break many blocks at same time"]
+			description: [
+				"You dont know how to obtain or how work a block/item \\n\\nLook the tooltips ! \\nThere are made to help ! \\n\\nIf still missing , write a issue\\n\\n"
+				"{image:ironberry:textures/other/tip.png width:173 height:64 align:1 fit:true}"
+			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "minecraft:golden_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "engineersdecor:sign_defense"
 			id: "0BAD1439524D1EE2"
 			rewards: [{
 				id: "7FEBB14D45EBEBFE"
@@ -440,11 +437,10 @@
 			}]
 			shape: "gear"
 			tasks: [{
-				id: "231A4532E57DDAC5"
-				title: "JEI best friend"
+				id: "24C83531A3B4BC8A"
 				type: "checkmark"
 			}]
-			title: "FTB Ultimine is here"
+			title: "Extra Utilities"
 			x: -7.5d
 			y: -10.5d
 		}

@@ -143,5 +143,32 @@ ServerEvents.recipes(event => {
         mod: 'gateways'
     })
 
+    event.remove({
+        mod: 'ae2'
+    })
+
+    event.remove({
+        mod: 'appmek'
+    })
+
+    event.remove({
+        mod: 'arseng'
+    })
+
+    event.remove({
+        mod: 'expatternprovider'
+    })
+
+    event.remove({
+        mod: 'extendedcrafting'
+    })
+
+    event.remove({
+        mod: 'ae2things'
+    })
+    
+    event.remove({
+        mod: 'ae2wtlib'
+    })
 })
 

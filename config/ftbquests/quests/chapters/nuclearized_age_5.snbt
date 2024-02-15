@@ -124,7 +124,7 @@
 					type: "item"
 				}
 			]
-			title: "Nuclear Simply Machines"
+			title: "Simple Nuclear Machines"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -228,25 +228,9 @@
 		}
 		{
 			dependencies: ["06A531620346F341"]
-			description: ["If you lost one of them you can find same schematic on folder: /kubejs/example/schematics"]
+			description: ["You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics"]
 			id: "152F5B457DF4C6AB"
 			rewards: [
-				{
-					id: "7FDCE946C73076C0"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:template"
-						tag: {
-							template_id: [I;
-								2085223044
-								-2025307395
-								-1735971033
-								-965562790
-							]
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "5C20BF85321F60AF"
 					item: {
@@ -307,27 +291,58 @@
 			y: 1.0d
 		}
 		{
-			id: "3BBD296D62152BE5"
-			tasks: [{
-				id: "722C1371230BA51E"
-				item: "thoriumreactors:reactor_casing"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["3C1E2464FB392627"]
 			description: ["Suggest to set on 0.1mb/tick and never increase if you want stay safe :p"]
-			icon: "kubejs:explosion"
+			icon: "mekanismgenerators:fission_reactor_port"
 			id: "06A531620346F341"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "5C5D7B2B25D417ED"
-				item: "mekanismgenerators:fission_reactor_casing"
+			rewards: [{
+				id: "536AA298FCDA20F7"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:template"
+					tag: {
+						template_id: [I;
+							2085223044
+							-2025307395
+							-1735971033
+							-965562790
+						]
+					}
+				}
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 25L
+					id: "5C5D7B2B25D417ED"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "106A73897F038C23"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79B2C01B86674A3C"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "50A04CFB89B83078"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3F2D2E5AE993558C"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
 			title: "Bad Explosions"
 			x: 2.0d
 			y: 2.0d
@@ -426,6 +441,7 @@
 				"0F2299A58A58EDC5"
 			]
 			id: "3C1E2464FB392627"
+			subtitle: "Gas everywhere"
 			tasks: [
 				{
 					id: "205B683C5A1CFA5F"
@@ -567,6 +583,222 @@
 			}]
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			id: "18C2979C94B41DE6"
+			tasks: [{
+				id: "3E99C14F33B7B40A"
+				item: {
+					Count: 1b
+					id: "inventorypets:pet_cow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			icon: "thoriumreactors:reactor_controller"
+			id: "4B2287F56C73C510"
+			rewards: [{
+				id: "5741B91C8E546F43"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:template"
+					tag: {
+						template_id: [I;
+							1804752495
+							-1480048527
+							-1907807541
+							748982222
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 61L
+					id: "4D2CB27B63B062EA"
+					item: "thoriumreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "0060173FF109617F"
+					item: "thoriumreactors:reactor_rod_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "364AC0A4DAD9EA3F"
+					item: "thoriumreactors:reactor_graphite_moderator"
+					type: "item"
+				}
+				{
+					count: 31L
+					id: "620E667501DBA133"
+					item: "thoriumreactors:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "5A783267A00C8F03"
+					item: "thoriumreactors:reactor_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "253B4DFB9C05A073"
+					item: "thoriumreactors:reactor_valve"
+					type: "item"
+				}
+				{
+					id: "51070B7A03CB7650"
+					item: "thoriumreactors:reactor_core"
+					type: "item"
+				}
+			]
+			title: "Thorium Reactor"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			icon: "thoriumreactors:thermal_controller"
+			id: "5C30C4E45CA21A76"
+			rewards: [{
+				id: "1E84499C4031E0FD"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:template"
+					tag: {
+						template_id: [I;
+							1471438768
+							2141735968
+							-1236556662
+							1172667355
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 15L
+					id: "1109FFB086795BB4"
+					item: "thoriumreactors:thermal_heat_sink"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "2E011A379AC828DE"
+					item: "thoriumreactors:thermal_conductor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "67A7C5C83BF7D727"
+					item: "thoriumreactors:thermal_valve"
+					type: "item"
+				}
+				{
+					id: "15E8519152A88153"
+					item: "thoriumreactors:thermal_controller"
+					type: "item"
+				}
+			]
+			title: "Thermal evaporation"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			icon: "thoriumreactors:turbine_controller"
+			id: "46AF3BFA42CC2870"
+			rewards: [{
+				id: "25B7A40B330CBAC2"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:template"
+					tag: {
+						template_id: [I;
+							-161427434
+							1210010715
+							-2111619084
+							19967316
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "24E189D9DE989891"
+					item: "thoriumreactors:turbine_rotation_mount"
+					type: "item"
+				}
+				{
+					id: "660AE39ADBD0F6DB"
+					item: "thoriumreactors:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "09E442F680D949CD"
+					item: "thoriumreactors:turbine_power_port"
+					type: "item"
+				}
+				{
+					count: 68L
+					id: "534C77B4F38F1E66"
+					item: "thoriumreactors:turbine_casing"
+					type: "item"
+				}
+				{
+					count: 45L
+					id: "504EC8704269A8AE"
+					item: "thoriumreactors:turbine_glass"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3B46162E60CA9805"
+					item: "thoriumreactors:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "0E6CC3584255A756"
+					item: "thoriumreactors:turbine_controller"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "439525D9E5A4AAC5"
+					item: "thoriumreactors:turbine_blade"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40EB4DAE85DCC1AC"
+					item: "thoriumreactors:molybdenum_block"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5E3E6F057FD59203"
+					item: "thoriumreactors:turbine_vent"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5D340F6ECFB72122"
+					item: "thoriumreactors:electromagnetic_coil"
+					type: "item"
+				}
+			]
+			title: "Turbine"
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Wasting resources on reactions!"]

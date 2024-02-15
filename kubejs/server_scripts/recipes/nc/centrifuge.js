@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 
-
   event.custom({
     "type": "nuclearcraft:centrifuge",
     "inputFluids": [
@@ -20,7 +19,7 @@ ServerEvents.recipes(event => {
       },
       {
         "amount": 15,
-        "fluid": "kubejs:graphite"
+        "fluid": "kubejs:osmium"
       },
       {
         "amount": 15,
@@ -36,9 +35,11 @@ ServerEvents.recipes(event => {
       }
     ],
     "powerModifier": (global.nc.energy),
-    "radiation": 0.0,
+    "radiation": (global.nc.rad),
     "timeModifier": (global.nc.speed)
   })
+
+  
 
 
 })

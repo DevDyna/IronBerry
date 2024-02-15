@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
               }
             ],
             "powerModifier": (global.nc.energy/10),
-            "radiation": 0.0,
+            "radiation": (global.nc.rad),
             "timeModifier": (global.nc.speed*2)
           }).id(RegX(item_a +item_b+ '_' + output, '_'))
     }
@@ -54,8 +54,7 @@ ServerEvents.recipes(event => {
     alloy('thermal:tin_ingot',1, 'minecraft:copper_ingot',3,'mekanism:ingot_bronze',4)
     alloy('nuclearcraft:boron_ingot',1,'mekanism:ingot_steel',1, 'nuclearcraft:ferroboron_ingot',2)
     alloy('nuclearcraft:ferroboron_ingot',1, 'nuclearcraft:lithium_ingot',1, 'nuclearcraft:tough_alloy_ingot',2)
-
-
+    alloy('mekanism:ingot_osmium',1,'mekanism:dust_refined_obsidian',1,'mekanism:ingot_refined_obsidian',1)
 
 
 })

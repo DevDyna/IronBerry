@@ -126,26 +126,6 @@ ServerEvents.recipes(event => {
   "type": "pneumaticcraft:thermo_plant",
   "fluid_input": {
 	  "type": "pneumaticcraft:fluid",
-    "tag": "ironberry:chad_water",
-    "amount": 1000
-  },
-      "item_input": {
-    "item": 'minecraft:redstone'
-  },
-  "temperature": {
-    "min_temp": 272
-  },
-  "fluid_output": {
-    "fluid": "mekanism:steam",
-  "amount": 10
-  }
-  })
-  
-  //------------------------------------------------------//
-	event.custom({
-  "type": "pneumaticcraft:thermo_plant",
-  "fluid_input": {
-	  "type": "pneumaticcraft:fluid",
     "tag": "ironberry:chad_merlin",
     "amount": 10
   },
@@ -398,6 +378,24 @@ ServerEvents.recipes(event => {
     "type": "pneumaticcraft:thermo_plant",
     "fluid_input": {
       "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_water",
+      "amount": 1000
+    },
+    "item_input":{
+      "item": 'kubejs:instability'
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "item_output": {
+      "item": 'minecraft:obsidian'
+    }
+    })
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
       "tag": "ironberry:chad_syrup",
       "amount": 125
     },
@@ -408,6 +406,9 @@ ServerEvents.recipes(event => {
       "item": 'thermal:sulfur'
     }
     })
+
+
+
 
 
 

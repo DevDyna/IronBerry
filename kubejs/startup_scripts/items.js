@@ -168,4 +168,17 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/upgrade_template')
     .displayName('Upgrade Base')
 
+    event.create('uranium')
+    .texture('ironberry:item/uranium')
+    .displayName('Radioactive Uranium')
+
+    event.create('thorium')
+    .texture('ironberry:item/thorium')
+    .displayName('Radioactive Thorium')
+
+    event.create('enriched_thorium')
+    .texture('ironberry:item/enriched_thorium')
+    .displayName('Enriched Thorium Pellet')
+
+
 })

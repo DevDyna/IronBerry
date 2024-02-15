@@ -763,7 +763,11 @@ ServerEvents.tags('item', event => {
 	
 	event.add('ironberry:birds_cooked',['exoticbirds:cooked_birdmeat', 'minecraft:cooked_chicken'])
 
-    event.add('ironberry:mid_ingots',[ 'thermal:tin_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:thorium_ingot', 'nuclearcraft:uranium_ingot', 'nuclearcraft:boron_ingot', 'nuclearcraft:magnesium_ingot'])
+    event.add('ironberry:mid_ingots',[ 'thermal:tin_ingot', 'mekanism:ingot_osmium', 'nuclearcraft:thorium_ingot', 'nuclearcraft:uranium_ingot', 'nuclearcraft:boron_ingot', 'nuclearcraft:magnesium_ingot'])
+
+    event.add('ironberry:blue_picks',['bluepower:sapphire_pickaxe', 'bluepower:green_sapphire_pickaxe', 'bluepower:ruby_pickaxe'])
+
+
 })
 
 ServerEvents.tags('block', event => {

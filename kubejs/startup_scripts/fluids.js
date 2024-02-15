@@ -86,10 +86,10 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0x868782)
 		.displayName('Synthetic Boron')
 
-        event.create('graphite')
-        .thickTexture(0x272B29)
-		.bucketColor(0x272B29)
-		.displayName('Synthetic Graphite')
+        event.create('osmium')
+        .thickTexture(0x9FD9EB)
+		.bucketColor(0x9FD9EB)
+		.displayName('Synthetic Osmium')
 
         event.create('thorium')
         .thickTexture(0x1D2421)
@@ -110,4 +110,31 @@ StartupEvents.registry('fluid', event => {
         .thickTexture(0x3BB23B)
 		.bucketColor(0x3BB23B)
 		.displayName('Synthetic Uranium')
+
+        event.create('graphite')
+        .thickTexture(0x272B29)
+		.bucketColor(0x272B29)
+		.displayName('Molten Graphite')
+
+        event.create('coal')
+        .thickTexture(0x585252)
+		.bucketColor(0x585252)
+		.displayName('Refined Oil')
+
+        event.create('osmium_enriched')
+        .thickTexture(0x64ECCC)
+		.bucketColor(0x64ECCC)
+		.displayName('Enriched Osmium')
+
+        event.create('quartz')
+        .thickTexture(0xE6E1E1)
+		.bucketColor(0xE6E1E1)
+		.displayName('Molten Quartz')
+
+        event.create('certus')
+        .thickTexture(0xADF5F7)
+		.bucketColor(0xADF5F7)
+		.displayName('Molten Certus')
+
+
 })

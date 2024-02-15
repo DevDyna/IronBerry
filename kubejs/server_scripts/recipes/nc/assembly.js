@@ -12,17 +12,21 @@ ServerEvents.recipes(event => {
       "input": ingredient,
       "output": output,
       "powerModifier": (global.nc.energy/10),
-      "radiation": 0.0,
+      "radiation": (global.nc.rad),
       "timeModifier": (global.nc.speed*2)
     }).id(RegX(input_item + '_' + item_out, '_'))
   }
 
-  function smart_assembly(input, output){
+  function tiny_assembly(input,output,result_count){
     let count = [];
     input.forEach(a => {
       count.push(1);
     });
-    assembly(input, count, output, 1)
+    assembly(input, count, output, result_count)
+  }
+
+  function smart_assembly(input, output){
+    tiny_assembly(input,output,1)
   }
 
   assembly(
@@ -49,15 +53,38 @@ ServerEvents.recipes(event => {
 
     smart_assembly(['nuclearcraft:bioplastic','mekanism:ingot_bronze', 'nuclearcraft:plate_basic', 'nuclearcraft:tough_alloy_ingot'],'nuclearcraft:plate_advanced')
 
+    tiny_assembly(['minecraft:egg', 'tombstone:lollipop', 'minecraft:wheat'],'nuclearcraft:graham_cracker',2)
+
+    function nc_food(bread,output){
+assembly(['nuclearcraft:milk_chocolate', 'nuclearcraft:marshmallow', 'nuclearcraft:dark_chocolate', bread],[1,1,1,2],output,1)
+}
+
+nc_food('nuclearcraft:graham_cracker','nuclearcraft:smore')
+nc_food('nuclearcraft:smore','nuclearcraft:moresmore')
+nc_food('nuclearcraft:moresmore','nuclearcraft:evenmoresmore')
 
 
+function nc_machine(input,output){
+  assembly([input,'nuclearcraft:basic_electric_circuit', 'nuclearcraft:chassis', 'nuclearcraft:plate_advanced'],[1,1,1,2],output,1)
+}
+
+nc_machine('mekanism:electrolytic_separator','nuclearcraft:isotope_separator')
+nc_machine('mekanism:chemical_crystallizer','nuclearcraft:fluid_infuser')
+nc_machine('mekanism:rotary_condensentrator','nuclearcraft:fluid_enricher')
+nc_machine('pneumaticcraft:thermopneumatic_processing_plant','nuclearcraft:chemical_reactor')
+nc_machine('mekanism:chemical_oxidizer','nuclearcraft:melter')
+nc_machine('cyclic:crusher','nuclearcraft:manufactory')
+
+tiny_assembly(['mekanism:ingot_refined_obsidian', 'nuclearcraft:basic_electric_circuit', 'nuclearcraft:plate_advanced'],'nuclearcraft:plate_du',4)
 
 
-
-
-
-
-
+smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:reactor_glass'],'nuclearcraft:fission_reactor_glass')
+smart_assembly(['nuclearcraft:plate_du','mekanism:structural_glass'],'nuclearcraft:fission_reactor_glass')
+smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_casing'],'nuclearcraft:fission_reactor_casing')
+smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_fuel_assembly'],'nuclearcraft:fission_reactor_solid_fuel_cell')
+assembly(['nuclearcraft:plate_du', 'mekanismgenerators:control_rod_assembly', 'mekanismgenerators:gas_burning_generator'],[4,1,1],'nuclearcraft:fission_reactor_controller',1)
+smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_logic_adapter'],'nuclearcraft:fission_reactor_port')
+smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_port'],'nuclearcraft:fission_reactor_port')
 
 
 

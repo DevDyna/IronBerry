@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         1)
 
     alloy(
-        ["minecraft:iron_block"], [9],
+        ["minecraft:iron_block",'minecraft:coal_block'], [1,2],
         "homespun:cast_iron_block", 1)
 
     alloy(
