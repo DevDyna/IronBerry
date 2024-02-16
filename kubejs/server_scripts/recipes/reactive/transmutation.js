@@ -35,8 +35,8 @@ ServerEvents.recipes(event => {
         100, 10)
 
     transmute(
-        "minecraft:copper_block",
-        "minecraft:sculk",
+        "minecraft:copper_ingot",
+        "minecraft:echo_shard",
         ["reactive:caustic", "reactive:light"],
         100, 10)
 

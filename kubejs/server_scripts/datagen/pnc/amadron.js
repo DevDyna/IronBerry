@@ -56,10 +56,13 @@ birds.forEach(egg=>{
 trade(3,'item','exoticbirds:phoenix_egg',1,'item','thermal:iron_coin',16,false)
 trade(0,'item','thermal:iron_coin',1,'item','minecraft:iron_ingot',4,true)
 trade(0,'item','thermal:iron_coin',1,'item','minecraft:coal',8,true)
-trade(0,'item','thermal:iron_coin',1,'item','homespun:ironberry_juice_bottle',16,true)
-trade(0,'item','thermal:iron_coin',1,'item','minecraft:dirt',64,true)
-trade(0,'item','minecraft:clay_ball',64,'item','thermal:iron_coin',1,true)
-trade(0,'item','thermal:iron_coin',1,'fluid','homespun:ironberry_juice',4000,true)
+trade(0,'item','thermal:iron_coin',1,'item','homespun:ironberry_juice_bottle',16,false)
+trade(0,'item','thermal:iron_coin',1,'item','minecraft:dirt',64,false)
+trade(2,'item','minecraft:clay_ball',64,'item','thermal:iron_coin',1,false)
+trade(0,'item','thermal:iron_coin',1,'item','minecraft:redstone',24,false)
+trade(0,'item','thermal:iron_coin',1,'item','minecraft:glowstone_dust',24,false)
+trade(0,'item','thermal:iron_coin',1,'fluid','homespun:ironberry_juice',4000,false)
+
 
 function trade_item_item(rarity,input,in_count,output,out_count,bool){
 	trade(rarity,'item',input,in_count,'item',output,out_count,bool)

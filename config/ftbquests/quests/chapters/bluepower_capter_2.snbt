@@ -407,9 +407,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6DCDB5A05F62901D"
-				item: "minecraft:sculk"
-				title: "Any #reactive:soul_sources"
+				id: "114C01789FD97971"
+				item: "minecraft:echo_shard"
 				type: "item"
 			}]
 			title: "Soul Source"
