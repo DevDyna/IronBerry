@@ -329,6 +329,8 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: "homespun:ironwood_sapling"
 			id: "06C31856E497690B"
 			rewards: [{
@@ -360,33 +362,18 @@
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "31E47787595652B3"
-					item: "minecraft:redstone"
-					type: "item"
+			tasks: [{
+				id: "3F12534552B2F977"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:crushing_output"
+					}
 				}
-				{
-					id: "7DF7A2CCC59065BC"
-					item: "minecraft:ink_sac"
-					type: "item"
-				}
-				{
-					id: "3F12534552B2F977"
-					item: "minecraft:glow_ink_sac"
-					type: "item"
-				}
-				{
-					id: "22634DF4F5B34BD9"
-					item: "minecraft:paper"
-					type: "item"
-				}
-				{
-					id: "1A551ACF662B8662"
-					item: "minecraft:glowstone_dust"
-					type: "item"
-				}
-			]
+				title: "Any #ironberry:crushing_output"
+				type: "item"
+			}]
 			title: "Squashing all"
 			x: -8.0d
 			y: 4.5d
@@ -453,6 +440,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -9.5d
@@ -473,10 +461,14 @@
 			size: 2.0d
 			subtitle: "Chemistry?"
 			tasks: [{
-				id: "611F11A4D0C7BEAA"
-				item: "reactive:crucible"
-				type: "item"
+				icon: "reactive:crucible"
+				id: "1A39AB5C0FE0F7AC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "reactive:crucible"
+				type: "observation"
 			}]
+			title: "A Crucible"
 			x: -9.5d
 			y: 6.0d
 		}
@@ -722,6 +714,7 @@
 				item: "minecraft:scaffolding"
 				type: "item"
 			}]
+			title: "Scaffolking"
 			x: -3.5d
 			y: 4.0d
 		}
@@ -885,6 +878,28 @@
 			title: "A gift for you"
 			x: -7.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["06C31856E497690B"]
+			description: [
+				"Due a issue for many recipes you need to craft them outside a crafting station due a gui issue"
+				"\\nKnow affected recipes:"
+				"- Sophisticated storage"
+			]
+			icon: "craftingstation:crafting_station"
+			id: "58ADE7ECF7FEE3D9"
+			rewards: [{
+				id: "3A90FA7811F1F56F"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67839DE5605E57BA"
+				type: "checkmark"
+			}]
+			title: "Polymorph issue"
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Homespun and clay"]

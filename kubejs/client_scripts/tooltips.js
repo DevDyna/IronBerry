@@ -137,7 +137,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:bucket_fuel', '§5Fuels §ffor §2liquid §fcompressor')
     tipplusplus('minecraft:obsidian', 'Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
     tipplusplus('#ironberry:blue_picks','Tier §1Obsidian')
-
+    tipplusplus('craftingstation:crafting_station','Polymorph recipes dont work here , use a crafting table!')
 
 })
 

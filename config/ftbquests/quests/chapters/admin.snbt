@@ -53,9 +53,9 @@
 			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
 			description: ["If you have created your first world and all recipes not showing , run /reload (kubejs issue , i can't do nothing)"]
+			hide: true
 			icon: "engineersdecor:sign_danger"
 			id: "011EF10BA0231613"
-			optional: true
 			rewards: [
 				{
 					command: "/reload"
@@ -79,6 +79,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
 			description: [
 				"Rarely after still playing many hours , with kubejs can cause issue on parsing recipes from mods"
@@ -89,6 +90,7 @@
 				""
 				"If happen write a issue with it!"
 			]
+			hide: true
 			icon: "engineersdecor:sign_caution"
 			id: "2379F3AFBC850D29"
 			shape: "gear"
@@ -101,7 +103,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: "quark:monster_box"
 			id: "7376B8B653E2AB9A"
 			rewards: [{
@@ -120,7 +124,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "cyclic:fire_killer"
@@ -145,7 +151,9 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: "minecraft:wandering_trader_spawn_egg"
 			id: "513D9DF87818066C"
 			rewards: [{
@@ -164,7 +172,9 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: "quark:yellow_blossom_sapling"
 			id: "70F6C3D2B77CC1C5"
 			rewards: [{
@@ -182,7 +192,9 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["58B49792D4827F5F"]
+			hide: true
 			icon: "ars_nouveau:ritual_sunrise"
 			id: "06E838C337B2037A"
 			rewards: [{

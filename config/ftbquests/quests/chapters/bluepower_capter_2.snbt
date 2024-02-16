@@ -251,6 +251,11 @@
 					item: "thermal:iron_coin"
 					type: "item"
 				}
+				{
+					id: "2640049323C06287"
+					item: "reactive:litmus_paper"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -334,10 +339,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"66428E9F71ABAF8C"
-				"379F607A99F58C90"
-			]
+			dependencies: ["66428E9F71ABAF8C"]
 			hide: true
 			icon: "reactive:acid_bottle"
 			id: "4B24A85196F52905"
@@ -1040,7 +1042,6 @@
 				"78BB41380919B7CF"
 				"6DCCBC7AE25353C3"
 				"5C6DF3197277F797"
-				"31E47787595652B3"
 				"222BCA5CC86342AE"
 				"08C331DC3A0CF932"
 			]

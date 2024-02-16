@@ -6,7 +6,7 @@ ServerEvents.highPriorityData(event => {
 
 
 function trade(level_rarity,type_in,input,count_in,type_out,output,count_out,persist){
-        event.addJson('pneumaticcraft:recipes/amadron/'+(input+'_'+output).replace(/[^a-zA-Z0-9_ ]/g, ''), {
+        event.addJson('pneumaticcraft:recipes/amadron/'+((input+'_'+output).replace(/[^a-zA-Z0-9_ ]/g, '')), {
   "type": "pneumaticcraft:amadron",
   "input": {
     "type": type_in,
@@ -22,6 +22,27 @@ function trade(level_rarity,type_in,input,count_in,type_out,output,count_out,per
   "static": persist
 })
 }
+
+function nbt_trade(level_rarity,type_in,input,count_in,type_out,output,count_out,nbt,persist){
+  console.log(nbt)
+  event.addJson('pneumaticcraft:recipes/amadron/'+((input+'_'+output).replace(/[^a-zA-Z0-9_ ]/g, '')), {
+"type": "pneumaticcraft:amadron",
+"input": {
+"type": type_in,
+"amount": count_in,
+"id": input
+},
+"level": level_rarity,
+"output": {
+"type": type_out,
+"amount": count_out,
+"id": output,
+"nbt": nbt
+},
+"static": persist
+})
+}
+
 
 
 trade(0,'item','thermal:iron_coin',8,'item','minecraft:dirt',64,true)
@@ -83,5 +104,11 @@ ironC(1,1,'quark:forgotten_hat',1,false)
 
 elecC(1,4,'sculktransporting:speed_modifier_tier_4',1,false)
 elecC(1,4,'sculktransporting:quantity_modifier_tier_3',1,false)
+
+
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_building',1,'{energy:500000.0d}',true)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_exchanging',1,'{energy:500000.0d}',true)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_copy_paste',1,'{energy:500000.0d}',true)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_destruction',1,'{energy:1000000.0d}',true)
 
 })

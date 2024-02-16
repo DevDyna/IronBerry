@@ -19,8 +19,8 @@
 			image: "cyclic:items/peat_biomass"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: 1.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			click: ""
@@ -31,8 +31,8 @@
 			image: "cyclic:blocks/solidifier"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 1.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -43,8 +43,8 @@
 			image: "nuclearcraft:block/processor/alloy_smelter_powered"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -2.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -55,8 +55,8 @@
 			image: "nuclearcraft:block/energy/rtg/uranium/side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: -3.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			click: ""
@@ -67,8 +67,8 @@
 			image: "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.271428571428558d
-			y: -2.4690476190476147d
+			x: -4.642857142857146d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -80,7 +80,19 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -7.0d
-			y: -3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nuclearcraft:block/fission/controller/fission_reactor_controller_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	order_index: 5
@@ -131,20 +143,51 @@
 		{
 			dependencies: ["1749654EEB1ECEDC"]
 			id: "1FE2BB2E4BDB24C0"
-			tasks: [{
-				id: "32530DAAF7CA4944"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:manufactory"
-					tag: { }
+			tasks: [
+				{
+					id: "32530DAAF7CA4944"
+					item: {
+						Count: 1b
+						id: "nuclearcraft:manufactory"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 2.0d
+				{
+					id: "28D66ECA3F48CF4F"
+					item: "nuclearcraft:fluid_enricher"
+					type: "item"
+				}
+				{
+					id: "1436949977E06D02"
+					item: "nuclearcraft:isotope_separator"
+					type: "item"
+				}
+				{
+					id: "0B53D081455FDF21"
+					item: "nuclearcraft:melter"
+					type: "item"
+				}
+				{
+					id: "1DC1F46F1476AE87"
+					item: "nuclearcraft:chemical_reactor"
+					type: "item"
+				}
+				{
+					id: "5ABDFDC6A8612171"
+					item: "nuclearcraft:fluid_infuser"
+					type: "item"
+				}
+			]
+			title: "Chemistry 2.0 #3"
+			x: 0.0d
 			y: 6.0d
 		}
 		{
+			dependencies: ["28368E27A614409E"]
 			id: "42AA46B26C7E74DC"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "4791E2960F21943A"
 				item: {
@@ -154,8 +197,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
@@ -171,35 +214,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
-		}
-		{
-			id: "6A75F878974792BB"
-			tasks: [{
-				id: "28BB7DE986728203"
-				item: {
-					Count: 1b
-					id: "thoriumreactors:molten_salt_bucket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -8.0d
-		}
-		{
-			id: "7E6FD4B34AA43BA9"
-			tasks: [{
-				id: "58CE6C4B2730A406"
-				item: {
-					Count: 1b
-					id: "thoriumreactors:enriched_uranium"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -421,8 +436,8 @@
 				item: "cyclic:peat_farm"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -3.507142857142867d
+			y: -0.030952380952385283d
 		}
 		{
 			dependencies: ["55628480845DB31F"]
@@ -537,7 +552,7 @@
 				}
 			]
 			title: "Ingot Fantastic"
-			x: 4.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -571,7 +586,7 @@
 			]
 			title: "Chemistry 2.0 #2"
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6138769A65F12025"]
@@ -582,25 +597,10 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
-			id: "18C2979C94B41DE6"
-			tasks: [{
-				id: "3E99C14F33B7B40A"
-				item: {
-					Count: 1b
-					id: "inventorypets:pet_cow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
+			dependencies: ["418E84C5B1C6B018"]
 			icon: "thoriumreactors:reactor_controller"
 			id: "4B2287F56C73C510"
 			rewards: [{
@@ -661,10 +661,11 @@
 				}
 			]
 			title: "Thorium Reactor"
-			x: -4.0d
-			y: 5.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["4B2287F56C73C510"]
 			icon: "thoriumreactors:thermal_controller"
 			id: "5C30C4E45CA21A76"
 			rewards: [{
@@ -709,10 +710,11 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: -2.0d
-			y: 5.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["5C30C4E45CA21A76"]
 			icon: "thoriumreactors:turbine_controller"
 			id: "46AF3BFA42CC2870"
 			rewards: [{
@@ -797,8 +799,70 @@
 				}
 			]
 			title: "Turbine"
-			x: 0.0d
-			y: 5.0d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE2BB2E4BDB24C0"]
+			id: "28368E27A614409E"
+			tasks: [{
+				id: "1B338E3798792310"
+				item: "nuclearcraft:plate_du"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42AA46B26C7E74DC"]
+			id: "418E84C5B1C6B018"
+			tasks: [{
+				id: "346A9BDC57D1D836"
+				item: "kubejs:uranium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28368E27A614409E"]
+			id: "623559D4C514453C"
+			tasks: [{
+				id: "632AA489D38D5F34"
+				item: "nuclearcraft:empty_frame"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["623559D4C514453C"]
+			id: "05A163CA0B85418B"
+			tasks: [
+				{
+					id: "5F3BD6C46F82184A"
+					item: "nuclearcraft:fuel_reprocessor"
+					type: "item"
+				}
+				{
+					id: "429B97A27F1D9F88"
+					item: "nuclearcraft:electrolyzer"
+					type: "item"
+				}
+				{
+					id: "0ED136B6C39D6531"
+					item: "nuclearcraft:rock_crusher"
+					type: "item"
+				}
+				{
+					id: "4627CE69502C7922"
+					item: "nuclearcraft:crystallizer"
+					type: "item"
+				}
+			]
+			title: "Chemistry 2.0 #4"
+			x: -6.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Wasting resources on reactions!"]

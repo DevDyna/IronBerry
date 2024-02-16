@@ -93,6 +93,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["A InGame trade system based on coins"]
 			id: "4162843221C8A4CD"
 			invisible: true
 			rewards: [{

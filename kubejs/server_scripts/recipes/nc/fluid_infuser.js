@@ -26,5 +26,7 @@ ServerEvents.recipes(event => {
     }
 
     infuse('mekanism:dust_obsidian','kubejs:osmium_enriched',750,'mekanism:dust_refined_obsidian')
+    infuse('minecraft:bamboo','kubejs:osmium_enriched',150,'minecraft:sugar_cane')
+    infuse('minecraft:sugar_cane','nuclearcraft:marshmallow',144,'nuclearcraft:gelatin')
 
 })

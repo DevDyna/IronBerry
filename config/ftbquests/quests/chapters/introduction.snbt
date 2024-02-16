@@ -126,7 +126,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "1CADBF9276CB81BB"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -188,7 +187,6 @@
 			click: ""
 			color: 983295
 			corner: false
-			dependency: "1B534087222484D3"
 			dev: false
 			height: 1.5d
 			hover: [ ]
@@ -238,7 +236,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "1CADBF9276CB81BB"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -608,29 +605,6 @@
 				type: "checkmark"
 			}]
 			title: "You found a issue?"
-			x: -7.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1B534087222484D3"]
-			hide: true
-			icon: "minecraft:scaffolding"
-			id: "1CADBF9276CB81BB"
-			invisible: true
-			rewards: [{
-				count: 16
-				id: "63708793C2F5192E"
-				item: "minecraft:scaffolding"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "Click one of image placed around and see where are you going!"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "01F1E6045E52FEF7"
-				type: "dimension"
-			}]
-			title: "Do you want more?"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -660,6 +634,35 @@
 			title: "Gravestone"
 			x: -10.5d
 			y: -10.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:carrot_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5867290577114E15"
+			rewards: [{
+				id: "3DFE28E878925A27"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 0s
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "429088F7ED5E9EBA"
+				type: "checkmark"
+			}]
+			title: "Carry on is here!"
+			x: -7.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["Welcome on this strange expert skyblock"]

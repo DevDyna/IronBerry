@@ -19,6 +19,7 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  'nuclearcraft:empty_active_heat_sink',
   "sophisticatedstorage:limited_copper_barrel_2",
   "sophisticatedstorage:copper_barrel",
   "sophisticatedstorage:limited_copper_barrel_1",

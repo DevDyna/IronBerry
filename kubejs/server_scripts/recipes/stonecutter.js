@@ -122,6 +122,7 @@ ServerEvents.recipes(event => {
 
     //wrenches
     scut([
+            'nuclearcraft:multitool',
             'thermal:wrench',
             'ae2:certus_quartz_wrench',
             'ae2:nether_quartz_wrench',
@@ -208,6 +209,10 @@ scut(['luggage:luggage'],['#ironberry:storage_box'])
 
 scut(['cyclic:location_data', 'cyclic:blockstate_data', 'cyclic:settings_data', 'cyclic:shape_data','cyclic:filter_data', 'cyclic:entity_data', 'cyclic:sound_data'],['#ironberry:magic_cards','cyclic:carbon_paper'])
 
+
+
+scut(['nuclearcraft:glowstone_heat_sink', 'nuclearcraft:netherite_heat_sink', 'nuclearcraft:slime_heat_sink', 'nuclearcraft:gold_heat_sink', 'nuclearcraft:liquid_nitrogen_heat_sink', 'nuclearcraft:lithium_heat_sink', 'nuclearcraft:carobbiite_heat_sink', 'nuclearcraft:enderium_heat_sink', 'nuclearcraft:end_stone_heat_sink', 'nuclearcraft:redstone_heat_sink', 'nuclearcraft:emerald_heat_sink', 'nuclearcraft:nether_brick_heat_sink', 'nuclearcraft:fluorite_heat_sink', 'nuclearcraft:lapis_heat_sink', 'nuclearcraft:obsidian_heat_sink', 'nuclearcraft:purpur_heat_sink', 'nuclearcraft:cryotheum_heat_sink', 'nuclearcraft:liquid_helium_heat_sink', 'nuclearcraft:arsenic_heat_sink', 'nuclearcraft:quartz_heat_sink', 'nuclearcraft:magnesium_heat_sink', 'nuclearcraft:villiaumite_heat_sink', 'nuclearcraft:boron_heat_sink', 'nuclearcraft:silver_heat_sink', 'nuclearcraft:iron_heat_sink', 'nuclearcraft:diamond_heat_sink', 'nuclearcraft:lead_heat_sink', 'nuclearcraft:water_heat_sink', 'nuclearcraft:copper_heat_sink', 'nuclearcraft:tin_heat_sink', 'nuclearcraft:prismarine_heat_sink', 'nuclearcraft:aluminum_heat_sink', 'nuclearcraft:manganese_heat_sink'],
+['nuclearcraft:empty_heat_sink','#ironberry:heat_coolers'])
 
 
 
