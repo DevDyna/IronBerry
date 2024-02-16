@@ -308,9 +308,29 @@ ServerEvents.recipes(event => {
     //
     //
 	
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 5,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'kubejs:patina'
+            },{
+                "item": 'kubejs:patina'
+            },{
+                "item": 'kubejs:patina'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'homespun:copper_nugget',
+            "count": 1
+        }
+    })
 	
 	
-	
+
+
+    
 	
 	
 	

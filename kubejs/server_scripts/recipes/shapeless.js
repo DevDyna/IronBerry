@@ -252,5 +252,7 @@ function emolimix(jump,variants){
 	less(['mekanism:basic_logistical_transporter','minecraft:repeater'],'mekanism:restrictive_transporter')
 	less(['mekanism:basic_logistical_transporter','minecraft:redstone_torch'],'mekanism:diversion_transporter')
 	less(['nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot', 'nuclearcraft:graphite_ingot'],'nuclearcraft:graphite_block',1)
-
+	less(['minecraft:copper_block'],'9x minecraft:copper_ingot')
+	less(['ppfluids:fluid_pipe'],'prettypipes:pipe')
+	less(['minecraft:raw_iron_block'],'9x minecraft:raw_iron')
 })

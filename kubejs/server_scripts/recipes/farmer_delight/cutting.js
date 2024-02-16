@@ -181,7 +181,40 @@ ServerEvents.recipes(event => {
         }
     })	
 	//---------//
+	let incopper = ['minecraft:oxidized_copper', 'minecraft:weathered_copper', 'minecraft:exposed_copper']
+    let outcopper = ['minecraft:weathered_copper', 'minecraft:exposed_copper', 'minecraft:copper_block']
+    incopper.forEach((element,index)=>{
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [{
+                "item": element
+            }
+        ],
+        "result": [	    
+	{
+      "count": 1,
+      "item": outcopper[index]
+    },		{
+          "count": 1,
+          "item": 'kubejs:patina'
+    },		{
+            "chance": 0.5,
+              "count": 1,
+              "item": 'kubejs:patina'
+    },		{
+        "chance": 0.25,
+          "count": 1,
+          "item": 'kubejs:patina'
+}
+        ],
+        "tool": {
+            "tag": "forge:tools/axes"
+        }
+    })
+})
 	
-	
-	
+
+
+
+
 })
