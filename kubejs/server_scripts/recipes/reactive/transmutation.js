@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         "kubejs:blank",
         "kubejs:casing",
         ["reactive:body", "reactive:light"],
-        100, 50)
+        100, 10)
 
     transmute(
         "minecraft:iron_nugget",
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     transmute(
         "minecraft:copper_ingot",
         "bluepower:zinc_ingot",
-        ["reactive:caustic", "reactive:light"],
+        ["reactive:light","reactive:verdant"],
         100, 10)
 
     transmute(
@@ -62,13 +62,13 @@ ServerEvents.recipes(event => {
         "homespun:ironberry_juice_bottle",
         "homespun:redstone_acid",
         ["reactive:body", "reactive:caustic"],
-        100, 50)
-
+        100, 10)
+/*
     transmute(
         "bluepower:teslatite_block",
         "minecraft:lapis_block",
         ["reactive:caustic"],
-        100, 10)
+        100, 10)*/
 
     transmute(
         "minecraft:apple",
@@ -118,5 +118,11 @@ ServerEvents.recipes(event => {
         "minecraft:chorus_fruit",
         ["reactive:verdant"],
         100, 10)
+
+
+        transmute('bluepower:infused_teslatite_dust',
+        'minecraft:lapis_lazuli',["reactive:verdant"],10,10)
+
+        transmute('minecraft:terracotta','minecraft:oxidized_copper',["reactive:verdant"],10,10)
 
 })

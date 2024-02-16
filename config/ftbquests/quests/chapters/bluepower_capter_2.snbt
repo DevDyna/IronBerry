@@ -751,11 +751,18 @@
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "110739DBDE1B6133"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "085C685A24B99A81"
+					item: "minecraft:oxidized_copper"
+					type: "item"
+				}
+				{
+					id: "1D843F86463E556A"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: -4.0d
 		}
