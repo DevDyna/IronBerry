@@ -415,7 +415,7 @@
 		{
 			dependencies: ["58B49792D4827F5F"]
 			description: [
-				"You dont know how to obtain or how work a block/item \\n\\nLook the tooltips ! \\nThere are made to help ! \\n\\nIf still missing , write a issue\\n\\n"
+				"You dont know how to obtain or how work a block/item \\n\\nLook the tooltips ! \\nThere are made to help ! \\n\\nIf still missing , write a issue\\n\\nRequire Advanced tooltips [F3+h] to see!"
 				"{image:ironberry:textures/other/tip.png width:173 height:64 align:1 fit:true}"
 			]
 			hide_dependency_lines: true
@@ -533,10 +533,10 @@
 				"- doFireTick : true"
 				"- doTraderSpawning : false"
 				"- doMobSpawning : false"
-				"- doDaylightCycle : false"
 				""
-				"Also:"
-				"- time set noon"
+				""
+				""
+				""
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:campfire"

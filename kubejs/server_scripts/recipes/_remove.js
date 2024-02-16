@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'bluepower:solar_panel',
         'mekanism:teleportation_core',
         'ironchest:upgrades/gold_to_diamond_chest_upgrade',
         'ironchest:upgrades/iron_to_gold_chest_upgrade',

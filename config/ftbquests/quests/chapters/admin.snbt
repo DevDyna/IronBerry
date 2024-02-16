@@ -147,8 +147,8 @@
 				type: "checkmark"
 			}]
 			title: "Firetick"
-			x: 4.0d
-			y: 0.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -170,46 +170,6 @@
 			title: "Trader"
 			x: 2.0d
 			y: -2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["58B49792D4827F5F"]
-			hide: true
-			icon: "quark:yellow_blossom_sapling"
-			id: "70F6C3D2B77CC1C5"
-			rewards: [{
-				command: "/gamerule doDaylightCycle false"
-				id: "09CCF8E208867CAF"
-				type: "command"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "76EC3B2E517EF955"
-				type: "checkmark"
-			}]
-			title: "Day cycle"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["58B49792D4827F5F"]
-			hide: true
-			icon: "ars_nouveau:ritual_sunrise"
-			id: "06E838C337B2037A"
-			rewards: [{
-				command: "/time set noon"
-				id: "3A3421756E1E3D47"
-				type: "command"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "38F4529052B746E9"
-				type: "checkmark"
-			}]
-			title: "SunDay"
-			x: 1.0d
-			y: 3.0d
 		}
 	]
 	title: "Admin Stuff"

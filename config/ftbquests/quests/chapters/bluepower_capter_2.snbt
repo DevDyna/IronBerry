@@ -417,7 +417,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["182E4121F73DB516"]
+			dependencies: [
+				"182E4121F73DB516"
+				"399ADFBEADD73757"
+			]
 			id: "58F795EFD59E0409"
 			rewards: [
 				{
@@ -443,10 +446,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"58F795EFD59E0409"
-				"6C79057BC3C2862B"
-			]
+			dependencies: ["6C79057BC3C2862B"]
 			hide: true
 			id: "399ADFBEADD73757"
 			rewards: [{
@@ -728,6 +728,7 @@
 		}
 		{
 			dependencies: ["168AA83F82F32990"]
+			hide: true
 			id: "15DE813782E5A124"
 			rewards: [{
 				id: "4499B032E9AD0143"

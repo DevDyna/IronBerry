@@ -159,7 +159,8 @@ StartupEvents.registry('item', event => {
     .displayName('Pick-axe')
 	.tier('iron')
 	.maxDamage(16384)
-	
+    .tag('bookshelf:pickaxes')
+    .tag('forge:tools/axes')
 	
 	event.create('solidified_resin')
 	.texture('ironberry:item/solidified_resin')

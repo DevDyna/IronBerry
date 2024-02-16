@@ -141,16 +141,18 @@ ServerEvents.recipes(event => {
 	
 	alloy(['minecraft:glowstone_dust', 'minecraft:grass'],[1,1],'minecraft:glow_lichen',2)
 
-	alloy(['minecraft:coal','bluepower:teslatite_dust'],[1,2],'bluepower:battery',2)
+	alloy(['minecraft:coal','bluepower:teslatite_dust','minecraft:redstone'],[1,2,1],'bluepower:battery',2)
 
-        alloy(['mekanism:dust_lithium'],[2],'nuclearcraft:lithium_ingot',1)
+    alloy(['mekanism:dust_lithium'],[2],'nuclearcraft:lithium_ingot',1)
 
-        alloy(['bluepower:red_doped_wafer', 'bluepower:blue_doped_wafer', 'bluepower:purple_alloy_ingot'],[2,2,1],'bluepower:solar_panel',4)
+    alloy(['bluepower:blue_doped_wafer', 'bluepower:blue_alloy_ingot'],[2,1],'bluepower:solar_panel',4)
 
-        alloy(['pipez:basic_upgrade'],[5],'pipez:improved_upgrade',1)
-        alloy(['pipez:improved_upgrade'],[5],'pipez:advanced_upgrade',1)
+    alloy(['pipez:basic_upgrade'],[5],'pipez:improved_upgrade',1)
+    alloy(['pipez:improved_upgrade'],[5],'pipez:advanced_upgrade',1)
 
-        alloy(['minecraft:echo_shard'],[4],'minecraft:sculk',1)
+    alloy(['minecraft:echo_shard'],[4],'minecraft:sculk',1)
+
+    alloy(['minecraft:glow_ink_sac'],[1],'minecraft:ink_sac',1)
 
 
     })

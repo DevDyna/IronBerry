@@ -255,7 +255,11 @@
 			y: -18.75d
 		}
 		{
-			dependencies: ["168AA83F82F32990"]
+			dependencies: [
+				"168AA83F82F32990"
+				"3F818FA3A0D9B316"
+			]
+			hide: true
 			id: "74C7873DC0E892B2"
 			rewards: [{
 				id: "14E845C0A622E16A"

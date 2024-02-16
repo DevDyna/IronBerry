@@ -58,7 +58,7 @@ trade(0,'item','thermal:iron_coin',1,'item','minecraft:iron_ingot',4,true)
 trade(0,'item','thermal:iron_coin',1,'item','minecraft:coal',8,true)
 trade(0,'item','thermal:iron_coin',1,'item','homespun:ironberry_juice_bottle',16,true)
 trade(0,'item','thermal:iron_coin',1,'item','minecraft:dirt',64,true)
-trade(0,'item','thermal:iron_coin',1,'item','minecraft:clay_ball',64,true)
+trade(0,'item','minecraft:clay_ball',64,'item','thermal:iron_coin',1,true)
 trade(0,'item','thermal:iron_coin',1,'fluid','homespun:ironberry_juice',4000,true)
 
 function trade_item_item(rarity,input,in_count,output,out_count,bool){
@@ -106,10 +106,10 @@ elecC(1,4,'sculktransporting:speed_modifier_tier_4',1,false)
 elecC(1,4,'sculktransporting:quantity_modifier_tier_3',1,false)
 
 
-nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_building',1,'{energy:500000.0d}',true)
-nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_exchanging',1,'{energy:500000.0d}',true)
-nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_copy_paste',1,'{energy:500000.0d}',true)
-nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_destruction',1,'{energy:1000000.0d}',true)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_building',1,'{energy:500000.0d}',false)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_exchanging',1,'{energy:500000.0d}',false)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_copy_paste',1,'{energy:500000.0d}',false)
+nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_destruction',1,'{energy:1000000.0d}',false)
 ironC(1,10,'simplemagnets:basicmagnet',1,false)
 ironC(1,10,'kubejs:paxel',1,false)
 })
