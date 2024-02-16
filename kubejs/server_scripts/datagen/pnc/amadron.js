@@ -110,5 +110,5 @@ nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_buildin
 nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_exchanging',1,'{energy:500000.0d}',true)
 nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_copy_paste',1,'{energy:500000.0d}',true)
 nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_destruction',1,'{energy:1000000.0d}',true)
-
+ironC(1,10,'simplemagnets:basicmagnet',1,false)
 })

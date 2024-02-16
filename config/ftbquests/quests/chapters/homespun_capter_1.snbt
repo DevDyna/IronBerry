@@ -333,11 +333,24 @@
 			hide: true
 			icon: "homespun:ironwood_sapling"
 			id: "06C31856E497690B"
-			rewards: [{
-				id: "45CDF6473A9FF276"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45CDF6473A9FF276"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "708B8F31EA730E35"
+					item: {
+						Count: 1b
+						id: "kubejs:paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Little step to gathering resources"
 			tasks: [{

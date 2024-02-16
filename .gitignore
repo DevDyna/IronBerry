@@ -160,3 +160,7 @@ config/Mekanism/generator-storage.toml
 .vscode/
 kubejs/jsconfig.json
 kubejs/config/probejs.json
+config/paxeljs-common.toml
+config/simplebackups-common.toml
+config/simplemagnets-common.toml
+simplebackups/*

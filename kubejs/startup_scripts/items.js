@@ -152,6 +152,14 @@ StartupEvents.registry('item', event => {
 	.tier('iron')
 	.maxDamage(2048)
 	
+	event.create('paxel','paxel')
+	.parentModel('ironberry:item/paxel')
+	.unstackable()
+	.texture('ironberry:item/paxel')
+    .displayName('Pick-axe')
+	.tier('iron')
+	.maxDamage(16384)
+	
 	
 	event.create('solidified_resin')
 	.texture('ironberry:item/solidified_resin')
