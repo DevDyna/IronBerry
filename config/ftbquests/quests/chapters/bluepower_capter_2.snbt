@@ -251,11 +251,6 @@
 					item: "thermal:iron_coin"
 					type: "item"
 				}
-				{
-					id: "2640049323C06287"
-					item: "reactive:litmus_paper"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -273,11 +268,18 @@
 			description: ["All power sources can be founded by searching on JEI with $source"]
 			hide: true
 			id: "7142BA297B3B2BCB"
-			rewards: [{
-				id: "510C50C465739A05"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "510C50C465739A05"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2AA92C98B033E059"
+					item: "reactive:litmus_paper"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "53F5D636DDC6E7CA"
@@ -1156,11 +1158,6 @@
 			id: "35BD3AD826A482C4"
 			rewards: [
 				{
-					id: "7C93AC35971C2BB5"
-					item: "thermal:iron_coin"
-					type: "item"
-				}
-				{
 					id: "1D7203E87A5FD149"
 					item: {
 						Count: 1b
@@ -1226,7 +1223,7 @@
 				item: "thermal:compost"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: -12.0d
 		}
 		{
@@ -1255,8 +1252,24 @@
 				item: "thermal:device_composter"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.0d
 			y: -13.0d
+		}
+		{
+			dependencies: ["3F818FA3A0D9B316"]
+			id: "7BBDB720B730BAB3"
+			rewards: [{
+				id: "5DEBBEC97DB19643"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "221508FC8699435C"
+				item: "prettypipes:crafting_terminal"
+				type: "item"
+			}]
+			x: -7.5714285714285765d
+			y: -13.107142857142854d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]
