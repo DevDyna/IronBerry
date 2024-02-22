@@ -9,7 +9,10 @@ ItemEvents.modification(event => {
 		item.maxStackSize = 64
 	})
 
-
+    event.modify('rootsclassic:rooty_stew',item=>{
+		item.maxStackSize = 64
+	})
+    
 
 
 })
