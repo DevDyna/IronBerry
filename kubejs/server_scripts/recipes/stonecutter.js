@@ -19,12 +19,19 @@ ServerEvents.recipes(event => {
 
     //servos
     scut([
-            'thermal:energy_limiter_attachment',
-            'thermal:turbo_servo_attachment',
-            'thermal:filter_attachment',
-            'thermal:servo_attachment',
+        'thermal:fluid_filter_augment',
+        'thermal:item_filter_augment',
+        'thermal:energy_limiter_attachment',
+        'thermal:turbo_servo_attachment',
+        'thermal:filter_attachment',
+        'thermal:servo_attachment',
+        'thermal:area_radius_augment',
         ],
-        ['minecraft:paper', '#thermal:attachment', ])
+        ['minecraft:paper', '#ironberry:te_filter', ])
+
+
+
+
     //item devices
     scut([
             'thermal:device_fisher',
@@ -39,6 +46,7 @@ ServerEvents.recipes(event => {
             'bluepower:deployer',
             'bluepower:transposer',
             'bluepower:ejector',
+            "prettypipes:crafting_terminal",
         ],
         ['#ironberry:item_devices', 'kubejs:blank'])
     //prettypipes modules
