@@ -953,7 +953,6 @@ global.disabledItem = [
   "ironchest:diamond_to_crystal_chest_upgrade",
   "ironchest:wood_to_iron_chest_upgrade",
   "ironchest:diamond_to_obsidian_chest_upgrade",
-  "prettypipes:crafting_terminal",
   "prettypipes:item_terminal",
   "mekanism:basic_fluid_tank",
   "mekanism:advanced_fluid_tank",
