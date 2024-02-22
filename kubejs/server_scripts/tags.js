@@ -230,7 +230,7 @@ ServerEvents.tags('item', event => {
             '#thermal:machines',
             '#thermal:ducts',
             '#thermal:item_devices',
-            '#thermal:attachment',
+            '#ironberry:te_filter',
             'rootsclassic:fruit_salad',
             'homespun:redstone_acid',
             'minecraft:furnace',
@@ -364,15 +364,26 @@ ServerEvents.tags('item', event => {
             'bluepower:deployer',
             'bluepower:transposer',
             'bluepower:ejector',
+            "prettypipes:crafting_terminal",
         ])
 
     //thermal servos uniform
-    event.add('thermal:attachment', [
+    /* event.add('thermal:attachment', [
             'thermal:energy_limiter_attachment',
             'thermal:turbo_servo_attachment',
             'thermal:filter_attachment',
             'thermal:servo_attachment',
-        ])
+        ])*/
+
+    event.add('ironberry:te_filter',[
+        'thermal:fluid_filter_augment',
+        'thermal:item_filter_augment',
+        'thermal:energy_limiter_attachment',
+        'thermal:turbo_servo_attachment',
+        'thermal:filter_attachment',
+        'thermal:servo_attachment',
+        'thermal:area_radius_augment',
+    ])
 
     //ae2 cable unify
     event.add('ironberry:rate_8', [
