@@ -104,6 +104,10 @@ ServerEvents.recipes(event => {
         ],
         ['tombstone:dark_marble', '#tombstone:decorative_graves', ])
 
+        scut(['thermal:junk_net', 'thermal:aquachow', 'thermal:deep_aquachow'],
+            ['#forge:vegetables','minecraft:wheat','#ironberry:fish_food'])
+
+
     //fluid devices
     scut([
             'thermal:fluid_duct',

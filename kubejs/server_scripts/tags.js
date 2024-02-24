@@ -367,6 +367,11 @@ ServerEvents.tags('item', event => {
             "prettypipes:crafting_terminal",
         ])
 
+        event.add('ironberry:fish_food',[
+           'thermal:junk_net', 'thermal:aquachow', 'thermal:deep_aquachow'
+        ])
+
+
     //thermal servos uniform
     /* event.add('thermal:attachment', [
             'thermal:energy_limiter_attachment',

@@ -153,7 +153,20 @@ ServerEvents.recipes(event => {
             "item": 'ten3:machine_smelter'
         }
     })
-	
+		    //
+    //
+    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'bluepower:engine',
+        "fluid": {
+            "fluid": "kubejs:acid",
+            "amount": 1000
+        },
+        "duration": 100,
+        "result": {
+            "item": 'thermal:dynamo_stirling'
+        }
+    })
 	
 	
 	
