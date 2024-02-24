@@ -326,7 +326,21 @@ ServerEvents.recipes(event => {
             "count": 1
         }
     })
-	
+    
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 10,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'bluepower:indigo_flower'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'bluepower:indigo_dye',
+            "count": 2
+        }
+    })
 	
 
 
