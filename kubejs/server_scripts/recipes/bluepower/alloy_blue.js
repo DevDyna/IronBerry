@@ -154,5 +154,6 @@ ServerEvents.recipes(event => {
 
     alloy(['minecraft:glow_ink_sac'],[1],'minecraft:ink_sac',1)
 
+    alloy(['rootsclassic:verdant_sprig'],[1],'rootsclassic:old_root',1)
 
     })
