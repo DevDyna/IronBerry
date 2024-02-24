@@ -1610,8 +1610,6 @@ global.disabledItem = [
   "integrateddynamics:crystalized_menril_block_stairs",
   "integrateddynamics:crystalized_menril_brick",
   "thermal:device_nullifier",
-  "prettypipes:crafting_terminal",
-  "prettypipes:item_terminal",
   "mekanism:basic_fluid_tank",
   "mekanism:advanced_fluid_tank",
   "mekanism:elite_fluid_tank",
