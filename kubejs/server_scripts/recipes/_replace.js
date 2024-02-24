@@ -168,5 +168,4 @@ event.replaceInput({output: 'pneumaticcraft:compressed_iron_leggings'},'minecraf
 event.replaceInput({output: 'pneumaticcraft:compressed_iron_chestplate'},'minecraft:leather_chestplate','minecraft:iron_chestplate')
 event.replaceInput({output: 'pneumaticcraft:compressed_iron_helmet'},'minecraft:leather_helmet','minecraft:iron_helmet')
 
-
 })
