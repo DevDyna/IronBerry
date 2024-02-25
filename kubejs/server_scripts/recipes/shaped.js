@@ -769,5 +769,13 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 	shapex(['minecraft:stick','minecraft:air','minecraft:air','minecraft:iron_ingot'],'ae2:crank')
     shapex(['minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:copper_ingot', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot'],'ae2:charger')
 
+
+
+
+    shapex(['ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'thermal:energy_cell_frame', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe'],
+    '2x thermal:energy_cell')
+
+    shapex(['ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'thermal:fluid_cell_frame', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe'],
+    '2x thermal:fluid_cell')
     
 })

@@ -347,7 +347,22 @@ ServerEvents.recipes(event => {
         }
     })
 	
-
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 10,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'minecraft:dirt'
+            },{
+                "item": 'minecraft:cobblestone'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'minecraft:granite',
+            "count": 2
+        }
+    })
 
     
 	

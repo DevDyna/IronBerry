@@ -24,7 +24,6 @@ function trade(level_rarity,type_in,input,count_in,type_out,output,count_out,per
 }
 
 function nbt_trade(level_rarity,type_in,input,count_in,type_out,output,count_out,nbt,persist){
-  console.log(nbt)
   event.addJson('pneumaticcraft:recipes/amadron/'+((input+'_'+output).replace(/[^a-zA-Z0-9_ ]/g, '')), {
 "type": "pneumaticcraft:amadron",
 "input": {

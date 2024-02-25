@@ -61,8 +61,8 @@ assembly(['nuclearcraft:milk_chocolate', 'nuclearcraft:marshmallow', 'nuclearcra
 
 nc_food('nuclearcraft:graham_cracker','nuclearcraft:smore')
 nc_food('nuclearcraft:smore','nuclearcraft:moresmore')
-nc_food('nuclearcraft:moresmore','nuclearcraft:evenmoresmore')
-
+nc_food('nuclearcraft:moresmore','nuclearcraft:foursmore')
+nc_food('nuclearcraft:foursmore','nuclearcraft:evenmoresmore')
 
 function nc_machine(input,output){
   assembly([input,'nuclearcraft:basic_electric_circuit', 'nuclearcraft:chassis', 'nuclearcraft:plate_advanced'],[1,1,1,2],output,1)

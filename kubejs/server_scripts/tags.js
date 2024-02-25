@@ -497,24 +497,26 @@ ServerEvents.tags('item', event => {
         ])
 
     event.add('ironberry:fluid_devices', [
-            'thermal:fluid_duct',
-            'thermal:fluid_duct_windowed',
+            //'thermal:fluid_duct',
+            //'thermal:fluid_duct_windowed',
             'cyclic:trash',
             'thermal:device_potion_diffuser',
             'thermal:device_water_gen',
-            'thermal:fluid_cell',
+            //'thermal:fluid_cell',
             'thermal:device_hive_extractor',
             'thermal:device_tree_extractor',
             'thermal:device_xp_condenser',
         ])
 
+        event.add('thermal:fluid_ducts',['thermal:fluid_duct','thermal:fluid_duct_windowed'])
+
     event.add('ironberry:energy_devices', [
             'thermal:charge_bench',
             'thermal:tinker_bench',
             'prettypipes:pressurizer',
-            'thermal:energy_duct',
+            //'thermal:energy_duct',
             'bluepower:engine',
-            'thermal:energy_cell',
+            //'thermal:energy_cell',
         ])
 
     event.add('ironberry:wrench_fix', [

@@ -107,15 +107,21 @@ ServerEvents.recipes(event => {
         scut(['thermal:junk_net', 'thermal:aquachow', 'thermal:deep_aquachow'],
             ['#forge:vegetables','minecraft:wheat','#ironberry:fish_food'])
 
+        scut(['16x thermal:fluid_duct','16x thermal:fluid_duct_windowed'],
+            ['thermal:fluid_cell'])
+
+            scut(['thermal:fluid_duct','thermal:fluid_duct_windowed'],['#thermal:fluid_ducts'])
+
+            scut(['16x thermal:energy_duct'],['thermal:energy_cell'])
 
     //fluid devices
     scut([
-            'thermal:fluid_duct',
-            'thermal:fluid_duct_windowed',
+            //'thermal:fluid_duct',
+            //'thermal:fluid_duct_windowed',
             'cyclic:trash',
             'thermal:device_potion_diffuser',
             'thermal:device_water_gen',
-            'thermal:fluid_cell',
+            //'thermal:fluid_cell',
             'thermal:device_hive_extractor',
             'thermal:device_tree_extractor',
 			'thermal:device_xp_condenser',
@@ -126,9 +132,9 @@ ServerEvents.recipes(event => {
             'thermal:charge_bench',
             'thermal:tinker_bench',
             'prettypipes:pressurizer',
-            'thermal:energy_duct',
+            //'thermal:energy_duct',
             'bluepower:engine',
-            'thermal:energy_cell',
+            //'thermal:energy_cell',
         ],
         ['thermal:energy_cell_frame', '#ironberry:energy_devices', ])
 
