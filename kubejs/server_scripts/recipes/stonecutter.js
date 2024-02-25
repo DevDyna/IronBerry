@@ -114,6 +114,8 @@ ServerEvents.recipes(event => {
 
             scut(['16x thermal:energy_duct'],['thermal:energy_cell'])
 
+            scut(['sawmill:sawmill'],['#minecraft:logs'])
+
     //fluid devices
     scut([
             //'thermal:fluid_duct',

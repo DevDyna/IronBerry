@@ -684,7 +684,14 @@
 			subtitle: "Powerful rituals"
 			tasks: [{
 				id: "418B276385CB93BE"
-				item: "rootsclassic:attuned_standing_stone"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:roots_stones"
+					}
+				}
+				title: "Any #ironberry:roots_stones"
 				type: "item"
 			}]
 			x: -2.5d

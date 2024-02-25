@@ -108,7 +108,6 @@ config/mcpitanlibarch/blacklist.json
 config/NoChatReports/README.md
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 config/pedestals-common.toml
-config/pneumaticcraft-common.toml
 config/jade/jade.json
 config/jade/plugins.json
 config/inventoryspam-client.toml

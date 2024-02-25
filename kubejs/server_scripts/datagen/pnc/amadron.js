@@ -49,7 +49,10 @@ trade(0,'item','thermal:iron_coin',8,'item','minecraft:dirt',64,true)
 let birds = ['exoticbirds:kookaburra_egg', 'exoticbirds:lyrebird_egg', 'exoticbirds:macaw_egg', 'exoticbirds:magpie_egg', 'exoticbirds:ostrich_egg', 'exoticbirds:owl_egg', 'exoticbirds:peafowl_egg', 'exoticbirds:pelican_egg', 'exoticbirds:penguin_egg', 'exoticbirds:bluejay_egg', 'exoticbirds:booby_egg', 'exoticbirds:budgerigar_egg', 'exoticbirds:cardinal_egg', 'exoticbirds:cassowary_egg', 'exoticbirds:cockatoo_egg', 'exoticbirds:crane_egg', 'exoticbirds:duck_egg', 'exoticbirds:heron_egg', 'exoticbirds:flamingo_egg', 'exoticbirds:gouldianfinch_egg', 'exoticbirds:gull_egg', 'exoticbirds:woodpecker_egg', 'exoticbirds:toucan_egg', 'exoticbirds:swan_egg', 'exoticbirds:robin_egg', 'exoticbirds:roadrunner_egg', 'exoticbirds:pigeon_egg', 'exoticbirds:hummingbird_egg', 'exoticbirds:kingfisher_egg', 'exoticbirds:kiwi_egg']
 
 birds.forEach(egg=>{
-	trade(3,'item',egg,4,'item','thermal:iron_coin',1,false)
+	trade(2,'item',egg,4,'item','thermal:iron_coin',1,false)
+  trade(3,'item',egg,3,'item','thermal:iron_coin',2,false)
+  trade(4,'item',egg,2,'item','thermal:iron_coin',3,false)
+  trade(5,'item',egg,1,'item','thermal:iron_coin',4,false)
 })
 
 trade(3,'item','exoticbirds:phoenix_egg',1,'item','thermal:iron_coin',16,false)
