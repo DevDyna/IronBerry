@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
             }, {
                 "item": 'thermal:compost'
             },{
-                "tag": '#rootsclassic:barks'
+                "tag": 'rootsclassic:barks'
             }
         ],
         "recipe_book_tab": "meals",
