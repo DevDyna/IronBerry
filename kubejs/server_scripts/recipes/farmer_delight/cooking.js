@@ -116,11 +116,14 @@ ServerEvents.recipes(event => {
                 "item": 'farmersdelight:straw'
             }, {
                 "item": 'thermal:compost'
+            },{
+                "tag": '#rootsclassic:barks'
             }
         ],
         "recipe_book_tab": "meals",
         "result": {
-            "item": 'farmersdelight:organic_compost'
+            "item": 'farmersdelight:organic_compost',
+            "count": 12
         }
     })
     //
@@ -147,7 +150,8 @@ ServerEvents.recipes(event => {
         ],
         "recipe_book_tab": "meals",
         "result": {
-            "item": 'kubejs:scroll_safety'
+            "item": 'kubejs:scroll_safety',
+            "count": 6
         }
     })
     //
@@ -172,7 +176,8 @@ ServerEvents.recipes(event => {
         ],
         "recipe_book_tab": "meals",
         "result": {
-            "item": 'kubejs:scroll_discontinuity'
+            "item": 'kubejs:scroll_discontinuity',
+            "count": 6
         }
     })
     //

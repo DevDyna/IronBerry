@@ -636,8 +636,8 @@
 				item: "minecraft:stonecutter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.0d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["182E4121F73DB516"]
@@ -765,8 +765,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -4.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6DCCBC7AE25353C3"]
@@ -784,8 +784,8 @@
 				item: "thermal:fluid_cell_frame"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["182E4121F73DB516"]
@@ -886,8 +886,8 @@
 				item: "thermal:device_hive_extractor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B6FE1B6BB79056B"]
@@ -905,8 +905,8 @@
 				item: "minecraft:sculk_catalyst"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["642A560192E69BA9"]
@@ -1270,6 +1270,104 @@
 			}]
 			x: -7.5714285714285765d
 			y: -13.107142857142854d
+		}
+		{
+			dependencies: [
+				"6100D1B5545583E3"
+				"29F14948C66CC37E"
+			]
+			hide: true
+			id: "12A99E6FC80CE5A9"
+			rewards: [{
+				id: "631083120EB17051"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E0F439FBF1A001F"
+				item: "reactive:stardust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B0F0A9E1091DD0E"]
+			hide: true
+			id: "0D6DDD97A2065943"
+			rewards: [
+				{
+					id: "6552EC4A20716AFD"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "604D3E78ED06A978"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2DB46A78E2454007"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D6DDD97A2065943"]
+			hide: true
+			id: "1FF4E4F20E679B85"
+			rewards: [
+				{
+					id: "1F71EA5B1015F39D"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1E385E6FE082673D"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Essence of Unexpected"
+			tasks: [{
+				id: "5211CC9272421F43"
+				item: {
+					Count: 1b
+					id: "tombstone:lollipop"
+					tag: {
+						model_color: 0s
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"15DE813782E5A124"
+				"3F818FA3A0D9B316"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0EF6B10F9F4FD2E1"
+			rewards: [{
+				id: "449F0BD45174C2C0"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E4FE4DBB51AEF9"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]

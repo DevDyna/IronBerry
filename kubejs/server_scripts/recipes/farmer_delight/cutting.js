@@ -215,6 +215,42 @@ ServerEvents.recipes(event => {
 	
 
 
+let wood = ['oak','spruce','birch','jungle','acacia','dark_oak']
+wood.forEach(type=>{
+
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [{
+                "item": 'minecraft:'+type+'_log'
+            }
+        ],
+        "result": [	    
+		{
+      "item": 'minecraft:stripped_'+type+'_log'
+    },{
+        "chance": 0.25,
+        "count": 1,
+        "item": 'rootsclassic:'+type+'_bark'
+    },{
+        "chance": 0.25,
+        "count": 1,
+        "item": 'rootsclassic:'+type+'_bark'
+    },{
+        "chance": 0.25,
+        "count": 1,
+        "item": 'rootsclassic:'+type+'_bark'
+    }
+        ],
+        "tool": {
+            "item": 'rootsclassic:bark_knife'
+        }
+    })	
+})
+
+
+
+
+
 
 
 })

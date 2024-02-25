@@ -138,7 +138,10 @@ ItemEvents.tooltip(event => {
     tipplusplus('minecraft:obsidian', 'Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
     tipplusplus('#ironberry:blue_picks','Tier §1Obsidian')
     tipplusplus('craftingstation:crafting_station','Polymorph recipes dont work here , use a crafting table!')
-
+    tipplusplus('#farmersdelight:straw_harvesters','Can drop §estraw§f when harvested some §avegetable stuff')
+    tipplusplus('farmersdelight:straw','Can be obtained by §aharvest grass§f with §bknifes')
+    tipplusplus('#rootsclassic:barks','Obtained using a §abark knife§f on a §blog')
+    tipplusplus('rootsclassic:bark_knife','Use on a §blog§f to obtain §abarks')
 })
 
 /*
