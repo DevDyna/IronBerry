@@ -190,23 +190,4 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/enriched_thorium')
     .displayName('Enriched Thorium Pellet')
 
- /*   event.create('seed_stew').food(food => {
-        food.hunger(6).saturation(2).fastToEat()
-      })
-
-    event.create('bread_stew').food(food => {
-        food.hunger(6).saturation(2).fastToEat()
-      })
-
-      event.create('indigo_stew').food(food => {
-        food.hunger(6).saturation(2).fastToEat()
-      })
-
-      event.create('sunflower_stew').food(food => {
-        food.hunger(6).saturation(2)
-        .effect('glowing', 120, 0, 1)
-        .effect('night_vision', 120, 0, 1)
-        .fastToEat()
-      })*/
-
 })
