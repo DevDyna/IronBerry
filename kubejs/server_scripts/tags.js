@@ -83,6 +83,12 @@ ServerEvents.tags('item', event => {
 
     //recipe output side removed (as result)
     event.add('ironberry:output', [
+        'ten3:chlorium_ingot',
+        'ten3:machine_farm_manager',
+        'ten3:powered_levelup', 
+        'ten3:photosyn_levelup', 
+        'ten3:knowledge_levelup', 
+        'ten3:relic_levelup',
         'reactive:gold_symbol',
         'reactive:iron_symbol',
         'reactive:crystal_iron',

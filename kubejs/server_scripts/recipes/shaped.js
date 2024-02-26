@@ -778,4 +778,8 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
     shapex(['ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'thermal:fluid_cell_frame', 'ppfluids:fluid_pipe', 'prettypipes:pipe', 'ppfluids:fluid_pipe', 'prettypipes:pipe'],
     '2x thermal:fluid_cell')
     
+    shapex(['minecraft:glowstone_dust', 'minecraft:yellow_dye','minecraft:air', 'minecraft:gunpowder', 'minecraft:redstone'],'2x bluepower:lumar_yellow')
+
+    shapex(['ten3:chlorium_ingot', 'thermal:device_collector', 'ten3:chlorium_ingot', 'bluepower:block_breaker', 'thermal:item_buffer', 'bluepower:deployer', 'kubejs:casing', 'thermal:device_composter', 'kubejs:casing'],'ten3:machine_farm_manager')
+
 })

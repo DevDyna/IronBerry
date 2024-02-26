@@ -256,4 +256,23 @@ function emolimix(jump,variants){
 	less(['ppfluids:fluid_pipe'],'prettypipes:pipe')
 	less(['minecraft:raw_iron_block'],'9x minecraft:raw_iron')
 	less(['bluepower:solar_panel','minecraft:quartz','bluepower:red_alloy_ingot'],'2x engineersdecor:small_solar_panel')
+
+	function aug_tec(io){
+		less(['kubejs:base_augment',io[0]],io[1])
+	}
+
+	aug_tec(['ten3:chlorium_dust', 'ten3:photosyn_levelup'])
+	aug_tec(['minecraft:mojang_banner_pattern', 'ten3:knowledge_levelup'])
+	aug_tec(['thermal:area_radius_augment', 'ten3:range_levelup'])
+	aug_tec(['integrateddynamics:energy_battery','ten3:stream_levelup'])
+
+	function aug_upgrade(io){
+		less(['minecraft:repeater', 'bluepower:lumar_yellow',io[0]],io[1])
+	}
+
+	aug_upgrade(['ten3:photosyn_levelup', 'ten3:augmented_levelup'])
+	aug_upgrade(['ten3:augmented_levelup', 'ten3:powered_levelup'])
+	aug_upgrade(['ten3:powered_levelup', 'ten3:relic_levelup'])
+
+
 })

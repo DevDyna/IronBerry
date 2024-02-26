@@ -156,4 +156,8 @@ ServerEvents.recipes(event => {
 
     alloy(['rootsclassic:verdant_sprig'],[1],'rootsclassic:old_root',1)
 
+    alloy(['cyclic:carbon_paper', 'reactive:scroll', 'reactive:litmus_paper', 'quark:paper_wall_sakura'],[1,1,1,1],'kubejs:base_augment',2)
+
+    alloy(['ten3:chlorium_dust'],[1],'ten3:chlorium_ingot',1)
+
     })
