@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
     })
     //
     //
-    event.custom({
+ /*   event.custom({
         "type": "mowlib:dualhandedcrafting",
         "blockTarget": {
             "item": "minecraft:cobblestone"
@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         "result": {
             "item": "minecraft:gravel"
         }
-    })
+    })*/
     //
     //
     event.custom({

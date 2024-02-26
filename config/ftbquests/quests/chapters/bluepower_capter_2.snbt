@@ -1376,6 +1376,506 @@
 			x: -3.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["1FF4E4F20E679B85"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alchemygadgetry:potion_flask"
+				tag: {
+					CustomPotionEffects: [
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 2940
+							Id: 13
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:water_breathing"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 11760
+							Id: 16
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:night_vision"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 1b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1469
+							Id: 5
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:strength"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 3920
+							Id: 18
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:weakness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 4900
+							Id: 26
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:luck"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1469
+							Id: 28
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:slow_falling"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 733
+							Id: 10
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:regeneration"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 3b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 653
+							Id: 2
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:slowness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 2b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 653
+							Id: 11
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:resistance"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 8
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:jump_boost"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 65
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:frostbite"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 4b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 7840
+							Id: 68
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:discretion"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 2940
+							Id: 51
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "quark:resilience"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 16800
+							FactorCalculationData: {
+								effect_changed_timestamp: 0
+								factor_current: 0.0f
+								factor_previous_frame: 0.0f
+								factor_start: 0.0f
+								factor_target: 1.0f
+								had_effect_last_tick: 0b
+								padding_duration: 22
+							}
+							Id: 33
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "minecraft:darkness"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 9600
+							Id: 67
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "tombstone:earthly_garden"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 1400
+							Id: 81
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "reactive:no_gravity"
+						}
+						{
+							Ambient: 0b
+							Amplifier: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 3600
+							Id: 78
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "cyclic:frost_walker"
+						}
+					]
+					fullness: 18
+				}
+			}
+			id: "20BDF1B4BEF0753C"
+			optional: true
+			rewards: [{
+				id: "287584B12358B28F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					Count: 1b
+					id: "alchemygadgetry:potion_flask"
+					tag: {
+						CustomPotionEffects: [
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 2940
+								Id: 13
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:water_breathing"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 11760
+								Id: 16
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:night_vision"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 1b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1469
+								Id: 5
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:strength"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 3920
+								Id: 18
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:weakness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 4900
+								Id: 26
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:luck"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1469
+								Id: 28
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:slow_falling"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 733
+								Id: 10
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:regeneration"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 3b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 653
+								Id: 2
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:slowness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 2b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 653
+								Id: 11
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:resistance"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 8
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:jump_boost"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 65
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:frostbite"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 4b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 7840
+								Id: 68
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:discretion"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 2940
+								Id: 51
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "quark:resilience"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 16800
+								FactorCalculationData: {
+									effect_changed_timestamp: 0
+									factor_current: 0.0f
+									factor_previous_frame: 0.0f
+									factor_start: 0.0f
+									factor_target: 1.0f
+									had_effect_last_tick: 0b
+									padding_duration: 22
+								}
+								Id: 33
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:darkness"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 9600
+								Id: 67
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "tombstone:earthly_garden"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1400
+								Id: 81
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "reactive:no_gravity"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 3600
+								Id: 78
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "cyclic:frost_walker"
+							}
+						]
+						fullness: 18
+					}
+				}
+				id: "3F7CA7D6C31C6F58"
+				title: "A Furious Cocktail"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
 	]
 	subtitle: ["Blue technology and Chemistry"]
 	title: "Age 2"
