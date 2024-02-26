@@ -90,12 +90,6 @@ ServerEvents.recipes(event => {
             }, {
                 "item": 'minecraft:bone_meal'
             }, {
-                "item": 'minecraft:bone_meal'
-            }, {
-                "item": 'minecraft:sugar'
-            }, {
-                "item": 'thermal:compost'
-            }, {
                 "item": 'thermal:compost'
             }
         ],

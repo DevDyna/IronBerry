@@ -101,7 +101,7 @@ function emolimix(jump,variants){
 	less(['9x kubejs:raw_iron_nugget'],'minecraft:raw_iron')
 	less(['9x kubejs:raw_gold_nugget'],'minecraft:raw_gold')
 	
-	less(['thermal:compost','thermal:phytogro','minecraft:dirt'],'thermal:phytosoil')
+	less(['thermal:compost','thermal:phytogro','minecraft:dirt'],'4x thermal:phytosoil')
 	less(['integrateddynamics:logic_director','integrateddynamics:crystalized_menril_block','kubejs:processor'],'integrateddynamics:variablestore')
 	
 	

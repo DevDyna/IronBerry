@@ -1894,6 +1894,26 @@
 			x: 15.0d
 			y: -8.0d
 		}
+		{
+			id: "21455608EE65E5CB"
+			tasks: [{
+				id: "441E17A3F5FD59ED"
+				item: {
+					Count: 1b
+					id: "ten3:machine_farm_manager"
+					tag: {
+						extract: 100.0d
+						maxEnergy: 20000.0d
+						receive: 100.0d
+					}
+				}
+				match_nbt: false
+				title: "Any #ironberry:output"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -20.0d
+		}
 	]
 	subtitle: ["The Dark Side of the Moon"]
 	title: "Age 3"
