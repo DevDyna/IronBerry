@@ -1104,10 +1104,14 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "54F821FB15494E20"
-				item: "minecraft:red_mushroom"
-				type: "item"
+				icon: "farmersdelight:wild_cabbages"
+				id: "7ACB3A20A3311A10"
+				observe_type: 1
+				timer: 0L
+				to_observe: "#farmersdelight:wild_crops"
+				type: "observation"
 			}]
+			title: "Wild Crops"
 			x: -7.0d
 			y: -4.0d
 		}
