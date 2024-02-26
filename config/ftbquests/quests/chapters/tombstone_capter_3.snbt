@@ -529,29 +529,6 @@
 		}
 		{
 			dependencies: [
-				"6DCCBC7AE25353C3"
-				"6240CC21E07DF06B"
-				"3F818FA3A0D9B316"
-				"2BCC9E9DDD1FF086"
-			]
-			hide: true
-			hide_dependency_lines: true
-			id: "4A6600C0D5D16679"
-			rewards: [{
-				id: "3074AB48AF59B81B"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2483E7843A4D0A24"
-				item: "cyclic:crusher"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
 				"71384C57A23FDF12"
 				"018037B494C94222"
 				"3114E897FF6E3F61"

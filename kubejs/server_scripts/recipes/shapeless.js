@@ -255,4 +255,5 @@ function emolimix(jump,variants){
 	less(['minecraft:copper_block'],'9x minecraft:copper_ingot')
 	less(['ppfluids:fluid_pipe'],'prettypipes:pipe')
 	less(['minecraft:raw_iron_block'],'9x minecraft:raw_iron')
+	less(['bluepower:solar_panel','minecraft:quartz','bluepower:red_alloy_ingot'],'2x engineersdecor:small_solar_panel')
 })

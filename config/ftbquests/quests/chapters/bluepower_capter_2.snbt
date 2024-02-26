@@ -871,18 +871,18 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -13.5d
+			x: -1.0d
+			y: -14.0d
 		}
 		{
-			dependencies: ["6240CC21E07DF06B"]
+			dependencies: ["4A6600C0D5D16679"]
 			id: "2E2661A8A6FBCE3F"
 			tasks: [{
 				id: "30081427A1F98961"
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -13.0d
 		}
 		{
@@ -1275,8 +1275,8 @@
 				item: "prettypipes:crafting_terminal"
 				type: "item"
 			}]
-			x: -7.5714285714285765d
-			y: -13.107142857142854d
+			x: -7.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -1875,6 +1875,73 @@
 			}]
 			x: -8.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6240CC21E07DF06B"]
+			hide: true
+			id: "4A6600C0D5D16679"
+			rewards: [{
+				id: "3074AB48AF59B81B"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2483E7843A4D0A24"
+				item: "cyclic:crusher"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3F818FA3A0D9B316"]
+			description: ["Use Crescent Hammer to see area effect"]
+			id: "0D8BDEFAA3604424"
+			rewards: [{
+				id: "2832D5A3EC15BDD4"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E1D100F413DEA5"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0E63CB720C3632FE"]
+			id: "46D3BA1B3AABE096"
+			rewards: [{
+				id: "1CF34EC6DCF7886C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29DAF1C42DE092A5"
+				item: "engineersdecor:small_solar_panel"
+				type: "item"
+			}]
+			title: "FE solar panels"
+			x: -5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4A6600C0D5D16679"]
+			id: "0E63CB720C3632FE"
+			rewards: [{
+				id: "5E0A33A8DC5A9927"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CB2D62D1BD75180"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.0d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]

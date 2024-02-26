@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'cyclic:crusher/granite',
+        'cyclic:crusher/diorite',
         'bluepower:solar_panel',
         'mekanism:teleportation_core',
         'ironchest:upgrades/gold_to_diamond_chest_upgrade',
