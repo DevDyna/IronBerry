@@ -888,12 +888,23 @@
 		}
 		{
 			dependencies: ["76FD8211F70232CD"]
+			description: ["Bee nests can be obtained by amadron or placing flowers around trees"]
 			id: "359DCED4D03B715D"
-			tasks: [{
-				id: "0CB587B04498097D"
-				item: "thermal:device_hive_extractor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0CB587B04498097D"
+					item: "thermal:device_hive_extractor"
+					type: "item"
+				}
+				{
+					icon: "minecraft:bee_nest"
+					id: "02212ABCA4DBFED9"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:bee_nest"
+					type: "observation"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}

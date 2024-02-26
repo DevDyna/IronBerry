@@ -79,7 +79,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:ae2_chests', '§636 Slots')
     tipplusplus('tombstone:decorative_subaraki_grave', '§6Subaraki confirmed')
     tipplusplus('minecraft:honeycomb', 'You can use a §6Hive Hopper §fto obtain §6honeycomb §fand §6honey §ffull automatic')
-    tipplusplus('thermal:device_hive_extractor', 'Extract §6honeycomb §fand §6honey §ffrom §6honey hives §fand §6bee hives')
+    tipplusplus('thermal:device_hive_extractor', 'Extract §6honeycomb §fand §6honey §ffrom §6bee hives §fand §6bee nests')
     tipplusplus('minecraft:lily_pad', '§6You can obtain by placing water around a Growing Standing Stone')
     tipplusplus('kubejs:wood_core', '§6Source of unlimited berries')
     tipplusplus('#ironberry:indigo_flowers', 'Can be used to craft indigo flower')
