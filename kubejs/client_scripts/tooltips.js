@@ -142,6 +142,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('farmersdelight:straw','Can be obtained by §aharvest grass§f with §bknifes')
     tipplusplus('#rootsclassic:barks','Obtained using a §abark knife§f on a §blog')
     tipplusplus('rootsclassic:bark_knife','Use on a §blog§f to obtain §abarks')
+    tipplusplus('#ironberry:sculk_replace','Can be replaced by §9Sculk block')
+
 })
 
 /*

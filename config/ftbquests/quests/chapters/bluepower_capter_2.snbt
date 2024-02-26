@@ -43,7 +43,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			click: ""
@@ -176,8 +176,8 @@
 				type: "item"
 			}]
 			title: "Magic/Mind Source"
-			x: 3.5d
-			y: -5.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["568AF71C55EB2708"]
@@ -225,8 +225,8 @@
 				type: "item"
 			}]
 			title: "Nature/Verdane Source"
-			x: 1.0d
-			y: -7.0d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2690AFB8D51B4350"]
@@ -372,12 +372,8 @@
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
+			subtitle: "and teslatite"
 			tasks: [
-				{
-					id: "4C71B443A1383765"
-					item: "bluepower:teslatite_dust"
-					type: "item"
-				}
 				{
 					id: "36B2C1F76554E195"
 					item: {
@@ -388,6 +384,11 @@
 						}
 					}
 					title: "Any #reactive:body_sources"
+					type: "item"
+				}
+				{
+					id: "2A6BEB0417826658"
+					item: "bluepower:teslatite_dust"
 					type: "item"
 				}
 			]
@@ -731,8 +732,8 @@
 				item: "bluepower:indigo_flower"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["168AA83F82F32990"]
@@ -899,7 +900,11 @@
 		{
 			dependencies: ["4B6FE1B6BB79056B"]
 			dependency_requirement: "all_started"
-			description: ["If dropped on a crucible a sculk catalyst with high soul inside , can spread on world !"]
+			description: [
+				"If dropped on a crucible a sculk catalyst with high soul inside , can spread on world !"
+				""
+				"Any $sculk_replaceable can be replaced to produce sculk blocks"
+			]
 			id: "642A560192E69BA9"
 			rewards: [{
 				id: "611BE2B73618B670"

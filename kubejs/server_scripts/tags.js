@@ -19,7 +19,7 @@ ServerEvents.tags('item', event => {
     event.get('reactive:verdant_sources').removeAll()
     event.get('reactive:mind_sources').removeAll()
     event.removeAllTagsFrom('minecraft:fermented_spider_eye')
-    event.add('reactive:body_sources', 'bluepower:blue_alloy_ingot')
+    event.add('reactive:body_sources', 'reactive:quartz')
     event.add('reactive:caustic_sources', 'bluepower:indigo_dye')
     event.add('reactive:verdant_sources', '#tombstone:seeds')
     event.add('reactive:mind_sources', 'minecraft:redstone')
@@ -795,6 +795,8 @@ ServerEvents.tags('item', event => {
 
     event.add('ironberry:roots_stones',['rootsclassic:accelerator_standing_stone', 'rootsclassic:vacuum_standing_stone', 'rootsclassic:repulsor_standing_stone', 'rootsclassic:healer_standing_stone', 'rootsclassic:aesthetic_standing_stone', 'rootsclassic:entangler_standing_stone', 'rootsclassic:igniter_standing_stone', 'rootsclassic:grower_standing_stone'])
 
+    event.add('ironberry:sculk_replace',data.block.sculk)
+
 })
 
 ServerEvents.tags('block', event => {
@@ -838,7 +840,11 @@ ServerEvents.tags('block', event => {
         event.add(tag,roots_pedestals)
     })
     
-
+    
+    event.get('minecraft:sculk_replaceable').getObjectIds().forEach(block => {
+        //console.log(block)
+        data.block.sculk.push(block)
+    })
 
 
 })

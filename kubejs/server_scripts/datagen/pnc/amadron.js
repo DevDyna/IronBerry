@@ -66,6 +66,7 @@ trade(0,'item','thermal:iron_coin',1,'item','minecraft:glowstone_dust',24,false)
 trade(0,'item','thermal:iron_coin',1,'fluid','homespun:ironberry_juice',4000,false)
 
 
+
 function trade_item_item(rarity,input,in_count,output,out_count,bool){
 	trade(rarity,'item',input,in_count,'item',output,out_count,bool)
 }
@@ -117,4 +118,7 @@ nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_copy_pa
 nbt_trade(1,'item','thermal:iron_coin',10,'item','buildinggadgets:gadget_destruction',1,'{energy:1000000.0d}',false)
 ironC(1,10,'simplemagnets:basicmagnet',1,false)
 ironC(1,10,'kubejs:paxel',1,false)
+
+ironC(1,4,'rainshield:rain_shield',1,false)
+
 })

@@ -10,7 +10,8 @@ const data = {
         deepslate_ores: {
             name: [],
             chance: []
-        }
+        },
+        sculk : []
     },
 
     item: {

@@ -162,6 +162,7 @@ StartupEvents.registry('item', event => {
     .tag('bookshelf:pickaxes')
     .tag('forge:tools/axes')
     .tag("forge:tools/pickaxes")
+    .tag("forge:pickaxes")
 	
 	event.create('solidified_resin')
 	.texture('ironberry:item/solidified_resin')
