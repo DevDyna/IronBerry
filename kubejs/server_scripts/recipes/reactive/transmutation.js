@@ -16,12 +16,12 @@ ServerEvents.recipes(event => {
         ["reactive:body", "reactive:light"],
         10, 2)
 
-    transmute(
+  /*  transmute(
         "minecraft:iron_nugget",
         "reactive:quartz_bottle",
         ["reactive:mind", "reactive:light"],
         10, 2)
-
+*/
     transmute(
         "minecraft:iron_ingot",
         "minecraft:copper_ingot",

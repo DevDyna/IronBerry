@@ -150,6 +150,7 @@ StartupEvents.registry('item', event => {
 	.texture('ironberry:item/crook')
     .displayName('Wooden Crook')
 	.tier('iron')
+    .tag('forge:shears')
 	.maxDamage(2048)
 	
 	event.create('paxel','paxel')
