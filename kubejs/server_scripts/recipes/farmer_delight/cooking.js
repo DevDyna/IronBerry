@@ -358,8 +358,27 @@ ServerEvents.recipes(event => {
         }
     })
 
-    
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 10,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'reactive:verdant_bottle'
+            },{
+                "item": 'rootsclassic:verdant_sprig'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'ten3:chlorium_dust',
+            "count": 1
+        }
+    })
 	
+
+
+
+    
 	
 	
 })

@@ -1895,20 +1895,17 @@
 			y: -8.0d
 		}
 		{
-			id: "21455608EE65E5CB"
+			dependencies: ["70CEF7D9F2C579E0"]
+			id: "156C4DEA6CC9E83F"
+			rewards: [{
+				id: "643F281EE299B71E"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			subtitle: "FE to crop harvesting!"
 			tasks: [{
-				id: "441E17A3F5FD59ED"
-				item: {
-					Count: 1b
-					id: "ten3:machine_farm_manager"
-					tag: {
-						extract: 100.0d
-						maxEnergy: 20000.0d
-						receive: 100.0d
-					}
-				}
-				match_nbt: false
-				title: "Any #ironberry:output"
+				id: "67437EF6EE326FDE"
+				item: "ten3:machine_farm_manager"
 				type: "item"
 			}]
 			x: 5.0d
