@@ -121,4 +121,7 @@ ironC(1,10,'kubejs:paxel',1,false)
 
 ironC(1,4,'rainshield:rain_shield',1,false)
 
+nbt_trade(1,'item','thermal:iron_coin',10,'item','minecraft:bee_nest',1,'{BlockEntityTag:{Bees:[{EntityData:{id:"minecraft:bee"}},{EntityData:{id:"minecraft:bee"}}]},display:{Lore:[\'{"text":"This bee nest have 2 bees","color":"gold"}\']}}',false)
+
+
 })
