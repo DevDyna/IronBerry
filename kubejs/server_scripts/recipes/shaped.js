@@ -251,8 +251,8 @@ ServerEvents.recipes(event => {
             'G G',
             'CGC'
         ], {
-        G: '#forge:ingots/electrum',
-        C: '#forge:ingots/lead'
+        G: 'thermal:electrum_ingot',
+        C: 'thermal:lead_ingot'
     })
     //
     //

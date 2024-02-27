@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
     alloy(
         ["bluepower:infused_teslatite_dust",
             "minecraft:copper_ingot"], [2, 1],
-        "thermal:lead_ingot", 1)
+        "thermal:lead_ingot", 4)
 
     alloy(
         ["#tombstone:magic_tablets"], [1],
