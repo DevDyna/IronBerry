@@ -144,6 +144,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('rootsclassic:bark_knife','Use on a §blog§f to obtain §abarks')
     tipplusplus('#ironberry:sculk_replace','Can be replaced by §9Sculk block')
     tipplusplus('minecraft:moss_block','Obtained using §aon world reaction§f with §6crucible')
+    tipplusplus('rootsclassic:verdant_sprig','Obtained by breaking §amature crops')
 })
 
 /*
