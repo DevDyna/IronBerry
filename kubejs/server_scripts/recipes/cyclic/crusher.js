@@ -44,4 +44,48 @@ ServerEvents.recipes(event => {
     })
 
 
+	event.custom({
+        "type": "cyclic:crusher",
+        "input": {
+            "item": 'supplementaries:antique_ink'
+        },
+        "energy": {
+            "ticks": 10,
+            "rfpertick": 5
+        },
+        "result": {
+            "item": "minecraft:ink_sac",
+
+            "count": 2
+        },
+        "percent": 25,
+        "bonus": {
+            "item": "minecraft:glow_ink_sac",
+            "count": 1
+        }
+    })
+
+
+    event.custom({
+        "type": "cyclic:crusher",
+        "input": {
+            "item": 'minecraft:fishing_rod'
+        },
+        "energy": {
+            "ticks": 10,
+            "rfpertick": 5
+        },
+        "result": {
+            "item": "minecraft:stick",
+
+            "count": 2
+        },
+        "percent": 50,
+        "bonus": {
+            "item": "minecraft:string",
+            "count": 1
+        }
+    })
+
+    
 })
