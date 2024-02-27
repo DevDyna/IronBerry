@@ -393,8 +393,4 @@ ServerEvents.recipes(event => {
         }
     })
 
-
-    
-	
-	
 })
