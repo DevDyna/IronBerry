@@ -106,4 +106,20 @@ ServerEvents.recipes(event => {
             "amount": 125
         }
     })
+        //
+    //
+    event.custom({
+        "type": "homespun:tub_crushing",
+        "input_item": {
+            "item": "minecraft:mud"
+        },
+        "output_item": {
+            "count": 1,
+            "item": "minecraft:clay_ball"
+        },
+        "fluid_stack": {
+            "fluid": "thermal:crude_oil",
+            "amount": 250
+        }
+    })
 })
