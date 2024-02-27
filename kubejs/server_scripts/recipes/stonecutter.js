@@ -365,4 +365,8 @@ ServerEvents.recipes((event) => {
     ],
     ["#ironberry:rftools_modules", "kubejs:base_module"]
   );
+
+
+
+  scut(['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'],['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'])
 });

@@ -103,6 +103,7 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'rftoolsbase:tablet',
     "rftoolsutility:charged_porter",
     "rftoolsutility:advanced_charged_porter",
     "rftoolsbase:filter_module",

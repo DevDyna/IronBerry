@@ -75,7 +75,8 @@ ServerEvents.recipes(event => {
         ],
         "recipe_book_tab": "meals",
         "result": {
-            "item": "kubejs:omni"
+            "item": "kubejs:omni",
+            "count": 4
         }
     })
     //
