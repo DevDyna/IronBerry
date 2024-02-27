@@ -375,7 +375,22 @@ ServerEvents.recipes(event => {
         }
     })
 	
-
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 40,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'minecraft:paper'
+            },{
+                "item": 'minecraft:sugar'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'rftoolsbase:dimensionalshard',
+            "count": 4
+        }
+    })
 
 
     

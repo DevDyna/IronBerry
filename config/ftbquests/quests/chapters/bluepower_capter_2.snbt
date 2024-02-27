@@ -567,11 +567,18 @@
 			hide: true
 			icon: "kubejs:blank"
 			id: "3F818FA3A0D9B316"
-			rewards: [{
-				id: "1888E0E5B6BD3532"
-				item: "thermal:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1888E0E5B6BD3532"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+				{
+					id: "220C673BFD687541"
+					item: "rftoolsbase:manual"
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Item Logistics"
 			tasks: [

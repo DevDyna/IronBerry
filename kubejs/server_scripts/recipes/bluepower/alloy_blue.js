@@ -160,4 +160,12 @@ ServerEvents.recipes(event => {
 
     alloy(['ten3:chlorium_dust'],[1],'ten3:chlorium_ingot',1)
 
+        alloy(['minecraft:ender_pearl', 'rftoolsbase:dimensionalshard'],[1,1],'rftoolsbase:infused_enderpearl',1)
+
+        alloy(['kubejs:base_module','rootsclassic:runic_tablet','rftoolsbase:machine_base'],[6,1,1],'rftoolsbase:tablet',1)
+
+
+
+
+
     })

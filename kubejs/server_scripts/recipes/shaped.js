@@ -782,4 +782,14 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 
     shapex(['ten3:chlorium_ingot', 'thermal:device_collector', 'ten3:chlorium_ingot', 'bluepower:block_breaker', 'thermal:item_buffer', 'bluepower:deployer', 'kubejs:casing', 'thermal:device_composter', 'kubejs:casing'],'ten3:machine_farm_manager')
 
+    shapex(['cyclic:teleport','minecraft:air','minecraft:air','rftoolsbase:machine_frame'],'rftoolsutility:matter_transmitter')
+
+    shapex(['minecraft:air','rftoolsbase:infused_enderpearl','minecraft:air','rftoolsbase:infused_enderpearl', 'ars_nouveau:warp_scroll', 'rftoolsbase:infused_enderpearl','minecraft:air','rftoolsbase:infused_enderpearl'],'rftoolsutility:charged_porter')
+    shapex(['minecraft:air','rftoolsbase:infused_enderpearl','minecraft:air','rftoolsbase:infused_enderpearl', 'rftoolsutility:charged_porter', 'rftoolsbase:infused_enderpearl','minecraft:air','rftoolsbase:infused_enderpearl'],'rftoolsutility:advanced_charged_porter')
+
+    shapex(['kubejs:blank', 'kubejs:casing', 'kubejs:blank', 'kubejs:casing', 'rftoolsbase:dimensionalshard', 'kubejs:casing', 'kubejs:blank', 'kubejs:casing', 'kubejs:blank'],'4x rftoolsbase:machine_frame')
+
+    shapex(['minecraft:air','kubejs:quantity_base','minecraft:air','kubejs:speed_base', 'kubejs:base_augment', 'kubejs:speed_base','minecraft:air','kubejs:quantity_base'],'4x kubejs:base_module')
+
+
 })

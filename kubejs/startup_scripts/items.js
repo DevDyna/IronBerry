@@ -12,8 +12,8 @@ StartupEvents.registry('item', event => {
     event.create('lore')
     .texture('ironberry:item/lore')
     .displayName('The LORE')
-	
-	event.create('raw_plastic')
+
+    event.create('raw_plastic')
     .texture('ironberry:item/raw_plastic')
     .displayName('Raw Plastic')
 
@@ -135,45 +135,45 @@ StartupEvents.registry('item', event => {
     event.create('patina')
     .texture('ironberry:item/patina')
     .displayName('Patina')
-	
-	event.create('assembly_plate')
+
+    event.create('assembly_plate')
     .texture('ironberry:item/assembly_plate')
     .displayName('Programmable Printed Plate')
-	
-	event.create('printed_plate')
+
+    event.create('printed_plate')
     .texture('ironberry:item/printed_plate')
     .displayName('Printed Plate')
-	
-	event.create('crook','hoe')
-	.parentModel('ironberry:item/crook')
-	.unstackable()
-	.texture('ironberry:item/crook')
+
+    event.create('crook', 'hoe')
+    .parentModel('ironberry:item/crook')
+    .unstackable()
+    .texture('ironberry:item/crook')
     .displayName('Wooden Crook')
-	.tier('iron')
+    .tier('iron')
     .tag('forge:shears')
-	.maxDamage(2048)
-	
-	event.create('paxel','paxel')
-	.parentModel('ironberry:item/paxel')
-	.unstackable()
-	.texture('ironberry:item/paxel')
+    .maxDamage(2048)
+
+    event.create('paxel', 'paxel')
+    .parentModel('ironberry:item/paxel')
+    .unstackable()
+    .texture('ironberry:item/paxel')
     .displayName('Pick-axe')
-	.tier('iron')
-	.maxDamage(16384)
+    .tier('iron')
+    .maxDamage(16384)
     .tag('bookshelf:pickaxes')
     .tag('forge:tools/axes')
     .tag("forge:tools/pickaxes")
     .tag("forge:pickaxes")
-	
-	event.create('solidified_resin')
-	.texture('ironberry:item/solidified_resin')
-	.displayName('Solidified Refined Resin')
-	
-	event.create('plastic_mixture')
-	.texture('ironberry:item/plastic_mixture')
-	.displayName('Plastic Mixture')
-	
-	event.create('explosion')
+
+    event.create('solidified_resin')
+    .texture('ironberry:item/solidified_resin')
+    .displayName('Solidified Refined Resin')
+
+    event.create('plastic_mixture')
+    .texture('ironberry:item/plastic_mixture')
+    .displayName('Plastic Mixture')
+
+    event.create('explosion')
     .texture('pneumaticcraft:gui/jei/explosion')
 
     event.create('upgrade_template')
@@ -191,9 +191,13 @@ StartupEvents.registry('item', event => {
     event.create('enriched_thorium')
     .texture('ironberry:item/enriched_thorium')
     .displayName('Enriched Thorium Pellet')
-	
-	    event.create('base_augment')
+
+    event.create('base_augment')
     .texture('ironberry:item/base_augment')
     .displayName('Base Augment')
+
+    event.create('base_module')
+    .texture('ironberry:item/base_module')
+    .displayName('Base Module')
 
 })

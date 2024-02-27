@@ -1663,8 +1663,8 @@
 				item: "tombstone:christmas_hat"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -18.75d
+			x: 8.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2945A2E25BD04276"]
@@ -1910,6 +1910,25 @@
 			}]
 			x: 5.0d
 			y: -20.0d
+		}
+		{
+			dependencies: ["70CEF7D9F2C579E0"]
+			id: "48C407B3F5095271"
+			rewards: [{
+				id: "1C540E85C6FB0E52"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Need a solution? RFtools have it"
+			tasks: [{
+				id: "570CCE409B6A53C3"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "RFantastic"
+			x: 6.538095238095238d
+			y: -18.70476190476191d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]

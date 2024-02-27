@@ -104,7 +104,7 @@ function emolimix(jump,variants){
 	less(['thermal:compost','thermal:phytogro','minecraft:dirt'],'4x thermal:phytosoil')
 	less(['integrateddynamics:logic_director','integrateddynamics:crystalized_menril_block','kubejs:processor'],'integrateddynamics:variablestore')
 	
-	
+	less(['minecraft:mossy_cobblestone', 'minecraft:paper', 'rootsclassic:verdant_sprig'],'rootsclassic:runic_tablet')
 	
 	
 	less(['#ironberry:storage_box','kubejs:processor','integrateddynamics:cable'],'integratedtunnels:part_interface_item')
@@ -274,5 +274,15 @@ function emolimix(jump,variants){
 	aug_upgrade(['ten3:augmented_levelup', 'ten3:powered_levelup'])
 	aug_upgrade(['ten3:powered_levelup', 'ten3:relic_levelup'])
 
+	less(['rftoolsutility:matter_transmitter'] , 'rftoolsutility:matter_receiver')
+	less(['rftoolsutility:matter_receiver'] , 'rftoolsutility:matter_transmitter')
+
+	less(['#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter','#ironberry:te_filter'],'rftoolsbase:filter_module')
+
+	less(['rftoolsbase:machine_frame','cyclic:crafter','rftoolsbase:crafting_card'],'rftoolsutility:crafter1')
+	less(['rftoolsutility:crafter1','rftoolsbase:crafting_card','rftoolsbase:crafting_card'],'rftoolsutility:crafter2')
+	less(['rftoolsutility:crafter2','rftoolsbase:crafting_card','rftoolsbase:crafting_card'],'rftoolsutility:crafter3')
+	less(['rftoolsbase:machine_frame', 'rftoolsbase:dimensionalshard', 'bluepower:lumar_red', 'bluepower:lumar_green', 'bluepower:lumar_blue'],'rftoolsbase:machine_infuser')
+	less(['rftoolsbase:machine_frame', 'rftoolsbase:infused_enderpearl'],'rftoolsutility:dialing_device')
 
 })
