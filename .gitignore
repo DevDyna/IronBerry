@@ -164,3 +164,4 @@ config/simplebackups-common.toml
 config/simplemagnets-common.toml
 simplebackups/*
 prettypipesprefs
+config/rftoolsutility-client.toml
