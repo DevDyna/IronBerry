@@ -81,7 +81,6 @@ config/shimmer-client.toml
 config/rubidium-options.json
 config/rubidium-mixins.properties
 config/rubidium_extras.toml
-config/reactive-client.toml
 config/rootsclassic-client.toml
 config/quark-common.toml
 config/pneumaticcraft/thirdparty.cfg
