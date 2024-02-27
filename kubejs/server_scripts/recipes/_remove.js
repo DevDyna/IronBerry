@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'engineersdecor:dependent/small_solar_panel_recipe',
         'cyclic:crusher/granite',
         'cyclic:crusher/diorite',
         'bluepower:solar_panel',

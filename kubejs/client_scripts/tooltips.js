@@ -145,6 +145,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:sculk_replace','Can be replaced by §9Sculk block')
     tipplusplus('minecraft:moss_block','Obtained using §aon world reaction§f with §6crucible')
     tipplusplus('rootsclassic:verdant_sprig','Obtained by breaking §amature crops')
+    tipplusplus('bluepower:deployer','Can be imported and exported using §aNormal Hoppers §for §aGolden Hoppers')
+    tipplusplus('goldenhopper:golden_hopper','A simple §afiltered§f hopper')
 })
 
 /*
