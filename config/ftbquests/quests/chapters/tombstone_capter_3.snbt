@@ -68,8 +68,8 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 5.0d
-			x: 4.5d
-			y: -7.5d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			click: ""
@@ -81,8 +81,8 @@
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 5.0d
-			x: 6.0d
-			y: -9.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			click: ""
@@ -146,8 +146,8 @@
 			image: "essentials:item/candle_lilypad"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: -6.0d
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	order_index: 3
@@ -696,8 +696,8 @@
 				item: "tombstone:soul_receptacle"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -10.0d
+			x: 6.535714285714285d
+			y: -9.464285714285715d
 		}
 		{
 			dependencies: ["285B9826C3F0F414"]
@@ -1092,11 +1092,25 @@
 			}]
 			shape: "diamond"
 			subtitle: "A Classic way"
-			tasks: [{
-				id: "51B9B523DA5EDEDB"
-				item: "thermal:device_fisher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "51B9B523DA5EDEDB"
+					item: "thermal:device_fisher"
+					type: "item"
+				}
+				{
+					id: "6AFE36FE558C0CCC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:fish_food"
+						}
+					}
+					title: "Any #ironberry:fish_food"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: -10.0d
 		}
@@ -1349,8 +1363,8 @@
 				type: "item"
 			}]
 			title: "Strange Creatures"
-			x: 4.5d
-			y: -7.5d
+			x: 4.035714285714285d
+			y: -6.928571428571431d
 		}
 		{
 			dependencies: [
@@ -1444,8 +1458,8 @@
 				item: "kubejs:grave_spawn"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.5d
+			x: 7.595238095238102d
+			y: -6.940476190476197d
 		}
 		{
 			dependencies: [
@@ -1482,8 +1496,8 @@
 				item: "exoticbirds:phoenix_egg"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 6.392857142857146d
+			y: -4.464285714285715d
 		}
 		{
 			dependencies: [
@@ -1595,8 +1609,8 @@
 				item: "tombstone:voodoo_poppet"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -10.0d
+			x: 1.5357142857142847d
+			y: -9.464285714285715d
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
@@ -1791,8 +1805,8 @@
 				}
 			]
 			title: "Effigies"
-			x: 2.0d
-			y: -5.0d
+			x: 1.5357142857142847d
+			y: -4.464285714285715d
 		}
 		{
 			dependencies: ["3AE5CD008B44982C"]
@@ -1881,6 +1895,7 @@
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
 			id: "79957A3C971BB4B5"
+			optional: true
 			rewards: [{
 				id: "7A18BF6C75AA5676"
 				item: "thermal:electrum_coin"
