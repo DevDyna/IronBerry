@@ -41,15 +41,16 @@ function meal(
                 if (area[1] != 0) { (xyz[1] += rnd(-area[1], area[1]))}
                 if (area[2] != 0) { (xyz[2] += rnd(-area[2], area[2]))}
                 if (level.getBlock(xyz[0], xyz[1], xyz[2]) == block_grass && !(level.getBlock(xyz[0], xyz[1] + 1, xyz[2]) != "minecraft:air" && require_air)) {
-                    level.getBlock(xyz[0], xyz[1] + 1, xyz[2]).set(block_list[rnd(0, block_list.length)])
+                    let cod = rnd(0, block_list.length-1)
+                    let id = block_list[cod]
+                    level.getBlock(xyz[0], xyz[1] + 1, xyz[2]).set(id)
                 }
-                //player.tell(xyz[0] +'__'+ xyz[1]+'__'+ xyz[2])
-                //player.tell(block_list[rnd(0, block_list.length)])
                 xyz = [x,y,z]
             }
         }
     })
 }
+
 
 meal(
     "farmersdelight:rich_soil",
