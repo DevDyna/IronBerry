@@ -61,15 +61,15 @@ function doublewall(string, start, end) {
     }
 }
 //RND better
-function rnd(min, max) {
+/*function rnd(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
-}
+}*/
 //RND bool
-function rnd_bool() {
+/*function rnd_bool() {
     if (Math.floor(Math.random() * 2) == 1)
         return true
         return false
-}
+}*/
 //forEach better
 function Feach(e, group) {
     let found = false
@@ -114,7 +114,7 @@ function TagRemoveTag(event, base, toRemove) {
     })
 }
 //-------------------------------------------------------//
-function roll_time(chance) { // more = common | less = rare
+/*function roll_time(chance) { // more = common | less = rare
     let count = 0;
     for (let i = 0; i < chance; i++) {
         if (rnd_bool()) {
@@ -122,7 +122,7 @@ function roll_time(chance) { // more = common | less = rare
         }
     }
     return count
-}
+}*/
 
 function RegX(string, replace) {
     if (typeof optionalValue != 'undefined') { //if replace still defined
