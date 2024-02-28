@@ -27,4 +27,17 @@ ServerEvents.recipes(event => {
         },
         "time": 100
     })
+
+    event.custom({
+        "type": "homespun:evaporating",
+        "output_item": {
+            "item": "minecraft:honey_block",
+            "count": 1
+        },
+        "fluid_stack": {
+            "fluid": "cofh_core:honey",
+            "amount": 1000
+        },
+        "time": 10
+    })
 })

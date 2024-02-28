@@ -220,6 +220,7 @@
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
+			subtitle: "multiplier like manual squeezer"
 			tasks: [
 				{
 					id: "544E187B1ED44BB6"
