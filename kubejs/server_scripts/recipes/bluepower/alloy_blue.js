@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         "homespun:cast_iron_block", 1)
 
     alloy(
-        ["minecraft:iron_ingot"], [9],
+        ["minecraft:iron_ingot",'#minecraft:planks'], [9,1],
         "ironchest:wood_to_copper_chest_upgrade", 1)
 
     alloy(
@@ -171,5 +171,6 @@ ServerEvents.recipes(event => {
 
         alloy(["#ironberry:rftools_plates"],[1],'rftoolsbase:machine_base',1)
 
+        alloy(["ironchest:wood_to_copper_chest_upgrade"],[1],"minecraft:iron_ingot",9)
 
     })

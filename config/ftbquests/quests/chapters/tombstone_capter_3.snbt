@@ -1554,7 +1554,7 @@
 				type: "checkmark"
 			}]
 			title: "The Final countdown"
-			x: 4.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
