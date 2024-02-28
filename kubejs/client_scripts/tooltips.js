@@ -47,7 +47,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:floreal_bone_meal', '§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]')
     tipplusplus('kubejs:floreal_bone_meal', '§8[§fArea affected : §b3 blocks§8]')
 
-    tipplusplus('minecraft:leather', 'Can be obtained by processing item from fishing')
+    tipplusplus('minecraft:leather', 'Can be obtained by §9processing§f item from §afishing')
     tipplusplus('minecraft:coal', '§6Early game dont use it as fuel , it will very expensive')
     tipplusplus('minecraft:dirt', '§6Early game dont use too much until you could automate')
     tipplusplus('minecraft:clay_ball', '§6Obtained by crushing dirt on crushing tub')
@@ -111,7 +111,8 @@ ItemEvents.tooltip(event => {
     tipplusplus(['#farmersdelight:wild_crops','farmersdelight:red_mushroom_colony', 'farmersdelight:brown_mushroom_colony', 'supplementaries:wild_flax'], 'Obtained by using §6rich fertilizer §fon §2rich soil')
     tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fafter many eggs')
     tipplusplus('kubejs:grave_spawn', 'Spawn a §agrave guardian§f , a §6warrior§f full of §dpotions and cheap trades')
-    tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
+    tipplusplus('alchemygadgetry:potion_flask', 'To §afill §fyou only need to §bclick on gui §fwith any §epotion')
+    tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f')
     tipplusplus('alchemygadgetry:potion_slingshot', '§aClick §f, §4Boing §f, §dEffect!')
     tipplusplus('#ironberry:gift_loot', '§eObtained by open a §6Starbuncle Gift')
     tipplusplus('#ironberry:boss_loot', '§cAlso can be obtained by defeating the §4Gateway of Bosses')
