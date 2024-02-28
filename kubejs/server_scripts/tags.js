@@ -727,6 +727,13 @@ ServerEvents.tags("item", (event) => {
     "minecraft:oxeye_daisy",
   ]);
 
+  event
+  .get("ironberry:indigo_flowers")
+  .getObjectIds()
+  .forEach((block) => {
+    data.block.flowers.push(block);
+  });
+
   event.add("ironberry:block_drop", [
     "inventorypets:nugget_emerald",
     "inventorypets:nugget_coal",
@@ -851,9 +858,9 @@ ServerEvents.tags("item", (event) => {
   event.add("ironberry:echodrop", ["minecraft:sculk", "minecraft:sculk_vein"]);
 
   event.add("ironberry:onlyplayer", [
-    "kubejs:grave_spawn",
-    "kubejs:ore_bone_meal",
-    "kubejs:rich_bone_meal",
+    //"kubejs:grave_spawn",
+    //"kubejs:ore_bone_meal",
+    //"kubejs:rich_bone_meal",
     "tombstone:strange_scroll",
   ]);
 
@@ -1044,6 +1051,11 @@ ServerEvents.tags("item", (event) => {
     "rftoolsutility:inventoryplus_module", 
     "rftoolsutility:clock_module", 
   ]);
+
+
+
+
+
 });
 
 ServerEvents.tags("block", (event) => {

@@ -35,15 +35,19 @@ ItemEvents.tooltip(event => {
         }
     })
 
-    /*tipplusplus('reactive:acid_bottle', 'See §c$acid')
-    tipplusplus('reactive:body_bottle', 'See §4$body')
-    tipplusplus('reactive:mind_bottle', 'See §d$mind')
-    tipplusplus('reactive:soul_bottle', 'See §b$soul')
-    */
+
+    //Ⓧ Ⓨ Ⓩ §c §a §9
+    tipplusplus('kubejs:rich_bone_meal', '§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]')
+    tipplusplus('kubejs:rich_bone_meal', '§8[§fArea affected : §b3 blocks§8]')
+    
+
+    tipplusplus('kubejs:ore_bone_meal', '§8[§fAxis supported : §cⓍ§f §aⓎ§f §9Ⓩ§8]')
+    tipplusplus('kubejs:ore_bone_meal', '§8[§fArea affected : §b7 blocks§8]')
+
+    tipplusplus('kubejs:floreal_bone_meal', '§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]')
+    tipplusplus('kubejs:floreal_bone_meal', '§8[§fArea affected : §b3 blocks§8]')
 
     tipplusplus('minecraft:leather', 'Can be obtained by processing item from fishing')
-    tipplusplus('kubejs:rich_bone_meal', '§8[§fArea affected : §crange 3 block§8]')
-    tipplusplus('kubejs:ore_bone_meal', '§8[§fArea affected : §crange 7 block§8]')
     tipplusplus('minecraft:coal', '§6Early game dont use it as fuel , it will very expensive')
     tipplusplus('minecraft:dirt', '§6Early game dont use too much until you could automate')
     tipplusplus('minecraft:clay_ball', '§6Obtained by crushing dirt on crushing tub')
@@ -104,7 +108,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:drop_sand', 'Obtained by breaking §6red sand')
     tipplusplus('kubejs:rich_bone_meal', 'Right click on §2rich soil §fto spawn random §abushes')
     tipplusplus('kubejs:illuminati', 'Right click give §eextra time §fat your §bTime in a Bottle')
-    tipplusplus('#farmersdelight:wild_crops', 'Obtained by using §6rich fertilizer §fon §2rich soil')
+    tipplusplus(['#farmersdelight:wild_crops','farmersdelight:red_mushroom_colony', 'farmersdelight:brown_mushroom_colony', 'supplementaries:wild_flax'], 'Obtained by using §6rich fertilizer §fon §2rich soil')
     tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fafter many eggs')
     tipplusplus('kubejs:grave_spawn', 'Spawn a grave guardian , a warrior full of potions and cheap trades')
     tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
@@ -147,6 +151,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('rootsclassic:verdant_sprig','Obtained by breaking §amature crops')
     tipplusplus('bluepower:deployer','Can be imported and exported using §aNormal Hoppers §for §aGolden Hoppers')
     tipplusplus('goldenhopper:golden_hopper','A simple §afiltered§f hopper')
+    tipplusplus('kubejs:floreal_bone_meal','Right click on §aDirt §fit can spawn some §6Flowers')
 })
 
 /*

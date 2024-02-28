@@ -11,7 +11,8 @@ const data = {
             name: [],
             chance: []
         },
-        sculk : []
+        sculk : [],
+        flowers:[]
     },
 
     item: {

@@ -5,7 +5,7 @@
 function rnd_bool() {
     if (Math.floor(Math.random() * 2) == 1)
         return true
-        return false
+    return false
 }
 
 /**
@@ -37,7 +37,7 @@ function rnd(min, max) {
  * @param {Block} block_replace         - block id ||  grass block
  * @param {Item} item_trigger           - item id || like bone meal
  * @param {object} block_list           - string-array of block id
- * @param {object} area                 - int-array of x , y , z radius || [x,y,z]
+ * @param {object} area                 - int-array of x , y , z radius || [x,y,z] *y based on top block
  * @param {object} pool                 - chance to success || [min,max]
  * @param {string} particles            - string || particles name
  * @param {boolean} require_air         - if true require air to success
@@ -60,7 +60,7 @@ function meal(block_replace, item_trigger, block_list, area, pool, particles, re
             }
             if (first_as_good) { level.getBlock(x, y + 1, z).set(block_list[rnd(0, block_list.length)]) }
 
-            server.runCommandSilent(`/playsound minecraft:item.bone_meal.use block @a ${x} ${y} ${z} 10 ${Math.floor(rnd(10, 100) / 10)}`)
+            server.runCommandSilent(`/playsound minecraft:item.bone_meal.use block @a ${x} ${y} ${z} 10 ${rnd(1, 2)}`)
 
             server.runCommandSilent(`/particle ${particles} ${x} ${y + 1} ${z} ${area[0]} ${area[1]} ${area[2]} 0.1 10`)
 
@@ -88,7 +88,7 @@ function meal(block_replace, item_trigger, block_list, area, pool, particles, re
  * @param {object} pool                 - chance to success || [min,max]
  * @param {string} particles            - string || particles name
  */
-function chance_meal(block_replace, item_trigger, block_list_name,block_list_chance, area, pool, particles){
+function ore_meal(block_replace, item_trigger, block_list_name,block_list_chance, area, pool, particles){
 BlockEvents.rightClicked(block_replace, (event) => {
     const { block, item, player, level ,server} = event
     const { x, y, z } = block
@@ -102,7 +102,7 @@ BlockEvents.rightClicked(block_replace, (event) => {
         }
         //if (first_as_good) { level.getBlock(x, y + 1, z).set(block_list_name[rnd(0, block_list_name.length)]) }
 
-        server.runCommandSilent(`/playsound minecraft:item.bone_meal.use block @a ${x} ${y} ${z} 10 ${Math.floor(rnd(10, 100) / 10)}`)
+        server.runCommandSilent(`/playsound minecraft:item.bone_meal.use block @a ${x} ${y} ${z} 10 ${rnd(1, 2)}`)
 
         server.runCommandSilent(`/particle ${particles} ${x} ${y + 1} ${z} ${area[0]} ${area[1]} ${area[2]} 0.1 10`)
 
@@ -127,15 +127,6 @@ BlockEvents.rightClicked(block_replace, (event) => {
 })
 }
 //###############################-HOW-TO-USE-##################################//
-chance_meal(
-    'minecraft:cobbled_deepslate',
-    "kubejs:ore_bone_meal",
-    data.block.deepslate_ores.name,
-    data.block.deepslate_ores.chance,
-    [7,7,7],
-    [6, 24],
-    "supplementaries:confetti"
-    )
 
     meal(
         "farmersdelight:rich_soil",
@@ -146,5 +137,33 @@ chance_meal(
         "supplementaries:confetti",
         true,
         false
-    )
+        )
+
+    ore_meal(
+            'minecraft:cobbled_deepslate',
+            "kubejs:ore_bone_meal",
+            data.block.deepslate_ores.name,
+            data.block.deepslate_ores.chance,
+            [7,7,7],
+            [6, 24],
+            "supplementaries:confetti"
+            )
+
+    meal(
+        'minecraft:dirt',
+        'kubejs:floreal_bone_meal',
+        data.block.flowers,
+        [3,0,3],
+        [6, 24],
+        "supplementaries:confetti",
+        true,
+        false
+        )
+
+
+
+
+
+
+
 //#############################################################################//

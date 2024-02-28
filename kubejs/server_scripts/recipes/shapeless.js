@@ -285,4 +285,6 @@ function emolimix(jump,variants){
 	less(['rftoolsbase:machine_frame', 'rftoolsbase:dimensionalshard', 'bluepower:lumar_red', 'bluepower:lumar_green', 'bluepower:lumar_blue'],'rftoolsbase:machine_infuser')
 	less(['rftoolsbase:machine_frame', 'rftoolsbase:infused_enderpearl'],'rftoolsutility:dialing_device')
 
+	less(['minecraft:bone_meal', 'bluepower:lumar_white', 'bluepower:lumar_white'],'kubejs:floreal_bone_meal')
+
 })
