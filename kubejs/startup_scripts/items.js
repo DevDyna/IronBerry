@@ -69,16 +69,16 @@ StartupEvents.registry('item', event => {
 
     event.create('ore_bone_meal')
     .texture('ironberry:item/ore_bone_meal')
-    .displayName('Mineral Fertilizer')
+    .displayName('§eMineral Fertilizer')
 
     event.create('rich_bone_meal')
     .texture('ironberry:item/rich_bone_meal')
-    .displayName('Rich Fertilizer')
+    .displayName('§aRich Fertilizer')
 
     //temporarly added , maybe on a future will removed if added https://github.com/capnkirok/Inventory-Pets/issues/555
     event.create('illuminati')
     .texture('inventorypets:item/illuminati_new')
-    .displayName('Illuminati Yota')
+    .displayName('§dIlluminati Yota')
 
     event.create('pre_compressed')
     .texture('ironberry:item/pre_compressed')
@@ -202,6 +202,6 @@ StartupEvents.registry('item', event => {
 
     event.create('floreal_bone_meal')
     .texture('ironberry:item/floreal_bone_meal')
-    .displayName('Floreal Fertilizer')
+    .displayName('§dFloreal Fertilizer')
 
 })

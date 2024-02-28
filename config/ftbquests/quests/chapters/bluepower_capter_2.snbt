@@ -734,11 +734,18 @@
 				type: "item"
 			}]
 			subtitle: "Accept any $small_flowers but not all flowers!"
-			tasks: [{
-				id: "5F602849FEA723A4"
-				item: "bluepower:indigo_flower"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5F602849FEA723A4"
+					item: "bluepower:indigo_flower"
+					type: "item"
+				}
+				{
+					id: "29FEA3B055965CB6"
+					item: "kubejs:floreal_bone_meal"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -7.0d
 		}

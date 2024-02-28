@@ -110,7 +110,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:illuminati', 'Right click give §eextra time §fat your §bTime in a Bottle')
     tipplusplus(['#farmersdelight:wild_crops','farmersdelight:red_mushroom_colony', 'farmersdelight:brown_mushroom_colony', 'supplementaries:wild_flax'], 'Obtained by using §6rich fertilizer §fon §2rich soil')
     tipplusplus('exoticbirds:phoenix_egg', 'A very rare egg obtainable only on §9Egg Analizer §fafter many eggs')
-    tipplusplus('kubejs:grave_spawn', 'Spawn a grave guardian , a warrior full of potions and cheap trades')
+    tipplusplus('kubejs:grave_spawn', 'Spawn a §agrave guardian§f , a §6warrior§f full of §dpotions and cheap trades')
     tipplusplus('alchemygadgetry:potion_flask', 'A huge bottle that can be used to use §9many effects§f\nTo §afill §fyou only need to §bclick on gui §fwith any §epotion')
     tipplusplus('alchemygadgetry:potion_slingshot', '§aClick §f, §4Boing §f, §dEffect!')
     tipplusplus('#ironberry:gift_loot', '§eObtained by open a §6Starbuncle Gift')
