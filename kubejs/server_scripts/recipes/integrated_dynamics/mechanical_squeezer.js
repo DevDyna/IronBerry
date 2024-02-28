@@ -8,19 +8,16 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "items": [{
-                    "item": "minecraft:paper",
-                    "chance": 0.5
-                }, {
                     "item": "minecraft:redstone",
-                    "chance": 0.5
+                    "chance": 0.75
                 }, {
                     "item": "minecraft:glowstone_dust",
-                    "chance": 0.5
+                    "chance": 0.75
                 }, {
                     "item": "minecraft:glow_ink_sac",
                     "chance": 0.5
-                }, {
-                    "item": "minecraft:ink_sac",
+                },{
+                    "item": "minecraft:paper",
                     "chance": 0.5
                 }
             ],
