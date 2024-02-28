@@ -1055,7 +1055,7 @@ ServerEvents.tags("block", (event) => {
       data.block.tombstone.push(block);
     });
   //crops on data.block.crops value
-  event
+  /*event
     .get("minecraft:crops")
     .getObjectIds()
     .forEach((block) => {
@@ -1067,7 +1067,7 @@ ServerEvents.tags("block", (event) => {
     .getObjectIds()
     .forEach((block) => {
       data.block.leaves.push(block);
-    });
+    });*/
 
   //colony added
   event.add("farmersdelight:wild_crops", "farmersdelight:red_mushroom_colony");
