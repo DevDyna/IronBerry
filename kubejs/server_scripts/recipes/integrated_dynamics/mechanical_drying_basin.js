@@ -168,7 +168,18 @@ ServerEvents.recipes(event => {
         }
     })
 	
-	
+    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'bluepower:deployer',
+        "fluid": {
+            "fluid": "kubejs:acid",
+            "amount": 1000
+        },
+        "duration": 100,
+        "result": {
+            "item": 'cyclic:user'
+        }
+    })
 	
 	
 })

@@ -664,7 +664,6 @@ global.disabledItem = [
   "cyclic:fluid_pipe",
   "cyclic:magnet_block",
   "cyclic:generator_solar",
-  "cyclic:user",
   "cyclic:dropper",
   "cyclic:beacon",
   "cyclic:anti_beacon",
