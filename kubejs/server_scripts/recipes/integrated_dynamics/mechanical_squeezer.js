@@ -216,5 +216,33 @@ ServerEvents.recipes(event => {
     })
     //
     //
+    event.custom({
+        "type": "integrateddynamics:mechanical_squeezer",
+        "item": {
+            "item": "minecraft:mud"
+        },
+        "result": {
+            "items": [{
+                    "item": {
+                        "item": "minecraft:clay_ball",
+                        "count": 1
+                    }
+                }, {
+                    "item": "minecraft:clay_ball",
+                    "chance": 0.75
+                }, {
+                    "item": "minecraft:clay_ball",
+                    "chance": 0.5
+                }
+            ],
+            "fluid": {
+                "fluid": "thermal:crude_oil",
+                "amount": 250
+            }
+        },
+        "duration": 15
+    })
+    //
+    //
 
 })

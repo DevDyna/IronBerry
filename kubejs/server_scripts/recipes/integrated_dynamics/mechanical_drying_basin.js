@@ -195,5 +195,17 @@ ServerEvents.recipes(event => {
         }
     })
 	
+    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:dirt',
+        "fluid": {
+            "fluid": "minecraft:water",
+            "amount": 125
+        },
+        "duration": 10,
+        "result": {
+            "item": 'minecraft:mud'
+        }
+    })
 	
 })
