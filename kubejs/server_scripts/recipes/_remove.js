@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'engineersdecor:independent/small_block_breaker_recipe',
         'engineersdecor:dependent/small_solar_panel_recipe',
         'cyclic:crusher/granite',
         'cyclic:crusher/diorite',

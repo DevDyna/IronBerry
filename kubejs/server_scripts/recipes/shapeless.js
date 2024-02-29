@@ -256,6 +256,7 @@ function emolimix(jump,variants){
 	less(['ppfluids:fluid_pipe'],'prettypipes:pipe')
 	less(['minecraft:raw_iron_block'],'9x minecraft:raw_iron')
 	less(['bluepower:solar_panel','minecraft:quartz','bluepower:red_alloy_ingot'],'2x engineersdecor:small_solar_panel')
+	less(['minecraft:observer','minecraft:quartz','bluepower:red_alloy_ingot'],'2x engineersdecor:small_block_breaker')
 
 	function aug_tec(io){
 		less(['kubejs:base_augment',io[0]],io[1])
