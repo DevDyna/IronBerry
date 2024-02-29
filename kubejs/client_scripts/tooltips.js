@@ -62,6 +62,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('homespun:redstone_acid', 'Deoxide §6copper blocks §fand convert §8cobblestone §finto §7gravel')
     tipplusplus('homespun:ironwood_leaves', 'Can drop §5berries')
     tipplusplus('ae2:facade', '§6You can craft using any solid block with around 4 cable anchor')
+    tipplusplus('homespun:ironberry_juice_bottle', 'Minimal fluid amount : §a250mb')
     tipplusplus('homespun:ironberry_juice_bottle', 'Click with a bottle on a tank of §7iron berry §fto fill up')
     tipplusplus('#ironberry:crushing_output', '§6Obtained by crushing berries on crushing tub or on a squeezer')
     tipplusplus('#ironberry:bluealloy', '§6Can be automated by import and export items up and down side')

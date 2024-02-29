@@ -180,6 +180,20 @@ ServerEvents.recipes(event => {
             "item": 'cyclic:user'
         }
     })
+
+
+    event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:glass_bottle',
+        "fluid": {
+            "fluid": "homespun:ironberry_juice",
+            "amount": 250
+        },
+        "duration": 10,
+        "result": {
+            "item": 'homespun:ironberry_juice_bottle'
+        }
+    })
 	
 	
 })

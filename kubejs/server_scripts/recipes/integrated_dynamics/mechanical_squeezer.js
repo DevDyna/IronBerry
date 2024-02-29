@@ -196,5 +196,25 @@ ServerEvents.recipes(event => {
     })
     //
     //
-	
+
+
+    event.custom({
+        "type": "integrateddynamics:mechanical_squeezer",
+        "item": {
+            "item": 'homespun:ironberry_juice_bottle'
+        },
+        "result": {
+            "items": [{
+                "item": "minecraft:glass_bottle",
+            }],
+            "fluid": {
+                "fluid": "homespun:ironberry_juice",
+                "amount": 250
+            }
+        },
+        "duration": 80
+    })
+    //
+    //
+
 })
