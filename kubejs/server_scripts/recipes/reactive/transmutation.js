@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
 
 
     transmute('bluepower:infused_teslatite_dust',
-        'minecraft:lapis_lazuli',["reactive:verdant"],10,2)
+        'minecraft:lapis_block',["reactive:verdant"],10,2)
 
     transmute('minecraft:terracotta','minecraft:oxidized_copper',
     ["reactive:verdant"],10,2)

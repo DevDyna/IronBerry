@@ -47,6 +47,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:floreal_bone_meal', '§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]')
     tipplusplus('kubejs:floreal_bone_meal', '§8[§fArea affected : §b3 blocks§8]')
 
+    tipplusplus('#ironberry:mechanicalbenchs','§2Autocrafter§f that work without any §acost')
     tipplusplus('minecraft:leather', 'Can be obtained by §9processing§f item from §afishing')
     tipplusplus('minecraft:coal', '§6Early game dont use it as fuel , it will very expensive')
     tipplusplus('minecraft:dirt', '§6Early game dont use too much until you could automate')

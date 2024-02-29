@@ -1977,6 +1977,30 @@
 			x: -3.0d
 			y: -16.0d
 		}
+		{
+			dependencies: ["6240CC21E07DF06B"]
+			id: "1B308EE154B4DA26"
+			rewards: [{
+				id: "238B6B3957ABB9B4"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "119EECBDC30A470B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:mechanicalbenchs"
+					}
+				}
+				title: "Any #ironberry:mechanicalbenchs"
+				type: "item"
+			}]
+			title: "Mechanical Auto Crafter"
+			x: -1.0d
+			y: -16.0d
+		}
 	]
 	subtitle: ["Blue technology and Chemistry"]
 	title: "Age 2"

@@ -1053,7 +1053,7 @@ ServerEvents.tags("item", (event) => {
   ]);
 
 
-
+event.add('ironberry:mechanicalbenchs',['bluepower:auto_project_table','essentials:auto_crafter'])
 
 
 });
