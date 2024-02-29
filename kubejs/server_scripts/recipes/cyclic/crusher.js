@@ -87,5 +87,26 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "cyclic:crusher",
+        "input": {
+            "item": 'minecraft:bone_meal'
+        },
+        "energy": {
+            "ticks": 10,
+            "rfpertick": 5
+        },
+        "result": {
+            "item": "minecraft:white_dye",
+
+            "count": 3
+        },
+        "percent": 50,
+        "bonus": {
+            "item": "minecraft:white_dye",
+            "count": 1
+        }
+    })
+
     
 })
