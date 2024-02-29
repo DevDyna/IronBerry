@@ -242,7 +242,7 @@ function emolimix(jump,variants){
 
 	less(['thermal:bitumen_block'],'9x thermal:bitumen')
 
-	less(['kubejs:acid_bucket'],'reactive:acid_bucket')
+	//less(['kubejs:acid_bucket'],'reactive:acid_bucket')
 
 	less(['rootsclassic:verdant_sprig','minecraft:lime_stained_glass'],'cyclic:terra_glass')
 
@@ -286,5 +286,8 @@ function emolimix(jump,variants){
 	less(['rftoolsbase:machine_frame', 'rftoolsbase:infused_enderpearl'],'rftoolsutility:dialing_device')
 
 	less(['minecraft:bone_meal', 'bluepower:lumar_white', 'bluepower:lumar_white'],'kubejs:floreal_bone_meal')
+
+	event.shapeless('3x reactive:acid_bottle',['kubejs:acid_bucket','reactive:quartz_bottle','reactive:quartz_bottle','reactive:quartz_bottle']).replaceIngredient({item : 'kubejs:acid_bucket'},'minecraft:bucket')
+
 
 })
