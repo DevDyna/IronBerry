@@ -46,10 +46,25 @@ function ItemAndCount(value, count) {
         "count": count
     }
 }
+//return as json + count value
+function FluidAndCount(value, count) {
+    if (count < 2) {
+    return JsonMakeFluid(value)
+} else return {
+    "fluid": value,
+    "count": count
+}
+}
 //json creator
 function JsonMakeItem(value) {
     return {
         "item": value
+    }
+}
+//json creator
+function JsonMakeFluid(value) {
+    return {
+        "fluid": value
     }
 }
 //cut all except the string between the walls and return

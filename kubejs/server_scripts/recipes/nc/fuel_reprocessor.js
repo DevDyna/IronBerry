@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-function crusher(item_in,icount,item_out,ocount){
+function reprocessor(item_in,icount,item_out,ocount){
   let result = []
   item_out.forEach((element, index) => {
     result.push(ItemAndCount(element, ocount[index]))
@@ -8,7 +8,7 @@ function crusher(item_in,icount,item_out,ocount){
   let input = []
   input.push(ItemAndCount(item_in, icount))
 	event.custom({
-  "type": "nuclearcraft:rock_crusher",
+  "type": "nuclearcraft:fuel_reprocessor",
   "input": input,
   "output": result,
   "powerModifier": (global.nc.energy),
@@ -17,7 +17,6 @@ function crusher(item_in,icount,item_out,ocount){
 }).id(RegX(item_in + '_' + item_out, '_'))
 }
 
-crusher('quark:sturdy_stone',1,['tombstone:white_marble', 'tombstone:dark_marble','minecraft:cobbled_deepslate'],[2,2,3])
-crusher('minecraft:deepslate',1,['kubejs:lupenio', 'minecraft:diamond','extendedcrafting:crystaltine_nugget'],[1,1,1])
+reprocessor('kubejs:lupenio',1,['nuclearcraft:boron_arsenide_gem', 'nuclearcraft:rhodochrosite_gem', 'nuclearcraft:fluorite_gem', 'nuclearcraft:villiaumite_gem', 'nuclearcraft:boron_nitride_gem', 'nuclearcraft:carobbiite_gem'],[1,1,1,1,1,1])
 
 })

@@ -791,5 +791,6 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 
     shapex(['minecraft:air','kubejs:quantity_base','minecraft:air','kubejs:speed_base', 'kubejs:base_augment', 'kubejs:speed_base','minecraft:air','kubejs:quantity_base'],'4x kubejs:base_module')
 
+    shapex(['nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'minecraft:air', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du'],'4x nuclearcraft:empty_frame')
 
 })

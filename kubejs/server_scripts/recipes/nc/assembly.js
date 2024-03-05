@@ -100,4 +100,6 @@ assembly(['nuclearcraft:crystal_binder_dust', 'mekanism:elite_control_circuit'],
 assembly(['nuclearcraft:tough_alloy_ingot', 'nuclearcraft:magnesium_ingot'],[2,1],'nuclearcraft:coil_magnesium_diboride',1)
 assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1],'nuclearcraft:coil_bscco',1)
 
+smart_assembly(['nuclearcraft:plate_du', 'nuclearcraft:steel_frame'],'nuclearcraft:empty_heat_sink')
+
 })

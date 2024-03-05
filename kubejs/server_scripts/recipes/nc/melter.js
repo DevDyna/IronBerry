@@ -24,4 +24,13 @@ ServerEvents.recipes(event => {
     melter('nuclearcraft:unsweetened_chocolate','nuclearcraft:unsweetened_chocolate',144)
     melter('minecraft:coal','kubejs:coal',250)
 
+
+    melter('nuclearcraft:carobbiite_dust','kubejs:carobbiite',144)
+    melter('nuclearcraft:boron_nitride_dust','kubejs:boron_nitride',144)
+    melter('nuclearcraft:fluorite_dust','kubejs:fluorite',144)
+    melter('nuclearcraft:villiaumite_dust','kubejs:villiaumite',144)
+
+
+
+
 })

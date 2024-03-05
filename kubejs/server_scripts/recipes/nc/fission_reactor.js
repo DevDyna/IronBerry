@@ -13,9 +13,9 @@ ServerEvents.recipes(event => {
                 "item": io[1]
               }
             ],
-            "powerModifier": (global.nc.energy)*2048,
+            "powerModifier": (global.nc.energy)*10,
             "radiation": (global.nc.rad),
-            "timeModifier": (global.nc.speed)*2048
+            "timeModifier": (global.nc.speed)*10
           }) 
     }
    

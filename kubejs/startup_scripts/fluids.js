@@ -84,37 +84,37 @@ StartupEvents.registry('fluid', event => {
         event.create('boron')
         .thickTexture(0x868782)
 		.bucketColor(0x868782)
-		.displayName('Synthetic Boron')
+		.displayName('§7Synthetic Boron')
 
         event.create('osmium')
         .thickTexture(0x9FD9EB)
 		.bucketColor(0x9FD9EB)
-		.displayName('Synthetic Osmium')
+		.displayName('§bSynthetic Osmium')
 
         event.create('thorium')
         .thickTexture(0x1D2421)
 		.bucketColor(0x1D2421)
-		.displayName('Synthetic Thorium')
+		.displayName('§cSynthetic Thorium')
 
         event.create('tin')
         .thickTexture(0x989F85)
 		.bucketColor(0x989F85)
-		.displayName('Synthetic Tin')
+		.displayName('§3Synthetic Tin')
 
         event.create('magnesium')
         .thickTexture(0xEFABF6)
 		.bucketColor(0xEFABF6)
-		.displayName('Synthetic Magnesium')
+		.displayName('§dSynthetic Magnesium')
 
         event.create('uranium')
         .thickTexture(0x3BB23B)
 		.bucketColor(0x3BB23B)
-		.displayName('Synthetic Uranium')
+		.displayName('§sSynthetic Uranium')
 
         event.create('graphite')
         .thickTexture(0x272B29)
 		.bucketColor(0x272B29)
-		.displayName('Molten Graphite')
+		.displayName('§5Molten Graphite')
 
         event.create('coal')
         .thickTexture(0x585252)
@@ -135,6 +135,46 @@ StartupEvents.registry('fluid', event => {
         .thickTexture(0xADF5F7)
 		.bucketColor(0xADF5F7)
 		.displayName('Molten Certus')
+//-------------------------------------------------------------------//
 
+event.create('carobbiite')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Carobbiite')
+
+event.create('boron_nitride')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Boron Nitride')
+
+event.create('fluorite')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Fluorite')
+
+event.create('villiaumite')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Villiaumite')
+
+event.create('caro_nitride')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Caro Nitride')
+
+event.create('fluorumite')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Fluorumite')
+
+event.create('sulfur_nitric')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Sulfur Nitric')
+
+event.create('sodium_hydroxide')
+.thickTexture(0xADF5F7)
+.bucketColor(0xADF5F7)
+.displayName('Sodium Hydroxide')
 
 })

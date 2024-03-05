@@ -816,11 +816,18 @@
 		{
 			dependencies: ["42AA46B26C7E74DC"]
 			id: "418E84C5B1C6B018"
-			tasks: [{
-				id: "346A9BDC57D1D836"
-				item: "kubejs:uranium"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "346A9BDC57D1D836"
+					item: "kubejs:uranium"
+					type: "item"
+				}
+				{
+					id: "0D64394745756BA1"
+					item: "kubejs:thorium"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
