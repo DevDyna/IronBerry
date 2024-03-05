@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 
 let keyname= ['rhodochrosite','boron_arsenide','villiaumite','carobbiite','boron_nitride','fluorite']
 keyname.forEach(name=>{
-  manu('nuclearcraft:'+keyname+'_gem','nuclearcraft:'+keyname+'_dust',1)
+  manu('nuclearcraft:'+name+'_gem','nuclearcraft:'+name+'_dust',1)
 })
 
   
