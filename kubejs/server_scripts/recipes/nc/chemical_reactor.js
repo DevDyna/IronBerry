@@ -26,16 +26,16 @@ reaction(["minecraft:milk",'nuclearcraft:unsweetened_chocolate'],[125,288],["nuc
 reaction(["kubejs:coal",'pneumaticcraft:etching_acid'],[500,400],["kubejs:graphite"],[288])
 reaction(['kubejs:sulfur_nitric','pneumaticcraft:etching_acid'],[144,1600],['kubejs:sodium_hydroxide'],[288])
 
-function smart_reaction(base,in_fluid,output){
+function smart_reaction(base,in_fluid,out_fluid){
   let in_amount = []
-  out_fluid.forEach(() => {
+  in_fluid.forEach(() => {
     in_amount.push(base)
   });
   let out_amount = []
   out_fluid.forEach(() => {
     out_amount.push(base)
   });
-  reaction(in_fluid,in_amount,output,out_amount)
+  reaction(in_fluid,in_amount,out_fluid,out_amount)
 }
 
 smart_reaction(144,['kubejs:carobbiite','kubejs:boron_nitride'],['kubejs:caro_nitride'])
