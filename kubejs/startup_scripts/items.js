@@ -204,4 +204,7 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/floreal_bone_meal')
     .displayName('§dFloreal Fertilizer')
 
+    event.create('lupenio')
+    .texture('ironberry:item/lupenio')
+    .displayName('§aLupenio')
 })

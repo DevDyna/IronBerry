@@ -3,7 +3,7 @@ ClientEvents.lang('en_us',event => {
   event.add('gas.kubejs.methane', 'Methane Gas')
   event.add('gas.kubejs.dustite', 'Dustite (gas)')
   event.add('gas.kubejs.clumperio', 'Clumperio (gas)')
-  event.add('gas.kubejs.clay', 'Synthetic Clay')
+  event.add('gas.kubejs.quartz', 'Synthetic Quartz')
   event.add('gas.kubejs.tesla', 'Synthetic Teslatite')
   event.add('gas.kubejs.red', 'Synthetic Redstone')
   event.add('gas.kubejs.glow', 'Synthetic Glowstone')
