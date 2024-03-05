@@ -79,8 +79,8 @@
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
-			y: 2.0d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -863,6 +863,17 @@
 			title: "Chemistry 2.0 #4"
 			x: -6.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["4B2287F56C73C510"]
+			id: "3B3498CFEDD139CD"
+			tasks: [{
+				id: "706300CE9E773A5E"
+				item: "thoriumreactors:depleted_molten_salt_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Wasting resources on reactions!"]

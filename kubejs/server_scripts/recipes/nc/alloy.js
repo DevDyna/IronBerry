@@ -33,6 +33,10 @@ ServerEvents.recipes(event => {
       alloy(item_list[0],1,item_list[1],1,output,1)
     }
 
+    function smart_alloy_with_count(item_list,output,count){
+      alloy(item_list[0],1,item_list[1],1,output,count)
+    }
+
 
     function infusion(ingredient,in_list,out_list){
       in_list.forEach((element , index) => {
@@ -56,5 +60,8 @@ ServerEvents.recipes(event => {
     alloy('nuclearcraft:ferroboron_ingot',1, 'nuclearcraft:lithium_ingot',1, 'nuclearcraft:tough_alloy_ingot',2)
     alloy('mekanism:ingot_osmium',1,'mekanism:dust_refined_obsidian',1,'mekanism:ingot_refined_obsidian',1)
 
+    smart_alloy_with_count(['nuclearcraft:magnesium_ingot', 'thermal:tin_ingot'],'nuclearcraft:shibuichi_ingot',4)
+    smart_alloy_with_count(['nuclearcraft:ferroboron_ingot', 'mekanism:alloy_reinforced'],'nuclearcraft:hard_carbon_ingot',1)
 
+    
 })

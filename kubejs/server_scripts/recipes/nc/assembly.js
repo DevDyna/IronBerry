@@ -87,5 +87,17 @@ smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_logi
 smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_port'],'nuclearcraft:fission_reactor_port')
 
 
+assembly(['mekanism:ingot_uranium', 'minecraft:copper_ingot', 'nuclearcraft:magnesium_ingot', 'nuclearcraft:graphite_ingot', 'mekanism:alloy_infused'],[2,1,1,1,1],'nuclearcraft:thermoconducting_ingot',1)
+assembly(['nuclearcraft:thermoconducting_ingot', 'nuclearcraft:tough_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1,1],'nuclearcraft:super_alloy_ingot',3)
+assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:hard_carbon_ingot', 'mekanism:teleportation_core', 'nuclearcraft:crystal_binder_dust'],[1,1,1,1],'nuclearcraft:extreme_ingot',3)
+assembly(['minecraft:copper_ingot', 'minecraft:iron_ingot', 'nuclearcraft:magnesium_ingot'],[4,1,1],'nuclearcraft:coil_copper',2)
+assembly(['nuclearcraft:graphite_ingot', 'thermal:tin_ingot', 'nuclearcraft:plate_basic', 'mekanism:advanced_control_circuit', 'nuclearcraft:silicon_gem'],[1,4,1,1,1],'nuclearcraft:servo',1)
+assembly(['minecraft:redstone', 'nuclearcraft:plate_basic', 'mekanism:ingot_osmium', 'nuclearcraft:ferroboron_ingot'],[8,2,2,1],'nuclearcraft:actuator',2)
+assembly(['mekanism:alloy_infused', 'nuclearcraft:boron_ingot', 'mekanism:alloy_reinforced', 'nuclearcraft:silicon_gem', 'nuclearcraft:plate_basic'],[4,2,1,1,1],'nuclearcraft:motor',1)
+
+
+assembly(['nuclearcraft:crystal_binder_dust', 'mekanism:elite_control_circuit'],[1,1],'mekanism:teleportation_core',2)
+assembly(['nuclearcraft:tough_alloy_ingot', 'nuclearcraft:magnesium_ingot'],[2,1],'nuclearcraft:coil_magnesium_diboride',1)
+assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1],'nuclearcraft:coil_bscco',1)
 
 })
