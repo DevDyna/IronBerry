@@ -52,7 +52,7 @@ function FluidAndCount(value, count) {
     return JsonMakeFluid(value)
 } else return {
     "fluid": value,
-    "count": count
+    "amount": count
 }
 }
 //json creator
