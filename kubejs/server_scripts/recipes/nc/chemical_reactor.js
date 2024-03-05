@@ -24,7 +24,7 @@ reaction(["minecraft:milk",'nuclearcraft:chocolate_liquor'],[250,576],["minecraf
 reaction(["minecraft:milk",'nuclearcraft:sugar'],[250,144],["nuclearcraft:marshmallow","thermal:syrup"],[288,144])
 reaction(["minecraft:milk",'nuclearcraft:unsweetened_chocolate'],[125,288],["nuclearcraft:milk_chocolate","nuclearcraft:dark_chocolate"],[144,144])
 reaction(["kubejs:coal",'pneumaticcraft:etching_acid'],[500,400],["kubejs:graphite"],[288])
-reaction(['kubejs:sulfur_nitric','pneumaticcraft:etching_acid'],[144,1600],['kubejs:sodium_hydroxide'],[288])
+reaction(['kubejs:fluoronitride','pneumaticcraft:etching_acid'],[144,1600],['kubejs:sodium_hydroxide'],[288])
 
 function smart_reaction(in_fluid,out_fluid){
   reaction(in_fluid,[144,144],out_fluid,[144])
@@ -32,7 +32,7 @@ function smart_reaction(in_fluid,out_fluid){
 
 smart_reaction(['kubejs:carobbiite','kubejs:boron_nitride'],['kubejs:caro_nitride'])
 smart_reaction(['kubejs:fluorite','kubejs:villiaumite'],['kubejs:fluorumite'])
-smart_reaction(['kubejs:caro_nitride','kubejs:fluorumite'],['kubejs:sulfur_nitric'])
+smart_reaction(['kubejs:caro_nitride','kubejs:fluorumite'],['kubejs:fluoronitride'])
 
 
 

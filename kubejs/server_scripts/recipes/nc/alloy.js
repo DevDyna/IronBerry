@@ -63,5 +63,6 @@ ServerEvents.recipes(event => {
     smart_alloy_with_count(['nuclearcraft:magnesium_ingot', 'thermal:tin_ingot'],'nuclearcraft:shibuichi_ingot',4)
     smart_alloy_with_count(['nuclearcraft:ferroboron_ingot', 'mekanism:alloy_reinforced'],'nuclearcraft:hard_carbon_ingot',1)
 
+    smart_alloy(['nuclearcraft:manganese_dust', 'nuclearcraft:sodium_hydroxide_dust'],'nuclearcraft:crystal_binder_dust')
     
 })

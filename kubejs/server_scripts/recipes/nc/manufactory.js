@@ -21,5 +21,18 @@ ServerEvents.recipes(event => {
 }
     manu('minecraft:cocoa_beans','nuclearcraft:cocoa_solids',2)
     manu('minecraft:obsidian','mekanism:dust_obsidian',2)
+  manu('nuclearcraft:carobbiite_gem','nuclearcraft:carobbiite_dust',1)
+
+let keyname= ['rhodochrosite','boron_arsenide','villiaumite','carobbiite','boron_nitride','fluorite']
+keyname.forEach(name=>{
+  manu('nuclearcraft:'+keyname+'_gem','nuclearcraft:'+keyname+'_dust',1)
+})
+
+  
+  
+  manu('nuclearcraft:manganese_ingot','nuclearcraft:manganese_dust',1)
+  
+  
+  
 
 })
