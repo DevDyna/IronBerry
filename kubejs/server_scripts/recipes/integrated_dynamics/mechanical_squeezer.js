@@ -245,4 +245,36 @@ ServerEvents.recipes(event => {
     //
     //
 
+
+    
+
+
+    event.custom({
+        "type": "integrateddynamics:mechanical_squeezer",
+        "item": {
+            "item": 'supplementaries:bomb_blue'
+        },
+        "result": {
+            "items": [{
+                
+                    "item": 'nuclearcraft:sodium_hydroxide_dust',
+                    "chance": 1
+                
+                }, {
+                    "item": 'nuclearcraft:sodium_hydroxide_dust',
+                    "chance": 0.75
+                }, {
+                    "item": 'nuclearcraft:sodium_hydroxide_dust',
+                    "chance": 0.5
+                }, {
+                    "item": 'nuclearcraft:sodium_hydroxide_dust',
+                    "chance": 0.25
+                }
+            ]
+        },
+        "duration": 15
+    })
+    //
+    //
+
 })

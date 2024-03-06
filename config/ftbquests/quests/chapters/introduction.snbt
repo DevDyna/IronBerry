@@ -494,7 +494,7 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: ["If you fall off your island , you didnt' die!"]
+			description: ["If you fall off your island , you don't die!"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
