@@ -207,4 +207,9 @@ StartupEvents.registry('item', event => {
     event.create('lupenio')
     .texture('ironberry:item/lupenio')
     .displayName('§aLupenio')
+
+    event.create('crystaltine')
+    .texture('ironberry:item/crystaltine')
+    .displayName('Crystaltine')
+
 })

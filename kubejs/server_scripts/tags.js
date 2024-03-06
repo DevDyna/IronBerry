@@ -103,6 +103,7 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'extremecobblegenerator:generator',
     'rftoolsbase:tablet',
     "rftoolsutility:charged_porter",
     "rftoolsutility:advanced_charged_porter",
@@ -1055,6 +1056,7 @@ ServerEvents.tags("item", (event) => {
 
 event.add('ironberry:mechanicalbenchs',['bluepower:auto_project_table','essentials:auto_crafter'])
 
+event.add('ironberry:urn_loot',['minecraft:gold_nugget', 'minecraft:bone', 'minecraft:emerald', 'minecraft:amethyst_shard', 'supplementaries:antique_ink', 'minecraft:raw_copper', 'minecraft:lapis_lazuli', 'minecraft:raw_iron', 'supplementaries:bomb_blue', 'minecraft:ender_pearl', 'minecraft:bundle', 'minecraft:skeleton_skull', 'minecraft:zombie_head', 'minecraft:slime_ball', 'supplementaries:bomb', 'minecraft:diamond', 'minecraft:raw_gold', 'minecraft:iron_nugget', 'supplementaries:ash'])
 
 });
 

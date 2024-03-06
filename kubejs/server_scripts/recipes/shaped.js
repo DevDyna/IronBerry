@@ -793,4 +793,6 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 
     shapex(['nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'minecraft:air', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du', 'nuclearcraft:plate_du'],'4x nuclearcraft:empty_frame')
 
+
+    shapex(['pneumaticcraft:ingot_iron_compressed', 'cyclic:battery', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'cobblefordays:tier_3', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'cyclic:battery', 'pneumaticcraft:ingot_iron_compressed'],'extremecobblegenerator:generator')
 })

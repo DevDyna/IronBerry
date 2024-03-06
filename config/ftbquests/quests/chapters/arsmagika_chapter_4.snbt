@@ -755,6 +755,10 @@
 				"5C74D85E4D1BAF16"
 				"77AECDAFB721B3A2"
 			]
+			description: [
+				"DUE a issue many recipe need to made with more process to have a correct item count on result!"
+				"Example raw iron recipes"
+			]
 			hide: true
 			id: "7EABBDB739B99D38"
 			shape: "hexagon"

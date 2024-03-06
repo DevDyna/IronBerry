@@ -155,6 +155,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('bluepower:deployer','Can be imported and exported using §aNormal Hoppers §for §aGolden Hoppers')
     tipplusplus('goldenhopper:golden_hopper','A simple §afiltered§f hopper')
     tipplusplus('kubejs:floreal_bone_meal','Right click on §aDirt §fit can spawn some §6Flowers')
+    tipplusplus('#ironberry:urn_loot','Can be dropped by §6Urns§f when broken')
 })
 
 /*

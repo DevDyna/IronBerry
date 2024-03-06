@@ -18,6 +18,6 @@ function crusher(item_in,icount,item_out,ocount){
 }
 
 crusher('quark:sturdy_stone',1,['tombstone:white_marble', 'tombstone:dark_marble','minecraft:cobbled_deepslate'],[2,2,3])
-crusher('minecraft:deepslate',1,['kubejs:lupenio', 'minecraft:diamond','extendedcrafting:crystaltine_nugget'],[1,1,1])
+crusher('minecraft:deepslate',1,['kubejs:lupenio', 'minecraft:diamond','kubejs:crystaltine'],[1,1,1])
 
 })

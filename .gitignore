@@ -194,3 +194,4 @@ config\sophisticatedcore-client.toml
 config\sodium-extra.properties
 config\sodium-extra-options.json
 config/morered-client.toml
+config/compressiumblocks.json
