@@ -143,6 +143,8 @@
 		{
 			dependencies: ["1749654EEB1ECEDC"]
 			id: "1FE2BB2E4BDB24C0"
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
 					id: "32530DAAF7CA4944"
@@ -180,23 +182,6 @@
 				}
 			]
 			title: "Chemistry 2.0 #3"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["28368E27A614409E"]
-			id: "42AA46B26C7E74DC"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "4791E2960F21943A"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:fission_reactor_controller"
-					tag: { }
-				}
-				type: "item"
-			}]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -488,9 +473,17 @@
 			id: "0496DF45F94AC1F8"
 			tasks: [{
 				id: "7B0D875A68C7CADC"
-				item: "mekanism:basic_universal_cable"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:universal_cable"
+					}
+				}
+				title: "Any #ironberry:universal_cable"
 				type: "item"
 			}]
+			title: "Universal Pipes"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -553,7 +546,7 @@
 			]
 			title: "Ingot Fantastic"
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -596,7 +589,7 @@
 				item: "nuclearcraft:plate_advanced"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -810,11 +803,11 @@
 				item: "nuclearcraft:plate_du"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["42AA46B26C7E74DC"]
+			dependencies: ["1FE2BB2E4BDB24C0"]
 			id: "418E84C5B1C6B018"
 			tasks: [
 				{
@@ -839,7 +832,7 @@
 				item: "nuclearcraft:empty_frame"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 6.0d
 		}
 		{
@@ -868,7 +861,7 @@
 				}
 			]
 			title: "Chemistry 2.0 #4"
-			x: -6.0d
+			x: -8.0d
 			y: 6.0d
 		}
 		{
@@ -881,6 +874,28 @@
 			}]
 			x: -7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			id: "649EC4FE63FC3EF1"
+			tasks: [{
+				id: "46CD40B4D3724154"
+				item: {
+					Count: 1b
+					id: "supplementaries:urn"
+					tag: {
+						BlockStateTag: {
+							treasure: "true"
+						}
+						display: {
+							Lore: ["{\"text\":\"contain items\"}"]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Wasting resources on reactions!"]

@@ -28,4 +28,7 @@ ServerEvents.recipes(event => {
 
 enrich('mekanism:ingot_osmium','pneumaticcraft:etching_acid',1000,'kubejs:osmium_enriched',125)
 
+enrich('kubejs:crystaltine','kubejs:quartz',10,'kubejs:quartz_cristaltine',10)
+enrich('nuclearcraft:boron_arsenide_dust','kubejs:quartz_cristaltine',10,'kubejs:quartz_arsenic',144)
+
 })

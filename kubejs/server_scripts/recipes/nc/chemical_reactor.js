@@ -34,8 +34,10 @@ smart_reaction(['kubejs:carobbiite','kubejs:boron_nitride'],['kubejs:caro_nitrid
 smart_reaction(['kubejs:fluorite','kubejs:villiaumite'],['kubejs:fluorumite'])
 smart_reaction(['kubejs:caro_nitride','kubejs:fluorumite'],['kubejs:fluoronitride'])
 
-
-
+smart_reaction(['kubejs:quartz_arsenic','nuclearcraft:oxygen'],['kubejs:quartz_oxide'])
+smart_reaction(['kubejs:quartz_oxide','nuclearcraft:aqua_regia_acid'],['kubejs:quartz_regia'])
+smart_reaction(['kubejs:quartz_regia','nuclearcraft:nitric_acid'],['kubejs:quartz_nitric'])
+smart_reaction(['nuclearcraft:chlorine','nuclearcraft:nitrogen'],['nuclearcraft:nitric_acid'])
 
 
 

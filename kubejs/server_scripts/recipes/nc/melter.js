@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
     melter('nuclearcraft:fluorite_dust','kubejs:fluorite',144)
     melter('nuclearcraft:villiaumite_dust','kubejs:villiaumite',144)
 
-
+melter('minecraft:quartz','kubejs:quartz',10)
 
 
 })

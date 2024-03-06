@@ -156,6 +156,8 @@ ItemEvents.tooltip(event => {
     tipplusplus('goldenhopper:golden_hopper','A simple §afiltered§f hopper')
     tipplusplus('kubejs:floreal_bone_meal','Right click on §aDirt §fit can spawn some §6Flowers')
     tipplusplus('#ironberry:urn_loot','Can be dropped by §6Urns§f when broken')
+    tipplusplus(['nuclearcraft:upgrade_energy', 'nuclearcraft:upgrade_speed'],'Dont use §c10 or more§f on a single machines , they can §cbreak§f it!')
+
 })
 
 /*

@@ -103,6 +103,8 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'nuclearcraft:lithium_ingot',
+    'nuclearcraft:thorium_ingot',
     'nuclearcraft:graphite_ingot',
     'extremecobblegenerator:generator',
     'rftoolsbase:tablet',
@@ -952,6 +954,8 @@ ServerEvents.tags("item", (event) => {
     "nuclearcraft:boron_ingot",
     "nuclearcraft:magnesium_ingot",
   ]);
+
+  event.add('ironberry:universal_cable',['mekanism:basic_logistical_transporter', 'mekanism:basic_universal_cable', 'mekanism:basic_pressurized_tube', 'mekanism:basic_mechanical_pipe'])
 
   event.add("ironberry:blue_picks", [
     "bluepower:sapphire_pickaxe",

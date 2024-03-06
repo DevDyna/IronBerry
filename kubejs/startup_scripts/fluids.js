@@ -109,7 +109,7 @@ StartupEvents.registry('fluid', event => {
         event.create('uranium')
         .thickTexture(0x3BB23B)
 		.bucketColor(0x3BB23B)
-		.displayName('§sSynthetic Uranium')
+		.displayName('§4Synthetic Uranium')
 
         event.create('graphite')
         .thickTexture(0x272B29)
@@ -176,5 +176,40 @@ event.create('sodium_hydroxide')
 .thickTexture(0xDECEE1)
 .bucketColor(0xDECEE1)
 .displayName('Sodium Hydroxide')
+
+
+
+
+
+//-------------------------------------//
+event.create('quartz_cristaltine')
+.thickTexture(0x71E9B9)
+.bucketColor(0x71E9B9)
+.displayName('Quartz Crystalline')
+
+event.create('quartz_arsenic')
+.thickTexture(0x66DF5D)
+.bucketColor(0x66DF5D)
+.displayName('Boron-Quartz Arsenic')
+
+event.create('quartz_oxide')
+.thickTexture(0x5DA3DF)
+.bucketColor(0x5DA3DF)
+.displayName('Boron-Quartz Arsenic Oxide')
+
+event.create('quartz_regia')
+.thickTexture(0xEFE47E)
+.bucketColor(0xEFE47E)
+.displayName('Aqua Regia Mixture')
+
+event.create('quartz_nitric')
+.thickTexture(0x15FFFF)
+.bucketColor(0x15FFFF)
+.displayName('Quartz Nitric')
+
+event.create('quartz_heated')
+.thickTexture(0x1583FF)
+.bucketColor(0x1583FF)
+.displayName('Heated Quartz Nitric')
 
 })

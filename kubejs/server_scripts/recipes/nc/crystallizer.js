@@ -21,6 +21,6 @@ ServerEvents.recipes(event => {
 
 
     crystallize('kubejs:sodium_hydroxide',144,'nuclearcraft:sodium_hydroxide_dust')
-
+    crystallize("kubejs:certus",144,'ae2:certus_quartz_crystal')
 
 })
