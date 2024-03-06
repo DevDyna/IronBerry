@@ -277,45 +277,6 @@ ServerEvents.recipes((event) => {
     ["#ironberry:magic_cards", "cyclic:carbon_paper"]
   );
 
-  scut(
-    [
-      "nuclearcraft:glowstone_heat_sink",
-      "nuclearcraft:netherite_heat_sink",
-      "nuclearcraft:slime_heat_sink",
-      "nuclearcraft:gold_heat_sink",
-      "nuclearcraft:liquid_nitrogen_heat_sink",
-      "nuclearcraft:lithium_heat_sink",
-      "nuclearcraft:carobbiite_heat_sink",
-      "nuclearcraft:enderium_heat_sink",
-      "nuclearcraft:end_stone_heat_sink",
-      "nuclearcraft:redstone_heat_sink",
-      "nuclearcraft:emerald_heat_sink",
-      "nuclearcraft:nether_brick_heat_sink",
-      "nuclearcraft:fluorite_heat_sink",
-      "nuclearcraft:lapis_heat_sink",
-      "nuclearcraft:obsidian_heat_sink",
-      "nuclearcraft:purpur_heat_sink",
-      "nuclearcraft:cryotheum_heat_sink",
-      "nuclearcraft:liquid_helium_heat_sink",
-      "nuclearcraft:arsenic_heat_sink",
-      "nuclearcraft:quartz_heat_sink",
-      "nuclearcraft:magnesium_heat_sink",
-      "nuclearcraft:villiaumite_heat_sink",
-      "nuclearcraft:boron_heat_sink",
-      "nuclearcraft:silver_heat_sink",
-      "nuclearcraft:iron_heat_sink",
-      "nuclearcraft:diamond_heat_sink",
-      "nuclearcraft:lead_heat_sink",
-      "nuclearcraft:water_heat_sink",
-      "nuclearcraft:copper_heat_sink",
-      "nuclearcraft:tin_heat_sink",
-      "nuclearcraft:prismarine_heat_sink",
-      "nuclearcraft:aluminum_heat_sink",
-      "nuclearcraft:manganese_heat_sink",
-    ],
-    ["nuclearcraft:empty_heat_sink", "#ironberry:heat_coolers"]
-  );
-
   scut(["reactive:copper_symbol"], ["minecraft:copper_ingot"]);
   scut(["reactive:iron_symbol"], ["minecraft:iron_ingot"]);
   scut(["reactive:gold_symbol"], ["minecraft:gold_ingot"]);

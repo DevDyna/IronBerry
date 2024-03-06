@@ -78,15 +78,6 @@ nc_machine('cyclic:crusher','nuclearcraft:manufactory')
 tiny_assembly(['mekanism:ingot_refined_obsidian', 'nuclearcraft:basic_electric_circuit', 'nuclearcraft:plate_advanced'],'nuclearcraft:plate_du',4)
 
 
-smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:reactor_glass'],'nuclearcraft:fission_reactor_glass')
-smart_assembly(['nuclearcraft:plate_du','mekanism:structural_glass'],'nuclearcraft:fission_reactor_glass')
-smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_casing'],'nuclearcraft:fission_reactor_casing')
-smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_fuel_assembly'],'nuclearcraft:fission_reactor_solid_fuel_cell')
-assembly(['nuclearcraft:plate_du', 'mekanismgenerators:control_rod_assembly', 'mekanismgenerators:gas_burning_generator'],[4,1,1],'nuclearcraft:fission_reactor_controller',1)
-smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_logic_adapter'],'nuclearcraft:fission_reactor_port')
-smart_assembly(['nuclearcraft:plate_du','mekanismgenerators:fission_reactor_port'],'nuclearcraft:fission_reactor_port')
-
-
 assembly(['mekanism:ingot_uranium', 'minecraft:copper_ingot', 'nuclearcraft:magnesium_ingot', 'nuclearcraft:graphite_ingot', 'mekanism:alloy_infused'],[2,1,1,1,1],'nuclearcraft:thermoconducting_ingot',1)
 assembly(['nuclearcraft:thermoconducting_ingot', 'nuclearcraft:tough_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1,1],'nuclearcraft:super_alloy_ingot',3)
 assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:hard_carbon_ingot', 'mekanism:teleportation_core', 'nuclearcraft:crystal_binder_dust'],[1,1,1,1],'nuclearcraft:extreme_ingot',3)
@@ -100,6 +91,5 @@ assembly(['nuclearcraft:crystal_binder_dust', 'mekanism:elite_control_circuit'],
 assembly(['nuclearcraft:tough_alloy_ingot', 'nuclearcraft:magnesium_ingot'],[2,1],'nuclearcraft:coil_magnesium_diboride',1)
 assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1],'nuclearcraft:coil_bscco',1)
 
-smart_assembly(['nuclearcraft:plate_du', 'nuclearcraft:steel_frame'],'nuclearcraft:empty_heat_sink')
 
 })
