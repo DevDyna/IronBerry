@@ -16,6 +16,17 @@ event.custom({
 
 
 
-
+event.custom({
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": 'minecraft:quartz'
+    }
+  },
+  "mode": "press",//"inscribe",
+  "result": {
+    "item": 'thermal:quartz_dust'
+  }
+})
 
 })

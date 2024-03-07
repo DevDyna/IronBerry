@@ -37,4 +37,10 @@ ServerEvents.recipes(event => {
 
     infuse('mekanism:ingot_uranium','kubejs:osmium_enriched',10000,'kubejs:uranium')
     infuse('nuclearcraft:thorium_ingot','kubejs:osmium_enriched',10000,'kubejs:thorium')
+
+    infuse('ae2:certus_quartz_dust','pneumaticcraft:etching_acid',10,'ae2:fluix_dust')
+
+    infuse('ae2:fluix_dust','thermal:glowstone',200,'ae2:fluix_crystal')
+    infuse('ae2:certus_quartz_dust','thermal:redstone',200,'ae2:charged_certus_quartz_crystal')
+
 })

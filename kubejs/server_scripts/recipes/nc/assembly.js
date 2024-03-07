@@ -91,5 +91,9 @@ assembly(['nuclearcraft:crystal_binder_dust', 'mekanism:elite_control_circuit'],
 assembly(['nuclearcraft:tough_alloy_ingot', 'nuclearcraft:magnesium_ingot'],[2,1],'nuclearcraft:coil_magnesium_diboride',1)
 assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1],'nuclearcraft:coil_bscco',1)
 
+assembly(['ae2:quartz_fiber','ae2:fluix_crystal'],[4,1],'ae2:fluix_glass_cable',2)
+assembly(['ae2:fluix_glass_cable','thermal:cured_rubber'],[4,1],'ae2:fluix_covered_cable',2)
+
+assembly(['ae2:fluix_covered_cable','ae2:charged_certus_quartz_crystal', 'minecraft:quartz', 'ae2:fluix_crystal'],[4,1,1,1,1],'ae2:fluix_smart_cable',2)
 
 })

@@ -847,4 +847,8 @@ I: 'kubejs:iron_rod',
 B: 'tombstone:bone_needle'
 })
 
+shapex(['ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'thermal:quartz_dust', 'thermal:quartz_dust', 'thermal:quartz_dust', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass'],'24x ae2:quartz_fiber')
+
+
+
 })

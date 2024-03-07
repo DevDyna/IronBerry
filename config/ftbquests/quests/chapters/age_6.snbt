@@ -30,6 +30,16 @@
 			x: -1.0d
 			y: -3.0d
 		}
+		{
+			id: "08129DE900423F9F"
+			tasks: [{
+				id: "73A0CF618B0DAB87"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
 	]
 	title: "Age 6"
 }
