@@ -173,4 +173,9 @@ ServerEvents.recipes(event => {
 
         alloy(["ironchest:wood_to_copper_chest_upgrade"],[1],"minecraft:iron_ingot",9)
 
+        alloy(['compressium:cobblestone_1'],[1],'ae2:matter_ball',9)
+
+
+
+
     })

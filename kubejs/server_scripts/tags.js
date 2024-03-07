@@ -103,6 +103,9 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'ae2:charged_staff', 
+    'ae2:matter_cannon', 
+    'ae2:color_applicator',
     'nuclearcraft:lithium_ingot',
     'nuclearcraft:thorium_ingot',
     'nuclearcraft:graphite_ingot',
@@ -513,14 +516,7 @@ ServerEvents.tags("item", (event) => {
   //   "ae2:io_port",
   // ]);
 
-  event.add("ironberry:p2p", [
-    "ae2:me_p2p_tunnel",
-    "ae2:redstone_p2p_tunnel",
-    "ae2:item_p2p_tunnel",
-    "ae2:fluid_p2p_tunnel",
-    "ae2:fe_p2p_tunnel",
-    "ae2:light_p2p_tunnel",
-  ]);
+  event.add("ironberry:p2p", ['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'arseng:source_p2p_tunnel', 'arseng:spell_p2p_tunnel', 'appmek:chemical_p2p_tunnel']);
 
   event.add("ironberry:blue_slabs", [
     "bluepower:half_block",
@@ -571,7 +567,7 @@ ServerEvents.tags("item", (event) => {
     "thermal:wrench",
     "ae2:certus_quartz_wrench",
     "ae2:nether_quartz_wrench",
-    "ae2:network_tool",
+    //"ae2:network_tool",
     "essentials:wrench",
     "integrateddynamics:wrench",
     "pipez:wrench",

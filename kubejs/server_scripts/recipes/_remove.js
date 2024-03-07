@@ -40,6 +40,10 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ae2:charger/charged_certus_quartz_crystal',
+        'ae2:transform/fluix_crystal',
+        'ae2:transform/certus_quartz_crystals',
+        'ae2:transform/fluix_crystals',
         'engineersdecor:independent/small_block_breaker_recipe',
         'engineersdecor:dependent/small_solar_panel_recipe',
         'cyclic:crusher/granite',
@@ -106,6 +110,7 @@ ServerEvents.recipes(event => {
         ])
 
     remtype([
+            'ae2:entropy',
 			'mekanism:energy_conversion',
             /* 			'thermal:machines',
             'thermal:sawmill',
@@ -148,9 +153,9 @@ ServerEvents.recipes(event => {
         mod: 'gateways'
     })
 
-    event.remove({
-        mod: 'ae2'
-    })
+    // event.remove({
+    //     mod: 'ae2'
+    // })
 
     event.remove({
         mod: 'appmek'
@@ -162,10 +167,6 @@ ServerEvents.recipes(event => {
 
     event.remove({
         mod: 'expatternprovider'
-    })
-
-    event.remove({
-        mod: 'extendedcrafting'
     })
 
     event.remove({

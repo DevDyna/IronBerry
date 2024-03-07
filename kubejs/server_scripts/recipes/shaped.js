@@ -766,8 +766,8 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
     shapex(['minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'bluepower:reinforced_sapphire_glass', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air', 'mekanismgenerators:fission_reactor_casing', 'minecraft:air'],'4x mekanismgenerators:reactor_glass')
     shapex(['quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'mekanismgenerators:fission_reactor_casing', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod', 'quark:iron_rod'],'8x mekanismgenerators:fission_fuel_assembly')
     shapex(['minecraft:comparator', 'mekanismgenerators:fission_reactor_casing', 'minecraft:comparator', 'quark:iron_rod', 'mekanismgenerators:fission_fuel_assembly', 'quark:iron_rod', 'quark:iron_rod', 'minecraft:air', 'quark:iron_rod'],'2x mekanismgenerators:control_rod_assembly')
-	shapex(['minecraft:stick','minecraft:air','minecraft:air','minecraft:iron_ingot'],'ae2:crank')
-    shapex(['minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:copper_ingot', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot'],'ae2:charger')
+	//shapex(['minecraft:stick','minecraft:air','minecraft:air','minecraft:iron_ingot'],'ae2:crank')
+    //shapex(['minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:copper_ingot', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot'],'ae2:charger')
 
 
 
@@ -795,4 +795,56 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
 
 
     shapex(['pneumaticcraft:ingot_iron_compressed', 'compressium:cobblestone_3', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'cobblefordays:tier_3', 'pneumaticcraft:ingot_iron_compressed', 'pneumaticcraft:ingot_iron_compressed', 'cyclic:battery', 'pneumaticcraft:ingot_iron_compressed'],'extremecobblegenerator:generator')
+
+
+    event.shaped('thermal:satchel', [
+        ' L ',
+        'L L',
+        ' L '
+    ], {
+    L: 'minecraft:leather'
+})
+
+event.shaped('exoticbirds:pigeon_backpack', [
+    ' L ',
+    'LFL',
+    '   '
+], {
+L: 'minecraft:leather',
+F: 'minecraft:feather'
+})
+
+
+event.shaped('ae2:color_applicator', [
+    ' E ',
+    ' IE',
+    'B  '
+], {
+E: 'minecraft:amethyst_shard',
+I: 'bluepower:amethyst_gem',
+B: 'tombstone:bone_needle'
+})
+
+event.shaped('ae2:matter_cannon', [
+    '   ',
+    'MSK',
+    ' IB'
+], {
+    M: 'ae2:matter_ball',
+    K: 'bluepower:sapphire_gem',
+    S: 'tombstone:smoke_ball',
+    I: 'kubejs:iron_rod',
+    B: 'tombstone:bone_needle'
+})
+event.shaped('ae2:charged_staff', [
+    ' ES',
+    ' IE',
+    'B  '
+], {
+E: 'minecraft:emerald',
+S: 'bluepower:green_sapphire_gem',
+I: 'kubejs:iron_rod',
+B: 'tombstone:bone_needle'
+})
+
 })

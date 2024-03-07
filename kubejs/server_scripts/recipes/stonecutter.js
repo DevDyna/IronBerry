@@ -160,7 +160,7 @@ ServerEvents.recipes((event) => {
       "thermal:wrench",
       "ae2:certus_quartz_wrench",
       "ae2:nether_quartz_wrench",
-      "ae2:network_tool",
+      //"ae2:network_tool",
       "essentials:wrench",
       "integrateddynamics:wrench",
       "pipez:wrench",
@@ -327,7 +327,7 @@ ServerEvents.recipes((event) => {
     ["#ironberry:rftools_modules", "kubejs:base_module"]
   );
 
-
+scut(['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'arseng:source_p2p_tunnel', 'arseng:spell_p2p_tunnel', 'appmek:chemical_p2p_tunnel'],["#ironberry:p2p"])
 
   scut(['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'],['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'])
 });

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nuclearized_age_5"
-	group: "0AB07CEFAAABA228"
+	group: ""
 	icon: {
 		Count: 1b
 		id: "thoriumreactors:thorium"
@@ -13,38 +13,41 @@
 		{
 			click: ""
 			corner: false
+			dependency: "6E1302B3D9FDBDB5"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "cyclic:items/peat_biomass"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "cyclic:blocks/solidifier"
-			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "646E5959C53D3605"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "cyclic:blocks/solidifier"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "087A5EF088DDED0E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "nuclearcraft:block/processor/alloy_smelter_powered"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: 4.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			click: ""
@@ -55,20 +58,21 @@
 			image: "nuclearcraft:block/energy/rtg/uranium/side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "087A5EF088DDED0E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "pneumaticcraft:textures/gui/gui_buildcraft_energy.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.642857142857146d
-			y: 3.5d
+			x: 5.3214285714285765d
+			y: 0.3749999999999929d
 		}
 		{
 			click: ""
@@ -79,23 +83,206 @@
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
-			y: 4.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "05A163CA0B85418B"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "nuclearcraft:block/fission/controller/fission_reactor_controller_powered"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06A531620346F341"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nuclearcraft:item/fuel/curium/depleted/hecm_247_za"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
 			y: 4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 8.0d
+		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -113,8 +300,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4C624E7DFD3E414E"]
@@ -137,14 +324,13 @@
 				}
 			]
 			title: "Simple Nuclear Machines"
-			x: 2.0d
-			y: -4.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1749654EEB1ECEDC"]
 			id: "1FE2BB2E4BDB24C0"
 			shape: "gear"
-			size: 2.0d
 			tasks: [
 				{
 					id: "32530DAAF7CA4944"
@@ -181,25 +367,9 @@
 					type: "item"
 				}
 			]
-			title: "Chemistry 2.0 #3"
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["06A531620346F341"]
-			id: "3F799A3D653ECAC6"
-			shape: "gear"
-			tasks: [{
-				id: "11FEB6589E9A87C1"
-				item: {
-					Count: 1b
-					id: "nuclearcraft:chassis"
-					tag: { }
-				}
-				type: "item"
-			}]
+			title: "Chemical Reaction 2.0 #3"
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -212,8 +382,8 @@
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["123D0BCDB0FD19BF"]
@@ -223,63 +393,13 @@
 				item: "nuclearcraft:plate_basic"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
-			description: ["You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics"]
+			description: ["You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics if you lost !"]
 			id: "152F5B457DF4C6AB"
-			rewards: [
-				{
-					id: "5C20BF85321F60AF"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:template"
-						tag: {
-							template_id: [I;
-								1804752495
-								-1480048527
-								-1907807541
-								748982222
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6424A7E292752C93"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:template"
-						tag: {
-							template_id: [I;
-								1471438768
-								2141735968
-								-1236556662
-								1172667355
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "018C4F6E5EA954EE"
-					item: {
-						Count: 1b
-						id: "buildinggadgets:template"
-						tag: {
-							template_id: [I;
-								-161427434
-								1210010715
-								-2111619084
-								19967316
-							]
-						}
-					}
-					type: "item"
-				}
-			]
 			shape: "gear"
 			subtitle: "I have a gift"
 			tasks: [{
@@ -360,8 +480,8 @@
 				item: "cyclic:gem_obsidian"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["52D98F751BCB3396"]
@@ -388,8 +508,8 @@
 				}
 			]
 			title: "Chambers"
-			x: -2.0d
-			y: -6.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["123D0BCDB0FD19BF"]
@@ -399,7 +519,7 @@
 				item: "cyclic:biomass"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.4928571428571331d
 			y: -4.0d
 		}
 		{
@@ -421,8 +541,8 @@
 				item: "cyclic:peat_farm"
 				type: "item"
 			}]
-			x: -3.507142857142867d
-			y: -0.030952380952385283d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55628480845DB31F"]
@@ -432,7 +552,7 @@
 				item: "cyclic:peat_fuel_enriched"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.4928571428571331d
 			y: 0.0d
 		}
 		{
@@ -464,7 +584,7 @@
 					type: "item"
 				}
 			]
-			title: "Chemistry 2.0 #1"
+			title: "Chemical Reaction 2.0 #1"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -484,8 +604,8 @@
 				type: "item"
 			}]
 			title: "Universal Pipes"
-			x: 0.0d
-			y: -4.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06A531620346F341"]
@@ -507,8 +627,8 @@
 				item: "thermal:bitumen"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["46650594DAFC04AF"]
@@ -518,7 +638,7 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -545,8 +665,8 @@
 				}
 			]
 			title: "Ingot Fantastic"
-			x: 2.0d
-			y: 6.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -559,11 +679,11 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3F799A3D653ECAC6"]
+			dependencies: ["06A531620346F341"]
 			id: "1B8615BAC47B6BB1"
 			tasks: [
 				{
@@ -577,9 +697,9 @@
 					type: "item"
 				}
 			]
-			title: "Chemistry 2.0 #2"
+			title: "Chemical Reaction 2.0 #2"
 			x: 4.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6138769A65F12025"]
@@ -589,8 +709,8 @@
 				item: "nuclearcraft:plate_advanced"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["418E84C5B1C6B018"]
@@ -654,8 +774,8 @@
 				}
 			]
 			title: "Thorium Reactor"
-			x: -5.0d
-			y: 2.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
@@ -703,8 +823,8 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: -5.0d
-			y: 0.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C30C4E45CA21A76"]
@@ -792,8 +912,8 @@
 				}
 			]
 			title: "Turbine"
-			x: -7.0d
-			y: 0.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE2BB2E4BDB24C0"]
@@ -803,8 +923,8 @@
 				item: "nuclearcraft:plate_du"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1FE2BB2E4BDB24C0"]
@@ -821,22 +941,11 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["28368E27A614409E"]
-			id: "623559D4C514453C"
-			tasks: [{
-				id: "632AA489D38D5F34"
-				item: "nuclearcraft:empty_frame"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["623559D4C514453C"]
 			id: "05A163CA0B85418B"
 			tasks: [
 				{
@@ -860,9 +969,9 @@
 					type: "item"
 				}
 			]
-			title: "Chemistry 2.0 #4"
-			x: -8.0d
-			y: 6.0d
+			title: "Chemical Reaction 2.0 #4"
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
@@ -872,12 +981,13 @@
 				item: "thoriumreactors:depleted_molten_salt_bucket"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
 			id: "649EC4FE63FC3EF1"
+			subtitle: "A shortcut?"
 			tasks: [{
 				id: "46CD40B4D3724154"
 				item: {
@@ -894,8 +1004,21 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 8.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			id: "3D0C633DD93D1494"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "13F0BA30C120BBC2"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 1.8928571428571388d
+			y: 6.107142857142847d
 		}
 	]
 	subtitle: ["Wasting resources on reactions!"]

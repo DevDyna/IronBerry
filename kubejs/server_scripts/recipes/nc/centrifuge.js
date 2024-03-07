@@ -44,20 +44,17 @@ ServerEvents.recipes(event => {
     "type": "nuclearcraft:centrifuge",
     "inputFluids": [
       {
-        "amount": 24,
+        "amount": 144,
         "fluid": "kubejs:quartz_heated"
       }
     ],
     "outputFluids": [
       {
-        "amount": 24,
+        "amount": 72,
         "fluid": "kubejs:certus"
       },{
-        "amount": 24,
-        "fluid": "nuclearcraft:nitric_acid"
-      },{
-        "amount": 24,
-        "fluid": "nuclearcraft:aqua_regia_acid"
+        "amount": 72,
+        "fluid": 'kubejs:osmium_enriched'
       }
     ],
     "powerModifier": (global.nc.energy),

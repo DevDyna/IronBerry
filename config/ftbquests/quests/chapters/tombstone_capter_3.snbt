@@ -537,15 +537,46 @@
 			hide: true
 			id: "167389B3E16BDA6A"
 			rewards: [{
+				count: 4
 				id: "7D732FCC1D8ACD69"
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "1EC07FD2EEBE90A5"
-				item: "ae2:entropy_manipulator"
-				type: "item"
-			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1EC07FD2EEBE90A5"
+					item: "ae2:entropy_manipulator"
+					type: "item"
+				}
+				{
+					id: "5158599C64C43BBD"
+					item: {
+						Count: 1b
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B09C4D98A48AFCB"
+					item: "ae2:charged_staff"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B0D59AAA4094D90"
+					item: {
+						Count: 1b
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Energized Gadgets"
 			x: 7.5d
 			y: -14.5d
 		}
