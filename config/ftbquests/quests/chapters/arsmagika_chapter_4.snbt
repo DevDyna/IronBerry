@@ -1393,6 +1393,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "48096F4214AFE876"
+			rewards: [{
+				id: "6079D9D286E6D9CB"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24B2280CA4C1B8A9"
 				item: {

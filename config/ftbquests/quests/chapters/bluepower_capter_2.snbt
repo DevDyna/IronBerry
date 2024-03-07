@@ -644,7 +644,7 @@
 				item: "minecraft:stonecutter"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -726,6 +726,7 @@
 		}
 		{
 			dependencies: ["6100D1B5545583E3"]
+			description: ["Floreal fertilizer work like vanilla bone meal but dont require biome or grass to spawn flowers , useful when you lose all grass blocks"]
 			hide: true
 			id: "66428E9F71ABAF8C"
 			rewards: [{
@@ -743,6 +744,7 @@
 				{
 					id: "29FEA3B055965CB6"
 					item: "kubejs:floreal_bone_meal"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -948,17 +950,24 @@
 		{
 			dependencies: ["642A560192E69BA9"]
 			id: "5FD859340BCA2236"
-			rewards: [{
-				id: "6633B52E73500F77"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "sculktransporting:guide"
+			rewards: [
+				{
+					id: "6633B52E73500F77"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "sculktransporting:guide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "62A2DBEAF5A8329D"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3EF73500EE43A9C1"
@@ -2000,6 +2009,31 @@
 			title: "Mechanical Auto Crafter"
 			x: -1.0d
 			y: -16.0d
+		}
+		{
+			dependencies: ["4D83A432C2E62030"]
+			id: "59603ACB672E0202"
+			rewards: [{
+				id: "2FC039857B95BB73"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D55EAF7780D2468"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+				{
+					id: "00AEA8C0F85BD65A"
+					item: "luggage:luggage"
+					title: "Best backpack forever"
+					type: "item"
+				}
+			]
+			title: "Friends of wood"
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]

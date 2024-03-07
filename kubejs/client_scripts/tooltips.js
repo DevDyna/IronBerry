@@ -100,7 +100,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:ae_charged', 'Can be charged using a §acharger')
     tipplusplus('#ironberry:fishing', 'Can be obtained by §aFishing')
     tipplusplus('tombstone:lost_tablet', 'Dont §ctravel §fbecause §cisnt spawned')
-    tipplusplus('#ironberry:indigo_flowers', 'Bonemeal §aGrass block §fto obtain')
+    tipplusplus('#ironberry:indigo_flowers', 'Bonemeal §agrass block §for use §aFloreal Fertilizer §fon dirt to obtain ')
     tipplusplus('tombstone:white_marble', '§cDue NBT issue you cannot craft white gravestone on stonecutter')
     tipplusplus('kubejs:soul', 'Can be used on a §5Grave §fwith soul to obtain a §dSoul Receptacle')
     tipplusplus('minecraft:ice', 'Drop §bice shards §fwhen broken')

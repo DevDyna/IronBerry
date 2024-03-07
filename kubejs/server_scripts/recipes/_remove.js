@@ -175,5 +175,9 @@ ServerEvents.recipes(event => {
     event.remove({
         mod: 'ae2wtlib'
     })
+
+    event.remove({
+        mod: 'thoriumreactors'
+    })
 })
 

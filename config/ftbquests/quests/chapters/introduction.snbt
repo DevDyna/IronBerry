@@ -443,7 +443,7 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
-			description: ["Not all quests and recipes are implemented , please await until a full release"]
+			description: ["Not all quests and recipes are implemented , please await until a full release if you want rush to endgame!"]
 			hide_dependency_lines: true
 			icon: "kubejs:wip"
 			id: "2398F1BAEB8D2519"
@@ -528,7 +528,7 @@
 		{
 			dependencies: ["58B49792D4827F5F"]
 			description: [
-				"This modpack require enable some gamerules that sometime could be disabled by server owner:"
+				"This modpack require enable some gamerules that sometime could be disabled by server owners :"
 				""
 				"- doFireTick : true"
 				"- doTraderSpawning : false"
@@ -536,7 +536,7 @@
 				""
 				""
 				""
-				""
+				"[by default they are still enabled if you are play on a singleplayer world]"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:campfire"

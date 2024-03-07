@@ -212,4 +212,7 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/crystaltine')
     .displayName('Crystaltine')
 
+    event.create('cell_base')
+    .texture("expatternprovider:item/infinity_cell")
+    .displayName('Infinity Cell Holder')
 })

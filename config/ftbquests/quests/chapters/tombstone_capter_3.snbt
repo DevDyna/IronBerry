@@ -684,7 +684,11 @@
 		}
 		{
 			dependencies: ["54958A7EC60D4E74"]
-			description: ["Sacred texts see that was the key of another dimension"]
+			description: [
+				"Sacred texts see that was the key of another dimension"
+				""
+				"Other Sacred texts see that was a joke"
+			]
 			id: "6DA70AC867C01085"
 			rewards: [{
 				id: "247D6F3616558A27"
@@ -1532,7 +1536,11 @@
 				"0E6D91BEA58EF2B0"
 				"4D2E8CFB00E7D02C"
 			]
-			description: ["To beat all mobs you need to use your best strategy"]
+			description: [
+				"To beat all mobs you need to use your best strategy"
+				""
+				"A tip: use the power of potions"
+			]
 			hide: true
 			icon: {
 				Count: 1b
@@ -1812,6 +1820,7 @@
 		}
 		{
 			dependencies: ["3AE5CD008B44982C"]
+			description: ["I can uncraft? Oh it was nerfed!"]
 			id: "126DB54048F2A068"
 			rewards: [{
 				id: "70EC0404E9A77060"

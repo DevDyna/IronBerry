@@ -393,4 +393,27 @@ ServerEvents.recipes(event => {
         }
     })
 
+
+
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 160,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'minecraft:dirt'
+            },{
+                "item": 'minecraft:dandelion'
+            },{
+                "item": 'minecraft:blue_orchid'
+            },{
+                "item": 'minecraft:allium'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'minecraft:grass_block',
+            "count": 1
+        }
+    })
+
 })
