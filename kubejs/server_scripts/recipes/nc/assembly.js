@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
   function assembly(input_item, input_count, item_out, count) {
     let ingredient = []
     input_item.forEach((element, index) => {
-      ingredient.push(ItemAndCount(element, input_count[index]))
+      ingredient.push(ItemOrTagAndCount(element, input_count[index]))
     });
     let output = []
     output.push(ItemAndCount(item_out, count))
