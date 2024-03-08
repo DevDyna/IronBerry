@@ -66,4 +66,5 @@ ServerEvents.recipes(event => {
     smart_alloy(['nuclearcraft:manganese_dust', 'nuclearcraft:sodium_hydroxide_dust'],'nuclearcraft:crystal_binder_dust')
     
     smart_alloy(['supplementaries:ash_brick', 'compressium:cobblestone_7'],'supplementaries:urn')
+    smart_alloy(['nuclearcraft:boron_arsenide_dust','kubejs:lupenio'],'kubejs:arsenic_lupenio')
 })

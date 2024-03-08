@@ -221,4 +221,8 @@ StartupEvents.registry('item', event => {
     event.create('cell_base')
     .texture("expatternprovider:item/infinity_cell")
     .displayName('Infinity Cell Holder')
+
+    event.create('arsenic_lupenio')
+    .texture('ironberry:item/arsenic_lupenio')
+    .displayName('Arsenic Lupenio')
 })
