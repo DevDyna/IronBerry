@@ -175,7 +175,9 @@ ServerEvents.recipes(event => {
 
         alloy(['compressium:cobblestone_1'],[1],'ae2:matter_ball',9)
 
+        alloy(['rftoolsbase:information_screen', 'homespun:cast_iron_block', 'homespun:ceramic_vessel','thermal:tinker_bench'],[1,1,1,1],'ae2:chest',1)
+        alloy(['rftoolsbase:information_screen', 'homespun:cast_iron_block', 'homespun:ceramic_vessel','essentials:hopper_filter'],[1,1,1,1],'ae2:cell_workbench',1)
 
-
-
+        
+        
     })

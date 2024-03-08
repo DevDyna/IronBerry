@@ -92,12 +92,12 @@ assembly(['nuclearcraft:tough_alloy_ingot', 'nuclearcraft:magnesium_ingot'],[2,1
 assembly(['nuclearcraft:super_alloy_ingot', 'nuclearcraft:shibuichi_ingot'],[1,1],'nuclearcraft:coil_bscco',1)
 
 assembly(['ae2:quartz_fiber','ae2:fluix_crystal'],[4,1],'ae2:fluix_glass_cable',2)
-assembly(['ae2:fluix_glass_cable','thermal:cured_rubber'],[4,1],'ae2:fluix_covered_cable',2)
+assembly(['ae2:fluix_glass_cable','thermal:cured_rubber'],[4,1],'ae2:fluix_covered_cable',4)
 
-assembly(['ae2:fluix_covered_cable','ae2:charged_certus_quartz_crystal', 'minecraft:quartz', 'ae2:fluix_crystal'],[4,1,1,1,1],'ae2:fluix_smart_cable',2)
+assembly(['ae2:fluix_covered_cable','ae2:charged_certus_quartz_crystal', 'minecraft:quartz', 'ae2:fluix_crystal'],[4,1,1,1,1],'ae2:fluix_smart_cable',4)
 
 tiny_assembly(['nuclearcraft:plate_du', 'kubejs:crystaltine', 'nuclearcraft:boron_arsenide_dust', 'mekanism:teleportation_core'],'nuclearcraft:plate_elite',4)
-tiny_assembly(['integrateddynamics:crystalized_chorus_chunk', 'nuclearcraft:extreme_ingot', 'nuclearcraft:plate_elite', 'pneumaticcraft:plastic'],'nuclearcraft:plate_extreme')
+tiny_assembly(['integrateddynamics:crystalized_chorus_chunk', 'nuclearcraft:extreme_ingot', 'nuclearcraft:plate_elite', 'pneumaticcraft:plastic'],'nuclearcraft:plate_extreme',1)
 
 function nc_machine_du(input,output){
   assembly([input[0],input[1],'nuclearcraft:plate_du', 'nuclearcraft:empty_frame'],[1,1,2,1],output,1)
@@ -109,6 +109,23 @@ nc_machine_du(['nuclearcraft:servo', 'nuclearcraft:assembler'],'nuclearcraft:roc
 nc_machine_du(['nuclearcraft:coil_copper', 'nuclearcraft:centrifuge'],'nuclearcraft:fuel_reprocessor')
 nc_machine_du(['nuclearcraft:coil_magnesium_diboride','nuclearcraft:alloy_smelter'],'nuclearcraft:electrolyzer')
 nc_machine_du(['nuclearcraft:coil_bscco', 'nuclearcraft:isotope_separator'],'nuclearcraft:extractor')
+
+
+assembly(['nuclearcraft:steel_frame', 'nuclearcraft:empty_sink'],[1,2],'mekanism:induction_casing',2)
+
+smart_assembly(['#ironberry:wrench_fix','bluepower:battery_block'],'mekanism:configurator')
+
+smart_assembly(['mekanism:alloy_infused', 'mekanism:induction_casing', 'thermal:energy_duct'],'mekanism:induction_port')
+
+smart_assembly(['thermal:energy_duct', 'thermal:energy_cell',  'mekanism:basic_control_circuit','mekanism:induction_casing'],'mekanism:basic_induction_provider')
+smart_assembly(['thermal:energy_duct', 'thermal:energy_cell',  'mekanism:advanced_control_circuit','mekanism:basic_induction_provider'],'mekanism:advanced_induction_provider')
+smart_assembly(['thermal:energy_duct', 'thermal:energy_cell',  'mekanism:elite_control_circuit','mekanism:advanced_induction_provider'],'mekanism:elite_induction_provider')
+smart_assembly(['thermal:energy_duct', 'thermal:energy_cell',  'mekanism:ultimate_control_circuit','mekanism:elite_induction_provider'],'mekanism:ultimate_induction_provider')
+
+smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:basic_control_circuit','mekanism:induction_casing'],'mekanism:basic_induction_cell')
+smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:advanced_control_circuit','mekanism:basic_induction_cell'],'mekanism:advanced_induction_cell')
+smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:elite_control_circuit','mekanism:advanced_induction_cell'],'mekanism:elite_induction_cell')
+smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:ultimate_control_circuit','mekanism:elite_induction_cell'],'mekanism:ultimate_induction_cell')
 
 
 })

@@ -309,6 +309,7 @@ ServerEvents.tags("item", (event) => {
 
   //recipe any side removed
   event.add("ironberry:any", [
+    'ae2:chest',
     "mekanism:advanced_control_circuit",
     "mekanism:ultimate_control_circuit",
     "mekanism:elite_control_circuit",

@@ -40,6 +40,9 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ae2:network/cables/glass_fluix',
+        'ae2:network/cables/covered_fluix',
+        'ae2:network/cables/smart_fluix',
         'ae2:inscriber/certus_quartz_dust',
         'ae2:charger/charged_certus_quartz_crystal',
         'ae2:transform/fluix_crystal',
