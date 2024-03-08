@@ -64,16 +64,16 @@ nc_food('nuclearcraft:smore','nuclearcraft:moresmore')
 nc_food('nuclearcraft:moresmore','nuclearcraft:foursmore')
 nc_food('nuclearcraft:foursmore','nuclearcraft:evenmoresmore')
 
-function nc_machine(input,output){
+function nc_machine_adv(input,output){
   assembly([input,'nuclearcraft:basic_electric_circuit', 'nuclearcraft:chassis', 'nuclearcraft:plate_advanced'],[1,1,1,2],output,1)
 }
 
-nc_machine('mekanism:electrolytic_separator','nuclearcraft:isotope_separator')
-nc_machine('mekanism:chemical_crystallizer','nuclearcraft:fluid_infuser')
-nc_machine('mekanism:rotary_condensentrator','nuclearcraft:fluid_enricher')
-nc_machine('pneumaticcraft:thermopneumatic_processing_plant','nuclearcraft:chemical_reactor')
-nc_machine('mekanism:chemical_oxidizer','nuclearcraft:melter')
-nc_machine('cyclic:crusher','nuclearcraft:manufactory')
+nc_machine_adv('mekanism:electrolytic_separator','nuclearcraft:isotope_separator')
+nc_machine_adv('mekanism:chemical_crystallizer','nuclearcraft:fluid_infuser')
+nc_machine_adv('mekanism:rotary_condensentrator','nuclearcraft:fluid_enricher')
+nc_machine_adv('pneumaticcraft:thermopneumatic_processing_plant','nuclearcraft:chemical_reactor')
+nc_machine_adv('mekanism:chemical_oxidizer','nuclearcraft:melter')
+nc_machine_adv('cyclic:crusher','nuclearcraft:manufactory')
 
 tiny_assembly(['mekanism:ingot_refined_obsidian', 'nuclearcraft:basic_electric_circuit', 'nuclearcraft:plate_advanced'],'nuclearcraft:plate_du',4)
 
@@ -95,5 +95,20 @@ assembly(['ae2:quartz_fiber','ae2:fluix_crystal'],[4,1],'ae2:fluix_glass_cable',
 assembly(['ae2:fluix_glass_cable','thermal:cured_rubber'],[4,1],'ae2:fluix_covered_cable',2)
 
 assembly(['ae2:fluix_covered_cable','ae2:charged_certus_quartz_crystal', 'minecraft:quartz', 'ae2:fluix_crystal'],[4,1,1,1,1],'ae2:fluix_smart_cable',2)
+
+tiny_assembly(['nuclearcraft:plate_du', 'kubejs:crystaltine', 'nuclearcraft:boron_arsenide_dust', 'mekanism:teleportation_core'],'nuclearcraft:plate_elite',4)
+tiny_assembly(['integrateddynamics:crystalized_chorus_chunk', 'nuclearcraft:extreme_ingot', 'nuclearcraft:plate_elite', 'pneumaticcraft:plastic'],'nuclearcraft:plate_extreme')
+
+function nc_machine_du(input,output){
+  assembly([input[0],input[1],'nuclearcraft:plate_du', 'nuclearcraft:empty_frame'],[1,1,2,1],output,1)
+}
+
+nc_machine_du(['nuclearcraft:motor','nuclearcraft:ingot_former'],'nuclearcraft:crystallizer')
+nc_machine_du(['nuclearcraft:actuator','nuclearcraft:alloy_smelter'],'nuclearcraft:supercooler')
+nc_machine_du(['nuclearcraft:servo', 'nuclearcraft:assembler'],'nuclearcraft:rock_crusher')
+nc_machine_du(['nuclearcraft:coil_copper', 'nuclearcraft:centrifuge'],'nuclearcraft:fuel_reprocessor')
+nc_machine_du(['nuclearcraft:coil_magnesium_diboride','nuclearcraft:alloy_smelter'],'nuclearcraft:electrolyzer')
+nc_machine_du(['nuclearcraft:coil_bscco', 'nuclearcraft:isotope_separator'],'nuclearcraft:extractor')
+
 
 })

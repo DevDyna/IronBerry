@@ -291,4 +291,5 @@ function emolimix(jump,variants){
 
 	event.shapeless(Item.of('supplementaries:urn', '{BlockStateTag:{treasure:"true"},display:{Lore:[\'{"text":"contain items"}\']}}'),['supplementaries:urn'])
 
+	less(['#ae2:quartz_wrench','luggage:luggage'],'ae2:network_tool')
 })

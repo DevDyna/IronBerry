@@ -103,6 +103,7 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'ae2:quartz_fiber',
     'ae2:charged_staff', 
     'ae2:matter_cannon', 
     'ae2:color_applicator',

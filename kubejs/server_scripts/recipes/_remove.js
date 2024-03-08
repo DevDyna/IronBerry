@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ae2:inscriber/certus_quartz_dust',
         'ae2:charger/charged_certus_quartz_crystal',
         'ae2:transform/fluix_crystal',
         'ae2:transform/certus_quartz_crystals',

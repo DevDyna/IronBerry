@@ -212,4 +212,12 @@ event.create('quartz_heated')
 .bucketColor(0x1583FF)
 .displayName('Heated Quartz Nitric')
 
+event.create('red_power')
+.thickTexture(0xFC5C5C)
+.bucketColor(0xFC5C5C)
+.displayName('Ionized Redstone')
+
+
+
+
 })
