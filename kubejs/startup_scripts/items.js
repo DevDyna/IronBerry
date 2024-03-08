@@ -1,5 +1,11 @@
 StartupEvents.registry('item', event => {
 
+    event.create('scaffoldingdelta')
+    .texture('ironberry:item/sd')
+
+    event.create('vanillaexpansion')
+    .texture('ironberry:item/ve')
+
     ////staff only
     event.create('wip')
     .texture('cofh_core:gui/icons/icon_cancel')
