@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    function extractor(input,output,amount,fluid){
+    function extractor(input,output,amount,fluid,out_count){
         event.custom({
           "type": "nuclearcraft:extractor",
           "input": [
@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
           ],
           "output": [
             {
-              "item": output
+              "item": output,
+              "count":out_count
             }
           ],
           "outputFluids": [
@@ -19,14 +20,14 @@ ServerEvents.recipes(event => {
               "fluid": fluid
             }
           ],
-          "powerModifier": 1.0,
-          "radiation": 1.0,
-          "timeModifier": 1.0
+          powerModifier: global.nc.energy,
+          radiation: global.nc.rad,
+          timeModifier: global.nc.speed
         }).id(RegX(input + '_' +output+ '_' + fluid, '_'))
     }
 
 
-    extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal','kubejs:red_power',144)
+    extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',144,'kubejs:red_power',2)
 
 
 })
