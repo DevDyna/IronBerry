@@ -7,5 +7,5 @@ ServerEvents.recipes(event => {
     blast('kubejs:raw_copper_nugget', 'homespun:copper_nugget')
     blast('kubejs:raw_iron_nugget', 'minecraft:iron_nugget')
     blast('kubejs:raw_gold_nugget', 'minecraft:gold_nugget')
-
+    blast('nuclearcraft:manganese_ingot','thoriumreactors:manganese_ingot')
 })

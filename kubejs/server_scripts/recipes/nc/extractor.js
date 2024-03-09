@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    function extractor(input,output,amount,fluid,out_count){
+    function extractor(input,output,out_count,fluid,amount){
         event.custom({
           "type": "nuclearcraft:extractor",
           "input": [
@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
         }).id(RegX(input + '_' +output+ '_' + fluid, '_'))
     }
 
-    extractor('nuclearcraft:boron_arsenide_dust','nuclearcraft:boron_dust',144,'nuclearcraft:arsenic')
-    extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',144,'kubejs:red_power',2)
+    extractor('nuclearcraft:boron_arsenide_dust','nuclearcraft:boron_dust',2,'nuclearcraft:arsenic',144)
+    extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',2,'kubejs:red_power',144)
 
 
 })

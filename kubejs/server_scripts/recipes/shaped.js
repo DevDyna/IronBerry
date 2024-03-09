@@ -849,6 +849,13 @@ B: 'tombstone:bone_needle'
 
 shapex(['ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'thermal:quartz_dust', 'thermal:quartz_dust', 'thermal:quartz_dust', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass'],'24x ae2:quartz_fiber')
 
-
+event.shaped('thoriumreactors:machine_casing', [
+    ' A ',
+    'ABA',
+    ' A '
+], {
+A: 'thoriumreactors:redstone_processor',
+B: 'thoriumreactors:blasted_stone'
+})
 
 })
