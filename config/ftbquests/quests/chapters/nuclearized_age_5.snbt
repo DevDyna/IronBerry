@@ -83,7 +83,7 @@
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
@@ -91,11 +91,11 @@
 			corner: false
 			dependency: "05A163CA0B85418B"
 			dev: false
-			height: 1.0d
+			height: 1.5d
 			hover: [ ]
-			image: "nuclearcraft:block/fission/controller/fission_reactor_controller_powered"
+			image: "nuclearcraft:block/processor/fuel_reprocessor_powered"
 			rotation: 0.0d
-			width: 1.0d
+			width: 1.5d
 			x: -1.0d
 			y: 3.0d
 		}
@@ -120,6 +120,7 @@
 			height: 1.25d
 			hover: [ ]
 			image: "mekanism:block/models/multipart/basic_universal_cable"
+			order: 1
 			rotation: 0.0d
 			width: 1.25d
 			x: 9.0d
@@ -128,20 +129,7 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0496DF45F94AC1F8"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
-			rotation: 0.0d
-			width: 1.25d
-			x: 9.0d
-			y: 2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "0496DF45F94AC1F8"
+			dependency: "0235AD43D99C6287"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -154,7 +142,7 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0496DF45F94AC1F8"
+			dependency: "0235AD43D99C6287"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -175,59 +163,46 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: 9.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
 			y: 3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "0496DF45F94AC1F8"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
-			rotation: 0.0d
-			width: 1.25d
-			x: 9.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "0496DF45F94AC1F8"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
-			rotation: 0.0d
-			width: 1.25d
-			x: 9.0d
-			y: 5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "0496DF45F94AC1F8"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
-			rotation: 0.0d
-			width: 1.25d
-			x: 9.0d
-			y: 6.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "0496DF45F94AC1F8"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
-			rotation: 0.0d
-			width: 1.25d
-			x: 9.0d
-			y: 7.0d
 		}
 		{
 			click: ""
@@ -271,7 +246,188 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0496DF45F94AC1F8"
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
 			dev: false
 			height: 1.25d
 			hover: [ ]
@@ -279,7 +435,168 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: 9.0d
-			y: 8.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "thermal:block/cells/energy_cell_bottom"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0496DF45F94AC1F8"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "thermal:block/cells/energy_cell_level_1"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "thermal:block/cells/energy_cell_level_8"
+			order: 4
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0235AD43D99C6287"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "thermal:block/cells/energy_cell_level_4"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "ironberry:item/lupenio"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.0249999999999986d
+			y: 2.6678571428571374d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/boron_arsenide"
+			rotation: 15.0d
+			width: 0.5d
+			x: -1.5416666666666643d
+			y: 4.00595238095238d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/boron_nitride"
+			rotation: -40.0d
+			width: 0.5d
+			x: -1.2250000000000014d
+			y: 4.353571428571421d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/villiaumite"
+			rotation: 60.0d
+			width: 0.5d
+			x: -0.875d
+			y: 3.767857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/rhodochrosite"
+			rotation: 30.0d
+			width: 0.5d
+			x: -0.7559523809523796d
+			y: 4.267857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/carobbiite"
+			rotation: -25.0d
+			width: 0.5d
+			x: -1.5178571428571388d
+			y: 3.2916666666666714d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "nuclearcraft:item/material/gem/fluorite"
+			rotation: 75.0d
+			width: 0.5d
+			x: -0.4702380952380949d
+			y: 3.4583333333333286d
 		}
 	]
 	order_index: 0
@@ -382,8 +699,8 @@
 				item: "nuclearcraft:bioplastic"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["123D0BCDB0FD19BF"]
@@ -609,6 +926,7 @@
 		}
 		{
 			dependencies: ["06A531620346F341"]
+			hide_dependency_lines: true
 			id: "0235AD43D99C6287"
 			subtitle: "Solution of a simply problem"
 			tasks: [{
@@ -616,7 +934,7 @@
 				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -774,7 +1092,7 @@
 				}
 			]
 			title: "Thorium Reactor"
-			x: 5.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -823,7 +1141,7 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: 7.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -912,8 +1230,8 @@
 				}
 			]
 			title: "Turbine"
-			x: 8.0d
-			y: 7.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1FE2BB2E4BDB24C0"]
@@ -923,7 +1241,7 @@
 				item: "nuclearcraft:plate_du"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -970,7 +1288,7 @@
 				}
 			]
 			title: "Chemical Reaction 2.0 #4"
-			x: 0.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -981,7 +1299,7 @@
 				item: "thoriumreactors:depleted_molten_salt_bucket"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 7.0d
 		}
 		{
@@ -1004,8 +1322,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]

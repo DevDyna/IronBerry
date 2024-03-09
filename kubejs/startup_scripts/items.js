@@ -14,6 +14,7 @@ StartupEvents.registry('item', event => {
     event.create('rose')
     .texture('ironberry:item/rose')
     .displayName('Rose')
+    .glow(true)
 
     event.create('lore')
     .texture('ironberry:item/lore')
@@ -52,6 +53,7 @@ StartupEvents.registry('item', event => {
     event.create('grave_spawn')
     .texture('ironberry:item/grave_spawn_egg')
     .displayName('Grave Guardian Spawn Egg')
+    .glow(true)
 
     event.create('scroll')
     .texture('ironberry:item/scroll')
@@ -60,6 +62,7 @@ StartupEvents.registry('item', event => {
     event.create('omni')
     .texture('ironberry:item/omni')
     .displayName('OmniTablet')
+    .glow(true)
 
     event.create('iron_rod')
     .texture('ironberry:item/iron_rod')
@@ -85,6 +88,7 @@ StartupEvents.registry('item', event => {
     event.create('illuminati')
     .texture('inventorypets:item/illuminati_new')
     .displayName('§dIlluminati Yota')
+    .glow(true)
 
     event.create('pre_compressed')
     .texture('ironberry:item/pre_compressed')
@@ -93,10 +97,12 @@ StartupEvents.registry('item', event => {
     event.create('scroll_safety')
     .texture('ironberry:item/scroll_a')
     .displayName('Scroll of Safety')
+    .glow(true)
 
     event.create('scroll_discontinuity')
     .texture('ironberry:item/scroll_b')
     .displayName('Scroll of Discontinuity')
+    .glow(true)
 
     event.create('raw_iron_nugget')
     .texture('ironberry:item/raw_iron_nugget')
@@ -217,6 +223,7 @@ StartupEvents.registry('item', event => {
     event.create('crystaltine')
     .texture('ironberry:item/crystaltine')
     .displayName('Crystaltine')
+    .glow(true)
 
     event.create('cell_base')
     .texture("expatternprovider:item/infinity_cell")
@@ -225,4 +232,9 @@ StartupEvents.registry('item', event => {
     event.create('arsenic_lupenio')
     .texture('ironberry:item/arsenic_lupenio')
     .displayName('Arsenic Lupenio')
+
+    event.create('garbage')
+    .texture('ironberry:item/garbage')
+    .displayName('Garbage')
+    
 })

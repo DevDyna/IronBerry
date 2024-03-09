@@ -97,7 +97,7 @@ assembly(['ae2:fluix_glass_cable','thermal:cured_rubber'],[4,1],'ae2:fluix_cover
 assembly(['ae2:fluix_covered_cable','ae2:charged_certus_quartz_crystal', 'minecraft:quartz', 'ae2:fluix_crystal'],[4,1,1,1,1],'ae2:fluix_smart_cable',4)
 
 tiny_assembly(['nuclearcraft:plate_du', 'kubejs:crystaltine', 'nuclearcraft:boron_arsenide_dust', 'mekanism:teleportation_core'],'nuclearcraft:plate_elite',4)
-tiny_assembly(['nuclearcraft:plate_elite', 'nuclearcraft:extreme_ingot'],'nuclearcraft:plate_extreme',2)
+tiny_assembly(['nuclearcraft:plate_elite', 'nuclearcraft:extreme_ingot','kubejs:arsenic_lupenio'],'nuclearcraft:plate_extreme',2)
 
 function nc_machine_du(input,output){
   assembly([input[0],input[1],'nuclearcraft:plate_du', 'nuclearcraft:empty_frame'],[1,1,2,1],output,1)
@@ -127,5 +127,9 @@ smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:adva
 smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:elite_control_circuit','mekanism:advanced_induction_cell'],'mekanism:elite_induction_cell')
 smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:ultimate_control_circuit','mekanism:elite_induction_cell'],'mekanism:ultimate_induction_cell')
 
+
+tiny_assembly(['mekanism:basic_control_circuit', 'minecraft:comparator', 'minecraft:repeater', 'minecraft:redstone_torch', 'minecraft:redstone'],'thoriumreactors:redstone_processor',4)
+
+smart_assembly(['#ironberry:wrench_fix','thoriumreactors:redstone_processor'],'thoriumreactors:configurator')
 
 })

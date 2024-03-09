@@ -13,9 +13,9 @@ ServerEvents.recipes((event) => {
           fluid: output,
         },
       ],
-      powerModifier: global.nc.energy,
-      radiation: global.nc.rad,
-      timeModifier: global.nc.speed
+      "powerModifier": (global.nc.energy),
+      "radiation": (global.nc.rad),
+      "timeModifier": (global.nc.speed)
     });
   }
 

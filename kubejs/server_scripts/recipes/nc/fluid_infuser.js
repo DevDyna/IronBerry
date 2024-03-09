@@ -43,4 +43,8 @@ ServerEvents.recipes(event => {
     infuse('ae2:fluix_dust','thermal:glowstone',200,'ae2:fluix_crystal')
     infuse('ae2:certus_quartz_dust','thermal:redstone',200,'ae2:charged_certus_quartz_crystal')
 
+    infuse('kubejs:lupenio','nuclearcraft:arsenic',144,'kubejs:arsenic_lupenio')
+
+    infuse('compressium:stone_2','thermal:glowstone',144,'thoriumreactors:blasted_stone')
+
 })

@@ -159,7 +159,6 @@ ServerEvents.tags("item", (event) => {
     "prettypipes:pipe",
     "#ironberry:module",
     "hostilenetworks:empty_prediction",
-    "thoriumreactors:white_industrial_block_brick",
     "ars_nouveau:imbuement_chamber",
     "inventorypets:pet_wither",
     "inventorypets:pet_slime",
@@ -1024,6 +1023,8 @@ ServerEvents.tags("item", (event) => {
 event.add('ironberry:mechanicalbenchs',['bluepower:auto_project_table','essentials:auto_crafter'])
 
 event.add('ironberry:urn_loot',['minecraft:gold_nugget', 'minecraft:bone', 'minecraft:emerald', 'minecraft:amethyst_shard', 'supplementaries:antique_ink', 'minecraft:raw_copper', 'minecraft:lapis_lazuli', 'minecraft:raw_iron', 'supplementaries:bomb_blue', 'minecraft:ender_pearl', 'minecraft:bundle', 'minecraft:skeleton_skull', 'minecraft:zombie_head', 'minecraft:slime_ball', 'supplementaries:bomb', 'minecraft:diamond', 'minecraft:raw_gold', 'minecraft:iron_nugget', 'supplementaries:ash'])
+
+event.add('ironberry:blast_bricks',['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors:frameless_industrial_block_floor', 'thoriumreactors:warning_block_lined_white_black_right', 'thoriumreactors:warning_block_lined_white_black_left', 'thoriumreactors:warning_block_lined_white_orange_right', 'thoriumreactors:warning_block_lined_white_orange_left', 'thoriumreactors:warning_block_lined_black_yellow_right', 'thoriumreactors:warning_block_lined_black_yellow_left', 'thoriumreactors:white_industrial_block_smooth', 'thoriumreactors:white_industrial_block_brick', 'thoriumreactors:white_industrial_block_paving', 'thoriumreactors:white_industrial_block_big_tile', 'thoriumreactors:white_industrial_block', 'thoriumreactors:black_industrial_block_floor', 'thoriumreactors:black_industrial_block_smooth', 'thoriumreactors:black_industrial_block_brick', 'thoriumreactors:black_industrial_block_paving', 'thoriumreactors:black_industrial_block_big_tile', 'thoriumreactors:black_industrial_block', 'thoriumreactors:industrial_block', 'thoriumreactors:industrial_block_floor', 'thoriumreactors:industrial_block_smooth', 'thoriumreactors:industrial_block_brick', 'thoriumreactors:industrial_block_paving', 'thoriumreactors:industrial_block_big_tile', 'thoriumreactors:black_inverted_factory_block', 'thoriumreactors:black_factory_block', 'thoriumreactors:inverted_factory_block', 'thoriumreactors:factory_block'])
 
 });
 

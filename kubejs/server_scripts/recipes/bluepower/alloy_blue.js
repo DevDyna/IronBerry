@@ -165,11 +165,11 @@ ServerEvents.recipes(event => {
         alloy(['kubejs:base_module','rootsclassic:runic_tablet','rftoolsbase:machine_base'],[6,1,1],'rftoolsbase:tablet',1)
 
 
-        alloy(["#ironberry:rftools_modules"],[1],'kubejs:base_module',1)
+        alloy(["#ironberry:rftools_modules",'minecraft:stick'],[1,1],'kubejs:base_module',1)
 
-        alloy(["#ironberry:rftools_machines"],[1],'rftoolsbase:machine_frame',1)
+        alloy(["#ironberry:rftools_machines",'minecraft:stick'],[1,1],'rftoolsbase:machine_frame',1)
 
-        alloy(["#ironberry:rftools_plates"],[1],'rftoolsbase:machine_base',1)
+        alloy(["#ironberry:rftools_plates",'minecraft:stick'],[1,1],'rftoolsbase:machine_base',1)
 
         alloy(["ironchest:wood_to_copper_chest_upgrade"],[1],"minecraft:iron_ingot",9)
 

@@ -20,13 +20,13 @@ ServerEvents.recipes(event => {
               "fluid": fluid
             }
           ],
-          powerModifier: global.nc.energy,
-          radiation: global.nc.rad,
-          timeModifier: global.nc.speed
+          "powerModifier": (global.nc.energy),
+          "radiation": (global.nc.rad),
+          "timeModifier": (global.nc.speed)
         }).id(RegX(input + '_' +output+ '_' + fluid, '_'))
     }
 
-
+    extractor('nuclearcraft:boron_arsenide_dust','nuclearcraft:boron_dust',144,'nuclearcraft:arsenic')
     extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',144,'kubejs:red_power',2)
 
 

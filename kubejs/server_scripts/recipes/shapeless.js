@@ -291,5 +291,14 @@ function emolimix(jump,variants){
 
 	event.shapeless(Item.of('supplementaries:urn', '{BlockStateTag:{treasure:"true"},display:{Lore:[\'{"text":"contain items"}\']}}'),['supplementaries:urn'])
 
-	less(['#ae2:quartz_wrench','luggage:luggage'],'ae2:network_tool')
+	less(['#ae2:quartz_wrench','luggage:luggage','ae2:certus_quartz_crystal'],'ae2:network_tool')
+
+
+	less(['9x nuclearcraft:magnesium_ingot'],'nuclearcraft:magnesium_block')
+	less(['9x nuclearcraft:lithium_ingot'],'nuclearcraft:lithium_block')
+	less(['9x nuclearcraft:thorium_ingot'],'nuclearcraft:thorium_block')
+	less(['9x nuclearcraft:boron_ingot'],'nuclearcraft:boron_block')
+
+	less(['nuclearcraft:lithium_block'],'9x nuclearcraft:lithium_ingot')
+	less(['nuclearcraft:thorium_block'],'9x nuclearcraft:thorium_ingot')
 })
