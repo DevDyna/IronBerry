@@ -1,0 +1,81 @@
+name: New Feature
+description: All good ideas can be usefull !
+labels: [question, need support]
+assignees: DevDyna
+body:
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Core Section
+      description: Biip Boop , Something happen !
+      options:
+        - label: I have searched for this issue on this repository
+          required: true
+          
+
+  - type: markdown
+    attributes:
+      value: "## Case Section"
+
+
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage Selection
+      options:
+        - Introduction
+        - Campain 1
+        - Campain 2
+        - Campain 3
+        - Campain 4
+    validations:
+      required: false
+
+  - type: dropdown
+    id: mod
+    attributes:
+      label: MOD Selection
+      options:
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+  - type: dropdown
+    id: quest
+    attributes:
+      label: QUEST Selection
+      options:
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+  - type: dropdown
+    id: kubejs
+    attributes:
+      label: RECIPES / EVENTS Selection
+      options:
+        - Add / Include
+        - Modify
+        - Remove / Exclude
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: "## "
+        
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe it
+      placeholder: 1 / sqrt(i) = 0,707106781 - 0,707106781 i
+    validations:
+      required: true
+      
