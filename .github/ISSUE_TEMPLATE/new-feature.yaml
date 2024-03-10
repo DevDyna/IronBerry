@@ -76,15 +76,6 @@ body:
     attributes:
       value: "## "
 
-
-
-
-
-
-
-
-
-        
   - type: textarea
     id: description
     attributes:
