@@ -99,7 +99,7 @@ body:
     id: missing-case
     attributes:
       label: Missing Your Case ?
-      description: Write here what case you have find that still missing on case section
+      description: Write he what case you have find that still missing on case section
       placeholder: Hey can you add *lollypop* because can be overpowered ??? [NO]
     validations:
       required: false
