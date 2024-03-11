@@ -36,6 +36,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
+			subtitle: "Unpredictable"
 			tasks: [{
 				id: "2B258BBCD4889697"
 				item: {
@@ -67,17 +68,13 @@
 			id: "0DC7F8AB3A083BFF"
 			invisible: true
 			rewards: [{
-				id: "1B195EDD5F90C5DE"
-				item: {
-					Count: 1b
-					id: "tombstone:lollipop"
-					tag: {
-						model_color: 5s
-					}
-				}
+				count: 10
+				id: "23550870C048F314"
+				item: "thermal:electrum_coin"
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Subaraki confirmed"
 			tasks: [{
 				id: "6DDA334C5B7371FA"
 				item: {
@@ -93,21 +90,16 @@
 			y: 0.0d
 		}
 		{
-			description: ["A InGame trade system based on coins"]
 			id: "4162843221C8A4CD"
 			invisible: true
 			rewards: [{
-				id: "5FC97CC82D2BE89E"
-				item: {
-					Count: 1b
-					id: "tombstone:lollipop"
-					tag: {
-						model_color: 1s
-					}
-				}
+				count: 10
+				id: "52A45EFE54053354"
+				item: "thermal:electrum_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
+			subtitle: "A InGame trade system based on coins"
 			tasks: [{
 				id: "32C8E6FD40EF98C1"
 				item: "pneumaticcraft:amadron_tablet"
@@ -120,17 +112,13 @@
 			id: "191DF7A9C5834BB0"
 			invisible: true
 			rewards: [{
-				id: "33229B1917982AB4"
-				item: {
-					Count: 1b
-					id: "tombstone:lollipop"
-					tag: {
-						model_color: 3s
-					}
-				}
+				count: 10
+				id: "21FF108527B9597D"
+				item: "thermal:electrum_coin"
 				type: "item"
 			}]
 			shape: "heart"
+			subtitle: "What happen if i place?"
 			tasks: [{
 				id: "6DC61F43EEECBEB8"
 				item: "kubejs:instability"
@@ -138,6 +126,26 @@
 			}]
 			x: -0.7142857142857224d
 			y: 3.6571428571428584d
+		}
+		{
+			id: "348D4B39618EC050"
+			invisible: true
+			rewards: [{
+				count: 10
+				id: "7B39ACF421369D0C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "A urn with items inside"
+			tasks: [{
+				id: "06E9598B48488210"
+				item: "supplementaries:urn"
+				type: "item"
+			}]
+			title: "PI Greek"
+			x: -3.7857142857142847d
+			y: 1.4000000000000021d
 		}
 	]
 	subtitle: ["Easter egg Hunting!"]

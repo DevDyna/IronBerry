@@ -114,6 +114,7 @@
 				type: "command"
 			}]
 			shape: "gear"
+			subtitle: "set to false"
 			tasks: [{
 				id: "5E2884587E41A233"
 				title: "Gamerules"
@@ -141,6 +142,7 @@
 				type: "command"
 			}]
 			shape: "gear"
+			subtitle: "set to true"
 			tasks: [{
 				id: "4687411B70F58E0D"
 				title: "Gamerules"
@@ -162,6 +164,7 @@
 				type: "command"
 			}]
 			shape: "gear"
+			subtitle: "set to false"
 			tasks: [{
 				id: "2F2D784A379381AE"
 				title: "Gamerules"
@@ -172,5 +175,6 @@
 			y: -2.0d
 		}
 	]
-	title: "Admin Stuff"
+	subtitle: ["Dont use on single player , there already configured!"]
+	title: "Admin Stuff ONLY"
 }

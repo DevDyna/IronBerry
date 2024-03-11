@@ -1033,26 +1033,33 @@
 			dependencies: ["19B6C89234831909"]
 			hide: true
 			id: "0A73E58829467953"
-			tasks: [{
-				id: "0D1E859D2C6FE7AB"
-				item: {
-					Count: 1b
-					id: "pneumaticcraft:uv_light_box"
-					tag: {
-						BlockEntityTag: {
-							UpgradeInventory: {
-								Items: [{
-									Count: 1b
-									Slot: 0
-									id: "pneumaticcraft:security_upgrade"
-								}]
-								Size: 4
+			tasks: [
+				{
+					id: "0D1E859D2C6FE7AB"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:uv_light_box"
+						tag: {
+							BlockEntityTag: {
+								UpgradeInventory: {
+									Items: [{
+										Count: 1b
+										Slot: 0
+										id: "pneumaticcraft:security_upgrade"
+									}]
+									Size: 4
+								}
 							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0380A30E34E6CAEE"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
 		}

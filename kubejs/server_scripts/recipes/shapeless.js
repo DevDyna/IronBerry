@@ -294,11 +294,28 @@ function emolimix(jump,variants){
 	less(['#ae2:quartz_wrench','luggage:luggage','ae2:certus_quartz_crystal'],'ae2:network_tool')
 
 
-	less(['9x nuclearcraft:magnesium_ingot'],'nuclearcraft:magnesium_block')
-	less(['9x nuclearcraft:lithium_ingot'],'nuclearcraft:lithium_block')
-	less(['9x nuclearcraft:thorium_ingot'],'nuclearcraft:thorium_block')
-	less(['9x nuclearcraft:boron_ingot'],'nuclearcraft:boron_block')
+	/**
+	 * 
+	 * @param {item|object} nugget when object can replace ingot
+	 * @param {item} ingot 
+	 */
+	function nine_to_one(nugget, ingot) {
+    if (typeof ingot == "undefined") {
+      less(["9x " + nugget[0]], nugget[1]);
+      less([nugget[1]], "9x " + nugget[0]);
+    } else {
+      less(["9x " + nugget], ingot);
+      less([ingot], "9x " + nugget);
+    }
+  }
 
-	less(['nuclearcraft:lithium_block'],'9x nuclearcraft:lithium_ingot')
-	less(['nuclearcraft:thorium_block'],'9x nuclearcraft:thorium_ingot')
+  	less('nuclearcraft:magnesium_ingot','nuclearcraft:magnesium_block')
+	less('nuclearcraft:boron_ingot','nuclearcraft:boron_block')
+	nine_to_one('nuclearcraft:lithium_ingot','nuclearcraft:lithium_block')
+	nine_to_one('nuclearcraft:thorium_ingot','nuclearcraft:thorium_block')
+	nine_to_one(['thoriumreactors:molybdenum_nugget', 'thoriumreactors:molybdenum_ingot'])
+	nine_to_one(['thoriumreactors:niob_nugget', 'thoriumreactors:niob_ingot'])
+	nine_to_one(['thoriumreactors:titanium_nugget', 'thoriumreactors:titanium_ingot'])
+	nine_to_one(['thoriumreactors:chromium_nugget', 'thoriumreactors:chromium_ingot'])
+	
 })

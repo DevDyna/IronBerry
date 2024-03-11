@@ -11,6 +11,11 @@ ClientEvents.lang('en_us',event => {
   event.add('gas.kubejs.pyrotheum','Pyrotheum Gas')
   event.add('gas.kubejs.superio','Superio (Gas)')
   event.add('gas.kubejs.micio','Micio (Gas)')
+  event.add('gas.kubejs.zicio','Zicio (Gas)')
+  event.add('gas.kubejs.radio_uranium','Radioactive Uranium (Gas)')
+  event.add('gas.kubejs.radio_thorium','Radioactive Thorium (Gas)')
+  event.add('gas.kubejs.exosteam','Exosteam Gas')
+  event.add('gas.kubejs.fuel_mixture','Fuel Mixture (Gas)')
   
 
   event.add('gateways.battle_gate_large','Bosses')

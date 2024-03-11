@@ -1031,7 +1031,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["418E84C5B1C6B018"]
+			dependencies: [
+				"418E84C5B1C6B018"
+				"05A163CA0B85418B"
+			]
 			icon: "thoriumreactors:reactor_controller"
 			id: "4B2287F56C73C510"
 			rewards: [{
@@ -1259,7 +1262,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -1301,29 +1304,6 @@
 			}]
 			x: 5.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["05A163CA0B85418B"]
-			id: "649EC4FE63FC3EF1"
-			subtitle: "A shortcut?"
-			tasks: [{
-				id: "46CD40B4D3724154"
-				item: {
-					Count: 1b
-					id: "supplementaries:urn"
-					tag: {
-						BlockStateTag: {
-							treasure: "true"
-						}
-						display: {
-							Lore: ["{\"text\":\"contain items\"}"]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]

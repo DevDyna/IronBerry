@@ -200,10 +200,6 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/thorium')
     .displayName('Radioactive Thorium')
 
-    event.create('enriched_thorium')
-    .texture('ironberry:item/enriched_thorium')
-    .displayName('Enriched Thorium Pellet')
-
     event.create('base_augment')
     .texture('ironberry:item/base_augment')
     .displayName('Base Augment')

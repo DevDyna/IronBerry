@@ -30,5 +30,10 @@ ServerEvents.recipes(event => {
     rotary('mekanism:lithium','mekanism:lithium')
     rotary("kubejs:micio","kubejs:micio")
     rotary('kubejs:superio','kubejs:superio')
+    rotary('kubejs:zicio','kubejs:zicio')
+
+    rotary('kubejs:radio_thorium','kubejs:radio_thorium')
+    rotary('kubejs:radio_uranium','kubejs:radio_uranium')
+
 
 })

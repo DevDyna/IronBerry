@@ -336,4 +336,6 @@ scut(['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors
 
   scut(['16x thoriumreactors:industrial_block'],['thoriumreactors:blasted_stone'])
 
+scut(['minecraft:iron_bars', 'thoriumreactors:grate_floor_block', 'thoriumreactors:grate_wall_block'],['#ironberry:bars'])
+
 });

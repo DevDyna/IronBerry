@@ -1,16 +1,23 @@
 ServerEvents.recipes(event => {
 
+
+  function oxidizer(item,gas,amount){
     event.custom({
   "type": "mekanism:oxidizing",
   "input": {
     "ingredient": {
-      "item": 'cyclic:peat_fuel_enriched'
+      "item": item
     }
   },
   "output": {
-    "amount": 100,
-    "gas": "kubejs:methane"
+    "amount": amount,
+    "gas": gas
   }
 })
+}
+
+oxidizer('cyclic:peat_fuel_enriched',"kubejs:methane",100)
+oxidizer('kubejs:uranium',"kubejs:radio_uranium",144)
+oxidizer('kubejs:thorium',"kubejs:radio_thorium",144)
 
 })

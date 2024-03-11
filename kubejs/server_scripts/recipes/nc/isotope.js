@@ -15,5 +15,4 @@ ServerEvents.recipes(event => {
         "timeModifier": global.nc.speed
       }).id(RegX(input + '_' + outlist, '_'))}
       separator('minecraft:dirt',16,['minecraft:clay_ball','kubejs:rich_bone_meal'],[1,4])
-      separator('compressium:cobblestone_6',1,['supplementaries:urn','compressium:cobblestone_4'],[1,3])
 })

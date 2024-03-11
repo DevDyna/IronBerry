@@ -217,7 +217,23 @@ event.create('red_power')
 .bucketColor(0xFC5C5C)
 .displayName('Ionized Redstone')
 
+event.create('zicio')
+.thickTexture(0xA5DEC3)
+.bucketColor(0xA5DEC3)
+.displayName('Zicio (fluid)')
 
+event.create('radio_uranium')
+.thickTexture(0x127A2A)
+.bucketColor(0x127A2A)
+.displayName('Radioactive Uranium (fluid)')
 
+event.create('radio_thorium')
+.thickTexture(0x145235)
+.bucketColor(0x145235)
+.displayName('Radioactive Thorium (fluid)')
 
+event.create('fuel_mixture')
+.thickTexture(0x045C3C)
+.bucketColor(0x045C3C)
+.displayName('Fuel Mixture (fluid)')
 })

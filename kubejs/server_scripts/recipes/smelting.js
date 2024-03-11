@@ -9,4 +9,6 @@ ServerEvents.recipes(event => {
     smelt('kubejs:raw_gold_nugget', 'minecraft:gold_nugget')
 	smelt('twilightforest:armor_shard_cluster','twilightforest:knightmetal_ingot')
     smelt('nuclearcraft:manganese_ingot','thoriumreactors:manganese_ingot')
+
+    smelt('minecraft:iron_ingot', 'thoriumreactors:blasted_iron_ingot')
 })
