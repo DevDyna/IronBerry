@@ -29,8 +29,8 @@ reprocessor('thoriumreactors:manganese_ingot',1,['thoriumreactors:uran_three_chl
 // }
 
 
-reprocessor('kubejs:uranium',1, ['thoriumreactors:niob_nugget', 'thoriumreactors:molybdenum_nugget'],[28,8])
-reprocessor('kubejs:thorium',1, ['thoriumreactors:chromium_nugget', 'thoriumreactors:titanium_nugget'],[10,26])
+reprocessor('thoriumreactors:uran_three_chloride',1, ['thoriumreactors:niob_nugget', 'thoriumreactors:molybdenum_nugget'],[28,8])
+reprocessor('thoriumreactors:potassium',1, ['thoriumreactors:chromium_nugget', 'thoriumreactors:titanium_nugget'],[10,26])
 
 
 reprocessor('compressium:cobblestone_6',1,['supplementaries:urn','compressium:cobblestone_4','compressium:cobblestone_3','compressium:cobblestone_2'],[3,1,4,1]) //phi grech

@@ -236,4 +236,11 @@ event.create('fuel_mixture')
 .thickTexture(0x045C3C)
 .bucketColor(0x045C3C)
 .displayName('Fuel Mixture (fluid)')
+
+event.create('exosteam')
+.thickTexture(0xB2B2B2)
+.bucketColor(0xB2B2B2)
+.displayName('Exo-Steam (fluid)')
+
+
 })

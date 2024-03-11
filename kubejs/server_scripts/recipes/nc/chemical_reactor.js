@@ -41,7 +41,7 @@ smart_reaction(['nuclearcraft:chlorine','nuclearcraft:nitrogen'],['nuclearcraft:
 
 smart_reaction(['kubejs:radio_uranium','kubejs:radio_thorium'],['kubejs:fuel_mixture'])
 
-
+smart_reaction(['thoriumreactors:steam','mekanism:steam'],['kubejs:exosteam'])
 
 
 

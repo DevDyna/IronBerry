@@ -128,7 +128,7 @@ smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:elit
 smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:ultimate_control_circuit','mekanism:elite_induction_cell'],'mekanism:ultimate_induction_cell')
 
 
-tiny_assembly(['mekanism:basic_control_circuit', 'minecraft:comparator', 'minecraft:repeater', 'minecraft:redstone_torch', 'minecraft:redstone'],'thoriumreactors:redstone_processor',4)
+tiny_assembly(['mekanism:basic_control_circuit', 'minecraft:comparator', 'minecraft:repeater', 'minecraft:redstone_torch', 'minecraft:redstone','thoriumreactors:sodium'],'thoriumreactors:redstone_processor',4)
 
 smart_assembly(['#ironberry:wrench_fix','thoriumreactors:redstone_processor'],'thoriumreactors:configurator')
 

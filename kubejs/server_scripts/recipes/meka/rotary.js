@@ -34,6 +34,6 @@ ServerEvents.recipes(event => {
 
     rotary('kubejs:radio_thorium','kubejs:radio_thorium')
     rotary('kubejs:radio_uranium','kubejs:radio_uranium')
-
+    rotary('kubejs:exosteam','kubejs:exosteam')
 
 })

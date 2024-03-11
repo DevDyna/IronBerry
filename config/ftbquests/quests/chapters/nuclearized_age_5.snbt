@@ -83,7 +83,7 @@
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
+			x: 8.0d
 			y: 7.0d
 		}
 		{
@@ -1031,10 +1031,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"418E84C5B1C6B018"
-				"05A163CA0B85418B"
-			]
+			dependencies: ["05A163CA0B85418B"]
 			icon: "thoriumreactors:reactor_controller"
 			id: "4B2287F56C73C510"
 			rewards: [{
@@ -1144,8 +1141,8 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: 8.0d
-			y: 6.0d
+			x: 7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5C30C4E45CA21A76"]
@@ -1244,25 +1241,7 @@
 				item: "nuclearcraft:plate_du"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1FE2BB2E4BDB24C0"]
-			id: "418E84C5B1C6B018"
-			tasks: [
-				{
-					id: "346A9BDC57D1D836"
-					item: "kubejs:uranium"
-					type: "item"
-				}
-				{
-					id: "0D64394745756BA1"
-					item: "kubejs:thorium"
-					type: "item"
-				}
-			]
-			x: 5.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -1291,8 +1270,8 @@
 				}
 			]
 			title: "Chemical Reaction 2.0 #4"
-			x: 2.0d
-			y: 4.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
@@ -1302,8 +1281,8 @@
 				item: "thoriumreactors:depleted_molten_salt_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
@@ -1315,8 +1294,8 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 1.8928571428571388d
-			y: 6.107142857142847d
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Nuclearized confirmed"]
