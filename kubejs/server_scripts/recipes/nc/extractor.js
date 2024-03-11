@@ -28,6 +28,6 @@ ServerEvents.recipes(event => {
 
     extractor('nuclearcraft:boron_arsenide_dust','nuclearcraft:boron_dust',2,'nuclearcraft:arsenic',144)
     extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',2,'kubejs:red_power',144)
-
-
+    extractor('kubejs:thorium','thoriumreactors:thorium',2,'pneumaticcraft:etching_acid',144)
+    extractor('kubejs:uranium','thoriumreactors:raw_uranium',2,'pneumaticcraft:etching_acid',144)
 })

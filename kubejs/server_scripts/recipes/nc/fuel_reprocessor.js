@@ -18,7 +18,7 @@ function reprocessor(item_in,icount,item_out,ocount){
 }
 
 reprocessor('kubejs:lupenio',1,['nuclearcraft:boron_arsenide_gem', 'nuclearcraft:rhodochrosite_gem', 'nuclearcraft:fluorite_gem', 'nuclearcraft:villiaumite_gem', 'nuclearcraft:boron_nitride_gem', 'nuclearcraft:carobbiite_gem'],[1,1,1,1,1,1])
-reprocessor('thoriumreactors:manganese_ingot',1,)
+reprocessor('thoriumreactors:manganese_ingot',1,['thoriumreactors:uran_three_chloride', 'thoriumreactors:sodium', 'thoriumreactors:potassium'],[1,1,1])
 
 // function smart_reprocessor(input,num,output){
 //   let count = []

@@ -28,9 +28,6 @@ global.whitelistGasses = [
 
 global.disabledItem = [
   'thoriumreactors:module_empty',
-  'thoriumreactors:uran_three_chloride', 
-  'thoriumreactors:sodium', 
-  'thoriumreactors:potassium',
   "thoriumreactors:deepslate_manganese_ore",
   "thoriumreactors:manganese_ore",
   "thoriumreactors:creative_fluid_tank",

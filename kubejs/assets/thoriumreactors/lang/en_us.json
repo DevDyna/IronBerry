@@ -3,5 +3,8 @@
 	"item.thoriumreactors.raw_uranium": "Enriched Uranium",
 	"item.thoriumreactors.enriched_uranium": "Enriched Fuel Pellet",
 	"item.thoriumreactors.depleted_uranium": "Depleted Fuel Pellet",
+	"item.thoriumreactors.sodium": "Muscovite dust",
+	"item.thoriumreactors.potassium": "Milk Quartz dust",
+	"item.thoriumreactors.uran_three_chloride": "Tellurite dust",
 	"item.thoriumreactors.thorium": "Enriched Thorium"
 }

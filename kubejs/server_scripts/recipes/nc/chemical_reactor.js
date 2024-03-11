@@ -39,7 +39,7 @@ smart_reaction(['kubejs:quartz_oxide','nuclearcraft:aqua_regia_acid'],['kubejs:q
 smart_reaction(['kubejs:quartz_regia','nuclearcraft:nitric_acid'],['kubejs:quartz_nitric'])
 smart_reaction(['nuclearcraft:chlorine','nuclearcraft:nitrogen'],['nuclearcraft:nitric_acid'])
 
-smart_reaction(['kubejs:radio_uranium','kubejs:radio_thorium'],)
+smart_reaction(['kubejs:radio_uranium','kubejs:radio_thorium'],['kubejs:fuel_mixture'])
 
 
 
