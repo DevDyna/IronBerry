@@ -195,3 +195,9 @@ config\sodium-extra.properties
 config\sodium-extra-options.json
 config/morered-client.toml
 config/compressiumblocks.json
+config/NuclearCraft/common.toml
+config/NuclearCraft/turbine.toml
+config/NuclearCraft/processors.toml
+config/NuclearCraft/fusion.toml
+config/NuclearCraft/materials.toml
+config/NuclearCraft/fission.toml
