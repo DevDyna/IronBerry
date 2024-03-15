@@ -1,3 +1,4 @@
+//script for fluid tooltip by https://gist.github.com/pietro-lopes/9781afbca3cea1d4e9ce6eaaf4c4bca0/revisions
 // We need to cache, since we are doing descriptionId -> registryName
 // And for what I know we don't have that
 StartupEvents.postInit(event => {
