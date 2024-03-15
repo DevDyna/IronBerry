@@ -914,6 +914,23 @@
 			x: 3.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["6CC49D55C6F1B6C0"]
+			id: "0C4FBA4FAA14D8DA"
+			rewards: [{
+				id: "071F3447806167FD"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Quick Fluid Transportation"
+			tasks: [{
+				id: "66D60F7B8B63738C"
+				item: "cyclic:hopper_fluid"
+				type: "item"
+			}]
+			x: 1.107142857142854d
+			y: 8.464285714285715d
+		}
 	]
 	subtitle: ["Homespun and clay"]
 	title: "Age 1"

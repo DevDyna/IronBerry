@@ -201,3 +201,4 @@ config/NuclearCraft/processors.toml
 config/NuclearCraft/fusion.toml
 config/NuclearCraft/materials.toml
 config/NuclearCraft/fission.toml
+options.txt
