@@ -103,6 +103,8 @@ ServerEvents.tags("item", (event) => {
 //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'ten3:redstone_storer', 
+    'ten3:redstone_conductor',
     'ae2:advanced_card', 
     'ae2:basic_card',
     'ae2:quartz_fiber',
@@ -1033,6 +1035,10 @@ event.add('ironberry:bars',['minecraft:iron_bars', 'thoriumreactors:grate_floor_
 event.add('ironberry:turbine_moderator',['thoriumreactors:nickel_block', 'thoriumreactors:niob_block', 'thoriumreactors:molybdenum_block'])
 
 event.add('ironberry:sacks',['kubejs:sack_access', 'kubejs:sack_ports', 'kubejs:sack_cards', 'kubejs:sack_misc', 'kubejs:sack_cables'])
+
+event.add('ironberry:mek_glass',['mekanismgenerators:reactor_glass', 'mekanism:structural_glass'])
+
+
 
 });
 

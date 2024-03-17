@@ -242,5 +242,14 @@ event.create('exosteam')
 .bucketColor(0xB2B2B2)
 .displayName('Exo-Steam (fluid)')
 
+event.create('glass')
+.thickTexture(0xF2F2F2)
+.bucketColor(0xF2F2F2)
+.displayName('Liquid glass')
+
+event.create('azure_glass')
+.thickTexture(0xD5F9FF)
+.bucketColor(0xD5F9FF)
+.displayName('Liquid Azure glass')
 
 })

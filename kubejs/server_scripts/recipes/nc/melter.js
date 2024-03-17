@@ -41,5 +41,6 @@ ServerEvents.recipes((event) => {
   melter("minecraft:glowstone", "thermal:glowstone", 4000);
   //melter('ae2:certus_quartz_crystal',"kubejs:certus",144)
 
+  melter('minecraft:glass','kubejs:glass',1000)
 
 });

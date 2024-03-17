@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ten3:vanilla/detector',
+        'ten3:vanilla/machine/machine_refiner',
         'inventorypets:coal',
         'inventorypets:nugget_coal_alt',
         'inventorypets:nugget_coal',

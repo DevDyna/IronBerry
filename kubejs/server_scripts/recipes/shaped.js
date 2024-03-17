@@ -1354,4 +1354,34 @@ ServerEvents.recipes((event) => {
     A: "thoriumreactors:redstone_processor",
     B: "thoriumreactors:blasted_stone",
   });
+
+
+
+  event.shaped('ten3:redstone_ai', 
+  [" C ", 
+   "RGR", 
+   "N N"], {
+    C: 'thoriumreactors:redstone_processor',
+    G:'minecraft:gold_ingot',
+    R:'minecraft:redstone',
+    N:'minecraft:gold_nugget'
+  });
+
+
+  event.shaped('thoriumreactors:turbine_rotor', 
+  [" I ", 
+   " I ", 
+   " I "], {
+    I: 'thoriumreactors:blasted_iron_ingot'
+  });
+
+  event.shaped('thoriumreactors:turbine_blade', 
+  ["   ", 
+   "III", 
+   "NNN"], {
+    I: 'thoriumreactors:blasted_iron_ingot',
+    N: 'thoriumreactors:blasted_iron_nugget'
+  });
+
+
 });

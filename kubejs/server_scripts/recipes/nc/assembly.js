@@ -128,8 +128,49 @@ smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:elit
 smart_assembly(['mekanism:alloy_infused', 'thermal:energy_cell',  'mekanism:ultimate_control_circuit','mekanism:elite_induction_cell'],'mekanism:ultimate_induction_cell')
 
 
-tiny_assembly(['mekanism:basic_control_circuit', 'minecraft:comparator', 'minecraft:repeater', 'minecraft:redstone_torch', 'minecraft:redstone','thoriumreactors:sodium'],'thoriumreactors:redstone_processor',4)
+tiny_assembly(['mekanism:basic_control_circuit', 'minecraft:comparator', 'minecraft:repeater', 'integrateddynamics:logic_director', 'minecraft:redstone','thoriumreactors:sodium'],'thoriumreactors:redstone_processor',4)
 
 smart_assembly(['#ironberry:wrench_fix','thoriumreactors:redstone_processor'],'thoriumreactors:configurator')
+smart_assembly(['minecraft:glass', 'thoriumreactors:redstone_processor', 'ten3:azure_glass'],'ten3:detector')
+
+
+
+smart_assembly(['bluepower:motor', 'minecraft:gold_ingot', 'ten3:detector'],'ten3:redstone_storer')
+smart_assembly(['bluepower:motor', 'thermal:silver_ingot', 'ten3:detector'],'ten3:redstone_converter')
+smart_assembly(['bluepower:motor', 'minecraft:copper_ingot', 'ten3:detector'],'ten3:redstone_conductor')
+
+tiny_assembly(['thoriumreactors:machine_casing', 'ten3:redstone_storer', 'thoriumreactors:potassium', 'minecraft:netherite_ingot'],'thoriumreactors:reactor_casing',8)
+tiny_assembly(['thoriumreactors:machine_casing', 'thoriumreactors:titanium_ingot', 'thoriumreactors:sodium', 'ten3:redstone_converter'],'thoriumreactors:turbine_casing',8)
+tiny_assembly(['thoriumreactors:machine_casing', 'thoriumreactors:chromium_ingot', 'thoriumreactors:uran_three_chloride', 'ten3:redstone_conductor'],'thoriumreactors:thermal_conductor',8)
+
+function control(input,out){
+smart_assembly([input,'ten3:redstone_ai','laboratoryblocks:iron_screw'],out)
+}
+control('thoriumreactors:reactor_casing', 'thoriumreactors:reactor_controller')
+control('thoriumreactors:turbine_casing', 'thoriumreactors:turbine_controller')
+control('thoriumreactors:thermal_conductor', 'thoriumreactors:thermal_controller')
+
+
+smart_assembly(['thoriumreactors:turbine_casing','minecraft:iron_bars'], 'thoriumreactors:turbine_vent')
+smart_assembly(['thoriumreactors:thermal_conductor','minecraft:iron_bars'], 'thoriumreactors:thermal_heat_sink')
+
+smart_assembly(['thoriumreactors:reactor_casing','#ironberry:mek_glass','laboratoryblocks:iron_screw'], 'thoriumreactors:reactor_glass')
+smart_assembly(['thoriumreactors:turbine_casing','#ironberry:mek_glass','laboratoryblocks:iron_screw'], 'thoriumreactors:turbine_glass')
+
+
+smart_assembly(['thoriumreactors:reactor_casing'], 'thoriumreactors:reactor_controller')
+smart_assembly(['thoriumreactors:turbine_casing'], 'thoriumreactors:turbine_controller')
+smart_assembly(['thoriumreactors:thermal_conductor'], 'thoriumreactors:thermal_controller')
+
+smart_assembly(['thoriumreactors:reactor_casing','#ironberry:universal_cable'], 'thoriumreactors:reactor_valve')
+smart_assembly(['thoriumreactors:turbine_casing','#ironberry:universal_cable'], 'thoriumreactors:turbine_valve')
+smart_assembly(['thoriumreactors:thermal_conductor','#ironberry:universal_cable'], 'thoriumreactors:thermal_valve')
+
+smart_assembly(['thoriumreactors:reactor_casing','laboratoryblocks:iron_screw','mekanismgenerators:control_rod_assembly'], 'thoriumreactors:reactor_rod_controller')
+smart_assembly(['thoriumreactors:reactor_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_fuel_assembly'], 'thoriumreactors:reactor_core')
+smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_reactor_port'], 'thoriumreactors:turbine_rotation_mount')
+smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_reactor_logic_adapter'], 'thoriumreactors:turbine_power_port')
+
+
 
 })

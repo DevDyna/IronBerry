@@ -636,4 +636,23 @@ ServerEvents.recipes((event) => {
       },
     ],
   });
+
+
+  event.custom({
+    type: "pneumaticcraft:pressure_chamber",
+    inputs: [
+      {
+        type: "pneumaticcraft:stacked_item",
+        count: 64,
+        item: 'thoriumreactors:graphite_tube',
+      }
+    ],
+    pressure: 2.0,
+    results: [
+      {
+        item: 'thoriumreactors:reactor_graphite_moderator',
+      },
+    ],
+  });
+
 });

@@ -48,4 +48,7 @@ ServerEvents.recipes(event => {
     infuse('compressium:stone_2','thermal:glowstone',144,'thoriumreactors:blasted_stone')
 
     infuse('thoriumreactors:depleted_uranium','kubejs:fuel_mixture',144,'thoriumreactors:enriched_uranium')
-})
+
+    infuse('thoriumreactors:machine_casing','kubejs:red_power',144, 'thoriumreactors:electromagnetic_coil')
+
+  })

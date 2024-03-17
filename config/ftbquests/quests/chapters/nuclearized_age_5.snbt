@@ -1300,6 +1300,7 @@
 			dependencies: ["4B2287F56C73C510"]
 			icon: "thoriumreactors:depleted_molten_salt_bucket"
 			id: "3B3498CFEDD139CD"
+			subtitle: "One day this quest will be changed"
 			tasks: [
 				{
 					id: "706300CE9E773A5E"
