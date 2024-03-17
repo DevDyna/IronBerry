@@ -40,6 +40,16 @@ ItemEvents.tooltip(event => {
     })
 
 
+
+    function multitip(ids,tips){
+        ids.forEach((item,index)=>{
+            tipplusplus(item,tips[index])
+        })
+
+    }
+
+
+
     //Ⓧ Ⓨ Ⓩ §c §a §9
     tipplusplus('kubejs:rich_bone_meal', '§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]')
     tipplusplus('kubejs:rich_bone_meal', '§8[§fArea affected : §b3 blocks§8]')
@@ -145,7 +155,7 @@ ItemEvents.tooltip(event => {
     tipplusplus('pedestals:upgrade_pedestal_cobblegen', 'Every §680 tick§f rool a §epool')
     tipplusplus(['pneumaticcraft:plastic', 'pneumaticcraft:plastic_bucket'], 'To see the recipe , press §9U §fon §6SmallFluidTank §ffrom §6PNC')
     tipplusplus(global.disabledItem, '§cItem Disabled')
-    tipplusplus('#ironberry:bucket_fuel', '§5Fuels §ffor §2liquid §fcompressor')
+    tipplusplus('#ironberry:bucket_fuel', '§5Fuel §ffor §2liquid §fcompressor')
     tipplusplus('minecraft:obsidian', 'Can be broken using a §1sapphire§f pickaxe or just try to place a §c🔥instability🔥')
     tipplusplus('#ironberry:blue_picks','Tier §1Obsidian')
     tipplusplus('craftingstation:crafting_station','Polymorph recipes dont work here , use a crafting table!')
@@ -168,6 +178,20 @@ ItemEvents.tooltip(event => {
     tipplusplus('thoriumreactors:depleted_uranium','Solid output of §eReactor §ffrom §a@Thorium')
     tipplusplus('thoriumreactors:enriched_uranium','Solid fuel of §eReactor §ffrom §a@Thorium')
     tipplusplus('thoriumreactors:configurator','§bRight-Click §fwith it on hand change state of §a@Thorium §cPorts')
+    
+    multitip(
+        ['thoriumreactors:nickel_block', 'thoriumreactors:niob_block', 'thoriumreactors:molybdenum_block'],
+        ['§8[§fModifier : §c1.0§8]','§8[§fModifier : §e1.5§8]','§8[§fModifier : §a2.0§8]']
+        )
+
+    multitip(
+        ['thoriumreactors:nickel_block', 'thoriumreactors:niob_block', 'thoriumreactors:molybdenum_block'],
+        ['§8[§fMax Energy : §c114kFE/t§8]','§8[§fMax Energy : §e171kFE/t§8]','§8[§fMax Energy : §a228kFE/t§8]']
+        )
+    
+
+
+    tipplusplus('#ironberry:turbine_moderator','Can be used as §9Turbine Modifier §ffrom §a@Thorium')
 
 
 

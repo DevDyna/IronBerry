@@ -189,8 +189,8 @@
 			image: "hostilenetworks:item/blank_data_model"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.0d
-			y: -11.0d
+			x: -10.625850340136054d
+			y: -11.651785714285715d
 		}
 		{
 			click: ""
@@ -257,8 +257,8 @@
 			image: "pneumaticcraft:block/pressure_chamber/bottom_left"
 			rotation: 0.0d
 			width: 1.25d
-			x: -4.0d
-			y: 0.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			click: ""
@@ -270,7 +270,7 @@
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			rotation: 0.0d
 			width: 1.25d
-			x: -4.0d
+			x: -5.0d
 			y: -1.0d
 		}
 		{
@@ -283,8 +283,8 @@
 			image: "pneumaticcraft:block/pressure_chamber/top_right"
 			rotation: 0.0d
 			width: 1.25d
-			x: -2.0d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -296,7 +296,7 @@
 			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
 			rotation: 0.0d
 			width: 1.25d
-			x: -2.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -309,8 +309,8 @@
 			image: "pneumaticcraft:block/pressure_chamber/bottom_right"
 			rotation: 0.0d
 			width: 1.25d
-			x: -2.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			click: ""
@@ -323,20 +323,7 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: -3.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "60B38F9E4BC71FF6"
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "pneumaticcraft:block/pressure_chamber/center"
-			rotation: 0.0d
-			width: 1.25d
-			x: -3.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			click: ""
@@ -349,7 +336,7 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: -3.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -361,8 +348,8 @@
 			image: "pneumaticcraft:block/pressure_chamber/top_left"
 			rotation: 0.0d
 			width: 1.25d
-			x: -4.0d
-			y: -2.0d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -576,6 +563,280 @@
 			x: -11.44727891156463d
 			y: -15.642857142857146d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/middle_horizontal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "60B38F9E4BC71FF6"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "pneumaticcraft:block/pressure_chamber/center"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "02242C8B71A2FF7A"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:block/loot_fabricator_north"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.204421768707498d
+			y: -9.542261904761908d
+		}
+		{
+			click: ""
+			color: 6723993
+			corner: false
+			dependency: "1939AE89F5A2E9DB"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "hostilenetworks:item/prediction"
+			rotation: 25.0d
+			width: 1.0d
+			x: -12.2687074829932d
+			y: -9.473214285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "02242C8B71A2FF7A"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ironberry:item/gems/topaz"
+			rotation: 5.0d
+			width: 0.5d
+			x: -10.523809523809526d
+			y: -9.075255102040806d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "02242C8B71A2FF7A"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ironberry:item/gems/aquamarine"
+			rotation: -10.0d
+			width: 0.5d
+			x: -9.84013605442177d
+			y: -9.401785714285715d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -584,6 +845,11 @@
 			dependencies: ["7122E2300227720D"]
 			hide: true
 			id: "58F0EB52C803B031"
+			rewards: [{
+				id: "2A1719B8C6198B27"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "Storage Sensor"
 			tasks: [{
 				id: "0F00EB329C1B7056"
@@ -596,6 +862,11 @@
 		{
 			dependencies: ["5856ACD8338DB76C"]
 			id: "7D862267974C6F95"
+			rewards: [{
+				id: "477E2A4A550E7BF4"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7847D1F8B8912C01"
 				item: {
@@ -614,6 +885,11 @@
 		{
 			dependencies: ["589E1908B016B84F"]
 			id: "5856ACD8338DB76C"
+			rewards: [{
+				id: "0B64D5CD6A7B7088"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -642,6 +918,11 @@
 			description: ["Little squirrel that can harvest berries and transfert items"]
 			hide: true
 			id: "277CB86B123E9B80"
+			rewards: [{
+				id: "54F4786A731F0950"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				id: "7B6F3419FFAA13D1"
@@ -660,6 +941,11 @@
 			dependencies: ["7122E2300227720D"]
 			hide: true
 			id: "21DF2350DEA11ECE"
+			rewards: [{
+				id: "56405B25DA944710"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "$ git init"
 			tasks: [{
 				id: "59BC75F5CA3BC5B4"
@@ -673,6 +959,11 @@
 		{
 			dependencies: ["5856ACD8338DB76C"]
 			id: "4EC78384B08F4D7F"
+			rewards: [{
+				id: "148F26DBC78233A3"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "More lollipop"
 			tasks: [{
 				id: "312E1A1747CCC28E"
@@ -686,6 +977,11 @@
 			dependencies: ["6241AF156E12230C"]
 			hide: true
 			id: "589E1908B016B84F"
+			rewards: [{
+				id: "425808DFB71D7358"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7101DD79C6582B75"
@@ -700,6 +996,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "7122E2300227720D"
+			rewards: [{
+				id: "32814EC4065FFBEA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7E8573C3D2DF406B"
@@ -716,6 +1017,11 @@
 			]
 			hide: true
 			id: "2EEA85762E3ABE98"
+			rewards: [{
+				id: "43D76A83C7314812"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5E3642A04C9DACAA"
@@ -740,7 +1046,13 @@
 				"041DF0E1A4888239"
 			]
 			hide: true
+			hide_dependent_lines: true
 			id: "23FF5767215D7F90"
+			rewards: [{
+				id: "44DF0538D279DFF7"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "More drops !"
 			tasks: [{
 				id: "48861FACBDE17F07"
@@ -761,6 +1073,11 @@
 			]
 			hide: true
 			id: "7EABBDB739B99D38"
+			rewards: [{
+				id: "175ED3B8A4E5EA98"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [
@@ -826,6 +1143,11 @@
 		{
 			dependencies: ["589E1908B016B84F"]
 			id: "60AEE0BEBD1EA943"
+			rewards: [{
+				id: "01E64A0A166049AC"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "635EC6951F0178BB"
@@ -849,6 +1171,11 @@
 			]
 			hide: true
 			id: "454C844EB3F196F4"
+			rewards: [{
+				id: "3CF500A67523082E"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DA5EE94C7FA53D9"
 				item: "hostilenetworks:sim_chamber"
@@ -864,6 +1191,11 @@
 			]
 			hide: true
 			id: "2BC6A3411051A140"
+			rewards: [{
+				id: "3AD5B07CF6699DE5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24195AC7491E5F1D"
 				item: "hostilenetworks:empty_prediction"
@@ -875,6 +1207,11 @@
 		{
 			dependencies: ["025020D50A32DAFA"]
 			id: "19B6C89234831909"
+			rewards: [{
+				id: "69F0DF22978C2A3C"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A74E5684E37BCC7"
 				item: {
@@ -898,57 +1235,88 @@
 		}
 		{
 			dependencies: ["06A9AD200AD93BEC"]
-			id: "1989FA3D5FD3027B"
-			rewards: [{
-				id: "24388E066ABD2AD0"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "pneumaticcraft:book"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "74627CA742F388BF"
-				item: "pneumaticcraft:manual_compressor"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1989FA3D5FD3027B"]
 			hide_dependent_lines: true
 			id: "60B38F9E4BC71FF6"
-			tasks: [
+			rewards: [
 				{
-					id: "236BE97DB9DB6EA4"
-					item: "pneumaticcraft:pressure_chamber_valve"
+					id: "1536EDD250B0FA1D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "5B6818B3692BFA77"
+					id: "4E1E123A751395EB"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22B7BA94A7B40C23"
+					item: "pneumaticcraft:manual_compressor"
+					type: "item"
+				}
+				{
+					id: "594822E0BFCF8ACC"
+					item: {
+						Count: 1b
+						id: "pneumaticcraft:pressure_chamber_valve"
+						tag: {
+							BlockEntityTag: {
+								UpgradeInventory: {
+									Items: [{
+										Count: 1b
+										Slot: 0
+										id: "pneumaticcraft:security_upgrade"
+									}]
+									Size: 4
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06EAE64F2A8280FE"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+				{
+					id: "0410FEF6FFF8C8AF"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "50BB9A2BBDCA8CF6"
 					item: "pneumaticcraft:pressure_chamber_wall"
 					type: "item"
 				}
 			]
 			title: "Pressure Chamber"
 			x: -3.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["60B38F9E4BC71FF6"]
 			hide: true
 			hide_dependent_lines: true
 			id: "1207A752F22ACCF3"
+			rewards: [{
+				id: "061BA70864A482CA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3873234FEE67C248"
 				item: "pneumaticcraft:ingot_iron_compressed"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -956,61 +1324,86 @@
 			description: ["$ironberry:bucket_fuel"]
 			hide: true
 			id: "7832CA4A1E6D674F"
+			rewards: [{
+				id: "735412D92C919CC0"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AAADA3D332842A6"
 				item: "pneumaticcraft:liquid_compressor"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1207A752F22ACCF3"]
 			hide: true
 			id: "495CB86940BB2D25"
+			rewards: [{
+				id: "17106EB597D1229F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AB1C9B3FCF21B67"
 				item: "pneumaticcraft:fluid_mixer"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1207A752F22ACCF3"]
 			hide: true
 			id: "15CF5E8AA4B5EDE2"
+			rewards: [{
+				id: "5E62B33DA016D936"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2289FAE47F38DEFB"
 				item: "pneumaticcraft:thermopneumatic_processing_plant"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["15CF5E8AA4B5EDE2"]
-			hide: true
-			id: "6ED044B16F1D4FC7"
-			tasks: [{
-				id: "77AEA74F87BADEB3"
-				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			x: -7.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["15CF5E8AA4B5EDE2"]
+			hide: true
+			id: "6ED044B16F1D4FC7"
+			rewards: [{
+				id: "147386AD21B6F795"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77AEA74F87BADEB3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
 			dependencies: ["60B38F9E4BC71FF6"]
 			hide: true
 			id: "43472F3778420E0F"
+			rewards: [{
+				id: "296B78487582440F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CCB5467F5C7C9EB"
 				item: "nuclearcraft:silicon_gem"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1021,18 +1414,28 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5F2878DD3C53AF80"
+			rewards: [{
+				id: "3E12407074716EF3"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AB97B66E4825E8F"
 				item: "pneumaticcraft:empty_pcb"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["19B6C89234831909"]
 			hide: true
 			id: "0A73E58829467953"
+			rewards: [{
+				id: "258C69A69C496994"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D1E859D2C6FE7AB"
@@ -1070,6 +1473,11 @@
 			]
 			hide: true
 			id: "15A70C622AD262F9"
+			rewards: [{
+				id: "34E620B7E6E2A22F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D48FEB8FF358FD8"
 				item: "pneumaticcraft:unassembled_pcb"
@@ -1082,6 +1490,11 @@
 			dependencies: ["0A73E58829467953"]
 			hide: true
 			id: "38B081C5E2174761"
+			rewards: [{
+				id: "1E939B6BEAC52C05"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CC9EB9D425BB1D4"
 				item: "pneumaticcraft:etching_tank"
@@ -1098,6 +1511,11 @@
 			]
 			hide: true
 			id: "4C1618310A6DE95A"
+			rewards: [{
+				id: "71B9835A497D2C65"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74AB6FE59126B6FD"
 				item: "pneumaticcraft:printed_circuit_board"
@@ -1110,6 +1528,11 @@
 			dependencies: ["4C1618310A6DE95A"]
 			hide: true
 			id: "5C74D85E4D1BAF16"
+			rewards: [{
+				id: "508E482D8F25781A"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63685EB6BA70C96D"
 				item: "pneumaticcraft:module_expansion_card"
@@ -1123,13 +1546,18 @@
 			hide: true
 			hide_dependency_lines: false
 			id: "3E574FA479B5F6D9"
+			rewards: [{
+				id: "4098FDC7EE8583B9"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38DD0AB938003E8D"
 				item: "kubejs:assembly_plate"
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1138,6 +1566,11 @@
 			]
 			hide: true
 			id: "25C8EBB27319D90F"
+			rewards: [{
+				id: "43DF795157353CA6"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "107D8225C2690217"
 				item: "kubejs:printed_plate"
@@ -1150,18 +1583,28 @@
 			dependencies: ["3E574FA479B5F6D9"]
 			hide: true
 			id: "77AECDAFB721B3A2"
+			rewards: [{
+				id: "4250DA7DB7DE2117"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D45864968D007A7"
 				item: "pneumaticcraft:assembly_program_drill_laser"
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1207A752F22ACCF3"]
 			hide: true
 			id: "49EF230160C853BD"
+			rewards: [{
+				id: "3C10F9A8204185FA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4770613FB7A4D067"
 				item: {
@@ -1174,13 +1617,18 @@
 				title: "Any #ironberry:pnc_modules"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["60B38F9E4BC71FF6"]
 			hide: true
 			id: "1F6228FEDB0B9048"
+			rewards: [{
+				id: "4373282D0D74C948"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0879514AA1E5F922"
 				item: "pneumaticcraft:upgrade_matrix"
@@ -1200,6 +1648,11 @@
 			hide: true
 			icon: "pneumaticcraft:security_upgrade"
 			id: "406410AD4DCF1465"
+			rewards: [{
+				id: "1ADA11E906D29CF5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "$bucket_fuel"
 			tasks: [{
@@ -1207,7 +1660,7 @@
 				type: "checkmark"
 			}]
 			title: "Gas Busting"
-			x: -7.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -1222,6 +1675,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "595415D4A63714B9"
+			rewards: [{
+				id: "3DC3C6CA339805B2"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1319D159A5AF4D63"
 				item: "kubejs:machine_frame"
@@ -1236,6 +1694,11 @@
 			hide_dependent_lines: true
 			icon: "quark:rainbow_rune"
 			id: "37A4995447CCBD53"
+			rewards: [{
+				id: "2C219409FD41DF76"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			subtitle: "This isn't Vault Hunting!"
@@ -1264,6 +1727,11 @@
 			]
 			hide: true
 			id: "06A9AD200AD93BEC"
+			rewards: [{
+				id: "6FADD07A9696FD57"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "290CC6FE330BE52E"
 				item: "pneumaticcraft:reinforced_pressure_tube"
@@ -1276,6 +1744,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "5698817E3F59F06C"
+			rewards: [{
+				id: "01331003F89F7988"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37373A7942360BB2"
 				item: "thermal:blizz_rod"
@@ -1288,6 +1761,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "0CAA1AF5A799B392"
+			rewards: [{
+				id: "3966850F5F668825"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37067F46B1728E5C"
 				item: "twilightforest:arctic_fur"
@@ -1300,6 +1778,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "2B2C54079C37F020"
+			rewards: [{
+				id: "720D3596575CFCFE"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CBA01867D63C69E"
 				item: "thermal:blitz_rod"
@@ -1312,6 +1795,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "45DF9C391B0F4735"
+			rewards: [{
+				id: "7C45D996C9C509FF"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "397F8AC1D43B45B3"
 				item: "thermal:basalz_rod"
@@ -1324,6 +1812,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "2FCF3C0C274337CF"
+			rewards: [{
+				id: "7D742F2F5A6B54BC"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38505F147ACBB01C"
 				item: "twilightforest:ironwood_ingot"
@@ -1336,6 +1829,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "47A9FE8B6818B32D"
+			rewards: [{
+				id: "5C745E9CB926A52F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1404CC553BF1D967"
 				item: "twilightforest:steeleaf_ingot"
@@ -1348,6 +1846,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "790F699B31A32792"
+			rewards: [{
+				id: "2492EF8E95637425"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1244D283686F85D5"
 				item: "twilightforest:knightmetal_ingot"
@@ -1360,6 +1863,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "5B283A3B6B92CB18"
+			rewards: [{
+				id: "6A12CD9B2CA5E662"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BBFF8EBAA95FEDE"
 				item: "kubejs:topaz"
@@ -1372,6 +1880,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "70D6A00E5106B8B8"
+			rewards: [{
+				id: "71F55A71FC447073"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "035609D13B42F9C3"
 				item: "kubejs:iolite"
@@ -1388,6 +1901,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "2755A2FC0A6CCDBA"
+			rewards: [{
+				id: "71AA9A0C906EAE9C"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AE415733135193D"
 				item: "cyclic:gem_amber"
@@ -1400,11 +1918,18 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "48096F4214AFE876"
-			rewards: [{
-				id: "6079D9D286E6D9CB"
-				item: "ars_nouveau:worn_notebook"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6079D9D286E6D9CB"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "27667FCB4AF86AFE"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24B2280CA4C1B8A9"
 				item: {
@@ -1423,6 +1948,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6DA8A88475B663A1"
+			rewards: [{
+				id: "6EB3BA818C103163"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1439,6 +1969,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "376284337BC4AC03"
+			rewards: [{
+				id: "297797AA87C9ECE1"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1455,6 +1990,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1637BB8A971EE3DF"
+			rewards: [{
+				id: "1404C7298100E6E8"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1469,6 +2009,11 @@
 			dependencies: ["6241AF156E12230C"]
 			hide: true
 			id: "6A09D52DC3FC4A36"
+			rewards: [{
+				id: "0931D7E99782ADAF"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "03C0B391E2A5BAFF"
 				item: {
@@ -1485,6 +2030,11 @@
 			dependencies: ["6241AF156E12230C"]
 			hide: true
 			id: "02940E3E691B83B9"
+			rewards: [{
+				id: "22D440036C017A4D"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CF03E37ED98C34F"
 				item: {
@@ -1504,6 +2054,11 @@
 			dependencies: ["6241AF156E12230C"]
 			hide: true
 			id: "30DB31F58CD8AA3A"
+			rewards: [{
+				id: "03D1DB8FA473C38E"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "274FD52A9A2BC673"
 				item: "ars_nouveau:source_berry"
@@ -1522,6 +2077,11 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "736ADE86CB77D17C"
+			rewards: [{
+				id: "351C2F35C80B31A2"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1536,6 +2096,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "251CDF48844D0AF4"
+			rewards: [{
+				id: "38E5038F1584E965"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75A6C29BF43BAB6B"
 				item: "twilightforest:fiery_ingot"
@@ -1548,6 +2113,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "3E859B66E205E1E1"
+			rewards: [{
+				id: "58B8E1B0C1DBEBF6"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DCB83422144F3A9"
 				item: {
@@ -1560,6 +2130,7 @@
 				title: "Any #quark:runes"
 				type: "item"
 			}]
+			title: "Rainbow Runes"
 			x: -6.0d
 			y: -10.0d
 		}
@@ -1567,6 +2138,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "03639A1C221E916F"
+			rewards: [{
+				id: "2517F066775C1F2B"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "775DE34E236727CA"
 				item: "twilightforest:borer_essence"
@@ -1580,6 +2156,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "041DF0E1A4888239"
+			rewards: [{
+				id: "7951F121E25A5E87"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1594,6 +2175,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "1B0273BD7D629386"
+			rewards: [{
+				id: "230E62549BF7DA71"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "67B22A0972D4AFDE"
@@ -1608,6 +2194,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "6AA6B308C3DBDF63"
+			rewards: [{
+				id: "51C32C04B1648130"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1623,6 +2214,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "0E4A7C81C48F881E"
+			rewards: [{
+				id: "50DB20497DBC0723"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1638,6 +2234,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "750F03F7ABADA4F0"
+			rewards: [{
+				id: "2DFDC662889152C0"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1653,6 +2254,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "5ABFE8B146D354FC"
+			rewards: [{
+				id: "64EC54C4ECCD9197"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
 			tasks: [{
@@ -1667,6 +2273,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "55A38E5BE32D4887"
+			rewards: [{
+				id: "5FB6B42E61E696A1"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "444876F80E8CE447"
 				item: "kubejs:jade"
@@ -1679,6 +2290,11 @@
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
 			id: "537D1068DF269C4B"
+			rewards: [{
+				id: "030380CEF12EBF3E"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58FBCD3F3469A2C4"
 				item: "kubejs:aquamarine"
@@ -1691,6 +2307,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "7E018B377A7CEC14"
+			rewards: [{
+				id: "4BA79C43344163C5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42765615CBB5EE10"
 				item: "twilightforest:minoshroom_trophy"
@@ -1703,6 +2324,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "3F984506FEB681D8"
+			rewards: [{
+				id: "3E0A79395F82BD18"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C1489BD04D7B503"
 				item: "twilightforest:maze_map_focus"
@@ -1715,6 +2341,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "2A4795B84422F53A"
+			rewards: [{
+				id: "71A35F9213275F83"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5688D6716864B57F"
 				item: "twilightforest:magic_map_focus"
@@ -1728,6 +2359,11 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "54A2ADA3F97C307A"
+			rewards: [{
+				id: "5ED6FEB435827E7F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1D0FA98110927846"
@@ -1741,6 +2377,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "2DEB4FDF14D61AD1"
+			rewards: [{
+				id: "16944FB689B75B0F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0524AF005EFDCD5E"
 				item: "twilightforest:knight_phantom_trophy"
@@ -1753,6 +2394,11 @@
 			dependencies: ["29B980DF97BE93DB"]
 			hide: true
 			id: "34081F830D9AAE70"
+			rewards: [{
+				id: "5DD21D190176EAB7"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FE9F4BA97DE0A17"
 				item: "twilightforest:lich_trophy"
@@ -1765,6 +2411,11 @@
 			dependencies: ["03639A1C221E916F"]
 			hide: true
 			id: "4703DFAD11337DCA"
+			rewards: [{
+				id: "56C45C0094FD0585"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A7EAEB0E550B5C8"
 				item: "twilightforest:carminite"
@@ -1779,6 +2430,11 @@
 			hide_dependent_lines: true
 			icon: "tombstone:villager_gift"
 			id: "29B980DF97BE93DB"
+			rewards: [{
+				id: "63DDAD8B9C3AB5CA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "17D0C93D6774ADE7"
@@ -1792,6 +2448,11 @@
 			dependencies: ["48096F4214AFE876"]
 			icon: "mowlib:icon_hand"
 			id: "6241AF156E12230C"
+			rewards: [{
+				id: "3C5642F3CBC0B9A1"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "Right click with a starby gift to open"
 			tasks: [{
 				id: "397415A722E24A95"
@@ -1805,6 +2466,7 @@
 				title: "Any #ironberry:gift_loot"
 				type: "item"
 			}]
+			title: "Gifty Loot"
 			x: 2.0d
 			y: -12.0d
 		}
@@ -1812,6 +2474,11 @@
 			dependencies: ["02940E3E691B83B9"]
 			hide_dependent_lines: true
 			id: "7FBF8CD1BB885034"
+			rewards: [{
+				id: "1DAE04AB29CCED60"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F149321B6B47E12"
 				item: "kubejs:ritual_tablet"
@@ -1827,6 +2494,11 @@
 			]
 			hide_dependent_lines: true
 			id: "2B6FA57DC9B2B4CA"
+			rewards: [{
+				id: "6D7EBB83D4A59A45"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "18A6D3764D5E0113"
@@ -1840,6 +2512,11 @@
 			dependencies: ["34081F830D9AAE70"]
 			hide_dependent_lines: true
 			id: "13AC5CDCB6BA0118"
+			rewards: [{
+				id: "3E114B10DBB46EA8"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "51EFD81807AA226C"
@@ -1857,9 +2534,15 @@
 				"13AC5CDCB6BA0118"
 				"3E859B66E205E1E1"
 				"454C844EB3F196F4"
+				"23FF5767215D7F90"
 			]
 			hide: true
 			id: "02242C8B71A2FF7A"
+			rewards: [{
+				id: "7EFBEA442181B925"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E89A85B12B169D4"
 				item: "hostilenetworks:loot_fabricator"
@@ -1877,6 +2560,11 @@
 			]
 			hide: true
 			id: "1939AE89F5A2E9DB"
+			rewards: [{
+				id: "783ABAB4AC1E058D"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "No more need of killing!"
 			tasks: [{
 				id: "2856A116B433EAB6"
@@ -1903,6 +2591,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "025020D50A32DAFA"
+			rewards: [{
+				id: "284B806FA60FAD21"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1543ED050FE5B65F"
 				item: "kubejs:raw_plastic"
@@ -1916,25 +2609,35 @@
 			hide: true
 			hide_dependent_lines: true
 			id: "0995F72C09F9CE18"
+			rewards: [{
+				id: "3AB8449D64D74475"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6570D3DC10935842"
 				item: "pneumaticcraft:capacitor"
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["60B38F9E4BC71FF6"]
 			hide: true
 			hide_dependent_lines: true
 			id: "13716144352C8BCA"
+			rewards: [{
+				id: "4AE412EEA0262DBA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16F5C19A0675D863"
 				item: "pneumaticcraft:transistor"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -2.0d
 		}
 	]

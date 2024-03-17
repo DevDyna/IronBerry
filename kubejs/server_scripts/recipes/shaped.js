@@ -688,7 +688,7 @@ event.shaped(Item.of('gateways:gate_pearl', '{gateway:"gateways:battle_gate_larg
     shapex(['kubejs:miniboss_trophy', 'ars_nouveau:mob_jar', 'kubejs:miniboss_trophy', 'kubejs:aquamarine', 'kubejs:machine_frame', 'kubejs:jade', 'kubejs:miniboss_trophy', 'thermaloot:variable_capacitor', 'kubejs:miniboss_trophy'], 'hostilenetworks:sim_chamber')
     shapex(['twilightforest:ironwood_ingot', 'kubejs:processor', 'twilightforest:knightmetal_ingot', 'kubejs:topaz', 'kubejs:machine', 'kubejs:iolite', 'twilightforest:knightmetal_ingot', 'twilightforest:steeleaf_ingot', 'twilightforest:ironwood_ingot'], 'kubejs:machine_frame')
 	shapex(
-	['kubejs:boss_trophy', 'ars_nouveau:mob_jar', 'kubejs:boss_trophy', 'twilightforest:fiery_ingot', 'kubejs:machine_frame', 'twilightforest:carminite', 'kubejs:boss_trophy', 'quark:blank_rune', 'kubejs:boss_trophy'],
+	['kubejs:boss_trophy', 'ars_nouveau:drygmy_charm', 'kubejs:boss_trophy', 'twilightforest:fiery_ingot', 'kubejs:machine_frame', 'twilightforest:carminite', 'kubejs:boss_trophy', 'quark:blank_rune', 'kubejs:boss_trophy'],
 	'hostilenetworks:loot_fabricator')
 	
 	shapex(['thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'cyclic:tank', 'minecraft:bucket', 'thermal:device_water_gen', 'minecraft:bucket', 'thermal:device_water_gen'],'thoriumreactors:water_source_block')

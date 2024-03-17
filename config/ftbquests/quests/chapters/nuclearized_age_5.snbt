@@ -1213,7 +1213,14 @@
 				{
 					count: 8L
 					id: "40EB4DAE85DCC1AC"
-					item: "thoriumreactors:molybdenum_block"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:turbine_moderator"
+						}
+					}
+					title: "Any #ironberry:turbine_moderator"
 					type: "item"
 				}
 				{
@@ -1276,11 +1283,18 @@
 		{
 			dependencies: ["4B2287F56C73C510"]
 			id: "3B3498CFEDD139CD"
-			tasks: [{
-				id: "706300CE9E773A5E"
-				item: "thoriumreactors:depleted_molten_salt_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "706300CE9E773A5E"
+					item: "thoriumreactors:depleted_molten_salt_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E924F263990F565"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 7.0d
 		}
@@ -1298,6 +1312,6 @@
 			y: 6.0d
 		}
 	]
-	subtitle: ["Nuclearized confirmed"]
+	subtitle: ["Nuclearize my recipes"]
 	title: "Age 5"
 }

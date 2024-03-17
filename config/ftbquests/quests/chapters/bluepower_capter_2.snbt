@@ -1114,8 +1114,8 @@
 				item: "kubejs:ore_bone_meal"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -14.0d
+			x: -5.392857142857153d
+			y: -14.035714285714285d
 		}
 		{
 			dependencies: ["08C331DC3A0CF932"]

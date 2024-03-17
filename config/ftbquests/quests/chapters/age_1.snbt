@@ -133,7 +133,7 @@
 			rewards: [{
 				count: 10
 				id: "7B39ACF421369D0C"
-				item: "thermal:electrum_coin"
+				item: "thermal:lead_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -146,6 +146,32 @@
 			title: "PI Greek"
 			x: -3.7857142857142847d
 			y: 1.4000000000000021d
+		}
+		{
+			id: "015C80D7F989B86D"
+			rewards: [{
+				count: 4
+				id: "25799609EB9160A2"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Sacks of ae2"
+			tasks: [{
+				id: "5ABDACE1500886C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:sacks"
+					}
+				}
+				title: "Any #ironberry:sacks"
+				type: "item"
+			}]
+			title: "Sacks"
+			x: -0.05d
+			y: 1.45d
 		}
 	]
 	subtitle: ["Easter egg Hunting!"]

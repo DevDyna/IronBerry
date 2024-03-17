@@ -77,7 +77,8 @@ function trade_item_item(rarity,input,in_count,output,out_count,bool){
 
 trade_item_item(1,'thermal:electrum_coin',1,'thermal:iron_coin',16,true)
 trade_item_item(1,'thermal:iron_coin',16,'thermal:electrum_coin',1,true)
-
+trade_item_item(1,'thermal:lead_coin',1,'thermal:electrum_coin',16,true)
+trade_item_item(1,'thermal:electrum_coin',16,'thermal:lead_coin',1,true)
 
 function ironC(rarity,coin,output,count_out,bool){
 	trade_item_item(rarity,'thermal:iron_coin',coin,output,count_out,bool)

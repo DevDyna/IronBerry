@@ -233,4 +233,18 @@ StartupEvents.registry('item', event => {
     .texture('ironberry:item/garbage')
     .displayName('Garbage')
     
+    let types = ['cables','cards','misc','ports','access']
+    types.forEach(type => {
+        event.create('sack_'+type)
+        .modelJson({
+            "parent": "supplementaries:block/sack_closed"
+          })
+        .displayName('Sack of '+type)
+    });
+
+
+
+
+
+
 })

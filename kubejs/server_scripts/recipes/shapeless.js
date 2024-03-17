@@ -317,5 +317,9 @@ function emolimix(jump,variants){
 	nine_to_one(['thoriumreactors:niob_nugget', 'thoriumreactors:niob_ingot'])
 	nine_to_one(['thoriumreactors:titanium_nugget', 'thoriumreactors:titanium_ingot'])
 	nine_to_one(['thoriumreactors:chromium_nugget', 'thoriumreactors:chromium_ingot'])
-	
+	nine_to_one(['thermal:nickel_nugget','thermal:nickel_ingot'])
+  	nine_to_one(['thoriumreactors:molybdenum_ingot', 'thoriumreactors:molybdenum_block'])
+	nine_to_one(['thoriumreactors:niob_ingot', 'thoriumreactors:niob_block'])
+  	nine_to_one(['thermal:nickel_ingot', 'thoriumreactors:nickel_block'])
+  	nine_to_one(['thermal:netherite_nugget', 'minecraft:netherite_ingot'])
 })
