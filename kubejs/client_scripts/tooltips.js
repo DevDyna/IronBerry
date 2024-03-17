@@ -1,6 +1,10 @@
 //priority 10
 ItemEvents.tooltip(event => {
-
+    /**
+     * 
+     * @param {itemstack|itemstack[]} id 
+     * @param {string} desc 
+     */
     function tipplusplus(id, desc) {
         event.addAdvanced(id, (item, advanced, text) => {
             try {
@@ -157,6 +161,18 @@ ItemEvents.tooltip(event => {
     tipplusplus('kubejs:floreal_bone_meal','Right click on §aDirt §fit can spawn some §6Flowers')
     tipplusplus('#ironberry:urn_loot','Can be dropped by §6Urns§f when broken')
     tipplusplus(['nuclearcraft:upgrade_energy', 'nuclearcraft:upgrade_speed'],'Dont use §c10 or more§f on a single machines , they can §cbreak§f it!')
+    tipplusplus('thoriumreactors:depleted_molten_salt_bucket','Due a issue on §6ThoriumReactor 0.1.6b-all§f cannot be moved using buckets!')
+    tipplusplus(['thoriumreactors:steam_bucket', 'thoriumreactors:depleted_molten_salt_bucket'],"Obtained by running §cThermal Evaporator §ffrom §a@Thorium")
+    tipplusplus('thoriumreactors:heated_molten_salt_bucket',"Obtained by running §eReactor §ffrom §a@Thorium")
+    tipplusplus('thoriumreactors:molten_salt_bucket',"Coolant of §eReactor §ffrom §a@Thorium")
+    tipplusplus('thoriumreactors:depleted_uranium','Solid output of §eReactor §ffrom §a@Thorium')
+    tipplusplus('thoriumreactors:enriched_uranium','Solid fuel of §eReactor §ffrom §a@Thorium')
+    tipplusplus('thoriumreactors:configurator','§bRight-Click §fwith it on hand change state of §a@Thorium §cPorts')
+
+
+
+
+
 
 })
 
