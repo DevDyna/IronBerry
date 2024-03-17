@@ -23,7 +23,7 @@ const $GasAttributes = Java.loadClass('mekanism.api.chemical.gas.attribute.GasAt
 const $Fuel = $GasAttributes.Fuel
 const $FloatingLong = Java.loadClass('mekanism.api.math.FloatingLong')              
 GASES.register('pyrotheum', 0xF9E742, new $Fuel(() => 5, () => $FloatingLong.create(100000)))
-GASES.register('exosteam', 0xB2B2B2, new $Fuel(() => 4800, () => $FloatingLong.create(5000000)))
+GASES.register('exosteam', 0xB2B2B2, new $Fuel(() => 4800, () => $FloatingLong.create(200000)))
 
 GASES.register($EventBuses.getModEventBus('kubejs').get())
 

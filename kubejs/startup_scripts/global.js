@@ -27,6 +27,8 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  'cyclic:crafting_stick',
+  'jetboots:guardian_sword',
   'thoriumreactors:module_empty',
   "thoriumreactors:deepslate_manganese_ore",
   "thoriumreactors:manganese_ore",

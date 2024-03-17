@@ -95,8 +95,8 @@ function emolimix(jump,variants){
 	])
 	
 	//raw ores and nuggets
-	less(['9x inventorypets:nugget_emerald'],'minecraft:emerald')
-	less(['9x inventorypets:nugget_coal'],'minecraft:coal')
+	//less(['9x inventorypets:nugget_emerald'],'minecraft:emerald')
+	//less(['9x inventorypets:nugget_coal'],'minecraft:coal')
 	less(['9x kubejs:raw_copper_nugget'],'minecraft:raw_copper')
 	less(['9x kubejs:raw_iron_nugget'],'minecraft:raw_iron')
 	less(['9x kubejs:raw_gold_nugget'],'minecraft:raw_gold')
@@ -322,4 +322,9 @@ function emolimix(jump,variants){
 	nine_to_one(['thoriumreactors:niob_ingot', 'thoriumreactors:niob_block'])
   	nine_to_one(['thermal:nickel_ingot', 'thoriumreactors:nickel_block'])
   	nine_to_one(['thermal:netherite_nugget', 'minecraft:netherite_ingot'])
+  	nine_to_one('inventorypets:nugget_coal','minecraft:coal')
+	less(['rftoolsbase:crafting_card', 'bluepower:motor', 'cyclic:carbon_paper', 'integrateddynamics:variable'],'16x ae2:basic_card')
+	less(['rftoolsbase:crafting_card', 'bluepower:motor', 'cyclic:carbon_paper', 'pneumaticcraft:module_expansion_card'],'16x ae2:advanced_card')
+  	
+
 })

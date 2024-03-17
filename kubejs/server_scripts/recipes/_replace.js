@@ -174,5 +174,5 @@ event.replaceInput({output:'bluepower:blulectric_cable'},'bluepower:blue_alloy_i
 event.replaceInput({id:'torchmaster:feral_flare_lantern'},'minecraft:gold_ingot','minecraft:copper_ingot')
 event.replaceInput({id:'torchmaster:feral_flare_lantern'},'minecraft:glowstone_dust','reactive:stardust')
 
-
+event.replaceInput({id:'bluepower:diamond_drawplate'},'minecraft:diamond','minecraft:emerald')
 })

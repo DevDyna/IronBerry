@@ -52,6 +52,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "06A531620346F341"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -77,14 +78,15 @@
 		{
 			click: ""
 			corner: false
+			dependency: "4B2287F56C73C510"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.0d
-			y: 7.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -96,8 +98,8 @@
 			image: "nuclearcraft:block/processor/fuel_reprocessor_powered"
 			rotation: 0.0d
 			width: 1.5d
-			x: -1.0d
-			y: 3.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -517,8 +519,8 @@
 			image: "ironberry:item/lupenio"
 			rotation: 0.0d
 			width: 0.75d
-			x: -1.0249999999999986d
-			y: 2.6678571428571374d
+			x: -4.028571428571432d
+			y: -4.585714285714285d
 		}
 		{
 			click: ""
@@ -530,8 +532,8 @@
 			image: "nuclearcraft:item/material/gem/boron_arsenide"
 			rotation: 15.0d
 			width: 0.5d
-			x: -1.5416666666666643d
-			y: 4.00595238095238d
+			x: -4.6785714285714235d
+			y: -3.642857142857146d
 		}
 		{
 			click: ""
@@ -543,8 +545,8 @@
 			image: "nuclearcraft:item/material/gem/boron_nitride"
 			rotation: -40.0d
 			width: 0.5d
-			x: -1.2250000000000014d
-			y: 4.353571428571421d
+			x: -4.607142857142854d
+			y: -3.2142857142857153d
 		}
 		{
 			click: ""
@@ -556,8 +558,8 @@
 			image: "nuclearcraft:item/material/gem/villiaumite"
 			rotation: 60.0d
 			width: 0.5d
-			x: -0.875d
-			y: 3.767857142857146d
+			x: -4.107142857142854d
+			y: -3.5714285714285694d
 		}
 		{
 			click: ""
@@ -569,8 +571,8 @@
 			image: "nuclearcraft:item/material/gem/rhodochrosite"
 			rotation: 30.0d
 			width: 0.5d
-			x: -0.7559523809523796d
-			y: 4.267857142857139d
+			x: -4.035714285714285d
+			y: -3.2142857142857153d
 		}
 		{
 			click: ""
@@ -582,8 +584,8 @@
 			image: "nuclearcraft:item/material/gem/carobbiite"
 			rotation: -25.0d
 			width: 0.5d
-			x: -1.5178571428571388d
-			y: 3.2916666666666714d
+			x: -3.392857142857146d
+			y: -3.892857142857146d
 		}
 		{
 			click: ""
@@ -595,8 +597,21 @@
 			image: "nuclearcraft:item/material/gem/fluorite"
 			rotation: 75.0d
 			width: 0.5d
-			x: -0.4702380952380949d
-			y: 3.4583333333333286d
+			x: -3.5714285714285765d
+			y: -3.5357142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "125E50DE77912811"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thoriumreactors:item/redstone_processor"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	order_index: 0
@@ -724,7 +739,7 @@
 				type: "checkmark"
 			}]
 			title: "How can i build that ?"
-			x: 1.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -1031,7 +1046,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["05A163CA0B85418B"]
+			dependencies: ["125E50DE77912811"]
 			icon: "thoriumreactors:reactor_controller"
 			id: "4B2287F56C73C510"
 			rewards: [{
@@ -1092,8 +1107,8 @@
 				}
 			]
 			title: "Thorium Reactor"
-			x: 6.0d
-			y: 6.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
@@ -1141,11 +1156,12 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: 7.0d
-			y: 5.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5C30C4E45CA21A76"]
+			hide_dependency_lines: true
 			icon: "thoriumreactors:turbine_controller"
 			id: "46AF3BFA42CC2870"
 			rewards: [{
@@ -1248,8 +1264,8 @@
 				item: "nuclearcraft:plate_du"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["28368E27A614409E"]
@@ -1277,11 +1293,12 @@
 				}
 			]
 			title: "Chemical Reaction 2.0 #4"
-			x: 4.0d
-			y: 6.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
+			icon: "thoriumreactors:depleted_molten_salt_bucket"
 			id: "3B3498CFEDD139CD"
 			tasks: [
 				{
@@ -1295,8 +1312,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 7.0d
-			y: 7.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
@@ -1310,6 +1327,17 @@
 			}]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			id: "125E50DE77912811"
+			tasks: [{
+				id: "2A5A964E78016258"
+				item: "thoriumreactors:machine_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Nuclearize my recipes"]

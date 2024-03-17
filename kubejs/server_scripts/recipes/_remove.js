@@ -40,6 +40,10 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'inventorypets:coal',
+        'inventorypets:nugget_coal_alt',
+        'inventorypets:nugget_coal',
+        'inventorypets:nugget_emerald_alt',
         'ae2:network/cables/glass_fluix',
         'ae2:network/cables/covered_fluix',
         'ae2:network/cables/smart_fluix',
