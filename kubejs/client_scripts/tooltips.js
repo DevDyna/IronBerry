@@ -194,31 +194,11 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:turbine_moderator','Can be used as §9Turbine Modifier §ffrom §a@Thorium')
 
 
-
+    tipplusplus('ten3:machine_psionicant','§4aka alloy smeltery')
 
 
 
 })
-
-/*
-Black: §0
-Dark Blue: §1
-Dark Green: §2
-Dark Aqua (Dark Cyan): §3
-Dark Red: §4
-Dark Purple: §5
-Gold: §6
-Gray: §7
-Dark Gray: §8
-Blue: §9
-Green: §a
-Aqua (Cyan): §b
-Red: §c
-Light Purple: §d
-Yellow: §e
-White: §f
-*/
-
 
 /* TO TRY
 §0 Black

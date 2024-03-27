@@ -68,7 +68,7 @@ function inscribe(type_mode,input,output){
 inscribe('press',['ae2:certus_quartz_crystal'],'ae2:certus_quartz_dust')
 inscribe('press',['minecraft:quartz'],'thermal:quartz_dust')
 inscribe('press',['nuclearcraft:empty_frame','nuclearcraft:steel_frame',  'nuclearcraft:chassis'],'kubejs:incompleted_machine_frame')
-//inscribe('press',['ae2:certus_quartz_crystal'],'ae2:certus_quartz_dust')
+inscribe('press',['kubejs:incompleted_machine_frame','ae2:inscriber',  'laboratoryblocks:laboratory_block'],'thermal:machine_frame')
 
 
 

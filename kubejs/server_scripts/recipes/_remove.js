@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ten3:induction_furnace/azure_glass',
+        'ten3:vanilla/redstone_ai',
         'ten3:vanilla/detector',
         'ten3:vanilla/machine/machine_refiner',
         'inventorypets:coal',

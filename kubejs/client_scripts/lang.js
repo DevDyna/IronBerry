@@ -17,7 +17,12 @@ ClientEvents.lang('en_us',event => {
   event.add('gas.kubejs.exosteam','Exo-Steam (Gas)')
   event.add('gas.kubejs.fuel_mixture','Fuel Mixture (Gas)')
 
-  
-
   event.add('gateways.battle_gate_large','Bosses')
+
+  event.add('item.ten3.powered_tin_dust','Powered  dust')
+  //'ten3:tin_dust'
+
+
+
+
 })

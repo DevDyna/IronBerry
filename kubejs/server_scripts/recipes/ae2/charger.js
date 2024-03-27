@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
       }).id(RegX(input + "_" + output))
   }
 charger("minecraft:ice","minecraft:blue_ice")
-charger('kubejs:incompleted_machine_frame', 'thermal:machine_frame')
 
   
 })

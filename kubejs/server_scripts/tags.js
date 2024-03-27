@@ -1038,7 +1038,9 @@ event.add('ironberry:sacks',['kubejs:sack_access', 'kubejs:sack_ports', 'kubejs:
 
 event.add('ironberry:mek_glass',['mekanismgenerators:reactor_glass', 'mekanism:structural_glass'])
 
+event.get('ten3:catalyst').removeAll()
 
+event.add('ten3:catalyst','ae2:fluix_crystal')
 
 });
 
