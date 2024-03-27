@@ -194,8 +194,9 @@ ItemEvents.tooltip(event => {
     tipplusplus('#ironberry:turbine_moderator','Can be used as §9Turbine Modifier §ffrom §a@Thorium')
 
 
-    tipplusplus('ten3:machine_psionicant','§4aka alloy smeltery')
-
+    tipplusplus('ten3:machine_psionicant','§4aka 2x slots smeltery')
+    tipplusplus('ten3:machine_induction_furnace','§4aka 3x slots smeltery')
+    tipplusplus('#ten3:catalyst','§5Matter Condenser §fCatalyst')
 
 
 })

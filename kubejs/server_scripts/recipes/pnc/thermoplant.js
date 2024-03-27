@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
     "fluid_input": {
       "type": "pneumaticcraft:fluid",
       "tag": "ironberry:chad_water",
-      "amount": 1000
+      "amount": 100
     },
     "item_input":{
       "item": 'ten3:chlorium_dust'
@@ -421,12 +421,9 @@ ServerEvents.recipes(event => {
     "temperature": {
       "min_temp": 272
     },
-    "item_output": {
-      "item": 'minecraft:obsidian'
-    },
     "fluid_output": {
       "fluid": 'ten3:liquid_xp',
-	  "amount": 1000
+	  "amount": 1
     }
     })
 

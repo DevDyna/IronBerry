@@ -1355,33 +1355,34 @@ ServerEvents.recipes((event) => {
     B: "thoriumreactors:blasted_stone",
   });
 
-
-
-  event.shaped('ten3:redstone_ai', 
-  [" C ", 
-   "RGR", 
-   "N N"], {
-    C: 'thoriumreactors:redstone_processor',
-    G:'minecraft:gold_ingot',
-    R:'minecraft:redstone',
-    N:'minecraft:gold_nugget'
+  event.shaped("ten3:redstone_ai", [" C ", "RGR", "N N"], {
+    C: "thoriumreactors:redstone_processor",
+    G: "minecraft:gold_ingot",
+    R: "minecraft:redstone",
+    N: "minecraft:gold_nugget",
   });
 
-
-  event.shaped('thoriumreactors:turbine_rotor', 
-  [" I ", 
-   " I ", 
-   " I "], {
-    I: 'thoriumreactors:blasted_iron_ingot'
+  event.shaped("thoriumreactors:turbine_rotor", [" I ", " I ", " I "], {
+    I: "thoriumreactors:blasted_iron_ingot",
   });
 
-  event.shaped('thoriumreactors:turbine_blade', 
-  ["   ", 
-   "III", 
-   "NNN"], {
-    I: 'thoriumreactors:blasted_iron_ingot',
-    N: 'thoriumreactors:blasted_iron_nugget'
+  event.shaped("thoriumreactors:turbine_blade", ["   ", "III", "NNN"], {
+    I: "thoriumreactors:blasted_iron_ingot",
+    N: "thoriumreactors:blasted_iron_nugget",
   });
 
-
+  shapex(
+    [
+      "ars_nouveau:magebloom",
+      "ars_nouveau:potion_flask_extend_time",
+      "ars_nouveau:magebloom",
+      "minecraft:book",
+      "nuclearcraft:steel_frame",
+      "minecraft:book",
+      "ars_nouveau:magebloom",
+      "ars_nouveau:potion_flask_amplify",
+      "ars_nouveau:magebloom",
+    ],
+    "ten3:machine_enchantment_flusher"
+  );
 });

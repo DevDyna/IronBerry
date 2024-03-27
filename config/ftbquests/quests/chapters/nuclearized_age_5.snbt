@@ -934,6 +934,11 @@
 				"2B43C4FF561B52A2"
 			]
 			id: "4C624E7DFD3E414E"
+			rewards: [{
+				id: "7FC7ABD4BC45A5C9"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F82CF669F668481"
 				item: {
@@ -949,6 +954,11 @@
 		{
 			dependencies: ["4C624E7DFD3E414E"]
 			id: "087A5EF088DDED0E"
+			rewards: [{
+				id: "646F6844FD89DF09"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "Too many energy wasted !?"
 			tasks: [
 				{
@@ -973,6 +983,11 @@
 		{
 			dependencies: ["1749654EEB1ECEDC"]
 			id: "1FE2BB2E4BDB24C0"
+			rewards: [{
+				id: "78B5869B67E38EE5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -1020,6 +1035,11 @@
 				"15CF5E8AA4B5EDE2"
 			]
 			id: "2B43C4FF561B52A2"
+			rewards: [{
+				id: "7C8EAE2769081229"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "600E47E5DFD57AA5"
 				item: "nuclearcraft:bioplastic"
@@ -1031,6 +1051,11 @@
 		{
 			dependencies: ["123D0BCDB0FD19BF"]
 			id: "4885D497784749F6"
+			rewards: [{
+				id: "4E9A477F10B833DC"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D02C74F2AE06E20"
 				item: "nuclearcraft:plate_basic"
@@ -1043,6 +1068,11 @@
 			dependencies: ["06A531620346F341"]
 			description: ["You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics if you lost !"]
 			id: "152F5B457DF4C6AB"
+			rewards: [{
+				id: "743CFD062271E374"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "I have a gift"
 			tasks: [{
@@ -1058,22 +1088,29 @@
 			description: ["Suggest to set on 0.1mb/tick and never increase if you want stay safe :p"]
 			icon: "mekanismgenerators:fission_reactor_port"
 			id: "06A531620346F341"
-			rewards: [{
-				id: "536AA298FCDA20F7"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:template"
-					tag: {
-						template_id: [I;
-							2085223044
-							-2025307395
-							-1735971033
-							-965562790
-						]
+			rewards: [
+				{
+					id: "536AA298FCDA20F7"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								2085223044
+								-2025307395
+								-1735971033
+								-965562790
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "78101A4A64E2E87E"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -1118,6 +1155,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "52D98F751BCB3396"
+			rewards: [{
+				id: "636BC836DD5FF30E"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4353C82D15462E41"
 				item: "cyclic:gem_obsidian"
@@ -1129,6 +1171,11 @@
 		{
 			dependencies: ["52D98F751BCB3396"]
 			id: "123D0BCDB0FD19BF"
+			rewards: [{
+				id: "3900F93E8354A336"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1157,6 +1204,11 @@
 		{
 			dependencies: ["123D0BCDB0FD19BF"]
 			id: "6E1302B3D9FDBDB5"
+			rewards: [{
+				id: "35AE23ACA7D1768C"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16D0A9D8B9C33AB2"
 				item: "cyclic:biomass"
@@ -1168,6 +1220,11 @@
 		{
 			dependencies: ["6E1302B3D9FDBDB5"]
 			id: "55628480845DB31F"
+			rewards: [{
+				id: "2B0199AAD535BA9F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19AFC04212DDB4CB"
 				item: "cyclic:peat_unbaked"
@@ -1179,6 +1236,11 @@
 		{
 			dependencies: ["646E5959C53D3605"]
 			id: "705EF3533D32E5CF"
+			rewards: [{
+				id: "0DD254289136DB88"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "664462A26A714F84"
 				item: "cyclic:peat_farm"
@@ -1190,6 +1252,11 @@
 		{
 			dependencies: ["55628480845DB31F"]
 			id: "646E5959C53D3605"
+			rewards: [{
+				id: "7DBCA2978546299B"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CD3C342BF2DC9B8"
 				item: "cyclic:peat_fuel_enriched"
@@ -1204,6 +1271,11 @@
 				"0F2299A58A58EDC5"
 			]
 			id: "3C1E2464FB392627"
+			rewards: [{
+				id: "035C07B2F443107B"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "Gas everywhere"
 			tasks: [
 				{
@@ -1234,6 +1306,11 @@
 		{
 			dependencies: ["087A5EF088DDED0E"]
 			id: "0496DF45F94AC1F8"
+			rewards: [{
+				id: "0E21F1939D63D1EB"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B0D875A68C7CADC"
 				item: {
@@ -1254,6 +1331,11 @@
 			dependencies: ["06A531620346F341"]
 			hide_dependency_lines: true
 			id: "0235AD43D99C6287"
+			rewards: [{
+				id: "61334DE8F1590A9A"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "Solution of a simply problem"
 			tasks: [{
 				id: "3BE02DE9D4B4089C"
@@ -1266,6 +1348,11 @@
 		{
 			dependencies: ["15CF5E8AA4B5EDE2"]
 			id: "46650594DAFC04AF"
+			rewards: [{
+				id: "2D673E68EB38BF90"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "476C0C06E022E7E0"
 				item: "thermal:bitumen"
@@ -1277,6 +1364,11 @@
 		{
 			dependencies: ["46650594DAFC04AF"]
 			id: "78B8301419809CE3"
+			rewards: [{
+				id: "61A285C2771477B5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A73A20C308E8FDD"
 				item: "mekanism:ingot_steel"
@@ -1288,6 +1380,11 @@
 		{
 			dependencies: ["1B8615BAC47B6BB1"]
 			id: "6138769A65F12025"
+			rewards: [{
+				id: "7C5B5553BB83A046"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1318,6 +1415,11 @@
 				"78B8301419809CE3"
 			]
 			id: "0F2299A58A58EDC5"
+			rewards: [{
+				id: "4C9F47977C89126F"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D49EC340A49589A"
 				item: "mekanism:steel_casing"
@@ -1329,6 +1431,11 @@
 		{
 			dependencies: ["06A531620346F341"]
 			id: "1B8615BAC47B6BB1"
+			rewards: [{
+				id: "263F4BE88EC1F4F0"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3D1C39238AE3FAB5"
@@ -1348,6 +1455,11 @@
 		{
 			dependencies: ["6138769A65F12025"]
 			id: "1749654EEB1ECEDC"
+			rewards: [{
+				id: "38009FB62893A4CA"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "60048DC5744323C9"
 				item: "nuclearcraft:plate_advanced"
@@ -1360,22 +1472,29 @@
 			dependencies: ["125E50DE77912811"]
 			icon: "thoriumreactors:reactor_controller"
 			id: "4B2287F56C73C510"
-			rewards: [{
-				id: "5741B91C8E546F43"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:template"
-					tag: {
-						template_id: [I;
-							1804752495
-							-1480048527
-							-1907807541
-							748982222
-						]
+			rewards: [
+				{
+					id: "5741B91C8E546F43"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								1804752495
+								-1480048527
+								-1907807541
+								748982222
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "44CD60758EF50E6B"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 61L
@@ -1425,22 +1544,29 @@
 			dependencies: ["4B2287F56C73C510"]
 			icon: "thoriumreactors:thermal_controller"
 			id: "5C30C4E45CA21A76"
-			rewards: [{
-				id: "1E84499C4031E0FD"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:template"
-					tag: {
-						template_id: [I;
-							1471438768
-							2141735968
-							-1236556662
-							1172667355
-						]
+			rewards: [
+				{
+					id: "1E84499C4031E0FD"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								1471438768
+								2141735968
+								-1236556662
+								1172667355
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "12D4FD36C22D2B25"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 15L
@@ -1474,22 +1600,29 @@
 			dependencies: ["5C30C4E45CA21A76"]
 			icon: "thoriumreactors:turbine_controller"
 			id: "46AF3BFA42CC2870"
-			rewards: [{
-				id: "25B7A40B330CBAC2"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:template"
-					tag: {
-						template_id: [I;
-							-161427434
-							1210010715
-							-2111619084
-							19967316
-						]
+			rewards: [
+				{
+					id: "25B7A40B330CBAC2"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:template"
+						tag: {
+							template_id: [I;
+								-161427434
+								1210010715
+								-2111619084
+								19967316
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "10DE1DCAC3193763"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -1569,6 +1702,11 @@
 		{
 			dependencies: ["1FE2BB2E4BDB24C0"]
 			id: "28368E27A614409E"
+			rewards: [{
+				id: "0857BAD6FA4B89F5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B338E3798792310"
 				item: "nuclearcraft:plate_du"
@@ -1580,6 +1718,11 @@
 		{
 			dependencies: ["28368E27A614409E"]
 			id: "05A163CA0B85418B"
+			rewards: [{
+				id: "3490A37BEC4885BC"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F3BD6C46F82184A"
@@ -1610,6 +1753,11 @@
 			dependencies: ["4B2287F56C73C510"]
 			icon: "thoriumreactors:depleted_molten_salt_bucket"
 			id: "3B3498CFEDD139CD"
+			rewards: [{
+				id: "772DD62D85D446B6"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			subtitle: "One day this quest will be changed"
 			tasks: [
 				{
@@ -1629,6 +1777,11 @@
 		{
 			dependencies: ["05A163CA0B85418B"]
 			id: "3D0C633DD93D1494"
+			rewards: [{
+				id: "091A1A4A6981E8DD"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [{
@@ -1642,6 +1795,11 @@
 		{
 			dependencies: ["05A163CA0B85418B"]
 			id: "125E50DE77912811"
+			rewards: [{
+				id: "1AAABE8C0DD46E64"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A5A964E78016258"
 				item: "thoriumreactors:machine_casing"
@@ -1649,6 +1807,26 @@
 			}]
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4C624E7DFD3E414E"]
+			id: "492C540B9C7E23B0"
+			rewards: [{
+				id: "11BB67ACB6790CC5"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F4BF5CA62948334"
+				item: {
+					Count: 1b
+					id: "ten3:machine_enchantment_flusher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Nuclearize my recipes"]
