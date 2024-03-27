@@ -613,6 +613,317 @@
 			x: -2.0d
 			y: 4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 90.0d
+			width: 1.25d
+			x: -1.0d
+			y: 5.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1156,12 +1467,11 @@
 				}
 			]
 			title: "Thermal evaporation"
-			x: -4.0d
-			y: 2.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C30C4E45CA21A76"]
-			hide_dependency_lines: true
 			icon: "thoriumreactors:turbine_controller"
 			id: "46AF3BFA42CC2870"
 			rewards: [{
@@ -1253,7 +1563,7 @@
 				}
 			]
 			title: "Turbine"
-			x: 9.0d
+			x: -3.0d
 			y: 5.0d
 		}
 		{
@@ -1314,7 +1624,7 @@
 				}
 			]
 			x: -4.0d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
@@ -1326,8 +1636,8 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 0.04285714285715159d
+			y: 7.299999999999997d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]

@@ -54,9 +54,9 @@ trade(1,'item','thermal:iron_coin',8,'item','minecraft:dirt',64,true)
 
 let birds = ['exoticbirds:kookaburra_egg', 'exoticbirds:lyrebird_egg', 'exoticbirds:macaw_egg', 'exoticbirds:magpie_egg', 'exoticbirds:ostrich_egg', 'exoticbirds:owl_egg', 'exoticbirds:peafowl_egg', 'exoticbirds:pelican_egg', 'exoticbirds:penguin_egg', 'exoticbirds:bluejay_egg', 'exoticbirds:booby_egg', 'exoticbirds:budgerigar_egg', 'exoticbirds:cardinal_egg', 'exoticbirds:cassowary_egg', 'exoticbirds:cockatoo_egg', 'exoticbirds:crane_egg', 'exoticbirds:duck_egg', 'exoticbirds:heron_egg', 'exoticbirds:flamingo_egg', 'exoticbirds:gouldianfinch_egg', 'exoticbirds:gull_egg', 'exoticbirds:woodpecker_egg', 'exoticbirds:toucan_egg', 'exoticbirds:swan_egg', 'exoticbirds:robin_egg', 'exoticbirds:roadrunner_egg', 'exoticbirds:pigeon_egg', 'exoticbirds:hummingbird_egg', 'exoticbirds:kingfisher_egg', 'exoticbirds:kiwi_egg']
 
-birds.forEach(egg=>{
-	trade(1,'item',egg,2,'item','thermal:iron_coin',1,false)
-})
+ birds.forEach(egg=>{
+ 	trade(1,'item',egg,2,'item','thermal:iron_coin',1,false)
+ })
 
 trade(3,'item','exoticbirds:phoenix_egg',1,'item','thermal:iron_coin',16,false)
 trade(1,'item','thermal:iron_coin',1,'item','minecraft:iron_ingot',4,true)
@@ -88,6 +88,9 @@ function elecC(rarity,coin,output,count_out,bool){
 	trade_item_item(rarity,'thermal:electrum_coin',coin,output,count_out,bool)
 }
 
+function leadC(rarity,coin,output,count_out,bool){
+	trade_item_item(rarity,'thermal:lead_coin',coin,output,count_out,bool)
+}
 
 elecC(2,4,'minecraft:enchanted_golden_apple',1,false)
 trade_item_item(3,'tombstone:essence_of_undeath',1,'thermal:electrum_coin',1,false)
@@ -126,6 +129,24 @@ ironC(1,10,'kubejs:paxel',1,false)
 ironC(1,4,'rainshield:rain_shield',1,false)
 
 nbt_trade(1,'item','thermal:iron_coin',10,'item','minecraft:bee_nest',1,'{BlockEntityTag:{Bees:[{EntityData:{id:"minecraft:bee"}},{EntityData:{id:"minecraft:bee"}}]},display:{Lore:[\'{"text":"This bee nest have 2 bees","color":"gold"}\']}}',false)
+
+leadC(3,4,'pneumaticcraft:unassembled_pcb',1,false)
+trade_item_item(1,'pneumaticcraft:plastic',1,'thermal:electrum_coin',1,false)
+trade_item_item(1,'compressium:cobblestone_5',4,'thermal:electrum_coin',1,false)
+trade_item_item(1,'pneumaticcraft:ingot_iron_compressed',16,'thermal:electrum_coin',1,false)
+trade_item_item(1,'nuclearcraft:evenmoresmore',1,'thermal:lead_coin',1,false)
+trade_item_item(1,'nuclearcraft:extreme_ingot',1,'thermal:lead_coin',1,false)
+
+trade_item_item(1,'cyclic:gem_obsidian',1,'thermal:electrum_coin',2,false)
+
+trade_item_item(1,'nuclearcraft:plate_extreme',1,'thermal:lead_coin',1,false)
+
+
+
+
+
+
+
 
 
 })

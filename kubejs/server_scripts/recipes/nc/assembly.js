@@ -157,11 +157,6 @@ smart_assembly(['thoriumreactors:thermal_conductor','minecraft:iron_bars'], 'tho
 smart_assembly(['thoriumreactors:reactor_casing','#ironberry:mek_glass','laboratoryblocks:iron_screw'], 'thoriumreactors:reactor_glass')
 smart_assembly(['thoriumreactors:turbine_casing','#ironberry:mek_glass','laboratoryblocks:iron_screw'], 'thoriumreactors:turbine_glass')
 
-
-smart_assembly(['thoriumreactors:reactor_casing'], 'thoriumreactors:reactor_controller')
-smart_assembly(['thoriumreactors:turbine_casing'], 'thoriumreactors:turbine_controller')
-smart_assembly(['thoriumreactors:thermal_conductor'], 'thoriumreactors:thermal_controller')
-
 smart_assembly(['thoriumreactors:reactor_casing','#ironberry:universal_cable'], 'thoriumreactors:reactor_valve')
 smart_assembly(['thoriumreactors:turbine_casing','#ironberry:universal_cable'], 'thoriumreactors:turbine_valve')
 smart_assembly(['thoriumreactors:thermal_conductor','#ironberry:universal_cable'], 'thoriumreactors:thermal_valve')

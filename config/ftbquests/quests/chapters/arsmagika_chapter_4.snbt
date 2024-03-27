@@ -1431,6 +1431,7 @@
 			dependencies: ["19B6C89234831909"]
 			hide: true
 			id: "0A73E58829467953"
+			optional: true
 			rewards: [{
 				id: "258C69A69C496994"
 				item: "thermal:lead_coin"
@@ -1464,13 +1465,15 @@
 				}
 			]
 			x: 2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"38B081C5E2174761"
 				"5F2878DD3C53AF80"
+				"19B6C89234831909"
 			]
+			dependency_requirement: "one_completed"
 			hide: true
 			id: "15A70C622AD262F9"
 			rewards: [{
@@ -1484,12 +1487,12 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A73E58829467953"]
-			hide: true
 			id: "38B081C5E2174761"
+			optional: true
 			rewards: [{
 				id: "1E939B6BEAC52C05"
 				item: "thermal:lead_coin"
@@ -1501,7 +1504,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [

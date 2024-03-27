@@ -1,0 +1,13 @@
+{
+  "parent": "thermal:block/frame_base",
+  "textures": {
+    "particle": "thermal:block/machines/machine_frame_bottom",
+    "down": "thermal:block/machines/machine_frame_bottom",
+    "up": "thermal:block/machines/machine_frame_bottom",
+    "north": "ironberry:block/machine_frame",
+    "east": "ironberry:block/machine_frame",
+    "south": "ironberry:block/machine_frame",
+    "west": "ironberry:block/machine_frame",
+    "inner": "thermal:block/machines/machine_frame_inner"
+  }
+}

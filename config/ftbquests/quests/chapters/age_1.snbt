@@ -24,17 +24,24 @@
 		{
 			id: "7A8850E87A14F9D7"
 			invisible: true
-			rewards: [{
-				id: "1737E120FE9499EB"
-				item: {
-					Count: 1b
-					id: "tombstone:lollipop"
-					tag: {
-						model_color: 0s
+			rewards: [
+				{
+					id: "1737E120FE9499EB"
+					item: {
+						Count: 1b
+						id: "tombstone:lollipop"
+						tag: {
+							model_color: 0s
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2102AE7954B9F1A6"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "Unpredictable"
 			tasks: [{
@@ -93,7 +100,7 @@
 			id: "4162843221C8A4CD"
 			invisible: true
 			rewards: [{
-				count: 10
+				count: 4
 				id: "52A45EFE54053354"
 				item: "thermal:electrum_coin"
 				type: "item"
@@ -150,7 +157,7 @@
 		{
 			id: "015C80D7F989B86D"
 			rewards: [{
-				count: 4
+				count: 12
 				id: "25799609EB9160A2"
 				item: "thermal:lead_coin"
 				type: "item"

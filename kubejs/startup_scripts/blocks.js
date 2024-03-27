@@ -2,19 +2,19 @@ StartupEvents.registry('block', event => {
 
     //blank block
     event.create('blank')
-    .material('lantern')
+    .material('metal')
     .hardness(1.0)
     .displayName('Plated Casing')
     .textureAll('ironberry:block/blank')
 
     event.create('casing')
-    .material('lantern')
+    .material('metal')
     .hardness(1.0)
     .displayName('Rustic Core')
     .textureAll('ironberry:block/casing')
 
     event.create('machine')
-    .material('lantern')
+    .material('metal')
     .hardness(1.0)
     .displayName('Dark Casing')
     .textureAll('ironberry:block/machine')
@@ -33,11 +33,16 @@ StartupEvents.registry('block', event => {
     .noDrops()
 
     event.create('machine_frame')
-    .material('lantern')
+    .material('metal')
     .hardness(1.0)
     .displayName('Machine Frame')
-    .model('ironberry:block/machine_frame')
+    .model('ironberry:block/deep_machine_frame')
 
-
+    event.create('incompleted_machine_frame')
+    .renderType('cutout')
+    .material('metal')
+    .hardness(1.0)
+    .displayName('Incompleted Machine Frame')
+    .model('ironberry:block/te_machine_frame')
 
 })

@@ -912,7 +912,7 @@
 			}]
 			title: "Polymorph issue"
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CC49D55C6F1B6C0"]
@@ -930,6 +930,27 @@
 			}]
 			x: 1.107142857142854d
 			y: 8.464285714285715d
+		}
+		{
+			dependencies: ["06C31856E497690B"]
+			description: [
+				"You maybe think that all recipes still on quest book right?"
+				"This is wrong , there are many shortcuts that can skip MANY steps without break progression"
+			]
+			icon: "rootsclassic:dragons_eye"
+			id: "02DB431895DEEFE4"
+			rewards: [{
+				id: "0B05C7F650AF484B"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE15FB336C7BF41"
+				type: "checkmark"
+			}]
+			title: "Keep your eyes open"
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Homespun and clay"]

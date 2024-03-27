@@ -242,9 +242,4 @@ StartupEvents.registry('item', event => {
         .displayName('Sack of '+type)
     });
 
-
-
-
-
-
 })

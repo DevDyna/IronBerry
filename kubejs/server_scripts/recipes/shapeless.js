@@ -289,7 +289,7 @@ function emolimix(jump,variants){
 
 	event.shapeless('3x reactive:acid_bottle',['kubejs:acid_bucket','reactive:quartz_bottle','reactive:quartz_bottle','reactive:quartz_bottle']).replaceIngredient({item : 'kubejs:acid_bucket'},'minecraft:bucket')
 
-	event.shapeless(Item.of('supplementaries:urn', '{BlockStateTag:{treasure:"true"},display:{Lore:[\'{"text":"contain items"}\']}}'),['supplementaries:urn'])
+	event.shapeless(Item.of('supplementaries:urn', '{BlockStateTag:{treasure:"true"},display:{Lore:[\'{"text":"contain one of $urn_loot"}\']}}'),['supplementaries:urn'])
 
 	less(['#ae2:quartz_wrench','luggage:luggage','ae2:certus_quartz_crystal'],'ae2:network_tool')
 
