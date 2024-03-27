@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
   function scut(result, input) {
     for (let j = 0; j < input.length; j++) {
       for (let i = 0; i < result.length; i++) {
-        event.stonecutting(result[i], input[j]).id(RegX(input[j] + "_n" + i));
+        event.stonecutting(result[i], input[j]).id(RegX(input[j] + "_n" + i+'_'+result[i].replace(/[0-9\s]/g, '')));
       }
     }
   }
@@ -330,11 +330,14 @@ ServerEvents.recipes((event) => {
 scut(['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'arseng:source_p2p_tunnel', 'arseng:spell_p2p_tunnel', 'appmek:chemical_p2p_tunnel'],["#ironberry:p2p"])
 
   scut(['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'],['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'])
-
-scut(['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors:frameless_industrial_block_floor', 'thoriumreactors:warning_block_lined_white_black_right', 'thoriumreactors:warning_block_lined_white_black_left', 'thoriumreactors:warning_block_lined_white_orange_right', 'thoriumreactors:warning_block_lined_white_orange_left', 'thoriumreactors:warning_block_lined_black_yellow_right', 'thoriumreactors:warning_block_lined_black_yellow_left', 'thoriumreactors:white_industrial_block_smooth', 'thoriumreactors:white_industrial_block_brick', 'thoriumreactors:white_industrial_block_paving', 'thoriumreactors:white_industrial_block_big_tile', 'thoriumreactors:white_industrial_block', 'thoriumreactors:black_industrial_block_floor', 'thoriumreactors:black_industrial_block_smooth', 'thoriumreactors:black_industrial_block_brick', 'thoriumreactors:black_industrial_block_paving', 'thoriumreactors:black_industrial_block_big_tile', 'thoriumreactors:black_industrial_block', 'thoriumreactors:industrial_block', 'thoriumreactors:industrial_block_floor', 'thoriumreactors:industrial_block_smooth', 'thoriumreactors:industrial_block_brick', 'thoriumreactors:industrial_block_paving', 'thoriumreactors:industrial_block_big_tile', 'thoriumreactors:black_inverted_factory_block', 'thoriumreactors:black_factory_block', 'thoriumreactors:inverted_factory_block', 'thoriumreactors:factory_block'],
+let factory_blocks = ['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors:frameless_industrial_block_floor', 'thoriumreactors:warning_block_lined_white_black_right', 'thoriumreactors:warning_block_lined_white_black_left', 'thoriumreactors:warning_block_lined_white_orange_right', 'thoriumreactors:warning_block_lined_white_orange_left', 'thoriumreactors:warning_block_lined_black_yellow_right', 'thoriumreactors:warning_block_lined_black_yellow_left', 'thoriumreactors:white_industrial_block_smooth', 'thoriumreactors:white_industrial_block_brick', 'thoriumreactors:white_industrial_block_paving', 'thoriumreactors:white_industrial_block_big_tile', 'thoriumreactors:white_industrial_block', 'thoriumreactors:black_industrial_block_floor', 'thoriumreactors:black_industrial_block_smooth', 'thoriumreactors:black_industrial_block_brick', 'thoriumreactors:black_industrial_block_paving', 'thoriumreactors:black_industrial_block_big_tile', 'thoriumreactors:black_industrial_block', 'thoriumreactors:industrial_block', 'thoriumreactors:industrial_block_floor', 'thoriumreactors:industrial_block_smooth', 'thoriumreactors:industrial_block_brick', 'thoriumreactors:industrial_block_paving', 'thoriumreactors:industrial_block_big_tile', 'thoriumreactors:black_inverted_factory_block', 'thoriumreactors:black_factory_block', 'thoriumreactors:inverted_factory_block', 'thoriumreactors:factory_block']
+scut(factory_blocks,
   ['#ironberry:blast_bricks'])
 
-  scut(['16x thoriumreactors:industrial_block'],['thoriumreactors:blasted_stone'])
+  factory_blocks.forEach(element => {
+    scut(['16x '+element],['thoriumreactors:blasted_stone'])
+  });
+  
 
 scut(['minecraft:iron_bars', 'thoriumreactors:grate_floor_block', 'thoriumreactors:grate_wall_block'],['#ironberry:bars'])
 

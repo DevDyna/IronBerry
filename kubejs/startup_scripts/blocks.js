@@ -43,7 +43,7 @@ StartupEvents.registry('block', event => {
     .defaultCutout()
     .soundType('chain')
     .hardness(0.75)
-    .displayName('Incompleted Machine Frame')
+    .displayName('Machine Frame Mold')
     .model('ironberry:block/te_machine_frame')
 
 })
