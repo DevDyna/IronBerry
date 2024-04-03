@@ -4,7 +4,7 @@
 [client]
 	#.
 	#Show item descriptions on Shift and controls on Ctrl.
-	enableTooltips = false
+	enableTooltips = true
 	#.
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
