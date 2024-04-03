@@ -23,12 +23,12 @@ ServerEvents.tags("item", (event) => {
   event.add("reactive:caustic_sources", "bluepower:indigo_dye");
   event.add("reactive:verdant_sources", "#tombstone:seeds");
   event.add("reactive:mind_sources", "minecraft:redstone");
-
   event.add("reactive:caustic_sources", "bluepower:ruby_gem");
   event.add("reactive:verdant_sources", "bluepower:green_sapphire_gem");
   event.add("reactive:mind_sources", "bluepower:amethyst_gem");
   event.add("reactive:soul_sources", "bluepower:sapphire_gem");
 
+  event.add("tombstone:seeds",'twilightforest:magic_beans')
   //remove indigo
   event.removeAllTagsFrom("bluepower:indigo_flower");
 

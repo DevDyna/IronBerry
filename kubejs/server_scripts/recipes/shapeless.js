@@ -327,4 +327,5 @@ function emolimix(jump,variants){
 	less(['rftoolsbase:crafting_card', 'bluepower:motor', 'cyclic:carbon_paper', 'pneumaticcraft:module_expansion_card'],'16x ae2:advanced_card')
   	nine_to_one(['thoriumreactors:blasted_iron_nugget','thoriumreactors:blasted_iron_ingot'])
 
+	less(['luggage:ender_luggage', 'minecraft:bundle'],'cyclic:ender_bag')
 })
