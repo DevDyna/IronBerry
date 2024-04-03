@@ -27,7 +27,7 @@ ServerEvents.tags("item", (event) => {
   event.add("reactive:verdant_sources", "bluepower:green_sapphire_gem");
   event.add("reactive:mind_sources", "bluepower:amethyst_gem");
   event.add("reactive:soul_sources", "bluepower:sapphire_gem");
-
+  event.removeAllTagsFrom('bluepower:brass_ingot');
   event.add("tombstone:seeds",'twilightforest:magic_beans')
   //remove indigo
   event.removeAllTagsFrom("bluepower:indigo_flower");
@@ -568,6 +568,7 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:wrench_fix", [
+    'create:wrench',
     "nuclearcraft:multitool",
     "thermal:wrench",
     "ae2:certus_quartz_wrench",

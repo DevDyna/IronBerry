@@ -166,6 +166,7 @@ ServerEvents.recipes((event) => {
       "pipez:wrench",
       "cyclic:cable_wrench",
       "rftoolsbase:smartwrench",
+      'create:wrench',
     ],
     ["minecraft:stick", "#ironberry:wrench_fix"]
   );

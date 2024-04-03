@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
     results: [
       {
         item: "tombstone:grave_dust",
-        count: 4,
+        count: 16,
       },
     ],
   });
@@ -72,7 +72,7 @@ ServerEvents.recipes((event) => {
       },
       {
         type: "pneumaticcraft:stacked_item",
-        count: 4,
+        count: 16,
         item: "kubejs:blank",
       },
     ],
@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
     results: [
       {
         item: "kubejs:casing",
-        count: 4,
+        count: 16,
       },
     ],
   });
@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
       },
       {
         type: "pneumaticcraft:stacked_item",
-        count: 4,
+        count: 16,
         item: "kubejs:casing",
       },
     ],
@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
     results: [
       {
         item: "kubejs:machine",
-        count: 4,
+        count: 16,
       },
       {
         item: "thermal:saw_blade",

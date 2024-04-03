@@ -204,7 +204,24 @@ ServerEvents.recipes(event => {
     //
     //
 	
-	
+    event.custom({
+        "type": "mowlib:dualhandedcrafting",
+        "blockTarget": {
+            "item": 'create:brass_block'
+        },
+          "mainhandTool": {
+            "item": 'kubejs:processor'
+        },
+        "offhandTool": {
+            "item": 'create:brass_sheet'
+        },
+        "result": {
+            "item": 'create:precision_mechanism',
+			"count": 1
+        }
+    })
+    //
+    //
 	
 	
 	

@@ -29,6 +29,16 @@
 			x: -1.0d
 			y: -3.0d
 		}
+		{
+			id: "38E98AE987854203"
+			tasks: [{
+				id: "580ED3E48E4DC3E2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
 	]
 	title: "Age 6"
 }

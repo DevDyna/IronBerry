@@ -328,4 +328,11 @@ function emolimix(jump,variants){
   	nine_to_one(['thoriumreactors:blasted_iron_nugget','thoriumreactors:blasted_iron_ingot'])
 
 	less(['luggage:ender_luggage', 'minecraft:bundle'],'cyclic:ender_bag')
+
+  nine_to_one(['create:andesite_alloy', 'create:andesite_alloy_block'])
+  nine_to_one(['create:brass_nugget', 'create:brass_ingot'])
+  nine_to_one(['create:brass_ingot', 'create:brass_block'])
+  nine_to_one(['create:zinc_nugget', 'create:zinc_ingot'])
+  nine_to_one(['create:zinc_ingot', 'create:zinc_block'])
+
 })

@@ -247,6 +247,30 @@ wood.forEach(type=>{
     })	
 })
 
+event.custom({
+    "type": "farmersdelight:cutting",
+    "ingredients": [{
+            "item": 'create:brass_ingot'
+        }
+    ],
+    "result": [{
+            "item": 'create:brass_sheet'
+        }
+    ],
+    "tool": {
+        "tag": 'ironberry:hammer'
+    }
+})
+//
+//
+
+
+
+
+
+
+
+
 
 
 

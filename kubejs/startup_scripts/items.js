@@ -177,6 +177,15 @@ StartupEvents.registry('item', event => {
     .tag("forge:tools/pickaxes")
     .tag("forge:pickaxes")
 
+    event.create('hammer', 'pickaxe')
+    .parentModel('quark:item/hammer')
+    .unstackable()
+    .texture('quark:item/hammer')
+    .displayName('Heavy Hammer')
+    .tier('iron')
+    .maxDamage(2048)
+    .tag("ironberry:hammer")
+
     event.create('solidified_resin')
     .texture('ironberry:item/solidified_resin')
     .displayName('Solidified Refined Resin')

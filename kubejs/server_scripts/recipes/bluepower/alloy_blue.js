@@ -42,9 +42,14 @@ ServerEvents.recipes(event => {
         "bluepower:blue_alloy_ingot", 1)
 
     alloy(
-        ["bluepower:brass_ingot",
+        ['create:brass_ingot',
             "bluepower:purple_alloy_ingot"], [4, 1],
         'kubejs:pre_compressed', 1)
+
+        alloy(
+            ['minecraft:copper_ingot',
+                'create:zinc_ingot'], [1, 1],
+                'create:brass_ingot', 2)
 
     alloy([
             "bluepower:blue_doped_wafer",
@@ -53,7 +58,7 @@ ServerEvents.recipes(event => {
 
     alloy(
         ["minecraft:glowstone_dust",
-            "bluepower:brass_ingot"], [2, 1],
+        'create:brass_ingot'], [2, 1],
         "thermal:electrum_ingot", 2)
 
     alloy(
@@ -178,6 +183,9 @@ ServerEvents.recipes(event => {
         alloy(['rftoolsbase:information_screen', 'homespun:cast_iron_block', 'homespun:ceramic_vessel','thermal:tinker_bench'],[1,1,1,1],'ae2:chest',1)
         alloy(['rftoolsbase:information_screen', 'homespun:cast_iron_block', 'homespun:ceramic_vessel','essentials:hopper_filter'],[1,1,1,1],'ae2:cell_workbench',1)
 
-        
+        alloy(['bluepower:red_alloy_ingot', 'minecraft:quartz'],[1,4],'create:rose_quartz',4)
+        alloy(['create:rose_quartz', 'bluepower:silicon_wafer'],[16,1],'create:polished_rose_quartz',16)
+
+        alloy(['minecraft:andesite', 'create:zinc_nugget'],[1,1],'create:andesite_alloy',2)
         
     })

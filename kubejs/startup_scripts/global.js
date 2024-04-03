@@ -65,10 +65,11 @@ global.disabledItem = [
   "createaddition:diamond_grit",
   "create:haunted_bell",
   "create:zinc_ore",
+  'quark:hammer',
+  'bluepower:zinc_ingot',
+  'bluepower:zinc_dust', 'bluepower:zinc_nugget', 'bluepower:zinc_tiny_dust', 'bluepower:zinc_ore_purified', 'bluepower:zinc_ore_crushed', 'bluepower:zincplate', 'bluepower:zinc_ore', 'bluepower:zinc_deepslate', 'bluepower:zinc_block', 'bluepower:zinc_raw',
   "create:deepslate_zinc_ore",
   "create:raw_zinc_block",
-  "create:zinc_block",
-  "create:andesite_alloy_block",
   "create:industrial_iron_block",
   "createaddition:rolling_mill",
   "createaddition:capacitor",
@@ -2047,6 +2048,10 @@ global.disabledItem = [
   "mekanism:advanced_fluid_tank",
   "mekanism:elite_fluid_tank",
   "mekanism:ultimate_fluid_tank",
+  'bluepower:brass_dust', 
+  'bluepower:brass_nugget',
+  'bluepower:brass_ingot',
+  'create:copper_nugget',
 ];
 
 global.clearNBT = [

@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 
     transmute(
         "minecraft:copper_ingot",
-        "bluepower:zinc_ingot",
+        'create:zinc_ingot',
         ["reactive:light","reactive:verdant"],
         10, 2)
 

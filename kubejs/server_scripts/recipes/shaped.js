@@ -947,11 +947,11 @@ ServerEvents.recipes((event) => {
       "minecraft:air",
       "minecraft:gold_ingot",
       "homespun:copper_nugget",
-      "bluepower:brass_ingot",
+      'create:brass_ingot',
       "minecraft:golden_boots",
       "minecraft:gold_ingot",
       "homespun:copper_nugget",
-      "bluepower:brass_ingot",
+      'create:brass_ingot',
     ],
     "thermal:diving_boots"
   );
@@ -1385,4 +1385,21 @@ ServerEvents.recipes((event) => {
     ],
     "ten3:machine_enchantment_flusher"
   );
+
+
+    shapex(
+      ['create:polished_rose_quartz', 'minecraft:air', 'minecraft:air','create:andesite_alloy'],'create:electron_tube'
+    )
+
+    shapex(['minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_nugget', 'minecraft:air', 'minecraft:stick', 'minecraft:iron_ingot', 'minecraft:stick'],'kubejs:hammer')
+
+    shapex(
+      ['create:andesite_alloy', 'minecraft:air', 'minecraft:air','create:andesite_alloy'],'16x create:shaft'
+    )
+
+
+
+
+
+
 });
