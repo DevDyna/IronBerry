@@ -122,6 +122,8 @@ ServerEvents.recipes(event => {
         ])
 
     remtype([
+            "create:milling",
+            "create:cutting",
             'ae2:entropy',
 			'mekanism:energy_conversion',
             /* 			'thermal:machines',
@@ -191,6 +193,14 @@ ServerEvents.recipes(event => {
 
     event.remove({
         mod: 'thoriumreactors'
+    })
+
+    event.remove({
+        mod: 'create'
+    })
+
+    event.remove({
+        mod: 'createaddition'
     })
 })
 

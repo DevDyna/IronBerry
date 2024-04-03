@@ -202,3 +202,7 @@ config/NuclearCraft/fusion.toml
 config/NuclearCraft/materials.toml
 config/NuclearCraft/fission.toml
 options.txt
+config/createaddition-common.toml
+config/create-common.toml
+config/flywheel-client.toml
+config/tombstone-common.toml
