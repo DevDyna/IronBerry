@@ -37,7 +37,6 @@ ItemEvents.rightClicked('tombstone:tablet_of_cupidity', event => {
     setCancellationResult(true)
 
 })
-
 //############################### ILLUMINATI! ##########################//
 ItemEvents.rightClicked('kubejs:illuminati', event => {
     try {
