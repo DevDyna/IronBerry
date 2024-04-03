@@ -36,4 +36,7 @@ monoitem('create:andesite_casing','create:shaft','create:andesite_encased_shaft'
 
 monoitem('create:andesite_encased_shaft','create:andesite_alloy','create:encased_chain_drive')
 
+monoitem('create:encased_chain_drive','create:shaft','create:gearbox')
+
+
 })

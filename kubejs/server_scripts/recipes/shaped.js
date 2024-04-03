@@ -468,6 +468,11 @@ ServerEvents.recipes((event) => {
     B: 'minecraft:bricks'
     }) */
 
+    /**
+     * 
+     * @param {item[]} items 
+     * @param {item} result 
+     */
   function shapex(items, result) {
     event.shaped(result, ["ABC", "DEF", "GHI"], {
       A: items[0],
@@ -1396,6 +1401,43 @@ ServerEvents.recipes((event) => {
     shapex(
       ['create:andesite_alloy', 'minecraft:air', 'minecraft:air','create:andesite_alloy'],'16x create:shaft'
     )
+
+    /**
+     * 
+     * @param {item} top 
+     * @param {item} bottom 
+     * @param {item} output 
+     */
+      function stick(top,bottom,output){
+        shapex(
+          [top, 'minecraft:air', 'minecraft:air',bottom],output
+        )
+      }
+
+      /**
+       * 
+       * @param {item} top 
+       * @param {item} middle 
+       * @param {item} bottom 
+       * @param {item} output 
+       */
+      function bigstick(top,middle,bottom,output){
+        shapex(
+          [top, 'minecraft:air', 'minecraft:air',middle, 'minecraft:air', 'minecraft:air',bottom],output
+        )
+      }
+      
+      stick('create:encased_chain_drive','create:electron_tube','create:gearshift')
+      stick('create:encased_chain_drive','minecraft:repeater','create:clutch')
+      stick('create:encased_chain_drive','create:precision_mechanism','create:adjustable_chain_gearshift')
+      bigstick('#minecraft:planks', 'create:shaft', '#minecraft:planks','4x create:piston_extension_pole')
+
+      shapex(['create:shaft','#minecraft:planks'],'create:cogwheel')
+      shapex(['create:shaft','#minecraft:planks','#minecraft:planks'],'create:large_cogwheel')
+      shapex(['create:cogwheel','#minecraft:planks'],'create:large_cogwheel')
+
+      shapex(['create:gearbox'], 'create:vertical_gearbox')
+      shapex(['create:vertical_gearbox'], 'create:gearbox')
 
 
 
