@@ -1043,6 +1043,12 @@ event.get('ten3:catalyst').removeAll()
 
 event.add('ten3:catalyst','ae2:fluix_crystal')
 
+event.add('ironberry:andesite_decor',['create:copycat_step', 'create:copycat_panel','create:andesite_scaffolding', 'create:andesite_ladder', 'create:andesite_door', 'create:andesite_bars'])
+event.add('ironberry:copper_decor',['create:copper_bars', 'create:copper_door', 'create:copper_ladder', 'create:copper_scaffolding'])
+event.add('ironberry:brass_decor',['create:brass_scaffolding', 'create:brass_ladder', 'create:brass_door', 'create:brass_bars'])
+event.add('ironberry:train_decor',['createaddition:barbed_wire','create:train_door', 'create:train_trapdoor'])
+event.add('ironberry:glasses_blockes',['create:horizontal_framed_glass_pane', 'create:tiled_glass', 'create:vertical_framed_glass', 'create:framed_glass_pane', 'create:horizontal_framed_glass', 'create:framed_glass_trapdoor', 'create:tiled_glass_pane', 'create:framed_glass_door', 'create:framed_glass'])
+
 });
 
 ServerEvents.tags("block", (event) => {

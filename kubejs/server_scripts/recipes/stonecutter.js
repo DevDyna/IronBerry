@@ -4,7 +4,11 @@ ServerEvents.recipes((event) => {
   function scut(result, input) {
     for (let j = 0; j < input.length; j++) {
       for (let i = 0; i < result.length; i++) {
-        event.stonecutting(result[i], input[j]).id(RegX(input[j] + "_n" + i+'_'+result[i].replace(/[0-9\s]/g, '')));
+        event
+          .stonecutting(result[i], input[j])
+          .id(
+            RegX(input[j] + "_n" + i + "_" + result[i].replace(/[0-9\s]/g, ""))
+          );
       }
     }
   }
@@ -166,7 +170,7 @@ ServerEvents.recipes((event) => {
       "pipez:wrench",
       "cyclic:cable_wrench",
       "rftoolsbase:smartwrench",
-      'create:wrench',
+      "create:wrench",
     ],
     ["minecraft:stick", "#ironberry:wrench_fix"]
   );
@@ -328,18 +332,172 @@ ServerEvents.recipes((event) => {
     ["#ironberry:rftools_modules", "kubejs:base_module"]
   );
 
-scut(['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'arseng:source_p2p_tunnel', 'arseng:spell_p2p_tunnel', 'appmek:chemical_p2p_tunnel'],["#ironberry:p2p"])
+  scut(
+    [
+      "ae2:me_p2p_tunnel",
+      "ae2:redstone_p2p_tunnel",
+      "ae2:item_p2p_tunnel",
+      "ae2:fluid_p2p_tunnel",
+      "ae2:fe_p2p_tunnel",
+      "ae2:light_p2p_tunnel",
+      "arseng:source_p2p_tunnel",
+      "arseng:spell_p2p_tunnel",
+      "appmek:chemical_p2p_tunnel",
+    ],
+    ["#ironberry:p2p"]
+  );
 
-  scut(['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'],['minecraft:rose_bush', 'minecraft:lilac', 'minecraft:peony', 'minecraft:sunflower'])
-let factory_blocks = ['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors:frameless_industrial_block_floor', 'thoriumreactors:warning_block_lined_white_black_right', 'thoriumreactors:warning_block_lined_white_black_left', 'thoriumreactors:warning_block_lined_white_orange_right', 'thoriumreactors:warning_block_lined_white_orange_left', 'thoriumreactors:warning_block_lined_black_yellow_right', 'thoriumreactors:warning_block_lined_black_yellow_left', 'thoriumreactors:white_industrial_block_smooth', 'thoriumreactors:white_industrial_block_brick', 'thoriumreactors:white_industrial_block_paving', 'thoriumreactors:white_industrial_block_big_tile', 'thoriumreactors:white_industrial_block', 'thoriumreactors:black_industrial_block_floor', 'thoriumreactors:black_industrial_block_smooth', 'thoriumreactors:black_industrial_block_brick', 'thoriumreactors:black_industrial_block_paving', 'thoriumreactors:black_industrial_block_big_tile', 'thoriumreactors:black_industrial_block', 'thoriumreactors:industrial_block', 'thoriumreactors:industrial_block_floor', 'thoriumreactors:industrial_block_smooth', 'thoriumreactors:industrial_block_brick', 'thoriumreactors:industrial_block_paving', 'thoriumreactors:industrial_block_big_tile', 'thoriumreactors:black_inverted_factory_block', 'thoriumreactors:black_factory_block', 'thoriumreactors:inverted_factory_block', 'thoriumreactors:factory_block']
-scut(factory_blocks,
-  ['#ironberry:blast_bricks'])
+  scut(
+    [
+      "minecraft:rose_bush",
+      "minecraft:lilac",
+      "minecraft:peony",
+      "minecraft:sunflower",
+    ],
+    [
+      "minecraft:rose_bush",
+      "minecraft:lilac",
+      "minecraft:peony",
+      "minecraft:sunflower",
+    ]
+  );
+  let factory_blocks = [
+    "thoriumreactors:frameless_black_industrial_block_floor",
+    "thoriumreactors:frameless_industrial_block_floor",
+    "thoriumreactors:warning_block_lined_white_black_right",
+    "thoriumreactors:warning_block_lined_white_black_left",
+    "thoriumreactors:warning_block_lined_white_orange_right",
+    "thoriumreactors:warning_block_lined_white_orange_left",
+    "thoriumreactors:warning_block_lined_black_yellow_right",
+    "thoriumreactors:warning_block_lined_black_yellow_left",
+    "thoriumreactors:white_industrial_block_smooth",
+    "thoriumreactors:white_industrial_block_brick",
+    "thoriumreactors:white_industrial_block_paving",
+    "thoriumreactors:white_industrial_block_big_tile",
+    "thoriumreactors:white_industrial_block",
+    "thoriumreactors:black_industrial_block_floor",
+    "thoriumreactors:black_industrial_block_smooth",
+    "thoriumreactors:black_industrial_block_brick",
+    "thoriumreactors:black_industrial_block_paving",
+    "thoriumreactors:black_industrial_block_big_tile",
+    "thoriumreactors:black_industrial_block",
+    "thoriumreactors:industrial_block",
+    "thoriumreactors:industrial_block_floor",
+    "thoriumreactors:industrial_block_smooth",
+    "thoriumreactors:industrial_block_brick",
+    "thoriumreactors:industrial_block_paving",
+    "thoriumreactors:industrial_block_big_tile",
+    "thoriumreactors:black_inverted_factory_block",
+    "thoriumreactors:black_factory_block",
+    "thoriumreactors:inverted_factory_block",
+    "thoriumreactors:factory_block",
+  ];
+  scut(factory_blocks, ["#ironberry:blast_bricks"]);
 
-  factory_blocks.forEach(element => {
-    scut(['16x '+element],['thoriumreactors:blasted_stone'])
+  factory_blocks.forEach((element) => {
+    scut(["16x " + element], ["thoriumreactors:blasted_stone"]);
   });
-  
 
-scut(['minecraft:iron_bars', 'thoriumreactors:grate_floor_block', 'thoriumreactors:grate_wall_block'],['#ironberry:bars'])
+  scut(
+    [
+      "minecraft:iron_bars",
+      "thoriumreactors:grate_floor_block",
+      "thoriumreactors:grate_wall_block",
+    ],
+    ["#ironberry:bars"]
+  );
+
+  scut(
+    [
+      "create:rose_quartz_block",
+      "create:rose_quartz_tiles",
+      "create:small_rose_quartz_tiles",
+    ],
+    [
+      "create:rose_quartz_block",
+      "create:rose_quartz_tiles",
+      "create:small_rose_quartz_tiles",
+    ]
+  );
+
+  scut(
+    [
+      "create:framed_glass_pane",
+      "create:horizontal_framed_glass",
+      "create:framed_glass_trapdoor",
+      "create:tiled_glass_pane",
+      "create:framed_glass_door",
+      "create:framed_glass",
+      "create:vertical_framed_glass",
+      "create:horizontal_framed_glass_pane",
+      "create:vertical_framed_glass_pane",
+      "create:tiled_glass",
+    ],
+    ["#ironberry:glasses_blockes", "minecraft:glass"]
+  );
+
+  scut(
+    [
+      "create:copycat_step",
+      "create:copycat_panel",
+      "create:andesite_scaffolding",
+      "create:andesite_ladder",
+      "create:andesite_door",
+      "create:andesite_bars",
+    ],
+    ["#ironberry:andesite_decor", "create:andesite_alloy"]
+  );
+  scut(
+    [
+      "create:copper_bars",
+      "create:copper_door",
+      "create:copper_ladder",
+      "create:copper_scaffolding",
+    ],
+    ["#ironberry:copper_decor", "minecraft:copper_ingot"]
+  );
+  scut(
+    [
+      "create:brass_scaffolding",
+      "create:brass_ladder",
+      "create:brass_door",
+      "create:brass_bars",
+    ],
+    ["#ironberry:brass_decor", "create:brass_ingot"]
+  );
+  scut(
+    [
+      "create:train_door",
+      "create:train_trapdoor",
+      "createaddition:barbed_wire",
+    ],
+    ["#ironberry:train_decor", "kubejs:pre_compressed"]
+  );
+
+  global.create.scut.vanilla_rocks.forEach((item) => {
+    global.create.scut.variants.forEach((type) => {
+      if (item == "dripstone") {
+        scut([type.replace("#TYPE#", item)], ["minecraft:dripstone_block",'#create:stone_types/'+item]);
+      } else {
+        scut([type.replace("#TYPE#", item)], ["minecraft:" + item,'#create:stone_types/'+item]);
+      }
+    });
+  });
+
+  global.create.scut.create_rocks.forEach((item) => {
+    global.create.scut.variants.forEach((type) => {
+        scut([type.replace("#TYPE#", item)], ["create:" + item,'#create:stone_types/'+item]);
+    });
+  });
+
+
+
+
+
+
+
+
+
+
 
 });

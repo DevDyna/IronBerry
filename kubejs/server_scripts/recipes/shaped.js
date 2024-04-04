@@ -484,7 +484,7 @@ ServerEvents.recipes((event) => {
       G: items[6],
       H: items[7],
       I: items[8],
-    });
+    }).id(RegX(items + "_" + result).replace(/[0-9\s]/g, ''));
   }
 
   function shaplus(item_input, slot_input, output) {
@@ -1427,9 +1427,9 @@ ServerEvents.recipes((event) => {
         )
       }
       
-      stick('create:encased_chain_drive','create:electron_tube','create:gearshift')
-      stick('create:encased_chain_drive','minecraft:repeater','create:clutch')
-      stick('create:encased_chain_drive','create:precision_mechanism','create:adjustable_chain_gearshift')
+      stick('create:electron_tube','create:encased_chain_drive','create:gearshift')
+      stick('minecraft:repeater','create:encased_chain_drive','create:clutch')
+      stick('create:precision_mechanism','create:encased_chain_drive','create:adjustable_chain_gearshift')
       bigstick('#minecraft:planks', 'create:shaft', '#minecraft:planks','4x create:piston_extension_pole')
 
       shapex(['create:shaft','#minecraft:planks'],'create:cogwheel')
@@ -1439,8 +1439,31 @@ ServerEvents.recipes((event) => {
       shapex(['create:gearbox'], 'create:vertical_gearbox')
       shapex(['create:vertical_gearbox'], 'create:gearbox')
 
+      shapex(['#create:toolboxes','minecraft:brown_dye'],'create:brown_toolbox')
+
+      global.dye.forEach(dye => {
+        stick('minecraft:'+dye+'_carpet','#minecraft:wooden_slabs','create:'+dye+'_seat')
+        shapex(['#create:seats','minecraft:'+dye+'_dye'],'create:'+dye+'_seat')
+        shapex(['minecraft:'+dye+'_wool', 'create:andesite_alloy', 'minecraft:'+dye+'_wool', 'create:brass_sheet', 'luggage:luggage', 'create:brass_sheet', 'minecraft:'+dye+'_wool', 'create:andesite_alloy', 'minecraft:'+dye+'_wool'],'2x create:'+dye+'_toolbox')
+      });
+
+      shapex(['minecraft:light_blue_dye', 'cyclic:carbon_paper'],'2x create:empty_schematic')
+      shapex(['minecraft:feather', 'create:empty_schematic'],'create:schematic_and_quill')
+      shapex(['create:schematic_and_quill', 'minecraft:painting'], 'create:crafting_blueprint')
 
 
+      /**
+       * 
+       * @param {item} item 2x2 cube
+       * @param {item} result 
+       */
+      function cube(item,result){
+        shapex([item,item,'minecraft:air',item,item],result)
+      }
+
+      cube('create:rose_quartz','4x create:rose_quartz_block')
+
+      shapex(['minecraft:air', 'minecraft:iron_ingot', 'minecraft:air', 'minecraft:iron_nugget', 'minecraft:iron_ingot', 'minecraft:iron_nugget', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:air'],'16x create:metal_girder')
 
 
 
