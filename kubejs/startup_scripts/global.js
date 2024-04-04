@@ -2267,46 +2267,43 @@ global.uselessItems = [
   "create:white_toolbox",
 ];
 
-
-global.create.scut.vanilla_rocks = [
-  "dripstone",
-  "tuff",
-  "calcite",
-  "deepslate",
-  "andesite",
-  "diorite",
-  "granite",
-];
-
-
-
-global.create.scut.create_rocks = [
-  "crimsite",
-  "asurine",
-  "veridium",
-  "scorchia",
-  "scoria",
-  "ochrum",
-  "limestone",
-];
-
-global.create.scut.variants = [
-  "create:cut_#TYPE#",
-  "create:cut_#TYPE#_stairs",
-  "create:cut_#TYPE#_wall",
-  "2x create:cut_#TYPE#_slab",
-  "create:polished_cut_#TYPE#",
-  "create:polished_cut_#TYPE#_stairs",
-  "create:polished_cut_#TYPE#_wall",
-  "2x create:polished_cut_#TYPE#_slab",
-  "create:small_#TYPE#_bricks",
-  "create:small_#TYPE#_brick_stairs",
-  "create:small_#TYPE#_brick_wall",
-  "2x create:small_#TYPE#_brick_slab",
-  "create:cut_#TYPE#_bricks",
-  "create:cut_#TYPE#_brick_stairs",
-  "create:cut_#TYPE#_brick_wall",
-  "2x create:cut_#TYPE#_brick_slab",
-  "create:#TYPE#_pillar",
-  "create:layered_#TYPE#",
-];
+global.recipes = {
+  vanilla_rocks: [
+    "dripstone",
+    "tuff",
+    "calcite",
+    "deepslate",
+    "andesite",
+    "diorite",
+    "granite",
+  ],
+  create_rocks: [
+    "crimsite",
+    "asurine",
+    "veridium",
+    "scorchia",
+    "scoria",
+    "ochrum",
+    "limestone",
+  ],
+  variants: [
+    "create:cut_#TYPE#",
+    "create:cut_#TYPE#_stairs",
+    "create:cut_#TYPE#_wall",
+    "2x create:cut_#TYPE#_slab",
+    "create:polished_cut_#TYPE#",
+    "create:polished_cut_#TYPE#_stairs",
+    "create:polished_cut_#TYPE#_wall",
+    "2x create:polished_cut_#TYPE#_slab",
+    "create:small_#TYPE#_bricks",
+    "create:small_#TYPE#_brick_stairs",
+    "create:small_#TYPE#_brick_wall",
+    "2x create:small_#TYPE#_brick_slab",
+    "create:cut_#TYPE#_bricks",
+    "create:cut_#TYPE#_brick_stairs",
+    "create:cut_#TYPE#_brick_wall",
+    "2x create:cut_#TYPE#_brick_slab",
+    "create:#TYPE#_pillar",
+    "create:layered_#TYPE#",
+  ],
+};

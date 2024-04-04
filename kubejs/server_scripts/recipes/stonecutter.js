@@ -474,8 +474,8 @@ ServerEvents.recipes((event) => {
     ["#ironberry:train_decor", "kubejs:pre_compressed"]
   );
 
-  global.create.scut.vanilla_rocks.forEach((item) => {
-    global.create.scut.variants.forEach((type) => {
+  global.recipes.vanilla_rocks.forEach((item) => {
+    global.recipes.variants.forEach((type) => {
       if (item == "dripstone") {
         scut([type.replace("#TYPE#", item)], ["minecraft:dripstone_block",'#create:stone_types/'+item]);
       } else {
@@ -484,11 +484,13 @@ ServerEvents.recipes((event) => {
     });
   });
 
-  global.create.scut.create_rocks.forEach((item) => {
-    global.create.scut.variants.forEach((type) => {
+  global.recipes.create_rocks.forEach((item) => {
+    global.recipes.variants.forEach((type) => {
         scut([type.replace("#TYPE#", item)], ["create:" + item,'#create:stone_types/'+item]);
     });
   });
+
+
 
 
 
