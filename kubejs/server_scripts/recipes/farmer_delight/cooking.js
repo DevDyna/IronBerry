@@ -455,15 +455,19 @@ ServerEvents.recipes(event => {
         "cookingtime": 60,
         "experience": 0.0,
         "ingredients": [{
+            "tag": "forge:eggs"
+            },{
                 "item": 'create:wheat_flour'
             },{
-                "fluid": "minecraft:water"
+                "item": 'create:wheat_flour'
+            },{
+                "item": 'create:wheat_flour'
             }
         ],
         "recipe_book_tab": "meals",
         "result": {
             "item": 'farmersdelight:wheat_dough',
-            "count": 2
+            "count": 6
         }
     })
 
