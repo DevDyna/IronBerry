@@ -45,4 +45,9 @@ monoitem('create:andesite_casing','engineersdecor:small_block_breaker','create:m
 monoitem('create:andesite_casing','engineersdecor:small_tree_cutter','create:mechanical_saw')
 monoitem('create:large_cogwheel','create:brass_sheet','create:flywheel')
 
+monoitem('create:cogwheel','supplementaries:spring_launcher','create:schematicannon')
+
+monoitem('minecraft:slime_block','create:iron_sheet', 'create:super_glue')
+
+
 })

@@ -210,7 +210,7 @@ ServerEvents.recipes(event => {
             "item": 'create:brass_block'
         },
           "mainhandTool": {
-            "item": 'kubejs:processor'
+            "item": 'create:electron_tube'
         },
         "offhandTool": {
             "item": 'create:brass_sheet'

@@ -1619,7 +1619,7 @@ ServerEvents.recipes((event) => {
         "minecraft:glass_pane",
         "minecraft:glass_pane",
       ],
-      '8x create:' + wood + '_window_pane'
+      "8x create:" + wood + "_window_pane"
     );
   });
 
@@ -1629,14 +1629,45 @@ ServerEvents.recipes((event) => {
       "minecraft:glass_pane",
       "minecraft:glass_pane",
       "minecraft:glass_pane",
-      'create:andesite_alloy',
+      "create:andesite_alloy",
       "minecraft:glass_pane",
       "minecraft:glass_pane",
       "minecraft:glass_pane",
       "minecraft:glass_pane",
     ],
-    '8x create:ornate_iron_window_pane'
+    "8x create:ornate_iron_window_pane"
   );
 
+  shapex(
+    [
+      "create:piston_extension_pole",
+      "create:copper_casing",
+      "create:piston_extension_pole",
+      "create:piston_extension_pole",
+      "minecraft:piston",
+      "create:piston_extension_pole",
+      "create:piston_extension_pole",
+      "minecraft:air",
+      "create:piston_extension_pole",
+    ],
+    "essentials:multi_piston"
+  );
+
+  shapex(['create:andesite_alloy', 'create:andesite_casing', 'create:andesite_alloy', 'minecraft:oak_planks', 'create:railway_casing', 'minecraft:oak_planks', 'create:andesite_alloy', 'create:andesite_casing', 'create:andesite_alloy'],'4x create:radial_chassis')
+
+stick('create:precision_mechanism','create:brass_casing', 'create:rotation_speed_controller')
+
+stick('#minecraft:wooden_slabs', 'create:metal_girder', 'create:schematic_table')
+
+stick('create:andesite_alloy', 'create:andesite_casing', 'create:depot')
+
+shapex(['create:redstone_link', 'create:turntable', 'create:redstone_link', 'create:redstone_link', 'create:placard', 'create:redstone_link', 'create:redstone_link', 'minecraft:redstone', 'create:redstone_link'],'create:linked_controller')
+
+shapex(['create:large_cogwheel', 'create:precision_mechanism', 'create:cogwheel', 'create:shaft', 'energymeter:meter', 'create:shaft'],'create:speedometer')
+
+shapex(['supplementaries:rope', 'create:cogwheel', 'create:turntable'], 'supplementaries:pulley_block')
+
+shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:millstone')
+shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:large_cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:crushing_wheel')
 
 });

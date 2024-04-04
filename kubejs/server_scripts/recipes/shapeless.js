@@ -861,4 +861,40 @@ ServerEvents.recipes((event) => {
 
   less(['minecraft:glass','create:andesite_alloy'],'create:ornate_iron_window')
 
+
+
+less(['essentials:multi_piston','create:andesite_casing'],'create:mechanical_piston')
+
+less(['essentials:multi_piston_sticky','create:andesite_casing'],'create:sticky_mechanical_piston')
+
+less(['create:electron_tube', 'create:sticky_mechanical_piston', 'create:andesite_casing'],'create:mechanical_bearing')
+
+less(['create:mechanical_piston','#ironberry:sticky'],'create:sticky_mechanical_piston')
+
+less(['create:precision_mechanism', 'create:sticky_mechanical_piston', 'create:brass_casing'],'create:clockwork_bearing')
+
+less(['create:shaft', '#minecraft:planks', 'minecraft:redstone'],'4x create:gantry_shaft')
+
+less(['#quark:wooden_vertical_slabs', 'bluepower:lumar_black', 'bluepower:lumar_black'], 'supplementaries:blackboard')
+
+less(['supplementaries:blackboard', 'create:cogwheel'], 'create:display_board')
+
+less(['create:brass_casing', 'minecraft:sculk_sensor', 'create:precision_mechanism'], 'create:display_link')
+
+less(['create:metal_girder', 'minecraft:item_frame', 'supplementaries:timber_frame'], 'create:placard')
+
+less(['create:metal_girder', 'supplementaries:timber_frame'], '4x create:metal_bracket')
+
+less(['minecraft:oak_planks', 'supplementaries:timber_frame'], '4x create:wooden_bracket')
+
+less(['create:depot', 'create:precision_mechanism', 'create:cogwheel', 'minecraft:redstone'], 'create:weighted_ejector')
+
+less(['supplementaries:pulley_block', 'create:andesite_casing', 'create:belt_connector' ],'create:rope_pulley')
+
+less(['create:rope_pulley', 'create:railway_casing', 'create:belt_connector', 'create:precision_mechanism'], 'create:elevator_pulley')
+
+less(['create:adjustable_chain_gearshift', 'create:clutch', 'create:gearshift', 'create:brass_casing', 'create:precision_mechanism'], 'create:sequenced_gearshift')
+
+less(['create:electron_tube', 'create:sequenced_gearshift', 'create:precision_mechanism', 'create:cogwheel'], 'create:mechanical_arm')
+
 });

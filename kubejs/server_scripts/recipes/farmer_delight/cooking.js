@@ -433,5 +433,23 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 80,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'create:asurine'
+            },{
+                "item": 'create:scoria'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'create:scorchia',
+            "count": 2
+        }
+    })
+
+
 
 })

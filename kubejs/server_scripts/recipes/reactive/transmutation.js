@@ -126,4 +126,13 @@ ServerEvents.recipes(event => {
     transmute('minecraft:terracotta','minecraft:oxidized_copper',
     ["reactive:verdant"],10,2)
 
+
+
+    transmute('minecraft:stone','create:asurine',["reactive:soul"],10,2)
+    transmute('minecraft:stone','create:veridium',["reactive:verdant"],10,2)
+    transmute('minecraft:stone','create:crimsite',["reactive:caustic"],10,2)
+    transmute('minecraft:stone','create:limestone',["reactive:light"],10,2)
+    transmute('minecraft:stone','create:scoria',["reactive:mind"],10,2)
+    transmute('minecraft:stone','create:ochrum',["reactive:body"],10,2)
+
 })

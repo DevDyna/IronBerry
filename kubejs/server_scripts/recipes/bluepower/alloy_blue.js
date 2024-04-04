@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
         alloy(
             ['minecraft:copper_ingot',
                 'create:zinc_ingot'], [1, 1],
-                'create:brass_ingot', 2)
+                'create:brass_ingot', 4)
 
     alloy([
             "bluepower:blue_doped_wafer",

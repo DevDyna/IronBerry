@@ -304,6 +304,14 @@ ServerEvents.recipes((event) => {
       "rftoolsutility:invchecker",
       "rftoolsutility:sensor",
       "rftoolsutility:simple_dialer",
+      "create:nixie_tube",
+      "create:redstone_link",
+      "create:analog_lever",
+      "createaddition:redstone_relay",
+      "create:pulse_repeater",
+      "create:pulse_extender",
+      "create:powered_latch",
+      "create:powered_toggle_latch",
     ],
     ["rftoolsbase:machine_base", "#ironberry:rftools_plates"]
   );
@@ -477,29 +485,46 @@ ServerEvents.recipes((event) => {
   global.recipes.vanilla_rocks.forEach((item) => {
     global.recipes.variants.forEach((type) => {
       if (item == "dripstone") {
-        scut([type.replace("#TYPE#", item)], ["minecraft:dripstone_block",'#create:stone_types/'+item]);
+        scut(
+          [type.replace("#TYPE#", item)],
+          ["minecraft:dripstone_block", "#create:stone_types/" + item]
+        );
       } else {
-        scut([type.replace("#TYPE#", item)], ["minecraft:" + item,'#create:stone_types/'+item]);
+        scut(
+          [type.replace("#TYPE#", item)],
+          ["minecraft:" + item, "#create:stone_types/" + item]
+        );
       }
     });
   });
 
   global.recipes.create_rocks.forEach((item) => {
     global.recipes.variants.forEach((type) => {
-        scut([type.replace("#TYPE#", item)], ["create:" + item,'#create:stone_types/'+item]);
+      scut(
+        [type.replace("#TYPE#", item)],
+        ["create:" + item, "#create:stone_types/" + item]
+      );
     });
   });
 
-
-
-  scut(['minecraft:chain', 'create:minecart_coupling'],['minecraft:chain', 'create:minecart_coupling'])
-
-
-
+  scut(
+    ["minecraft:chain", "create:minecart_coupling"],
+    ["minecraft:chain", "create:minecart_coupling"]
+  );
 
 
 
 
 
+scut(['create:contraption_controls','create:sticker', 'create:portable_storage_interface', 'create:redstone_contact', 'create:gantry_carriage', 'create:mechanical_plough', 'create:mechanical_harvester']
+  ,['create:andesite_casing','#ironberry:create_attach'])
+
+scut(['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'],['create:radial_chassis','#ironberry:create_support'])
+
+scut(['create:cuckoo_clock', 'supplementaries:clock_block'],['create:cuckoo_clock', 'supplementaries:clock_block'])
+
+scut(['8x create:turntable'],['supplementaries:turn_table'])
+
+scut(['create:speedometer', 'create:stressometer'],['create:speedometer', 'create:stressometer'])
 
 });

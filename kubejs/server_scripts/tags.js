@@ -27,8 +27,8 @@ ServerEvents.tags("item", (event) => {
   event.add("reactive:verdant_sources", "bluepower:green_sapphire_gem");
   event.add("reactive:mind_sources", "bluepower:amethyst_gem");
   event.add("reactive:soul_sources", "bluepower:sapphire_gem");
-  event.removeAllTagsFrom('bluepower:brass_ingot');
-  event.add("tombstone:seeds",'twilightforest:magic_beans')
+  event.removeAllTagsFrom("bluepower:brass_ingot");
+  event.add("tombstone:seeds", "twilightforest:magic_beans");
   //remove indigo
   event.removeAllTagsFrom("bluepower:indigo_flower");
 
@@ -100,22 +100,22 @@ ServerEvents.tags("item", (event) => {
     "tombstone:voodoo_poppet_ingredient_cold",
     "tombstone:tablet_of_assistance"
   );
-//-----------------------------------------------------------------------------------//
+  //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
-    'ten3:redstone_storer', 
-    'ten3:redstone_conductor',
-    'ae2:advanced_card', 
-    'ae2:basic_card',
-    'ae2:quartz_fiber',
-    'ae2:charged_staff', 
-    'ae2:matter_cannon', 
-    'ae2:color_applicator',
-    'nuclearcraft:lithium_ingot',
-    'nuclearcraft:thorium_ingot',
-    'nuclearcraft:graphite_ingot',
-    'extremecobblegenerator:generator',
-    'rftoolsbase:tablet',
+    "ten3:redstone_storer",
+    "ten3:redstone_conductor",
+    "ae2:advanced_card",
+    "ae2:basic_card",
+    "ae2:quartz_fiber",
+    "ae2:charged_staff",
+    "ae2:matter_cannon",
+    "ae2:color_applicator",
+    "nuclearcraft:lithium_ingot",
+    "nuclearcraft:thorium_ingot",
+    "nuclearcraft:graphite_ingot",
+    "extremecobblegenerator:generator",
+    "rftoolsbase:tablet",
     "rftoolsutility:charged_porter",
     "rftoolsutility:advanced_charged_porter",
     "rftoolsbase:filter_module",
@@ -312,7 +312,7 @@ ServerEvents.tags("item", (event) => {
 
   //recipe any side removed
   event.add("ironberry:any", [
-    'ae2:chest',
+    "ae2:chest",
     "mekanism:advanced_control_circuit",
     "mekanism:ultimate_control_circuit",
     "mekanism:elite_control_circuit",
@@ -324,7 +324,7 @@ ServerEvents.tags("item", (event) => {
     "homespun:cast_iron_block",
     "#forge:ores",
   ]);
-//-----------------------------------------------------------------------------------//
+  //-----------------------------------------------------------------------------------//
   //JEI hide , recipe any side removed , literally deleted
   /*     event.add('ironberry:disabled', [
     ]) */
@@ -521,7 +521,17 @@ ServerEvents.tags("item", (event) => {
   //   "ae2:io_port",
   // ]);
 
-  event.add("ironberry:p2p", ['ae2:me_p2p_tunnel', 'ae2:redstone_p2p_tunnel', 'ae2:item_p2p_tunnel', 'ae2:fluid_p2p_tunnel', 'ae2:fe_p2p_tunnel', 'ae2:light_p2p_tunnel', 'arseng:source_p2p_tunnel', 'arseng:spell_p2p_tunnel', 'appmek:chemical_p2p_tunnel']);
+  event.add("ironberry:p2p", [
+    "ae2:me_p2p_tunnel",
+    "ae2:redstone_p2p_tunnel",
+    "ae2:item_p2p_tunnel",
+    "ae2:fluid_p2p_tunnel",
+    "ae2:fe_p2p_tunnel",
+    "ae2:light_p2p_tunnel",
+    "arseng:source_p2p_tunnel",
+    "arseng:spell_p2p_tunnel",
+    "appmek:chemical_p2p_tunnel",
+  ]);
 
   event.add("ironberry:blue_slabs", [
     "bluepower:half_block",
@@ -568,7 +578,7 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:wrench_fix", [
-    'create:wrench',
+    "create:wrench",
     "nuclearcraft:multitool",
     "thermal:wrench",
     "ae2:certus_quartz_wrench",
@@ -734,11 +744,11 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event
-  .get("ironberry:indigo_flowers")
-  .getObjectIds()
-  .forEach((block) => {
-    data.block.flowers.push(block);
-  });
+    .get("ironberry:indigo_flowers")
+    .getObjectIds()
+    .forEach((block) => {
+      data.block.flowers.push(block);
+    });
 
   event.add("ironberry:block_drop", [
     "inventorypets:nugget_emerald",
@@ -957,7 +967,12 @@ ServerEvents.tags("item", (event) => {
     "nuclearcraft:magnesium_ingot",
   ]);
 
-  event.add('ironberry:universal_cable',['mekanism:basic_logistical_transporter', 'mekanism:basic_universal_cable', 'mekanism:basic_pressurized_tube', 'mekanism:basic_mechanical_pipe'])
+  event.add("ironberry:universal_cable", [
+    "mekanism:basic_logistical_transporter",
+    "mekanism:basic_universal_cable",
+    "mekanism:basic_pressurized_tube",
+    "mekanism:basic_mechanical_pipe",
+  ]);
 
   event.add("ironberry:blue_picks", [
     "bluepower:sapphire_pickaxe",
@@ -993,6 +1008,14 @@ ServerEvents.tags("item", (event) => {
     "rftoolsutility:invchecker",
     "rftoolsutility:sensor",
     "rftoolsutility:simple_dialer",
+    "create:nixie_tube",
+    "create:redstone_link",
+    "create:analog_lever",
+    "createaddition:redstone_relay",
+    "create:pulse_repeater",
+    "create:pulse_extender",
+    "create:powered_latch",
+    "create:powered_toggle_latch",
   ]);
 
   event.add("ironberry:rftools_machines", [
@@ -1006,48 +1029,154 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:rftools_modules", [
-    "rftoolsutility:fluid_module", 
-    "rftoolsutility:fluidplus_module", 
-    "rftoolsutility:machineinformation_module", 
-    "rftoolsutility:computer_module", 
-    "rftoolsutility:button_module", 
-    "rftoolsutility:redstone_module", 
-    "rftoolsutility:counter_module", 
-    "rftoolsutility:counterplus_module", 
-    "rftoolsutility:screen_link", 
-    "rftoolsutility:inventory_module", 
-    "rftoolsutility:energyplus_module", 
-    "rftoolsutility:energy_module", 
-    "rftoolsutility:text_module", 
-    "rftoolsutility:redstone_information", 
-    "rftoolsutility:inventoryplus_module", 
-    "rftoolsutility:clock_module", 
+    "rftoolsutility:fluid_module",
+    "rftoolsutility:fluidplus_module",
+    "rftoolsutility:machineinformation_module",
+    "rftoolsutility:computer_module",
+    "rftoolsutility:button_module",
+    "rftoolsutility:redstone_module",
+    "rftoolsutility:counter_module",
+    "rftoolsutility:counterplus_module",
+    "rftoolsutility:screen_link",
+    "rftoolsutility:inventory_module",
+    "rftoolsutility:energyplus_module",
+    "rftoolsutility:energy_module",
+    "rftoolsutility:text_module",
+    "rftoolsutility:redstone_information",
+    "rftoolsutility:inventoryplus_module",
+    "rftoolsutility:clock_module",
   ]);
 
+  event.add("ironberry:mechanicalbenchs", [
+    "bluepower:auto_project_table",
+    "essentials:auto_crafter",
+  ]);
 
-event.add('ironberry:mechanicalbenchs',['bluepower:auto_project_table','essentials:auto_crafter'])
+  event.add("ironberry:urn_loot", [
+    "minecraft:gold_nugget",
+    "minecraft:bone",
+    "minecraft:emerald",
+    "minecraft:amethyst_shard",
+    "supplementaries:antique_ink",
+    "minecraft:raw_copper",
+    "minecraft:lapis_lazuli",
+    "minecraft:raw_iron",
+    "supplementaries:bomb_blue",
+    "minecraft:ender_pearl",
+    "minecraft:bundle",
+    "minecraft:skeleton_skull",
+    "minecraft:zombie_head",
+    "minecraft:slime_ball",
+    "supplementaries:bomb",
+    "minecraft:diamond",
+    "minecraft:raw_gold",
+    "minecraft:iron_nugget",
+    "supplementaries:ash",
+  ]);
 
-event.add('ironberry:urn_loot',['minecraft:gold_nugget', 'minecraft:bone', 'minecraft:emerald', 'minecraft:amethyst_shard', 'supplementaries:antique_ink', 'minecraft:raw_copper', 'minecraft:lapis_lazuli', 'minecraft:raw_iron', 'supplementaries:bomb_blue', 'minecraft:ender_pearl', 'minecraft:bundle', 'minecraft:skeleton_skull', 'minecraft:zombie_head', 'minecraft:slime_ball', 'supplementaries:bomb', 'minecraft:diamond', 'minecraft:raw_gold', 'minecraft:iron_nugget', 'supplementaries:ash'])
+  event.add("ironberry:blast_bricks", [
+    "thoriumreactors:frameless_black_industrial_block_floor",
+    "thoriumreactors:frameless_industrial_block_floor",
+    "thoriumreactors:warning_block_lined_white_black_right",
+    "thoriumreactors:warning_block_lined_white_black_left",
+    "thoriumreactors:warning_block_lined_white_orange_right",
+    "thoriumreactors:warning_block_lined_white_orange_left",
+    "thoriumreactors:warning_block_lined_black_yellow_right",
+    "thoriumreactors:warning_block_lined_black_yellow_left",
+    "thoriumreactors:white_industrial_block_smooth",
+    "thoriumreactors:white_industrial_block_brick",
+    "thoriumreactors:white_industrial_block_paving",
+    "thoriumreactors:white_industrial_block_big_tile",
+    "thoriumreactors:white_industrial_block",
+    "thoriumreactors:black_industrial_block_floor",
+    "thoriumreactors:black_industrial_block_smooth",
+    "thoriumreactors:black_industrial_block_brick",
+    "thoriumreactors:black_industrial_block_paving",
+    "thoriumreactors:black_industrial_block_big_tile",
+    "thoriumreactors:black_industrial_block",
+    "thoriumreactors:industrial_block",
+    "thoriumreactors:industrial_block_floor",
+    "thoriumreactors:industrial_block_smooth",
+    "thoriumreactors:industrial_block_brick",
+    "thoriumreactors:industrial_block_paving",
+    "thoriumreactors:industrial_block_big_tile",
+    "thoriumreactors:black_inverted_factory_block",
+    "thoriumreactors:black_factory_block",
+    "thoriumreactors:inverted_factory_block",
+    "thoriumreactors:factory_block",
+  ]);
 
-event.add('ironberry:blast_bricks',['thoriumreactors:frameless_black_industrial_block_floor', 'thoriumreactors:frameless_industrial_block_floor', 'thoriumreactors:warning_block_lined_white_black_right', 'thoriumreactors:warning_block_lined_white_black_left', 'thoriumreactors:warning_block_lined_white_orange_right', 'thoriumreactors:warning_block_lined_white_orange_left', 'thoriumreactors:warning_block_lined_black_yellow_right', 'thoriumreactors:warning_block_lined_black_yellow_left', 'thoriumreactors:white_industrial_block_smooth', 'thoriumreactors:white_industrial_block_brick', 'thoriumreactors:white_industrial_block_paving', 'thoriumreactors:white_industrial_block_big_tile', 'thoriumreactors:white_industrial_block', 'thoriumreactors:black_industrial_block_floor', 'thoriumreactors:black_industrial_block_smooth', 'thoriumreactors:black_industrial_block_brick', 'thoriumreactors:black_industrial_block_paving', 'thoriumreactors:black_industrial_block_big_tile', 'thoriumreactors:black_industrial_block', 'thoriumreactors:industrial_block', 'thoriumreactors:industrial_block_floor', 'thoriumreactors:industrial_block_smooth', 'thoriumreactors:industrial_block_brick', 'thoriumreactors:industrial_block_paving', 'thoriumreactors:industrial_block_big_tile', 'thoriumreactors:black_inverted_factory_block', 'thoriumreactors:black_factory_block', 'thoriumreactors:inverted_factory_block', 'thoriumreactors:factory_block'])
+  event.add("ironberry:bars", [
+    "minecraft:iron_bars",
+    "thoriumreactors:grate_floor_block",
+    "thoriumreactors:grate_wall_block",
+  ]);
 
-event.add('ironberry:bars',['minecraft:iron_bars', 'thoriumreactors:grate_floor_block', 'thoriumreactors:grate_wall_block'])
+  event.add("ironberry:turbine_moderator", [
+    "thoriumreactors:nickel_block",
+    "thoriumreactors:niob_block",
+    "thoriumreactors:molybdenum_block",
+  ]);
 
-event.add('ironberry:turbine_moderator',['thoriumreactors:nickel_block', 'thoriumreactors:niob_block', 'thoriumreactors:molybdenum_block'])
+  event.add("ironberry:sacks", [
+    "kubejs:sack_access",
+    "kubejs:sack_ports",
+    "kubejs:sack_cards",
+    "kubejs:sack_misc",
+    "kubejs:sack_cables",
+  ]);
 
-event.add('ironberry:sacks',['kubejs:sack_access', 'kubejs:sack_ports', 'kubejs:sack_cards', 'kubejs:sack_misc', 'kubejs:sack_cables'])
+  event.add("ironberry:mek_glass", [
+    "mekanismgenerators:reactor_glass",
+    "mekanism:structural_glass",
+  ]);
 
-event.add('ironberry:mek_glass',['mekanismgenerators:reactor_glass', 'mekanism:structural_glass'])
+  event.get("ten3:catalyst").removeAll();
 
-event.get('ten3:catalyst').removeAll()
+  event.add("ten3:catalyst", "ae2:fluix_crystal");
 
-event.add('ten3:catalyst','ae2:fluix_crystal')
+  event.add("ironberry:andesite_decor", [
+    "create:copycat_step",
+    "create:copycat_panel",
+    "create:andesite_scaffolding",
+    "create:andesite_ladder",
+    "create:andesite_door",
+    "create:andesite_bars",
+  ]);
+  event.add("ironberry:copper_decor", [
+    "create:copper_bars",
+    "create:copper_door",
+    "create:copper_ladder",
+    "create:copper_scaffolding",
+  ]);
+  event.add("ironberry:brass_decor", [
+    "create:brass_scaffolding",
+    "create:brass_ladder",
+    "create:brass_door",
+    "create:brass_bars",
+  ]);
+  event.add("ironberry:train_decor", [
+    "createaddition:barbed_wire",
+    "create:train_door",
+    "create:train_trapdoor",
+  ]);
+  event.add("ironberry:glasses_blockes", [
+    "create:horizontal_framed_glass_pane",
+    "create:tiled_glass",
+    "create:vertical_framed_glass",
+    "create:framed_glass_pane",
+    "create:horizontal_framed_glass",
+    "create:framed_glass_trapdoor",
+    "create:tiled_glass_pane",
+    "create:framed_glass_door",
+    "create:framed_glass",
+  ]);
 
-event.add('ironberry:andesite_decor',['create:copycat_step', 'create:copycat_panel','create:andesite_scaffolding', 'create:andesite_ladder', 'create:andesite_door', 'create:andesite_bars'])
-event.add('ironberry:copper_decor',['create:copper_bars', 'create:copper_door', 'create:copper_ladder', 'create:copper_scaffolding'])
-event.add('ironberry:brass_decor',['create:brass_scaffolding', 'create:brass_ladder', 'create:brass_door', 'create:brass_bars'])
-event.add('ironberry:train_decor',['createaddition:barbed_wire','create:train_door', 'create:train_trapdoor'])
-event.add('ironberry:glasses_blockes',['create:horizontal_framed_glass_pane', 'create:tiled_glass', 'create:vertical_framed_glass', 'create:framed_glass_pane', 'create:horizontal_framed_glass', 'create:framed_glass_trapdoor', 'create:tiled_glass_pane', 'create:framed_glass_door', 'create:framed_glass'])
+event.add('ironberry:create_attach',['create:sticker','create:contraption_controls', 'create:portable_storage_interface', 'create:redstone_contact', 'create:gantry_carriage', 'create:mechanical_plough', 'create:mechanical_harvester'])
+
+event.add('ironberry:create_support',['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'])
+
+
 
 });
 
