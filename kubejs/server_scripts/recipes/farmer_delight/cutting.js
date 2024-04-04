@@ -263,7 +263,22 @@ event.custom({
 })
 //
 //
-
+event.custom({
+    "type": "farmersdelight:cutting",
+    "ingredients": [{
+            "item": 'minecraft:iron_ingot'
+        }
+    ],
+    "result": [{
+            "item": 'create:iron_sheet'
+        }
+    ],
+    "tool": {
+        "tag": 'ironberry:hammer'
+    }
+})
+//
+//
 
 
 

@@ -38,5 +38,11 @@ monoitem('create:andesite_encased_shaft','create:andesite_alloy','create:encased
 
 monoitem('create:encased_chain_drive','create:shaft','create:gearbox')
 
+monoitem('minecraft:barrel','create:iron_sheet','create:item_vault')
+
+monoitem('create:andesite_casing','bluepower:deployer','create:deployer')
+monoitem('create:andesite_casing','engineersdecor:small_block_breaker','create:mechanical_drill')
+monoitem('create:andesite_casing','engineersdecor:small_tree_cutter','create:mechanical_saw')
+monoitem('create:large_cogwheel','create:brass_sheet','create:flywheel')
 
 })

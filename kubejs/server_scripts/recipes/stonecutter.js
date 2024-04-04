@@ -492,7 +492,7 @@ ServerEvents.recipes((event) => {
 
 
 
-
+  scut(['minecraft:chain', 'create:minecart_coupling'],['minecraft:chain', 'create:minecart_coupling'])
 
 
 

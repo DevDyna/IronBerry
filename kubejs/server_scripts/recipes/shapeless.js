@@ -850,4 +850,15 @@ ServerEvents.recipes((event) => {
     });
   });
 
+  less(['#ironberry:te_filter','create:andesite_alloy'],'4x create:filter')
+  less(['#ironberry:te_filter','create:brass_ingot'],'4x create:attribute_filter')
+  less(['minecraft:paper', 'create:filter'],'create:clipboard')
+  less(['create:rose_quartz_block', 'minecraft:redstone'],'create:rose_quartz_lamp')
+
+  global.recipes.woods.forEach(wood=>{
+	less(['minecraft:glass', 'minecraft:'+wood+'_planks'],'2x create:'+wood+'_window')
+  })
+
+  less(['minecraft:glass','create:andesite_alloy'],'create:ornate_iron_window')
+
 });

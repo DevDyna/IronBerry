@@ -468,23 +468,25 @@ ServerEvents.recipes((event) => {
     B: 'minecraft:bricks'
     }) */
 
-    /**
-     * 
-     * @param {item[]} items 
-     * @param {item} result 
-     */
+  /**
+   *
+   * @param {item[]} items
+   * @param {item} result
+   */
   function shapex(items, result) {
-    event.shaped(result, ["ABC", "DEF", "GHI"], {
-      A: items[0],
-      B: items[1],
-      C: items[2],
-      D: items[3],
-      E: items[4],
-      F: items[5],
-      G: items[6],
-      H: items[7],
-      I: items[8],
-    }).id(RegX(items + "_" + result).replace(/[0-9\s]/g, ''));
+    event
+      .shaped(result, ["ABC", "DEF", "GHI"], {
+        A: items[0],
+        B: items[1],
+        C: items[2],
+        D: items[3],
+        E: items[4],
+        F: items[5],
+        G: items[6],
+        H: items[7],
+        I: items[8],
+      })
+      .id(RegX(items + "_" + result).replace(/[0-9\s]/g, ""));
   }
 
   function shaplus(item_input, slot_input, output) {
@@ -952,11 +954,11 @@ ServerEvents.recipes((event) => {
       "minecraft:air",
       "minecraft:gold_ingot",
       "homespun:copper_nugget",
-      'create:brass_ingot',
+      "create:brass_ingot",
       "minecraft:golden_boots",
       "minecraft:gold_ingot",
       "homespun:copper_nugget",
-      'create:brass_ingot',
+      "create:brass_ingot",
     ],
     "thermal:diving_boots"
   );
@@ -1391,80 +1393,250 @@ ServerEvents.recipes((event) => {
     "ten3:machine_enchantment_flusher"
   );
 
+  shapex(
+    [
+      "create:polished_rose_quartz",
+      "minecraft:air",
+      "minecraft:air",
+      "create:andesite_alloy",
+    ],
+    "create:electron_tube"
+  );
 
+  shapex(
+    [
+      "minecraft:air",
+      "minecraft:iron_ingot",
+      "minecraft:iron_nugget",
+      "minecraft:air",
+      "minecraft:stick",
+      "minecraft:iron_ingot",
+      "minecraft:stick",
+    ],
+    "kubejs:hammer"
+  );
+
+  shapex(
+    [
+      "create:andesite_alloy",
+      "minecraft:air",
+      "minecraft:air",
+      "create:andesite_alloy",
+    ],
+    "16x create:shaft"
+  );
+
+  /**
+   *
+   * @param {item} top
+   * @param {item} bottom
+   * @param {item} output
+   */
+  function stick(top, bottom, output) {
+    shapex([top, "minecraft:air", "minecraft:air", bottom], output);
+  }
+
+  /**
+   *
+   * @param {item} top
+   * @param {item} middle
+   * @param {item} bottom
+   * @param {item} output
+   */
+  function bigstick(top, middle, bottom, output) {
     shapex(
-      ['create:polished_rose_quartz', 'minecraft:air', 'minecraft:air','create:andesite_alloy'],'create:electron_tube'
-    )
+      [
+        top,
+        "minecraft:air",
+        "minecraft:air",
+        middle,
+        "minecraft:air",
+        "minecraft:air",
+        bottom,
+      ],
+      output
+    );
+  }
 
-    shapex(['minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_nugget', 'minecraft:air', 'minecraft:stick', 'minecraft:iron_ingot', 'minecraft:stick'],'kubejs:hammer')
+  stick(
+    "create:electron_tube",
+    "create:encased_chain_drive",
+    "create:gearshift"
+  );
+  stick("minecraft:repeater", "create:encased_chain_drive", "create:clutch");
+  stick(
+    "create:precision_mechanism",
+    "create:encased_chain_drive",
+    "create:adjustable_chain_gearshift"
+  );
+  bigstick(
+    "#minecraft:planks",
+    "create:shaft",
+    "#minecraft:planks",
+    "4x create:piston_extension_pole"
+  );
 
+  shapex(["create:shaft", "#minecraft:planks"], "create:cogwheel");
+  shapex(
+    ["create:shaft", "#minecraft:planks", "#minecraft:planks"],
+    "create:large_cogwheel"
+  );
+  shapex(["create:cogwheel", "#minecraft:planks"], "create:large_cogwheel");
+
+  shapex(["create:gearbox"], "create:vertical_gearbox");
+  shapex(["create:vertical_gearbox"], "create:gearbox");
+
+  shapex(["#create:toolboxes", "minecraft:brown_dye"], "create:brown_toolbox");
+
+  global.dye.forEach((dye) => {
+    stick(
+      "minecraft:" + dye + "_carpet",
+      "#minecraft:wooden_slabs",
+      "create:" + dye + "_seat"
+    );
     shapex(
-      ['create:andesite_alloy', 'minecraft:air', 'minecraft:air','create:andesite_alloy'],'16x create:shaft'
-    )
+      ["#create:seats", "minecraft:" + dye + "_dye"],
+      "create:" + dye + "_seat"
+    );
+    shapex(
+      [
+        "minecraft:" + dye + "_wool",
+        "create:andesite_alloy",
+        "minecraft:" + dye + "_wool",
+        "create:brass_sheet",
+        "luggage:luggage",
+        "create:brass_sheet",
+        "minecraft:" + dye + "_wool",
+        "create:andesite_alloy",
+        "minecraft:" + dye + "_wool",
+      ],
+      "2x create:" + dye + "_toolbox"
+    );
+  });
 
-    /**
-     * 
-     * @param {item} top 
-     * @param {item} bottom 
-     * @param {item} output 
-     */
-      function stick(top,bottom,output){
-        shapex(
-          [top, 'minecraft:air', 'minecraft:air',bottom],output
-        )
-      }
+  shapex(
+    ["minecraft:light_blue_dye", "cyclic:carbon_paper"],
+    "2x create:empty_schematic"
+  );
+  shapex(
+    ["minecraft:feather", "create:empty_schematic"],
+    "create:schematic_and_quill"
+  );
+  shapex(
+    ["create:schematic_and_quill", "minecraft:painting"],
+    "create:crafting_blueprint"
+  );
 
-      /**
-       * 
-       * @param {item} top 
-       * @param {item} middle 
-       * @param {item} bottom 
-       * @param {item} output 
-       */
-      function bigstick(top,middle,bottom,output){
-        shapex(
-          [top, 'minecraft:air', 'minecraft:air',middle, 'minecraft:air', 'minecraft:air',bottom],output
-        )
-      }
-      
-      stick('create:electron_tube','create:encased_chain_drive','create:gearshift')
-      stick('minecraft:repeater','create:encased_chain_drive','create:clutch')
-      stick('create:precision_mechanism','create:encased_chain_drive','create:adjustable_chain_gearshift')
-      bigstick('#minecraft:planks', 'create:shaft', '#minecraft:planks','4x create:piston_extension_pole')
+  /**
+   *
+   * @param {item} item 2x2 cube
+   * @param {item} result
+   */
+  function cube(item, result) {
+    shapex([item, item, "minecraft:air", item, item], result);
+  }
 
-      shapex(['create:shaft','#minecraft:planks'],'create:cogwheel')
-      shapex(['create:shaft','#minecraft:planks','#minecraft:planks'],'create:large_cogwheel')
-      shapex(['create:cogwheel','#minecraft:planks'],'create:large_cogwheel')
+  cube("create:rose_quartz", "4x create:rose_quartz_block");
 
-      shapex(['create:gearbox'], 'create:vertical_gearbox')
-      shapex(['create:vertical_gearbox'], 'create:gearbox')
+  shapex(
+    [
+      "minecraft:air",
+      "minecraft:iron_ingot",
+      "minecraft:air",
+      "minecraft:iron_nugget",
+      "minecraft:iron_ingot",
+      "minecraft:iron_nugget",
+      "minecraft:air",
+      "minecraft:iron_ingot",
+      "minecraft:air",
+    ],
+    "16x create:metal_girder"
+  );
 
-      shapex(['#create:toolboxes','minecraft:brown_dye'],'create:brown_toolbox')
+  stick("minecraft:hopper", "minecraft:iron_ingot", "create:chute");
 
-      global.dye.forEach(dye => {
-        stick('minecraft:'+dye+'_carpet','#minecraft:wooden_slabs','create:'+dye+'_seat')
-        shapex(['#create:seats','minecraft:'+dye+'_dye'],'create:'+dye+'_seat')
-        shapex(['minecraft:'+dye+'_wool', 'create:andesite_alloy', 'minecraft:'+dye+'_wool', 'create:brass_sheet', 'luggage:luggage', 'create:brass_sheet', 'minecraft:'+dye+'_wool', 'create:andesite_alloy', 'minecraft:'+dye+'_wool'],'2x create:'+dye+'_toolbox')
-      });
+  shapex(
+    ["reactive:quartz", "minecraft:string", "reactive:quartz"],
+    "create:goggles"
+  );
 
-      shapex(['minecraft:light_blue_dye', 'cyclic:carbon_paper'],'2x create:empty_schematic')
-      shapex(['minecraft:feather', 'create:empty_schematic'],'create:schematic_and_quill')
-      shapex(['create:schematic_and_quill', 'minecraft:painting'], 'create:crafting_blueprint')
+  shapex(
+    [
+      "reactive:pure_quartz_block",
+      "minecraft:air",
+      "minecraft:air",
+      "create:brass_block",
+      "minecraft:air",
+      "minecraft:air",
+      "quark:iron_rod",
+    ],
+    "create:wand_of_symmetry"
+  );
 
+  shapex(
+    ["minecraft:repeater", "create:brass_casing", "minecraft:observer"],
+    "create:content_observer"
+  );
+  shapex(
+    ["minecraft:comparator", "create:brass_casing", "minecraft:observer"],
+    "create:stockpile_switch"
+  );
 
-      /**
-       * 
-       * @param {item} item 2x2 cube
-       * @param {item} result 
-       */
-      function cube(item,result){
-        shapex([item,item,'minecraft:air',item,item],result)
-      }
+  shapex(
+    ["minecraft:dropper", "create:brass_casing", "minecraft:dropper"],
+    "2x create:brass_tunnel"
+  );
+  shapex(
+    ["minecraft:hopper", "create:brass_casing", "uppers:upper"],
+    "2x create:brass_funnel"
+  );
+  shapex(
+    ["minecraft:dropper", "create:andesite_casing", "minecraft:dropper"],
+    "2x create:andesite_tunnel"
+  );
+  shapex(
+    ["minecraft:hopper", "create:andesite_casing", "uppers:upper"],
+    "2x create:andesite_funnel"
+  );
 
-      cube('create:rose_quartz','4x create:rose_quartz_block')
+  bigstick(
+    "create:brass_sheet",
+    "create:chute",
+    "create:electron_tube",
+    "create:smart_chute"
+  );
 
-      shapex(['minecraft:air', 'minecraft:iron_ingot', 'minecraft:air', 'minecraft:iron_nugget', 'minecraft:iron_ingot', 'minecraft:iron_nugget', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:air'],'16x create:metal_girder')
+  global.recipes.woods.forEach((wood) => {
+    shapex(
+      [
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+        "minecraft:" + wood + "_planks",
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+        "minecraft:glass_pane",
+      ],
+      '8x create:' + wood + '_window_pane'
+    );
+  });
 
+  shapex(
+    [
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      'create:andesite_alloy',
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+    ],
+    '8x create:ornate_iron_window_pane'
+  );
 
 
 });

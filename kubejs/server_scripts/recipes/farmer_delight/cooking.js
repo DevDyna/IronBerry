@@ -416,4 +416,22 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 240,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'quark:iron_rod'
+            },{
+                "item": 'tombstone:scroll_of_reach'
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'create:extendo_grip',
+            "count": 1
+        }
+    })
+
+
 })
