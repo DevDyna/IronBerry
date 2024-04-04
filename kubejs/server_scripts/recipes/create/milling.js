@@ -1,25 +1,26 @@
 ServerEvents.recipes((event) => {
+
 event.custom({
     "type": "create:milling",
     "ingredients": [
       {
-        "item": "minecraft:allium"
+        "item": 'minecraft:wheat'
       }
     ],
-    "processingTime": 50,
+    "processingTime": 100,
     "results": [
       {
         "count": 2,
-        "item": "minecraft:magenta_dye"
+        "item": 'create:wheat_flour'
       },
       {
-        "chance": 0.1,
-        "count": 2,
-        "item": "minecraft:purple_dye"
+        "chance": 0.5,
+        "count": 1,
+        "item": 'create:wheat_flour'
       },
       {
-        "chance": 0.1,
-        "item": "minecraft:pink_dye"
+        "chance": 0.25,
+        "item": 'create:wheat_flour'
       }
     ]
   })

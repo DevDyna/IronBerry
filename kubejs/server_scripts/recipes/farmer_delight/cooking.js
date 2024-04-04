@@ -450,6 +450,22 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "cookingtime": 60,
+        "experience": 0.0,
+        "ingredients": [{
+                "item": 'create:wheat_flour'
+            },{
+                "fluid": "minecraft:water"
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "item": 'farmersdelight:wheat_dough',
+            "count": 2
+        }
+    })
 
-
+    
 })

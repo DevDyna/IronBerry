@@ -897,4 +897,6 @@ less(['create:adjustable_chain_gearshift', 'create:clutch', 'create:gearshift', 
 
 less(['create:electron_tube', 'create:sequenced_gearshift', 'create:precision_mechanism', 'create:cogwheel'], 'create:mechanical_arm')
 
+less(['4x farmersdelight:wheat_dough'], 'createaddition:cake_base')
+
 });
