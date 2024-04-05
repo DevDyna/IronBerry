@@ -1669,5 +1669,6 @@ shapex(['supplementaries:rope', 'create:cogwheel', 'create:turntable'], 'supplem
 
 shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:millstone')
 shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:large_cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:crushing_wheel')
+shapex(['minecraft:dried_kelp', 'create:iron_sheet', 'minecraft:dried_kelp'], 'create:belt_connector')
 
 });

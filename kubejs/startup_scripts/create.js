@@ -16,7 +16,7 @@ StartupEvents.postInit(event =>{
 
       
 
-      myst('minecraft:fishing_rod',['minecraft:leather_boots','minecraft:feather', 'kubejs:soul', 'minecraft:nautilus_shell', 'minecraft:rabbit_foot', 'minecraft:prismarine_shard', 'minecraft:chicken', 'minecraft:bamboo', 'minecraft:ghast_tear', 'froglins:froglin_egg'])
+      myst('minecraft:fishing_rod',['minecraft:kelp','minecraft:leather_boots','minecraft:feather', 'kubejs:soul', 'minecraft:nautilus_shell', 'minecraft:rabbit_foot', 'minecraft:prismarine_shard', 'minecraft:chicken', 'minecraft:bamboo', 'minecraft:ghast_tear', 'froglins:froglin_egg'])
       myst('kubejs:ore_bone_meal',['minecraft:deepslate_gold_ore', 'minecraft:deepslate_emerald_ore', 'minecraft:deepslate_copper_ore', 'minecraft:deepslate_iron_ore', 'minecraft:deepslate_coal_ore', 'minecraft:deepslate_redstone_ore'])
       myst('kubejs:rich_bone_meal',['farmersdelight:wild_potatoes', 'farmersdelight:wild_beetroots', 'farmersdelight:brown_mushroom_colony', 'farmersdelight:red_mushroom_colony', 'supplementaries:wild_flax', 'farmersdelight:wild_carrots', 'farmersdelight:wild_tomatoes', 'farmersdelight:wild_onions', 'farmersdelight:wild_cabbages'])
       myst('kubejs:floreal_bone_meal',['minecraft:blue_orchid', 'minecraft:poppy', 'minecraft:azure_bluet', 'minecraft:orange_tulip', 'minecraft:red_tulip', 'minecraft:pink_tulip', 'minecraft:lily_of_the_valley', 'minecraft:cornflower', 'minecraft:white_tulip', 'minecraft:oxeye_daisy', 'minecraft:allium', 'minecraft:dandelion'])
@@ -36,6 +36,6 @@ StartupEvents.postInit(event =>{
       myst('exoticbirds:nest',[ 'exoticbirds:mystery_egg'])
       myst('exoticbirds:mystery_egg', ['exoticbirds:phoenix_egg'])
       myst('ten3:machine_matter_condenser',[ 'ten3:liquid_bizarrerie_bucket'])
-    
+
     })
 
