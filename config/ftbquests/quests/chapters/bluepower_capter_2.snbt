@@ -2035,6 +2035,24 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0E63CB720C3632FE"]
+			id: "0FCC6E9D894A46B2"
+			optional: true
+			rewards: [{
+				id: "313E222DCEBBA2B5"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			subtitle: "How to create create"
+			tasks: [{
+				id: "3ECE1FD86746905D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.0d
+		}
 	]
 	subtitle: ["Blue technology and Chemistry"]
 	title: "Age 2"

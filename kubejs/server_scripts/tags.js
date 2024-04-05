@@ -630,6 +630,7 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:fishing", [
+    'minecraft:kelp',
     "minecraft:phantom_membrane",
     "minecraft:chicken",
     "minecraft:feather",

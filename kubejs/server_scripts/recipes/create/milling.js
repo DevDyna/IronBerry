@@ -10,16 +10,16 @@ event.custom({
     "processingTime": 100,
     "results": [
       {
-        "count": 2,
-        "item": 'create:wheat_flour'
-      },
-      {
-        "chance": 0.5,
         "count": 1,
         "item": 'create:wheat_flour'
       },
       {
         "chance": 0.25,
+        "count": 1,
+        "item": 'create:wheat_flour'
+      },
+      {
+        "chance": 0.125,
         "item": 'create:wheat_flour'
       }
     ]
