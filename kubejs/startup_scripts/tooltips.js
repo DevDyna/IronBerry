@@ -96,7 +96,12 @@ global.addCustomTooltips = (/** @type {Internal.RenderTooltipEvent$GatherCompone
   if(tooltip.fluid == 'minecraft:water' || tooltip.fluid == 'pneumaticcraft:ethanol' || tooltip.fluid == 'pneumaticcraft:biodiesel'){
     tooltip.add('§5Fuel §ffor §2liquid §fcompressor')
   }
-
+  if(tooltip.fluid == 'cofh_core:honey'){
+    tooltip.add("Obtained by §eHive Hopper §ffrom §a@Thermal §fbelow a §6beehive or a beenest with bees")
+  }
+  if(tooltip.fluid == 'minecraft:milk'){
+    tooltip.add("Obtained by §6NuclearCraft§f or using a §4Cow pet")
+  }
 }
 /*
 Black: §0

@@ -51,4 +51,7 @@ ServerEvents.recipes(event => {
 
     infuse('thoriumreactors:machine_casing','kubejs:red_power',144, 'thoriumreactors:electromagnetic_coil')
 
+    infuse('createaddition:cake_base_baked','create:chocolate',144, 'createaddition:chocolate_cake')
+    infuse('createaddition:cake_base_baked','cofh_core:honey',144, 'createaddition:honey_cake')
+
   })

@@ -899,4 +899,6 @@ less(['create:electron_tube', 'create:sequenced_gearshift', 'create:precision_me
 
 less(['4x farmersdelight:wheat_dough'], 'createaddition:cake_base')
 
+less(['bluepower:engine', 'create:brass_casing', 'create:shaft', 'create:copper_casing'],'createaddition:electric_motor')
+
 });

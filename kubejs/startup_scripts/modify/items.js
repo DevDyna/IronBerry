@@ -28,5 +28,14 @@ ItemEvents.modification(event => {
 		}
 	})
 
+	event.modify('createaddition:cake_base_baked',item=>{
+		item.foodProperties = food => {
+			food.hunger(15)
+			food.saturation(0.25)
+			food.fastToEat(true)
+		}
+	})
+	
+
 
 })

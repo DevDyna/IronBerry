@@ -44,6 +44,7 @@ smart_reaction(['kubejs:radio_uranium','kubejs:radio_thorium'],['kubejs:fuel_mix
 smart_reaction(['thoriumreactors:steam','mekanism:steam'],['kubejs:exosteam'])
 
 
+reaction(["minecraft:milk",'nuclearcraft:milk_chocolate'],[250,144],["create:chocolate","nuclearcraft:unsweetened_chocolate"],[288,144])
 
 
 
