@@ -11,4 +11,6 @@ ServerEvents.recipes(event => {
     smelt('nuclearcraft:manganese_ingot','thoriumreactors:manganese_ingot')
 
     smelt('minecraft:iron_ingot', 'thoriumreactors:blasted_iron_ingot')
+
+
 })
