@@ -265,7 +265,7 @@
 		}
 		{
 			dependencies: ["32619673FCC124C2"]
-			description: ["All power sources can be founded by searching on JEI with $source"]
+			description: ["All power sources can be discovered by searching on JEI with $source"]
 			hide: true
 			id: "7142BA297B3B2BCB"
 			rewards: [

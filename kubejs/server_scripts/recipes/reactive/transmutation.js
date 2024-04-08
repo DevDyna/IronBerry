@@ -125,7 +125,7 @@ ServerEvents.recipes((event) => {
     2
   );
 
-  transmute("minecraft:paper", "minecraft:book", ["reactive:mind"], 10, 2);
+  //transmute("minecraft:paper", "minecraft:book", ["reactive:mind"], 10, 2);
 
   transmute(
     "reactive:stardust",

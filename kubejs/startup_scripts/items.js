@@ -235,8 +235,9 @@ StartupEvents.registry('item', event => {
     .displayName('Infinity Cell Holder')
 
     event.create('arsenic_lupenio')
-    .texture('ironberry:item/arsenic_lupenio')
+    .texture('ironberry:item/lupenio')
     .displayName('Arsenic Lupenio')
+	.glow(true)
 
     event.create('garbage')
     .texture('ironberry:item/garbage')
