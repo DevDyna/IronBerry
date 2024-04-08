@@ -36,6 +36,8 @@ StartupEvents.postInit(event =>{
       myst('exoticbirds:nest',[ 'exoticbirds:mystery_egg'])
       myst('exoticbirds:mystery_egg', ['exoticbirds:phoenix_egg'])
       myst('ten3:machine_matter_condenser',[ 'ten3:liquid_bizarrerie_bucket'])
+      myst('cyclic:peat_unbaked', ['cyclic:peat_baked'])
+
 
     })
 

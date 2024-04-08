@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nuclearized_age_5"
-	group: "0AB07CEFAAABA228"
+	group: ""
 	icon: {
 		Count: 1b
 		id: "thoriumreactors:thorium"
@@ -33,7 +33,7 @@
 			image: "cyclic:blocks/solidifier"
 			rotation: 0.0d
 			width: 2.5d
-			x: -2.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -80,13 +80,13 @@
 			corner: false
 			dependency: "4B2287F56C73C510"
 			dev: false
-			height: 1.0d
+			height: 2.0d
 			hover: [ ]
 			image: "thoriumreactors:block/reactor_core_up_fueled"
 			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
-			y: 6.0d
+			width: 2.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -98,16 +98,16 @@
 			image: "nuclearcraft:block/processor/fuel_reprocessor_powered"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.0d
-			y: -4.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
-			click: ""
+			click: "https://github.com/DevDyna/IronBerry/tree/main/kubejs/.examples/schematics"
 			corner: false
 			dependency: "06A531620346F341"
 			dev: false
 			height: 1.0d
-			hover: [ ]
+			hover: ["Schematics Shortcut"]
 			image: "nuclearcraft:item/fuel/curium/depleted/hecm_247_za"
 			rotation: 0.0d
 			width: 1.0d
@@ -396,7 +396,7 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: 9.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -519,8 +519,8 @@
 			image: "ironberry:item/lupenio"
 			rotation: 0.0d
 			width: 0.75d
-			x: -4.028571428571432d
-			y: -4.585714285714285d
+			x: -1.0d
+			y: 4.455357142857139d
 		}
 		{
 			click: ""
@@ -532,8 +532,8 @@
 			image: "nuclearcraft:item/material/gem/boron_arsenide"
 			rotation: 15.0d
 			width: 0.5d
-			x: -4.6785714285714235d
-			y: -3.642857142857146d
+			x: -1.6122448979591866d
+			y: 5.332908163265309d
 		}
 		{
 			click: ""
@@ -545,8 +545,8 @@
 			image: "nuclearcraft:item/material/gem/boron_nitride"
 			rotation: -40.0d
 			width: 0.5d
-			x: -4.607142857142854d
-			y: -3.2142857142857153d
+			x: -1.1785714285714306d
+			y: 5.919642857142854d
 		}
 		{
 			click: ""
@@ -558,8 +558,8 @@
 			image: "nuclearcraft:item/material/gem/villiaumite"
 			rotation: 60.0d
 			width: 0.5d
-			x: -4.107142857142854d
-			y: -3.5714285714285694d
+			x: -0.6785714285714306d
+			y: 5.776785714285715d
 		}
 		{
 			click: ""
@@ -571,8 +571,8 @@
 			image: "nuclearcraft:item/material/gem/rhodochrosite"
 			rotation: 30.0d
 			width: 0.5d
-			x: -4.035714285714285d
-			y: -3.2142857142857153d
+			x: -1.357142857142854d
+			y: 5.598214285714285d
 		}
 		{
 			click: ""
@@ -584,8 +584,8 @@
 			image: "nuclearcraft:item/material/gem/carobbiite"
 			rotation: -25.0d
 			width: 0.5d
-			x: -3.392857142857146d
-			y: -3.892857142857146d
+			x: -0.5357142857142847d
+			y: 5.419642857142854d
 		}
 		{
 			click: ""
@@ -597,8 +597,8 @@
 			image: "nuclearcraft:item/material/gem/fluorite"
 			rotation: 75.0d
 			width: 0.5d
-			x: -3.5714285714285765d
-			y: -3.5357142857142847d
+			x: -1.0714285714285694d
+			y: 5.455357142857139d
 		}
 		{
 			click: ""
@@ -610,8 +610,8 @@
 			image: "thoriumreactors:item/redstone_processor"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 4.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			click: ""
@@ -625,7 +625,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 8.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -639,7 +639,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 7.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -653,7 +653,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 6.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -667,7 +667,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 5.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -681,7 +681,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 4.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -695,7 +695,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 3.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -709,7 +709,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 2.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -723,7 +723,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -737,7 +737,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: 0.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -751,7 +751,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: -1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -765,7 +765,7 @@
 			rotation: 0.0d
 			width: 1.19d
 			x: -2.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -779,7 +779,7 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: -3.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -792,7 +792,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 8.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -805,7 +805,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 7.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -818,7 +818,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 5.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -831,7 +831,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 6.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -844,7 +844,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 4.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -857,7 +857,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 3.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -870,7 +870,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 2.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -883,7 +883,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -896,7 +896,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: 0.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -909,7 +909,7 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: -2.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -922,10 +922,145 @@
 			rotation: 90.0d
 			width: 1.25d
 			x: -1.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5C30C4E45CA21A76"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ten3:item/crafting/hydraulic_widget"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1749654EEB1ECEDC"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ten3:item/crafting/detector"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
 			y: 5.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "mekanism:block/models/multipart/basic_universal_cable_vertical"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.19d
+			hover: [ ]
+			image: "mekanism:liquid/energy"
+			order: -1
+			rotation: 0.0d
+			width: 1.19d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4B2287F56C73C510"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ten3:item/crafting/redstone_ai"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "46AF3BFA42CC2870"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ten3:item/crafting/redstone_converter"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			color: 240
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/gear/outline.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 96
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/gear/background.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: -5.0d
+		}
 	]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1066,7 +1201,10 @@
 		}
 		{
 			dependencies: ["06A531620346F341"]
-			description: ["You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics if you lost !"]
+			description: [
+				"You dont like build block by block a structure multiblock right? So you can find all schematics that you need on folder /kubejs/example/schematics if you lost !"
+				"Or just press the red depleted fuel"
+			]
 			id: "152F5B457DF4C6AB"
 			rewards: [{
 				id: "743CFD062271E374"
@@ -1246,7 +1384,7 @@
 				item: "cyclic:peat_farm"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -1465,7 +1603,7 @@
 				item: "nuclearcraft:plate_advanced"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 4.0d
 		}
 		{
@@ -1537,8 +1675,8 @@
 				}
 			]
 			title: "Thorium Reactor"
-			x: -3.0d
-			y: 3.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B2287F56C73C510"]
@@ -1594,7 +1732,7 @@
 			]
 			title: "Thermal evaporation"
 			x: -5.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C30C4E45CA21A76"]
@@ -1697,7 +1835,7 @@
 			]
 			title: "Turbine"
 			x: -3.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1FE2BB2E4BDB24C0"]
@@ -1713,7 +1851,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["28368E27A614409E"]
@@ -1771,26 +1909,27 @@
 					type: "checkmark"
 				}
 			]
-			x: -5.0d
-			y: 1.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
+			hide_dependency_lines: true
 			id: "3D0C633DD93D1494"
 			rewards: [{
 				id: "091A1A4A6981E8DD"
 				item: "thermal:lead_coin"
 				type: "item"
 			}]
-			shape: "octagon"
+			shape: "diamond"
 			size: 3.0d
 			tasks: [{
 				id: "13F0BA30C120BBC2"
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 0.04285714285715159d
-			y: 7.299999999999997d
+			x: -5.0d
+			y: -4.9613095238095255d
 		}
 		{
 			dependencies: ["05A163CA0B85418B"]
@@ -1806,7 +1945,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C624E7DFD3E414E"]
@@ -1826,7 +1965,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -3.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Nuclearize my recipes"]

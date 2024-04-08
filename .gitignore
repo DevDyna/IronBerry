@@ -207,3 +207,5 @@ config/create-common.toml
 config/flywheel-client.toml
 config/tombstone-common.toml
 config/create-client.toml
+.qmenu_opened.marker
+options.txt
