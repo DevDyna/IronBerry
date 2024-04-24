@@ -239,9 +239,9 @@ StartupEvents.registry('item', event => {
     .displayName('Arsenic Lupenio')
 	.glow(true)
 
-    event.create('garbage')
-    .texture('ironberry:item/garbage')
-    .displayName('Garbage')
+    // event.create('garbage')
+    // .texture('ironberry:item/garbage')
+    // .displayName('Garbage')
     
     let types = ['cables','cards','misc','ports','access']
     types.forEach(type => {
@@ -251,5 +251,9 @@ StartupEvents.registry('item', event => {
           })
         .displayName('Sack of '+type)
     });
+
+    event.create('tiny_platinum_dust')
+    .texture('ironberry:item/tiny_platinum_dust')
+    .displayName('Tiny pile of Platinum')
 
 })

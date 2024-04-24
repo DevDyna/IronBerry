@@ -30,4 +30,9 @@ ServerEvents.recipes(event => {
     extractor('ae2:charged_certus_quartz_crystal','ae2:certus_quartz_crystal',2,'kubejs:red_power',144)
     extractor('kubejs:thorium','thoriumreactors:thorium',2,'pneumaticcraft:etching_acid',144)
     extractor('kubejs:uranium','thoriumreactors:raw_uranium',2,'pneumaticcraft:etching_acid',144)
+
+    extractor('kubejs:rich_bone_meal', 'thermal:phytogro',1,'pneumaticcraft:etching_acid',750)
+
+
+
 })

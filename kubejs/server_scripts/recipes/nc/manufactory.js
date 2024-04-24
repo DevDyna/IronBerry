@@ -31,7 +31,7 @@ keyname.forEach(name=>{
   
   manu('nuclearcraft:manganese_ingot','nuclearcraft:manganese_dust',1)
   manu('nuclearcraft:graphite_ingot', 'thoriumreactors:graphite_tube',4)
-  
+  manu('minecraft:sand', 'nuclearcraft:silicon_gem',2)
   
 
 })

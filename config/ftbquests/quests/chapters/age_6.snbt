@@ -9,25 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6D22F5E6A3EA85E8"]
-			id: "6CAEDA6D836CFA49"
-			tasks: [{
-				id: "14CCC849DB698CB4"
-				item: "ten3:liquid_bizarrerie_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.0d
-		}
-		{
 			id: "6D22F5E6A3EA85E8"
 			tasks: [{
 				id: "7D3F0F209CF92D1D"
 				item: "ten3:machine_matter_condenser"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			title: "Like UU-matter"
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			id: "38E98AE987854203"
@@ -38,6 +28,26 @@
 			}]
 			x: 1.0d
 			y: -3.0d
+		}
+		{
+			id: "57709975A43DBB22"
+			tasks: [{
+				id: "17B5E0BE2C66BCD8"
+				item: "kubejs:incompleted_machine_frame"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "6914F14F586EAF17"
+			tasks: [{
+				id: "1C196D227EE13E39"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "Age 6"

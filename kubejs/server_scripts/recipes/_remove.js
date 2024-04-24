@@ -202,5 +202,10 @@ ServerEvents.recipes(event => {
     event.remove({
         mod: 'createaddition'
     })
+
+    event.remove({
+        mod: 'ten3'
+    })
+
 })
 

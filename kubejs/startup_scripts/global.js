@@ -923,7 +923,6 @@ global.disabledItem = [
   "ten3:potion_levelup",
   "ten3:channel_connector",
   "ten3:spanner",
-  "ten3:liquid_xp_bucket",
   "ten3:copper_dust",
   "ten3:copper_plate",
   "ten3:blast_levelup",
