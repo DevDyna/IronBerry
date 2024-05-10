@@ -23,6 +23,3 @@ JEIAddedEvents.registerRecipeCatalysts(jei =>{
 	jei.data.addRecipeCatalyst('pedestals:block_pedestal',$jei.mow.COBBLE_GEN_RECIPE)
 
 })
-
-
-

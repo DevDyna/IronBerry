@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cobblestone",
+  "colors": [
+    "caccda",
+    "9a9ca6"
+  ],
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  }
+}
