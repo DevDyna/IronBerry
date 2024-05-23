@@ -45,7 +45,7 @@ smart_reaction(['thoriumreactors:steam','mekanism:steam'],['kubejs:exosteam'])
 
 
 reaction(["minecraft:milk",'nuclearcraft:milk_chocolate'],[250,144],["create:chocolate","nuclearcraft:unsweetened_chocolate"],[288,144])
-
+reaction(['kubejs:crude_plastic','nuclearcraft:nitrogen'],[10,9],['pneumaticcraft:plastic'],[1000])
 
 
 

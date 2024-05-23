@@ -252,4 +252,9 @@ event.create('azure_glass')
 .bucketColor(0xD5F9FF)
 .displayName('Liquid Azure glass')
 
+event.create('crude_plastic')
+.thickTexture(0xF0F0F0)
+.bucketColor(0xF0F0F0)
+.displayName('Crude Plastic')
+
 })

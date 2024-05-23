@@ -764,7 +764,7 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:etching_tank"
   );
   shapex(
-    ["minecraft:observer", "bluepower:blue_doped_wafer", "minecraft:observer"],
+    ['bluepower:quartz_resonator_tile', 'minecraft:observer', 'bluepower:tainted_silicon_chip_tile'],
     "minecraft:daylight_detector"
   );
   shapex(
@@ -1670,5 +1670,22 @@ shapex(['supplementaries:rope', 'create:cogwheel', 'create:turntable'], 'supplem
 shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:millstone')
 shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:large_cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:crushing_wheel')
 shapex(['minecraft:dried_kelp', 'create:iron_sheet', 'minecraft:dried_kelp'], 'create:belt_connector')
+
+shapex(['bluepower:redstone_pointer_tile', 'bluepower:stone_bundle', 'bluepower:redstone_wire_tile'],'logicchips:gate_frame')
+
+shapex(['bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'mekanism:dye_base', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile'],'8x bluepower:stone_bundle')
+
+shapex([
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  'bluepower:indigo_dye',
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  '#ironberry:dyes_no_indigo',
+  
+],'mekanism:dye_base')
 
 });

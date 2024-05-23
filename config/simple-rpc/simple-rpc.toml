@@ -20,7 +20,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -41,7 +41,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -62,7 +62,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -83,7 +83,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -104,7 +104,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -125,7 +125,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -146,7 +146,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -167,7 +167,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image
@@ -186,7 +186,7 @@
 	#The second line of text under the app name
 	state = "IronBerry Expert"
 	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["https://github.com/DevDyna/CurseFiles/blob/main/curse/ironberry/rpc/logo.gif?raw=true"]
+	largeImageKey = ["https://github.com/DevDyna/ContentArchive/blob/main/Ironberry/ds-rpc/logo.gif?raw=true"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID/URL of the image to display as the small image

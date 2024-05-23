@@ -194,7 +194,7 @@ StartupEvents.registry("item", (event) => {
     .tag("bookshelf:pickaxes")
     .tag("forge:tools/axes")
     .tag("forge:tools/pickaxes")
-    .tag("forge:pickaxes")
+    .tag("forge:pickaxes");
 
   event
     .create("hammer", "pickaxe")
@@ -204,7 +204,7 @@ StartupEvents.registry("item", (event) => {
     .displayName("Heavy Hammer")
     .tier("iron")
     .maxDamage(2048)
-    .tag("ironberry:hammer")
+    .tag("ironberry:hammer");
 
   event
     .create("solidified_resin")
@@ -290,61 +290,90 @@ StartupEvents.registry("item", (event) => {
     .displayName("Tiny pile of Platinum");
 
 
+  function augmentme(name, name_sec, is_rare) {
+    let rare = "augment_base";
+    if (is_rare) rare = "creative_augment_base";
+
+    event
+      .create(name)
+      .displayName(
+        name.charAt(0).toUpperCase() +
+          name.slice(1) +" " +
+          name_sec.charAt(0).toUpperCase() +
+          name_sec.slice(1)
+      )
+      .modelJson({
+        parent: "minecraft:item/handheld",
+        textures: {
+          layer0: "thermal:textures/item/augments/" + rare,
+          layer1: "ironberry:textures/item/augment/" + name,
+        },
+      });
+  }
+
+  augmentme("sonic", "augment", true);
+
+  augmentme("lucky", "components", false);
+
+  augmentme("powah", "augment", true);
+
+  augmentme('specific','augment',false)
+
+  event.create('pure_gem')
+  .texture('ironberry:item/lupenio')
+
+
 
   function beeker(type,color,comb) {
+    event
+    .create(type + "bee_egg")
+    .texture("ironberry:item/bee/egg")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Egg')
+    .color(1,color)
+
+    event
+    .create(type + "bee_larva")
+    .texture("ironberry:item/bee/larva")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Larva')
+    .color(1,color)
+
+    event
+    .create(type + "bee_pupa")
+    .texture("ironberry:item/bee/pupa")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Pupa')
+    .color(1,color)
+
+    event
+    .create(type + "_drone")
+    .texture("ironberry:item/bee/drone")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee drone')
+    .color(1,color)
+
+    event
+    .create(type + "_princess")
+    .texture("ironberry:item/bee/princess")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee princess')
+    .color(1,color)
+    
+    event
+    .create(type + "_queen")
+    .texture("ironberry:item/bee/queen")
+    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee queen')
+    .color(1,color)
+
+    if(comb){
       event
-      .create(type + "bee_egg")
-      .texture("ironberry:item/bee/egg")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Egg')
+      .create(type + "_comb")
+      .texture("ironberry:item/bee/comb")
+      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Comb')
       .color(1,color)
+    }
 
-      event
-      .create(type + "bee_larva")
-      .texture("ironberry:item/bee/larva")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Larva')
-      .color(1,color)
+}
+//beeker('standard','#fed668',true)
+//beeker('demo','#2DEE67',true)
 
-      event
-      .create(type + "bee_pupa")
-      .texture("ironberry:item/bee/pupa")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Pupa')
-      .color(1,color)
-
-      event
-      .create(type + "_drone")
-      .texture("ironberry:item/bee/drone")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee drone')
-      .color(1,color)
-
-      event
-      .create(type + "_princess")
-      .texture("ironberry:item/bee/princess")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee princess')
-      .color(1,color)
-      
-      event
-      .create(type + "_queen")
-      .texture("ironberry:item/bee/queen")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee queen')
-      .color(1,color)
-
-      if(comb){
-        event
-        .create(type + "_comb")
-        .texture("ironberry:item/bee/comb")
-        .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Comb')
-        .color(1,color)
-      }
-
-  }
-  beeker('standard','#fed668',true)
-  beeker('demo','#2DEE67',true)
-
-
-
-
-
-
-
+event.create('bee')
+.parentModel('ironberry:item/bee/drone')
 
 });

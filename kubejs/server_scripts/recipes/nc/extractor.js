@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
 
     extractor('kubejs:rich_bone_meal', 'thermal:phytogro',1,'pneumaticcraft:etching_acid',750)
 
-
+    extractor('nuclearcraft:boron_nitride_dust','nuclearcraft:boron_dust',2,'nuclearcraft:nitrogen',144)
+    
 
 })

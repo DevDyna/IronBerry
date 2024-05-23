@@ -33,5 +33,12 @@ keyname.forEach(name=>{
   manu('nuclearcraft:graphite_ingot', 'thoriumreactors:graphite_tube',4)
   manu('minecraft:sand', 'nuclearcraft:silicon_gem',2)
   
+  manu('nuclearcraft:coil_bscco', 'nuclearcraft:bscco_dust',2)
+  manu('nuclearcraft:boron_ingot', 'nuclearcraft:boron_dust',1)
+  manu('thermal:tin_block', 'kubejs:printed_plate',16)
+  
+  manu('nuclearcraft:shibuichi_ingot','nuclearcraft:shibuichi_dust',1)
+  manu('nuclearcraft:tough_alloy_ingot','nuclearcraft:tough_alloy_dust',1)
+  manu('nuclearcraft:thermoconducting_ingot','nuclearcraft:thermoconducting_dust',1)
 
 })

@@ -42,5 +42,7 @@ ServerEvents.recipes((event) => {
   //melter('ae2:certus_quartz_crystal',"kubejs:certus",144)
 
   melter('minecraft:glass','kubejs:glass',1000)
-
+  
+  melter('kubejs:raw_plastic','kubejs:crude_plastic',100)
+  
 });

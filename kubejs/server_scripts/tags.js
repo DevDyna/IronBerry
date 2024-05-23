@@ -1177,7 +1177,15 @@ event.add('ironberry:create_attach',['create:sticker','create:contraption_contro
 
 event.add('ironberry:create_support',['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'])
 
+event.add('ironberry:blue_wires',['bluepower:bluestone_wire_tile', 'bluepower:redstone_wire_tile'])
 
+let dyes = []
+event.get('forge:dyes').getObjectIds().forEach(dy=>{
+  if(dy != 'bluepower:indigo_dye')
+  dyes.push(dy)
+})
+
+event.add('ironberry:dyes_no_indigo',dyes)
 
 });
 

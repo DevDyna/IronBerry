@@ -54,4 +54,7 @@ ServerEvents.recipes(event => {
     infuse('createaddition:cake_base_baked','create:chocolate',144, 'createaddition:chocolate_cake')
     infuse('createaddition:cake_base_baked','cofh_core:honey',144, 'createaddition:honey_cake')
 
+    infuse('minecraft:gold_ingot','kubejs:red_power',144,'thermal:rf_coil')
+    infuse('minecraft:iron_ingot','kubejs:red_power',144,'thermal:redstone_servo')
+
   })

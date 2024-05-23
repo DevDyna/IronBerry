@@ -207,5 +207,13 @@ ServerEvents.recipes(event => {
         mod: 'ten3'
     })
 
+    event.remove({
+        mod: 'logicchips'
+    })
+
+    event.remove({
+        mod: 'extendedcrafting'
+    })
+
 })
 

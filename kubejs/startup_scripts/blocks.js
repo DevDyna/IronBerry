@@ -46,5 +46,15 @@ StartupEvents.registry('block', event => {
     .displayName('Machine Frame Mold')
     .model('ironberry:block/te_machine_frame')
 
+    function cobble(name,color){
+        event.create(name+'_cobblestone')
+        .displayName(name.charAt(0).toUpperCase() +name.slice(1)+' Cobblestone')
+        .hardness(1.0)
+        .soundType('stone')
+        .textureAll('ironberry:block/ancient_cobblestone')
+        .color(1,'#fed668')
+    }
+
+    cobble('space',1)
 
 })

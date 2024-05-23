@@ -901,4 +901,41 @@ less(['4x farmersdelight:wheat_dough'], 'createaddition:cake_base')
 
 less(['bluepower:engine', 'create:brass_casing', 'create:shaft', 'create:copper_casing'],'createaddition:electric_motor')
 
+less(['bluepower:silicon_wafer'], '4x logicchips:chip')
+
+less(['logicchips:chip', 'minecraft:redstone_torch'], 'logicchips:not_gate')
+
+less(['logicchips:not_gate', 'minecraft:redstone_torch'], 'logicchips:or_gate')
+
+less(['logicchips:or_gate', 'minecraft:redstone_torch'], 'logicchips:nor_gate')
+
+less(['minecraft:redstone_torch', 'logicchips:nor_gate', 'minecraft:redstone_torch'], 'logicchips:and_gate')
+
+less(['minecraft:redstone_torch', 'logicchips:and_gate'], 'logicchips:nand_gate')
+
+less(['logicchips:or_gate', 'logicchips:and_gate', 'logicchips:and_gate', 'logicchips:not_gate', 'logicchips:not_gate'], 'logicchips:xor_gate')
+
+less(['logicchips:xor_gate', 'minecraft:redstone_torch'], 'logicchips:xnor_gate')
+
+let gates = ['logicchips:or_gate', 'logicchips:nor_gate', 'logicchips:and_gate', 'logicchips:nand_gate', 'logicchips:xor_gate', 'logicchips:xnor_gate']
+
+gates.forEach(lg=>{
+  less([lg, 'logicchips:chip', 'minecraft:repeater'], lg+'_3')
+})
+
+less(['logicchips:or_gate_3', 'minecraft:redstone_torch'], 'logicchips:nor_gate_3')
+
+less(['minecraft:redstone_torch', 'logicchips:nor_gate_3', 'minecraft:redstone_torch'], 'logicchips:and_gate_3')
+
+less(['minecraft:redstone_torch', 'logicchips:and_gate_3'], 'logicchips:nand_gate_3')
+
+less(['logicchips:or_gate_3', 'logicchips:and_gate_3', 'logicchips:and_gate_3', 'logicchips:not_gate', 'logicchips:not_gate'], 'logicchips:xor_gate_3')
+
+less(['logicchips:xor_gate_3', 'minecraft:redstone_torch'], 'logicchips:xnor_gate_3')
+
+nine_to_one('thermal:tin_ingot','thermal:tin_block')
+nine_to_one('mekanism:ingot_uranium','mekanism:block_uranium')
+
+less(['kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust'],'ten3:tin_dust')
+
 });

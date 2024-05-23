@@ -33,5 +33,5 @@ ServerEvents.recipes(event => {
     former('nuclearcraft:dark_chocolate',144,'nuclearcraft:dark_chocolate')
     former('kubejs:graphite',144,'nuclearcraft:graphite_ingot')
     former('kubejs:fuel_mixture',144,'thoriumreactors:enriched_uranium')
-
+    former('pneumaticcraft:plastic',50,'pneumaticcraft:plastic')
 })
