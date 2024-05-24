@@ -938,4 +938,6 @@ nine_to_one('mekanism:ingot_uranium','mekanism:block_uranium')
 
 less(['kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust'],'ten3:tin_dust')
 
+less(['ars_nouveau:enchanters_eye'],Item.of('ars_nouveau:enchanters_eye', '{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}'))
+
 });

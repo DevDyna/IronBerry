@@ -655,4 +655,27 @@ ServerEvents.recipes((event) => {
     ],
   });
 
+
+  event.custom({
+    type: "pneumaticcraft:pressure_chamber",
+    inputs: [
+      {
+        item: 'ars_nouveau:scryers_crystal',
+      },
+      {
+        item: 'ars_nouveau:source_jar',
+      },
+      {
+        item: 'cyclic:location_data',
+      }
+    ],
+    pressure: 2.5,
+    results: [
+      {
+        item: 'ars_nouveau:enchanters_eye', 
+        nbt:'{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}'
+      },
+    ],
+  });
+
 });

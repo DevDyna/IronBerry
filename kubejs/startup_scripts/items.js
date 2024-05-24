@@ -12,7 +12,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("rose")
     .texture("ironberry:item/rose")
-    .displayName("Rose")
+    //.displayName("Rose")
     .glow(true);
 
   event.create("lore").texture("ironberry:item/lore").displayName("The LORE");
@@ -20,32 +20,32 @@ StartupEvents.registry("item", (event) => {
   event
     .create("raw_plastic")
     .texture("ironberry:item/raw_plastic")
-    .displayName("Raw Plastic");
+    //.displayName("Raw Plastic");
 
   //gems
   event
     .create("alpha")
     .texture("ironberry:item/gems/alpha")
-    .displayName("Alpha");
+    //.displayName("Alpha");
 
-  event.create("beta").texture("ironberry:item/gems/beta").displayName("Beta");
+  event.create("beta").texture("ironberry:item/gems/beta")//.displayName("Beta");
 
   event
     .create("aquamarine")
     .texture("ironberry:item/gems/aquamarine")
-    .displayName("Aquamarine");
+    //.displayName("Aquamarine");
 
-  event.create("jade").texture("ironberry:item/gems/jade").displayName("Jade");
+  event.create("jade").texture("ironberry:item/gems/jade")//.displayName("Jade");
 
   event
     .create("iolite")
     .texture("ironberry:item/gems/iolite")
-    .displayName("Iolite");
+    //.displayName("Iolite");
 
   event
     .create("topaz")
     .texture("ironberry:item/gems/topaz")
-    .displayName("Topaz");
+    //.displayName("Topaz");
 
   //grave guardian spawn
   event
@@ -68,14 +68,14 @@ StartupEvents.registry("item", (event) => {
   event
     .create("iron_rod")
     .texture("ironberry:item/iron_rod")
-    .displayName("Iron Rod");
+    //.displayName("Iron Rod");
 
   event.create("soul").texture("ironberry:item/soul").displayName("Soul jar");
 
   event
     .create("ice_shard")
     .texture("ironberry:item/ice_shard")
-    .displayName("Ice Shard");
+    //.displayName("Ice Shard");
 
   event
     .create("ore_bone_meal")
@@ -114,17 +114,17 @@ StartupEvents.registry("item", (event) => {
   event
     .create("raw_iron_nugget")
     .texture("ironberry:item/raw_iron_nugget")
-    .displayName("Raw Iron Nugget");
+    //.displayName("Raw Iron Nugget");
 
   event
     .create("raw_gold_nugget")
     .texture("ironberry:item/raw_gold_nugget")
-    .displayName("Raw Gold Nugget");
+    //.displayName("Raw Gold Nugget");
 
   event
     .create("raw_copper_nugget")
     .texture("ironberry:item/raw_copper_nugget")
-    .displayName("Raw Copper Nugget");
+    //.displayName("Raw Copper Nugget");
 
   event
     .create("processor")
@@ -139,12 +139,12 @@ StartupEvents.registry("item", (event) => {
   event
     .create("boss_trophy")
     .texture("ironberry:item/boss_trophy")
-    .displayName("Boss Trophy");
+    //.displayName("Boss Trophy");
 
   event
     .create("miniboss_trophy")
     .texture("ironberry:item/miniboss_trophy")
-    .displayName("MiniBoss Trophy");
+    //.displayName("MiniBoss Trophy");
 
   event
     .create("speed_base")
@@ -161,7 +161,7 @@ StartupEvents.registry("item", (event) => {
     .texture("ironberry:item/silicon_plate")
     .displayName("Siliconed Plastic Plate");
 
-  event.create("patina").texture("ironberry:item/patina").displayName("Patina");
+  event.create("patina").texture("ironberry:item/patina")//.displayName("Patina");
 
   event
     .create("assembly_plate")
@@ -171,7 +171,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("printed_plate")
     .texture("ironberry:item/printed_plate")
-    .displayName("Printed Plate");
+    //.displayName("Printed Plate");
 
   event
     .create("crook", "hoe")
@@ -214,7 +214,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("plastic_mixture")
     .texture("ironberry:item/plastic_mixture")
-    .displayName("Plastic Mixture");
+    //.displayName("Plastic Mixture");
 
   event.create("explosion").texture("pneumaticcraft:gui/jei/explosion");
 
@@ -236,12 +236,12 @@ StartupEvents.registry("item", (event) => {
   event
     .create("base_augment")
     .texture("ironberry:item/base_augment")
-    .displayName("Base Augment");
+    //.displayName("Base Augment");
 
   event
     .create("base_module")
     .texture("ironberry:item/base_module")
-    .displayName("Base Module");
+    //.displayName("Base Module");
 
   event
     .create("floreal_bone_meal")
@@ -256,7 +256,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("crystaltine")
     .texture("ironberry:item/crystaltine")
-    .displayName("Crystaltine")
+    //.displayName("Crystaltine")
     .glow(true);
 
   event
@@ -267,7 +267,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("arsenic_lupenio")
     .texture("ironberry:item/lupenio")
-    .displayName("Arsenic Lupenio")
+    //.displayName("Arsenic Lupenio")
     .glow(true);
 
   // event.create('garbage')
@@ -287,7 +287,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("tiny_platinum_dust")
     .texture("ironberry:item/tiny_platinum_dust")
-    .displayName("Tiny pile of Platinum");
+    //.displayName("Tiny pile of Platinum");
 
 
   function augmentme(name, name_sec, is_rare) {
@@ -355,5 +355,11 @@ StartupEvents.registry("item", (event) => {
 beeker('standard','#fed668',true)
 beeker('demo','#2DEE67',true)
 
+
+event.create('net')
+.parentModel("ironberry:item/net")
+.unstackable()
+.texture("ironberry:item/net")
+.displayName("Bee Net")
 
 });
