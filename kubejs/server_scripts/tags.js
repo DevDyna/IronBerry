@@ -1173,6 +1173,8 @@ ServerEvents.tags("item", (event) => {
     "create:framed_glass",
   ]);
 
+  event.add('ironberry:source_gens',['ars_nouveau:mycelial_sourcelink', 'ars_nouveau:agronomic_sourcelink', 'ars_nouveau:alchemical_sourcelink'])
+
 event.add('ironberry:create_attach',['create:sticker','create:contraption_controls', 'create:portable_storage_interface', 'create:redstone_contact', 'create:gantry_carriage', 'create:mechanical_plough', 'create:mechanical_harvester'])
 
 event.add('ironberry:create_support',['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'])

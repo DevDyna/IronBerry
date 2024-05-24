@@ -60,4 +60,22 @@ ServerEvents.recipes(event => {
     }
   })
 
+  event.custom({
+    "type": "ae2:entropy",
+    "input": {
+      "block": {
+        "id": 'bluepower:amethyst_block'
+      }
+    },
+    "mode": "heat",
+    "output": {
+      "block": {
+        "id": 'ars_nouveau:sourcestone'
+      }
+    }
+  })
+
+
+
+
 })

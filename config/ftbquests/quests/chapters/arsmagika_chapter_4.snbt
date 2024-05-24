@@ -2374,7 +2374,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["29B980DF97BE93DB"]
@@ -2642,6 +2642,28 @@
 			}]
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2EEA85762E3ABE98"]
+			description: ["When you bound it on a Scry Crystal that look directly a lectern , it can be used to access wireless"]
+			id: "42C4205CFE236DF9"
+			rewards: [{
+				id: "06B307EF5ED6349D"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E85688EB2F4928"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Wireless Access Point"
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Pressurizzed Chaos and Magic Creatures"]

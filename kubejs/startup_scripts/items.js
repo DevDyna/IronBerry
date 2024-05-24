@@ -326,38 +326,20 @@ StartupEvents.registry("item", (event) => {
 
   function beeker(type,color,comb) {
     event
-    .create(type + "bee_egg")
+    .create(type + "_bee_egg")
     .texture("ironberry:item/bee/egg")
     .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Egg')
     .color(1,color)
 
     event
-    .create(type + "bee_larva")
-    .texture("ironberry:item/bee/larva")
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Larva')
-    .color(1,color)
-
-    event
-    .create(type + "bee_pupa")
-    .texture("ironberry:item/bee/pupa")
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Pupa')
-    .color(1,color)
-
-    event
     .create(type + "_drone")
-    .texture("ironberry:item/bee/drone")
+    .parentModel('ironberry:item/bee/drone')
     .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee drone')
-    .color(1,color)
-
-    event
-    .create(type + "_princess")
-    .texture("ironberry:item/bee/princess")
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee princess')
     .color(1,color)
     
     event
     .create(type + "_queen")
-    .texture("ironberry:item/bee/queen")
+    .parentModel('ironberry:item/bee/queen')
     .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee queen')
     .color(1,color)
 
@@ -370,10 +352,8 @@ StartupEvents.registry("item", (event) => {
     }
 
 }
-//beeker('standard','#fed668',true)
-//beeker('demo','#2DEE67',true)
+beeker('standard','#fed668',true)
+beeker('demo','#2DEE67',true)
 
-event.create('bee')
-.parentModel('ironberry:item/bee/drone')
 
 });

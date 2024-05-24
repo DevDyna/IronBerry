@@ -1540,7 +1540,6 @@ global.disabledItem = [
   "ars_nouveau:shapers_focus",
   "ars_nouveau:amethyst_golem_charm",
   "ars_nouveau:annotated_codex",
-  "ars_nouveau:enchanters_eye",
   "ars_nouveau:mage_block",
   "ars_nouveau:wixie_cauldron",
   "ars_nouveau:sconce",
