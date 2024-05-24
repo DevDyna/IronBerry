@@ -630,7 +630,7 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:fishing", [
-    'minecraft:kelp',
+    "minecraft:kelp",
     "minecraft:phantom_membrane",
     "minecraft:chicken",
     "minecraft:feather",
@@ -1173,25 +1173,74 @@ ServerEvents.tags("item", (event) => {
     "create:framed_glass",
   ]);
 
-  event.add('ironberry:source_gens',['ars_nouveau:mycelial_sourcelink', 'ars_nouveau:agronomic_sourcelink', 'ars_nouveau:alchemical_sourcelink'])
+  event.add("ironberry:source_gens", [
+    "ars_nouveau:mycelial_sourcelink",
+    "ars_nouveau:agronomic_sourcelink",
+    "ars_nouveau:alchemical_sourcelink",
+  ]);
 
-event.add('ironberry:create_attach',['create:sticker','create:contraption_controls', 'create:portable_storage_interface', 'create:redstone_contact', 'create:gantry_carriage', 'create:mechanical_plough', 'create:mechanical_harvester'])
+  event.add("ironberry:create_attach", [
+    "create:sticker",
+    "create:contraption_controls",
+    "create:portable_storage_interface",
+    "create:redstone_contact",
+    "create:gantry_carriage",
+    "create:mechanical_plough",
+    "create:mechanical_harvester",
+  ]);
 
-event.add('ironberry:create_support',['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'])
+  event.add("ironberry:create_support", [
+    "create:radial_chassis",
+    "create:linear_chassis",
+    "create:secondary_linear_chassis",
+  ]);
 
-event.add('ironberry:blue_wires',['bluepower:bluestone_wire_tile', 'bluepower:redstone_wire_tile'])
+  event.add("ironberry:blue_wires", [
+    "bluepower:bluestone_wire_tile",
+    "bluepower:redstone_wire_tile",
+  ]);
 
-let dyes = []
-event.get('forge:dyes').getObjectIds().forEach(dy=>{
-  if(dy != 'bluepower:indigo_dye')
-  dyes.push(dy)
-})
+  let dyes = [];
+  event
+    .get("forge:dyes")
+    .getObjectIds()
+    .forEach((dy) => {
+      if (dy != "bluepower:indigo_dye") dyes.push(dy);
+    });
 
-event.add('ironberry:dyes_no_indigo',dyes)
-
+  event.add("ironberry:dyes_no_indigo", dyes);
 });
 
 ServerEvents.tags("block", (event) => {
+  event.add("ironberry:egg_blacklist", [
+    "create:placard",
+    "create:redstone_link",
+    "create:mechanical_saw",
+    "create:smart_chute",
+    "create:weighted_ejector",
+    "create:depot",
+    "create:stockpile_switch",
+    "create:content_observer",
+    "create:brass_tunnel",
+    "create:brass_funnel",
+    "create:deployer",
+    "essentials:brazier",
+    "essentials:hopper_filter",
+    "ars_nouveau:arcane_platform",
+    "ars_nouveau:arcane_pedestal",
+    "extendedcrafting:pedestal",
+    "pedestals:block_pedestal",
+    "supplementaries:pedestal",
+    "sophisticatedstorage:limited_barrel_1",
+    "sophisticatedstorage:limited_barrel_2",
+    "sophisticatedstorage:limited_barrel_3",
+    "sophisticatedstorage:limited_barrel_4",
+    "sophisticatedstorage:limited_iron_barrel_4",
+    "sophisticatedstorage:limited_iron_barrel_3",
+    "sophisticatedstorage:limited_iron_barrel_2",
+    "sophisticatedstorage:limited_iron_barrel_1",
+  ]);
+
   //tombstone graves on data.block.tombstone value
   event
     .get("tombstone:decorative_graves")

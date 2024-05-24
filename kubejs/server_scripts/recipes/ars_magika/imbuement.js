@@ -38,12 +38,12 @@ ServerEvents.recipes((event) => {
     "ars_nouveau:smooth_gilded_sourcestone_alternating",
   ]);
 
-  imbue('#forge:stone', "ars_nouveau:sourcestone", 8, 2500, [
+  imbue('#forge:stone', "ars_nouveau:sourcestone", 8, 5000, [
     '#ironberry:source_gens',
     '#ironberry:source_gens',
     'ars_nouveau:source_jar', 'ars_nouveau:relay_collector', 'ars_nouveau:relay_deposit', 'ars_nouveau:imbuement_chamber',
   ]);
 
-  imbue('#forge:stone', "ars_nouveau:sourcestone", 16, 0, ['ae2:charged_staff', 'ae2:entropy_manipulator', 'kubejs:grave_spawn', 'ars_nouveau:drygmy_charm', 'ars_nouveau:starbuncle_charm', 'ars_nouveau:bookwyrm_charm', 'kubejs:omni', 'tombstone:voodoo_poppet', 'kubejs:illuminati']);
+  imbue('#forge:stone', "ars_nouveau:sourcestone", 16, 0, ['minecraft:enchanted_golden_apple', 'reactive:mind_bottle', 'reactive:soul_bottle', 'reactive:verdant_bottle', 'reactive:body_bottle', 'reactive:light_bottle', 'reactive:acid_bottle','ae2:charged_staff', 'ae2:entropy_manipulator', 'kubejs:grave_spawn', 'ars_nouveau:drygmy_charm', 'ars_nouveau:starbuncle_charm', 'ars_nouveau:bookwyrm_charm', 'kubejs:omni', 'tombstone:voodoo_poppet', 'kubejs:illuminati']);
   
 });
