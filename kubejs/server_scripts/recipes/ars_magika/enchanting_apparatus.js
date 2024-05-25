@@ -60,6 +60,7 @@ EnApp('minecraft:golden_apple',['quark:golden_apple_crate', 'quark:golden_apple_
 	EnApp('pneumaticcraft:compressed_iron_chestplate',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_chestplate',100,true)
 	EnApp('pneumaticcraft:compressed_iron_helmet',['pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:upgrade_matrix', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card', 'pneumaticcraft:module_expansion_card'],'pneumaticcraft:pneumatic_helmet',100,true)
 
+    EnApp('ars_nouveau:source_gem_block',['ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal','ars_nouveau:arcane_pedestal'],'ars_nouveau:ritual_brazier',0,false)
 
 
 

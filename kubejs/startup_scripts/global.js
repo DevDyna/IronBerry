@@ -587,7 +587,6 @@ global.disabledItem = [
   "nuclearcraft:pressurizer",
   "nuclearcraft:steam_turbine",
   "ars_nouveau:brazier_relay",
-  "ars_nouveau:ritual_brazier",
   "#mekanism:dirty_dusts",
   "cobblefordays:tier_1",
   "cobblefordays:tier_2",

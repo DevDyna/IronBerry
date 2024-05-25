@@ -282,7 +282,7 @@ ServerEvents.recipes((event) => {
       },
     ],
     tool: {
-      item: "ironberry:hammer",
+      item: "kubejs:hammer",
     },
   });
   //
@@ -300,7 +300,7 @@ ServerEvents.recipes((event) => {
       },
     ],
     tool: {
-      item: "ironberry:hammer",
+      item: "kubejs:hammer",
     },
   });
   //
@@ -315,22 +315,22 @@ ServerEvents.recipes((event) => {
     ],
     result: [
       {
-        chance: 0.25,
+        chance: 0.15,
         count: 1,
         item: "twilightforest:maze_map_focus",
       },
       {
-        chance: 0.25,
+        chance: 0.15,
         count: 1,
         item: "twilightforest:maze_map_focus",
       },
       {
-        chance: 0.25,
+        chance: 0.15,
         count: 1,
         item: "twilightforest:maze_map_focus",
       },
       {
-        chance: 0.25,
+        chance: 0.15,
         count: 1,
         item: "twilightforest:maze_map_focus",
       },

@@ -89,7 +89,8 @@ ItemEvents.tooltip((event) => {
 
   //tiplessless('#ironberry:ritual_tablets')
   tip_replace("#ironberry:gift_loot");
-
+  tipplusplus(['ars_nouveau:ritual_wilden_summon', 'ars_nouveau:ritual_awakening'],"§4Ritual Disabled")
+  
   let source = [
     ["acid", "§c"],
     ["body", "§4"],
@@ -503,6 +504,8 @@ ItemEvents.tooltip((event) => {
   tipplusplus("ten3:machine_psionicant", "§4aka 2x slots smeltery");
   tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
   tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst");
+
+
 });
 
 /* TO TRY
