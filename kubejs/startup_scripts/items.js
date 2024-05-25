@@ -204,7 +204,6 @@ StartupEvents.registry("item", (event) => {
     .displayName("Heavy Hammer")
     .tier("iron")
     .maxDamage(2048)
-    .tag("ironberry:hammer");
 
   event
     .create("solidified_resin")

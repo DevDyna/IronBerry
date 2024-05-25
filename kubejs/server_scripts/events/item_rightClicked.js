@@ -130,7 +130,7 @@ ItemEvents.rightClicked("kubejs:illuminati", (event) => {
   }
 });
 //############################### BEE .NET ##########################//
-ItemEvents.rightClicked((event) => {
+ItemEvents.rightClicked("kubejs:net",(event) => {
   const { item, hand, player } = event;
   const {entity} = player.rayTrace(2.5)
   const {block} = entity
@@ -139,12 +139,10 @@ ItemEvents.rightClicked((event) => {
   if (
     hand == "MAIN_HAND" &&
     entity != null &&
-    entity.type == "minecraft:bee" &&
-    item.id == "kubejs:net"
+    entity.type == "minecraft:bee"
   ) {
     block.popItem("kubejs:standard_drone")
     entity.setRemoved('unloaded_to_chunk')
-    
     player.swing()
   }
 });

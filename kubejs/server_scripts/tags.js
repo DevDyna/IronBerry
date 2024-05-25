@@ -1209,6 +1209,13 @@ ServerEvents.tags("item", (event) => {
     });
 
   event.add("ironberry:dyes_no_indigo", dyes);
+
+
+  event.add('ironberry:mino_axes',['twilightforest:gold_minotaur_axe', 'twilightforest:diamond_minotaur_axe'])
+
+
+
+
 });
 
 ServerEvents.tags("block", (event) => {

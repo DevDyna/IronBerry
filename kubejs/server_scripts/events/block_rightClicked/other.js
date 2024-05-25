@@ -1,8 +1,7 @@
 //############################### PHOENIX EGG DUPE ##########################//
 BlockEvents.rightClicked("exoticbirds:phoenix_egg", (event) => {
   if (
-    (event.player.mainHandItem.id === "tiab:time_in_a_bottle" ||
-      event.player.offHandItem.id === "tiab:time_in_a_bottle") &&
+    event.item === "tiab:time_in_a_bottle" &&
     event.player.isCrouching()
   ) {
     event.cancel();
@@ -115,7 +114,7 @@ BlockEvents.rightClicked((event) => {
   if (inv.count(item) && event.player.mainHandItem == "kubejs:grave_spawn") {
     event.player.swing();
 
-    if (!event.block.hasTag('ironberry:egg_blacklist')) {
+    if (!event.block.hasTag("ironberry:egg_blacklist")) {
       let compost = event.level.createEntity("tombstone:grave_guardian");
       compost.y = event.block.y + 1;
       compost.x = event.block.x + 0.5;
@@ -129,7 +128,30 @@ BlockEvents.rightClicked((event) => {
     }
   }
 });
+//############################### BEE SPAWN ##########################//
+BlockEvents.rightClicked((event) => {
+  let item = event.getItem();
+  let inv = event.player.inventory;
 
+  if (inv.count(item) && event.player.mainHandItem == "kubejs:standard_drone") {
+    event.player.swing();
+
+    if (!event.block.hasTag("ironberry:egg_blacklist")) {
+      let compost = event.level.createEntity("minecraft:bee");
+      compost.y = event.block.y + 1;
+      compost.x = event.block.x + 0.5;
+      compost.z = event.block.z + 0.5;
+      compost.mergeNbt({});
+      compost.spawn();
+    }
+
+    if (!event.player.isCreative()) {
+      inv.extractItem(inv.find("kubejs:standard_drone"), 1, false);
+    }
+  }
+});
+
+//############################### CREATE OVERRIDE ##########################//
 BlockEvents.rightClicked((event) => {
   if (event.item == "create:andesite_casing" && event.block == "create:shaft") {
     event.item.count--;
@@ -143,5 +165,26 @@ BlockEvents.rightClicked((event) => {
     event.block == "create:andesite_encased_shaft"
   ) {
     event.player.give("create:andesite_casing");
+  }
+});
+//############################### Rituals remover ##########################//
+const FakePlayer = Java.loadClass("net.minecraftforge.common.util.FakePlayer")
+//const BluePlayer = Java.loadClass('com.bluepowermod.tile.tier1.TileDeployer')
+BlockEvents.rightClicked("ars_nouveau:ritual_brazier", (event) => {
+  const { server, item ,player, block, entity} = event;
+  if(entity instanceof FakePlayer) {
+    block.createExplosion().explode()
+  }
+
+  if (
+    item.id == "ars_nouveau:ritual_binding" ||
+    item.id == "ars_nouveau:ritual_wilden_summon"
+  ) {
+    server.runCommandSilent(
+      "/title " +
+        player.name.string +
+        ' actionbar {"color":"red","text":"This ritual was disabled"}'
+    );
+    event.cancel();
   }
 });

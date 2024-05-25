@@ -286,6 +286,16 @@
 			x: 0.0d
 			y: -7.0d
 		}
+		{
+			id: "4326A28648C10C9E"
+			tasks: [{
+				id: "4AC660A714424EDB"
+				item: "kubejs:net"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
 	]
 	title: "Age 6"
 }
