@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_6"
-	group: "0AB07CEFAAABA228"
+	group: ""
 	icon: "ten3:indigo"
 	id: "208C2C6949C0260D"
 	images: [
@@ -15,8 +15,8 @@
 			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -3.0d
+			x: -6.0d
+			y: -8.0d
 		}
 		{
 			click: ""
@@ -27,8 +27,8 @@
 			image: "laboratoryblocks:block/right-faced_green_signaling_laboratory_block"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: -2.0d
+			x: -8.0d
+			y: -8.0d
 		}
 		{
 			click: ""
@@ -39,11 +39,23 @@
 			image: "laboratoryblocks:block/right-faced_blue_signaling_laboratory_block"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -1.0d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.0d
+			y: -5.0d
 		}
 	]
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,7 +67,7 @@
 				type: "item"
 			}]
 			title: "Like UU-matter"
-			x: -6.0d
+			x: -5.0d
 			y: -3.0d
 		}
 		{
@@ -66,7 +78,7 @@
 				item: "kubejs:incompleted_machine_frame"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -7.0d
 		}
 		{
@@ -88,16 +100,17 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["7EA7F280C5CA268E"]
 			id: "7687425CB113909B"
 			tasks: [{
 				id: "299F2D015BF0042E"
 				item: "thermal:machine_refinery"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -107,20 +120,22 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["6914F14F586EAF17"]
 			id: "4A8B8A9325922D05"
 			tasks: [{
 				id: "3BB3D55C873385B9"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -8.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["6914F14F586EAF17"]
 			id: "2C077566C969E2B7"
 			tasks: [{
 				id: "4DF5D17C5A14AE07"
@@ -131,38 +146,41 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["6914F14F586EAF17"]
 			id: "6FDDE15EB99730EC"
 			tasks: [{
 				id: "786BE1F2D5249FDC"
 				item: "ten3:machine_compressor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["6914F14F586EAF17"]
 			id: "0207EA5B40FA3F26"
 			tasks: [{
 				id: "4501BAC1BA83AC58"
 				item: "ten3:machine_refiner"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["6914F14F586EAF17"]
 			id: "66DE2ACFF007F667"
 			tasks: [{
 				id: "799D5E68FE205C1E"
 				item: "thermal:machine_crafter"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			id: "378525760E332AE4"
@@ -171,8 +189,8 @@
 				item: "thermal:machine_crystallizer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			id: "3D6441A38F368100"
@@ -181,8 +199,8 @@
 				item: "thermal:machine_brewer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			id: "0592D94FE5ECFC74"
@@ -191,28 +209,28 @@
 				item: "thermal:machine_sawmill"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["6D22F5E6A3EA85E8"]
 			id: "7EA7F280C5CA268E"
 			tasks: [{
 				id: "170AD53858B817B5"
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7EA7F280C5CA268E"]
 			id: "2A9B7327A5375549"
 			tasks: [{
 				id: "30B90DD7CAF89F94"
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -222,8 +240,8 @@
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			id: "128E03D2EF42216F"
@@ -242,8 +260,8 @@
 				item: "thermal:machine_chiller"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "46CC3EAD2C599568"
@@ -252,8 +270,8 @@
 				item: "thermal:machine_pyrolyzer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			id: "20F3B55056E21F5E"
@@ -262,8 +280,8 @@
 				item: "thermal:machine_bottler"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			id: "79557BCDFB2B9A2F"
@@ -272,8 +290,8 @@
 				item: "nuclearcraft:plate_elite"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["79557BCDFB2B9A2F"]
@@ -283,8 +301,8 @@
 				item: "nuclearcraft:plate_extreme"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			id: "4326A28648C10C9E"
@@ -293,8 +311,18 @@
 				item: "kubejs:net"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -9.0d
 			y: -6.0d
+		}
+		{
+			id: "0126FBFCD83D4408"
+			tasks: [{
+				id: "4D0216D6563C1713"
+				item: "thoriumreactors:depleted_molten_salt_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
 		}
 	]
 	title: "Age 6"

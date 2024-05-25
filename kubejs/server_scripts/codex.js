@@ -47,6 +47,15 @@ function ItemAndCount(value, count) {
     }
 }
 //return as json + count value
+function ItemAndChance(value, chance) {
+    if (chance == 1.0) {
+    return JsonMakeItem(value)
+} else return {
+    "item": value,
+    "chance": chance
+}
+}
+//return as json + count value
 function FluidAndCount(value, count) {
     if (count < 2) {
     return JsonMakeFluid(value)
@@ -67,6 +76,8 @@ function JsonMakeFluid(value) {
         "fluid": value
     }
 }
+
+
 //cut all except the string between the walls and return
 function doublewall(string, start, end) {
     try {

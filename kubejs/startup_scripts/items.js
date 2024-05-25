@@ -321,40 +321,6 @@ StartupEvents.registry("item", (event) => {
   event.create('pure_gem')
   .texture('ironberry:item/lupenio')
 
-
-
-  function beeker(type,color,comb) {
-    event
-    .create(type + "_bee_egg")
-    .texture("ironberry:item/bee/egg")
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+'Bee Egg')
-    .color(1,color)
-
-    event
-    .create(type + "_drone")
-    .parentModel('ironberry:item/bee/drone')
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee drone')
-    .color(1,color)
-    
-    event
-    .create(type + "_queen")
-    .parentModel('ironberry:item/bee/queen')
-    .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Bee queen')
-    .color(1,color)
-
-    if(comb){
-      event
-      .create(type + "_comb")
-      .texture("ironberry:item/bee/comb")
-      .displayName(type.charAt(0).toUpperCase() + type.slice(1)+' Comb')
-      .color(1,color)
-    }
-
-}
-beeker('standard','#fed668',true)
-beeker('demo','#2DEE67',true)
-
-
 event.create('net')
 .parentModel("ironberry:item/net")
 .unstackable()

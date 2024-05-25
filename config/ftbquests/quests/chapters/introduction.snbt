@@ -399,7 +399,7 @@
 			y: -7.505714285714291d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -561,6 +561,8 @@
 				"- Many items are disabled or removed from this modpack (like some PNC machines) included on JEI"
 				""
 				"- Some block drops are changed so dont play like vanilla !"
+				"{@pagebreak}"
+				"- Everything can be automated !"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:campfire"

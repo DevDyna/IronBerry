@@ -879,8 +879,8 @@
 				type: "item"
 			}]
 			title: "More Flasks"
-			x: 8.0d
-			y: -12.0d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
@@ -970,8 +970,8 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: 7.302721088435369d
-			y: -10.413690476190482d
+			x: 9.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6241AF156E12230C"]
@@ -2664,6 +2664,18 @@
 			title: "Wireless Access Point"
 			x: 4.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["5856ACD8338DB76C"]
+			id: "2FD78241EBBFCB42"
+			shape: "diamond"
+			tasks: [{
+				id: "2FB6DB9D2B680CBD"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -13.0d
 		}
 	]
 	subtitle: ["Pressurizzed Chaos and Magic Creatures"]

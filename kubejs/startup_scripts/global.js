@@ -3,6 +3,8 @@ Platform.mods.ten3.name = "Tech Expansion 3";
 
 global.nc = { energy: 500, speed: 0.5, rad: 0.0 }; //global default value for NC
 
+global.te = {energy:10000,modifier:1.0,experience:0.0}
+
 global.dye = [
   "cyan",
   "white",
@@ -2311,3 +2313,26 @@ global.recipes = {
     "warped",
   ],
 };
+
+global.server = {
+  ten3: {
+    compressor:Function,
+    psionicant:Function,
+    refiner:Function,
+  },
+  thermal:{
+    brewer:Function,
+    centrifuge:Function,
+    chiller:Function,
+    crystallizer:Function,
+    encapsulator:Function,
+    induction:Function,
+    isolator:Function,
+    magma:Function,
+    press:Function,
+    pulverizer:Function,
+    pyrolizer:Function,
+    refinery:Function,
+    sawmill:Function,
+  }
+}
