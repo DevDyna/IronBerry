@@ -2,14 +2,14 @@
  *
  * @param {item|itemtag} input
  * @param {item} output max 4
- * @param {int} count
+ * @param {float} chance
  */
-global.server.thermal.pulverizer = (input, output, count) => {
+server.thermal.pulverizer = (input, output, chance) => {
   ServerEvents.recipes((event) => {
     event.custom({
       type: "thermal:pulverizer",
       ingredient: ItemOrTag(input),
-      result: ItemAndCount(output, count),
+      result: ItemAndChance(output, chance),
       experience: global.te.experience,
       energy: global.te.energy,
       energy_mod: global.te.modifier,

@@ -7,7 +7,7 @@
  * @param {item} output
  * @param {int} out_count
  */
-global.server.thermal.encapsulator = (
+server.thermal.encapsulator = (
   input,
   in_count,
   fluid,

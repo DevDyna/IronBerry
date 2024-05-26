@@ -7,7 +7,7 @@
  * @param {item} output
  * @param {int} out_count
  */
-global.server.thermal.crystallizer = (
+server.thermal.crystallizer = (
   fluid,
   amount,
   catalyst,

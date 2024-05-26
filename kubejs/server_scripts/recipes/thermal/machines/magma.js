@@ -4,7 +4,7 @@
  * @param {fluid} fluid
  * @param {int} amount
  */
-global.server.thermal.magma = (input, fluid, amount) => {
+server.thermal.magma = (input, fluid, amount) => {
   ServerEvents.recipes((event) => {
     event.custom({
       type: "thermal:crucible",

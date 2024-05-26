@@ -4,7 +4,7 @@
  * @param {item[]|itemtag[]} output max 4
  * @param {float} chance
  */
-global.server.thermal.sawmill = (input, output, chance) => {
+server.thermal.sawmill = (input, output, chance) => {
   ServerEvents.recipes((event) => {
     let list = [];
     output.forEach((element, index) => {

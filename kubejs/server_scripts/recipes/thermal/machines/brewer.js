@@ -6,7 +6,7 @@
  * @param {fluid} output
  * @param {int} amount_out
  */
-global.server.thermal.brewer = (
+server.thermal.brewer = (
   input,
   amount_in,
   catalyst,

@@ -2,12 +2,12 @@
  *
  * @param {item|itemtag} input
  * @param {int} in_count
- * @param {item[]|itemtag} output max 4
+ * @param {item[]|itemtag[]} output max 4
  * @param {int} out_count
  * @param {fluid} fluid
  * @param {int} amount
  */
-global.server.thermal.centrifuge = (input, in_count, output, out_count,fluid,amount) => {
+server.thermal.centrifuge = (input, in_count, output, out_count,fluid,amount) => {
   ServerEvents.recipes((event) => {
     let list = [];
     output.forEach((element,index) => {

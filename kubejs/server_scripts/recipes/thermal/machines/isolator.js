@@ -4,7 +4,7 @@
  * @param {item[]|itemtag[]} result
  * @param {float[]} result_chance 1.0 => 100%
  */
-global.server.thermal.insolator = (sapling, result, result_chance) => {
+server.thermal.insolator = (sapling, result, result_chance) => {
   ServerEvents.recipes((event) => {
     let list = [];
     result.forEach((element, index) => {

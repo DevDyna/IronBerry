@@ -8,7 +8,7 @@
  * @param {fluid} fluid
  * @param {int} amount
  */
-global.server.thermal.press = (input, in_count, die, output, out_count,fluid,amount) => {
+server.thermal.press = (input, in_count, die, output, out_count,fluid,amount) => {
   ServerEvents.recipes((event) => {
     event.custom({
       type: "thermal:press",

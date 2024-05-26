@@ -1,9 +1,10 @@
+//priority 999
 Platform.mods.kubejs.name = "Ironberry Core";
 Platform.mods.ten3.name = "Tech Expansion 3";
 
 global.nc = { energy: 500, speed: 0.5, rad: 0.0 }; //global default value for NC
 
-global.te = {energy:10000,modifier:1.0,experience:0.0}
+global.te = { energy: 10000, modifier: 1.0, experience: 0.0 };
 
 global.dye = [
   "cyan",
@@ -46,10 +47,57 @@ global.whitelistGasses = [
   "kubejs:pyrotheum",
   "kubejs:exosteam",
 ];
+global.disabledItem = Array;
 
 global.disabledItem = [
-  'create:oxidized_copper_shingle_stairs', 'create:weathered_copper_shingle_stairs', 'create:exposed_copper_shingle_stairs', 'create:copper_shingle_stairs', 'create:oxidized_copper_shingle_slab', 'create:weathered_copper_shingle_slab', 'create:exposed_copper_shingle_slab', 'create:copper_shingle_slab', 'create:oxidized_copper_shingles', 'create:weathered_copper_shingles', 'create:exposed_copper_shingles', 'create:copper_shingles',
-  'create:waxed_oxidized_copper_tile_stairs', 'create:waxed_weathered_copper_tile_stairs', 'create:waxed_exposed_copper_tile_stairs', 'create:waxed_copper_tile_stairs', 'create:waxed_oxidized_copper_tile_slab', 'create:waxed_weathered_copper_tile_slab', 'create:waxed_exposed_copper_tile_slab', 'create:waxed_copper_tile_slab', 'create:waxed_oxidized_copper_tiles', 'create:waxed_copper_shingles', 'create:waxed_exposed_copper_shingles', 'create:waxed_weathered_copper_shingles', 'create:waxed_oxidized_copper_shingles', 'create:waxed_copper_shingle_slab', 'create:waxed_exposed_copper_shingle_slab', 'create:waxed_weathered_copper_shingle_slab', 'create:waxed_oxidized_copper_shingle_slab', 'create:waxed_copper_shingle_stairs', 'create:waxed_exposed_copper_shingle_stairs', 'create:waxed_weathered_copper_shingle_stairs', 'create:waxed_oxidized_copper_shingle_stairs', 'create:copper_tiles', 'create:exposed_copper_tiles', 'create:weathered_copper_tiles', 'create:oxidized_copper_tiles', 'create:copper_tile_slab', 'create:exposed_copper_tile_slab', 'create:weathered_copper_tile_slab', 'create:oxidized_copper_tile_slab', 'create:copper_tile_stairs', 'create:exposed_copper_tile_stairs', 'create:weathered_copper_tile_stairs', 'create:oxidized_copper_tile_stairs', 'create:waxed_copper_tiles', 'create:waxed_exposed_copper_tiles', 'create:waxed_weathered_copper_tiles',
+  "create:oxidized_copper_shingle_stairs",
+  "create:weathered_copper_shingle_stairs",
+  "create:exposed_copper_shingle_stairs",
+  "create:copper_shingle_stairs",
+  "create:oxidized_copper_shingle_slab",
+  "create:weathered_copper_shingle_slab",
+  "create:exposed_copper_shingle_slab",
+  "create:copper_shingle_slab",
+  "create:oxidized_copper_shingles",
+  "create:weathered_copper_shingles",
+  "create:exposed_copper_shingles",
+  "create:copper_shingles",
+  "create:waxed_oxidized_copper_tile_stairs",
+  "create:waxed_weathered_copper_tile_stairs",
+  "create:waxed_exposed_copper_tile_stairs",
+  "create:waxed_copper_tile_stairs",
+  "create:waxed_oxidized_copper_tile_slab",
+  "create:waxed_weathered_copper_tile_slab",
+  "create:waxed_exposed_copper_tile_slab",
+  "create:waxed_copper_tile_slab",
+  "create:waxed_oxidized_copper_tiles",
+  "create:waxed_copper_shingles",
+  "create:waxed_exposed_copper_shingles",
+  "create:waxed_weathered_copper_shingles",
+  "create:waxed_oxidized_copper_shingles",
+  "create:waxed_copper_shingle_slab",
+  "create:waxed_exposed_copper_shingle_slab",
+  "create:waxed_weathered_copper_shingle_slab",
+  "create:waxed_oxidized_copper_shingle_slab",
+  "create:waxed_copper_shingle_stairs",
+  "create:waxed_exposed_copper_shingle_stairs",
+  "create:waxed_weathered_copper_shingle_stairs",
+  "create:waxed_oxidized_copper_shingle_stairs",
+  "create:copper_tiles",
+  "create:exposed_copper_tiles",
+  "create:weathered_copper_tiles",
+  "create:oxidized_copper_tiles",
+  "create:copper_tile_slab",
+  "create:exposed_copper_tile_slab",
+  "create:weathered_copper_tile_slab",
+  "create:oxidized_copper_tile_slab",
+  "create:copper_tile_stairs",
+  "create:exposed_copper_tile_stairs",
+  "create:weathered_copper_tile_stairs",
+  "create:oxidized_copper_tile_stairs",
+  "create:waxed_copper_tiles",
+  "create:waxed_exposed_copper_tiles",
+  "create:waxed_weathered_copper_tiles",
   "createaddition:digital_adapter",
   "createaddition:biomass_pellet_block",
   "createaddition:portable_energy_interface",
@@ -2074,7 +2122,7 @@ global.disabledItem = [
   "bluepower:brass_nugget",
   "bluepower:brass_ingot",
   "create:copper_nugget",
-  'create:experience_block',
+  "create:experience_block",
 ];
 
 global.clearNBT = [
@@ -2314,25 +2362,4 @@ global.recipes = {
   ],
 };
 
-global.server = {
-  ten3: {
-    compressor:Function,
-    psionicant:Function,
-    refiner:Function,
-  },
-  thermal:{
-    brewer:Function,
-    centrifuge:Function,
-    chiller:Function,
-    crystallizer:Function,
-    encapsulator:Function,
-    induction:Function,
-    isolator:Function,
-    magma:Function,
-    press:Function,
-    pulverizer:Function,
-    pyrolizer:Function,
-    refinery:Function,
-    sawmill:Function,
-  }
-}
+

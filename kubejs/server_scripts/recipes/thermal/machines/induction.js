@@ -5,7 +5,7 @@
  * @param {item|itemtag} output max 4
  * @param {int} out_count 
  */
-global.server.thermal.induction = (items,in_count,output,out_count) => {
+server.thermal.induction = (items,in_count,output,out_count) => {
 ServerEvents.recipes(event=>{
 let input = []
 items.forEach((element,index) => {

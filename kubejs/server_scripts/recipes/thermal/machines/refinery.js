@@ -7,7 +7,7 @@
  * @param {fluid[]} out_fluids max 2
  * @param {int[]} out_amounts max 2
  */
-global.server.thermal.refinery = (input,amount,item_out,chance,out_fluids,out_amounts) =>{
+server.thermal.refinery = (input,amount,item_out,chance,out_fluids,out_amounts) =>{
 ServerEvents.recipes(event=>{
 let list = []
 if(typeof item_out != undefined){

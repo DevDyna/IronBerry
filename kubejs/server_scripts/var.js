@@ -54,3 +54,8 @@ data.block.soils = [
     'essentials:fertile_soil_jungle',
     'essentials:fertile_soil_dark_oak',
     'essentials:fertile_soil_carrot']
+
+ const server = {
+        ten3: {},
+        thermal: {},
+      };
