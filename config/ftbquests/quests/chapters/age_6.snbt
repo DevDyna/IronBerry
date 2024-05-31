@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_6"
-	group: ""
+	group: "0AB07CEFAAABA228"
 	icon: "ten3:indigo"
 	id: "208C2C6949C0260D"
 	images: [
@@ -56,7 +56,7 @@
 			y: -5.0d
 		}
 	]
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
