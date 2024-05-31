@@ -6,156 +6,169 @@ if you want play you need to know that!
  
 Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron berries you can obtain iron , iron to craft better machinery to process much better the iron berries and start reactions and on more..... try to see now!
 
-#
+<br/>
+<br/>
 
-## Latest Changelog:
+# LATEST CHANGELOG:
 
-### issue: 
-fixed [#17](https://github.com/DevDyna/IronBerry/issues/17)
+## #issue: 
+    fixed #17
 
-### mods:
-updated all mods
-downgraded again Nuclearcraft to v1.0.2 due kubejs inconsistency
+## #mods:
+    updated all mods
+    downgraded again Nuclearcraft to v1.0.2 due kubejs inconsistency
+<br/>
 
-added logic chips
+    added logic chips
 
-    - all corrispective recipes are added
+        - all corrispective recipes are added
+<br/>
 
-added thermal endergy
+    added thermal endergy
 
-    - not yet added
+        - not yet added
+        
+<br/>
 
-added world play time
+    added world play time
+    
+<br/>
 
-readded extended crafting
+    readded extended crafting
 
-    - not yet added
+        - not yet added
 
-### quests:
+### #quests:
 
-@ ars-gateway
+    @ ars-gateway
 
-    - added enchanters eye
+        - added enchanters eye
+<br/>
 
-@ introduction
+    @ introduction
 
-    - reworked gamerule quest
+        - reworked gamerule quest
 
-### kubejs:
+### #kubejs:
 
-@ jei
+    @ jei
 
-    - added liquid xp bucket on convertion
+        - added liquid xp bucket on convertion
 
-    - added tooltip on blacklisted ritual tablets
+        - added tooltip on blacklisted ritual tablets
 
-    - added depleted uranium on convertion
+        - added depleted uranium on convertion
+<br/>
 
-@ things
+    @ things
 
-    - added tiny platinum dust
+        - added tiny platinum dust
 
-    - added crude plastic (fluid)
+        - added crude plastic (fluid)
 
-    - added all wip template items
+        - added all wip template items
 
-    - removed useless custom displayName
+        - removed useless custom displayName
 
-@ textures
+<br/>
 
-    - modified shibuichi
+    @ textures
 
-    - added all wip template items
+        - modified shibuichi
 
-@ recipes
+        - added all wip template items
+<br/>
 
-    - modified incomplete machine frame
+    @ recipes
 
-    - modified complete machine frame 
+        - modified incomplete machine frame
 
-    - added all machines from age 6 are made on functions
+        - modified complete machine frame 
 
-    - added all logic chips recipes
+        - added all machines from age 6 are made on functions
 
-    - fixed assembly redstone processor recipe
+        - added all logic chips recipes
 
-    - added redstone servo and rf coil
+        - fixed assembly redstone processor recipe
 
-    - added bsco , boron , shibuichi , though alloy and thermoconducting -> dust form
+        - added redstone servo and rf coil
 
-    - modified daylight sensor recipe
+        - added bsco , boron , shibuichi , though alloy and thermoconducting -> dust form
 
-    - added recipe for platinum dust
+        - modified daylight sensor recipe
 
-    - fixed missing recipe for uranium and tin block
+        - added recipe for platinum dust
 
-    - added recipe for enchanted eye
+        - fixed missing recipe for uranium and tin block
 
-    - fixed missing recipe for sourcestone
+        - added recipe for enchanted eye
 
-    - reworked all imbuement recipe schema
+        - fixed missing recipe for sourcestone
 
-    - added recipe for ritual blazier
+        - reworked all imbuement recipe schema
+    
+        - added recipe for ritual blazier
     
     
+        @ alternative
+
+            - added etching acid
+
+            - added silicon gem
+
+            - added pnc (fluid) plastic
+
+            - added nc (fluid) nitrogen
+
+            - added printed plate
+
+            - new recipes to obtain multiple alloy dusts from advanced resources
+
+            - added multiple imbue sourcestone recipes without source cost
+
+            - added maze map focus recipe
+
+            - added recipe for domino
+
+
+<br/>
+
+    @ events
+
+        - reworked phoenix egg dupe
+
+        - reworked grave guardian egg
+
+            + now include a blacklist of blocks to disable duplication
     
+        - added net event
+
+        - blacklisted too powerful ritual blazier rituals
+
+        - added bee comeback (spawn)
+
+<br/>
+
+    @ loot
+
+        - increased drop of maze map focus from minotaurs
+
+<br/>
+
+    @ other
+
+        - re-added ritual blazier
+
+        - re-enabled enchanted eye
+
+        - re-enabled dye base
+
+        - added new function ItemAndChance(value, chance)
+
+### #config:
+
+    - modified extended crafting config
     
-    @ alternative
-
-        - added etching acid
-
-        - added silicon gem
-
-        - added pnc (fluid) plastic
-
-        - added nc (fluid) nitrogen
-
-        - added printed plate
-
-        - new recipes to obtain multiple alloy dusts from advanced resources
-
-        - added multiple imbue sourcestone recipes without source cost
-
-        - added maze map focus recipe
-
-        - added recipe for domino
-
-
-
-
-@ events
-
-    - reworked phoenix egg dupe
-
-    - reworked grave guardian egg
-
-        + now include a blacklist of blocks to disable duplication
-    
-    - added net event
-
-    - blacklisted too powerful ritual blazier rituals
-
-    - added bee comeback (spawn)
-
-@ loot
-
-    - increased drop of maze map focus from minotaurs
-
-
-@ other
-
-    - re-added ritual blazier
-
-    - re-enabled enchanted eye
-
-    - re-enabled dye base
-
-    - added new function ItemAndChance(value, chance)
-
-@ ### config:
-
-modified extended crafting config
-
-ds-rpg moved from CurseFiles to ContentArchive 
+    - ds-rpg moved from CurseFiles to ContentArchive 
 
 #
