@@ -149,10 +149,10 @@ readded extended crafting
     - re-enabled enchanted eye
 
     - re-enabled dye base
-    
+
     - added new function ItemAndChance(value, chance)
 
-### config:
+@ ### config:
 
 modified extended crafting config
 
