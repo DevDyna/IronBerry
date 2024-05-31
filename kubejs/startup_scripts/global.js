@@ -2362,4 +2362,11 @@ global.recipes = {
   ],
 };
 
-
+global.BeeItems = {
+input : [
+ // [],[]
+],
+output: [
+ // [],[]
+]
+};

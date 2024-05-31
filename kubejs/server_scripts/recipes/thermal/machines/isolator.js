@@ -4,7 +4,7 @@
  * @param {item[]|itemtag[]} result
  * @param {float[]} result_chance 1.0 => 100%
  */
-server.thermal.insolator = (sapling, result, result_chance) => {
+function TEinsolator(sapling, result, result_chance) {
   ServerEvents.recipes((event) => {
     let list = [];
     result.forEach((element, index) => {
@@ -20,4 +20,4 @@ server.thermal.insolator = (sapling, result, result_chance) => {
       water_mod: 0.1,
     });
   });
-};
+}

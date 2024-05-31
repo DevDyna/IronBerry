@@ -6,7 +6,7 @@
  * @param {fluid[]} fluid optional
  * @param {int[]} amount
  */
-server.thermal.pyrolizer = (input, output, chance, fluid, amount) => {
+function TEpyrolizer(input, output, chance, fluid, amount) {
   ServerEvents.recipes((event) => {
     let result = [];
     if (typeof output != undefined) {
@@ -16,7 +16,7 @@ server.thermal.pyrolizer = (input, output, chance, fluid, amount) => {
     }
 
     if (typeof fluid != undefined) {
-        result.push(FluidAndCount(fluid, amount));
+      result.push(FluidAndCount(fluid, amount));
     }
 
     event.custom({
@@ -28,4 +28,4 @@ server.thermal.pyrolizer = (input, output, chance, fluid, amount) => {
       energy_mod: global.te.modifier,
     });
   });
-};
+}

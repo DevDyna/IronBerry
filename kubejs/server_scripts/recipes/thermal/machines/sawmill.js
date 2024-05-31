@@ -4,7 +4,7 @@
  * @param {item[]|itemtag[]} output max 4
  * @param {float} chance
  */
-server.thermal.sawmill = (input, output, chance) => {
+function TEsawmill(input, output, chance) {
   ServerEvents.recipes((event) => {
     let list = [];
     output.forEach((element, index) => {
@@ -20,4 +20,4 @@ server.thermal.sawmill = (input, output, chance) => {
       energy_mod: global.te.modifier,
     });
   });
-};
+}

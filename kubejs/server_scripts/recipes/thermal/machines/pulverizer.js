@@ -4,7 +4,7 @@
  * @param {item} output max 4
  * @param {float} chance
  */
-server.thermal.pulverizer = (input, output, chance) => {
+function TEpulverizer(input, output, chance) {
   ServerEvents.recipes((event) => {
     event.custom({
       type: "thermal:pulverizer",
@@ -15,4 +15,4 @@ server.thermal.pulverizer = (input, output, chance) => {
       energy_mod: global.te.modifier,
     });
   });
-};
+}

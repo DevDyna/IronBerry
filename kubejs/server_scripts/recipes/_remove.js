@@ -215,5 +215,8 @@ ServerEvents.recipes(event => {
         mod: 'extendedcrafting'
     })
 
+    event.remove({
+        mod: 'thermalendergy'
+    })
 })
 

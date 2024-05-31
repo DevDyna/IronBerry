@@ -4,7 +4,7 @@
  * @param {fluid} fluid
  * @param {int} amount
  */
-server.thermal.magma = (input, fluid, amount) => {
+function TEmagma(input, fluid, amount) {
   ServerEvents.recipes((event) => {
     event.custom({
       type: "thermal:crucible",
@@ -15,4 +15,4 @@ server.thermal.magma = (input, fluid, amount) => {
       energy_mod: global.te.modifier,
     });
   });
-};
+}

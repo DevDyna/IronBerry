@@ -7,20 +7,20 @@
  * @param {fluid} fluid
  * @param {int} amount
  */
-server.thermal.centrifuge = (input, in_count, output, out_count,fluid,amount) => {
+function TEcentrifuge(input, in_count, output, out_count, fluid, amount) {
   ServerEvents.recipes((event) => {
     let list = [];
-    output.forEach((element,index) => {
+    output.forEach((element, index) => {
       list.push(ItemOrTagAndCount(element, out_count[index]));
     });
-    list.push(FluidAndCount(fluid,amount))
+    list.push(FluidAndCount(fluid, amount));
     event.custom({
       type: "thermal:centrifuge",
       ingredient: ItemOrTagAndCount(input, in_count),
       result: list,
-      "experience": global.te.experience,
-      "energy": global.te.energy,
-      "energy_mod": global.te.modifier
+      experience: global.te.experience,
+      energy: global.te.energy,
+      energy_mod: global.te.modifier,
     });
   });
-};
+}
