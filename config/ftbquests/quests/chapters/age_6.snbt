@@ -366,6 +366,16 @@
 			x: 6.0d
 			y: -6.0d
 		}
+		{
+			id: "26BD9A9ABADA2705"
+			tasks: [{
+				id: "398F84406087BAEF"
+				item: "thermalendergy:melodium_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
 	]
 	title: "Age 6"
 }

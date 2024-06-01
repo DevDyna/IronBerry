@@ -321,7 +321,10 @@ StartupEvents.registry("item", (event) => {
     event
     .create("mini_pellet")
     .texture("ironberry:item/mini_pellet")
-    .displayName('Mini-Fuel Pellet')
+    .displayName('Mini Fuel Pellet')
 
+    event.create('base_tank')
+    .modelJson({"parent":"mekanism:block/chemical_tank/base","textures":{"valve":"ironberry:item/valve"}})
+    .displayName("Chemical Tank")
     
 });

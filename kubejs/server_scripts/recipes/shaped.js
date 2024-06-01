@@ -1882,4 +1882,48 @@ ServerEvents.recipes((event) => {
       store[index + 1]
     );
   });
+
+
+  shapex(['ten3:powered_tin_nugget', 'ae2:formation_core', 'ten3:powered_tin_nugget', 'ae2:formation_core', 'ae2:engineering_processor', 'ae2:formation_core', 'ten3:powered_tin_nugget', 'ae2:formation_core', 'ten3:powered_tin_nugget'],'ae2:pattern_provider')
+  shapex(['thoriumreactors:chromium_nugget', 'ae2:annihilation_core', 'thoriumreactors:chromium_nugget', 'ae2:annihilation_core', 'ae2:engineering_processor', 'ae2:annihilation_core', 'thoriumreactors:chromium_nugget', 'ae2:annihilation_core', 'thoriumreactors:chromium_nugget'],'ae2:interface')
+
+shapex(['ae2:formation_core', 'ae2:quartz_vibrant_glass', 'ae2:annihilation_core', 'ae2:quartz_vibrant_glass', 'rftoolsutility:crafter3', 'ae2:quartz_vibrant_glass', 'ae2:annihilation_core', 'ae2:quartz_vibrant_glass', 'ae2:formation_core'],'ae2:molecular_assembler')
+
+shapex(['minecraft:gold_ingot', 'ae2:quartz_vibrant_glass', 'minecraft:gold_ingot', 'ae2:quartz_vibrant_glass', 'ars_nouveau:source_gem', 'ae2:quartz_vibrant_glass', 'minecraft:gold_ingot', 'ae2:quartz_vibrant_glass', 'minecraft:gold_ingot'],'arseng:source_acceptor')
+
+shapex(['ae2:sky_dust', 'pneumaticcraft:assembly_io_unit_import', 'ae2:sky_dust', 'ae2:sky_dust', 'pneumaticcraft:assembly_controller', 'ae2:sky_dust', 'ae2:sky_dust', 'pneumaticcraft:assembly_io_unit_export', 'ae2:sky_dust'],'ae2:crafting_unit')
+
+shapex(['ae2:crafting_unit', 'ae2:molecular_assembler'], 'expatternprovider:ingredient_buffer')
+
+let cpu = ['ae2:1k_crafting_storage', 'ae2:4k_crafting_storage', 'ae2:16k_crafting_storage', 'ae2:64k_crafting_storage', 'ae2:256k_crafting_storage']
+
+store.forEach((element,index)=>{
+less(['ae2:crafting_unit',element],cpu[index])
+})
+
+
+shapex(['minecraft:air','ae2:fluix_crystal','minecraft:air', 'minecraft:iron_nugget', 'laboratoryblocks:iron_screw', 'minecraft:iron_nugget'],'ae2:wireless_receiver')
+
+bigstick('ae2:wireless_receiver', 'ae2wtlib:wireless_pattern_encoding_terminal', 'ae2:dense_energy_cell', 'ae2:pattern_encoding_terminal')
+
+bigstick('ae2:wireless_receiver', 'ae2wtlib:wireless_pattern_access_terminal', 'ae2:dense_energy_cell', 'ae2:pattern_access_terminal')
+
+shapex(['ae2:sky_dust', 'create:andesite_tunnel', 'ae2:sky_dust', 'create:brass_tunnel', 'ae2:interface', 'create:brass_tunnel', 'ae2:sky_dust', 'create:andesite_tunnel', 'ae2:sky_dust'],'4x ae2:me_p2p_tunnel')
+
+shapex(['thermal:invar_nugget', 'thermal:invar_nugget', 'thermal:invar_nugget', 'ten3:powered_tin_nugget', 'create:clipboard', 'thermal:invar_nugget', 'thermal:invar_nugget', 'thermal:invar_nugget', 'thermal:invar_nugget'],'ae2:blank_pattern')
+
+function holding(ingot,block,middle,output){
+  shapex([ingot,block,ingot,ingot,middle,ingot,ingot,block,ingot],output)
+}
+holding('minecraft:iron_ingot', 'ars_nouveau:repository', 'ae2:blank_pattern', 'ae2:item_cell_housing')
+holding('mekanism:ingot_refined_obsidian', 'create:item_vault', 'ae2:item_cell_housing', 'ae2things:disk_housing')
+holding('minecraft:copper_ingot', 'cyclic:tank', 'ae2:blank_pattern', 'ae2:fluid_cell_housing')
+holding('mekanism:ingot_osmium', 'kubejs:base_tank', 'ae2:blank_pattern', 'appmek:chemical_cell_housing')
+holding('minecraft:gold_ingot', 'ars_nouveau:source_jar', 'ae2:blank_pattern', 'arseng:source_cell_housing')
+
+shapex(['ae2:crafting_unit', 'ae2:crafting_unit', 'ae2:crafting_unit', 'ae2:crafting_unit', 'ten3:powered_tin_nugget', 'ae2:crafting_unit', 'ae2:crafting_unit', 'ae2:crafting_unit', 'ae2:crafting_unit'],'ae2:quantum_ring')
+shapex(['ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:fluix_pearl', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass', 'ae2:quartz_vibrant_glass'],'ae2:quantum_link')
+
+
+
 });

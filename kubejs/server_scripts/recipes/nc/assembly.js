@@ -167,11 +167,12 @@ smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','
 smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_reactor_logic_adapter'], 'thoriumreactors:turbine_power_port')
 
 assembly(['ten3:tin_dust','kubejs:mini_pellet'],[1,1],'ten3:tin_ingot',1)
-assembly(['ten3:powered_tin_dust','kubejs:mini_pellet'],[1,1],'ten3:powered_tin_ingot',1)
 
 tiny_assembly(
   ['ae2:tiny_tnt','kubejs:mini_pellet',"ten3:tin_nugget",'thoriumreactors:molybdenum_nugget', 'thermal:enderium_nugget'],
   "ten3:powered_tin_nugget",3
 );
+
+assembly(['thermalendergy:melodium_coin','mekanismgenerators:gas_burning_generator', 'ae2:controller', 'arseng:source_acceptor', 'ae2:energy_acceptor', 'thoriumreactors:depleted_uranium'],[4,1,1,1,1,1], 'ae2:creative_energy_cell',1)
 
 })

@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
 
 
     remid([
+        'ae2:network/blocks/interfaces_interface',
+        'ae2:network/blocks/pattern_providers_interface',
         'ten3:induction_furnace/azure_glass',
         'ten3:vanilla/redstone_ai',
         'ten3:vanilla/detector',

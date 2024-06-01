@@ -188,4 +188,7 @@ ServerEvents.recipes(event => {
 
         alloy(['minecraft:andesite', 'create:zinc_nugget'],[1,1],'create:andesite_alloy',2)
         
+        alloy(['ae2:quantum_ring', 'ae2:quantum_link', 'ae2:wireless_access_point', 'ten3:powered_tin_nugget'],[8,1,2,1], 'expatternprovider:wireless_connect',1)
+
+
     })

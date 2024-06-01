@@ -180,6 +180,10 @@ event.replaceInput({id:'bluepower:diamond_drawplate'},'minecraft:diamond','minec
 event.replaceInput({id:'ae2:network/blocks/inscribers'},'minecraft:copper_ingot','ae2:charger')
 event.replaceInput({id:'ae2:network/blocks/inscribers'},'minecraft:sticky_piston','ae2:certus_quartz_crystal')
 
-event.replaceInput({id:'ae2:semi_dark_monitor'},'minecraft:redstone','ars_nouveau:storage_lectern')
+event.replaceInput({id:'ae2:network/parts/panels_semi_dark_monitor'},'minecraft:redstone','ars_nouveau:storage_lectern')
+
+event.replaceInput({output:'ae2:pattern_encoding_terminal'},'ae2:engineering_processor','ten3:powered_tin_ingot')
+
+event.replaceInput({output:'ae2:pattern_access_terminal'},'ae2:pattern_provider', 'ae2:logic_processor')
 
 })
