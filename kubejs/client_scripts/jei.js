@@ -78,13 +78,55 @@ JEIEvents.addItems((event) => {
 //   event.hideAll()
 // });
 
-JEIEvents.hideItems(event=>{
-    event.hide(/nuclearcraft:(?:\w+_bucket)/)
-})
+JEIEvents.hideItems((event) => {
+  event.hide(/nuclearcraft:(?:\w+_bucket)/);
+});
 
 JEIEvents.addItems((event) => {
-  event.add(Item.of('ae2:facade', '{item:"minecraft:stone"}'))
-  event.add(Item.of('bluepower:half_block', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.half_block"}],"translate":"block.minecraft.stone"}\'}}'))
-  event.add(Item.of('bluepower:panel', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.panel"}],"translate":"block.minecraft.stone"}\'}}'))
-  event.add(Item.of('bluepower:cover', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.cover"}],"translate":"block.minecraft.stone"}\'}}'))
+  let list = [
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:f",id:"pneumaticcraft:ethanol"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:f",id:"pneumaticcraft:biodiesel"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:i",id:"minecraft:sand"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:i",id:"minecraft:stone"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:i",id:"minecraft:gravel"}}'
+    ),
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:i",id:"minecraft:dirt"}}'
+    ),
+    Item.of("ae2:facade", '{item:"minecraft:stone"}'),
+    Item.of(
+      "bluepower:half_block",
+      '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.half_block"}],"translate":"block.minecraft.stone"}\'}}'
+    ),
+    Item.of(
+      "bluepower:panel",
+      '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.panel"}],"translate":"block.minecraft.stone"}\'}}'
+    ),
+    Item.of(
+      "bluepower:cover",
+      '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.cover"}],"translate":"block.minecraft.stone"}\'}}'
+    ),
+  ];
+  list.forEach((element) => {
+    event.add(element);
+  });
 });

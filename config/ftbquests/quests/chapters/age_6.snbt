@@ -52,8 +52,8 @@
 			image: "ftblibrary:icons/star"
 			rotation: 0.0d
 			width: 5.0d
-			x: 7.0d
-			y: -5.0d
+			x: 9.0d
+			y: 1.0d
 		}
 	]
 	order_index: 6
@@ -322,8 +322,49 @@
 				item: "thoriumreactors:depleted_molten_salt_bucket"
 				type: "item"
 			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "6DEDCF6C73525F05"
+			tasks: [{
+				id: "5D29E80BB9994EF5"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
 			x: 3.0d
-			y: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "586D88225E3E4879"
+			tasks: [{
+				id: "5F0B9779842A53E6"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			id: "78C7FD675FD460EA"
+			tasks: [{
+				id: "1C3B76600CE7F21B"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["78C7FD675FD460EA"]
+			id: "2A8F898323695082"
+			tasks: [{
+				id: "39CF3054376BC828"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
 		}
 	]
 	title: "Age 6"

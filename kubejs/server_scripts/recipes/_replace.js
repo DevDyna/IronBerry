@@ -180,5 +180,6 @@ event.replaceInput({id:'bluepower:diamond_drawplate'},'minecraft:diamond','minec
 event.replaceInput({id:'ae2:network/blocks/inscribers'},'minecraft:copper_ingot','ae2:charger')
 event.replaceInput({id:'ae2:network/blocks/inscribers'},'minecraft:sticky_piston','ae2:certus_quartz_crystal')
 
+event.replaceInput({id:'ae2:semi_dark_monitor'},'minecraft:redstone','ars_nouveau:storage_lectern')
 
 })

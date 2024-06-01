@@ -468,12 +468,14 @@ ServerEvents.recipes((event) => {
     B: 'minecraft:bricks'
     }) */
 
+  let counter = 0;
   /**
    *
    * @param {item[]} items
    * @param {item} result
    */
   function shapex(items, result) {
+    counter++;
     event
       .shaped(result, ["ABC", "DEF", "GHI"], {
         A: items[0],
@@ -486,7 +488,7 @@ ServerEvents.recipes((event) => {
         H: items[7],
         I: items[8],
       })
-      .id(RegX(items + "_" + result).replace(/[0-9\s]/g, ""));
+      .id(RegX(items + "_" + result).replace(/[0-9\s]/g, "") + counter);
   }
 
   function shaplus(item_input, slot_input, output) {
@@ -764,7 +766,11 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:etching_tank"
   );
   shapex(
-    ['bluepower:quartz_resonator_tile', 'minecraft:observer', 'bluepower:tainted_silicon_chip_tile'],
+    [
+      "bluepower:quartz_resonator_tile",
+      "minecraft:observer",
+      "bluepower:tainted_silicon_chip_tile",
+    ],
     "minecraft:daylight_detector"
   );
   shapex(
@@ -1653,40 +1659,227 @@ ServerEvents.recipes((event) => {
     "essentials:multi_piston"
   );
 
-  shapex(['create:andesite_alloy', 'create:andesite_casing', 'create:andesite_alloy', 'minecraft:oak_planks', 'create:railway_casing', 'minecraft:oak_planks', 'create:andesite_alloy', 'create:andesite_casing', 'create:andesite_alloy'],'4x create:radial_chassis')
+  shapex(
+    [
+      "create:andesite_alloy",
+      "create:andesite_casing",
+      "create:andesite_alloy",
+      "minecraft:oak_planks",
+      "create:railway_casing",
+      "minecraft:oak_planks",
+      "create:andesite_alloy",
+      "create:andesite_casing",
+      "create:andesite_alloy",
+    ],
+    "4x create:radial_chassis"
+  );
 
-stick('create:precision_mechanism','create:brass_casing', 'create:rotation_speed_controller')
+  stick(
+    "create:precision_mechanism",
+    "create:brass_casing",
+    "create:rotation_speed_controller"
+  );
 
-stick('#minecraft:wooden_slabs', 'create:metal_girder', 'create:schematic_table')
+  stick(
+    "#minecraft:wooden_slabs",
+    "create:metal_girder",
+    "create:schematic_table"
+  );
 
-stick('create:andesite_alloy', 'create:andesite_casing', 'create:depot')
+  stick("create:andesite_alloy", "create:andesite_casing", "create:depot");
 
-shapex(['create:redstone_link', 'create:turntable', 'create:redstone_link', 'create:redstone_link', 'create:placard', 'create:redstone_link', 'create:redstone_link', 'minecraft:redstone', 'create:redstone_link'],'create:linked_controller')
+  shapex(
+    [
+      "create:redstone_link",
+      "create:turntable",
+      "create:redstone_link",
+      "create:redstone_link",
+      "create:placard",
+      "create:redstone_link",
+      "create:redstone_link",
+      "minecraft:redstone",
+      "create:redstone_link",
+    ],
+    "create:linked_controller"
+  );
 
-shapex(['create:large_cogwheel', 'create:precision_mechanism', 'create:cogwheel', 'create:shaft', 'energymeter:meter', 'create:shaft'],'create:speedometer')
+  shapex(
+    [
+      "create:large_cogwheel",
+      "create:precision_mechanism",
+      "create:cogwheel",
+      "create:shaft",
+      "energymeter:meter",
+      "create:shaft",
+    ],
+    "create:speedometer"
+  );
 
-shapex(['supplementaries:rope', 'create:cogwheel', 'create:turntable'], 'supplementaries:pulley_block')
+  shapex(
+    ["supplementaries:rope", "create:cogwheel", "create:turntable"],
+    "supplementaries:pulley_block"
+  );
 
-shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:millstone')
-shapex(['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy', 'create:large_cogwheel', 'create:andesite_alloy', 'create:andesite_alloy', 'create:shaft', 'create:andesite_alloy'],'create:crushing_wheel')
-shapex(['minecraft:dried_kelp', 'create:iron_sheet', 'minecraft:dried_kelp'], 'create:belt_connector')
+  shapex(
+    [
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:cogwheel",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:shaft",
+      "create:andesite_alloy",
+    ],
+    "create:millstone"
+  );
+  shapex(
+    [
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:large_cogwheel",
+      "create:andesite_alloy",
+      "create:andesite_alloy",
+      "create:shaft",
+      "create:andesite_alloy",
+    ],
+    "create:crushing_wheel"
+  );
+  shapex(
+    ["minecraft:dried_kelp", "create:iron_sheet", "minecraft:dried_kelp"],
+    "create:belt_connector"
+  );
 
-shapex(['bluepower:redstone_pointer_tile', 'bluepower:stone_bundle', 'bluepower:redstone_wire_tile'],'logicchips:gate_frame')
+  shapex(
+    [
+      "bluepower:redstone_pointer_tile",
+      "bluepower:stone_bundle",
+      "bluepower:redstone_wire_tile",
+    ],
+    "logicchips:gate_frame"
+  );
 
-shapex(['bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'bluepower:redstone_wire_tile', 'mekanism:dye_base', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile', 'bluepower:bluestone_wire_tile'],'8x bluepower:stone_bundle')
+  shapex(
+    [
+      "bluepower:redstone_wire_tile",
+      "bluepower:redstone_wire_tile",
+      "bluepower:redstone_wire_tile",
+      "bluepower:redstone_wire_tile",
+      "mekanism:dye_base",
+      "bluepower:bluestone_wire_tile",
+      "bluepower:bluestone_wire_tile",
+      "bluepower:bluestone_wire_tile",
+      "bluepower:bluestone_wire_tile",
+    ],
+    "8x bluepower:stone_bundle"
+  );
 
-shapex([
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  'bluepower:indigo_dye',
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  '#ironberry:dyes_no_indigo',
-  
-],'mekanism:dye_base')
+  shapex(
+    [
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+      "bluepower:indigo_dye",
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+      "#ironberry:dyes_no_indigo",
+    ],
+    "mekanism:dye_base"
+  );
 
-shapex(['thermal:invar_plate', 'thermal:invar_nugget', 'thermal:invar_plate', 'thermal:invar_nugget', 'thermal:constantan_ingot', 'thermal:invar_nugget', 'thermal:invar_plate', 'thermal:invar_nugget', 'thermal:invar_plate'],'kubejs:holder')
+  shapex(
+    [
+      "thermal:invar_plate",
+      "thermal:invar_nugget",
+      "thermal:invar_plate",
+      "thermal:invar_nugget",
+      "thermal:constantan_ingot",
+      "thermal:invar_nugget",
+      "thermal:invar_plate",
+      "thermal:invar_nugget",
+      "thermal:invar_plate",
+    ],
+    "kubejs:holder"
+  );
+
+  function star(cover, center, result) {
+    shapex(
+      [
+        "minecraft:air",
+        cover,
+        "minecraft:air",
+        cover,
+        center,
+        cover,
+        "minecraft:air",
+        cover,
+        "minecraft:air",
+      ],
+      result
+    );
+  }
+
+  star("kubejs:manganese_nugget", "kubejs:holder", "ae2:annihilation_core");
+  star("thermal:constantan_nugget", "kubejs:holder", "ae2:formation_core");
+
+  shapex(
+    [
+      "nuclearcraft:hard_carbon_ingot",
+      "ae2:cell_component_256k",
+      "nuclearcraft:hard_carbon_ingot",
+      "ae2:cell_component_256k",
+      "kubejs:pure_gem",
+      "ae2:cell_component_256k",
+      "nuclearcraft:hard_carbon_ingot",
+      "ae2:cell_component_256k",
+      "nuclearcraft:hard_carbon_ingot",
+    ],
+    "kubejs:cell_base"
+  );
+
+  shapex(
+    [
+      "ae2:logic_processor",
+      "ae2:calculation_processor",
+      "ae2:logic_processor",
+      "ae2:calculation_processor",
+      "ae2:engineering_processor",
+      "ae2:calculation_processor",
+      "ae2:logic_processor",
+      "ae2:calculation_processor",
+      "ae2:logic_processor",
+    ],
+    "ae2:cell_component_1k"
+  );
+
+  let store = [
+    "ae2:cell_component_1k",
+    "ae2:cell_component_4k",
+    "ae2:cell_component_16k",
+    "ae2:cell_component_64k",
+    "ae2:cell_component_256k",
+  ];
+
+  store.forEach((element, index) => {
+    if (element == "ae2:cell_component_256k") return;
+    shapex(
+      [
+        "ae2:formation_core",
+        "ae2:annihilation_core",
+        "ae2:formation_core",
+        "ae2:annihilation_core",
+        element,
+        "ae2:annihilation_core",
+        "ae2:formation_core",
+        "ae2:annihilation_core",
+        "ae2:formation_core",
+      ],
+      store[index + 1]
+    );
+  });
 });

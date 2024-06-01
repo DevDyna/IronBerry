@@ -103,8 +103,12 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
-    'ae2:engineering_processor', 'ae2:calculation_processor', 'ae2:logic_processor',
-    'ars_nouveau:ritual_brazier',
+    "ae2:formation_core",
+    "ae2:annihilation_core",
+    "ae2:engineering_processor",
+    "ae2:calculation_processor",
+    "ae2:logic_processor",
+    "ars_nouveau:ritual_brazier",
     "ten3:redstone_storer",
     "ten3:redstone_conductor",
     "ae2:advanced_card",
@@ -296,6 +300,7 @@ ServerEvents.tags("item", (event) => {
 
   //recipe input side removed (as ingrendient)
   event.add("ironberry:input", [
+    'ae2:crafting_accelerator',
     "pneumaticcraft:upgrade_matrix",
     "cyclic:gem_amber",
     "cyclic:gem_obsidian",
@@ -314,6 +319,7 @@ ServerEvents.tags("item", (event) => {
 
   //recipe any side removed
   event.add("ironberry:any", [
+    'ae2:cell_component_1k', 'ae2:cell_component_4k', 'ae2:cell_component_16k', 'ae2:cell_component_64k', 'ae2:cell_component_256k',
     "ae2:chest",
     "mekanism:advanced_control_circuit",
     "mekanism:ultimate_control_circuit",
@@ -1212,12 +1218,15 @@ ServerEvents.tags("item", (event) => {
 
   event.add("ironberry:dyes_no_indigo", dyes);
 
+  event.add("ironberry:mino_axes", [
+    "twilightforest:gold_minotaur_axe",
+    "twilightforest:diamond_minotaur_axe",
+  ]);
 
-  event.add('ironberry:mino_axes',['twilightforest:gold_minotaur_axe', 'twilightforest:diamond_minotaur_axe'])
-
-
-
-
+  event.add("ironberry:infinity_cells", [
+    "kubejs:cell_base",
+    "expatternprovider:infinity_cell",
+  ]);
 });
 
 ServerEvents.tags("block", (event) => {

@@ -315,6 +315,6 @@ StartupEvents.registry("item", (event) => {
 
   event
     .create("manganese_nugget")
-    .texture("mekanism:item/nugget")
-    .color(0, 0x7182ca);
+    .texture("thermal:item/invar_nugget")
+    .color(0, 0xA1ACE2);
 });

@@ -850,103 +850,390 @@ ServerEvents.recipes((event) => {
     });
   });
 
-  less(['#ironberry:te_filter','create:andesite_alloy'],'4x create:filter')
-  less(['#ironberry:te_filter','create:brass_ingot'],'4x create:attribute_filter')
-  less(['minecraft:paper', 'create:filter'],'create:clipboard')
-  less(['create:rose_quartz_block', 'minecraft:redstone'],'create:rose_quartz_lamp')
+  less(["#ironberry:te_filter", "create:andesite_alloy"], "4x create:filter");
+  less(
+    ["#ironberry:te_filter", "create:brass_ingot"],
+    "4x create:attribute_filter"
+  );
+  less(["minecraft:paper", "create:filter"], "create:clipboard");
+  less(
+    ["create:rose_quartz_block", "minecraft:redstone"],
+    "create:rose_quartz_lamp"
+  );
 
-  global.recipes.woods.forEach(wood=>{
-	less(['minecraft:glass', 'minecraft:'+wood+'_planks'],'2x create:'+wood+'_window')
-  })
+  global.recipes.woods.forEach((wood) => {
+    less(
+      ["minecraft:glass", "minecraft:" + wood + "_planks"],
+      "2x create:" + wood + "_window"
+    );
+  });
 
-  less(['minecraft:glass','create:andesite_alloy'],'create:ornate_iron_window')
+  less(
+    ["minecraft:glass", "create:andesite_alloy"],
+    "create:ornate_iron_window"
+  );
 
+  less(
+    ["essentials:multi_piston", "create:andesite_casing"],
+    "create:mechanical_piston"
+  );
 
+  less(
+    ["essentials:multi_piston_sticky", "create:andesite_casing"],
+    "create:sticky_mechanical_piston"
+  );
 
-less(['essentials:multi_piston','create:andesite_casing'],'create:mechanical_piston')
+  less(
+    [
+      "create:electron_tube",
+      "create:sticky_mechanical_piston",
+      "create:andesite_casing",
+    ],
+    "create:mechanical_bearing"
+  );
 
-less(['essentials:multi_piston_sticky','create:andesite_casing'],'create:sticky_mechanical_piston')
+  less(
+    ["create:mechanical_piston", "#ironberry:sticky"],
+    "create:sticky_mechanical_piston"
+  );
 
-less(['create:electron_tube', 'create:sticky_mechanical_piston', 'create:andesite_casing'],'create:mechanical_bearing')
+  less(
+    [
+      "create:precision_mechanism",
+      "create:sticky_mechanical_piston",
+      "create:brass_casing",
+    ],
+    "create:clockwork_bearing"
+  );
 
-less(['create:mechanical_piston','#ironberry:sticky'],'create:sticky_mechanical_piston')
+  less(
+    ["create:shaft", "#minecraft:planks", "minecraft:redstone"],
+    "4x create:gantry_shaft"
+  );
 
-less(['create:precision_mechanism', 'create:sticky_mechanical_piston', 'create:brass_casing'],'create:clockwork_bearing')
+  less(
+    [
+      "#quark:wooden_vertical_slabs",
+      "bluepower:lumar_black",
+      "bluepower:lumar_black",
+    ],
+    "supplementaries:blackboard"
+  );
 
-less(['create:shaft', '#minecraft:planks', 'minecraft:redstone'],'4x create:gantry_shaft')
+  less(
+    ["supplementaries:blackboard", "create:cogwheel"],
+    "create:display_board"
+  );
 
-less(['#quark:wooden_vertical_slabs', 'bluepower:lumar_black', 'bluepower:lumar_black'], 'supplementaries:blackboard')
+  less(
+    [
+      "create:brass_casing",
+      "minecraft:sculk_sensor",
+      "create:precision_mechanism",
+    ],
+    "create:display_link"
+  );
 
-less(['supplementaries:blackboard', 'create:cogwheel'], 'create:display_board')
+  less(
+    [
+      "create:metal_girder",
+      "minecraft:item_frame",
+      "supplementaries:timber_frame",
+    ],
+    "create:placard"
+  );
 
-less(['create:brass_casing', 'minecraft:sculk_sensor', 'create:precision_mechanism'], 'create:display_link')
+  less(
+    ["create:metal_girder", "supplementaries:timber_frame"],
+    "4x create:metal_bracket"
+  );
 
-less(['create:metal_girder', 'minecraft:item_frame', 'supplementaries:timber_frame'], 'create:placard')
+  less(
+    ["minecraft:oak_planks", "supplementaries:timber_frame"],
+    "4x create:wooden_bracket"
+  );
 
-less(['create:metal_girder', 'supplementaries:timber_frame'], '4x create:metal_bracket')
+  less(
+    [
+      "create:depot",
+      "create:precision_mechanism",
+      "create:cogwheel",
+      "minecraft:redstone",
+    ],
+    "create:weighted_ejector"
+  );
 
-less(['minecraft:oak_planks', 'supplementaries:timber_frame'], '4x create:wooden_bracket')
+  less(
+    [
+      "supplementaries:pulley_block",
+      "create:andesite_casing",
+      "create:belt_connector",
+    ],
+    "create:rope_pulley"
+  );
 
-less(['create:depot', 'create:precision_mechanism', 'create:cogwheel', 'minecraft:redstone'], 'create:weighted_ejector')
+  less(
+    [
+      "create:rope_pulley",
+      "create:railway_casing",
+      "create:belt_connector",
+      "create:precision_mechanism",
+    ],
+    "create:elevator_pulley"
+  );
 
-less(['supplementaries:pulley_block', 'create:andesite_casing', 'create:belt_connector' ],'create:rope_pulley')
+  less(
+    [
+      "create:adjustable_chain_gearshift",
+      "create:clutch",
+      "create:gearshift",
+      "create:brass_casing",
+      "create:precision_mechanism",
+    ],
+    "create:sequenced_gearshift"
+  );
 
-less(['create:rope_pulley', 'create:railway_casing', 'create:belt_connector', 'create:precision_mechanism'], 'create:elevator_pulley')
+  less(
+    [
+      "create:electron_tube",
+      "create:sequenced_gearshift",
+      "create:precision_mechanism",
+      "create:cogwheel",
+    ],
+    "create:mechanical_arm"
+  );
 
-less(['create:adjustable_chain_gearshift', 'create:clutch', 'create:gearshift', 'create:brass_casing', 'create:precision_mechanism'], 'create:sequenced_gearshift')
+  less(["4x farmersdelight:wheat_dough"], "createaddition:cake_base");
 
-less(['create:electron_tube', 'create:sequenced_gearshift', 'create:precision_mechanism', 'create:cogwheel'], 'create:mechanical_arm')
+  less(
+    [
+      "bluepower:engine",
+      "create:brass_casing",
+      "create:shaft",
+      "create:copper_casing",
+    ],
+    "createaddition:electric_motor"
+  );
 
-less(['4x farmersdelight:wheat_dough'], 'createaddition:cake_base')
+  less(["bluepower:silicon_wafer"], "4x logicchips:chip");
 
-less(['bluepower:engine', 'create:brass_casing', 'create:shaft', 'create:copper_casing'],'createaddition:electric_motor')
+  less(["logicchips:chip", "minecraft:redstone_torch"], "logicchips:not_gate");
 
-less(['bluepower:silicon_wafer'], '4x logicchips:chip')
+  less(
+    ["logicchips:not_gate", "minecraft:redstone_torch"],
+    "logicchips:or_gate"
+  );
 
-less(['logicchips:chip', 'minecraft:redstone_torch'], 'logicchips:not_gate')
+  less(
+    ["logicchips:or_gate", "minecraft:redstone_torch"],
+    "logicchips:nor_gate"
+  );
 
-less(['logicchips:not_gate', 'minecraft:redstone_torch'], 'logicchips:or_gate')
+  less(
+    [
+      "minecraft:redstone_torch",
+      "logicchips:nor_gate",
+      "minecraft:redstone_torch",
+    ],
+    "logicchips:and_gate"
+  );
 
-less(['logicchips:or_gate', 'minecraft:redstone_torch'], 'logicchips:nor_gate')
+  less(
+    ["minecraft:redstone_torch", "logicchips:and_gate"],
+    "logicchips:nand_gate"
+  );
 
-less(['minecraft:redstone_torch', 'logicchips:nor_gate', 'minecraft:redstone_torch'], 'logicchips:and_gate')
+  less(
+    [
+      "logicchips:or_gate",
+      "logicchips:and_gate",
+      "logicchips:and_gate",
+      "logicchips:not_gate",
+      "logicchips:not_gate",
+    ],
+    "logicchips:xor_gate"
+  );
 
-less(['minecraft:redstone_torch', 'logicchips:and_gate'], 'logicchips:nand_gate')
+  less(
+    ["logicchips:xor_gate", "minecraft:redstone_torch"],
+    "logicchips:xnor_gate"
+  );
 
-less(['logicchips:or_gate', 'logicchips:and_gate', 'logicchips:and_gate', 'logicchips:not_gate', 'logicchips:not_gate'], 'logicchips:xor_gate')
+  let gates = [
+    "logicchips:or_gate",
+    "logicchips:nor_gate",
+    "logicchips:and_gate",
+    "logicchips:nand_gate",
+    "logicchips:xor_gate",
+    "logicchips:xnor_gate",
+  ];
 
-less(['logicchips:xor_gate', 'minecraft:redstone_torch'], 'logicchips:xnor_gate')
+  gates.forEach((lg) => {
+    less([lg, "logicchips:chip", "minecraft:repeater"], lg + "_3");
+  });
 
-let gates = ['logicchips:or_gate', 'logicchips:nor_gate', 'logicchips:and_gate', 'logicchips:nand_gate', 'logicchips:xor_gate', 'logicchips:xnor_gate']
+  less(
+    ["logicchips:or_gate_3", "minecraft:redstone_torch"],
+    "logicchips:nor_gate_3"
+  );
 
-gates.forEach(lg=>{
-  less([lg, 'logicchips:chip', 'minecraft:repeater'], lg+'_3')
-})
+  less(
+    [
+      "minecraft:redstone_torch",
+      "logicchips:nor_gate_3",
+      "minecraft:redstone_torch",
+    ],
+    "logicchips:and_gate_3"
+  );
 
-less(['logicchips:or_gate_3', 'minecraft:redstone_torch'], 'logicchips:nor_gate_3')
+  less(
+    ["minecraft:redstone_torch", "logicchips:and_gate_3"],
+    "logicchips:nand_gate_3"
+  );
 
-less(['minecraft:redstone_torch', 'logicchips:nor_gate_3', 'minecraft:redstone_torch'], 'logicchips:and_gate_3')
+  less(
+    [
+      "logicchips:or_gate_3",
+      "logicchips:and_gate_3",
+      "logicchips:and_gate_3",
+      "logicchips:not_gate",
+      "logicchips:not_gate",
+    ],
+    "logicchips:xor_gate_3"
+  );
 
-less(['minecraft:redstone_torch', 'logicchips:and_gate_3'], 'logicchips:nand_gate_3')
+  less(
+    ["logicchips:xor_gate_3", "minecraft:redstone_torch"],
+    "logicchips:xnor_gate_3"
+  );
 
-less(['logicchips:or_gate_3', 'logicchips:and_gate_3', 'logicchips:and_gate_3', 'logicchips:not_gate', 'logicchips:not_gate'], 'logicchips:xor_gate_3')
+  nine_to_one("thermal:tin_ingot", "thermal:tin_block");
+  nine_to_one("mekanism:ingot_uranium", "mekanism:block_uranium");
 
-less(['logicchips:xor_gate_3', 'minecraft:redstone_torch'], 'logicchips:xnor_gate_3')
+  less(
+    [
+      "kubejs:tiny_platinum_dust",
+      "kubejs:tiny_platinum_dust",
+      "kubejs:tiny_platinum_dust",
+      "kubejs:tiny_platinum_dust",
+    ],
+    "ten3:tin_dust"
+  );
 
-nine_to_one('thermal:tin_ingot','thermal:tin_block')
-nine_to_one('mekanism:ingot_uranium','mekanism:block_uranium')
+  less(
+    ["ars_nouveau:enchanters_eye"],
+    Item.of(
+      "ars_nouveau:enchanters_eye",
+      '{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}'
+    )
+  );
 
-less(['kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust','kubejs:tiny_platinum_dust'],'ten3:tin_dust')
+  event
+    .shapeless("4x kubejs:redstone_circuit", [
+      "homespun:redstone_acid",
+      "pneumaticcraft:printed_circuit_board",
+      "pneumaticcraft:printed_circuit_board",
+      "pneumaticcraft:printed_circuit_board",
+      "pneumaticcraft:printed_circuit_board",
+    ])
+    .replaceIngredient("homespun:redstone_acid", "minecraft:glass_bottle");
 
-less(['ars_nouveau:enchanters_eye'],Item.of('ars_nouveau:enchanters_eye', '{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}'))
+  function blockAndCo(block, ingot, nugget) {
+    nine_to_one(ingot, block);
+    nine_to_one(nugget, ingot);
+  }
 
-event.shapeless('4x kubejs:redstone_circuit',['homespun:redstone_acid','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board']).replaceIngredient('homespun:redstone_acid', 'minecraft:glass_bottle');
+  blockAndCo(
+    "thermal:invar_block",
+    "thermal:invar_ingot",
+    "thermal:invar_nugget"
+  );
 
-function blockAndCo(block,ingot,nugget){
-  nine_to_one(ingot,block)
-  nine_to_one(nugget, ingot)
-}
+  nine_to_one("kubejs:manganese_nugget", "nuclearcraft:manganese_ingot");
 
-blockAndCo('thermal:invar_block','thermal:invar_ingot','thermal:invar_nugget')
+  blockAndCo(
+    "thermal:constantan_block",
+    "thermal:constantan_ingot",
+    "thermal:constantan_nugget"
+  );
 
+  less(
+    [
+      "ae2:inscriber",
+      "ae2:advanced_card",
+      "ae2:advanced_card",
+      "pneumaticcraft:module_expansion_card",
+    ],
+    "ae2things:advanced_inscriber"
+  );
+
+  function makeDisk(items, output) {
+    items.unshift("#ironberry:infinity_cells");
+    event.shapeless(
+      Item.of(
+        "expatternprovider:infinity_cell",
+        '{record:{"#c":"ae2:i",id:"' + output + '"}}'
+      ),
+      items
+    );
+  }
+
+  event
+    .shapeless(
+      Item.of(
+        "expatternprovider:infinity_cell",
+        '{record:{"#c":"ae2:f",id:"pneumaticcraft:ethanol"}}'
+      ),
+      [
+        "#ironberry:infinity_cells",
+        Item.of(
+          "pneumaticcraft:huge_tank",
+          '{BlockEntityTag:{SavedTanks:{Tank:{Amount:512000,FluidName:"pneumaticcraft:ethanol"}}}}'
+        ).strongNBT(),
+      ]
+    )
+    .replaceIngredient("pneumaticcraft:huge_tank", "pneumaticcraft:huge_tank");
+
+  event
+    .shapeless(
+      Item.of(
+        "expatternprovider:infinity_cell",
+        '{record:{"#c":"ae2:f",id:"pneumaticcraft:biodiesel"}}'
+      ),
+      [
+        "#ironberry:infinity_cells",
+        Item.of(
+          "pneumaticcraft:huge_tank",
+          '{BlockEntityTag:{SavedTanks:{Tank:{Amount:512000,FluidName:"pneumaticcraft:biodiesel"}}}}'
+        ).strongNBT(),
+      ]
+    )
+    .replaceIngredient("pneumaticcraft:huge_tank", "pneumaticcraft:huge_tank");
+
+  event.shapeless(
+    Item.of(
+      "expatternprovider:infinity_cell",
+      '{record:{"#c":"ae2:f",id:"minecraft:water"}}'
+    ),
+    ["#ironberry:infinity_cells", "thoriumreactors:water_source_block"]
+  );
+
+  let bs = [
+    "minecraft:cobblestone",
+    "minecraft:gravel",
+    "minecraft:dirt",
+    "minecraft:sand",
+    "minecraft:stone",
+  ];
+  let cbs = [
+    "compressium:cobblestone_6",
+    "compressium:gravel_6",
+    "compressium:dirt_6",
+    "compressium:sand_6",
+    "compressium:stone_6",
+  ];
+
+  cbs.forEach((element, index) => {
+    makeDisk([element], bs[index]);
+  });
 });
