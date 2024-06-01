@@ -1895,11 +1895,7 @@ shapex(['ae2:sky_dust', 'pneumaticcraft:assembly_io_unit_import', 'ae2:sky_dust'
 
 shapex(['ae2:crafting_unit', 'ae2:molecular_assembler'], 'expatternprovider:ingredient_buffer')
 
-let cpu = ['ae2:1k_crafting_storage', 'ae2:4k_crafting_storage', 'ae2:16k_crafting_storage', 'ae2:64k_crafting_storage', 'ae2:256k_crafting_storage']
 
-store.forEach((element,index)=>{
-less(['ae2:crafting_unit',element],cpu[index])
-})
 
 
 shapex(['minecraft:air','ae2:fluix_crystal','minecraft:air', 'minecraft:iron_nugget', 'laboratoryblocks:iron_screw', 'minecraft:iron_nugget'],'ae2:wireless_receiver')

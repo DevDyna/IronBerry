@@ -104,6 +104,7 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'ae2:drive',
     'ae2:wireless_receiver',
     'ae2:blank_pattern', 'ae2:view_cell', 'ae2:item_cell_housing', 'ae2:fluid_cell_housing',
     'ae2:crafting_unit',

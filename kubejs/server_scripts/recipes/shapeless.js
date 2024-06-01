@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+  let counter = 0;
   //shapeless
   //----------------------------------------------//
   /**
@@ -7,9 +8,10 @@ ServerEvents.recipes((event) => {
    * @param {item} output result
    */
   let less = (inputs, output) => {
+    counter++
     event
       .shapeless(output, inputs)
-      .id(RegX(inputs + "_" + output).replace(/\s/g, "_"));
+      .id(RegX(counter+'_'+inputs + "_" + output).replace(/\s/g, "_"));
   };
   //----------------------------------------------//	tombstone marbles
   for (let i = 0; i < data.block.tombstone.length; i++) {
@@ -1470,8 +1472,8 @@ store.forEach((element,index)=>{
   less(['ae2:fluid_cell_housing',element],deepcell[index])
 })
 
-
-
+less(['ae2:pattern_provider', 'expatternprovider:pattern_provider_upgrade'], 'expatternprovider:ex_pattern_provider')
+less(['ae2:interface', 'expatternprovider:interface_upgrade'], 'expatternprovider:ex_interface')
 
 
 });
