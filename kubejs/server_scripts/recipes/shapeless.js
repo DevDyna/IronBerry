@@ -1236,4 +1236,17 @@ ServerEvents.recipes((event) => {
   cbs.forEach((element, index) => {
     makeDisk([element], bs[index]);
   });
+
+blockAndCo('thermal:enderium_block', 'thermal:enderium_ingot', 'thermal:enderium_nugget')
+
+less(['thoriumreactors:enriched_uranium'],'16x kubejs:mini_pellet')
+
+blockAndCo('ten3:tin_block', 'ten3:tin_ingot', 'ten3:tin_nugget')
+blockAndCo('ten3:powered_tin_block', 'ten3:powered_tin_ingot', 'ten3:powered_tin_nugget')
+
+
+
+
+
+
 });

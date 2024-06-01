@@ -185,8 +185,5 @@ ServerEvents.recipes((event) => {
     3
   );
 
-  smart_alloy(
-    ["ten3:tin_dust", "inventorypets:pet_creeper"],
-    "ten3:powered_tin_dust"
-  );
+
 });

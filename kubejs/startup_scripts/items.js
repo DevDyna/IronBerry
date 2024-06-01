@@ -317,4 +317,11 @@ StartupEvents.registry("item", (event) => {
     .create("manganese_nugget")
     .texture("thermal:item/invar_nugget")
     .color(0, 0xA1ACE2);
+
+    event
+    .create("mini_pellet")
+    .texture("thermal:item/mini_pellet")
+    .displayName('Mini-Fuel Pellet')
+
+    
 });

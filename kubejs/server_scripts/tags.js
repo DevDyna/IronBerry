@@ -12,7 +12,8 @@ ServerEvents.tags("item", (event) => {
   event.removeAllTagsFrom("thermal:sapphire");
   event.removeAllTagsFrom("pneumaticcraft:smart_chest");
   event.removeAllTagsFrom("pneumaticcraft:reinforced_chest");
-  event.remove;
+  //event.remove;
+  event.removeAllTagsFrom('ten3:tin_block')
   //reactive sources
   event.get("reactive:body_sources").removeAll();
   event.get("reactive:caustic_sources").removeAll();

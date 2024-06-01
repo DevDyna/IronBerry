@@ -166,6 +166,12 @@ smart_assembly(['thoriumreactors:reactor_casing','laboratoryblocks:iron_screw','
 smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_reactor_port'], 'thoriumreactors:turbine_rotation_mount')
 smart_assembly(['thoriumreactors:turbine_casing','laboratoryblocks:iron_screw','mekanismgenerators:fission_reactor_logic_adapter'], 'thoriumreactors:turbine_power_port')
 
+assembly(['ten3:tin_dust','kubejs:mini_pellet'],[1,1],'ten3:tin_ingot',1)
+assembly(['ten3:powered_tin_dust','kubejs:mini_pellet'],[1,1],'ten3:powered_tin_ingot',1)
 
+tiny_assembly(
+  ['ae2:tiny_tnt','kubejs:mini_pellet',"ten3:tin_nugget",'thoriumreactors:molybdenum_nugget', 'thermal:enderium_nugget'],
+  "ten3:powered_tin_dust",3
+);
 
 })
