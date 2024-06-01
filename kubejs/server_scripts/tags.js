@@ -1231,6 +1231,9 @@ ServerEvents.tags("item", (event) => {
 });
 
 ServerEvents.tags("block", (event) => {
+
+  event.removeAllTagsFrom('ten3:tin_block')
+
   event.add("ironberry:egg_blacklist", [
     "create:placard",
     "create:redstone_link",

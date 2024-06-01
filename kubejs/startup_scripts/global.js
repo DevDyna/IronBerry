@@ -954,7 +954,6 @@ global.disabledItem = [
   "ten3:iron_gear",
   "ten3:gold_dust",
   "ten3:gold_plate",
-  "ten3:tin_block",
   "ten3:copper_gear",
   "ten3:pipe_white",
   "ten3:iron_plate",

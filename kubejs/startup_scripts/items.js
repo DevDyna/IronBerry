@@ -320,7 +320,7 @@ StartupEvents.registry("item", (event) => {
 
     event
     .create("mini_pellet")
-    .texture("thermal:item/mini_pellet")
+    .texture("ironberry:item/mini_pellet")
     .displayName('Mini-Fuel Pellet')
 
     

@@ -171,7 +171,7 @@ assembly(['ten3:powered_tin_dust','kubejs:mini_pellet'],[1,1],'ten3:powered_tin_
 
 tiny_assembly(
   ['ae2:tiny_tnt','kubejs:mini_pellet',"ten3:tin_nugget",'thoriumreactors:molybdenum_nugget', 'thermal:enderium_nugget'],
-  "ten3:powered_tin_dust",3
+  "ten3:powered_tin_nugget",3
 );
 
 })
