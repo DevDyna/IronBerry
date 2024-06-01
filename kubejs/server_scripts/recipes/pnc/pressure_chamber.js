@@ -678,4 +678,24 @@ ServerEvents.recipes((event) => {
     ],
   });
 
+  event.custom({
+    type: "pneumaticcraft:pressure_chamber",
+    inputs: [
+      JsonMakeItem('minecraft:diamond'),
+      JsonMakeItem('nuclearcraft:boron_nitride_gem'),
+      JsonMakeItem('nuclearcraft:villiaumite_gem'),
+      JsonMakeItem('nuclearcraft:fluorite_gem'),
+      JsonMakeItem('nuclearcraft:rhodochrosite_gem'),
+      JsonMakeItem('nuclearcraft:carobbiite_gem'),
+      JsonMakeItem('nuclearcraft:boron_arsenide_gem'),
+      JsonMakeItem('ars_nouveau:source_gem'),
+      JsonMakeItem('minecraft:emerald'),
+    ],
+    pressure: 2.0,
+    results: [
+      {
+        item: 'kubejs:pure_gem',
+      },
+    ],
+  });
 });

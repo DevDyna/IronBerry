@@ -41,4 +41,5 @@ keyname.forEach(name=>{
   manu('nuclearcraft:tough_alloy_ingot','nuclearcraft:tough_alloy_dust',1)
   manu('nuclearcraft:thermoconducting_ingot','nuclearcraft:thermoconducting_dust',1)
 
+  manu ('thoriumreactors:blasted_stone', 'ae2:sky_dust',2)
 })

@@ -260,7 +260,8 @@ StartupEvents.registry("item", (event) => {
   event
     .create("lupenio")
     .texture("ironberry:item/lupenio")
-    .displayName("§aLupenio");
+    .displayName("§aLupenio")
+    .color(1,0x1271FF)
 
   event
     .create("crystaltine")
@@ -276,6 +277,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("arsenic_lupenio")
     .texture("ironberry:item/lupenio")
+    .color(1,0x12FFA9)
     //.displayName("Arsenic Lupenio")
     .glow(true);
 
@@ -330,6 +332,7 @@ StartupEvents.registry("item", (event) => {
 
   event.create('pure_gem')
   .texture('ironberry:item/lupenio')
+  .displayName('§bPure Gem')
 
 event.create('net')
 .parentModel("ironberry:item/net")
