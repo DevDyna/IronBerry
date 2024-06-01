@@ -51,6 +51,12 @@ ServerEvents.recipes((event) => {
     1
   );
 
+  drill(
+    "pneumaticcraft:printed_circuit_board",
+    "mekanism:basic_control_circuit",
+    2
+  );
+
   laser("pneumaticcraft:upgrade_matrix", "minecraft:lapis_lazuli", 16);
 
   drill_laser(
@@ -82,12 +88,6 @@ ServerEvents.recipes((event) => {
   laser("kubejs:solidified_resin", "nuclearcraft:bioplastic", 2);
 
   laser("kubejs:plastic_mixture", "kubejs:silicon_plated", 1);
-
-  laser(
-    "pneumaticcraft:printed_circuit_board",
-    "mekanism:basic_control_circuit",
-    2
-  );
 
   function keepnbt(input, output, nbt) {
     event.custom({
