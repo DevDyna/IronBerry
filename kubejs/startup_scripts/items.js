@@ -316,15 +316,18 @@ StartupEvents.registry("item", (event) => {
   event
     .create("manganese_nugget")
     .texture("thermal:item/invar_nugget")
-    .color(0, 0xA1ACE2);
+    .color(0, 0xa1ace2);
 
-    event
+  event
     .create("mini_pellet")
     .texture("ironberry:item/mini_pellet")
-    .displayName('Mini Fuel Pellet')
+    .displayName("Mini Fuel Pellet");
 
-    event.create('base_tank')
-    .modelJson({"parent":"mekanism:block/chemical_tank/base","textures":{"valve":"ironberry:item/valve"}})
-    .displayName("Chemical Tank")
-    
+  event
+    .create("base_tank")
+    .modelJson({
+      parent: "mekanism:block/chemical_tank/base",
+      textures: { valve: "ironberry:item/valve" },
+    })
+    .displayName("Chemical Tank");
 });

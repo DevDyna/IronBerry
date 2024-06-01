@@ -8,10 +8,10 @@ ServerEvents.recipes((event) => {
    * @param {item} output result
    */
   let less = (inputs, output) => {
-    counter++
+    counter++;
     event
       .shapeless(output, inputs)
-      .id(RegX(counter+'_'+inputs + "_" + output).replace(/\s/g, "_"));
+      .id(RegX(counter + "_" + inputs + "_" + output).replace(/\s/g, "_"));
   };
   //----------------------------------------------//	tombstone marbles
   for (let i = 0; i < data.block.tombstone.length; i++) {
@@ -1441,39 +1441,90 @@ ServerEvents.recipes((event) => {
     "ae2:memory_card"
   );
 
-  less(['ae2:wireless_receiver', 'ae2:charged_certus_quartz_crystal'], 'expatternprovider:wireless_tool')
+  less(
+    ["ae2:wireless_receiver", "ae2:charged_certus_quartz_crystal"],
+    "expatternprovider:wireless_tool"
+  );
 
-  less(['ae2:chest', 'ae2:io_port'], 'ae2:security_station')
+  less(["ae2:chest", "ae2:io_port"], "ae2:security_station");
 
-  less(['ae2:wireless_terminal', 'ae2:semi_dark_monitor'], 'ae2wtlib:wireless_universal_terminal')
+  less(
+    ["ae2:wireless_terminal", "ae2:semi_dark_monitor"],
+    "ae2wtlib:wireless_universal_terminal"
+  );
 
-less(['ae2:molecular_assembler', 'ae2:crafting_terminal', 'ae2:crafting_unit'], 'merequester:requester')
+  less(
+    ["ae2:molecular_assembler", "ae2:crafting_terminal", "ae2:crafting_unit"],
+    "merequester:requester"
+  );
 
-less(['simplemagnets:basicmagnet', 'ae2:advanced_card'], 'ae2wtlib:magnet_card')
+  less(
+    ["simplemagnets:basicmagnet", "ae2:advanced_card"],
+    "ae2wtlib:magnet_card"
+  );
 
-less(['ae2:basic_card', 'ae2:fluix_pearl', 'ae2:advanced_card'], 'ae2wtlib:quantum_bridge_card')
+  less(
+    ["ae2:basic_card", "ae2:fluix_pearl", "ae2:advanced_card"],
+    "ae2wtlib:quantum_bridge_card"
+  );
 
-less(['ae2:basic_card', 'thermal:ender_pearl_dust', 'ae2:sky_dust'], 'ae2:wireless_booster')
+  less(
+    ["ae2:basic_card", "thermal:ender_pearl_dust", "ae2:sky_dust"],
+    "ae2:wireless_booster"
+  );
 
-less(['ten3:chlorium_ingot', 'ae2:blank_pattern'], 'ae2:view_cell')
+  less(["ten3:chlorium_ingot", "ae2:blank_pattern"], "ae2:view_cell");
 
+  let itemcell = [
+    "ae2:item_storage_cell_1k",
+    "ae2:item_storage_cell_4k",
+    "ae2:item_storage_cell_16k",
+    "ae2:item_storage_cell_64k",
+    "ae2:item_storage_cell_256k",
+  ];
+  let fluidcell = [
+    "ae2:fluid_storage_cell_1k",
+    "ae2:fluid_storage_cell_4k",
+    "ae2:fluid_storage_cell_16k",
+    "ae2:fluid_storage_cell_64k",
+    "ae2:fluid_storage_cell_256k",
+  ];
+  let gascell = [
+    "appmek:chemical_storage_cell_1k",
+    "appmek:chemical_storage_cell_4k",
+    "appmek:chemical_storage_cell_16k",
+    "appmek:chemical_storage_cell_64k",
+    "appmek:chemical_storage_cell_256k",
+  ];
+  let manacell = [
+    "arseng:source_storage_cell_1k",
+    "arseng:source_storage_cell_4k",
+    "arseng:source_storage_cell_16k",
+    "arseng:source_storage_cell_64k",
+    "arseng:source_storage_cell_256k",
+  ];
+  let deepcell = [
+    "ae2things:disk_drive_1k",
+    "ae2things:disk_drive_4k",
+    "ae2things:disk_drive_16k",
+    "ae2things:disk_drive_64k",
+    "ae2things:disk_drive_256k",
+  ];
 
-let itemcell=['ae2:item_storage_cell_1k', 'ae2:item_storage_cell_4k', 'ae2:item_storage_cell_16k', 'ae2:item_storage_cell_64k', 'ae2:item_storage_cell_256k']
-let fluidcell = ['ae2:fluid_storage_cell_1k', 'ae2:fluid_storage_cell_4k', 'ae2:fluid_storage_cell_16k', 'ae2:fluid_storage_cell_64k', 'ae2:fluid_storage_cell_256k']
-let gascell = ['appmek:chemical_storage_cell_1k', 'appmek:chemical_storage_cell_4k', 'appmek:chemical_storage_cell_16k', 'appmek:chemical_storage_cell_64k', 'appmek:chemical_storage_cell_256k']
-let manacell = ['arseng:source_storage_cell_1k', 'arseng:source_storage_cell_4k', 'arseng:source_storage_cell_16k', 'arseng:source_storage_cell_64k', 'arseng:source_storage_cell_256k']
-let deepcell = ['ae2things:disk_drive_1k', 'ae2things:disk_drive_4k', 'ae2things:disk_drive_16k', 'ae2things:disk_drive_64k', 'ae2things:disk_drive_256k']
+  store.forEach((element, index) => {
+    less(["ae2:item_cell_housing", element], itemcell[index]);
+    less(["ae2things:disk_housing", element], fluidcell[index]);
+    less(["arseng:source_cell_housing", element], gascell[index]);
+    less(["appmek:chemical_cell_housing", element], manacell[index]);
+    less(["ae2:fluid_cell_housing", element], deepcell[index]);
+  });
 
-store.forEach((element,index)=>{
-  less(['ae2:item_cell_housing',element],itemcell[index])
-  less(['ae2things:disk_housing',element],fluidcell[index])
-  less(['arseng:source_cell_housing',element],gascell[index])
-  less(['appmek:chemical_cell_housing',element],manacell[index])
-  less(['ae2:fluid_cell_housing',element],deepcell[index])
-})
-
-less(['ae2:pattern_provider', 'expatternprovider:pattern_provider_upgrade'], 'expatternprovider:ex_pattern_provider')
-less(['ae2:interface', 'expatternprovider:interface_upgrade'], 'expatternprovider:ex_interface')
-
-
+  less(
+    ["ae2:pattern_provider", "expatternprovider:pattern_provider_upgrade"],
+    "expatternprovider:ex_pattern_provider"
+  );
+  less(
+    ["ae2:interface", "expatternprovider:interface_upgrade"],
+    "expatternprovider:ex_interface"
+  );
 });

@@ -13,7 +13,7 @@ ServerEvents.tags("item", (event) => {
   event.removeAllTagsFrom("pneumaticcraft:smart_chest");
   event.removeAllTagsFrom("pneumaticcraft:reinforced_chest");
   //event.remove;
-  event.removeAllTagsFrom('ten3:tin_block')
+  event.removeAllTagsFrom("ten3:tin_block");
   //reactive sources
   event.get("reactive:body_sources").removeAll();
   event.get("reactive:caustic_sources").removeAll();
@@ -104,12 +104,17 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
-    'ae2:drive',
-    'ae2:wireless_receiver',
-    'ae2:blank_pattern', 'ae2:view_cell', 'ae2:item_cell_housing', 'ae2:fluid_cell_housing',
-    'ae2:crafting_unit',
-    'ae2:fluix_pearl',
-    'ae2:storage_bus', 'ae2:import_bus', 'ae2:export_bus',
+    "ae2:drive",
+    "ae2:wireless_receiver",
+    "ae2:blank_pattern",
+    "ae2:view_cell",
+    "ae2:item_cell_housing",
+    "ae2:fluid_cell_housing",
+    "ae2:crafting_unit",
+    "ae2:fluix_pearl",
+    "ae2:storage_bus",
+    "ae2:import_bus",
+    "ae2:export_bus",
     "ae2:formation_core",
     "ae2:annihilation_core",
     "ae2:engineering_processor",
@@ -307,7 +312,7 @@ ServerEvents.tags("item", (event) => {
 
   //recipe input side removed (as ingrendient)
   event.add("ironberry:input", [
-    'ae2:crafting_accelerator',
+    "ae2:crafting_accelerator",
     "pneumaticcraft:upgrade_matrix",
     "cyclic:gem_amber",
     "cyclic:gem_obsidian",
@@ -326,7 +331,11 @@ ServerEvents.tags("item", (event) => {
 
   //recipe any side removed
   event.add("ironberry:any", [
-    'ae2:cell_component_1k', 'ae2:cell_component_4k', 'ae2:cell_component_16k', 'ae2:cell_component_64k', 'ae2:cell_component_256k',
+    "ae2:cell_component_1k",
+    "ae2:cell_component_4k",
+    "ae2:cell_component_16k",
+    "ae2:cell_component_64k",
+    "ae2:cell_component_256k",
     "ae2:chest",
     "mekanism:advanced_control_circuit",
     "mekanism:ultimate_control_circuit",
@@ -1237,8 +1246,7 @@ ServerEvents.tags("item", (event) => {
 });
 
 ServerEvents.tags("block", (event) => {
-
-  event.removeAllTagsFrom('ten3:tin_block')
+  event.removeAllTagsFrom("ten3:tin_block");
 
   event.add("ironberry:egg_blacklist", [
     "create:placard",
