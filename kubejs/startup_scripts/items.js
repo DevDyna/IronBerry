@@ -65,6 +65,16 @@ StartupEvents.registry("item", (event) => {
     .displayName("OmniTablet")
     .glow(true);
 
+  event.create('redstone_circuit')
+  .modelJson({
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "pneumaticcraft:item/printed_circuit_board",
+      "layer1": "ironberry:item/fancy_torches"
+    }
+  })
+  .displayName("Redstonic PCB")
+
   event
     .create("iron_rod")
     .texture("ironberry:item/iron_rod")

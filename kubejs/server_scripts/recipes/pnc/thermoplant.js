@@ -427,9 +427,39 @@ ServerEvents.recipes(event => {
     }
     })
 
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "item_input":{
+      "item": 'minecraft:redstone'
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "fluid_output": {
+      "fluid": 'thermal:redstone',
+	  "amount": 250
+    }
+    })
 
-
-
+  //------------------------------------------------------//
+	event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "tag": "ironberry:chad_redstone",
+      "amount": 25
+    },
+    "item_input":{
+      "item": 'minecraft:glass_bottle'
+    },
+    "temperature": {
+      "min_temp": 272
+    },
+    "item_output": {
+      "item": 'homespun:redstone_acid'
+    }
+    })
 
 
 

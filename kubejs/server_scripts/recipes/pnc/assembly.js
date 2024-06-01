@@ -52,7 +52,7 @@ ServerEvents.recipes((event) => {
   );
 
   drill(
-    "pneumaticcraft:printed_circuit_board",
+    "kubejs:redstone_circuit",
     "mekanism:basic_control_circuit",
     2
   );

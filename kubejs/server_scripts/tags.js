@@ -1339,4 +1339,5 @@ ServerEvents.tags("fluid", (event) => {
   event.add("ironberry:chad_sap", "thermal:sap");
   event.add("ironberry:chad_syrup", "thermal:syrup");
   event.add("ironberry:chad_crude_oil", "thermal:crude_oil");
+  event.add("ironberry:chad_redstone", "thermal:redstone");
 });

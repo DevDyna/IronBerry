@@ -3,5 +3,6 @@
    "block.pneumaticcraft.smart_chest" : "Reinforced Double Iron Chest",
    "item.pneumaticcraft.oil_bucket" : "Black Oil Bucket",
    "fluid_type.pneumaticcraft.oil" : "Black Oil",
-   "block.pneumaticcraft.oil" : "Black Oil"
+   "block.pneumaticcraft.oil" : "Black Oil",
+   "item.pneumaticcraft.printed_circuit_board" : "Assembled PCB"
 }
