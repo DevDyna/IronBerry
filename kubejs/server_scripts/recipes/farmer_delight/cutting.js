@@ -341,4 +341,25 @@ ServerEvents.recipes((event) => {
   });
   //
   //
+
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        item: 'ae2:fluix_covered_cable',
+      },
+    ],
+    result: [
+      {
+        item: 'ae2:cable_anchor',
+        count: 64,
+      },
+    ],
+    tool: {
+      tag: "bluepower:saw",
+    },
+  });
+  //
+  //
+
 });

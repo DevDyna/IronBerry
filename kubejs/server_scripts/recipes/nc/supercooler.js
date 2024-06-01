@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     }
 
     supercooler('kubejs:quartz_nitric',144,'kubejs:quartz_heated',144)
-
+    supercooler('nuclearcraft:enderium',25,'thermal:ender',50)
 
 
 

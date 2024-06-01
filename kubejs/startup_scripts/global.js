@@ -47,9 +47,14 @@ global.whitelistGasses = [
   "kubejs:pyrotheum",
   "kubejs:exosteam",
 ];
-global.disabledItem = Array;
 
 global.disabledItem = [
+  'pneumaticcraft:chunkloader_upgrade',
+  "ae2:silicon_press",
+  "ae2:logic_processor_press",
+  "ae2:engineering_processor_press",
+  "ae2:calculation_processor_press",
+  "ae2:crank",
   "create:oxidized_copper_shingle_stairs",
   "create:weathered_copper_shingle_stairs",
   "create:exposed_copper_shingle_stairs",
@@ -2308,6 +2313,8 @@ global.uselessItems = [
   "create:magenta_toolbox",
   "create:orange_toolbox",
   "create:white_toolbox",
+  "ae2:cable_energy_acceptor",
+  "arseng:cable_source_acceptor",
 ];
 
 global.recipes = {
@@ -2363,10 +2370,10 @@ global.recipes = {
 };
 
 global.BeeItems = {
-input : [
- // [],[]
-],
-output: [
- // [],[]
-]
+  input: [
+    // [],[]
+  ],
+  output: [
+    // [],[]
+  ],
 };

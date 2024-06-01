@@ -81,3 +81,10 @@ JEIEvents.addItems((event) => {
 JEIEvents.hideItems(event=>{
     event.hide(/nuclearcraft:(?:\w+_bucket)/)
 })
+
+JEIEvents.addItems((event) => {
+  event.add(Item.of('ae2:facade', '{item:"minecraft:stone"}'))
+  event.add(Item.of('bluepower:half_block', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.half_block"}],"translate":"block.minecraft.stone"}\'}}'))
+  event.add(Item.of('bluepower:panel', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.panel"}],"translate":"block.minecraft.stone"}\'}}'))
+  event.add(Item.of('bluepower:cover', '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.cover"}],"translate":"block.minecraft.stone"}\'}}'))
+});

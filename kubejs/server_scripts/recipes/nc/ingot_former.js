@@ -34,4 +34,11 @@ ServerEvents.recipes(event => {
     former('kubejs:graphite',144,'nuclearcraft:graphite_ingot')
     former('kubejs:fuel_mixture',144,'thoriumreactors:enriched_uranium')
     former('pneumaticcraft:plastic',50,'pneumaticcraft:plastic')
+    former('thermal:ender',250,'minecraft:ender_pearl')
+
+
+    former('kubejs:liquid_silicon',100,'ae2:printed_silicon')
+    melter('nuclearcraft:gold',250,'ae2:printed_logic_processor')
+    melter('kubejs:certus',144,'ae2:printed_calculation_processor')
+    melter('kubejs:diamond',250,'ae2:printed_engineering_processor')
 })

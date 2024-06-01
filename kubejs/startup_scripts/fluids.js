@@ -245,7 +245,12 @@ event.create('exosteam')
 event.create('glass')
 .thickTexture(0xF2F2F2)
 .bucketColor(0xF2F2F2)
-.displayName('Liquid glass')
+.displayName('Liquid Glass')
+
+event.create('diamond')
+.thickTexture(0x7DF7FF)
+.bucketColor(0x7DF7FF)
+.displayName('Liquid Diamond')
 
 event.create('azure_glass')
 .thickTexture(0xD5F9FF)

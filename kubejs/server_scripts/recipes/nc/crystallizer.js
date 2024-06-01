@@ -24,4 +24,8 @@ ServerEvents.recipes(event => {
     crystallize("kubejs:certus",144,'ae2:certus_quartz_crystal')
     crystallize('kubejs:azure_glass',250,'ten3:azure_glass')
 
+    crystallize("kubejs:diamond",250,'minecraft:diamond')
+    crystallize("nuclearcraft:gold",250,'minecraft:gold_ingot')
+    crystallize("kubejs:liquid_silicon",100,'nuclearcraft:silicon_gem')
+
 })

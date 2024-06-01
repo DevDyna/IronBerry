@@ -65,5 +65,12 @@ ServerEvents.recipes(event => {
 
     smart_alloy(['nuclearcraft:manganese_dust', 'nuclearcraft:sodium_hydroxide_dust'],'nuclearcraft:crystal_binder_dust')
     
-    
+    smart_alloy_with_count(['minecraft:ender_pearl', 'ae2:fluix_dust'], 'ae2:fluix_pearl',4)
+
+    smart_alloy(['minecraft:ender_pearl','thermal:tin_ingot'],'extendedcrafting:ender_ingot')
+
+smart_alloy(['ae2:printed_calculation_processor','thoriumreactors:redstone_processor'],'ae2:calculation_processor')
+smart_alloy(['ae2:printed_engineering_processor','thoriumreactors:redstone_processor'],'ae2:engineering_processor')
+smart_alloy(['ae2:printed_logic_processor','thoriumreactors:redstone_processor'],'ae2:logic_processor')
+
 })

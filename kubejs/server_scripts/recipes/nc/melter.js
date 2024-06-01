@@ -45,4 +45,10 @@ ServerEvents.recipes((event) => {
   
   melter('kubejs:raw_plastic','kubejs:crude_plastic',100)
   
+
+  melter('nuclearcraft:silicon_gem','kubejs:liquid_silicon',100)
+  melter('minecraft:gold_ingot','nuclearcraft:gold',250)
+  melter('ae2:certus_quartz_crystal','kubejs:certus',144)
+  melter('minecraft:diamond','kubejs:diamond',250)
+
 });

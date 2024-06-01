@@ -1916,11 +1916,18 @@
 			dependencies: ["05A163CA0B85418B"]
 			hide_dependency_lines: true
 			id: "3D0C633DD93D1494"
-			rewards: [{
-				id: "091A1A4A6981E8DD"
-				item: "thermal:lead_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "091A1A4A6981E8DD"
+					item: "thermal:lead_coin"
+					type: "item"
+				}
+				{
+					id: "554A77DD2F0C21B0"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 3.0d
 			tasks: [{
