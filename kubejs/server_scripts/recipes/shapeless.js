@@ -942,4 +942,11 @@ less(['ars_nouveau:enchanters_eye'],Item.of('ars_nouveau:enchanters_eye', '{"ars
 
 event.shapeless('4x kubejs:redstone_circuit',['homespun:redstone_acid','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board','pneumaticcraft:printed_circuit_board']).replaceIngredient('homespun:redstone_acid', 'minecraft:glass_bottle');
 
+function blockAndCo(block,ingot,nugget){
+  nine_to_one(ingot,block)
+  nine_to_one(nugget, ingot)
+}
+
+blockAndCo('thermal:invar_block','thermal:invar_ingot','thermal:invar_nugget')
+
 });

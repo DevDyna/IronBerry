@@ -103,6 +103,7 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    'ae2:engineering_processor', 'ae2:calculation_processor', 'ae2:logic_processor',
     'ars_nouveau:ritual_brazier',
     "ten3:redstone_storer",
     "ten3:redstone_conductor",

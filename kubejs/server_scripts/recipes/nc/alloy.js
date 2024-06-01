@@ -73,4 +73,7 @@ smart_alloy(['ae2:printed_calculation_processor','thoriumreactors:redstone_proce
 smart_alloy(['ae2:printed_engineering_processor','thoriumreactors:redstone_processor'],'ae2:engineering_processor')
 smart_alloy(['ae2:printed_logic_processor','thoriumreactors:redstone_processor'],'ae2:logic_processor')
 
+smart_alloy_with_count(['minecraft:copper_ingot', 'thermal:nickel_ingot'],'thermal:constantan_ingot',2)
+alloy('minecraft:iron_ingot',2 ,'thermal:nickel_ingot', 1,'thermal:invar_ingot',3)
+
 })

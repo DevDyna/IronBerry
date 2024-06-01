@@ -2151,6 +2151,7 @@ global.clearNBT = [
 ];
 
 global.uselessItems = [
+  'ae2:dark_monitor', 'ae2:monitor',
   "quark:oak_chest",
   "quark:spruce_chest",
   "quark:birch_chest",

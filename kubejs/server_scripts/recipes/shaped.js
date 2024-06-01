@@ -1688,4 +1688,5 @@ shapex([
   
 ],'mekanism:dye_base')
 
+shapex(['thermal:invar_plate', 'thermal:invar_nugget', 'thermal:invar_plate', 'thermal:invar_nugget', 'thermal:constantan_ingot', 'thermal:invar_nugget', 'thermal:invar_plate', 'thermal:invar_nugget', 'thermal:invar_plate'],'kubejs:holder')
 });

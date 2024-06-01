@@ -361,5 +361,23 @@ ServerEvents.recipes((event) => {
   });
   //
   //
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        item: 'thermal:invar_ingot',
+      },
+    ],
+    result: [
+      {
+        item: 'thermal:invar_plate',
+      },
+    ],
+    tool: {
+      item: "kubejs:hammer",
+    },
+  });
+  //
+  //
 
 });
