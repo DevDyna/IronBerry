@@ -1976,16 +1976,17 @@ ServerEvents.recipes((event) => {
 
   bigstick(
     "ae2:wireless_receiver",
-    "ae2wtlib:wireless_pattern_encoding_terminal",
+    "ae2:pattern_encoding_terminal",
     "ae2:dense_energy_cell",
-    "ae2:pattern_encoding_terminal"
+    "ae2wtlib:wireless_pattern_encoding_terminal",
   );
 
   bigstick(
     "ae2:wireless_receiver",
-    "ae2wtlib:wireless_pattern_access_terminal",
+    "ae2:pattern_access_terminal",
     "ae2:dense_energy_cell",
-    "ae2:pattern_access_terminal"
+    
+    "ae2wtlib:wireless_pattern_access_terminal",
   );
 
   shapex(
