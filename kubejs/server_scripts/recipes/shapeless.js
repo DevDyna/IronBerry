@@ -1513,10 +1513,10 @@ ServerEvents.recipes((event) => {
 
   store.forEach((element, index) => {
     less(["ae2:item_cell_housing", element], itemcell[index]);
-    less(["ae2things:disk_housing", element], fluidcell[index]);
-    less(["arseng:source_cell_housing", element], gascell[index]);
-    less(["appmek:chemical_cell_housing", element], manacell[index]);
-    less(["ae2:fluid_cell_housing", element], deepcell[index]);
+    less(["ae2things:disk_housing", element], deepcell[index]);
+    less(["arseng:source_cell_housing", element], manacell[index]);
+    less(["appmek:chemical_cell_housing", element], gascell[index]);
+    less(["ae2:fluid_cell_housing", element], fluidcell[index]);
   });
 
   less(
