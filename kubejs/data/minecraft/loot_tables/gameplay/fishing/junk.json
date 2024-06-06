@@ -2,7 +2,7 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 10.0,
+      "bonus_rolls": 2.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -25,16 +25,7 @@
           "name": "minecraft:leather_boots",
           "weight": 10
         },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:leather",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 10
-        },
+
         {
           "type": "minecraft:item",
           "name": "minecraft:kelp",
@@ -56,22 +47,22 @@
           "name": "minecraft:string",
           "weight": 5
         },
-		{
-			"type": "minecraft:item",
-			"name": "minecraft:phantom_membrane",
-			"weight": 5
-		},
-		{
-			"type": "minecraft:item",
-			"name": "minecraft:prismarine_shard",
-			"weight":10
-		},
-		{
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 10
+        },
+        {
           "type": "minecraft:item",
           "name": "kubejs:soul",
           "weight": 10
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "froglins:froglin_egg",
           "weight": 10
@@ -102,11 +93,6 @@
           "name": "minecraft:stick",
           "weight": 5
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:feather",
-          "weight": 5
-        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -122,35 +108,21 @@
           "type": "minecraft:item",
           "name": "minecraft:tripwire_hook",
           "weight": 10
-        },        
-		{
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
           "weight": 10
         },
-		{
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot",
-          "weight": 10
-        },
-		{
-			"type": "minecraft:item",
-			"name": "minecraft:chicken",
-			"weight": 10
-		},
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
+          "name": "minecraft:nautilus_shell",
           "weight": 10
         },
-		        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-		  "weight": 10
-        },		        {
+        {
           "type": "minecraft:item",
           "name": "minecraft:bamboo",
-		  "weight": 1
+          "weight": 1
         }
       ],
       "rolls": 1.0
