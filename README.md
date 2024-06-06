@@ -1,4 +1,4 @@
-# RELEASES ONLY ON CURSEFORGE 
+# RELEASES ONLY ON CURSEFORGE
 On github only experimental/dev release so can change after a few of days without release!
 
 ## BETA STAGE 
