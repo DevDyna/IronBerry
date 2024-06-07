@@ -209,3 +209,4 @@ config/tombstone-common.toml
 config/create-client.toml
 .qmenu_opened.marker
 options.txt
+makelist.bat
