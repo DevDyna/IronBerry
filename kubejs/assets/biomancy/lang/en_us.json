@@ -1,0 +1,5 @@
+{
+	"block.biomancy.acid_fluid_block": "Gastric Acid",
+    "fluid_type.biomancy.acid": "Gastric Acid",
+	"item.biomancy.acid_bucket": "Gastric Acid Bucket"
+}
