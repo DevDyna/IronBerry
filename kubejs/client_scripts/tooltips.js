@@ -48,7 +48,7 @@ ItemEvents.tooltip((event) => {
     });
   }
 
-  function tip_replace(id) {
+  function tip_replace(id,txt) {
     event.addAdvanced(id, (item, advanced, text) => {
         //for (let i = 1; i < 10; i++) {
             //if (text.get(i) != null) {
@@ -71,9 +71,9 @@ ItemEvents.tooltip((event) => {
                 text.remove(2)
                 text.remove(1)
             
-                text.set(1,Text.of("§eObtained by open a §6Starbuncle Gift"))
+                text.set(1,txt)
             }catch(e){
-                text.add(1,Text.of("§eObtained by open a §6Starbuncle Gift"))
+                text.add(1,txt)
             }
                 //text.clear()
                 //ext.remove(1)
@@ -88,7 +88,7 @@ ItemEvents.tooltip((event) => {
   }
 
   //tiplessless('#ironberry:ritual_tablets')
-  tip_replace("#ironberry:gift_loot");
+  tip_replace("#ironberry:gift_loot","§eObtained by open a §6Starbuncle Gift");
   tipplusplus(['ars_nouveau:ritual_wilden_summon', 'ars_nouveau:ritual_awakening'],"§4Ritual Disabled")
   
   let source = [
@@ -505,6 +505,13 @@ ItemEvents.tooltip((event) => {
   tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
   tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst");
 
+
+  tipplusplus('minecraft:diorite',"Obtained by placing §3water §fnear §2Gastric Acid")
+  tipplusplus( 'minecraft:calcite',"Obtained by placing §3water §fover §2Gastric Acid")
+
+  tipplusplus('biomancy:malignant_flesh_veins','The residual sustance of §4any fallen blob')
+  tipplusplus('biomancy:primordial_cradle','Require to §6feed §fwith §cany raw food§f and some §2healing potions §for just use some §6living flesh')
+  tipplusplus('biomancy:primordial_cradle','A curios cradle that can evoke §4flesh blobs §fand §cgrow everywhere§f when you stay alone!')
 
 });
 
