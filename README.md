@@ -26,6 +26,8 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 
 ### #quests:
 
+reorganized all chapters on a final step
+
 <br/>
 
 
@@ -36,6 +38,12 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 <br/>
 
     @ things
+
+        - added tungsten carbidite block
+
+        - added tungsten plate
+
+        - added glicetanole
 
         - added liquid diamond
 
@@ -72,6 +80,8 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
         @ alternative
 
             - added liquid silicon
+
+            - added twilightforest torchberries
 
 
 
