@@ -9,6 +9,18 @@
           "name": "minecraft:lily_pad",
           "weight": 17
         },
+		{
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 10
+        },
         {
           "type": "minecraft:item",
           "functions": [

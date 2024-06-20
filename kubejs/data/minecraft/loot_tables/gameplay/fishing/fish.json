@@ -63,6 +63,11 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:mutton",
+          "weight": 10
+          
         }
       ],
       "rolls": 1.0
