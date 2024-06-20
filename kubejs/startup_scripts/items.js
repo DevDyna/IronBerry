@@ -285,8 +285,8 @@ StartupEvents.registry("item", (event) => {
       .modelJson({
         parent: "minecraft:item/handheld",
         textures: {
-          layer0: "thermal:textures/item/augments/" + rare,
-          layer1: "ironberry:textures/item/augment/" + name,
+          layer0: "thermal:item/augments/" + rare,
+          layer1: "ironberry:item/augment/" + name,
         },
       });
   }
@@ -330,4 +330,17 @@ StartupEvents.registry("item", (event) => {
       textures: { valve: "ironberry:item/valve" },
     })
     .displayName("Chemical Tank");
+
+  event.create("glicetanole").texture("ironberry:item/glicetanole");
+
+  event.create("tungsten_plate").texture("ironberry:item/tungsten_plate");
+
+  event.create("bee_drone").parentModel("ironberry:item/bee/drone");
+
+  event.create("bee_queen").parentModel("ironberry:item/bee/queen");
+
+  event
+    .create("beewax")
+    .texture("ironberry:item/base/beewax")
+    .color(0, "#FED668");
 });
