@@ -13,7 +13,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "bluepower:blocks/machines/alloyfurnace_front_on"
+			image: "bluepower:blocks/machines/powered_alloy_furnace_front"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
@@ -29,8 +29,8 @@
 			image: "reactive:item/acid_bottle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.2023809523809561d
-			y: -6.75d
+			x: 1.4642857142857082d
+			y: -5.716666666666669d
 		}
 		{
 			click: ""
@@ -55,8 +55,8 @@
 			image: "rootsclassic:items/sylvan_robe"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -12.25d
+			x: 6.0d
+			y: -12.0d
 		}
 		{
 			click: ""
@@ -81,8 +81,8 @@
 			image: "bluepower:textures/items/bluestone_cathode_tile.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: -9.0d
+			x: -2.1785714285714306d
+			y: -10.378571428571433d
 		}
 		{
 			click: ""
@@ -107,8 +107,8 @@
 			image: "supplementaries:items/globes/globe_flat"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.678571428571431d
-			y: -12.083333333333336d
+			x: -5.278571428571425d
+			y: -11.885714285714279d
 		}
 		{
 			click: ""
@@ -120,8 +120,8 @@
 			image: "reactive:block/flower_vine"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.785714285714285d
-			y: -10.142857142857139d
+			x: -13.300000000000004d
+			y: -12.464285714285715d
 		}
 		{
 			click: ""
@@ -133,8 +133,8 @@
 			image: "reactive:block/flower_vine"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.642857142857146d
-			y: -5.607142857142861d
+			x: -12.585714285714289d
+			y: -4.164285714285725d
 		}
 		{
 			click: ""
@@ -146,8 +146,1717 @@
 			image: "bluepower:textures/blocks/machines/motor_front_2.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.4404761904761827d
-			y: -4.464285714285715d
+			x: -2.3714285714285737d
+			y: -5.214285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1F56B5CB1CD195B3"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.4880952380952408d
+			y: -12.688095238095244d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1F56B5CB1CD195B3"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "minecraft:item/cod"
+			order: 1
+			rotation: 45.0d
+			width: 1.5d
+			x: -1.4761904761904816d
+			y: -14.107142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk_shrieker_inner_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "642A560192E69BA9"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5FD859340BCA2236"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6DCCBC7AE25353C3"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk_catalyst_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6DCCBC7AE25353C3"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/sculk_catalyst_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1F56B5CB1CD195B3"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "thermal:block/devices/device_fisher_active"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "32619673FCC124C2"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "thermal:block/devices/device_fisher"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4B0F0A9E1091DD0E"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "farmersdelight:textures/item/cooking_pot.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "essentials:block/fertile_soil_wheat"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil_farmland"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "essentials:block/fertile_soil_wheat"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "essentials:block/fertile_soil_wheat"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "essentials:block/fertile_soil_wheat"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "essentials:block/fertile_soil_wheat"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.0d
+			y: -10.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1811CCF80691AB3D"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "farmersdelight:block/rich_soil"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -21.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -19.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "6240CC21E07DF06B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "282E614B7FEEF251"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "282E614B7FEEF251"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "282E614B7FEEF251"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "reactive:block/flower_vine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -14.0d
 		}
 	]
 	order_index: 2
@@ -365,34 +2074,19 @@
 				"4B24A85196F52905"
 				"4B6FE1B6BB79056B"
 			]
-			icon: "reactive:body_bottle"
+			icon: "bluepower:teslatite_dust"
 			id: "182E4121F73DB516"
 			rewards: [{
 				id: "2E6CF39A36417FAF"
 				item: "thermal:iron_coin"
 				type: "item"
 			}]
-			subtitle: "and teslatite"
-			tasks: [
-				{
-					id: "36B2C1F76554E195"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "reactive:body_sources"
-						}
-					}
-					title: "Any #reactive:body_sources"
-					type: "item"
-				}
-				{
-					id: "2A6BEB0417826658"
-					item: "bluepower:teslatite_dust"
-					type: "item"
-				}
-			]
-			title: "Body/Stock Source"
+			tasks: [{
+				id: "2A6BEB0417826658"
+				item: "bluepower:teslatite_dust"
+				type: "item"
+			}]
+			title: "Teslatite"
 			x: -2.0d
 			y: -7.0d
 		}
@@ -497,13 +2191,13 @@
 				item: "bluepower:blulectric_alloyfurnace"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.5d
+			x: -6.371428571428581d
+			y: -5.7357142857142875d
 		}
 		{
 			dependencies: [
 				"379F607A99F58C90"
-				"182E4121F73DB516"
+				"75D462BF3C22D8BE"
 			]
 			hide: true
 			hide_dependent_lines: true
@@ -580,7 +2274,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Item Logistics"
+			subtitle: "Item Logistics and more"
 			tasks: [
 				{
 					id: "0A6992419229A4C5"
@@ -644,7 +2338,7 @@
 				item: "minecraft:stonecutter"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -661,8 +2355,8 @@
 				item: "bluepower:teslatite_block"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["48DF9D86C7F8F9F7"]
@@ -677,8 +2371,8 @@
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -12.5d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["48DF9D86C7F8F9F7"]
@@ -702,8 +2396,8 @@
 				title: "Any #ironberry:roots_stones"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -11.0d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["182E4121F73DB516"]
@@ -808,8 +2502,8 @@
 				item: "thermal:fluid_cell_frame"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["182E4121F73DB516"]
@@ -824,8 +2518,8 @@
 				item: "bluepower:infused_teslatite_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1520C94178BF9F61"]
@@ -844,8 +2538,8 @@
 				item: "thermal:energy_cell_frame"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -4.821428571428569d
+			y: -3.2357142857142875d
 		}
 		{
 			dependencies: [
@@ -889,7 +2583,7 @@
 				}
 			]
 			x: -1.0d
-			y: -14.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["4A6600C0D5D16679"]
@@ -899,8 +2593,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.0d
+			x: -5.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["76FD8211F70232CD"]
@@ -921,8 +2615,8 @@
 					type: "observation"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4B6FE1B6BB79056B"]
@@ -932,6 +2626,8 @@
 				""
 				"Any $sculk_replaceable can be replaced to produce sculk blocks"
 			]
+			hide: true
+			hide_dependency_lines: true
 			id: "642A560192E69BA9"
 			rewards: [{
 				id: "611BE2B73618B670"
@@ -945,10 +2641,11 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["642A560192E69BA9"]
+			hide_dependency_lines: true
 			id: "5FD859340BCA2236"
 			rewards: [
 				{
@@ -968,6 +2665,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Already wireless!?"
 			tasks: [
 				{
 					id: "3EF73500EE43A9C1"
@@ -1007,8 +2705,8 @@
 				}
 			]
 			title: "Wireless item transfer"
-			x: -2.0d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B0F0A9E1091DD0E"]
@@ -1114,8 +2812,8 @@
 				item: "kubejs:ore_bone_meal"
 				type: "item"
 			}]
-			x: -5.392857142857153d
-			y: -14.035714285714285d
+			x: -10.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["08C331DC3A0CF932"]
@@ -1135,7 +2833,7 @@
 				type: "observation"
 			}]
 			title: "Wild Crops"
-			x: -7.0d
+			x: -8.0d
 			y: -4.0d
 		}
 		{
@@ -1152,7 +2850,7 @@
 				item: "kubejs:rich_bone_meal"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -10.0d
 			y: -6.0d
 		}
 		{
@@ -1197,7 +2895,7 @@
 				}
 			]
 			title: "Rich Soil Process"
-			x: -10.0d
+			x: -11.0d
 			y: -8.0d
 		}
 		{
@@ -1237,8 +2935,8 @@
 				type: "item"
 			}]
 			title: "Croptopic?"
-			x: -12.0d
-			y: -8.0d
+			x: -13.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1246,6 +2944,7 @@
 				"4B0F0A9E1091DD0E"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "282E614B7FEEF251"
 			rewards: [{
 				id: "2FCE513D02738C79"
@@ -1273,8 +2972,8 @@
 				item: "thermal:compost"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -12.0d
+			x: -11.478571428571428d
+			y: -12.464285714285715d
 		}
 		{
 			dependencies: ["3F818FA3A0D9B316"]
@@ -1319,7 +3018,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -15.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -1363,8 +3062,8 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0D6DDD97A2065943"]
@@ -1395,7 +3094,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -1416,8 +3115,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1FF4E4F20E679B85"]
@@ -1917,7 +3616,7 @@
 				type: "advancement"
 			}]
 			x: -8.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6240CC21E07DF06B"]
@@ -1934,7 +3633,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3F818FA3A0D9B316"]
@@ -1967,8 +3666,8 @@
 				type: "item"
 			}]
 			title: "FE solar panels"
-			x: -5.0d
-			y: -16.0d
+			x: -1.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["4A6600C0D5D16679"]
@@ -1983,8 +3682,8 @@
 				item: "minecraft:granite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -16.0d
+			x: -4.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6240CC21E07DF06B"]
@@ -2007,8 +3706,8 @@
 				type: "item"
 			}]
 			title: "Mechanical Auto Crafter"
-			x: -1.0d
-			y: -16.0d
+			x: 1.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["4D83A432C2E62030"]
@@ -2032,8 +3731,8 @@
 				}
 			]
 			title: "Friends of wood"
-			x: 0.0d
-			y: -2.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0E63CB720C3632FE"]
@@ -2050,8 +3749,194 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			x: -3.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["182E4121F73DB516"]
+			hide_dependent_lines: true
+			icon: "reactive:body_bottle"
+			id: "75D462BF3C22D8BE"
+			rewards: [{
+				id: "33079B4F871B3E1F"
+				item: "thermal:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "150FCAD3E450DDE1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "reactive:body_sources"
+					}
+				}
+				title: "Any #reactive:body_sources"
+				type: "item"
+			}]
+			title: "Body/Stock Source"
 			x: -2.0d
-			y: -17.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["32619673FCC124C2"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1F56B5CB1CD195B3"
+			rewards: [{
+				id: "2158F8B99C18EB9C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Vanilla Style"
+			tasks: [{
+				id: "74112ABB59AA2980"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It won’t be my problem until Monday"
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			hide: true
+			id: "592AB29EFAADB4D0"
+			rewards: [{
+				id: "77E7EA148C761003"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "613C3626F808F338"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			hide: true
+			id: "6CF1FD984832BEDF"
+			rewards: [{
+				id: "507FE50F27FE2C56"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28F1F7A02BC436E9"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			hide: true
+			id: "3F8255B469D8C8D2"
+			rewards: [{
+				id: "7B9D2957028E4B40"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E7DBAD18EB48E26"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			hide: true
+			id: "45C4AC011AABE1EC"
+			rewards: [{
+				id: "6443C16B847EF422"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D523D641A8BC244"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1F56B5CB1CD195B3"]
+			id: "79957A3C971BB4B5"
+			optional: true
+			rewards: [{
+				id: "7A18BF6C75AA5676"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "60D5D1BC7749A839"
+				item: "cyclic:fisher"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1F56B5CB1CD195B3"
+				"3F818FA3A0D9B316"
+			]
+			description: [
+				"Use Crescent Hammer to see where need to be water!"
+				""
+				"Also any *fish food* have same result"
+				"{@pagebreak}"
+			]
+			hide_dependency_lines: true
+			id: "3F0ADDDB9A667132"
+			optional: true
+			rewards: [{
+				id: "6FF65F502BE8F0C9"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "A Classic way"
+			tasks: [
+				{
+					id: "51B9B523DA5EDEDB"
+					item: "thermal:device_fisher"
+					type: "item"
+				}
+				{
+					id: "6AFE36FE558C0CCC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ironberry:fish_food"
+						}
+					}
+					title: "Any #ironberry:fish_food"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -12.0d
 		}
 	]
 	subtitle: ["Blue technology and Chemistry"]

@@ -9,19 +9,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "1F56B5CB1CD195B3"
-			dev: false
-			height: 4.0d
-			hover: [ ]
-			image: "tombstone:particle/soul"
-			rotation: 0.0d
-			width: 4.0d
-			x: 14.0d
-			y: -10.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "64A86E7537347BDB"
 			dev: false
 			height: 1.0d
@@ -29,21 +16,22 @@
 			image: "tombstone:particle/ghost"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: -13.5d
+			x: 14.095238095238102d
+			y: -10.99761904761904d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "12A99E6FC80CE5A9"
+			dependency: "5A803F21F63BEA65"
 			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "tombstone:item/lost_tablet"
+			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.5357142857142847d
-			y: -9.178571428571423d
+			x: -8.0d
+			y: -7.0d
 		}
 		{
 			click: ""
@@ -55,8 +43,8 @@
 			image: "tombstone:item/ankh"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: -16.5d
+			x: 12.0d
+			y: -15.0d
 		}
 		{
 			click: ""
@@ -87,28 +75,28 @@
 		{
 			click: ""
 			corner: false
-			dependency: "63BA9E92202669CC"
+			dependency: "2BCC9E9DDD1FF086"
 			dev: false
 			height: 5.0d
 			hover: [ ]
-			image: "tombstone:item/grave_plate"
+			image: "tombstone:textures/gui/frame.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -3.0d
-			y: -5.0d
+			x: -3.5d
+			y: -20.5d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "12A99E6FC80CE5A9"
+			dependency: "71384C57A23FDF12"
 			dev: false
-			height: 3.0d
+			height: 5.0d
 			hover: [ ]
-			image: "tombstone:item/grave_key"
+			image: "tombstone:item/tablet"
 			rotation: 90.0d
-			width: 3.0d
-			x: -4.0d
-			y: -15.0d
+			width: 5.0d
+			x: 7.5d
+			y: -17.5d
 		}
 		{
 			click: ""
@@ -120,7 +108,7 @@
 			image: "twilightforest:block/uncrafting_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
+			x: 11.0d
 			y: -11.0d
 		}
 		{
@@ -133,8 +121,8 @@
 			image: "alchemygadgetry:item/vitamins"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: -4.0d
+			x: -3.0d
+			y: -11.0d
 		}
 		{
 			click: ""
@@ -146,8 +134,5076 @@
 			image: "essentials:item/candle_lilypad"
 			rotation: 0.0d
 			width: 1.0d
+			x: 0.5d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "64A86E7537347BDB"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tombstone:particle/ghost"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4A284E0945AFAA7C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "biomancy:item/component/toxin_extract"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4A284E0945AFAA7C"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "biomancy:item/component/volatile_fluid"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/primal_orifice_leaking"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/flesh_pillar_end"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/flesh_iris_door_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/flesh_iris_door_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/flesh_iris_door_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/flesh_iris_door_open"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 90.0d
+			width: 1.2d
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/primal_orifice_leaking"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/primal_orifice_leaking"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/primal_orifice_leaking"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/ornate_flesh_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "tombstone:particle/soul"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.0d
+			y: -22.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
 			x: 6.0d
 			y: -3.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble_paver"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -13.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -13.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dependency: "1128095158D893B4"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "biomancy:block/malignant_flesh"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "63BA9E92202669CC"
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "tombstone:item/scroll"
+			rotation: 0.0d
+			width: 10.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			alpha: 180
+			click: ""
+			color: 3355443
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironberry:block/oldlava_still"
+			rotation: 0.0d
+			width: 6.510416666666666E-4d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironberry:block/oldlava_still"
+			rotation: 0.0d
+			width: 6.510416666666666E-4d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironberry:block/oldlava_still"
+			rotation: 0.0d
+			width: 6.510416666666666E-4d
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/fancy_marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -14.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -15.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -17.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -18.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -16.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: -13.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: -12.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			alpha: 127
+			click: ""
+			color: 2434341
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "bluepower:blocks/marble"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "12A99E6FC80CE5A9"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "ftblibrary:icons/star"
+			rotation: 0.0d
+			width: 4.0d
+			x: 15.5d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "integrateddynamics:block/mechanical_squeezer_x_on"
+			rotation: 0.0d
+			width: 4.0d
+			x: 12.0d
+			y: -21.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7F0F2D13448390AF"
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "tombstone:textures/aura/aura1.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "thermal:block/amaranth_4"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "thermal:block/amaranth_1"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3452FF2184AA39B2"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "tombstone:block/grave_plate"
+			rotation: 0.0d
+			width: 4.0d
+			x: -14.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "64A86E7537347BDB"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "minecraft:textures/entity/fishing_hook.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: -25.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2BCC9E9DDD1FF086"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "twilightforest:block/thorn_rose"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -21.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2263AF80BE10A372"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "minecraft:item/salmon"
+			order: 1
+			rotation: 180.0d
+			width: 3.0d
+			x: -4.0d
+			y: -24.0d
 		}
 	]
 	order_index: 3
@@ -186,7 +5242,7 @@
 			]
 			title: "Same but more !"
 			x: 3.0d
-			y: -19.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["25DADB6F081F6920"]
@@ -202,8 +5258,8 @@
 				item: "kubejs:pre_compressed"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -19.5d
+			x: 2.5d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -234,8 +5290,8 @@
 				}
 			]
 			title: "More Powered Stuff!"
-			x: 3.0d
-			y: -18.0d
+			x: 4.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["3F818FA3A0D9B316"]
@@ -252,8 +5308,8 @@
 				item: "kubejs:casing"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -18.75d
+			x: 5.0d
+			y: -21.0d
 		}
 		{
 			dependencies: [
@@ -272,8 +5328,8 @@
 				item: "homespun:ironberry_juice_bottle"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -22.0d
+			x: 4.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["74C7873DC0E892B2"]
@@ -289,11 +5345,13 @@
 				item: "homespun:redstone_acid"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -21.0d
+			x: 4.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["2BCC9E9DDD1FF086"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "64A86E7537347BDB"
 			rewards: [{
 				id: "4E0E9619770DA704"
@@ -305,8 +5363,8 @@
 				item: "tombstone:grave_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -13.0d
+			x: -3.5d
+			y: -21.0d
 		}
 		{
 			dependencies: [
@@ -327,19 +5385,19 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 2.0d
 			subtitle: "Corail Tombstone"
 			tasks: [{
 				id: "5DCA0381C1A76B60"
 				type: "checkmark"
 			}]
 			title: "Time to die"
-			x: 3.0d
-			y: -15.5d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
 			hide: true
+			hide_dependency_lines: true
 			id: "3452FF2184AA39B2"
 			rewards: [{
 				id: "2BACDDED90618CB3"
@@ -371,12 +5429,13 @@
 				}
 			]
 			title: "Gems"
-			x: 6.0d
-			y: -16.0d
+			x: 12.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["64A86E7537347BDB"]
 			id: "7133DB21B04048B8"
+			optional: true
 			rewards: [{
 				id: "7EC110A6414A5C05"
 				item: "thermal:electrum_coin"
@@ -395,8 +5454,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -11.0d
+			x: -5.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -404,7 +5463,6 @@
 				"4A6600C0D5D16679"
 			]
 			hide: true
-			hide_dependent_lines: true
 			id: "5932367392C69B30"
 			rewards: [{
 				id: "40EA09040F1C6B6F"
@@ -416,8 +5474,8 @@
 				item: "tombstone:dust_of_vanishing"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.0d
+			x: -3.5d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -425,7 +5483,6 @@
 				"32FF5501A723E459"
 			]
 			hide: true
-			hide_dependent_lines: true
 			id: "6E31B26FF3394717"
 			rewards: [{
 				id: "0A0F73F8A5CDDED4"
@@ -437,12 +5494,13 @@
 				item: "tombstone:dust_of_frost"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -12.5d
+			x: -2.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["64A86E7537347BDB"]
 			id: "0E3E9C5B5688F70D"
+			optional: true
 			rewards: [{
 				id: "2609E11B2EB8B843"
 				item: "thermal:electrum_coin"
@@ -455,8 +5513,8 @@
 				type: "item"
 			}]
 			title: "Grave Plate"
-			x: -0.5d
-			y: -14.0d
+			x: -5.0d
+			y: -21.0d
 		}
 		{
 			dependencies: [
@@ -464,6 +5522,8 @@
 				"7163739969AAB264"
 			]
 			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "285B9826C3F0F414"
 			rewards: [{
 				id: "27AF4C1BF50FA8DD"
@@ -476,8 +5536,8 @@
 				item: "tombstone:strange_tablet"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -13.0d
+			x: -5.0d
+			y: -19.0d
 		}
 		{
 			dependencies: [
@@ -496,14 +5556,13 @@
 				item: "tombstone:smoke_ball"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -13.5d
+			x: -3.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["63BA9E92202669CC"]
 			hide: true
 			hide_dependency_lines: false
-			hide_dependent_lines: true
 			id: "411A1007C8E147F8"
 			rewards: [
 				{
@@ -525,8 +5584,8 @@
 				item: "tombstone:strange_scroll"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -535,6 +5594,8 @@
 				"3114E897FF6E3F61"
 			]
 			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "167389B3E16BDA6A"
 			rewards: [{
 				count: 4
@@ -577,8 +5638,8 @@
 				}
 			]
 			title: "Energized Gadgets"
-			x: 7.5d
-			y: -14.5d
+			x: 6.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["6F3B57552C968B42"]
@@ -610,11 +5671,13 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -11.5d
+			x: 8.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["167389B3E16BDA6A"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6F3B57552C968B42"
 			rewards: [{
 				id: "6BDA4FDA37239137"
@@ -633,14 +5696,13 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -12.5d
+			x: 9.0d
+			y: -18.5d
 		}
 		{
-			dependencies: [
-				"7177F684AAC848E2"
-				"6F3B57552C968B42"
-			]
+			dependencies: ["6F3B57552C968B42"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "32FF5501A723E459"
 			rewards: [{
 				id: "3770F721E4EF5128"
@@ -652,8 +5714,8 @@
 				item: "minecraft:blue_ice"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -12.5d
+			x: 9.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["58F3A3D139E87775"]
@@ -676,12 +5738,14 @@
 				type: "item"
 			}]
 			title: "Marbles"
-			x: -2.5d
-			y: -14.5d
+			x: 12.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["167389B3E16BDA6A"]
 			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "2F055BCB378D55FC"
 			rewards: [{
 				id: "77677D5D10852DD9"
@@ -693,12 +5757,13 @@
 				item: "minecraft:snowball"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -14.5d
+			x: 6.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["3452FF2184AA39B2"]
 			hide: true
+			hide_dependency_lines: true
 			id: "5479C6B71BEF64F9"
 			rewards: [{
 				id: "7BF2173A694DF89D"
@@ -710,8 +5775,8 @@
 				item: "tombstone:merchant_stone"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -17.0d
+			x: 13.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["54958A7EC60D4E74"]
@@ -720,6 +5785,9 @@
 				""
 				"Other Sacred texts see that was a joke"
 			]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "6DA70AC867C01085"
 			rewards: [{
 				id: "247D6F3616558A27"
@@ -732,8 +5800,8 @@
 				item: "tombstone:soul_receptacle"
 				type: "item"
 			}]
-			x: 6.535714285714285d
-			y: -9.464285714285715d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["285B9826C3F0F414"]
@@ -749,8 +5817,8 @@
 				item: "tombstone:tablet_of_recall"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -11.5d
+			x: -8.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -770,8 +5838,8 @@
 				item: "tombstone:tablet_of_home"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -9.5d
+			x: -7.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["285B9826C3F0F414"]
@@ -789,8 +5857,8 @@
 				type: "item"
 			}]
 			title: "Tablet of Assistance"
-			x: -2.0d
-			y: -9.5d
+			x: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -810,8 +5878,8 @@
 				item: "tombstone:tablet_of_cupidity"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -11.5d
+			x: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -827,8 +5895,8 @@
 				item: "tombstone:scroll_of_knowledge"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -847,8 +5915,8 @@
 				item: "tombstone:scroll_of_preservation"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -9.0d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -867,8 +5935,8 @@
 				item: "tombstone:scroll_of_unstable_intangibility"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -887,8 +5955,8 @@
 				item: "tombstone:scroll_of_feather_fall"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -8.0d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -903,8 +5971,8 @@
 				item: "tombstone:scroll_of_purification"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -9.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -919,14 +5987,15 @@
 				item: "tombstone:scroll_of_true_sight"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"411A1007C8E147F8"
 				"37189EE68DA1957E"
 			]
+			hide: true
 			id: "7D8FB31799DFD89B"
 			rewards: [{
 				id: "37FB5C97905E05F0"
@@ -939,8 +6008,8 @@
 				item: "tombstone:scroll_of_reach"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -955,7 +6024,7 @@
 				item: "tombstone:scroll_of_lightning_resistance"
 				type: "item"
 			}]
-			x: 7.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -964,7 +6033,7 @@
 				"2F055BCB378D55FC"
 			]
 			hide: true
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "74EF1BAFD7F54538"
 			rewards: [{
 				id: "394DA4A2A74536C8"
@@ -976,8 +6045,8 @@
 				item: "tombstone:scroll_of_frost_resistance"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -996,8 +6065,8 @@
 				item: "tombstone:scroll_of_aquatic_life"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -6.0d
+			x: -9.452380952380949d
+			y: -1.9857142857142875d
 		}
 		{
 			dependencies: [
@@ -1016,8 +6085,8 @@
 				item: "tombstone:scroll_of_mercy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["411A1007C8E147F8"]
@@ -1033,8 +6102,8 @@
 				item: "tombstone:magic_scroll"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: -6.738095238095241d
+			y: -1.9857142857142875d
 		}
 		{
 			dependencies: ["5A803F21F63BEA65"]
@@ -1050,8 +6119,8 @@
 				item: "kubejs:scroll"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.0d
+			x: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1059,6 +6128,7 @@
 				"6E31B26FF3394717"
 				"5932367392C69B30"
 			]
+			hide: true
 			id: "7E8FA26E1A3924A5"
 			optional: true
 			rewards: [{
@@ -1079,14 +6149,15 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -10.0d
+			x: -2.0d
+			y: -19.0d
 		}
 		{
 			dependencies: [
 				"1F56B5CB1CD195B3"
 				"2263AF80BE10A372"
 			]
+			hide: true
 			id: "642719B0E6FA2529"
 			optional: true
 			rewards: [
@@ -1107,139 +6178,14 @@
 					type: "item"
 				}
 			]
-			shape: "heart"
 			subtitle: "The new love"
 			tasks: [{
 				id: "694483AA73ADA408"
 				item: "cyclic:ender_fishing"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			description: ["Use Crescent Hammer to see where need to be water!"]
-			id: "3F0ADDDB9A667132"
-			optional: true
-			rewards: [{
-				id: "6FF65F502BE8F0C9"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "A Classic way"
-			tasks: [
-				{
-					id: "51B9B523DA5EDEDB"
-					item: "thermal:device_fisher"
-					type: "item"
-				}
-				{
-					id: "6AFE36FE558C0CCC"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "ironberry:fish_food"
-						}
-					}
-					title: "Any #ironberry:fish_food"
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["578BA9E968E7B064"]
-			hide: true
-			id: "1F56B5CB1CD195B3"
-			rewards: [{
-				id: "2158F8B99C18EB9C"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Vanilla Style"
-			tasks: [{
-				id: "74112ABB59AA2980"
-				item: {
-					Count: 1b
-					id: "minecraft:fishing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 14.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			id: "6CF1FD984832BEDF"
-			rewards: [{
-				id: "507FE50F27FE2C56"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "28F1F7A02BC436E9"
-				item: "minecraft:feather"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			id: "3F8255B469D8C8D2"
-			rewards: [{
-				id: "7B9D2957028E4B40"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4E7DBAD18EB48E26"
-				item: "minecraft:nautilus_shell"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			id: "592AB29EFAADB4D0"
-			rewards: [{
-				id: "77E7EA148C761003"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "613C3626F808F338"
-				item: "minecraft:rabbit_foot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			id: "45C4AC011AABE1EC"
-			rewards: [{
-				id: "6443C16B847EF422"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3D523D641A8BC244"
-				item: "minecraft:ghast_tear"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -5.0d
+			x: -3.5d
+			y: -24.5d
 		}
 		{
 			dependencies: [
@@ -1262,25 +6208,28 @@
 				item: "kubejs:omni"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -10.5d
+			x: -8.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["12A99E6FC80CE5A9"]
 			hide: true
+			hide_dependent_lines: true
 			id: "37189EE68DA1957E"
 			rewards: [{
 				id: "4E2E1B99616335D1"
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "196D0D3899D1657A"
 				item: "minecraft:sunflower"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 15.5d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1288,6 +6237,7 @@
 				"0D6DDD97A2065943"
 			]
 			hide: true
+			hide_dependent_lines: true
 			id: "61161170162203B7"
 			rewards: [{
 				id: "292A4C1C76295484"
@@ -1299,8 +6249,8 @@
 				item: "kubejs:iron_rod"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -16.5d
+			x: 7.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -1308,6 +6258,7 @@
 				"6240CC21E07DF06B"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "58F3A3D139E87775"
 			rewards: [{
 				id: "51F27965E75459A5"
@@ -1319,8 +6270,8 @@
 				item: "quark:sturdy_stone"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -15.5d
+			x: 12.0d
+			y: -20.5d
 		}
 		{
 			dependencies: [
@@ -1328,6 +6279,7 @@
 				"3452FF2184AA39B2"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "71384C57A23FDF12"
 			rewards: [{
 				id: "6862A8E6EFF1A5FF"
@@ -1339,8 +6291,8 @@
 				item: "tombstone:impregnated_diamond"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -14.0d
+			x: 11.0d
+			y: -20.5d
 		}
 		{
 			dependencies: ["61161170162203B7"]
@@ -1356,11 +6308,12 @@
 				item: "tombstone:bone_needle"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -15.5d
+			x: 10.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["1F56B5CB1CD195B3"]
+			hide_dependent_lines: true
 			id: "54958A7EC60D4E74"
 			rewards: [{
 				id: "599392D064C86D9E"
@@ -1372,8 +6325,8 @@
 				item: "kubejs:soul"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -11.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7F0F2D13448390AF"]
@@ -1420,8 +6373,8 @@
 				item: "kubejs:rose"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -16.0d
+			x: -2.0d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -1432,6 +6385,7 @@
 				"015474317D55242A"
 				"74EF1BAFD7F54538"
 			]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "0E6D91BEA58EF2B0"
 			rewards: [{
@@ -1444,8 +6398,8 @@
 				item: "kubejs:scroll_safety"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1456,6 +6410,7 @@
 				"18B042EE297E9243"
 				"396B0ABECBC55212"
 			]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4D2E8CFB00E7D02C"
 			rewards: [{
@@ -1468,8 +6423,8 @@
 				item: "kubejs:scroll_discontinuity"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1483,6 +6438,7 @@
 				"This is the quest that you need now!"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "3AE5CD008B44982C"
 			rewards: [{
 				id: "6ECC1241C3982B87"
@@ -1495,8 +6451,8 @@
 				item: "kubejs:grave_spawn"
 				type: "item"
 			}]
-			x: 7.595238095238102d
-			y: -6.940476190476197d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1512,8 +6468,8 @@
 				item: "kubejs:illuminati"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.0d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1533,8 +6489,8 @@
 				item: "exoticbirds:phoenix_egg"
 				type: "item"
 			}]
-			x: 6.392857142857146d
-			y: -4.464285714285715d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1559,8 +6515,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1588,15 +6544,15 @@
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "circle"
 			subtitle: "One of most dangerous Boss Battle"
 			tasks: [{
 				id: "0C402109886C5A1C"
 				type: "checkmark"
 			}]
 			title: "The Final countdown"
-			x: 4.0d
-			y: -2.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1616,12 +6572,13 @@
 				item: "exoticbirds:egg_incubator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4A6600C0D5D16679"]
 			hide: true
+			hide_dependent_lines: true
 			id: "3B8D921168A164BF"
 			rewards: [{
 				id: "59A108F8C50B2674"
@@ -1633,8 +6590,8 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["126DB54048F2A068"]
@@ -1650,12 +6607,14 @@
 				item: "tombstone:voodoo_poppet"
 				type: "item"
 			}]
-			x: 1.5357142857142847d
-			y: -9.464285714285715d
+			x: 2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["29CECA7F57D6E40E"]
 			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1b
 				id: "minecraft:bundle"
@@ -1676,12 +6635,13 @@
 				type: "item"
 			}]
 			title: "Bundled"
-			x: 0.75d
-			y: -18.0d
+			x: 1.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["63530FEA1B294B96"]
 			hide: true
+			hide_dependent_lines: true
 			id: "2945A2E25BD04276"
 			rewards: [{
 				id: "6D189F0B1FB11CC9"
@@ -1701,8 +6661,8 @@
 				}
 			]
 			title: "Crystallized Chunks"
-			x: -0.75d
-			y: -17.25d
+			x: -2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["5479C6B71BEF64F9"]
@@ -1718,12 +6678,13 @@
 				item: "tombstone:christmas_hat"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -18.0d
+			x: 14.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2945A2E25BD04276"]
 			hide: true
+			hide_dependent_lines: true
 			icon: "kubejs:processor"
 			id: "31C7366B2D51ED2C"
 			rewards: [
@@ -1763,7 +6724,7 @@
 			]
 			title: "Logic Menril Network"
 			x: -3.0d
-			y: -19.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["31C7366B2D51ED2C"]
@@ -1806,8 +6767,8 @@
 				}
 			]
 			title: "Menril Generators"
-			x: -6.0d
-			y: -18.0d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["126DB54048F2A068"]
@@ -1846,12 +6807,13 @@
 				}
 			]
 			title: "Effigies"
-			x: 1.5357142857142847d
-			y: -4.464285714285715d
+			x: 6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3AE5CD008B44982C"]
 			description: ["I can uncraft? Oh it was nerfed!"]
+			hide_dependency_lines: true
 			id: "126DB54048F2A068"
 			rewards: [{
 				id: "70EC0404E9A77060"
@@ -1863,8 +6825,8 @@
 				item: "twilightforest:uncrafting_table"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1888,8 +6850,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -12.0d
+			x: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2EF34AD3D05D4C30"]
@@ -1911,8 +6873,8 @@
 				title: "Any #ironberry:magic_trees"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -10.0d
+			x: -14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1931,25 +6893,8 @@
 				item: "bluepower:purple_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -20.0d
-		}
-		{
-			dependencies: ["1F56B5CB1CD195B3"]
-			id: "79957A3C971BB4B5"
-			optional: true
-			rewards: [{
-				id: "7A18BF6C75AA5676"
-				item: "thermal:electrum_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "60D5D1BC7749A839"
-				item: "cyclic:fisher"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -8.0d
+			x: 3.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["70CEF7D9F2C579E0"]
@@ -1966,7 +6911,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -20.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["70CEF7D9F2C579E0"]
@@ -1984,8 +6929,166 @@
 				type: "item"
 			}]
 			title: "RFantastic"
-			x: 6.538095238095238d
-			y: -18.70476190476191d
+			x: 5.5d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"4501B6CFFEE743C6"
+				"0D3199E15D1C8432"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "4E595A4E4C37E150"
+			rewards: [{
+				id: "4F480F320BF5040C"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "711034EA078D27D1"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E595A4E4C37E150"]
+			id: "1128095158D893B4"
+			rewards: [{
+				id: "7CF752BCA66302C1"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "biomancy:malignant_flesh"
+				id: "7E361C7A89F1F361"
+				observe_type: 0
+				timer: 0L
+				to_observe: "biomancy:malignant_flesh"
+				type: "observation"
+			}]
+			title: "Consequuntur Actiones"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B8D921168A164BF"]
+			hide_dependent_lines: true
+			id: "4501B6CFFEE743C6"
+			rewards: [{
+				id: "64E54A9AD04A5277"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D9DA97866B55A0"
+				item: "biomancy:primordial_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F496DDE37DAB3B4"]
+			hide_dependent_lines: true
+			id: "0D3199E15D1C8432"
+			rewards: [{
+				id: "37C4FD536C9F41AE"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0998D88C2E0AA5FC"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["75D462BF3C22D8BE"]
+			id: "2D6948945BDDBCF2"
+			rewards: [{
+				id: "43FCE2A17BF4E4FD"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0763FC6C971C1821"
+				item: "biomancy:flesh"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2D6948945BDDBCF2"]
+			id: "2F496DDE37DAB3B4"
+			rewards: [{
+				id: "21C833D072D43638"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "474F3F3485503491"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4A284E0945AFAA7C"]
+			hide: true
+			id: "398208BC268CEF33"
+			rewards: [{
+				id: "1D75B8C824FEED90"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AD162E5B7BB34D7"
+				item: "biomancy:digester"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1128095158D893B4"]
+			hide: true
+			id: "4A284E0945AFAA7C"
+			rewards: [{
+				id: "00EDD567108A286F"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74D339CED65A2898"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A284E0945AFAA7C"]
+			hide: true
+			id: "0F826A4D16FEE1EE"
+			rewards: [{
+				id: "698FEBC6D1417F73"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75F76152760AFBBF"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["The Dark Side of the Moon"]
