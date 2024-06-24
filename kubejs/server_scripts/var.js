@@ -16,7 +16,8 @@ const data = {
     },
 
     item: {
-        tablet: []
+        tablet: [],
+        music_discs:[]
     }
 
 }
