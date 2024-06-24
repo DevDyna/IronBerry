@@ -20,7 +20,20 @@ ServerEvents.tags("item", (event) => {
   event.get("reactive:verdant_sources").removeAll();
   event.get("reactive:mind_sources").removeAll();
   event.removeAllTagsFrom("minecraft:fermented_spider_eye");
-  event.add("reactive:body_sources", "reactive:quartz");
+
+  event.add("reactive:body_sources", [
+    "biomancy:flesh_bits",
+    "biomancy:elastic_fibers",
+    "biomancy:mob_sinew",
+    "biomancy:primal_permeable_membrane",
+    "biomancy:malignant_flesh_stairs",
+    "biomancy:malignant_flesh_wall",
+    "biomancy:malignant_flesh_slab",
+    "biomancy:malignant_flesh",
+    "biomancy:primal_orifice",
+    "biomancy:malignant_flesh_veins",
+  ]);
+
   event.add("reactive:caustic_sources", "bluepower:indigo_dye");
   event.add("reactive:verdant_sources", "#tombstone:seeds");
   event.add("reactive:mind_sources", "minecraft:redstone");
@@ -104,7 +117,24 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
-    'ae2:quantum_link', 'ae2:energy_cell', 'ae2:crafting_unit', 'ae2:molecular_assembler', 'ae2:memory_card', 'ae2:biometric_card', 'ae2:me_p2p_tunnel', 'ae2:formation_plane', 'ae2:annihilation_plane',
+    "biomancy:mascot_patterns",
+    "minecraft:creeper_banner_pattern",
+    "minecraft:skull_banner_pattern",
+    "minecraft:flower_banner_pattern",
+    "minecraft:mojang_banner_pattern",
+    "twilightforest:lich_banner_pattern",
+    "twilightforest:minoshroom_banner_pattern",
+    "twilightforest:knight_phantom_banner_pattern",
+    "biomancy:primordial_core",
+    "ae2:quantum_link",
+    "ae2:energy_cell",
+    "ae2:crafting_unit",
+    "ae2:molecular_assembler",
+    "ae2:memory_card",
+    "ae2:biometric_card",
+    "ae2:me_p2p_tunnel",
+    "ae2:formation_plane",
+    "ae2:annihilation_plane",
     "ae2:drive",
     "ae2:wireless_receiver",
     "ae2:blank_pattern",
@@ -655,6 +685,23 @@ ServerEvents.tags("item", (event) => {
   ]);
 
   event.add("ironberry:fishing", [
+    "minecraft:rabbit",
+    "minecraft:porkchop",
+    "minecraft:chicken",
+    "minecraft:beef",
+    "minecraft:pufferfish",
+    "minecraft:tropical_fish",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:bowl",
+    "minecraft:string",
+    "minecraft:kelp",
+    "minecraft:lily_pad",
+    "minecraft:bone",
+    "minecraft:rotten_flesh",
+    "minecraft:ink_sac",
+    "minecraft:tripwire_hook",
+    "minecraft:stick",
     "minecraft:kelp",
     "minecraft:phantom_membrane",
     "minecraft:chicken",
@@ -1243,6 +1290,42 @@ ServerEvents.tags("item", (event) => {
   event.add("ironberry:infinity_cells", [
     "kubejs:cell_base",
     "expatternprovider:infinity_cell",
+  ]);
+
+  event.add("ironberry:meats", [
+    "#forge:raw_fishes",
+    "exoticbirds:raw_birdmeat",
+    "minecraft:beef",
+    "minecraft:chicken",
+    "minecraft:mutton",
+    "minecraft:rabbit",
+    "minecraft:porkchop",
+  ]);
+
+  event
+    .get("minecraft:music_discs")
+    .getObjectIds()
+    .forEach((disk) => {
+      data.item.music_discs.push(disk);
+    });
+
+  event.add("ironberry:banner_patterns", [
+    "minecraft:mojang_banner_pattern",
+    "minecraft:flower_banner_pattern",
+    "minecraft:skull_banner_pattern",
+    "minecraft:creeper_banner_pattern",
+    "biomancy:mascot_patterns",
+    "minecraft:piglin_banner_pattern",
+    "minecraft:globe_banner_pattern",
+    "twilightforest:alpha_yeti_banner_pattern",
+    "twilightforest:snow_queen_banner_pattern",
+    "twilightforest:quest_ram_banner_pattern",
+    "twilightforest:ur_ghast_banner_pattern",
+    "twilightforest:hydra_banner_pattern",
+    "twilightforest:naga_banner_pattern",
+    "twilightforest:lich_banner_pattern",
+    "twilightforest:minoshroom_banner_pattern",
+    "twilightforest:knight_phantom_banner_pattern",
   ]);
 });
 

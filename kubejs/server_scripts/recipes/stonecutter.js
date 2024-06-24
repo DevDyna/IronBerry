@@ -7,7 +7,13 @@ ServerEvents.recipes((event) => {
         event
           .stonecutting(result[i], input[j])
           .id(
-            RegX(input[j] + "_n" + i + "_" + result[i].replace(/[0-9\s]/g, ""))
+            RegX(
+              input[j] +
+                "_n" +
+                i +
+                "_" +
+                result[i].toString().replace(/[0-9\s]/g, "")
+            )
           );
       }
     }
@@ -178,6 +184,16 @@ ServerEvents.recipes((event) => {
   //saplings
   scut(
     [
+      "twilightforest:mining_sapling",
+      "twilightforest:sorting_sapling",
+      "twilightforest:rainbow_oak_sapling",
+      "twilightforest:twilight_oak_sapling",
+      "twilightforest:canopy_sapling",
+      "twilightforest:time_sapling",
+      "twilightforest:darkwood_sapling",
+      "twilightforest:hollow_oak_sapling",
+      "twilightforest:mangrove_sapling",
+      "twilightforest:transformation_sapling",
       "homespun:ironwood_sapling",
       "homespun:olive_sapling",
       "quark:blue_blossom_sapling",
@@ -512,19 +528,81 @@ ServerEvents.recipes((event) => {
     ["minecraft:chain", "create:minecart_coupling"]
   );
 
+  scut(
+    [
+      "create:contraption_controls",
+      "create:sticker",
+      "create:portable_storage_interface",
+      "create:redstone_contact",
+      "create:gantry_carriage",
+      "create:mechanical_plough",
+      "create:mechanical_harvester",
+    ],
+    ["create:andesite_casing", "#ironberry:create_attach"]
+  );
 
+  scut(
+    [
+      "create:radial_chassis",
+      "create:linear_chassis",
+      "create:secondary_linear_chassis",
+    ],
+    ["create:radial_chassis", "#ironberry:create_support"]
+  );
 
+  scut(
+    ["create:cuckoo_clock", "supplementaries:clock_block"],
+    ["create:cuckoo_clock", "supplementaries:clock_block"]
+  );
 
+  scut(["8x create:turntable"], ["supplementaries:turn_table"]);
 
-scut(['create:contraption_controls','create:sticker', 'create:portable_storage_interface', 'create:redstone_contact', 'create:gantry_carriage', 'create:mechanical_plough', 'create:mechanical_harvester']
-  ,['create:andesite_casing','#ironberry:create_attach'])
+  scut(
+    ["create:speedometer", "create:stressometer"],
+    ["create:speedometer", "create:stressometer"]
+  );
 
-scut(['create:radial_chassis', 'create:linear_chassis', 'create:secondary_linear_chassis'],['create:radial_chassis','#ironberry:create_support'])
+  scut(data.item.music_discs, ["#minecraft:music_discs"]);
 
-scut(['create:cuckoo_clock', 'supplementaries:clock_block'],['create:cuckoo_clock', 'supplementaries:clock_block'])
+  scut(
+    [
+      "minecraft:mojang_banner_pattern",
+      "minecraft:flower_banner_pattern",
+      "minecraft:skull_banner_pattern",
+      "minecraft:creeper_banner_pattern",
+      "biomancy:mascot_patterns",
+      "minecraft:piglin_banner_pattern",
+      "minecraft:globe_banner_pattern",
+      "twilightforest:alpha_yeti_banner_pattern",
+      "twilightforest:snow_queen_banner_pattern",
+      "twilightforest:quest_ram_banner_pattern",
+      "twilightforest:ur_ghast_banner_pattern",
+      "twilightforest:hydra_banner_pattern",
+      "twilightforest:naga_banner_pattern",
+      "twilightforest:lich_banner_pattern",
+      "twilightforest:minoshroom_banner_pattern",
+      "twilightforest:knight_phantom_banner_pattern",
+    ],
+    ["quark:paper_wall_big", "#ironberry:banner_patterns"]
+  );
 
-scut(['8x create:turntable'],['supplementaries:turn_table'])
+  scut(
+    ["minecraft:bricks", "twilightforest:underbrick"],
+    ["minecraft:bricks", "twilightforest:underbrick"]
+  );
 
-scut(['create:speedometer', 'create:stressometer'],['create:speedometer', 'create:stressometer'])
-
+  scut(
+    [
+      "minecraft:chiseled_stone_bricks",
+      "twilightforest:etched_nagastone",
+      "twilightforest:nagastone_head",
+      "twilightforest:nagastone",
+    ],
+    [
+      "minecraft:chiseled_stone_bricks",
+      "twilightforest:etched_nagastone",
+      "twilightforest:nagastone_head",
+      "twilightforest:nagastone",
+    ]
+  );
 });
