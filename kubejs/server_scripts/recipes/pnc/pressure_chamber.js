@@ -68,11 +68,11 @@ ServerEvents.recipes((event) => {
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
-        item: "bluepower:blue_alloy_ingot",
+        tag: 'reactive:body_sources',
       },
       {
         type: "pneumaticcraft:stacked_item",
-        count: 16,
+        count: 32,
         item: "kubejs:blank",
       },
     ],
@@ -80,7 +80,7 @@ ServerEvents.recipes((event) => {
     results: [
       {
         item: "kubejs:casing",
-        count: 16,
+        count: 32,
       },
     ],
   });

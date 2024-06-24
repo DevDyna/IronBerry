@@ -346,12 +346,12 @@ ServerEvents.recipes((event) => {
     type: "farmersdelight:cutting",
     ingredients: [
       {
-        item: 'ae2:fluix_covered_cable',
+        item: "ae2:fluix_covered_cable",
       },
     ],
     result: [
       {
-        item: 'ae2:cable_anchor',
+        item: "ae2:cable_anchor",
         count: 64,
       },
     ],
@@ -365,12 +365,12 @@ ServerEvents.recipes((event) => {
     type: "farmersdelight:cutting",
     ingredients: [
       {
-        item: 'thermal:invar_ingot',
+        item: "thermal:invar_ingot",
       },
     ],
     result: [
       {
-        item: 'thermal:invar_plate',
+        item: "thermal:invar_plate",
       },
     ],
     tool: {
@@ -379,5 +379,121 @@ ServerEvents.recipes((event) => {
   });
   //
   //
+
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        tag: "ironberry:meats",
+      },
+    ],
+    result: [
+      {
+        item: "biomancy:flesh_bits",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:elastic_fibers",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:mob_sinew",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:bone_fragments",
+        chance: 0.25,
+      },
+    ],
+    tool: {
+      tag: "bluepower:saw",
+    },
+  });
+  //
+  //
+
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        item: "biomancy:flesh",
+      },
+    ],
+    result: [
+      {
+        item: "biomancy:living_flesh",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:living_flesh",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:living_flesh",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:living_flesh",
+        chance: 0.25,
+      },
+    ],
+    tool: {
+      tag: "bluepower:saw",
+    },
+  });
+  //
+  //
+
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        item: "minecraft:pufferfish",
+      },
+    ],
+    result: [
+      {
+        item: "biomancy:flesh_bits",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:elastic_fibers",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:mob_sinew",
+        chance: 0.25,
+      },
+      {
+        item: "biomancy:mob_claw",
+        chance: 0.95,
+      },
+    ],
+    tool: {
+      tag: "bluepower:saw",
+    },
+  });
+  //
+  //
+
+  
+
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+      {
+        item: 'twilightforest:twisted_stone',
+      },
+    ],
+    result: [
+      {
+        item: 'twilightforest:twisted_stone_pillar',
+        count: 1,
+      },
+    ],
+    tool: {
+      tag: "forge:tools/pickaxes",
+    },
+  });
 
 });

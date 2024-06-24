@@ -304,6 +304,9 @@ ServerEvents.recipes((event) => {
       {
         item: "twilightforest:fiery_blood",
       },
+      {
+        item: "biomancy:nutrient_paste",
+      },
     ],
     recipe_book_tab: "meals",
     result: {
@@ -447,6 +450,9 @@ ServerEvents.recipes((event) => {
       {
         item: "minecraft:allium",
       },
+      {
+        item: "biomancy:nutrient_paste",
+      },
     ],
     recipe_book_tab: "meals",
     result: {
@@ -520,11 +526,11 @@ ServerEvents.recipes((event) => {
 
   let ingredient = [];
   for (let i = 1; i < 7; i++) {
-    ingredient.push({item: "twilightforest:meef_stroganoff",})
+    ingredient.push({ item: "twilightforest:meef_stroganoff" });
     event.custom({
       type: "farmersdelight:cooking",
-      cookingtime: 80*i,
-      experience: i*1.0,
+      cookingtime: 80 * i,
+      experience: i * 1.0,
       ingredients: ingredient,
       recipe_book_tab: "meals",
       result: {
@@ -534,21 +540,50 @@ ServerEvents.recipes((event) => {
     });
   }
 
+  event.custom({
+    type: "farmersdelight:cooking",
+    cookingtime: 20,
+    experience: 0.0,
+    ingredients: [
+      {
+        item: "tombstone:lollipop",
+      },
+      {
+        item: "rootsclassic:elderberry",
+      },
+      {
+        item: "ars_nouveau:source_berry",
+      },
+    ],
+    recipe_book_tab: "meals",
+    result: {
+      item: "biomancy:bloomberry",
+      count: 2,
+    },
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  event.custom({
+    type: "farmersdelight:cooking",
+    cookingtime: 20,
+    experience: 0.0,
+    ingredients: [
+      {
+        item: "ars_nouveau:experience_gem",
+      },
+      {
+        item: "biomancy:bloomberry",
+      },
+      {
+        item: "minecraft:glow_berries",
+      },
+      {
+        item: "twilightforest:magic_beans",
+      },
+    ],
+    recipe_book_tab: "meals",
+    result: {
+      item: "twilightforest:torchberries",
+      count: 2,
+    },
+  });
 });

@@ -2099,4 +2099,6 @@ ServerEvents.recipes((event) => {
     ],
     "ae2:controller"
   );
+
+  shapex(['biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'minecraft:air', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits'],'biomancy:flesh')
 });

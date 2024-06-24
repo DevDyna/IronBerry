@@ -277,4 +277,33 @@ ServerEvents.recipes(event => {
     //
     //
 
+    event.custom({
+        "type": "integrateddynamics:mechanical_squeezer",
+        "item": {
+            "item": 'biomancy:primal_orifice'
+        },
+        "result": {
+            "items": [{
+                
+                    "item": 'biomancy:primal_orifice',
+                    "chance": 0.99
+                
+                }, {
+                    "item": 'biomancy:mob_sinew',
+                    "chance": 0.5
+                }, {
+                    "item": 'biomancy:flesh_bits',
+                    "chance": 0.5
+                }
+            ],
+            "fluid": {
+                "fluid": 'biomancy:acid',
+                "amount": 250
+            }
+        },
+        "duration": 200
+    })
+    //
+    //
+
 })

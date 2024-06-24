@@ -110,9 +110,13 @@ ServerEvents.recipes((event) => {
     "mekanism:separator/water",
     "mekanismgenerators:separator/heavy_water",
     "mekanism:separator/brine",
+    'biomancy:decomposer',
+    'biomancy:bio_forging/decomposer_from_bio_forging',
+    'biomancy:nutrient_paste',
   ]);
 
   remtype([
+    "twilightforest:transformation_powder",
     "create:milling",
     "create:cutting",
     "ae2:entropy",
