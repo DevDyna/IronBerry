@@ -1527,4 +1527,8 @@ ServerEvents.recipes((event) => {
     ["ae2:interface", "expatternprovider:interface_upgrade"],
     "expatternprovider:ex_interface"
   );
+
+
+less(['9x bluepower:tungsten_ingot' ],'bluepower:tungsten_block')
+
 });
