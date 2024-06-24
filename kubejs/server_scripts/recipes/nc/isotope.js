@@ -14,5 +14,5 @@ ServerEvents.recipes(event => {
         "radiation": global.nc.rad,
         "timeModifier": global.nc.speed
       }).id(RegX(input + '_' + outlist, '_'))}
-      separator('minecraft:dirt',16,['minecraft:clay_ball','kubejs:rich_bone_meal'],[1,4])
+      separator('minecraft:dirt',10,['minecraft:clay_ball','farmersdelight:rich_soil'],[3,5])
 })
