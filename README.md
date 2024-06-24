@@ -16,6 +16,8 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 ## #mods:
     updated all mods
 
+    replaced inventory spam with loot journal
+
 <br/>
 
     added biomancy
