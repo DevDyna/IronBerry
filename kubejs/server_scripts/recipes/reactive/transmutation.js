@@ -181,4 +181,6 @@ ServerEvents.recipes((event) => {
   transmute("minecraft:stone", "create:limestone", ["reactive:light"], 10, 2);
   transmute("minecraft:stone", "create:scoria", ["reactive:mind"], 10, 2);
   transmute("minecraft:stone", "create:ochrum", ["reactive:body"], 10, 2);
+
+  transmute('minecraft:ender_eye','biomancy:primordial_core',["reactive:body","reactive:soul","reactive:caustic","reactive:mind"],10,10)
 });
