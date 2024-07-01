@@ -210,3 +210,4 @@ config/create-client.toml
 .qmenu_opened.marker
 options.txt
 makelist.bat
+_gitlink.url

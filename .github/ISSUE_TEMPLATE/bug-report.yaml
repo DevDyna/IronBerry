@@ -13,6 +13,10 @@ body:
           required: true
         - label: This bug persist and I need help
           required: true
+        - label: I'm using the latest version of this project
+          required: true
+        - label: I'm try to reinstall it on a clean instance (common issue)
+          required: true
           
   - type: dropdown
     id: environment
