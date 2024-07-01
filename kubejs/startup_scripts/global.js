@@ -49,6 +49,19 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  "extendedcrafting:the_ultimate_block",
+  "extendedcrafting:enhanced_ender_ingot_block",
+  "extendedcrafting:nether_star_block",
+  "extendedcrafting:ender_star_block",
+  "extendedcrafting:enhanced_redstone_nugget",
+  "extendedcrafting:enhanced_ender_nugget",
+  "extendedcrafting:redstone_nugget",
+  "extendedcrafting:black_iron_nugget",
+  "extendedcrafting:the_ultimate_nugget",
+  "extendedcrafting:luminessence_block",
+  "extendedcrafting:enhanced_redstone_ingot_block",
+  "extendedcrafting:flux_star_block",
+  "extendedcrafting:ender_nugget",
   "extendedcrafting:flux_crafter",
   "extendedcrafting:ender_crafter",
   "extendedcrafting:ultimate_auto_table",
@@ -2657,6 +2670,6 @@ global.fishing = [
     "thermal:iron_coin",
     "minecraft:bowl",
     "minecraft:saddle",
-    'supplementaries:antique_ink',
+    "supplementaries:antique_ink",
   ],
 ];
