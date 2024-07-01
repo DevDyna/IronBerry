@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     event.custom({
         type: `extendedcrafting:compressor`,
-        powerCost: 5000000.0,
+        powerCost: 50000.0,
         inputCount: 16,
         ingredient: {
             item: 'kubejs:crystaltine',
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: `extendedcrafting:compressor`,
-        powerCost: 5000000.0,
+        powerCost: 50000.0,
         inputCount: 16,
         ingredient: {
             item: 'extendedcrafting:crystaltine_ingot',

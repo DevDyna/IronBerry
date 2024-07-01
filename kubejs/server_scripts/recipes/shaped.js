@@ -2160,4 +2160,18 @@ shapex(['rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'rftoo
 shapex(['#minecraft:wooden_slabs','#minecraft:wooden_slabs','#minecraft:wooden_slabs','minecraft:air','#forge:bookshelves','minecraft:air','minecraft:air','#minecraft:wooden_slabs'],'minecraft:lectern')
 
 
+pedestal('ten3:redstone_ai', 'kubejs:redstone_circuit',  'extendedcrafting:redstone_ingot_block','extendedcrafting:redstone_ingot', 'extendedcrafting:flux_alternator')
+
+shapex(['kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot_block', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit'],'extendedcrafting:auto_flux_crafter')
+
+shapex(['extendedcrafting:black_iron_block', 'extendedcrafting:pedestal', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:crystaltine_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block'],'extendedcrafting:compressor')
+
+event.shaped('extendedcrafting:compressor', ["ABA", "ACA", "AAA"], {
+  A: 'extendedcrafting:black_iron_block',
+  B: 'extendedcrafting:pedestal',
+  C: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:crystaltine"}').strongNBT()
+});
+
+pedestal('thoriumreactors:redstone_processor', 'minecraft:air', 'extendedcrafting:frame', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:pedestal')
+
 });

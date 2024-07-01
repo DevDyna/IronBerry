@@ -1537,6 +1537,10 @@ nine_to_one(['extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_b
 nine_to_one(['extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot_block'])
 nine_to_one(['extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot_block'])
 
+nine_to_one('kubejs:crystaltine', 'extendedcrafting:crystaltine_nugget')
 
+less('9x extendedcrafting:crystaltine_nugget','extendedcrafting:crystaltine_ingot')
+
+less('9x extendedcrafting:crystaltine_ingot', 'extendedcrafting:crystaltine_block')
 
 });
