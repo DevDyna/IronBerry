@@ -29,6 +29,7 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'extendedcrafting:crystaltine_singularity',
     "ae2:network/blocks/interfaces_interface",
     "ae2:network/blocks/pattern_providers_interface",
     "ten3:induction_furnace/azure_glass",

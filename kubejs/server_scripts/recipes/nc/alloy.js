@@ -185,5 +185,15 @@ ServerEvents.recipes((event) => {
     3
   );
 
+  alloy(
+    "bluepower:tungsten_ingot",
+    1,
+    "minecraft:coal",
+    4,
+    "bluepower:tungsten_carbide",
+    4
+  );
+
+alloy('pneumaticcraft:ingot_iron_compressed',1,'kubejs:tungsten_plate',2,'extendedcrafting:black_iron_ingot',1)
 
 });

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.crystaltine",
+  "colors": [
+    "29F3EC",
+    "2AF3CB"
+  ],
+  "ingredient": {
+    "item": 'extendedcrafting:crystaltine_ingot'
+  }
+}

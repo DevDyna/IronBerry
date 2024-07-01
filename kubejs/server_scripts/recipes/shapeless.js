@@ -1531,4 +1531,12 @@ ServerEvents.recipes((event) => {
 
 less(['9x bluepower:tungsten_ingot' ],'bluepower:tungsten_block')
 
+nine_to_one('bluepower:tungsten_carbide', 'kubejs:tungsten_carbide_block')
+
+nine_to_one(['extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_block'])
+nine_to_one(['extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot_block'])
+nine_to_one(['extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot_block'])
+
+
+
 });
