@@ -1546,4 +1546,5 @@ less('9x extendedcrafting:crystaltine_ingot', 'extendedcrafting:crystaltine_bloc
 less(['2x minecraft:iron_ingot', 'thermal:nickel_ingot'],'3x kubejs:crude_invar')
 less(['3x minecraft:copper_ingot', 'thermal:tin_ingot'],'4x kubejs:crude_bronze')
 
+
 });

@@ -2174,4 +2174,6 @@ event.shaped('extendedcrafting:compressor', ["ABA", "ACA", "AAA"], {
 
 pedestal('thoriumreactors:redstone_processor', 'minecraft:air', 'extendedcrafting:frame', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:pedestal')
 
+shapex(['#minecraft:planks','#minecraft:planks','minecraft:air','#minecraft:planks','#minecraft:planks'],'minecraft:crafting_table')
+
 });
