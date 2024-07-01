@@ -269,36 +269,6 @@ StartupEvents.registry("item", (event) => {
     .texture("ironberry:item/tiny_platinum_dust");
   //.displayName("Tiny pile of Platinum");
 
-  function augmentme(name, name_sec, is_rare) {
-    let rare = "augment_base";
-    if (is_rare) rare = "creative_augment_base";
-
-    event
-      .create(name)
-      .displayName(
-        name.charAt(0).toUpperCase() +
-          name.slice(1) +
-          " " +
-          name_sec.charAt(0).toUpperCase() +
-          name_sec.slice(1)
-      )
-      .modelJson({
-        parent: "minecraft:item/handheld",
-        textures: {
-          layer0: "thermal:item/augments/" + rare,
-          layer1: "ironberry:item/augment/" + name,
-        },
-      });
-  }
-
-  augmentme("sonic", "augment", true);
-
-  augmentme("lucky", "components", false);
-
-  augmentme("powah", "augment", true);
-
-  augmentme("specific", "augment", false);
-
   event
     .create("pure_gem")
     .texture("ironberry:item/lupenio")
@@ -333,14 +303,85 @@ StartupEvents.registry("item", (event) => {
 
   event.create("glicetanole").texture("ironberry:item/glicetanole");
 
-  event.create("tungsten_plate").texture("ironberry:item/tungsten_plate");
+  event
+    .create("tungsten_plate")
+    .texture("ironberry:item/tungsten_plate")
+    .displayName("Tungsten Carbide plate");
 
   event.create("bee_drone").parentModel("ironberry:item/bee/drone");
 
   event.create("bee_queen").parentModel("ironberry:item/bee/queen");
 
+  event.create("beewax").texture("ironberry:item/beewax");
+
   event
-    .create("beewax")
-    .texture("ironberry:item/base/beewax")
-    .color(0, "#FED668");
+    .create("lucky")
+    .displayName("§1Lucky Augment")
+    .modelJson({
+      parent: "minecraft:item/handheld",
+      textures: {
+        layer0: "thermal:item/augments/creative_augment_base",
+        layer1: "thermal:item/gold_coin_4",
+      },
+    }); //give @p kubejs:lucky{AugmentData:{MachineSec:0.4,MachineEnergy:2.5}}
+
+  event
+    .create("sonic")
+    .displayName("§aSonic Augment")
+    .modelJson({
+      parent: "minecraft:item/handheld",
+      textures: {
+        layer0: "thermal:item/augments/creative_augment_base",
+        layer1: "minecraft:mob_effect/speed",
+      },
+    }); ///give @p kubejs:sonic{AugmentData:{MachineEnergy:10,MachinePower:49}}
+
+  event
+    .create("powah")
+    .displayName("§cOver-Powah Augment")
+    .modelJson({
+      parent: "minecraft:item/handheld",
+      textures: {
+        layer0: "thermal:item/augments/creative_augment_base",
+        layer1: "ironberry:item/energy_augment",
+      },
+    }); //give @p kubejs:powah{AugmentData:{RFMax:1250,RFXfer:32000}}
+
+  event
+    .create("scale")
+    .displayName("§eE-scale-tor Augment")
+    .modelJson({
+      parent: "minecraft:item/handheld",
+      textures: {
+        layer0: "thermal:item/augments/creative_augment_base",
+        layer1: "thermaloot:item/shell",
+        layer2: "thermaloot:item/cell",
+      },
+    }); //give @p kubejs:scale{AugmentData:{BaseMod:16,MachineEnergy:1.5}}
+
+  event.create("augment_base").texture("thermal:item/augments/augment_base");
+
+  event
+    .create("creative_augment_base")
+    .texture("thermal:item/augments/creative_augment_base");
 });
+
+// const $AugmentItem = Java.loadClass("cofh.thermal.lib.item.AugmentItem");
+// const $IProperties = Java.loadClass("net.minecraft.world.item.Item$Properties");
+// const $AugmentDataHelper = Java.loadClass(
+//   "cofh.core.util.helpers.AugmentDataHelper"
+// );
+// const $AugmVar = Java.loadClass('cofh.lib.util.constants.NBTTags')
+
+// StartupEvents.registry("item", (event) => {
+//   event.createCustom("kubejs:dynamo_output_augment", () => {
+//     new $AugmentItem(
+//       new $IProperties(),
+//       $AugmentDataHelper
+//         .builder()
+//         .type('Dynamo')
+//         .mod('BaseMod', 10.0)
+//         .build()
+//     );
+//   });
+// });
