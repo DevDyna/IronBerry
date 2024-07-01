@@ -367,7 +367,7 @@ StartupEvents.registry("item", (event) => {
 
   event.create("stone_plate").texture("ironberry:item/stone_plate");
 
-  event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0xd5d5d5);
+  event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0x91AFAE);
 
   event
     .create("crude_bronze")
@@ -377,10 +377,6 @@ StartupEvents.registry("item", (event) => {
   event
     .create("crude_black_iron")
     .texture("mekanism:item/ingot")
-    .color(0, 0x2e2e2e);
-
-  event
-    .create("crude_tungsten_carbide")
-    .texture("mekanism:item/ingot")
     .color(0, 0x4e4e4e);
+
 });
