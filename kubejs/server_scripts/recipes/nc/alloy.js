@@ -1,16 +1,16 @@
 ServerEvents.recipes((event) => {
-  function alloy(item_a, count1, item_b, count2, output, outcount) {
+  function alloy(item_a, item_b, output, outcount) {
     event
       .custom({
         type: "nuclearcraft:alloy_smelter",
         input: [
           {
             item: item_a,
-            count: count1,
+            count: 1,   // DONT WORK ITEM COUNT
           },
           {
             item: item_b,
-            count: count2,
+            count: 1,   // DONT WORK ITEM COUNT
           },
         ],
         output: [
@@ -28,40 +28,34 @@ ServerEvents.recipes((event) => {
 
   alloy(
     "thermal:bitumen",
-    1,
     "twilightforest:ironwood_ingot",
-    1,
     "mekanism:ingot_steel",
     2
   );
   alloy(
     "thermal:bitumen_block",
-    1,
     "twilightforest:ironwood_block",
-    1,
     "mekanism:block_steel",
     2
   );
   alloy(
     "integrateddynamics:variable",
-    1,
     "integrateddynamics:enhancement_offset",
-    1,
     "kubejs:processor",
     1
   );
 
   function smart_alloy(item_list, output) {
-    alloy(item_list[0], 1, item_list[1], 1, output, 1);
+    alloy(item_list[0], item_list[1], output, 1);
   }
 
   function smart_alloy_with_count(item_list, output, count) {
-    alloy(item_list[0], 1, item_list[1], 1, output, count);
+    alloy(item_list[0], item_list[1], output, count);
   }
 
   function infusion(ingredient, in_list, out_list) {
     in_list.forEach((element, index) => {
-      alloy(ingredient, 1, element, 1, out_list[index], 1);
+      alloy(ingredient, element, out_list[index], 1);
     });
   }
 
@@ -99,34 +93,26 @@ ServerEvents.recipes((event) => {
   );
 
   alloy(
-    "thermal:tin_ingot",
-    1,
-    "minecraft:copper_ingot",
-    3,
-    "mekanism:ingot_bronze",
-    4
-  );
-  alloy(
     "nuclearcraft:boron_ingot",
-    1,
+
     "mekanism:ingot_steel",
-    1,
+
     "nuclearcraft:ferroboron_ingot",
     2
   );
   alloy(
     "nuclearcraft:ferroboron_ingot",
-    1,
+
     "nuclearcraft:lithium_ingot",
-    1,
+
     "nuclearcraft:tough_alloy_ingot",
     2
   );
   alloy(
     "mekanism:ingot_osmium",
-    1,
+
     "mekanism:dust_refined_obsidian",
-    1,
+
     "mekanism:ingot_refined_obsidian",
     1
   );
@@ -136,10 +122,9 @@ ServerEvents.recipes((event) => {
     "nuclearcraft:shibuichi_ingot",
     4
   );
-  smart_alloy_with_count(
+  smart_alloy(
     ["nuclearcraft:ferroboron_ingot", "mekanism:alloy_reinforced"],
-    "nuclearcraft:hard_carbon_ingot",
-    1
+    "nuclearcraft:hard_carbon_ingot"
   );
 
   smart_alloy(
@@ -176,24 +161,50 @@ ServerEvents.recipes((event) => {
     "thermal:constantan_ingot",
     2
   );
-  alloy(
-    "minecraft:iron_ingot",
-    2,
-    "thermal:nickel_ingot",
-    1,
-    "thermal:invar_ingot",
-    3
-  );
 
-  alloy(
-    "bluepower:tungsten_ingot",
-    1,
-    "minecraft:coal",
-    4,
-    "bluepower:tungsten_carbide",
-    4
-  );
+  function alloyers(input, output, count) {
+    alloy("inventorypets:nugget_coal", input, output, count);
+  }
 
-alloy('pneumaticcraft:ingot_iron_compressed',1,'kubejs:tungsten_plate',2,'extendedcrafting:black_iron_ingot',1)
+  //                    NC:N BREAK AGAIN MY DREAMS !!
+  // alloy(
+  //   "thermal:tin_ingot",
+  //   1,
+  //   "minecraft:copper_ingot",
+  //   3,
+  //   "mekanism:ingot_bronze",
+  //   4
+  // );
 
+  // alloy(
+  //   "minecraft:iron_ingot",
+  //   2,
+  //   "thermal:nickel_ingot",
+  //   1,
+  //   "thermal:invar_ingot",
+  //   3
+  // );
+
+  // alloy(
+  //   "bluepower:tungsten_ingot",
+  //   1,
+  //   "minecraft:coal",
+  //   4,
+  //   "bluepower:tungsten_carbide",
+  //   4
+  // );
+
+  // alloy(
+  //   "pneumaticcraft:ingot_iron_compressed",
+  //   1,
+  //   "kubejs:tungsten_plate",
+  //   2,
+  //   "extendedcrafting:black_iron_ingot",
+  //   1
+  // );
+
+  alloyers("kubejs:crude_invar", "thermal:invar_ingot", 2);
+  alloyers("kubejs:crude_bronze", "mekanism:ingot_bronze", 2);
+  alloyers("kubejs:crude_black_iron", "extendedcrafting:black_iron_ingot", 1);
+  //alloyers("kubejs:crude_tungsten_carbide", "bluepower:tungsten_carbide", 2);
 });

@@ -92,4 +92,6 @@ ServerEvents.recipes((event) => {
 
   inscribe("press", ["minecraft:ender_pearl"], "thermal:ender_pearl_dust");
   inscribe("press", ["bluepower:tungsten_carbide","bluepower:tungsten_carbide","bluepower:tungsten_carbide"], "kubejs:tungsten_plate");
+  inscribe("press", ['pneumaticcraft:ingot_iron_compressed','kubejs:tungsten_plate','kubejs:tungsten_plate'], "kubejs:crude_black_iron");
+
 });
