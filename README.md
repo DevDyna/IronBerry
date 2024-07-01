@@ -13,15 +13,15 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 
 ## #issue: 
 
- - fixed #18 `Lectern recipe`
+ - fixed #18 [`Lectern recipe`](https://github.com/DevDyna/IronBerry/issues/18)
    
- - fixed #19 `Tank replication`
+ - fixed #19 [`Tank replication`](https://github.com/DevDyna/IronBerry/issues/19)
    
- - fixed #20 `Nuclearcraft Recipe issue`
+ - fixed #20 [`Nuclearcraft Recipe issue`](https://github.com/DevDyna/IronBerry/issues/20)
    
- - closed #21 `Can't empty Nuclearcraft input tanks`
+ - closed #21 [`Can't empty Nuclearcraft input tanks`](https://github.com/DevDyna/IronBerry/issues/21)
 
- - fixed #22 `Molten salt`
+ - fixed #22 [`Molten salt`](https://github.com/DevDyna/IronBerry/issues/22)
  
 
 ## #mods:
