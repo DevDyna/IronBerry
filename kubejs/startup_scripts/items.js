@@ -365,26 +365,22 @@ StartupEvents.registry("item", (event) => {
     .create("creative_augment_base")
     .texture("thermal:item/augments/creative_augment_base");
 
-    event.create('stone_plate').texture("ironberry:item/stone_plate");
+  event.create("stone_plate").texture("ironberry:item/stone_plate");
 
+  event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0xd5d5d5);
+
+  event
+    .create("crude_bronze")
+    .texture("mekanism:item/ingot")
+    .color(0, 0xffe394);
+
+  event
+    .create("crude_black_iron")
+    .texture("mekanism:item/ingot")
+    .color(0, 0x2e2e2e);
+
+  event
+    .create("crude_tungsten_carbide")
+    .texture("mekanism:item/ingot")
+    .color(0, 0x4e4e4e);
 });
-
-// const $AugmentItem = Java.loadClass("cofh.thermal.lib.item.AugmentItem");
-// const $IProperties = Java.loadClass("net.minecraft.world.item.Item$Properties");
-// const $AugmentDataHelper = Java.loadClass(
-//   "cofh.core.util.helpers.AugmentDataHelper"
-// );
-// const $AugmVar = Java.loadClass('cofh.lib.util.constants.NBTTags')
-
-// StartupEvents.registry("item", (event) => {
-//   event.createCustom("kubejs:dynamo_output_augment", () => {
-//     new $AugmentItem(
-//       new $IProperties(),
-//       $AugmentDataHelper
-//         .builder()
-//         .type('Dynamo')
-//         .mod('BaseMod', 10.0)
-//         .build()
-//     );
-//   });
-// });
