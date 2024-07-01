@@ -36,7 +36,7 @@ ClientEvents.lang("en_us", (event) => {
   // event.add("item.bluepower.diamond_drawplate", "Drawplate");
   // event.add("block.bluepower.amethyst_block", "Tanzanite Block");
   // event.add("item.bluepower.amethyst_gem", "Tanzanite");
-  // event.add("singularity.extendedcrafting.crystaltine", "Crystaltine");
+   event.add("singularity.extendedcrafting.crystaltine", "Crystaltine");
   // event.add("item.integrateddynamics.logic_director", "Logic Chorus Circuit");
 
   // event.add("block.ironchest.iron_chest", "Iron Chest");
