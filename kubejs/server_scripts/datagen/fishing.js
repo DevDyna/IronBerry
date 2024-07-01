@@ -7,10 +7,9 @@ ServerEvents.highPriorityData((event) => {
     };
   }
 
-
   let dlist = [[], [], []];
   global.fishing.forEach((el, index) => {
-    global.fishing[index].forEach((item) => {
+    el.forEach((item) => {
       dlist[index].push(addItem(item));
     });
   });
@@ -25,7 +24,7 @@ ServerEvents.highPriorityData((event) => {
         },
       ],
       name: "minecraft:book",
-      weight: 10,
+      weight: 1,
     },
     {
       type: "minecraft:item",
@@ -36,7 +35,7 @@ ServerEvents.highPriorityData((event) => {
         },
       ],
       name: "minecraft:potion",
-      weight: 10,
+      weight: 1,
     },
     {
       type: "minecraft:item",
@@ -52,7 +51,7 @@ ServerEvents.highPriorityData((event) => {
         },
       ],
       name: "minecraft:fishing_rod",
-      weight: 5,
+      weight: 1,
     },
     {
       type: "minecraft:item",
@@ -68,7 +67,7 @@ ServerEvents.highPriorityData((event) => {
         },
       ],
       name: "minecraft:leather_boots",
-      weight: 10,
+      weight: 1,
     },
   ];
 
@@ -77,20 +76,6 @@ ServerEvents.highPriorityData((event) => {
   });
 
   event.addJson("minecraft:gameplay/fishing/fish", {
-    type: "minecraft:fishing",
-    pools: [
-      {
-        bonus_rolls: 0.0,
-        entries: dlist[0],
-        rolls: {
-            min: 0,
-            max: 2,
-          },
-      },
-    ],
-  });
-
-  event.addJson("minecraft:gameplay/fishing/boost", {
     type: "minecraft:fishing",
     pools: [
       {
@@ -128,6 +113,33 @@ ServerEvents.highPriorityData((event) => {
           min: 1,
           max: 2,
         },
+      },
+    ],
+  });
+
+  event.addJson("minecraft:gameplay/fishing", {
+    type: "minecraft:fishing",
+    pools: [
+      {
+        bonus_rolls: 0.0,
+        entries: [
+          {
+            type: "minecraft:loot_table",
+            name: "minecraft:gameplay/fishing/junk",
+            weight: 10,
+          },
+          {
+            type: "minecraft:loot_table",
+            name: "minecraft:gameplay/fishing/treasure",
+            weight: 10,
+          },
+          {
+            type: "minecraft:loot_table",
+            name: "minecraft:gameplay/fishing/fish",
+            weight: 10,
+          },
+        ],
+        rolls: 1.0,
       },
     ],
   });
