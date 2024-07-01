@@ -379,14 +379,32 @@ ServerEvents.recipes((event) => {
     1
   );
 
+  alloy(
+    [
+      "twilightforest:empty_canopy_bookshelf",
+      "twilightforest:firefly_particle_spawner",
+    ],
+    [1, 1],
+    "twilightforest:death_tome_spawner",
+    1
+  );
 
-
-  alloy(['twilightforest:empty_canopy_bookshelf', 'twilightforest:firefly_particle_spawner'],[1,1],'twilightforest:death_tome_spawner',1)
-
-alloy(['biomancy:bloomberry', 'biomancy:mob_claw'],[1,1],'twilightforest:cicada',1)
-alloy(['biomancy:bloomberry', 'biomancy:mob_sinew'],[1,1],'twilightforest:moonworm',1)
-alloy(['biomancy:bloomberry', 'biomancy:toxin_gland'],[1,1],'twilightforest:firefly',1)
-
-
-
+  alloy(
+    ["biomancy:bloomberry", "biomancy:mob_claw"],
+    [1, 1],
+    "twilightforest:cicada",
+    1
+  );
+  alloy(
+    ["biomancy:bloomberry", "biomancy:mob_sinew"],
+    [1, 1],
+    "twilightforest:moonworm",
+    1
+  );
+  alloy(
+    ["biomancy:bloomberry", "biomancy:toxin_gland"],
+    [1, 1],
+    "twilightforest:firefly",
+    1
+  );
 });

@@ -364,6 +364,9 @@ StartupEvents.registry("item", (event) => {
   event
     .create("creative_augment_base")
     .texture("thermal:item/augments/creative_augment_base");
+
+    event.create('stone_plate').texture("ironberry:item/stone_plate");
+
 });
 
 // const $AugmentItem = Java.loadClass("cofh.thermal.lib.item.AugmentItem");
