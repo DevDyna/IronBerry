@@ -3903,7 +3903,7 @@
 			description: [
 				"Use Crescent Hammer to see where need to be water!"
 				""
-				"Also any *fish food* have same result"
+				"Also *any fish food* return differents loots"
 				"{@pagebreak}"
 			]
 			hide_dependency_lines: true

@@ -23,74 +23,85 @@ ItemEvents.tooltip((event) => {
     });
   }
 
-  /**
-   *
-   * @param {item|item_tag} id
-   */
-  function tiplessless(id) {
+  // /**
+  //  *
+  //  * @param {item|item_tag} id
+  //  */
+  // function tiplessless(id) {
+  //   event.addAdvanced(id, (item, advanced, text) => {
+  //     //try {
+  //     if (!event.shift) {
+  //       for (let i = 1; i < 1000; i++) {
+  //         try{
+  //           text.remove(i);
+  //           console.log(i)
+  //         }catch(e){
+  //           console.log(i)
+  //         }
+          
+  //       }
+  //     } else {
+  //       for (let i = 1; i < 1000; i++) {
+  //         try{
+  //           text.remove(i);
+  //           console.log(i)
+  //         }catch(e){
+  //           console.log(i)
+  //         }
+  //       }
+  //     }
+
+  //     //} catch (error) { }
+  //   });
+  // }
+
+  function tip_replace(id, txt) {
     event.addAdvanced(id, (item, advanced, text) => {
-      //try {
-      if (!event.shift) {
-        for (let i = 1; i < 10; i++) {
-          text.remove(i);
+      //for (let i = 1; i < 10; i++) {
+      //if (text.get(i) != null) {
+
+      if (!event.isShift()) {
+
+        try {
+          text.remove(2);
+          text.remove(1);
+          
+
+          text.set(1, "§8[§fLeft Shift§8]");
+        } catch (e) {
+          text.add(1, "§8[§fLeft Shift§8]");
         }
-      } else {
-        text.remove(1);
-        text.remove(2);
-        text.remove(1);
-        // text.remove(1)
-        // text.remove(1)
-        // text.remove(1)
-        // text.remove(1)
+        //break;
+      } else if (event.isShift()) {
+        //text.add(1, Text.of("§eObtained by open a §6Starbuncle Gift")); //.color(0xD8A903)
+        //text.remove(2)
+        //text.remove(3)
+        try {
+          text.remove(2);
+          text.remove(1);
+
+          text.set(1, txt);
+        } catch (e) {
+          text.add(1, txt);
+        }
+        //text.clear()
+        //ext.remove(1)
+        //break;
       }
 
-      //} catch (error) { }
-    });
-  }
-
-  function tip_replace(id,txt) {
-    event.addAdvanced(id, (item, advanced, text) => {
-        //for (let i = 1; i < 10; i++) {
-            //if (text.get(i) != null) {
-                
-              if (!event.isShift()) {
-                try{
-                text.remove(2)
-                text.remove(1)
-            
-                text.set(1, "§8[§fLeft Shift§8]");
-            }catch(e){
-                text.add(1, "§8[§fLeft Shift§8]");
-            }
-                //break;
-              } else if (event.isShift()) {
-                //text.add(1, Text.of("§eObtained by open a §6Starbuncle Gift")); //.color(0xD8A903)
-                //text.remove(2)
-                //text.remove(3)
-                try{
-                text.remove(2)
-                text.remove(1)
-            
-                text.set(1,txt)
-            }catch(e){
-                text.add(1,txt)
-            }
-                //text.clear()
-                //ext.remove(1)
-                //break;
-              }
-              
-            //}
-          //}
+      //}
+      //}
 
       //} catch (error) { }
     });
   }
 
-  //tiplessless('#ironberry:ritual_tablets')
-  tip_replace("#ironberry:gift_loot","§eObtained by open a §6Starbuncle Gift");
-  tipplusplus(['ars_nouveau:ritual_wilden_summon', 'ars_nouveau:ritual_awakening'],"§4Ritual Disabled")
-  
+  tip_replace("#ironberry:gift_loot", "§eObtained by open a §6Starbuncle Gift");
+  tipplusplus(
+    ["ars_nouveau:ritual_wilden_summon", "ars_nouveau:ritual_awakening"],
+    "§4Ritual Disabled"
+  );
+
   let source = [
     ["acid", "§c"],
     ["body", "§4"],
@@ -261,7 +272,7 @@ ItemEvents.tooltip((event) => {
     "§6Right click with it if you have any effect , the effect can be absorbed on the scroll and reused later"
   );
   tipplusplus("#ironberry:ae_charged", "Can be charged using a §acharger");
-  tipplusplus("#ironberry:fishing", "Can be obtained by §aFishing");
+  tipplusplus(global.fishing, "Can be obtained by §aFishing");
   tipplusplus(
     "tombstone:lost_tablet",
     "Dont §ctravel §fbecause §cisnt spawned"
@@ -368,7 +379,7 @@ ItemEvents.tooltip((event) => {
   //tipplusplus('#ironberry:hide', 'IronBerry : §cItem Hidden')
   tipplusplus(
     "farmersdelight:cutting_board",
-    "Can be automated using a §7Deployer"
+    "Can be automated using a §7Dispencer or a §7Deployer"
   );
   tipplusplus(
     "#ironberry:boss_drop",
@@ -505,14 +516,27 @@ ItemEvents.tooltip((event) => {
   tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
   tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst");
 
+  tipplusplus(
+    "minecraft:diorite",
+    "Obtained by placing §3water §fnear §2Gastric Acid"
+  );
+  tipplusplus(
+    "minecraft:calcite",
+    "Obtained by placing §3water §fover §2Gastric Acid"
+  );
 
-  tipplusplus('minecraft:diorite',"Obtained by placing §3water §fnear §2Gastric Acid")
-  tipplusplus( 'minecraft:calcite',"Obtained by placing §3water §fover §2Gastric Acid")
-
-  tipplusplus('biomancy:malignant_flesh_veins','The residual sustance of §4any fallen blob')
-  tipplusplus('biomancy:primordial_cradle','Require to §6feed §fwith §cany raw food§f and some §2healing potions §for just use some §6living flesh')
-  tipplusplus('biomancy:primordial_cradle','A curios cradle that can evoke §4flesh blobs §fand §cgrow everywhere§f when you stay alone!')
-
+  tipplusplus(
+    "biomancy:malignant_flesh_veins",
+    "The residual sustance of §4any fallen blob"
+  );
+  tipplusplus(
+    "biomancy:primordial_cradle",
+    "Require to §6feed §fwith §cany raw food§f and some §2healing potions §for just use some §6living flesh"
+  );
+  tipplusplus(
+    "biomancy:primordial_cradle",
+    "A curios cradle that can evoke §4flesh blobs §fand §cgrow everywhere§f when you stay alone!"
+  );
 });
 
 /* TO TRY

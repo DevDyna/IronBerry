@@ -1,19 +1,20 @@
 ServerEvents.recipes(event => {
 //------------------------------------------------------------//	
-	function fisher(item,chance){
+	function fisher(item,chance,loottable){
 event.custom({
   "type": "thermal:fisher_boost",
   "ingredient": {
     "item": item
   },
-  "loot_table": "gameplay/fishing/junk",
+  "loot_table": loottable,
   "use_chance": chance
 })
 }
 //------------------------------------------------------------//
-fisher('thermal:aquachow',0.1)
-fisher('thermal:junk_net',0.1)
-fisher('thermal:deep_aquachow',0.1)
+fisher(global.fish_food[0],0.01,"minecraft:gameplay/fishing/fish")
+fisher(global.fish_food[1],0.1,"minecraft:gameplay/fishing/fishing_boost")
+fisher(global.fish_food[2],0.1,"minecraft:gameplay/fishing/junk")
+fisher(global.fish_food[3],0.1,"minecraft:gameplay/fishing/treasure")
 
 
 

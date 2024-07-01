@@ -19,36 +19,15 @@ StartupEvents.postInit((event) => {
     });
   }
 
-  myst("minecraft:fishing_rod", [
-    "minecraft:rabbit",
-    "minecraft:porkchop",
-    "minecraft:chicken",
-    "minecraft:beef",
-    "minecraft:pufferfish",
-    "minecraft:tropical_fish",
-    "minecraft:cod",
-    "minecraft:salmon",
-    "minecraft:mutton",
-    "minecraft:bowl",
-    "minecraft:string",
-    "minecraft:phantom_membrane",
-    "minecraft:lily_pad",
-    "minecraft:bone",
-    "minecraft:rotten_flesh",
-    "minecraft:ink_sac",
-    "minecraft:tripwire_hook",
-    "minecraft:stick",
-    "minecraft:kelp",
-    "minecraft:leather_boots",
-    "minecraft:feather",
-    "kubejs:soul",
-    "minecraft:nautilus_shell",
-    "minecraft:rabbit_foot",
-    "minecraft:prismarine_shard",
-    "minecraft:bamboo",
-    "minecraft:ghast_tear",
-    "froglins:froglin_egg",
-  ]);
+  
+  myst(global.fish_food[0], global.fishing[0]);
+  myst(global.fish_food[1], global.fishing[0]);
+
+  myst(global.fish_food[2], global.fishing[1]);
+  myst(global.fish_food[3], global.fishing[2]);
+
+  myst(global.fish_food[3], ['minecraft:leather_boots', 'minecraft:fishing_rod', 'minecraft:enchanted_book']);
+  
   myst("kubejs:ore_bone_meal", [
     "minecraft:deepslate_gold_ore",
     "minecraft:deepslate_emerald_ore",
