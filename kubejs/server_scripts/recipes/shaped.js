@@ -1978,15 +1978,15 @@ ServerEvents.recipes((event) => {
     "ae2:wireless_receiver",
     "ae2:pattern_encoding_terminal",
     "ae2:dense_energy_cell",
-    "ae2wtlib:wireless_pattern_encoding_terminal",
+    "ae2wtlib:wireless_pattern_encoding_terminal"
   );
 
   bigstick(
     "ae2:wireless_receiver",
     "ae2:pattern_access_terminal",
     "ae2:dense_energy_cell",
-    
-    "ae2wtlib:wireless_pattern_access_terminal",
+
+    "ae2wtlib:wireless_pattern_access_terminal"
   );
 
   shapex(
@@ -2100,5 +2100,64 @@ ServerEvents.recipes((event) => {
     "ae2:controller"
   );
 
-  shapex(['biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'minecraft:air', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits', 'biomancy:flesh_bits'],'biomancy:flesh')
+  shapex(
+    [
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+      "minecraft:air",
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+      "biomancy:flesh_bits",
+    ],
+    "biomancy:flesh"
+  );
+
+  shapex(
+    [
+      "kubejs:tungsten_plate",
+      "ten3:azure_glass",
+      "kubejs:tungsten_plate",
+      "ten3:azure_glass",
+      "extendedcrafting:black_iron_block",
+      "ten3:azure_glass",
+      "kubejs:tungsten_plate",
+      "ten3:azure_glass",
+      "kubejs:tungsten_plate",
+    ],
+    "4x extendedcrafting:frame"
+  );
+
+  function pedestal(top, corner, core, base, item) {
+    shapex(
+      [
+        "minecraft:air",
+        top,
+        "minecraft:air",
+        corner,
+        base,
+        corner,
+        base,
+        core,
+        base,
+      ],
+      '4x '+item
+    );
+  }
+
+  pedestal(
+    "rftoolsbase:infused_enderpearl",
+    "minecraft:air",
+    "extendedcrafting:ender_ingot_block",
+    "extendedcrafting:ender_ingot",'extendedcrafting:ender_alternator'
+  );
+
+shapex(['rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot_block', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl'],'extendedcrafting:auto_ender_crafter')
+
+
+shapex(['#minecraft:wooden_slabs','#minecraft:wooden_slabs','#minecraft:wooden_slabs','minecraft:air','#forge:bookshelves','minecraft:air','minecraft:air','#minecraft:wooden_slabs'],'minecraft:lectern')
+
+
 });
