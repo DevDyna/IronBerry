@@ -1,9 +1,7 @@
 //############################### PHOENIX EGG DUPE ##########################//
 BlockEvents.rightClicked("exoticbirds:phoenix_egg", (event) => {
-  if (
-    event.item === "tiab:time_in_a_bottle" &&
-    event.player.isCrouching()
-  ) {
+  const { item, player } = event;
+  if (item === "tiab:time_in_a_bottle" && player.isCrouching()) {
     event.cancel();
     setCancellationResult(true);
   }
@@ -168,12 +166,12 @@ BlockEvents.rightClicked((event) => {
   }
 });
 //############################### Rituals remover ##########################//
-const FakePlayer = Java.loadClass("net.minecraftforge.common.util.FakePlayer")
+const FakePlayer = Java.loadClass("net.minecraftforge.common.util.FakePlayer");
 //const BluePlayer = Java.loadClass('com.bluepowermod.tile.tier1.TileDeployer')   TO FIX
 BlockEvents.rightClicked("ars_nouveau:ritual_brazier", (event) => {
-  const { server, item ,player, block, entity} = event;
-  if(entity instanceof FakePlayer) {
-    block.createExplosion().explode()
+  const { server, item, player, block, entity } = event;
+  if (entity instanceof FakePlayer) {
+    block.createExplosion().explode();
   }
 
   if (
@@ -184,6 +182,25 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier", (event) => {
       "/title " +
         player.name.string +
         ' actionbar {"color":"red","text":"This ritual was disabled"}'
+    );
+    event.cancel();
+  }
+});
+//############################### REACTIVE CRUCIBLE FIXER ##########################//
+BlockEvents.rightClicked("reactive:crucible", (event) => {
+  const { server, item, player } = event;
+  let blacklist = [
+    "cyclic:tank",
+    "pneumaticcraft:huge_tank",
+    "pneumaticcraft:large_tank",
+    "pneumaticcraft:medium_tank",
+    "pneumaticcraft:small_tank",
+  ];
+  if (blacklist.indexOf(item) != -1) {
+    server.runCommandSilent(
+      "/title " +
+        player.name.string +
+        ' actionbar {"color":"red","text":"This action was disabled"}'
     );
     event.cancel();
   }
