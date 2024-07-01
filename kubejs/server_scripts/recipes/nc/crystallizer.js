@@ -30,4 +30,6 @@ ServerEvents.recipes(event => {
 
     crystallize('thermal:ender',250,'minecraft:ender_pearl')
 
+    crystallize('minecraft:water',10,'homespun:salt')
+
 })

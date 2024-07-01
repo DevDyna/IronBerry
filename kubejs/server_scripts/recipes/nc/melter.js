@@ -51,4 +51,6 @@ ServerEvents.recipes((event) => {
   melter('ae2:certus_quartz_crystal','kubejs:certus',144)
   melter('minecraft:diamond','kubejs:diamond',250)
 
+  melter('homespun:salt', 'thoriumreactors:molten_salt_bucket',250)
+
 });
