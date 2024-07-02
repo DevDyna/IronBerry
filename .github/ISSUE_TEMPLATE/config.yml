@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Missing/Broken Recipe
+  - name: Missing/Broken Recipe Issues
     url: https://github.com/DevDyna/IronBerry/discussions/27
-    about: DON'T OPEN ISSUES FOR MISSING/BROKEN RECIPE
+    about: 
