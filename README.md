@@ -190,3 +190,7 @@ reorganized all chapters on a final step
     <null>
 
 #
+
+
+# GITHUB COMPARE
+[`URL`](https://github.com/DevDyna/IronBerry/compare/main%40%7B30day%7D...main)
