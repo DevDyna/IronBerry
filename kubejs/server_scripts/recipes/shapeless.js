@@ -1528,23 +1528,70 @@ ServerEvents.recipes((event) => {
     "expatternprovider:ex_interface"
   );
 
+  less(["9x bluepower:tungsten_ingot"], "bluepower:tungsten_block");
 
-less(['9x bluepower:tungsten_ingot' ],'bluepower:tungsten_block')
+  nine_to_one("bluepower:tungsten_carbide", "kubejs:tungsten_carbide_block");
 
-nine_to_one('bluepower:tungsten_carbide', 'kubejs:tungsten_carbide_block')
+  nine_to_one([
+    "extendedcrafting:black_iron_ingot",
+    "extendedcrafting:black_iron_block",
+  ]);
+  nine_to_one([
+    "extendedcrafting:redstone_ingot",
+    "extendedcrafting:redstone_ingot_block",
+  ]);
+  nine_to_one([
+    "extendedcrafting:ender_ingot",
+    "extendedcrafting:ender_ingot_block",
+  ]);
 
-nine_to_one(['extendedcrafting:black_iron_ingot', 'extendedcrafting:black_iron_block'])
-nine_to_one(['extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot_block'])
-nine_to_one(['extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot_block'])
+  nine_to_one("kubejs:crystaltine", "extendedcrafting:crystaltine_nugget");
 
-nine_to_one('kubejs:crystaltine', 'extendedcrafting:crystaltine_nugget')
+  less(
+    "9x extendedcrafting:crystaltine_nugget",
+    "extendedcrafting:crystaltine_ingot"
+  );
 
-less('9x extendedcrafting:crystaltine_nugget','extendedcrafting:crystaltine_ingot')
+  less(
+    "9x extendedcrafting:crystaltine_ingot",
+    "extendedcrafting:crystaltine_block"
+  );
 
-less('9x extendedcrafting:crystaltine_ingot', 'extendedcrafting:crystaltine_block')
+  less(
+    ["2x minecraft:iron_ingot", "thermal:nickel_ingot"],
+    "3x kubejs:crude_invar"
+  );
+  less(
+    ["3x minecraft:copper_ingot", "thermal:tin_ingot"],
+    "4x kubejs:crude_bronze"
+  );
 
-less(['2x minecraft:iron_ingot', 'thermal:nickel_ingot'],'3x kubejs:crude_invar')
-less(['3x minecraft:copper_ingot', 'thermal:tin_ingot'],'4x kubejs:crude_bronze')
+  less(["minecraft:barrel", "minecraft:iron_bars"], "exoticbirds:roost_box");
 
+  less(["cyclic:hopper", "minecraft:dropper"], "quark:chute");
+
+  less(["minecraft:smooth_stone", "minecraft:dispenser"], "cyclic:rotator");
+
+  less(
+    [
+      "ars_nouveau:orange_sbed",
+      "exoticbirds:nest",
+      "engineersdecor:dark_shingle_roof",
+    ],
+    "exoticbirds:black_birdhouse"
+  );
+
+  global.dye.forEach((dye) => {
+    less(
+      ["#exoticbirds:birdhouses", "minecraft:" + dye + "_dye"],
+      "exoticbirds:" + dye + "_birdhouse"
+    );
+  });
+
+
+less(['#minecraft:signs','farmersdelight:canvas'],'farmersdelight:canvas_sign')
+
+less(['goldenhopper:golden_hopper','minecraft:copper_ingot'],'essentials:sorting_hopper')
+less(['goldenhopper:golden_hopper','minecraft:gold_ingot'],'essentials:speed_hopper')
 
 });

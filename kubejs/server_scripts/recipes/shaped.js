@@ -2143,7 +2143,7 @@ ServerEvents.recipes((event) => {
         core,
         base,
       ],
-      '4x '+item
+      "4x " + item
     );
   }
 
@@ -2151,29 +2151,199 @@ ServerEvents.recipes((event) => {
     "rftoolsbase:infused_enderpearl",
     "minecraft:air",
     "extendedcrafting:ender_ingot_block",
-    "extendedcrafting:ender_ingot",'extendedcrafting:ender_alternator'
+    "extendedcrafting:ender_ingot",
+    "extendedcrafting:ender_alternator"
   );
 
-shapex(['rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'extendedcrafting:ender_ingot_block', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl', 'extendedcrafting:ender_ingot', 'rftoolsbase:infused_enderpearl'],'extendedcrafting:auto_ender_crafter')
+  shapex(
+    [
+      "rftoolsbase:infused_enderpearl",
+      "extendedcrafting:ender_ingot",
+      "rftoolsbase:infused_enderpearl",
+      "extendedcrafting:ender_ingot",
+      "extendedcrafting:ender_ingot_block",
+      "extendedcrafting:ender_ingot",
+      "rftoolsbase:infused_enderpearl",
+      "extendedcrafting:ender_ingot",
+      "rftoolsbase:infused_enderpearl",
+    ],
+    "extendedcrafting:auto_ender_crafter"
+  );
+
+  shapex(
+    [
+      "#minecraft:wooden_slabs",
+      "#minecraft:wooden_slabs",
+      "#minecraft:wooden_slabs",
+      "minecraft:air",
+      "#forge:bookshelves",
+      "minecraft:air",
+      "minecraft:air",
+      "#minecraft:wooden_slabs",
+    ],
+    "minecraft:lectern"
+  );
+
+  pedestal(
+    "ten3:redstone_ai",
+    "kubejs:redstone_circuit",
+    "extendedcrafting:redstone_ingot_block",
+    "extendedcrafting:redstone_ingot",
+    "extendedcrafting:flux_alternator"
+  );
+
+  shapex(
+    [
+      "kubejs:redstone_circuit",
+      "extendedcrafting:redstone_ingot",
+      "kubejs:redstone_circuit",
+      "extendedcrafting:redstone_ingot",
+      "extendedcrafting:redstone_ingot_block",
+      "extendedcrafting:redstone_ingot",
+      "kubejs:redstone_circuit",
+      "extendedcrafting:redstone_ingot",
+      "kubejs:redstone_circuit",
+    ],
+    "extendedcrafting:auto_flux_crafter"
+  );
+
+  shapex(
+    [
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:pedestal",
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:crystaltine_block",
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:black_iron_block",
+      "extendedcrafting:black_iron_block",
+    ],
+    "extendedcrafting:compressor"
+  );
+
+  event.shaped("extendedcrafting:compressor", ["ABA", "ACA", "AAA"], {
+    A: "extendedcrafting:black_iron_block",
+    B: "extendedcrafting:pedestal",
+    C: Item.of(
+      "extendedcrafting:singularity",
+      '{Id:"extendedcrafting:crystaltine"}'
+    ).strongNBT(),
+  });
+
+  pedestal(
+    "thoriumreactors:redstone_processor",
+    "minecraft:air",
+    "extendedcrafting:frame",
+    "extendedcrafting:black_iron_ingot",
+    "extendedcrafting:pedestal"
+  );
+
+  shapex(
+    [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:air",
+      "#minecraft:planks",
+      "#minecraft:planks",
+    ],
+    "minecraft:crafting_table"
+  );
+
+  shapex(
+    [
+      "minecraft:stick",
+      "#minecraft:planks",
+      "minecraft:stick",
+      "#minecraft:planks",
+      "minecraft:stripped_oak_wood",
+      "#minecraft:planks",
+      "minecraft:stick",
+      "#minecraft:planks",
+      "minecraft:stick",
+    ],
+    "4x sophisticatedstorage:upgrade_base"
+  );
+
+  shapex(
+    [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:redstone",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+    ],
+    "minecraft:note_block"
+  );
+
+  shapex(
+    [
+      "#minecraft:planks",
+      "minecraft:air",
+      "#minecraft:planks",
+      "minecraft:air",
+      "#minecraft:planks",
+    ],
+    "3x minecraft:bowl"
+  );
+
+  shapex(
+    [
+      "#minecraft:planks",
+      "minecraft:iron_ingot",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:air",
+      "#minecraft:planks",
+    ],
+    "minecraft:shield"
+  );
+
+  shapex(
+    [
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:air",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:air",
+      "#minecraft:planks",
+      "#minecraft:planks",
+    ],
+    "minecraft:smithing_table"
+  );
+
+let material_tool = [ 'bluepower:ruby', 'minecraft:wooden' , 'minecraft:stone']
+let id_material = ['bluepower:ruby_gem','#minecraft:planks','#forge:cobblestone']
+
+material_tool.forEach((type,index)=>{
+//pick
+shapex([id_material[index], id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_pickaxe')
+//hoe
+shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_hoe')
+shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_hoe')
+//shovel
+shapex([id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_shovel')
+//axe
+shapex([id_material[index], id_material[index], 'minecraft:air', id_material[index], 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_axe')
+shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', id_material[index], 'minecraft:air', 'minecraft:stick'],type+'_axe')
+//sword
+shapex([id_material[index], 'minecraft:air', 'minecraft:air', id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_sword')
+})
 
 
-shapex(['#minecraft:wooden_slabs','#minecraft:wooden_slabs','#minecraft:wooden_slabs','minecraft:air','#forge:bookshelves','minecraft:air','minecraft:air','#minecraft:wooden_slabs'],'minecraft:lectern')
+
+shapex(['minecraft:stick', 'minecraft:stick', 'minecraft:stick', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:air', 'bluepower:ruby_gem', 'bluepower:ruby_gem'],'bluepower:ruby_saw')
+shapex(['minecraft:air', 'bluepower:ruby_gem', 'minecraft:air', 'minecraft:air', 'minecraft:air', 'bluepower:ruby_gem', 'minecraft:stick', 'bluepower:ruby_gem'],'bluepower:ruby_sickle')
+
+shapex(['minecraft:air', '#minecraft:planks', 'minecraft:air', 'minecraft:air', 'minecraft:air', '#minecraft:planks', 'minecraft:stick', '#minecraft:planks'],'bluepower:wood_sickle')
 
 
-pedestal('ten3:redstone_ai', 'kubejs:redstone_circuit',  'extendedcrafting:redstone_ingot_block','extendedcrafting:redstone_ingot', 'extendedcrafting:flux_alternator')
-
-shapex(['kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'extendedcrafting:redstone_ingot_block', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit', 'extendedcrafting:redstone_ingot', 'kubejs:redstone_circuit'],'extendedcrafting:auto_flux_crafter')
-
-shapex(['extendedcrafting:black_iron_block', 'extendedcrafting:pedestal', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:crystaltine_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block', 'extendedcrafting:black_iron_block'],'extendedcrafting:compressor')
-
-event.shaped('extendedcrafting:compressor', ["ABA", "ACA", "AAA"], {
-  A: 'extendedcrafting:black_iron_block',
-  B: 'extendedcrafting:pedestal',
-  C: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:crystaltine"}').strongNBT()
-});
-
-pedestal('thoriumreactors:redstone_processor', 'minecraft:air', 'extendedcrafting:frame', 'extendedcrafting:black_iron_ingot', 'extendedcrafting:pedestal')
-
-shapex(['#minecraft:planks','#minecraft:planks','minecraft:air','#minecraft:planks','#minecraft:planks'],'minecraft:crafting_table')
 
 });
