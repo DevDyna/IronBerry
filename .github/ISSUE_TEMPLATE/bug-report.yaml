@@ -17,6 +17,9 @@ body:
           required: true
         - label: I'm try to reinstall it on a clean instance (common issue)
           required: true
+        - label: I have searched on all [discussions](https://github.com/DevDyna/IronBerry/discussions) before I open this issue and it isn't a Commonn issue
+          required: true
+          
           
   - type: dropdown
     id: environment
