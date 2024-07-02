@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
     });
   }
   manu("minecraft:cocoa_beans", "nuclearcraft:cocoa_solids", 2);
-  manu("minecraft:obsidian", "mekanism:dust_obsidian", 2);
+  manu("minecraft:obsidian", "mekanism:dust_obsidian", 4);
 
   let keyname = [
     "rhodochrosite",
@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
   manu("nuclearcraft:graphite_ingot", "thoriumreactors:graphite_tube", 4);
   manu("minecraft:sand", "nuclearcraft:silicon_gem", 2);
 
-  manu("nuclearcraft:coil_bscco", "nuclearcraft:bscco_dust", 2);
+  //manu("nuclearcraft:coil_bscco", "nuclearcraft:bscco_dust", 2);
   manu("nuclearcraft:boron_ingot", "nuclearcraft:boron_dust", 1);
   manu("thermal:tin_block", "kubejs:printed_plate", 16);
 
