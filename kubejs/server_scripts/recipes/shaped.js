@@ -2344,6 +2344,13 @@ shapex(['minecraft:air', 'bluepower:ruby_gem', 'minecraft:air', 'minecraft:air',
 
 shapex(['minecraft:air', '#minecraft:planks', 'minecraft:air', 'minecraft:air', 'minecraft:air', '#minecraft:planks', 'minecraft:stick', '#minecraft:planks'],'bluepower:wood_sickle')
 
+shapex(['minecraft:air', 'minecraft:chest', 'minecraft:air', 'minecraft:chest', 'integrateddynamics:variable_transformer_input', 'minecraft:chest', 'minecraft:air', 'minecraft:chest', 'minecraft:air'],'integrateddynamics:part_inventory_reader')
 
+shapex(['#minecraft:planks','minecraft:air','minecraft:air','#minecraft:planks'],'4x minecraft:stick')
 
+shapex(['minecraft:stick', '#minecraft:planks', '#minecraft:planks', 'minecraft:stick', '#minecraft:planks','#minecraft:planks'], 'farmersdelight:cutting_board')
+
+shapex(['#minecraft:planks', '#minecraft:planks','minecraft:air', 'minecraft:charcoal', '#minecraft:planks'], '3x engineersdecor:old_industrial_wood_planks')
+
+shapex(['minecraft:stick','minecraft:air','minecraft:air', 'ten3:chlorium_dust'] ,'rootsclassic:bark_knife')
 });
