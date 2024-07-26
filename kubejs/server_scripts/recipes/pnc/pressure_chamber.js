@@ -55,11 +55,15 @@ ServerEvents.recipes((event) => {
       {
         item: "kubejs:pre_compressed",
       },
+      {
+        item: "minecraft:iron_ingot",
+      },
     ],
     pressure: 2.5,
     results: [
       {
         item: "pneumaticcraft:ingot_iron_compressed",
+        count: 2
       },
     ],
   });
