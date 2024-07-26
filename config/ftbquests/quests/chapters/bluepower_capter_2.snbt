@@ -2900,7 +2900,11 @@
 		}
 		{
 			dependencies: ["379F607A99F58C90"]
-			description: ["When placed , this block can create a sapling/seed on top and slowly grow"]
+			description: [
+				"When placed , this block can create a sapling/seed on top and slowly grow"
+				""
+				"Also can be used to speed up composting of Organic Compost to Rich Soil"
+			]
 			hide_dependency_lines: true
 			icon: "essentials:fertile_soil_wheat"
 			id: "35BD3AD826A482C4"
