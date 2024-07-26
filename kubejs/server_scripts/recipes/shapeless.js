@@ -1594,4 +1594,7 @@ less(['#minecraft:signs','farmersdelight:canvas'],'farmersdelight:canvas_sign')
 less(['goldenhopper:golden_hopper','minecraft:copper_ingot'],'essentials:sorting_hopper')
 less(['goldenhopper:golden_hopper','minecraft:gold_ingot'],'essentials:speed_hopper')
 
+less(["#ironberry:wrench_fix", "bluepower:battery_block",'kubejs:stone_plate'],   "mekanism:configurator")
+
+
 });

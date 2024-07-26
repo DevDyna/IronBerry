@@ -422,10 +422,10 @@ ServerEvents.recipes((event) => {
     2
   );
 
-  smart_assembly(
-    ["#ironberry:wrench_fix", "bluepower:battery_block"],
-    "mekanism:configurator"
-  );
+  // smart_assembly(
+  //   ["#ironberry:wrench_fix", "bluepower:battery_block"],
+  //   "mekanism:configurator"
+  // );
 
   smart_assembly(
     [
