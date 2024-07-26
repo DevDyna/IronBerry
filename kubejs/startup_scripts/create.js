@@ -20,13 +20,13 @@ StartupEvents.postInit((event) => {
   }
 
   
-  myst(global.fish_food[0], global.fishing[0]);
-  myst(global.fish_food[1], global.fishing[0]);
+  myst(global.fish_food, global.fishing);
+  //myst(global.fish_food[1], global.fishing[0]);
 
-  myst(global.fish_food[2], global.fishing[1]);
-  myst(global.fish_food[3], global.fishing[2]);
+  // myst(global.fish_food[2], global.fishing[1]);
+  // myst(global.fish_food[3], global.fishing[2]);
 
-  myst(global.fish_food[3], ['minecraft:leather_boots', 'minecraft:fishing_rod', 'minecraft:enchanted_book']);
+   myst(global.fish_food, ['minecraft:leather_boots', 'minecraft:fishing_rod', 'minecraft:enchanted_book']);
   
   myst("kubejs:ore_bone_meal", [
     "minecraft:deepslate_gold_ore",

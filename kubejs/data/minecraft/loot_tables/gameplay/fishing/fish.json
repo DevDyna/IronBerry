@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:beef",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:porkchop",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:chicken",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "weight": 9
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 8
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 7
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 6
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 6
+        },{
+          "type": "minecraft:item",
+          "name": "kubejs:soul",
+          "weight": 4
+        },{
+          "type": "minecraft:item",
+          "name": "froglins:froglin_egg",
+          "weight": 4
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 9
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 8
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 9
+        },{
+          "type": "minecraft:item",
+          "name": "homespun:ironberries",
+          "weight": 2
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "weight": 7
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "weight": 5
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "weight": 3
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook",
+          "weight": 1
+        },{
+          "type": "minecraft:item",
+          "name": "thermal:iron_coin",
+          "weight": 2
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 2
+        },{
+          "type": "minecraft:item",
+          "name": "supplementaries:antique_ink",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

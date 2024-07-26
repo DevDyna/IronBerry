@@ -49,6 +49,7 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  'thermal:deep_aquachow', 'thermal:junk_net', 'thermal:aquachow',
   'cyclic:apple_sprout_diamond', 'cyclic:apple_sprout_emerald',
   "extendedcrafting:the_ultimate_block",
   "extendedcrafting:enhanced_ender_ingot_block",
@@ -2627,18 +2628,18 @@ global.recipes = {
   ],
 };
 
-global.fish_food = [
+global.fish_food = //[
   Item.of(
     "minecraft:fishing_rod",
     '{Damage:0,display:{Name:\'{"text":"Fishing without Fish Food","color":"gold","italic":false}\'}}'
-  ),
-  "thermal:aquachow",
-  "thermal:junk_net",
-  "thermal:deep_aquachow",
-];
+  )
+  // "thermal:aquachow",
+  // "thermal:junk_net",
+  // "thermal:deep_aquachow",
+//];
 
 global.fishing = [
-  [
+  
     "minecraft:pufferfish",
     "minecraft:rotten_flesh",
     "minecraft:beef",
@@ -2651,8 +2652,6 @@ global.fishing = [
     "minecraft:salmon",
     "minecraft:cod",
     "minecraft:tropical_fish",
-  ],
-  [
     "minecraft:ghast_tear",
     "minecraft:nautilus_shell",
     "kubejs:soul",
@@ -2662,8 +2661,6 @@ global.fishing = [
     "minecraft:feather",
     "minecraft:string",
     "homespun:ironberries",
-  ],
-  [
     "minecraft:bamboo",
     "minecraft:kelp",
     "minecraft:lily_pad",
@@ -2672,5 +2669,5 @@ global.fishing = [
     "minecraft:bowl",
     "minecraft:saddle",
     "supplementaries:antique_ink",
-  ],
+  
 ];
