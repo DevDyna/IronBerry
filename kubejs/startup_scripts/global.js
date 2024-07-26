@@ -49,6 +49,7 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  'cyclic:apple_sprout_diamond', 'cyclic:apple_sprout_emerald',
   "extendedcrafting:the_ultimate_block",
   "extendedcrafting:enhanced_ender_ingot_block",
   "extendedcrafting:nether_star_block",

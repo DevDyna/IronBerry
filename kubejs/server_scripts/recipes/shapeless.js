@@ -509,10 +509,10 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:jumping_upgrade_4",
   ]);
 
-  moless("cyclic:apple_sprout", [
-    ["cyclic:apple_sprout_emerald", "minecraft:emerald"],
-    ["cyclic:apple_sprout_diamond", "minecraft:diamond"],
-  ]);
+  // moless("cyclic:apple_sprout", [
+  //   ["cyclic:apple_sprout_emerald", "minecraft:emerald"],
+  //   ["cyclic:apple_sprout_diamond", "minecraft:diamond"],
+  // ]);
 
   moless("minecraft:enchanted_golden_apple", [
     ["cyclic:apple_bone", "minecraft:bone_meal"],

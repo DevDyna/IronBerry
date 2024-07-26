@@ -24,12 +24,18 @@ ServerEvents.recipes((event) => {
       {
         item: "bluepower:teslatite_dust",
       },
+      {
+        item: "thermal:saw_blade",
+      },
     ],
     pressure: 2.5,
     results: [
       {
         item: "tombstone:grave_dust",
         count: 16,
+      },
+      {
+        item: "thermal:saw_blade",
       },
     ],
   });
@@ -63,7 +69,7 @@ ServerEvents.recipes((event) => {
     results: [
       {
         item: "pneumaticcraft:ingot_iron_compressed",
-        count: 2
+        count: 2,
       },
     ],
   });
@@ -72,7 +78,7 @@ ServerEvents.recipes((event) => {
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
-        tag: 'reactive:body_sources',
+        tag: "reactive:body_sources",
       },
       {
         type: "pneumaticcraft:stacked_item",
@@ -500,8 +506,9 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         count: 64,
         item: "pneumaticcraft:reinforced_pressure_tube",
-      },{
-        item : 'supplementaries:sack'
+      },
+      {
+        item: "supplementaries:sack",
       },
       {
         item: "thermal:lead_coin",
@@ -520,8 +527,9 @@ ServerEvents.recipes((event) => {
     inputs: [
       {
         item: "bluepower:battery_block",
-      },{
-        item : 'supplementaries:sack'
+      },
+      {
+        item: "supplementaries:sack",
       },
       {
         item: "rftoolsbase:crafting_card",
@@ -536,7 +544,7 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         count: 4,
         item: "thermal:lead_coin",
-      }
+      },
     ],
     pressure: 2.0,
     results: [
@@ -558,8 +566,9 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         count: 16,
         item: "ae2:basic_card",
-      },{
-        item : 'supplementaries:sack'
+      },
+      {
+        item: "supplementaries:sack",
       },
       {
         type: "pneumaticcraft:stacked_item",
@@ -595,8 +604,9 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         count: 16,
         item: "integratedtunnels:part_interface_energy",
-      },{
-        item : 'supplementaries:sack'
+      },
+      {
+        item: "supplementaries:sack",
       },
       {
         type: "pneumaticcraft:stacked_item",
@@ -624,8 +634,9 @@ ServerEvents.recipes((event) => {
         type: "pneumaticcraft:stacked_item",
         count: 4,
         item: "prettypipes:crafting_terminal",
-      },{
-        item : 'supplementaries:sack'
+      },
+      {
+        item: "supplementaries:sack",
       },
       {
         type: "pneumaticcraft:stacked_item",
@@ -641,43 +652,41 @@ ServerEvents.recipes((event) => {
     ],
   });
 
-
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
         type: "pneumaticcraft:stacked_item",
         count: 64,
-        item: 'thoriumreactors:graphite_tube',
-      }
+        item: "thoriumreactors:graphite_tube",
+      },
     ],
     pressure: 2.0,
     results: [
       {
-        item: 'thoriumreactors:reactor_graphite_moderator',
+        item: "thoriumreactors:reactor_graphite_moderator",
       },
     ],
   });
-
 
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
       {
-        item: 'ars_nouveau:scryers_crystal',
+        item: "ars_nouveau:scryers_crystal",
       },
       {
-        item: 'ars_nouveau:source_jar',
+        item: "ars_nouveau:source_jar",
       },
       {
-        item: 'cyclic:location_data',
-      }
+        item: "cyclic:location_data",
+      },
     ],
     pressure: 2.5,
     results: [
       {
-        item: 'ars_nouveau:enchanters_eye', 
-        nbt:'{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}'
+        item: "ars_nouveau:enchanters_eye",
+        nbt: '{"ars_nouveau:caster":{current_slot:0,flavor:"",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"",recipe:{part0:"ars_nouveau:glyph_touch",part1:"ars_nouveau:glyph_interact",size:2},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}}}',
       },
     ],
   });
@@ -685,20 +694,20 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "pneumaticcraft:pressure_chamber",
     inputs: [
-      JsonMakeItem('minecraft:diamond'),
-      JsonMakeItem('nuclearcraft:boron_nitride_gem'),
-      JsonMakeItem('nuclearcraft:villiaumite_gem'),
-      JsonMakeItem('nuclearcraft:fluorite_gem'),
-      JsonMakeItem('nuclearcraft:rhodochrosite_gem'),
-      JsonMakeItem('nuclearcraft:carobbiite_gem'),
-      JsonMakeItem('nuclearcraft:boron_arsenide_gem'),
-      JsonMakeItem('ars_nouveau:source_gem'),
-      JsonMakeItem('minecraft:emerald'),
+      JsonMakeItem("minecraft:diamond"),
+      JsonMakeItem("nuclearcraft:boron_nitride_gem"),
+      JsonMakeItem("nuclearcraft:villiaumite_gem"),
+      JsonMakeItem("nuclearcraft:fluorite_gem"),
+      JsonMakeItem("nuclearcraft:rhodochrosite_gem"),
+      JsonMakeItem("nuclearcraft:carobbiite_gem"),
+      JsonMakeItem("nuclearcraft:boron_arsenide_gem"),
+      JsonMakeItem("ars_nouveau:source_gem"),
+      JsonMakeItem("minecraft:emerald"),
     ],
     pressure: 2.0,
     results: [
       {
-        item: 'kubejs:pure_gem',
+        item: "kubejs:pure_gem",
       },
     ],
   });
