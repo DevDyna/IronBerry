@@ -2352,5 +2352,5 @@ shapex(['minecraft:stick', '#minecraft:planks', '#minecraft:planks', 'minecraft:
 
 shapex(['#minecraft:planks', '#minecraft:planks','minecraft:air', 'minecraft:charcoal', '#minecraft:planks'], '3x engineersdecor:old_industrial_wood_planks')
 
-shapex(['minecraft:stick','minecraft:air','minecraft:air', 'ten3:chlorium_dust'] ,'rootsclassic:bark_knife')
+shapex(['ten3:chlorium_dust','minecraft:air','minecraft:air', 'minecraft:stick'] ,'rootsclassic:bark_knife')
 });
