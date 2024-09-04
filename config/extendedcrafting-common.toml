@@ -52,10 +52,10 @@
 	autoCrafterEnabled = true
 	#How long a single Ender Crafter crafting operation should take (in seconds) by default.
 	#Range: > 1
-	defaultTimeRequired = 60
+	defaultTimeRequired = 5
 	#How much a single Ender Alternator should speed up a craft. This is a percentage of the time required.
 	#Range: 0.0 ~ 1.0
-	alternatorEffectiveness = 0.01
+	alternatorEffectiveness = 0.5
 	#How much FE the Auto Ender Crafter should hold.
 	#Range: > 0
 	autoCrafterPowerCapacity = 500000
