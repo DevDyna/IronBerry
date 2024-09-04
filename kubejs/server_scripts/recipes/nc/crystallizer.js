@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     crystallize("nuclearcraft:gold",250,'minecraft:gold_ingot')
     crystallize("kubejs:liquid_silicon",100,'nuclearcraft:silicon_gem')
 
-    crystallize('thermal:ender',250,'minecraft:ender_pearl')
+    crystallize('thermal:ender',25,'minecraft:ender_pearl')
 
     crystallize('minecraft:water',10,'homespun:salt')
 
