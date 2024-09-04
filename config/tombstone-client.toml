@@ -11,8 +11,6 @@
 	skip_respawn_screen = true
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = true
-	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	allow_halloween_ghost = true
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
@@ -77,4 +75,6 @@
 	show_tooltip_combine = true
 	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]
 	no_blinking_nightvision = true
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	enable_halloween_ghost = true
 
