@@ -211,3 +211,15 @@ config/create-client.toml
 options.txt
 makelist.bat
 _gitlink.url
+fancymenu_data/last_world.fmdata
+config/modernworldcreation/config.cfg
+config/modernfix-mixins.properties
+config/modernfix-common.toml
+config/ferritecore-mixin.toml
+config/fancymenu/ui_themes/dark.json
+config/fancymenu/ui_themes/light.json
+config/fancymenu/layout_editor/widgets/element_layer_control.lewidget
+config/fancymenu/custom_gui_screens.txt
+config/fancymenu/customizablemenus.txt
+config/fancymenu/legacy_checklist.txt
+config/fancymenu/user_variables.db
