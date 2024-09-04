@@ -42,7 +42,7 @@ Mod used:
 -crafting-on-a-stick-1.19.2-1.1.2.jar 
 -craftingstation-1.19.2-6.0.3.jar 
 -CraterLib-Forge-1.19.2-2.0.3.jar 
--create-1.19.2-0.5.1.f.jar 
+-create-1.19.2-0.5.1.h.jar 
 -createaddition-1.19.2-1.2.3.jar 
 -CreativeCore_FORGE_v2.11.28_mc1.19.2.jar 
 -CTM-1.19.2-1.1.6+8.jar 
@@ -69,6 +69,7 @@ Mod used:
 -fancymenu_forge_3.2.3_MC_1.19.2.jar 
 -FarmersDelight-1.19.2-1.2.4.jar 
 -FastSuite-1.19.2-4.1.1.jar 
+-ferritecore-5.0.3-forge.jar 
 -fissionrecipe-3.0.2-1.19.2.jar 
 -forgivingvoid-forge-1.19-7.0.0.jar 
 -froglins-1.19.2-3.0.0.0.jar 
@@ -176,7 +177,6 @@ Mod used:
 -thermal_foundation-1.19.2-10.3.1.57.jar 
 -thermal_innovation-1.19.2-10.3.0.20.jar 
 -thoriumreactors-1.19.2-0.1.6b-all.jar 
--tia-1.19.2-1.0-forge.jar.disabled 
 -time-in-a-bottle-3.0.1-mc1.19.jar 
 -titanium-1.19.2-3.7.4-31.jar 
 -tombstone-1.19.2-8.3.0.jar 
