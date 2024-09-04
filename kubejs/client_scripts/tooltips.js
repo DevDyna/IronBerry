@@ -585,16 +585,31 @@ ItemEvents.tooltip((event) => {
     for (let i1 = pipes.name.length - 1; i1 >= 0; i1--)
       tipplusplus(
         a,
-        pipes.name[i1] + "§f " + pipes.tier[i2][i1] +' '+ pipes.unit[i2]+'/tick'
+        pipes.name[i1] +
+          "§f " +
+          pipes.tier[i2][i1] +
+          " " +
+          pipes.unit[i2] +
+          "/tick"
       );
   });
 
   for (let i1 = pipes.type.length - 1; i1 >= 0; i1--)
     tipplusplus(
       "pipez:universal_pipe",
-      pipes.colors[i1]+pipes.type[i1] + "§f " + pipes.tier[0][i1] +' '+ pipes.unit[0]+'/tick'
+      pipes.colors[i1] +
+        pipes.type[i1] +
+        "§f " +
+        pipes.tier[0][i1] +
+        " " +
+        pipes.unit[0] +
+        "/tick"
     );
-  tipplusplus("pipez:universal_pipe",'§cFull statistics are on regular pipes or upgrades')
+  tipplusplus(
+    "pipez:universal_pipe",
+    "§cFull statistics are on regular pipes or upgrades"
+  );
+
 });
 
 /*
