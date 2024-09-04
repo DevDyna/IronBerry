@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_7"
+	group: "0AB07CEFAAABA228"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "4542513EBE6D01BC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Age 7"
+}
