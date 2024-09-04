@@ -1745,8 +1745,6 @@ global.disabledItem = [
   "jetboots:guardian_pants",
   "jetboots:guardian_helmet",
   "jetboots:guardian_jacket",
-  "pipez:ultimate_upgrade",
-  "pipez:infinity_upgrade",
   "ars_nouveau:scribes_table",
   "ars_nouveau:abjuration_essence",
   "ars_nouveau:water_essence",

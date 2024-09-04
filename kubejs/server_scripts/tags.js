@@ -362,6 +362,8 @@ ServerEvents.tags("item", (event) => {
 
   //recipe any side removed
   event.add("ironberry:any", [
+    "pipez:ultimate_upgrade",
+    "pipez:infinity_upgrade",
     "ae2:cell_component_1k",
     "ae2:cell_component_4k",
     "ae2:cell_component_16k",

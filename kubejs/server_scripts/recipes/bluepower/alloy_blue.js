@@ -253,9 +253,6 @@ ServerEvents.recipes((event) => {
     4
   );
 
-  alloy(["pipez:basic_upgrade"], [5], "pipez:improved_upgrade", 1);
-  alloy(["pipez:improved_upgrade"], [5], "pipez:advanced_upgrade", 1);
-
   alloy(["minecraft:echo_shard"], [4], "minecraft:sculk", 1);
 
   alloy(["minecraft:glow_ink_sac"], [1], "minecraft:ink_sac", 1);

@@ -38,7 +38,7 @@ ItemEvents.tooltip((event) => {
   //         }catch(e){
   //           console.log(i)
   //         }
-          
+
   //       }
   //     } else {
   //       for (let i = 1; i < 1000; i++) {
@@ -61,11 +61,9 @@ ItemEvents.tooltip((event) => {
       //if (text.get(i) != null) {
 
       if (!event.isShift()) {
-
         try {
           text.remove(2);
           text.remove(1);
-          
 
           text.set(1, "§8[§fLeft Shift§8]");
         } catch (e) {
@@ -537,9 +535,69 @@ ItemEvents.tooltip((event) => {
     "biomancy:primordial_cradle",
     "A curios cradle that can evoke §4flesh blobs §fand §cgrow everywhere§f when you stay alone!"
   );
+
+  let pipes = {
+    colors: ["§a", "§9", "§6", "§3"],
+    type: ["Item", "Fluid", "Energy", "Gas"],
+    unit: ["Item", "mb", "FE", "mb"],
+    basic_pipes: [
+      "pipez:item_pipe",
+      "pipez:fluid_pipe",
+      "pipez:energy_pipe",
+      "pipez:gas_pipe",
+    ],
+    name: [
+      "§2Default",
+      "§7Basic",
+      "§6Improved",
+      "§3Advanced",
+      "§9Ultimate",
+      "§5Infinity",
+    ],
+    upgrades: [
+      "pipez:basic_upgrade",
+      "pipez:improved_upgrade",
+      "pipez:advanced_upgrade",
+      "pipez:ultimate_upgrade",
+      "pipez:infinity_upgrade",
+    ],
+    tier: [
+      ["0.2", "0.53", "1.6", "6.4", "64", "2147M"],
+      ["50", "100", "500", "2K", "10K", "2147M"],
+      ["256", "1024", "8192", "32K", "131K", "2147M"],
+      ["200", "400", "2K", "8K", "40K", "2147M"],
+    ],
+  };
+
+  pipes.upgrades.forEach((a, i1) => {
+    for (let i2 = pipes.type.length - 1; i2 >= 0; i2--) {
+      tipplusplus(
+        a,
+        pipes.colors[i2] +
+          pipes.type[i2] +
+          "§f " +
+          pipes.tier[i2][i1 + 1] +
+          "/tick"
+      );
+    }
+  });
+  pipes.basic_pipes.forEach((a, i2) => {
+    for (let i1 = pipes.name.length - 1; i1 >= 0; i1--)
+      tipplusplus(
+        a,
+        pipes.name[i1] + "§f " + pipes.tier[i2][i1] +' '+ pipes.unit[i2]+'/tick'
+      );
+  });
+
+  for (let i1 = pipes.type.length - 1; i1 >= 0; i1--)
+    tipplusplus(
+      "pipez:universal_pipe",
+      pipes.colors[i1]+pipes.type[i1] + "§f " + pipes.tier[0][i1] +' '+ pipes.unit[0]+'/tick'
+    );
+  tipplusplus("pipez:universal_pipe",'§cFull statistics are on regular pipes or upgrades')
 });
 
-/* TO TRY
+/*
 §0 Black
 §1 Blue
 §2 Green
