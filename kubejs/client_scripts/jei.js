@@ -138,3 +138,7 @@ JEIEvents.addItems((event) => {
     event.add(element.strongNBT());
   });
 });
+
+JEIEvents.removeCategories(event=>{
+event.remove(['nuclearcraft:mek_chemical_to_fluid','ae2:attunement','ae2:certus_growth','pneumaticcraft:plastic_solidifying','pneumaticcraft:yeast_crafting'])
+})
