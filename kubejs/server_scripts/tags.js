@@ -1329,6 +1329,13 @@ ServerEvents.tags("item", (event) => {
     "twilightforest:minoshroom_banner_pattern",
     "twilightforest:knight_phantom_banner_pattern",
   ]);
+  event.add('ironberry:housing',['ae2things:disk_housing', 'ae2:item_cell_housing', 'ae2:fluid_cell_housing', 'appmek:chemical_cell_housing', 'arseng:source_cell_housing'])
+
+  event.add('ironberry:storage_part',['ae2:cell_component_1k', 'ae2:cell_component_4k', 'ae2:cell_component_16k', 'ae2:cell_component_64k', 'ae2:cell_component_256k'])
+
+  event.add('ironberry:manganese_dustes',['thoriumreactors:sodium', 'thoriumreactors:potassium', 'thoriumreactors:uran_three_chloride'])
+
+
 });
 
 ServerEvents.tags("block", (event) => {
