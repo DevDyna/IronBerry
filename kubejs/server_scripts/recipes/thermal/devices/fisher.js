@@ -11,8 +11,8 @@ event.custom({
 })
 }
 //------------------------------------------------------------//
-fisher('#ironberry:fish_food',1,"minecraft:gameplay/fishing/fish")
-
+//fisher(,1,"minecraft:gameplay/fishing/fish")
+event.recipes.thermal.fisher_boost('#ironberry:fish_food')
 
 
 
