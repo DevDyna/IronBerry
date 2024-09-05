@@ -3,390 +3,2775 @@
 	default_quest_shape: ""
 	filename: "age_6"
 	group: ""
-	icon: "ten3:indigo"
+	icon: "ae2:logic_processor"
 	id: "208C2C6949C0260D"
 	images: [
 		{
 			click: ""
 			corner: false
+			dependency: "28368E27A614409E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -8.0d
+			x: -1.5d
+			y: -9.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "28368E27A614409E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "laboratoryblocks:block/right-faced_green_signaling_laboratory_block"
+			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
-			y: -8.0d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			click: ""
 			corner: false
+			dependency: "28368E27A614409E"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "laboratoryblocks:block/right-faced_blue_signaling_laboratory_block"
+			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4434EABB48DEEF31"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "extendedcrafting:block/ender_crafter_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.25d
+			y: -3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:item/quantum_entangled_singularity"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -6.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "minecraft:item/ender_pearl"
+			order: 1
+			rotation: -5.0d
+			width: 0.75d
+			x: 3.7696428571428555d
+			y: -6.078571428571429d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/flint_and_steel"
+			order: 3
+			rotation: 25.0d
+			width: 1.0d
+			x: 4.169642857142875d
+			y: -7.214285714285708d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: -4.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "34F72EC6371327BB"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/controller"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "34F72EC6371327BB"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			order: 2
+			rotation: 0.0d
+			width: 3.25d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1066D2956BEA3CA4"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ironberry:item/holder"
+			rotation: 25.0d
+			width: 1.0d
+			x: -4.776785714285715d
+			y: -9.970238095238095d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "125E50DE77912811"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "rftoolsutility:block/tank8"
+			order: 4
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.23886054421770808d
+			y: -10.871768707483014d
+		}
+		{
+			click: ""
+			color: 13940969
+			corner: false
+			dependency: "0F1653ABB84DE0E6"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:part/crafting_terminal_bright"
+			order: 2
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			color: 8870822
+			corner: false
+			dependency: "0F1653ABB84DE0E6"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:part/crafting_terminal_medium"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			color: 1778243
+			corner: false
+			dependency: "0F1653ABB84DE0E6"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:part/crafting_terminal_dark"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0F1653ABB84DE0E6"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:part/crafting_terminal"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0F1653ABB84DE0E6"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ironberry:textures/other/crafting_terminal_dark.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ironberry:textures/other/corner.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ironberry:textures/other/line.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -13.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5F7EBAF569E29FD0"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ironberry:textures/other/tpose.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.75d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ironberry:textures/other/mono.png"
+			rotation: 180.0d
+			width: 3.25d
+			x: -5.75d
+			y: -16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5F7EBAF569E29FD0"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/drive/drive_front_flat"
+			rotation: 0.0d
+			width: 3.25d
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6C347F04FBE58412"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/energy_acceptor"
+			rotation: 0.0d
+			width: 3.25d
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6C347F04FBE58412"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "integrateddynamics:block/coal_generator_front_on"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -12.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -9.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 1.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 1.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 1.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 1.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 7.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 7.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 7.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: 7.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "ae2:item/singularity"
+			order: -1
+			rotation: 75.0d
+			width: 0.75d
+			x: 5.169642857142861d
+			y: -6.078571428571429d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/glow_item_frame"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "cofh_core:textures/particle/flame_0.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.496173469387756d
+			y: -7.091836734693878d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2FFB48F8A9A5244B"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/right-faced_blue_signaling_laboratory_block"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -15.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/right-faced_green_signaling_laboratory_block"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -18.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2A8F898323695082"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "nuclearcraft:block/processor/fluid_infuser_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: -19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "nuclearcraft:block/processor/melter_powered"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "thermal:item/redstone_bucket"
+			order: 2
+			rotation: -15.0d
+			width: 0.75d
+			x: -8.8686224489796d
+			y: -19.192602040816325d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -10.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -11.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -13.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -14.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -15.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -17.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -16.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:item/certus_quartz_crystal_charged"
+			rotation: -25.0d
+			width: 1.0d
+			x: -10.358418367346935d
+			y: -19.273639455782316d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:item/fluix_crystal"
+			rotation: 15.0d
+			width: 1.0d
+			x: -9.698214285714286d
+			y: -18.449999999999996d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D0C633DD93D1494"
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -19.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:textures/block/item_input.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -14.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3CEBE243D8904E66"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/detector_on"
+			rotation: 0.0d
+			width: 1.5d
+			x: -16.5d
+			y: -16.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6F4D48DBB3E17ACB"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:textures/block/energy_input.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -18.5d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 3.25d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -12.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "extendedcrafting:block/flux_crafter_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.25d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.75d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: -3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -14.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 4
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -19.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -18.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.75d
+			y: -3.25d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.75d
+			y: -7.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.25d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 0.0d
+			width: 3.25d
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -12.25d
 			y: -8.0d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 1.0d
+			height: 1.25d
 			hover: [ ]
-			image: "thermal:block/machines/machine_frame_side"
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 1
 			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: -3.0d
+			width: 1.25d
+			x: 9.25d
+			y: -9.0d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			rotation: 0.0d
+			width: 1.25d
+			x: -20.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -12.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -12.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -18.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -12.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -18.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -18.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -18.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -13.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -15.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -16.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -17.25d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "05A163CA0B85418B"
+			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "laboratoryblocks:block/right-faced_red_signaling_laboratory_block_top"
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
+			x: -2.75d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0126FBFCD83D4408"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "laboratoryblocks:block/gray_laboratory_pillar_top"
+			rotation: 45.0d
+			width: 1.5d
+			x: 1.75d
+			y: -15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -17.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.25d
+			hover: [ ]
+			image: "ironberry:textures/other/lab_ctm_quest.png"
+			rotation: -90.0d
+			width: 1.25d
+			x: -18.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -16.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.25d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -17.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -16.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -16.25d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -17.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -17.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -16.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.25d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2319B7A1E3795E4C"
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "twilightforest:block/forcefield_white"
+			order: -10
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.25d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0BCC80F2DB27BBE9"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thoriumreactors:item/enriched_uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.37857142857142d
+			y: -4.963095238095242d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5DFC10247FFDC59A"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/molecular_assembler"
+			rotation: 0.0d
+			width: 3.25d
+			x: -11.25d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "425EB3904D1E01F4"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2:block/molecular_assembler_lights"
+			order: 1
+			rotation: 0.0d
+			width: 3.25d
+			x: -11.25d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "425EB3904D1E01F4"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "expatternprovider:block/ex_pattern_provider"
+			rotation: 0.0d
+			width: 3.25d
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "5909F4B9C66318AC"
+			dev: false
+			height: 3.25d
+			hover: [ ]
+			image: "ae2things:block/advanced_inscriber/side_on"
+			rotation: 0.0d
+			width: 3.25d
 			x: -8.5d
-			y: -2.5d
+			y: -13.75d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "28368E27A614409E"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "28368E27A614409E"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.25d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "28368E27A614409E"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "laboratoryblocks:block/clear_laboratory_screen_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.75d
+			y: -9.0d
 		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "6D22F5E6A3EA85E8"
-			tasks: [{
-				id: "7D3F0F209CF92D1D"
-				item: "ten3:machine_matter_condenser"
-				type: "item"
-			}]
-			title: "Like UU-matter"
-			x: -5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["665C09778E77F55E"]
+			dependencies: [
+				"7D60AFFC3A4DECDD"
+				"79557BCDFB2B9A2F"
+			]
+			hide_dependent_lines: true
 			id: "57709975A43DBB22"
-			tasks: [{
-				id: "17B5E0BE2C66BCD8"
-				item: "kubejs:incompleted_machine_frame"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -7.0d
+			shape: "circle"
+			tasks: [
+				{
+					id: "17B5E0BE2C66BCD8"
+					item: "kubejs:incompleted_machine_frame"
+					type: "item"
+				}
+				{
+					id: "2DAF7E49AF71DA89"
+					item: "nuclearcraft:plate_extreme"
+					type: "item"
+				}
+			]
+			x: -0.25d
+			y: -9.0d
 		}
 		{
 			dependencies: ["57709975A43DBB22"]
+			hide_dependent_lines: true
 			id: "6914F14F586EAF17"
+			shape: "circle"
 			tasks: [{
 				id: "1C196D227EE13E39"
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: 2.25d
+			y: -9.0d
 		}
 		{
-			id: "7B0A171825D37A8D"
-			tasks: [{
-				id: "4D956633A6D2D24A"
-				item: "thermal:machine_pulverizer"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7EA7F280C5CA268E"]
-			id: "7687425CB113909B"
-			tasks: [{
-				id: "299F2D015BF0042E"
-				item: "thermal:machine_refinery"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "23F25951484DD0E3"
-			tasks: [{
-				id: "0E87A7EE10062E3F"
-				item: "thermal:machine_smelter"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "4A8B8A9325922D05"
-			tasks: [{
-				id: "3BB3D55C873385B9"
-				item: "thermal:machine_furnace"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "2C077566C969E2B7"
-			tasks: [{
-				id: "4DF5D17C5A14AE07"
-				item: {
-					Count: 1b
-					id: "ten3:machine_psionicant"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "6FDDE15EB99730EC"
-			tasks: [{
-				id: "786BE1F2D5249FDC"
-				item: "ten3:machine_compressor"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "0207EA5B40FA3F26"
-			tasks: [{
-				id: "4501BAC1BA83AC58"
-				item: "ten3:machine_refiner"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6914F14F586EAF17"]
-			id: "66DE2ACFF007F667"
-			tasks: [{
-				id: "799D5E68FE205C1E"
-				item: "thermal:machine_crafter"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			id: "378525760E332AE4"
-			tasks: [{
-				id: "67ACB05B700BB26E"
-				item: "thermal:machine_crystallizer"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			id: "3D6441A38F368100"
-			tasks: [{
-				id: "47D3D9523075378A"
-				item: "thermal:machine_brewer"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			id: "0592D94FE5ECFC74"
-			tasks: [{
-				id: "240D96BA5277C96A"
-				item: "thermal:machine_sawmill"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			id: "7EA7F280C5CA268E"
-			tasks: [{
-				id: "170AD53858B817B5"
-				item: "thermal:machine_insolator"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7EA7F280C5CA268E"]
-			id: "2A9B7327A5375549"
-			tasks: [{
-				id: "30B90DD7CAF89F94"
-				item: "thermal:machine_centrifuge"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			id: "6348810343C18A40"
-			tasks: [{
-				id: "5C92A6E5B1359699"
-				item: "thermal:machine_press"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			id: "128E03D2EF42216F"
-			tasks: [{
-				id: "5E875788A35300CE"
-				item: "thermal:machine_crucible"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			id: "228683E139E7C819"
-			tasks: [{
-				id: "415540ECEC78BCBA"
-				item: "thermal:machine_chiller"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			id: "46CC3EAD2C599568"
-			tasks: [{
-				id: "0EA4AAE3064C6849"
-				item: "thermal:machine_pyrolyzer"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			id: "20F3B55056E21F5E"
-			tasks: [{
-				id: "21AF86924058752B"
-				item: "thermal:machine_bottler"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
-		}
-		{
+			dependencies: ["05A163CA0B85418B"]
+			hide_dependent_lines: true
 			id: "79557BCDFB2B9A2F"
 			tasks: [{
 				id: "1F199E2558166191"
 				item: "nuclearcraft:plate_elite"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.75d
 			y: -9.0d
 		}
 		{
-			dependencies: ["79557BCDFB2B9A2F"]
-			id: "665C09778E77F55E"
-			tasks: [{
-				id: "795E2E5CF11692A8"
-				item: "nuclearcraft:plate_extreme"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -9.0d
-		}
-		{
-			id: "4326A28648C10C9E"
-			tasks: [{
-				id: "4AC660A714424EDB"
-				item: "kubejs:net"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -6.0d
-		}
-		{
+			dependencies: ["125E50DE77912811"]
+			description: ["Depleted Molten Salt + Tin = Enderpearls"]
+			hide: true
+			icon: "thoriumreactors:depleted_molten_salt_bucket"
 			id: "0126FBFCD83D4408"
+			shape: "rsquare"
 			tasks: [{
-				id: "4D0216D6563C1713"
-				item: "thoriumreactors:depleted_molten_salt_bucket"
-				type: "item"
+				id: "5E71980E74772881"
+				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -5.0d
+			title: "A balanced way to ender pearling"
+			x: -0.011139455782291918d
+			y: -11.371768707483014d
 		}
 		{
+			dependencies: ["3D0C633DD93D1494"]
+			hide: true
+			hide_dependent_lines: true
 			id: "6DEDCF6C73525F05"
+			shape: "octagon"
 			tasks: [{
 				id: "5D29E80BB9994EF5"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: -8.75d
+			y: -20.25d
 		}
 		{
+			dependencies: ["3D0C633DD93D1494"]
+			hide: true
+			hide_dependent_lines: true
 			id: "586D88225E3E4879"
+			shape: "diamond"
 			tasks: [{
 				id: "5F0B9779842A53E6"
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.0d
+			x: -10.25d
+			y: -20.25d
 		}
 		{
-			id: "78C7FD675FD460EA"
-			tasks: [{
-				id: "1C3B76600CE7F21B"
-				item: "ae2:fluix_glass_cable"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["78C7FD675FD460EA"]
+			dependencies: [
+				"586D88225E3E4879"
+				"6DEDCF6C73525F05"
+			]
+			hide: true
+			hide_dependent_lines: true
 			id: "2A8F898323695082"
+			subtitle: "Wait No channels here ?!?"
 			tasks: [{
 				id: "39CF3054376BC828"
 				item: "ae2:fluix_smart_cable"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: -18.25d
+			y: -9.0d
 		}
 		{
-			id: "26BD9A9ABADA2705"
+			dependencies: [
+				"16F97485E1003496"
+				"68AC8279FDF4D6E9"
+				"4D2CB27B63B062EA"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "7D60AFFC3A4DECDD"
+			shape: "octagon"
+			size: 2.0d
 			tasks: [{
-				id: "398F84406087BAEF"
-				item: "thermalendergy:melodium_coin"
+				id: "577AE14F99722294"
+				item: "extendedcrafting:crafting_core"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.0d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D0C633DD93D1494"]
+			hide: true
+			hide_dependent_lines: true
+			id: "5909F4B9C66318AC"
+			tasks: [{
+				id: "023FAE7CE4D36BA0"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"1F3CFBE492034E5D"
+				"74451C5207D92F75"
+			]
+			hide_dependent_lines: true
+			id: "68AC8279FDF4D6E9"
+			tasks: [{
+				id: "650D118A06A808D1"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["5909F4B9C66318AC"]
+			hide_dependent_lines: true
+			id: "57DBEDD45D3D7F10"
+			tasks: [{
+				id: "16442F63D438A485"
+				item: "kubejs:tungsten_plate"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -7.75d
+		}
+		{
+			dependencies: ["57DBEDD45D3D7F10"]
+			hide_dependent_lines: true
+			id: "18D51335F638A93D"
+			tasks: [{
+				id: "73DF16C41DB1A874"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["18D51335F638A93D"]
+			hide: true
+			hide_dependent_lines: true
+			id: "1F3CFBE492034E5D"
+			tasks: [{
+				id: "3D7D734844EB54F4"
+				item: "extendedcrafting:pedestal"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["2A8F898323695082"]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "6C347F04FBE58412"
+			tasks: [{
+				id: "48C8A6F68AC9AE19"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -15.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			hide: true
+			hide_dependent_lines: true
+			id: "325DB594E512F052"
+			shape: "circle"
+			tasks: [{
+				id: "5ABDD12860ABEB11"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"6C347F04FBE58412"
+				"325DB594E512F052"
+				"3CEBE243D8904E66"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "34F72EC6371327BB"
+			tasks: [{
+				id: "422DC248C2775642"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -13.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			hide: true
+			hide_dependent_lines: true
+			id: "1066D2956BEA3CA4"
+			tasks: [{
+				id: "4CB7838332C72D7A"
+				item: "kubejs:holder"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -19.25d
+		}
+		{
+			dependencies: ["1066D2956BEA3CA4"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3CEBE243D8904E66"
+			tasks: [
+				{
+					id: "23D203793894E158"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "08E428FBB57607E1"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "Cores"
+			x: -0.25d
+			y: -19.25d
+		}
+		{
+			dependencies: ["4434EABB48DEEF31"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "extendedcrafting:auto_flux_crafter"
+			id: "16F97485E1003496"
+			tasks: [
+				{
+					id: "163C2F1A1D1DD5D1"
+					item: "extendedcrafting:auto_flux_crafter"
+					type: "item"
+				}
+				{
+					id: "6D59B397B88852D2"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			x: -3.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0126FBFCD83D4408"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "extendedcrafting:auto_ender_crafter"
+			id: "4434EABB48DEEF31"
+			tasks: [
+				{
+					id: "6933E0F79983F0F2"
+					item: "extendedcrafting:auto_ender_crafter"
+					type: "item"
+				}
+				{
+					id: "6CF1531CDD35C84B"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"4434EABB48DEEF31"
+				"3AE920685EBB1819"
+			]
+			hide_dependent_lines: true
+			id: "3882094BA7F8C0B9"
+			tasks: [{
+				id: "4606DDD5B704C463"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -3.25d
+		}
+		{
+			dependencies: [
+				"3882094BA7F8C0B9"
+				"16F97485E1003496"
+			]
+			hide_dependent_lines: true
+			id: "74451C5207D92F75"
+			tasks: [{
+				id: "5D4623AA85804923"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -7.75d
+		}
+		{
+			dependencies: ["2FFB48F8A9A5244B"]
+			hide: true
+			hide_dependent_lines: true
+			id: "3AE920685EBB1819"
+			tasks: [{
+				id: "3F3A896D53282F24"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -17.75d
+		}
+		{
+			dependencies: [
+				"31325C0A44DAA30E"
+				"3CEBE243D8904E66"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "6F4D48DBB3E17ACB"
+			tasks: [{
+				id: "1B5F70C1D1298405"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:storage_part"
+					}
+				}
+				title: "Any #ironberry:storage_part"
+				type: "item"
+			}]
+			title: "Storage Components"
+			x: -1.75d
+			y: -17.75d
+		}
+		{
+			dependencies: [
+				"6DEDCF6C73525F05"
+				"6F4D48DBB3E17ACB"
+			]
+			hide_dependent_lines: true
+			id: "2FFB48F8A9A5244B"
+			tasks: [{
+				id: "6397F17405B95035"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "ae2:logic_processor"
+			id: "31325C0A44DAA30E"
+			tasks: [
+				{
+					id: "4E671335F04D9071"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "424027064BA60D1C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "3AEEF28CC840659D"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
+			title: "More Processors"
+			x: -1.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["34F72EC6371327BB"]
+			hide: true
+			hide_dependency_lines: false
+			id: "20B66B9EF4922D80"
+			tasks: [{
+				id: "7FA833DA980F91F3"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6914F14F586EAF17"]
+			hide_dependent_lines: true
+			id: "5F7EBAF569E29FD0"
+			tasks: [{
+				id: "38F59A49D5E54537"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3CEBE243D8904E66"
+				"6C347F04FBE58412"
+			]
+			id: "0F1653ABB84DE0E6"
+			tasks: [{
+				id: "057EA637D300CC13"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -16.75d
+		}
+		{
+			dependencies: ["5DFC10247FFDC59A"]
+			hide_dependent_lines: true
+			icon: "ae2:blank_pattern"
+			id: "425EB3904D1E01F4"
+			tasks: [
+				{
+					id: "72E74FBC1C9317A1"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "21EDE8FD74493ED5"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			title: "We have finally Auto-Crafting!"
+			x: -13.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BCC80F2DB27BBE9"]
+			id: "5DFC10247FFDC59A"
+			tasks: [{
+				id: "6B56D7541301E899"
+				item: "ten3:powered_tin_nugget"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"425EB3904D1E01F4"
+				"5F7EBAF569E29FD0"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "29DB51B77C2F189E"
+			tasks: [{
+				id: "171ED034DB20F912"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:housing"
+					}
+				}
+				title: "Any #ironberry:housing"
+				type: "item"
+			}]
+			title: "Cell Housing"
+			x: -8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0A1D7CA4296B464B"]
+			id: "0BCC80F2DB27BBE9"
+			tasks: [
+				{
+					id: "3F108CFF07794AF8"
+					item: "ten3:tin_nugget"
+					type: "item"
+				}
+				{
+					id: "70E16F5A9263D9D6"
+					item: "thermal:enderium_nugget"
+					type: "item"
+				}
+				{
+					id: "5CE99D3C209E9F44"
+					item: "thoriumreactors:molybdenum_nugget"
+					type: "item"
+				}
+				{
+					id: "6603C6A3ABB50D15"
+					item: "kubejs:mini_pellet"
+					type: "item"
+				}
+			]
+			title: "Some special nuggets?"
+			x: -15.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AAC29B806E1DF5B"]
+			icon: "ten3:tin_ingot"
+			id: "0A1D7CA4296B464B"
+			tasks: [
+				{
+					id: "1ABAC31FB26AD490"
+					item: "kubejs:tiny_platinum_dust"
+					type: "item"
+				}
+				{
+					id: "434CC96558335C95"
+					item: "ten3:tin_ingot"
+					type: "item"
+				}
+			]
+			x: -16.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2319B7A1E3795E4C"]
+			hide: true
+			id: "2AAC29B806E1DF5B"
+			tasks: [{
+				id: "5F79324B21BA6572"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:manganese_dustes"
+					}
+				}
+				title: "Any #ironberry:manganese_dustes"
+				type: "item"
+			}]
+			title: "Another one Bites the Dust"
+			x: -17.25d
+			y: -8.0d
 		}
 	]
+	subtitle: ["Theory of Implementation"]
 	title: "Age 6"
 }

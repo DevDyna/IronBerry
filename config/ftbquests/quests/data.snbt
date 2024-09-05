@@ -20,7 +20,7 @@
 		}
 	]
 	emergency_items_cooldown: 30000
-	grid_scale: 0.5d
+	grid_scale: 0.25d
 	icon: "homespun:ironberries"
 	lock_message: ""
 	loot_crate_no_drop: {

@@ -7,6 +7,225 @@
 	id: "4542513EBE6D01BC"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "6FDDE15EB99730EC"
+			tasks: [{
+				id: "786BE1F2D5249FDC"
+				item: "ten3:machine_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "23F25951484DD0E3"
+			tasks: [{
+				id: "0E87A7EE10062E3F"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "0207EA5B40FA3F26"
+			tasks: [{
+				id: "4501BAC1BA83AC58"
+				item: "ten3:machine_refiner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "4326A28648C10C9E"
+			tasks: [{
+				id: "4AC660A714424EDB"
+				item: "kubejs:net"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "26BD9A9ABADA2705"
+			tasks: [{
+				id: "398F84406087BAEF"
+				item: "thermalendergy:melodium_coin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "46CC3EAD2C599568"
+			tasks: [{
+				id: "0EA4AAE3064C6849"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "2C077566C969E2B7"
+			tasks: [{
+				id: "4DF5D17C5A14AE07"
+				item: {
+					Count: 1b
+					id: "ten3:machine_psionicant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "66DE2ACFF007F667"
+			tasks: [{
+				id: "799D5E68FE205C1E"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "6348810343C18A40"
+			tasks: [{
+				id: "5C92A6E5B1359699"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "128E03D2EF42216F"
+			tasks: [{
+				id: "5E875788A35300CE"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7B0A171825D37A8D"
+			tasks: [{
+				id: "4D956633A6D2D24A"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "4A8B8A9325922D05"
+			tasks: [{
+				id: "3BB3D55C873385B9"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "228683E139E7C819"
+			tasks: [{
+				id: "415540ECEC78BCBA"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "0592D94FE5ECFC74"
+			tasks: [{
+				id: "240D96BA5277C96A"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "6D22F5E6A3EA85E8"
+			tasks: [{
+				id: "7D3F0F209CF92D1D"
+				item: "ten3:machine_matter_condenser"
+				type: "item"
+			}]
+			title: "Like UU-matter"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "7EA7F280C5CA268E"
+			tasks: [{
+				id: "170AD53858B817B5"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "20F3B55056E21F5E"
+			tasks: [{
+				id: "21AF86924058752B"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "378525760E332AE4"
+			tasks: [{
+				id: "67ACB05B700BB26E"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "3D6441A38F368100"
+			tasks: [{
+				id: "47D3D9523075378A"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EA7F280C5CA268E"]
+			id: "2A9B7327A5375549"
+			tasks: [{
+				id: "30B90DD7CAF89F94"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7EA7F280C5CA268E"]
+			id: "7687425CB113909B"
+			tasks: [{
+				id: "299F2D015BF0042E"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Everything need to end"]
 	title: "Age 7"
 }

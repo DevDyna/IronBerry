@@ -6642,24 +6642,25 @@
 			dependencies: ["63530FEA1B294B96"]
 			hide: true
 			hide_dependent_lines: true
+			icon: "integrateddynamics:crystalized_menril_chunk"
 			id: "2945A2E25BD04276"
 			rewards: [{
 				id: "6D189F0B1FB11CC9"
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "6798165D1C52F883"
-					item: "integrateddynamics:crystalized_menril_chunk"
-					type: "item"
+			tasks: [{
+				id: "6798165D1C52F883"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ironberry:bundled"
+					}
 				}
-				{
-					id: "4D85AAD07367EE20"
-					item: "integrateddynamics:crystalized_chorus_chunk"
-					type: "item"
-				}
-			]
+				title: "Any #ironberry:bundled"
+				type: "item"
+			}]
 			title: "Crystallized Chunks"
 			x: -2.0d
 			y: -13.0d

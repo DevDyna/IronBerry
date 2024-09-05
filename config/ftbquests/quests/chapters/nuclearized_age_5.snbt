@@ -1987,6 +1987,22 @@
 			x: 8.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["05A163CA0B85418B"]
+			id: "2319B7A1E3795E4C"
+			rewards: [{
+				id: "427F990410470AEB"
+				item: "thermal:lead_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0443A536154C6F7D"
+				item: "thoriumreactors:manganese_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	subtitle: ["Nuclearize my recipes"]
 	title: "Age 5"

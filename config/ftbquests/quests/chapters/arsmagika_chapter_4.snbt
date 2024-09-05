@@ -884,6 +884,7 @@
 		}
 		{
 			dependencies: ["589E1908B016B84F"]
+			icon: "ars_nouveau:enchanting_apparatus"
 			id: "5856ACD8338DB76C"
 			rewards: [{
 				id: "0B64D5CD6A7B7088"
@@ -1072,6 +1073,11 @@
 				"Example raw iron recipes"
 			]
 			hide: true
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:assembly_drill"
+				tag: { }
+			}
 			id: "7EABBDB739B99D38"
 			rewards: [{
 				id: "175ED3B8A4E5EA98"
@@ -1236,6 +1242,7 @@
 		{
 			dependencies: ["06A9AD200AD93BEC"]
 			hide_dependent_lines: true
+			icon: "pneumaticcraft:manual_compressor"
 			id: "60B38F9E4BC71FF6"
 			rewards: [
 				{
@@ -1430,6 +1437,7 @@
 		{
 			dependencies: ["19B6C89234831909"]
 			hide: true
+			icon: "pneumaticcraft:etching_acid_bucket"
 			id: "0A73E58829467953"
 			optional: true
 			rewards: [{
@@ -1602,6 +1610,7 @@
 		{
 			dependencies: ["1207A752F22ACCF3"]
 			hide: true
+			icon: "pneumaticcraft:regulator_tube_module"
 			id: "49EF230160C853BD"
 			rewards: [{
 				id: "3C10F9A8204185FA"
@@ -1620,6 +1629,7 @@
 				title: "Any #ironberry:pnc_modules"
 				type: "item"
 			}]
+			title: "More complex way"
 			x: -7.0d
 			y: -3.0d
 		}
@@ -2032,6 +2042,7 @@
 		{
 			dependencies: ["6241AF156E12230C"]
 			hide: true
+			icon: "ars_nouveau:ritual_flight"
 			id: "02940E3E691B83B9"
 			rewards: [{
 				id: "22D440036C017A4D"
@@ -2050,6 +2061,7 @@
 				title: "Any #ironberry:ritual_tablets"
 				type: "item"
 			}]
+			title: "Fancy Rituals"
 			x: 2.0d
 			y: -14.0d
 		}
@@ -2115,6 +2127,7 @@
 		{
 			dependencies: ["37A4995447CCBD53"]
 			hide: true
+			icon: "quark:purple_rune"
 			id: "3E859B66E205E1E1"
 			rewards: [{
 				id: "58B8E1B0C1DBEBF6"
