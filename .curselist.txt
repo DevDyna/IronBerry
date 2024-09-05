@@ -101,6 +101,7 @@ Mod used:
 -konkrete_forge_1.8.0_MC_1.19-1.19.2.jar 
 -kotlinforforge-3.12.0-all.jar 
 -kubejs-forge-1902.6.2-build.73.jar 
+-kubejs-thermal-1902.1.9-build.16.jar 
 -kubejsadditions-forge-3.2.2.jar 
 -laboratoryblocks-1.19.2-0.3.2r-ctm-required.jar 
 -LegendaryTooltips-1.19.2-forge-1.4.0.jar 
@@ -187,7 +188,7 @@ Mod used:
 -u_team_core-forge-1.19.2-4.4.3.310.jar 
 -worldplaytime-1.2.2-1.19.2-FORGE.jar 
 # 
-# 179 files 
+# 180 files 
 # 
 ResourcePack used: 
 better-nature.zip 
