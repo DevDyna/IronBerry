@@ -50,4 +50,6 @@ ServerEvents.recipes((event) => {
   );
 
   manu("thoriumreactors:blasted_stone", "ae2:sky_dust", 2);
+  manu('thermal:silver_ingot', 'thermal:silver_dust',1)
+  manu('bluepower:silicon_boule', 'bluepower:silicon_wafer',16)
 });

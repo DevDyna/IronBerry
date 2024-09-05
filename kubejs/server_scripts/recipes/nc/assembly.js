@@ -1,13 +1,13 @@
 ServerEvents.recipes((event) => {
   function assembly(input_item, input_count, item_out, count) {
-    
-      let ingredient = [];
-      input_item.forEach((element, index) => {
-        ingredient.push(ItemOrTagAndCount(element, input_count[index]));
-      });
-      let output = [];
-      output.push(ItemAndCount(item_out, count));
-      if (input_count.length == 6) {
+    let ingredient = [];
+    input_item.forEach((element, index) => {
+      ingredient.push(ItemOrTagAndCount(element, input_count[index]));
+    });
+    let output = [];
+    output.push(ItemAndCount(item_out, count));
+
+    if (input_count.length == 6) {
       event
         .custom({
           type: "nuclearcraft:assembler",
@@ -20,9 +20,9 @@ ServerEvents.recipes((event) => {
         .id(RegX(input_item + "_" + item_out, "_"));
     } else {
       //
-      // THIS WAS CAUSED BY NC:N TO FIX A DUPLICATION BUG
+      // THIS WAS TO FIX A DUPLICATION BUG , THANKS NC:N !
       //
-      ingredient.push(ItemAndCount('kubejs:stone_plate',1))
+      ingredient.push(ItemAndCount("kubejs:stone_plate", 1));
       event
         .custom({
           type: "bluepower:alloy_smelting",
@@ -704,7 +704,16 @@ ServerEvents.recipes((event) => {
     1
   );
 
-tiny_assembly(['minecraft:stone','minecraft:cobblestone','minecraft:granite','minecraft:diorite','minecraft:andesite','minecraft:smooth_stone'],'kubejs:stone_plate',6)
-
-
+  tiny_assembly(
+    [
+      "minecraft:stone",
+      "minecraft:cobblestone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:smooth_stone",
+    ],
+    "kubejs:stone_plate",
+    6
+  );
 });

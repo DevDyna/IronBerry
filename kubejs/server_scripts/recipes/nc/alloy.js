@@ -6,11 +6,11 @@ ServerEvents.recipes((event) => {
         input: [
           {
             item: item_a,
-            count: 1,   // DONT WORK ITEM COUNT
+            count: 1, // DONT WORK ITEM COUNT
           },
           {
             item: item_b,
-            count: 1,   // DONT WORK ITEM COUNT
+            count: 1, // DONT WORK ITEM COUNT
           },
         ],
         output: [
@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
     2
   );
 
-  function alloyers(input, output, count) {
+  function coal_alloyers(input, output, count) {
     alloy("inventorypets:nugget_coal", input, output, count);
   }
 
@@ -203,8 +203,72 @@ ServerEvents.recipes((event) => {
   //   1
   // );
 
-  alloyers("kubejs:crude_invar", "thermal:invar_ingot", 2);
-  alloyers("kubejs:crude_bronze", "mekanism:ingot_bronze", 2);
-  alloyers("kubejs:crude_black_iron", "extendedcrafting:black_iron_ingot", 1);
-  //alloyers("kubejs:crude_tungsten_carbide", "bluepower:tungsten_carbide", 2);
+  coal_alloyers("kubejs:crude_invar", "thermal:invar_ingot", 2);
+  coal_alloyers("kubejs:crude_bronze", "mekanism:ingot_bronze", 2);
+  coal_alloyers(
+    "kubejs:crude_black_iron",
+    "extendedcrafting:black_iron_ingot",
+    1
+  );
+  //coal_alloyers("kubejs:crude_tungsten_carbide", "bluepower:tungsten_carbide", 2);
+  alloy("minecraft:sand", "minecraft:coal", "bluepower:silicon_boule", 1);
+
+  alloy(
+    "minecraft:iron_ingot",
+    "bluepower:teslatite_dust",
+    "bluepower:blue_alloy_ingot",
+    1
+  );
+  alloy(
+    "minecraft:iron_ingot",
+    "minecraft:redstone",
+    "bluepower:red_alloy_ingot",
+    1
+  );
+  alloy(
+    "thermal:silver_ingot",
+    "bluepower:teslatite_dust",
+    "bluepower:blue_alloy_ingot",
+    1
+  );
+  alloy(
+    "minecraft:copper_ingot",
+    "minecraft:redstone",
+    "bluepower:red_alloy_ingot",
+    1
+  );
+
+  alloy(
+    "bluepower:silicon_wafer",
+    "bluepower:teslatite_dust",
+    "bluepower:blue_doped_wafer",
+    1
+  );
+  alloy(
+    "bluepower:silicon_wafer",
+    "minecraft:redstone",
+    "bluepower:red_doped_wafer",
+    1
+  );
+
+  alloy(
+    "bluepower:blue_alloy_ingot",
+    "bluepower:red_alloy_ingot",
+    "bluepower:purple_alloy_ingot",
+    2
+  );
+
+  alloy(
+    "twilightforest:knightmetal_ingot",
+    "twilightforest:ironwood_ingot",
+    "kubejs:pre_compressed",
+    4
+  );
+  alloy("minecraft:copper_ingot", "create:zinc_ingot", "create:brass_ingot", 4);
+  alloy(
+    "kubejs:patina",
+    "hostilenetworks:twilight_prediction",
+    "hostilenetworks:empty_prediction",
+    4
+  );
 });

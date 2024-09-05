@@ -1588,13 +1588,35 @@ ServerEvents.recipes((event) => {
     );
   });
 
+  less(
+    ["#minecraft:signs", "farmersdelight:canvas"],
+    "farmersdelight:canvas_sign"
+  );
 
-less(['#minecraft:signs','farmersdelight:canvas'],'farmersdelight:canvas_sign')
+  less(
+    ["goldenhopper:golden_hopper", "minecraft:copper_ingot"],
+    "essentials:sorting_hopper"
+  );
+  less(
+    ["goldenhopper:golden_hopper", "minecraft:gold_ingot"],
+    "essentials:speed_hopper"
+  );
 
-less(['goldenhopper:golden_hopper','minecraft:copper_ingot'],'essentials:sorting_hopper')
-less(['goldenhopper:golden_hopper','minecraft:gold_ingot'],'essentials:speed_hopper')
+  less(
+    ["#ironberry:wrench_fix", "bluepower:battery_block", "kubejs:stone_plate"],
+    "mekanism:configurator"
+  );
 
-less(["#ironberry:wrench_fix", "bluepower:battery_block",'kubejs:stone_plate'],   "mekanism:configurator")
+  less(
+    ["ae2:quantum_entangled_singularity"],
+    "ae2:quantum_entangled_singularity"
+  );
 
+  event
+    .shapeless("4x ars_nouveau:greater_experience_gem", [
+      "ten3:liquid_xp_bucket",
+    ])
+    .replaceIngredient({ item: "ten3:liquid_xp_bucket" }, "minecraft:bucket");
 
+  nine_to_one("thermal:silver_nugget", "thermal:silver_ingot");
 });
