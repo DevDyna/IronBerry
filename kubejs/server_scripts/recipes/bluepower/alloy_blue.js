@@ -10,15 +10,11 @@ ServerEvents.recipes((event) => {
     if (inputs_name.length <= 2) {
       let list = [];
       inputs_name.forEach((element, index) => {
-        if(element.charAt(0) === "#"){
-          
-          Ingredient.of(element).getItemIds().forEach(e=>{
-            list.push([Item.of(e, inputs_count[index])]);
-          })
-          
-
-        }else
-        list.push([Item.of(element, inputs_count[index])]);
+        if (element.charAt(0) === "#") {
+          list.push(inputs_count[index] + "x " + element);
+        } else {
+          list.push(Item.of(element, inputs_count[index]));
+        }
       });
 
       data.recipes.induction.push([list, output_name, output_count]);
