@@ -1,5 +1,7 @@
+//priority 1
 ServerEvents.recipes((event) => {
   function alloy(item_a, item_b, output, outcount) {
+    data.recipes.induction.push([[item_a, item_b], output, outcount])
     event
       .custom({
         type: "nuclearcraft:alloy_smelter",
