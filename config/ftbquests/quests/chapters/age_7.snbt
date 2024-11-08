@@ -5,6 +5,18 @@
 	group: "0AB07CEFAAABA228"
 	icon: "extendedcrafting:ultimate_singularity"
 	id: "4542513EBE6D01BC"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: [ ]
+		image: "twilightforest:block/hollow_oak_sapling"
+		rotation: 0.0d
+		width: 4.0d
+		x: -9.75d
+		y: -0.25d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -45,8 +57,8 @@
 				item: "kubejs:net"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -7.75d
+			y: -2.0d
 		}
 		{
 			id: "26BD9A9ABADA2705"
@@ -170,8 +182,8 @@
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -9.75d
+			y: 1.0d
 		}
 		{
 			id: "20F3B55056E21F5E"
@@ -211,8 +223,8 @@
 				item: "thermal:machine_centrifuge"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -5.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7EA7F280C5CA268E"]
@@ -222,8 +234,8 @@
 				item: "thermal:machine_refinery"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -5.75d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Everything need to end"]
