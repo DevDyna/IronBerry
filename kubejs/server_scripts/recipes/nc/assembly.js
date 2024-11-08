@@ -692,7 +692,7 @@ ServerEvents.recipes((event) => {
 
   assembly(
     [
-      "thermalendergy:melodium_coin",
+      'thermal:enderium_coin',
       "mekanismgenerators:gas_burning_generator",
       "ae2:controller",
       "arseng:source_acceptor",
