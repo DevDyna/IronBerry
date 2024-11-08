@@ -48,10 +48,10 @@ ServerEvents.recipes((event) => {
 
   event.recipes.thermal.refinery(
     [
-      Fluid.of("nuclearcraft:boron_arsenide_solution", 500),
-      Fluid.of("nuclearcraft:boron_nitride_solution", 500),
+      Fluid.of("nuclearcraft:boron_arsenide_solution", 1),
+      Fluid.of("nuclearcraft:boron_nitride_solution", 1),
     ],
-    Fluid.of("nuclearcraft:boric_acid", 1000)
+    Fluid.of("nuclearcraft:boric_acid", 2)
   );
   data.recipes.chiller.forEach((e) => {
     event.recipes.thermal.chiller(e[2], [Fluid.of(e[0], e[1]), e[3]]);
@@ -72,7 +72,7 @@ ServerEvents.recipes((event) => {
   data.recipes.refinery.forEach((e) => {
     let list = [];
     e[2].forEach((b, i) => {
-      list.push([Fluid.of(b, e[3][i])]);
+      list.push(Fluid.of(b, e[3][i]));
     });
     event.recipes.thermal.refinery(list, [Fluid.of(e[0], e[1])]);
   });
@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
   );
 
   event.recipes.thermal.bottler(
-    ["nuclearcraft:plate_basic"],
+    ["8x nuclearcraft:plate_basic"],
     ["kubejs:silicon_plated", Fluid.of("kubejs:liquid_silicon", 20)]
   );
 
@@ -129,5 +129,40 @@ ServerEvents.recipes((event) => {
       "nuclearcraft:empty_sink",
       "nuclearcraft:bioplastic",
     ]
+  );
+
+  event.recipes.thermal.pyrolyzer(
+    [Fluid.of("pneumaticcraft:vegetable_oil", 100)],
+    ["#ironberry:vegetable_oil_source"]
+  );
+
+  event.recipes.thermal.insolator(
+    [
+      Item.of("kubejs:bee_queen").withChance(0.95),
+      Item.of("kubejs:bee_drone").withChance(0.5),
+      Item.of("kubejs:beewax").withChance(0.25),
+    ],
+    ["kubejs:bee_queen"]
+  );
+  event.recipes.thermal.insolator_catalyst(
+    "#ironberry:vegetable_oil_source",
+    1,
+    2.5,
+    2,
+    0.5,
+    0.5
+  );
+
+  event.recipes.thermal.bottler(
+    ["kubejs:bee_unknown"],
+    [Fluid.of("pneumaticcraft:vegetable_oil", 50), "kubejs:bee_drone"]
+  );
+
+  event.recipes.thermal.sawmill(
+    [
+      Item.of("kubejs:bee_drone").withChance(0.85),
+      Item.of("kubejs:bee_queen").withChance(0.05),
+    ],
+    ["kubejs:bee_unknown"]
   );
 });
