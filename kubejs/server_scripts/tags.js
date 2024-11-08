@@ -1337,6 +1337,7 @@ ServerEvents.tags("item", (event) => {
 
   event.add('ironberry:manganese_dustes',['thoriumreactors:sodium', 'thoriumreactors:potassium', 'thoriumreactors:uran_three_chloride'])
 
+event.add('ironberry:vegetable_oil_source',['kubejs:floreal_bone_meal', 'tombstone:bag_of_seeds'])
 
 });
 
