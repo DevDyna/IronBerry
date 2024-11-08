@@ -53,4 +53,6 @@ ServerEvents.recipes((event) => {
 
   melter('homespun:salt', 'thoriumreactors:molten_salt',250)
 
+  melter('nuclearcraft:boron_arsenide_dust', 'nuclearcraft:boron_arsenide',250)
+
 });
