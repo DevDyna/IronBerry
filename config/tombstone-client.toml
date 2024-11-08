@@ -47,9 +47,6 @@
 	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:LOW]
 	#Allowed Values: NONE, LOW, NORMAL, HIGH
 	fog_density = "LOW"
-	#Period where graves produce fog [DAY/NIGHT/BOTH|default:NIGHT]
-	#Allowed Values: DAY, NIGHT, BOTH, NEVER
-	fog_period = "NIGHT"
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
 	favorite_grave = "GRAVE_SIMPLE"
@@ -59,9 +56,6 @@
 	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
 	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS
 	grave_skin_rule = "DEFAULT"
-	#Defines your grave placement logic (nearest or ideal placement) [SAFEST/NORMAL/NEAREST|default:NORMAL]
-	#Allowed Values: SAFEST, NORMAL, NEAREST
-	grave_spawn_rule = "NORMAL"
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
 	auto_equip_rule = "ALWAYS"
@@ -77,4 +71,8 @@
 	no_blinking_nightvision = true
 	#Allows the ghost to appear around you during Halloween [false/true|default:true]
 	enable_halloween_ghost = true
+	#Equips shield in priority when recovering your lost items [false/true|default:false]
+	equip_shield_in_priority = false
+	#Sorts the inventory by filling the last slots first [false/true|default:false]
+	reverse_inventory_sorting = false
 
