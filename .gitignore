@@ -223,3 +223,4 @@ config/fancymenu/custom_gui_screens.txt
 config/fancymenu/customizablemenus.txt
 config/fancymenu/legacy_checklist.txt
 config/fancymenu/user_variables.db
+config/flib.toml
