@@ -312,6 +312,14 @@ StartupEvents.registry("item", (event) => {
 
   event.create("bee_queen").parentModel("ironberry:item/bee/queen");
 
+  event
+    .create("bee_unknown")
+    .color(0, 0xEDC343)
+    .color(1,0x43241B)
+    .texture("layer0", "item/spawn_egg")
+    .texture("layer1", "item/spawn_egg_overlay")
+    .texture("layer2", "ironberry:item/unknown");
+
   event.create("beewax").texture("ironberry:item/beewax");
 
   event
@@ -323,7 +331,7 @@ StartupEvents.registry("item", (event) => {
         layer0: "thermal:item/augments/creative_augment_base",
         layer1: "thermal:item/gold_coin_4",
       },
-    }); //give @p kubejs:lucky{AugmentData:{MachineSec:0.4,MachineEnergy:2.5}}
+    }); //give @p kubejs:lucky{AugmentData:{MachineSec:0.4,MachineEnergy:1.5}}
 
   event
     .create("sonic")
@@ -357,7 +365,7 @@ StartupEvents.registry("item", (event) => {
         layer1: "thermaloot:item/shell",
         layer2: "thermaloot:item/cell",
       },
-    }); //give @p kubejs:scale{AugmentData:{BaseMod:16,MachineEnergy:1.5}}
+    }); //give @p kubejs:scale{AugmentData:{BaseMod:32,MachineEnergy:1.5}}
 
   event.create("augment_base").texture("thermal:item/augments/augment_base");
 
@@ -365,7 +373,11 @@ StartupEvents.registry("item", (event) => {
     .create("creative_augment_base")
     .texture("thermal:item/augments/creative_augment_base");
 
-  event.create("stone_plate").texture("ironberry:item/stone_plate");
+  event
+    .create("stone_plate")
+    .texture("ironberry:item/stone_plate")
+    .displayName("Stele of my patience")
+    .tooltip("Dedicated at all §acomplelty broken mods");
 
   event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0x91afae);
 
