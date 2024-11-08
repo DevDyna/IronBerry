@@ -29,6 +29,8 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'mekanism:processing/bronze/ingot/from_block',
+    'mekanism:steel_casing',
     'bluepower:furnace/tungsten_ingot_from_tungsten_dust',
     "bluepower:blast_furnace/tungsten_ingot",
     "mekanism:processing/bronze/ingot/from_dust_blasting",
