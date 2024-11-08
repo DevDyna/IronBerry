@@ -2867,6 +2867,7 @@
 				item: "supplementaries:ash"
 				type: "item"
 			}]
+			title: "Burn baby , burn!"
 			x: -9.0d
 			y: -9.0d
 		}
