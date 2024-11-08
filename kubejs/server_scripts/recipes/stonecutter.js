@@ -605,4 +605,25 @@ ServerEvents.recipes((event) => {
       "twilightforest:nagastone",
     ]
   );
+
+  scut(
+    [
+      "thermal:machine_brewer",
+      "thermal:machine_bottler",
+      "thermal:machine_centrifuge",
+      "thermal:machine_press",
+      "thermal:machine_insolator",
+      "thermal:machine_crystallizer",
+      "thermal:machine_pyrolyzer",
+      "thermal:machine_smelter",
+      "thermal:machine_pulverizer",
+      "thermal:machine_crucible",
+      "thermal:machine_crafter",
+      "thermal:machine_refinery",
+      "thermal:machine_furnace",
+      "thermal:machine_sawmill",
+      "thermal:machine_chiller",
+    ],
+    ["thermal:machine_frame", "#thermal:machines"]
+  );
 });
