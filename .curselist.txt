@@ -172,7 +172,6 @@ Mod used:
 -supermartijn642corelib-1.1.17a-forge-mc1.19.2.jar 
 -supplementaries-1.19.2-2.4.20.jar 
 -TechnicalEngineering-19.22a.jar 
--thermalendergy-1.19.2-3.0.2-all.jar 
 -thermaloot-1.19.2-2.3.0.jar 
 -thermal_cultivation-1.19.2-10.3.0.19.jar 
 -thermal_dynamics-1.19.2-10.3.0.20.jar 
@@ -190,7 +189,7 @@ Mod used:
 -u_team_core-forge-1.19.2-4.4.3.324.jar 
 -worldplaytime-1.2.2-1.19.2-FORGE.jar 
 # 
-# 182 files 
+# 181 files 
 # 
 ResourcePack used: 
 better-nature.zip 
