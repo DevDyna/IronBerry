@@ -126,19 +126,25 @@ JEIEvents.addItems((event) => {
       '{block:"minecraft:stone",display:{Name:\'{"extra":[{"text":" "},{"translate":"block.bluepower.cover"}],"translate":"block.minecraft.stone"}\'}}'
     ),
 
-    Item.of("kubejs:scale", "{AugmentData:{BaseMod:16,MachineEnergy:1.5d}}"),
-    Item.of("kubejs:powah", "{AugmentData:{RFMax:1250,RFXfer:32000}}"),
-    Item.of("kubejs:sonic", "{AugmentData:{MachineEnergy:10,MachinePower:49}}"),
-    Item.of(
-      "kubejs:lucky",
-      "{AugmentData:{MachineEnergy:2.5d,MachineSec:0.4d}}"
-    ),
+    // Item.of("kubejs:scale", "{AugmentData:{BaseMod:32,MachineEnergy:1.5d}}"),
+    // Item.of("kubejs:powah", "{AugmentData:{RFMax:1250,RFXfer:32000}}"),
+    // Item.of("kubejs:sonic", "{AugmentData:{MachineEnergy:10,MachinePower:49}}"),
+    // Item.of(
+    //   "kubejs:lucky",
+    //   "{AugmentData:{MachineEnergy:1.5d,MachineSec:0.4d}}"
+    // ),
   ];
   list.forEach((element) => {
     event.add(element.strongNBT());
   });
 });
 
-JEIEvents.removeCategories(event=>{
-event.remove(['nuclearcraft:mek_chemical_to_fluid','ae2:attunement','ae2:certus_growth','pneumaticcraft:plastic_solidifying','pneumaticcraft:yeast_crafting'])
-})
+JEIEvents.removeCategories((event) => {
+  event.remove([
+    "nuclearcraft:mek_chemical_to_fluid",
+    "ae2:attunement",
+    "ae2:certus_growth",
+    "pneumaticcraft:plastic_solidifying",
+    "pneumaticcraft:yeast_crafting",
+  ]);
+});
