@@ -58,8 +58,8 @@ BlockEvents.rightClicked("integrateddynamics:menril_wood", (event) => {
   }
 });
 //############################### pedestal break shortcut ##########################//
-BlockEvents.rightClicked("pedestals:block_pedestal", (event) => {
-  if (event.item.hasTag("forge:tools/pickaxes")) {
+BlockEvents.rightClicked( (event) => {
+  if (event.item.hasTag("forge:tools/pickaxes") && event.block.hasTag('ironberry:pedestals')) {
     if (event.item.getMaxDamage() == event.item.getDamageValue()) {
       event.player.inventory.extractItem(
         event.player.inventory.find(event.item.id),
