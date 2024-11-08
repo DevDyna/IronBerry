@@ -47,7 +47,7 @@ smart_reaction(['thoriumreactors:steam','mekanism:steam'],['kubejs:exosteam'])
 reaction(["minecraft:milk",'nuclearcraft:milk_chocolate'],[250,144],["create:chocolate","nuclearcraft:unsweetened_chocolate"],[288,144])
 reaction(['kubejs:crude_plastic','nuclearcraft:nitrogen'],[10,9],['pneumaticcraft:plastic'],[1000])
 
+reaction(['nuclearcraft:boron_arsenide','biomancy:acid'],[250,50],['nuclearcraft:boron_arsenide_solution'],[250])
 
-
-
+reaction(['pneumaticcraft:etching_acid','nuclearcraft:boron_arsenide_solution'],[250,250],['biomancy:acid','nuclearcraft:boron_arsenide_solution'],[750,250])
 })
