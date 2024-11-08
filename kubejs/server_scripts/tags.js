@@ -1341,6 +1341,9 @@ ServerEvents.tags("item", (event) => {
 });
 
 ServerEvents.tags("block", (event) => {
+
+event.add('ironberry:pedestals',['pedestals:block_goblinstatue_pedestal', 'pedestals:block_catstatue_pedestal', 'pedestals:block_ratstatue_pedestal', 'pedestals:block_pedestal'])
+
   event.removeAllTagsFrom("ten3:tin_block");
 
   event.add("ironberry:egg_blacklist", [
