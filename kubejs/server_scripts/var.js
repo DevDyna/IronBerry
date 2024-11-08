@@ -20,7 +20,15 @@ const data = {
         music_discs:[]
     },
     recipes:{
-        induction:[]
+        induction:[],
+        pulverizer:[],
+        centrifuge:[],
+        chiller:[],
+        crucible:[],
+        refinery:[],
+        bottler:[],
+        brewer:[],
+        pyrolizer:[],
     }
 
 }
