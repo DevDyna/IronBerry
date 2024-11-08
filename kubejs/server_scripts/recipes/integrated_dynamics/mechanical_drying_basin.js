@@ -207,5 +207,18 @@ ServerEvents.recipes(event => {
             "item": 'minecraft:mud'
         }
     })
-	
+
+	event.custom({
+        "type": "integrateddynamics:mechanical_drying_basin",
+        "item": 'minecraft:basalt',
+        "fluid": {
+            "fluid": "minecraft:lava",
+            "amount": 5
+        },
+        "duration": 10,
+        "result": {
+            "item": 'bluepower:basalt_cobble'
+        }
+    })
+
 })
