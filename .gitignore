@@ -224,3 +224,10 @@ config/fancymenu/customizablemenus.txt
 config/fancymenu/legacy_checklist.txt
 config/fancymenu/user_variables.db
 config/flib.toml
+config/tombstone/version.info
+config/tombstone/loottables/tombstone-pool-undead_mob.json
+config/tombstone/loottables/tombstone-pool-undead_boss.json
+config/tombstone/loottables/tombstone-pool-seeker_rod.json
+config/tombstone/loottables/tombstone-pool-lost_treasure.json
+config/tombstone/loottables/tombstone-pool-cat_morning.json
+config/tombstone/loottables/tombstone-pool-chest_treasure.json
