@@ -1,3 +1,4 @@
+//priority 1
 ServerEvents.recipes((event) => {
   function assembly(input_item, input_count, item_out, count) {
     let ingredient = [];

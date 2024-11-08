@@ -1,6 +1,10 @@
+//priority 1
 ServerEvents.recipes(event => {
 
 function reprocessor(item_in,icount,item_out,ocount){
+  if(item_in != 'kubejs:lupenio')
+  data.recipes.centrifuge.push([item_in,icount,item_out,ocount])
+
   let result = []
   item_out.forEach((element, index) => {
     result.push(ItemAndCount(element, ocount[index]))

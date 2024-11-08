@@ -1,5 +1,6 @@
 ServerEvents.recipes((event) => {
   function crusher(item_in, icount, item_out, ocount) {
+    data.recipes.pulverizer.push([item_in, item_out, ocount])
     let result = [];
     item_out.forEach((element, index) => {
       result.push(ItemAndCount(element, ocount[index]));

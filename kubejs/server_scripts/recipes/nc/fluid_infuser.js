@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
     function infuse(item,fluid,amount,output,count){
+      data.recipes.bottler.push([item,fluid,amount,output,count])
     event.custom({
         "type": "nuclearcraft:fluid_infuser",
         "input": [

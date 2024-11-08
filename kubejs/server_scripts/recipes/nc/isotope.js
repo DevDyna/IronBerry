@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
   function separator(input,inputcount,outlist,countlist){
+    data.recipes.centrifuge.push([input,inputcount,outlist,countlist])
     let result = []
     outlist.forEach((element, index) => {
       result.push(ItemOrTagAndCount(element, countlist[index]))

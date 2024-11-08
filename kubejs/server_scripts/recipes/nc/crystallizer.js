@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     function crystallize(fluid,amount,item){
+      data.recipes.chiller.push([fluid,amount,item,'thermal:chiller_ball_cast'])
         event.custom({
   "type": "nuclearcraft:crystallizer",
   "inputFluids": [

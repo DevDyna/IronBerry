@@ -1,5 +1,7 @@
+//priority 1
 ServerEvents.recipes((event) => {
   function manu(input, out, count) {
+    data.recipes.pulverizer.push([input, [out], [count]])
     event.custom({
       type: "nuclearcraft:manufactory",
       input: [

@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
     function enrich(item,fluid,amount,output,count){
+      data.recipes.brewer.push([item,fluid,amount,output,count])
     event.custom({
     "type": "nuclearcraft:fluid_enricher",
     "input": [

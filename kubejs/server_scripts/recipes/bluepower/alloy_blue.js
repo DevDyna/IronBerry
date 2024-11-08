@@ -6,6 +6,23 @@ ServerEvents.recipes((event) => {
   /*----------------------------------------------------------------------------------------------*/
   function alloy(inputs_name, inputs_count, output_name, output_count) {
     let ingredients = [];
+    //[[item_a, item_b], output, outcount]
+    if (inputs_name.length <= 2) {
+      let list = [];
+      inputs_name.forEach((element, index) => {
+        if(element.charAt(0) === "#"){
+          
+          Ingredient.of(element).getItemIds().forEach(e=>{
+            list.push([Item.of(e, inputs_count[index])]);
+          })
+          
+
+        }else
+        list.push([Item.of(element, inputs_count[index])]);
+      });
+
+      data.recipes.induction.push([list, output_name, output_count]);
+    }
 
     for (let i = 0; i < inputs_name.length; i++) {
       ingredients.push(ItemOrTagAndCount(inputs_name[i], inputs_count[i]));

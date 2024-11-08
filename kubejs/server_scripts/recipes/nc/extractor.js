@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
     function extractor(input,output,out_count,fluid,amount){
+      data.recipes.pyrolizer.push([input,output,out_count,fluid,amount])
         event.custom({
           "type": "nuclearcraft:extractor",
           "input": [

@@ -1,5 +1,6 @@
 ServerEvents.recipes((event) => {
   function melter(input, output, count) {
+    data.recipes.crucible.push([input,output,count])
     event.custom({
       type: "nuclearcraft:melter",
       input: [

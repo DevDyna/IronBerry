@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
   function electro(input,count,out_fluid,out_amount){
+    data.recipes.refinery.push([input,count,out_fluid,out_amount])
     let output = []
     out_fluid.forEach((element, index) => {
       output.push(FluidAndCount(element, out_amount[index]))

@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
     function former(fluid,amount,output){
+      data.recipes.chiller.push([fluid,amount,output,'thermal:chiller_ingot_cast'])
         event.custom({
           "type": "nuclearcraft:ingot_former",
           "inputFluids": [
