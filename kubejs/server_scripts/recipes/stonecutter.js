@@ -626,4 +626,9 @@ ServerEvents.recipes((event) => {
     ],
     ["thermal:machine_frame", "#thermal:machines"]
   );
+
+  scut(
+    ["twilightforest:raven_feather", "minecraft:feather"],
+    ["twilightforest:raven_feather", "minecraft:feather"]
+  );
 });
