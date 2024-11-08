@@ -15,7 +15,7 @@ StartupEvents.registry("item", (event) => {
     //.displayName("Rose")
     .glow(true);
 
-  event.create("lore").texture("ironberry:item/lore").displayName("The LORE");
+  //event.create("lore").texture("ironberry:item/lore").displayName("The LORE");
 
   event.create("raw_plastic").texture("ironberry:item/raw_plastic");
   //.displayName("Raw Plastic");
@@ -367,7 +367,7 @@ StartupEvents.registry("item", (event) => {
 
   event.create("stone_plate").texture("ironberry:item/stone_plate");
 
-  event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0x91AFAE);
+  event.create("crude_invar").texture("mekanism:item/ingot").color(0, 0x91afae);
 
   event
     .create("crude_bronze")
@@ -379,4 +379,30 @@ StartupEvents.registry("item", (event) => {
     .texture("mekanism:item/ingot")
     .color(0, 0x4e4e4e);
 
+  event
+    .create("ironberry_final_cake")
+    .texture("ironberry:item/cake/done")
+    .food((f) => {
+      f.alwaysEdible();
+      f.hunger(90);
+      f.saturation(90);
+    });
+  event
+    .create("ironberry_final_cake_base")
+    .texture("ironberry:item/cake/base")
+    .food((f) => {
+      f.effect("minecraft:hunger", 40, 2, 0.8);
+    });
+  event
+    .create("magical_cherry")
+    .texture("ironberry:item/cake/cherry")
+    .glow(true)
+    .food((f) => {
+      f.alwaysEdible();
+      f.hunger(1);
+      f.saturation(1);
+      f.effect("minecraft:speed", 120, 1, 1);
+      f.effect("minecraft:glowing", 120, 1, 1);
+      f.effect("ars_nouveau:blasting", 20, 2, 0.2);
+    });
 });
