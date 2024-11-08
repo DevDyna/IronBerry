@@ -18,6 +18,9 @@ const data = {
     item: {
         tablet: [],
         music_discs:[]
+    },
+    recipes:{
+        induction:[]
     }
 
 }
