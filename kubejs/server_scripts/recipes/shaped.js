@@ -526,7 +526,7 @@ ServerEvents.recipes((event) => {
       "ars_nouveau:mob_jar",
       "kubejs:miniboss_trophy",
       "kubejs:aquamarine",
-      "kubejs:machine_frame",
+      "kubejs:goth_machine_frame",
       "kubejs:jade",
       "kubejs:miniboss_trophy",
       "thermaloot:variable_capacitor",
@@ -546,7 +546,7 @@ ServerEvents.recipes((event) => {
       "twilightforest:steeleaf_ingot",
       "twilightforest:ironwood_ingot",
     ],
-    "kubejs:machine_frame"
+    "kubejs:goth_machine_frame"
   );
   shapex(
     [
@@ -554,7 +554,7 @@ ServerEvents.recipes((event) => {
       "ars_nouveau:drygmy_charm",
       "kubejs:boss_trophy",
       "twilightforest:fiery_ingot",
-      "kubejs:machine_frame",
+      "kubejs:goth_machine_frame",
       "twilightforest:carminite",
       "kubejs:boss_trophy",
       "quark:blank_rune",
