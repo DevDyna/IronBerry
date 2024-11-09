@@ -19,15 +19,18 @@ StartupEvents.postInit((event) => {
     });
   }
 
-  
   myst(global.fish_food, global.fishing);
   //myst(global.fish_food[1], global.fishing[0]);
 
   // myst(global.fish_food[2], global.fishing[1]);
   // myst(global.fish_food[3], global.fishing[2]);
 
-   myst(global.fish_food, ['minecraft:leather_boots', 'minecraft:fishing_rod', 'minecraft:enchanted_book']);
-  
+  myst(global.fish_food, [
+    "minecraft:leather_boots",
+    "minecraft:fishing_rod",
+    "minecraft:enchanted_book",
+  ]);
+
   myst("kubejs:ore_bone_meal", [
     "minecraft:deepslate_gold_ore",
     "minecraft:deepslate_emerald_ore",
@@ -161,4 +164,11 @@ StartupEvents.postInit((event) => {
     "minecraft:sculk_sensor",
     "minecraft:sculk_shrieker",
   ]);
+
+  myst(
+    ["extremecobblegenerator:generator", "cobblefordays:tier_3"],
+    ["minecraft:cobblestone"]
+  );
+
+  myst(["minecraft:grass","minecraft:tall_grass"], ["farmersdelight:straw"]);
 });
