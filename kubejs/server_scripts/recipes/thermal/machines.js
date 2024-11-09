@@ -133,7 +133,7 @@ ServerEvents.recipes((event) => {
 
   event.recipes.thermal.pyrolyzer(
     [Fluid.of("pneumaticcraft:vegetable_oil", 100)],
-    ["#ironberry:vegetable_oil_source"]
+    ["tombstone:bag_of_seeds"]
   );
 
   event.recipes.thermal.insolator(
@@ -144,13 +144,41 @@ ServerEvents.recipes((event) => {
     ],
     ["kubejs:bee_queen"]
   );
+
   event.recipes.thermal.insolator_catalyst(
-    "#ironberry:vegetable_oil_source",
+    "thermal:phytogro",
     1,
-    2.5,
+    1.25,
+    1.25,
+    0.25,
+    0.25
+  );
+
+  event.recipes.thermal.insolator_catalyst(
+    "kubejs:rich_bone_meal",
+    1,
+    2,
     2,
     0.5,
     0.5
+  );
+
+  event.recipes.thermal.insolator_catalyst(
+    "kubejs:floreal_bone_meal",
+    1,
+    2.5,
+    2.5,
+    0.75,
+    0.75
+  );
+
+  event.recipes.thermal.insolator_catalyst(
+    "kubejs:ore_bone_meal",
+    1.05,
+    3,
+    3,
+    0.9,
+    0.85
   );
 
   event.recipes.thermal.bottler(
@@ -165,4 +193,18 @@ ServerEvents.recipes((event) => {
     ],
     ["kubejs:bee_unknown"]
   );
+  event.recipes.thermal.bottler(
+    ["quark:sturdy_stone"],
+    ["minecraft:cobblestone", Fluid.of("water", 100)]
+  );
+
+  event.recipes.thermal.pulverizer(["gravel"], ["#forge:cobblestone"]);
+  event.recipes.thermal.pulverizer(["sand"], ["gravel"]);
+
+  event.recipes.thermal.sawmill(
+    [Item.of("kubejs:biofuel").withChance(0.95)],
+    ["#ironberry:bio_vegetables"]
+  );
+
+  event.recipes.thermal.smelter(["dirt"], ["kubejs:biofuel", "sand"]);
 });
