@@ -29,6 +29,11 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'cyclic:biomass',
+    'sawmill:integrateddynamics_menril_planks_stairs_1',
+    'sawmill:integrateddynamics_menril_planks_stairs_0',
+    'sawmill:integrateddynamics/menril_log_2',
+    'sawmill:integrateddynamics/menril_log_3',
     'mekanism:processing/bronze/ingot/from_block',
     'mekanism:steel_casing',
     'bluepower:furnace/tungsten_ingot_from_tungsten_dust',
