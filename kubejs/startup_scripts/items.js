@@ -308,17 +308,21 @@ StartupEvents.registry("item", (event) => {
     .texture("ironberry:item/tungsten_plate")
     .displayName("Tungsten Carbide plate");
 
-  event.create("bee_drone").parentModel("ironberry:item/bee/drone");
+  event.create("bee_drone").texture("layer0", "ironberry:item/bee/head");
 
-  event.create("bee_queen").parentModel("ironberry:item/bee/queen");
+  event
+    .create("bee_queen")
+    .texture("layer0", "ironberry:item/bee/head")
+    .texture("layer1", "ironberry:item/bee/crown");
 
   event
     .create("bee_unknown")
-    .color(0, 0xEDC343)
-    .color(1,0x43241B)
-    .texture("layer0", "item/spawn_egg")
-    .texture("layer1", "item/spawn_egg_overlay")
-    .texture("layer2", "ironberry:item/unknown");
+    .texture("layer0", "ironberry:item/bee/head")
+    // .color(0, 0xEDC343)
+    // .color(1,0x43241B)
+    // .texture("layer0", "item/spawn_egg")
+    // .texture("layer1", "item/spawn_egg_overlay")
+    .texture("layer1", "ironberry:item/unknown");
 
   event.create("beewax").texture("ironberry:item/beewax");
 
@@ -417,4 +421,6 @@ StartupEvents.registry("item", (event) => {
       f.effect("minecraft:glowing", 120, 1, 1);
       f.effect("ars_nouveau:blasting", 20, 2, 0.2);
     });
+
+    event.create('biofuel').texture("thermal:item/biomass")
 });
