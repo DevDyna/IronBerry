@@ -1,3 +1,4 @@
+//priority 0
 ServerEvents.recipes((event) => {
   //alloy_smelting bluepower
   //
@@ -6,8 +7,16 @@ ServerEvents.recipes((event) => {
   /*----------------------------------------------------------------------------------------------*/
   function alloy(inputs_name, inputs_count, output_name, output_count) {
     let ingredients = [];
-    //[[item_a, item_b], output, outcount]
-    if (inputs_name.length <= 2) {
+
+    // let canSave = true
+    //   if(data.recipes.induction.forEach(e=>{
+    //     if(e[1] == output_name)canSave = false
+    //   }))
+
+    if (
+      inputs_name.length <= 3 &&
+      data.recipes.induction.some((subArray) => subArray[1] != output_name)
+    ) {
       let list = [];
       inputs_name.forEach((element, index) => {
         if (element.charAt(0) === "#") {
