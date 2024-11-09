@@ -138,16 +138,16 @@ ItemEvents.tooltip((event) => {
   }
 
   //Ⓧ Ⓨ Ⓩ §c §a §9
-  tipplusplus("kubejs:rich_bone_meal", "§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]");
+  tipplusplus("kubejs:rich_bone_meal", "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]");
   tipplusplus("kubejs:rich_bone_meal", "§8[§fArea affected : §b3 blocks§8]");
-
+  
   tipplusplus(
     "kubejs:ore_bone_meal",
-    "§8[§fAxis supported : §cⓍ§f §aⓎ§f §9Ⓩ§8]"
+    "§8[§fAxis supported : §aⓍ§f §aⓎ§f §aⓏ§8]"
   );
   tipplusplus("kubejs:ore_bone_meal", "§8[§fArea affected : §b7 blocks§8]");
 
-  tipplusplus("kubejs:floreal_bone_meal", "§8[§fAxis supported : §cⓍ§f §9Ⓩ§8]");
+  tipplusplus("kubejs:floreal_bone_meal", "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]");
   tipplusplus("kubejs:floreal_bone_meal", "§8[§fArea affected : §b3 blocks§8]");
 
   tipplusplus(
