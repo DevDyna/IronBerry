@@ -645,7 +645,6 @@ global.disabledItem = [
   "createaddition:connector",
   "createaddition:creative_energy",
   "createaddition:alternator",
-  "createaddition:bioethanol_bucket",
   "createaddition:seed_oil_bucket",
   "createaddition:straw",
   "createaddition:brass_rod",
