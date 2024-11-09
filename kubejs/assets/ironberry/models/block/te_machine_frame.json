@@ -4,10 +4,10 @@
     "particle": "thermal:block/machines/machine_frame_bottom",
     "down": "thermal:block/machines/machine_frame_bottom",
     "up": "thermal:block/machines/machine_frame_bottom",
-    "north": "thermal:block/machines/machine_frame_inner",
-    "east": "thermal:block/machines/machine_frame_inner",
-    "south": "thermal:block/machines/machine_frame_inner",
-    "west": "thermal:block/machines/machine_frame_inner",
+    "north": "thermal:block/machines/machine_frame_bottom",
+    "east": "thermal:block/machines/machine_frame_bottom",
+    "south": "thermal:block/machines/machine_frame_bottom",
+    "west": "thermal:block/machines/machine_frame_bottom",
     "inner": "thermal:block/machines/machine_frame_inner"
   }
 }
