@@ -1695,7 +1695,7 @@
 			}]
 			tasks: [{
 				id: "1319D159A5AF4D63"
-				item: "kubejs:machine_frame"
+				item: "kubejs:goth_machine_frame"
 				type: "item"
 			}]
 			x: -8.0d
