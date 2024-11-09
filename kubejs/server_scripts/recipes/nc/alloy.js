@@ -1,4 +1,4 @@
-//priority 1
+//priority 2
 ServerEvents.recipes((event) => {
   function alloy(item_a, item_b, output, outcount) {
     data.recipes.induction.push([[item_a, item_b], output, outcount])
