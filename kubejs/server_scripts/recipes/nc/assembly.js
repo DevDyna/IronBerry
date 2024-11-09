@@ -1,4 +1,4 @@
-//priority 1
+//priority -1
 ServerEvents.recipes((event) => {
   function assembly(input_item, input_count, item_out, count) {
     let ingredient = [];
@@ -20,6 +20,22 @@ ServerEvents.recipes((event) => {
         })
         .id(RegX(input_item + "_" + item_out, "_"));
     } else {
+      if (
+        input_item.length <= 4 &&
+        data.recipes.induction.some((subArray) => subArray[1] != item_out)
+      ) {
+        let list = [];
+        input_item.forEach((element, index) => {
+          if (element.charAt(0) === "#") {
+            list.push(input_count[index] + "x " + element);
+          } else {
+            list.push(Item.of(element, input_count[index]));
+          }
+        });
+
+        data.recipes.induction.push([list, item_out, count]);
+      }
+
       //
       // THIS WAS TO FIX A DUPLICATION BUG , THANKS NC:N !
       //
@@ -693,7 +709,7 @@ ServerEvents.recipes((event) => {
 
   assembly(
     [
-      'thermal:enderium_coin',
+      "thermal:enderium_coin",
       "mekanismgenerators:gas_burning_generator",
       "ae2:controller",
       "arseng:source_acceptor",
