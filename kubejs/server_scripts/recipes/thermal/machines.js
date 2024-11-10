@@ -208,4 +208,46 @@ ServerEvents.recipes((event) => {
     ["nuclearcraft:manganese_oxide_dust"],
     ["nuclearcraft:rhodochrosite_dust"]
   );
+
+  event.recipes.thermal.crucible(
+    [Fluid.of("nuclearcraft:condensate_water", 1000)],
+    ["ae2:quantum_entangled_singularity"]
+  );
+
+  event.recipes.thermal.bottler(
+    ["ae2:singularity"],
+    ["64x ae2:matter_ball", Fluid.of("nuclearcraft:condensate_water", 10)]
+  );
+
+  event.recipes.thermal.bottler(
+    ["2x ae2:quantum_entangled_singularity"],
+    [Fluid.of("thermal:ender", 25), "ae2:singularity"]
+  );
+
+  event.recipes.thermal.bottler("2x create:zinc_ingot", [
+    "minecraft:copper_ingot",
+    Fluid.of("thermal:glowstone", 100),
+  ]);
+
+  event.recipes.thermal.crucible(
+    [Fluid.of("nuclearcraft:zinc", 1000)],
+    "create:zinc_ingot"
+  );
+  event.recipes.thermal.brewer(
+    [Fluid.of("nuclearcraft:zirconium", 1000)],
+    ["kubejs:mini_pellet", Fluid.of("nuclearcraft:zinc", 1000)]
+  );
+
+  event.recipes.thermal.brewer(
+    [Fluid.of("nuclearcraft:zirconium_molybdenum", 1000)],
+    [
+      "thoriumreactors:molybdenum_ingot",
+      Fluid.of("nuclearcraft:zirconium", 1000),
+    ]
+  );
+
+  event.recipes.thermal.bottler(
+    ["ten3:powered_tin_ingot"],
+    ["ten3:tin_ingot", Fluid.of("nuclearcraft:zirconium_molybdenum", 1000)]
+  );
 });
