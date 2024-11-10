@@ -2526,4 +2526,99 @@ ServerEvents.recipes((event) => {
     ],
     "4x homespun:cast_iron_tiles"
   );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "minecraft:air",
+      "minecraft:air",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "minecraft:air",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+    ],
+    "4x thermal:rubberwood_stairs"
+  );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+    ],
+    "6x thermal:rubberwood_slab"
+  );
+
+  shapex(
+    ["thermal:rubberwood_planks", "thermal:rubberwood_planks"],
+    "thermal:rubberwood_pressure_plate"
+  );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+    ],
+    "2x thermal:rubberwood_trapdoor"
+  );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "minecraft:air",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "minecraft:air",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+    ],
+    "3x thermal:rubberwood_door"
+  );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "minecraft:air",
+      "minecraft:stick",
+      "minecraft:air",
+    ],
+    "3x thermal:rubberwood_sign"
+  );
+
+  shapex(
+    [
+      "minecraft:stick",
+      "thermal:rubberwood_planks",
+      "minecraft:stick",
+      "minecraft:stick",
+      "thermal:rubberwood_planks",
+      "minecraft:stick",
+    ],
+    "thermal:rubberwood_fence_gate"
+  );
+
+  shapex(
+    [
+      "thermal:rubberwood_planks",
+      "minecraft:stick",
+      "thermal:rubberwood_planks",
+      "thermal:rubberwood_planks",
+      "minecraft:stick",
+      "thermal:rubberwood_planks",
+    ],
+    "3x thermal:rubberwood_fence"
+  );
+
 });
