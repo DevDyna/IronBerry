@@ -1,5 +1,5 @@
 ClientEvents.lang("en_us", (event) => {
-  event.add("gas.kubejs.methane", "Methane Gas");
+  event.add("gas.kubejs.methane", "Methane (gas)");
   event.add("gas.kubejs.dustite", "Dustite (gas)");
   event.add("gas.kubejs.clumperio", "Clumperio (gas)");
   event.add("gas.kubejs.quartz", "Synthetic Quartz");
