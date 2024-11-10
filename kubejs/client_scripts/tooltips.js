@@ -510,9 +510,9 @@ ItemEvents.tooltip((event) => {
     "Can be used as §9Turbine Modifier §ffrom §a@Thorium"
   );
 
-  tipplusplus("ten3:machine_psionicant", "§4aka 2x slots smeltery");
-  tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
-  tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst");
+  // tipplusplus("ten3:machine_psionicant", "§4aka 2x slots smeltery");
+  // tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
+  tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst of §aTech Expansion 3");
 
   tipplusplus(
     "minecraft:diorite",
