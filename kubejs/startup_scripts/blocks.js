@@ -171,7 +171,7 @@ StartupEvents.registry("block", (event) => {
       .defaultCutout()
       .box(0, isTop ? 7 : 0, 0, 16, isTop ? 16 : 7, 16)
       .item((i) => {
-        i.tooltip("§7 Matter Condenser");
+        i.tooltip("§7Matter Condenser");
       })
       .soundType("chain")
       .hardness(0.75)
