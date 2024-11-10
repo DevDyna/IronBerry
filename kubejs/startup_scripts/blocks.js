@@ -137,6 +137,46 @@ StartupEvents.registry("block", (event) => {
     };
   };
 
+  let TNmodel = (isTop, machine) => {
+    return {
+      parent: "block/block",
+      textures: {
+        side: "ten3:machine/" + machine,
+        down: !isTop
+          ? "ten3:machine/machine_top"
+          : "ten3:machine/machine_bottom",
+        top: isTop ? "ten3:machine/machine_top" : "ten3:machine/machine_bottom",
+        particle: "ten3:machine/" + machine,
+      },
+      elements: [
+        {
+          from: [0, isTop ? 7 : 0, 0],
+          to: [16, isTop ? 16 : 7, 16],
+          faces: {
+            north: {
+              uv: isTop ? [0, 0, 16, 7] : [0, 7, 16, 16],
+              texture: "#side",
+            },
+            east: {
+              uv: isTop ? [0, 0, 16, 7] : [0, 7, 16, 16],
+              texture: "#side",
+            },
+            south: {
+              uv: isTop ? [0, 0, 16, 7] : [0, 7, 16, 16],
+              texture: "#side",
+            },
+            west: {
+              uv: isTop ? [0, 0, 16, 7] : [0, 7, 16, 16],
+              texture: "#side",
+            },
+            up: { uv: [0, 0, 16, 16], texture: "#top" },
+            down: { uv: [0, 0, 16, 16], texture: "#down" },
+          },
+        },
+      ],
+    };
+  };
+
   side.forEach((sd) => {
     event
       .create("machine_frame_" + (sd ? "top" : "down"))
@@ -162,5 +202,18 @@ StartupEvents.registry("block", (event) => {
         .hardness(0.75)
         .displayName("Machine Part").modelJson = TEmodel(sd, dec);
     });
+  });
+
+  side.forEach((sd) => {
+    event
+      .create("matter_condenser_machine_" + (sd ? "top" : "down"))
+      .defaultCutout()
+      .box(0, sd ? 7 : 0, 0, 16, sd ? 16 : 7, 16)
+      .item((i) => {
+        i.tooltip("§7 Matter Condenser");
+      })
+      .soundType("chain")
+      .hardness(0.75)
+      .displayName("Machine Part").modelJson = TNmodel(sd, "matter_condenser");
   });
 });
