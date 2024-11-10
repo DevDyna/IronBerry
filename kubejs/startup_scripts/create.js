@@ -165,16 +165,11 @@ StartupEvents.postInit((event) => {
     "minecraft:sculk_shrieker",
   ]);
 
-
-  myst(
-    "extremecobblegenerator:generator",
-    ["minecraft:cobblestone"]
-  );
-  myst(
-    "cobblefordays:tier_3",
-    ["minecraft:cobblestone"]
-  );
+  myst("extremecobblegenerator:generator", ["minecraft:cobblestone"]);
+  myst("cobblefordays:tier_3", ["minecraft:cobblestone"]);
 
   myst("minecraft:tall_grass", ["farmersdelight:straw"]);
   myst("minecraft:grass", ["farmersdelight:straw"]);
+
+  myst("biomancy:primal_bloom", ["biomancy:bloomberry"]);
 });
