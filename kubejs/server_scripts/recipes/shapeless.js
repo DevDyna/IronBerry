@@ -1637,24 +1637,35 @@ ServerEvents.recipes((event) => {
     });
   });
 
+  less("#forge:rubberwood_logs", "4x thermal:rubberwood_planks");
 
-less('#forge:rubberwood_logs','4x thermal:rubberwood_planks')
+  less("thermal:rubberwood_planks", "thermal:rubberwood_button");
 
-less('thermal:rubberwood_planks','thermal:rubberwood_button')
+  let ItemBookList = [
+    "cyclic:hopper",
+    "ars_nouveau:source_gem",
+    "thermal:flax",
+    "minecraft:redstone",
+    "minecraft:brick",
+  ];
+  let ItemBooks = [
+    Item.of(
+      "patchouli:guide_book",
+      '{"patchouli:book":"cyclic:cyclic_guide_book"}'
+    ),
+    "ars_nouveau:worn_notebook",
+    Item.of("patchouli:guide_book", '{"patchouli:book":"thermal:guidebook"}'),
+    Item.of(
+      "patchouli:guide_book",
+      '{"patchouli:book":"extendedcrafting:guide"}'
+    ),
+    Item.of(
+      "patchouli:guide_book",
+      '{"patchouli:book":"pedestals:pedestals_guide"}'
+    ),
+  ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ItemBooks.forEach((e, i) => {
+    less(["minecraft:book", ItemBookList[i]], e);
+  });
 });
