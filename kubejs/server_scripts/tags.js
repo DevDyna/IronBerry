@@ -1,7 +1,7 @@
 //priority 100
 
 ServerEvents.tags("item", (event) => {
-  event.removeAllTagsFrom(global.disabledItem)
+  event.removeAllTagsFrom(global.disabledItem);
   //integrateddynamics remove all tags to prevent show as #minecraft:logs and more
   event.removeAllTagsFrom("integrateddynamics:menril_log");
   event.removeAllTagsFrom("integrateddynamics:menril_log_stripped");
@@ -1331,24 +1331,61 @@ ServerEvents.tags("item", (event) => {
     "twilightforest:minoshroom_banner_pattern",
     "twilightforest:knight_phantom_banner_pattern",
   ]);
-  event.add('ironberry:housing',['ae2things:disk_housing', 'ae2:item_cell_housing', 'ae2:fluid_cell_housing', 'appmek:chemical_cell_housing', 'arseng:source_cell_housing'])
+  event.add("ironberry:housing", [
+    "ae2things:disk_housing",
+    "ae2:item_cell_housing",
+    "ae2:fluid_cell_housing",
+    "appmek:chemical_cell_housing",
+    "arseng:source_cell_housing",
+  ]);
 
-  event.add('ironberry:storage_part',['ae2:cell_component_1k', 'ae2:cell_component_4k', 'ae2:cell_component_16k', 'ae2:cell_component_64k', 'ae2:cell_component_256k'])
+  event.add("ironberry:storage_part", [
+    "ae2:cell_component_1k",
+    "ae2:cell_component_4k",
+    "ae2:cell_component_16k",
+    "ae2:cell_component_64k",
+    "ae2:cell_component_256k",
+  ]);
 
-  event.add('ironberry:manganese_dustes',['thoriumreactors:sodium', 'thoriumreactors:potassium', 'thoriumreactors:uran_three_chloride'])
+  event.add("ironberry:manganese_dustes", [
+    "thoriumreactors:sodium",
+    "thoriumreactors:potassium",
+    "thoriumreactors:uran_three_chloride",
+  ]);
 
-// event.add('ironberry:vegetable_oil_source',['kubejs:floreal_bone_meal', 'tombstone:bag_of_seeds'])
+  // event.add('ironberry:vegetable_oil_source',['kubejs:floreal_bone_meal', 'tombstone:bag_of_seeds'])
 
+  event.add("ironberry:bio_vegetables", [
+    "#minecraft:leaves",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+  ]);
 
-  event.add('ironberry:bio_vegetables',['#minecraft:leaves','#minecraft:flowers','#minecraft:saplings'])
+  event.add("ironberry:basic_marbles", [
+    "tombstone:white_marble",
+    "tombstone:dark_marble",
+  ]);
 
-  event.add('ironberry:basic_marbles',['tombstone:white_marble', 'tombstone:dark_marble'])
+  event.remove("reactive:light_sources", [
+    "minecraft:nether_star",
+    "ars_nouveau:jar_of_light",
+  ]);
 
+  let ItemSoulTag = event
+    .get("reactive:soul_sources")
+    .getObjectIds()
+    .filter((value) => "minecraft:echo_shard" != value);
+
+    event.add('ironberry:soul_fixed',ItemSoulTag)
 });
 
 ServerEvents.tags("block", (event) => {
-
-event.add('ironberry:pedestals',['pedestals:block_goblinstatue_pedestal', 'pedestals:block_catstatue_pedestal', 'pedestals:block_ratstatue_pedestal', 'pedestals:block_pedestal'])
+  event.add("ironberry:pedestals", [
+    "pedestals:block_goblinstatue_pedestal",
+    "pedestals:block_catstatue_pedestal",
+    "pedestals:block_ratstatue_pedestal",
+    "pedestals:block_pedestal",
+  ]);
 
   event.removeAllTagsFrom("ten3:tin_block");
 
