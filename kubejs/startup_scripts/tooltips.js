@@ -91,7 +91,7 @@ global.addCustomTooltips = (/** @type {Internal.RenderTooltipEvent$GatherCompone
     tooltip.add("Coolant of §eReactor §ffrom §a@Thorium")
   }
   if (tooltip.fluid == 'thoriumreactors:depleted_molten_salt') {
-    tooltip.add('Due a issue on §6ThoriumReactor 0.1.6b-all§f cannot, be moved using buckets!')
+    tooltip.add('Due an issue on §6ThoriumReactor 0.1.6b-all§f cannot, be moved using buckets!')
   }
   if(tooltip.fluid == 'minecraft:water' || tooltip.fluid == 'pneumaticcraft:ethanol' || tooltip.fluid == 'pneumaticcraft:biodiesel'){
     tooltip.add('§5Fuel §ffor §2liquid §fcompressor')
