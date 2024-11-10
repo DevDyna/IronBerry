@@ -8,7 +8,7 @@ StartupEvents.postInit((event) => {
 
   /**
    *
-   * @param {item|item[]} input
+   * @param {item} input
    * @param {item[]} output optional
    */
   function myst(input, output) {
@@ -165,10 +165,16 @@ StartupEvents.postInit((event) => {
     "minecraft:sculk_shrieker",
   ]);
 
+
   myst(
-    ["extremecobblegenerator:generator", "cobblefordays:tier_3"],
+    "extremecobblegenerator:generator",
+    ["minecraft:cobblestone"]
+  );
+  myst(
+    "cobblefordays:tier_3",
     ["minecraft:cobblestone"]
   );
 
-  myst(["minecraft:grass","minecraft:tall_grass"], ["farmersdelight:straw"]);
+  myst("minecraft:tall_grass", ["farmersdelight:straw"]);
+  myst("minecraft:grass", ["farmersdelight:straw"]);
 });
