@@ -1,5 +1,6 @@
 {
   "block.thermal.fluid_cell_frame": "CuFe Frame",
   "block.thermal.energy_cell_frame": "Leaded Electrum Frame",
-  "item.thermal.chiller_ball_cast": "Crystal Cast"
+  "item.thermal.chiller_ball_cast": "Crystal Cast",
+  "item.thermal.chiller_rod_cast": "Dust Cast"
 }
