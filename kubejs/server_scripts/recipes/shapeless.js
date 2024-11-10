@@ -1619,4 +1619,30 @@ ServerEvents.recipes((event) => {
     .replaceIngredient({ item: "ten3:liquid_xp_bucket" }, "minecraft:bucket");
 
   nine_to_one("thermal:silver_nugget", "thermal:silver_ingot");
+
+  let dyes = [
+    "minecraft:red_dye",
+    "minecraft:blue_dye",
+    "minecraft:green_dye",
+    "minecraft:black_dye",
+    "minecraft:white_dye",
+  ];
+  let marbles = [
+    "tombstone:carmin_marble",
+    "tombstone:blue_marble",
+    "tombstone:green_marble",
+    "tombstone:dark_marble",
+    "tombstone:white_marble",
+  ];
+
+  dyes.forEach((e, i) => {
+    less(
+      ["4x #tombstone:grave_marbles", e, "4x #tombstone:grave_marbles"],
+      "8x " + marbles[i]
+    );
+    less(
+      ["4x #ironberry:basic_marbles", e, "4x #ironberry:basic_marbles"],
+      "8x " + marbles[i]
+    );
+  });
 });
