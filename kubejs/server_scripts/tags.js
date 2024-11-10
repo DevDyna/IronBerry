@@ -1342,6 +1342,8 @@ ServerEvents.tags("item", (event) => {
 
   event.add('ironberry:bio_vegetables',['#minecraft:leaves','#minecraft:flowers','#minecraft:saplings'])
 
+  event.add('ironberry:basic_marbles',['tombstone:white_marble', 'tombstone:dark_marble'])
+
 });
 
 ServerEvents.tags("block", (event) => {
