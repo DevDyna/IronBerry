@@ -29,6 +29,8 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'cyclic:crusher/quartz_ore',
+    'mekanism:processing/uranium/ingot/from_raw_smelting',
     "ironchest:chests/vanilla_copper_chest",
     "cyclic:biomass",
     "sawmill:integrateddynamics_menril_planks_stairs_1",
