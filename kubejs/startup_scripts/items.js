@@ -423,4 +423,12 @@ StartupEvents.registry("item", (event) => {
     });
 
     event.create('biofuel').texture("thermal:item/biomass")
+
+    event.create('meltio').texture("mekanism:item/clump").color(0, 0xD5A535);
+    event.create('ainiotzio').texture("mekanism:item/shard").color(0, 0x4B514E);
+    event.create('densio').texture("mekanism:item/clump").color(0, 0x2328BD);
+    event.create('prosperitio').texture("mekanism:item/shard").color(0, 0xD1D1D1);
+
+
+    event.create('cast_blank').texture("ironberry:item/blank")
 });
