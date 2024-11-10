@@ -700,14 +700,14 @@ ServerEvents.recipes((event) => {
     "kubejs:floreal_bone_meal"
   );
 
-  event
-    .shapeless("3x reactive:acid_bottle", [
-      "kubejs:acid_bucket",
-      "reactive:quartz_bottle",
-      "reactive:quartz_bottle",
-      "reactive:quartz_bottle",
-    ])
-    .replaceIngredient({ item: "kubejs:acid_bucket" }, "minecraft:bucket");
+  // event
+  //   .shapeless("3x reactive:acid_bottle", [
+  //     "kubejs:acid_bucket",
+  //     "reactive:quartz_bottle",
+  //     "reactive:quartz_bottle",
+  //     "reactive:quartz_bottle",
+  //   ])
+  //   .replaceIngredient({ item: "kubejs:acid_bucket" }, "minecraft:bucket");
 
   event.shapeless(
     Item.of(
@@ -1667,5 +1667,19 @@ ServerEvents.recipes((event) => {
 
   ItemBooks.forEach((e, i) => {
     less(["minecraft:book", ItemBookList[i]], e);
+  });
+
+  let Elements = ["acid", "soul", "body", "light", "mind", "verdant"];
+  let Sources = ["acid", "soul", "stock", "light", "magic", "verdant"];
+  Elements.forEach((e, i) => {
+    event.recipes.kubejs
+      .shapeless("3x reactive:" + e + "_bottle", [
+        "kubejs:" + Sources[i] + "_bucket",
+        "3x reactive:quartz_bottle",
+      ])
+      .replaceIngredient(
+        { item: "kubejs:" + Sources[i] + "_bucket" },
+        "minecraft:bucket"
+      );
   });
 });
