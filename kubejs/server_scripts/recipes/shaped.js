@@ -2319,38 +2319,211 @@ ServerEvents.recipes((event) => {
     "minecraft:smithing_table"
   );
 
-let material_tool = [ 'bluepower:ruby', 'minecraft:wooden' , 'minecraft:stone']
-let id_material = ['bluepower:ruby_gem','#minecraft:planks','#forge:cobblestone']
+  let material_tool = ["bluepower:ruby", "minecraft:wooden", "minecraft:stone"];
+  let id_material = [
+    "bluepower:ruby_gem",
+    "#minecraft:planks",
+    "#forge:cobblestone",
+  ];
 
-material_tool.forEach((type,index)=>{
-//pick
-shapex([id_material[index], id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_pickaxe')
-//hoe
-shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_hoe')
-shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_hoe')
-//shovel
-shapex([id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_shovel')
-//axe
-shapex([id_material[index], id_material[index], 'minecraft:air', id_material[index], 'minecraft:stick', 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_axe')
-shapex([id_material[index], id_material[index], 'minecraft:air', 'minecraft:stick', id_material[index], 'minecraft:air', 'minecraft:stick'],type+'_axe')
-//sword
-shapex([id_material[index], 'minecraft:air', 'minecraft:air', id_material[index], 'minecraft:air', 'minecraft:air', 'minecraft:stick'],type+'_sword')
-})
+  material_tool.forEach((type, index) => {
+    //pick
+    shapex(
+      [
+        id_material[index],
+        id_material[index],
+        id_material[index],
+        "minecraft:air",
+        "minecraft:stick",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_pickaxe"
+    );
+    //hoe
+    shapex(
+      [
+        id_material[index],
+        id_material[index],
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_hoe"
+    );
+    shapex(
+      [
+        id_material[index],
+        id_material[index],
+        "minecraft:air",
+        "minecraft:stick",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_hoe"
+    );
+    //shovel
+    shapex(
+      [
+        id_material[index],
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_shovel"
+    );
+    //axe
+    shapex(
+      [
+        id_material[index],
+        id_material[index],
+        "minecraft:air",
+        id_material[index],
+        "minecraft:stick",
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_axe"
+    );
+    shapex(
+      [
+        id_material[index],
+        id_material[index],
+        "minecraft:air",
+        "minecraft:stick",
+        id_material[index],
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_axe"
+    );
+    //sword
+    shapex(
+      [
+        id_material[index],
+        "minecraft:air",
+        "minecraft:air",
+        id_material[index],
+        "minecraft:air",
+        "minecraft:air",
+        "minecraft:stick",
+      ],
+      type + "_sword"
+    );
+  });
 
+  shapex(
+    [
+      "minecraft:stick",
+      "minecraft:stick",
+      "minecraft:stick",
+      "minecraft:air",
+      "minecraft:iron_ingot",
+      "minecraft:iron_ingot",
+      "minecraft:air",
+      "bluepower:ruby_gem",
+      "bluepower:ruby_gem",
+    ],
+    "bluepower:ruby_saw"
+  );
+  shapex(
+    [
+      "minecraft:air",
+      "bluepower:ruby_gem",
+      "minecraft:air",
+      "minecraft:air",
+      "minecraft:air",
+      "bluepower:ruby_gem",
+      "minecraft:stick",
+      "bluepower:ruby_gem",
+    ],
+    "bluepower:ruby_sickle"
+  );
 
+  shapex(
+    [
+      "minecraft:air",
+      "#minecraft:planks",
+      "minecraft:air",
+      "minecraft:air",
+      "minecraft:air",
+      "#minecraft:planks",
+      "minecraft:stick",
+      "#minecraft:planks",
+    ],
+    "bluepower:wood_sickle"
+  );
 
-shapex(['minecraft:stick', 'minecraft:stick', 'minecraft:stick', 'minecraft:air', 'minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:air', 'bluepower:ruby_gem', 'bluepower:ruby_gem'],'bluepower:ruby_saw')
-shapex(['minecraft:air', 'bluepower:ruby_gem', 'minecraft:air', 'minecraft:air', 'minecraft:air', 'bluepower:ruby_gem', 'minecraft:stick', 'bluepower:ruby_gem'],'bluepower:ruby_sickle')
+  shapex(
+    [
+      "minecraft:air",
+      "minecraft:chest",
+      "minecraft:air",
+      "minecraft:chest",
+      "integrateddynamics:variable_transformer_input",
+      "minecraft:chest",
+      "minecraft:air",
+      "minecraft:chest",
+      "minecraft:air",
+    ],
+    "integrateddynamics:part_inventory_reader"
+  );
 
-shapex(['minecraft:air', '#minecraft:planks', 'minecraft:air', 'minecraft:air', 'minecraft:air', '#minecraft:planks', 'minecraft:stick', '#minecraft:planks'],'bluepower:wood_sickle')
+  shapex(
+    [
+      "#minecraft:planks",
+      "minecraft:air",
+      "minecraft:air",
+      "#minecraft:planks",
+    ],
+    "4x minecraft:stick"
+  );
 
-shapex(['minecraft:air', 'minecraft:chest', 'minecraft:air', 'minecraft:chest', 'integrateddynamics:variable_transformer_input', 'minecraft:chest', 'minecraft:air', 'minecraft:chest', 'minecraft:air'],'integrateddynamics:part_inventory_reader')
+  shapex(
+    [
+      "minecraft:stick",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:stick",
+      "#minecraft:planks",
+      "#minecraft:planks",
+    ],
+    "farmersdelight:cutting_board"
+  );
 
-shapex(['#minecraft:planks','minecraft:air','minecraft:air','#minecraft:planks'],'4x minecraft:stick')
+  shapex(
+    [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "minecraft:air",
+      "minecraft:charcoal",
+      "#minecraft:planks",
+    ],
+    "3x engineersdecor:old_industrial_wood_planks"
+  );
 
-shapex(['minecraft:stick', '#minecraft:planks', '#minecraft:planks', 'minecraft:stick', '#minecraft:planks','#minecraft:planks'], 'farmersdelight:cutting_board')
+  shapex(
+    ["ten3:chlorium_dust", "minecraft:air", "minecraft:air", "minecraft:stick"],
+    "rootsclassic:bark_knife"
+  );
 
-shapex(['#minecraft:planks', '#minecraft:planks','minecraft:air', 'minecraft:charcoal', '#minecraft:planks'], '3x engineersdecor:old_industrial_wood_planks')
-
-shapex(['ten3:chlorium_dust','minecraft:air','minecraft:air', 'minecraft:stick'] ,'rootsclassic:bark_knife')
+  shapex(
+    [
+      "homespun:cast_iron_block",
+      "homespun:cast_iron_block",
+      "minecraft:air",
+      "homespun:cast_iron_block",
+      "homespun:cast_iron_block",
+    ],
+    "4x homespun:cast_iron_tiles"
+  );
 });
