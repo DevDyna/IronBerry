@@ -145,42 +145,6 @@ ServerEvents.recipes((event) => {
     ["kubejs:bee_queen"]
   );
 
-  event.recipes.thermal.insolator_catalyst(
-    "thermal:phytogro",
-    1,
-    1.25,
-    1.25,
-    0.25,
-    0.25
-  );
-
-  event.recipes.thermal.insolator_catalyst(
-    "kubejs:rich_bone_meal",
-    1,
-    2,
-    2,
-    0.5,
-    0.5
-  );
-
-  event.recipes.thermal.insolator_catalyst(
-    "kubejs:floreal_bone_meal",
-    1,
-    2.5,
-    2.5,
-    0.75,
-    0.75
-  );
-
-  event.recipes.thermal.insolator_catalyst(
-    "kubejs:ore_bone_meal",
-    1.05,
-    3,
-    3,
-    0.9,
-    0.85
-  );
-
   event.recipes.thermal.bottler(
     ["kubejs:bee_unknown"],
     [Fluid.of("pneumaticcraft:vegetable_oil", 50), "kubejs:bee_drone"]
@@ -201,10 +165,47 @@ ServerEvents.recipes((event) => {
   event.recipes.thermal.pulverizer(["gravel"], ["#forge:cobblestone"]);
   event.recipes.thermal.pulverizer(["sand"], ["gravel"]);
 
-  event.recipes.thermal.sawmill(
+  event.recipes.thermal.pulverizer(
     [Item.of("kubejs:biofuel").withChance(0.95)],
     ["#ironberry:bio_vegetables"]
   );
 
   event.recipes.thermal.smelter(["dirt"], ["kubejs:biofuel", "sand"]);
+
+  event.recipes.thermal.insolator(
+    ["sugar_cane", Item.of("sugar_cane").withChance(0.85)],
+    ["sugar_cane"]
+  );
+
+  event.recipes.thermal.insolator(
+    ["2x bamboo", Item.of("bamboo").withChance(0.85)],
+    ["bamboo"]
+  );
+
+  event.recipes.thermal.insolator(
+    [
+      "bluepower:indigo_flower",
+      Item.of("bluepower:indigo_flower").withChance(0.25),
+    ],
+    ["bluepower:indigo_flower"]
+  );
+
+  event.recipes.thermal.bottler(
+    ["4x copper_ingot"],
+    ["iron_ingot", Fluid.of("thermal:glowstone", 100)]
+  );
+
+  event.recipes.thermal.pyrolyzer(["thermal:silver_ingot"], ["iron_ingot"]);
+  event.recipes.thermal.pyrolyzer(
+    ["thermal:lead_ingot"],
+    ["thermal:silver_ingot"]
+  );
+  event.recipes.thermal.pyrolyzer(
+    ["nuclearcraft:manganese_ingot"],
+    ["nuclearcraft:manganese_oxide_ingot"]
+  );
+  event.recipes.thermal.pyrolyzer(
+    ["nuclearcraft:manganese_oxide_dust"],
+    ["nuclearcraft:rhodochrosite_dust"]
+  );
 });
