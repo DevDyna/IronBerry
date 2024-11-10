@@ -49,6 +49,11 @@ global.whitelistGasses = [
 ];
 
 global.disabledItem = [
+  "ten3:machine_psionicant",
+  "ten3:machine_compressor",
+  "ten3:machine_refiner",
+  "ten3:machine_induction_furnace",
+  "ten3:machine_pulverizer",
   "thermal:dynamo_numismatic",
   "thermal:nickel_block",
   "thermal:lead_block",
