@@ -10,5 +10,12 @@
   "ten3.powered_tin_plate": "Powered Platinum Plate",
   "ten3.powered_tin_gear": "Powered Platinum Gear",
   "ten3.powered_tin_nugget": "Powered Platinum Nugget",
-  "ten3.powered_tin_block": "Block of Powered Platinum"
+  "ten3.powered_tin_block": "Block of Powered Platinum",
+  "block.ten3.liquid_bizarrerie":"Liquid UU-Matter",
+  "ten3.info.matter_condenser.0": "Matter Condenser can condense stuff into antimatter",
+  "ten3.info.matter_condenser.1": "Put in catalysts to increase processing speed",
+  "ten3.info.matter_condenser.2": "All items with <ten3:catalyst> can be used as catalyst",
+  "ten3.bizarrerie": "UU-Matter",
+  "ten3.liquid_bizarrerie_bucket": "Liquid UU-Matter Bucket",
+  "ten3.liquid_bizarrerie": "Liquid UU-Matter"
 }
