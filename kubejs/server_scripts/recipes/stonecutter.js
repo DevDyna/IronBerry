@@ -113,7 +113,7 @@ ServerEvents.recipes((event) => {
       "tombstone:decorative_grave_simple",
       "tombstone:decorative_tombstone",
     ],
-    ["tombstone:dark_marble", "#tombstone:decorative_graves"]
+    ["#ironberry:basic_marbles", "#tombstone:decorative_graves"]
   );
 
   // scut(
