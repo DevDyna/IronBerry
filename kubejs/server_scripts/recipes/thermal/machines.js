@@ -250,4 +250,157 @@ ServerEvents.recipes((event) => {
     ["ten3:powered_tin_ingot"],
     ["ten3:tin_ingot", Fluid.of("nuclearcraft:zirconium_molybdenum", 1000)]
   );
+
+  let sources = ["caustic", "body", "light", "mind", "verdant"];
+  let fluids = ["acid", "stock", "light", "magic", "verdant"];
+
+  let ItemResultChem = [
+    "biomancy:bone_fragments",
+    "biomancy:gem_fragments",
+    "biomancy:bio_lumens",
+    "biomancy:exotic_dust",
+    "biomancy:organic_matter",
+  ];
+
+  event.recipes.thermal.pyrolyzer(
+    [
+      Fluid.of("kubejs:soul", 125),
+      Item.of("biomancy:mineral_fragment").withChance(0.25),
+      Item.of("biomancy:mineral_fragment").withChance(0.12),
+    ],
+    ["#ironberry:soul_fixed"]
+  );
+
+  event.recipes.thermal.pyrolyzer(
+    [
+      Fluid.of("kubejs:soul", 125),
+      "reactive:quartz",
+      Item.of("biomancy:mineral_fragment").withChance(0.25),
+      Item.of("biomancy:mineral_fragment").withChance(0.12),
+    ],
+    ["minecraft:echo_shard"]
+  );
+
+  sources.forEach((sr, i) => {
+    event.recipes.thermal.pyrolyzer(
+      [
+        Fluid.of("kubejs:" + fluids[i], 125),
+        Item.of(ItemResultChem[i]).withChance(0.25),
+        Item.of(ItemResultChem[i]).withChance(0.12),
+      ],
+      ["#reactive:" + sr + "_sources"]
+    );
+  });
+
+  event.recipes.thermal.pyrolyzer(
+    ["reactive:quartz"],
+    ["minecraft:amethyst_shard"]
+  );
+
+  event.recipes.thermal.bottler(
+    ["reactive:quartz"],
+    ["minecraft:quartz", Fluid.of("kubejs:acid", 125)]
+  );
+
+  event.recipes.thermal.smelter("reactive:acid_bottle", [
+    "minecraft:ghast_tear",
+    "reactive:quartz_bottle",
+    "twilightforest:borer_essence",
+  ]);
+
+  event.recipes.thermal.pyrolyzer(
+    [
+      Fluid.of("kubejs:acid", 125),
+      Item.of("kubejs:alpha").withChance(2.5),
+      Item.of("kubejs:beta").withChance(2.5),
+    ],
+    ["reactive:acid_bottle"]
+  );
+
+  event.recipes.thermal.pyrolyzer(
+    [
+      Fluid.of("kubejs:acid", 125),
+      Item.of("bluepower:amethyst_gem").withChance(2.5),
+      Item.of("bluepower:sapphire_gem").withChance(2.5),
+
+      Item.of("minecraft:amethyst_shard").withChance(0.25),
+    ],
+    ["kubejs:beta"]
+  );
+
+  event.recipes.thermal.pyrolyzer(
+    [
+      Fluid.of("kubejs:acid", 125),
+      Item.of("bluepower:green_sapphire_gem").withChance(2.5),
+      Item.of("bluepower:ruby_gem").withChance(0.06),
+      Item.of("minecraft:emerald").withChance(0.25),
+    ],
+    ["kubejs:alpha"]
+  );
+
+  event.recipes.thermal.refinery(
+    [Fluid.of("kubejs:pertio", 5), Fluid.of("kubejs:alchemio", 5)],
+    [Fluid.of("kubejs:methane", 10)]
+  );
+
+  event.recipes.thermal.refinery(
+    [Fluid.of("kubejs:densio", 5), Fluid.of("kubejs:prosperitio", 5)],
+    [Fluid.of("kubejs:pertio", 10)]
+  );
+
+  event.recipes.thermal.refinery(
+    [Fluid.of("kubejs:meltio", 5), Fluid.of("kubejs:ainiotzio", 5)],
+    [Fluid.of("kubejs:alchemio", 10)]
+  );
+
+  event.recipes.thermal.centrifuge(
+    [
+      Item.of("nuclearcraft:boron_ingot").withChance(1.75),
+      Item.of("nuclearcraft:thorium_ingot").withChance(1.75),
+      Item.of("mekanism:ingot_uranium").withChance(1.75),
+    ],
+    [Item.of("kubejs:meltio")]
+  );
+  event.recipes.thermal.centrifuge(
+    [
+      Item.of("minecraft:redstone").withChance(1.5),
+      Item.of("minecraft:glowstone_dust").withChance(1.5),
+    ],
+    [Item.of("kubejs:ainiotzio")]
+  );
+  event.recipes.thermal.centrifuge(
+    [
+      Item.of("nuclearcraft:magnesium_ingot").withChance(1.75),
+      Item.of("thermal:tin_ingot").withChance(1.75),
+      Item.of("mekanism:ingot_osmium").withChance(1.75),
+    ],
+    [Item.of("kubejs:densio")]
+  );
+  event.recipes.thermal.centrifuge(
+    [
+      Item.of("bluepower:teslatite_dust").withChance(1.5),
+      Item.of("thermal:quartz_dust").withChance(1.5),
+    ],
+    [Item.of("kubejs:prosperitio")]
+  );
+
+  event.recipes.thermal.chiller("kubejs:meltio", [
+    Fluid.of("kubejs:meltio", 250),
+    "thermal:chiller_ingot_cast",
+  ]);
+
+  event.recipes.thermal.chiller("kubejs:densio", [
+    Fluid.of("kubejs:densio", 250),
+    "thermal:chiller_ingot_cast",
+  ]);
+
+  event.recipes.thermal.chiller("kubejs:ainiotzio", [
+    Fluid.of("kubejs:ainiotzio", 250),
+    "thermal:chiller_rod_cast",
+  ]);
+
+  event.recipes.thermal.chiller("kubejs:prosperitio", [
+    Fluid.of("kubejs:prosperitio", 250),
+    "thermal:chiller_rod_cast",
+  ]);
 });
