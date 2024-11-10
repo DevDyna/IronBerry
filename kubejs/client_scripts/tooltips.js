@@ -280,10 +280,6 @@ ItemEvents.tooltip((event) => {
     "Bonemeal §agrass block §for use §aFloreal Fertilizer §fon dirt to obtain "
   );
   tipplusplus(
-    "tombstone:white_marble",
-    "§cDue NBT issue you cannot craft white gravestone on stonecutter"
-  );
-  tipplusplus(
     "kubejs:soul",
     "Can be used on a §5Grave §fwith soul to obtain a §dSoul Receptacle"
   );
