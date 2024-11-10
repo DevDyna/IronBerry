@@ -13,25 +13,7 @@ ServerEvents.recipes((event) => {
       .shapeless(output, inputs)
       .id(RegX(counter + "_" + inputs + "_" + output).replace(/\s/g, "_"));
   };
-  //----------------------------------------------//	tombstone marbles
-  for (let i = 0; i < data.block.tombstone.length; i++) {
-    //dark to white
-    less(
-      [
-        Item.of(data.block.tombstone[i], "{model_texture:0}"),
-        "tombstone:white_marble",
-      ],
-      Item.of(data.block.tombstone[i], "{model_texture:1}")
-    );
-    //white to dark
-    less(
-      [
-        Item.of(data.block.tombstone[i], "{model_texture:1}"),
-        "tombstone:dark_marble",
-      ],
-      Item.of(data.block.tombstone[i], "{model_texture:0}")
-    );
-  }
+
   //----------------------------------------------//
   try {
     function moless(base, variants) {
@@ -1621,18 +1603,20 @@ ServerEvents.recipes((event) => {
   nine_to_one("thermal:silver_nugget", "thermal:silver_ingot");
 
   let dyes = [
-    "minecraft:red_dye",
-    "minecraft:blue_dye",
-    "minecraft:green_dye",
     "minecraft:black_dye",
     "minecraft:white_dye",
+    "minecraft:blue_dye",
+    "minecraft:green_dye",
+
+    "minecraft:red_dye",
   ];
   let marbles = [
-    "tombstone:carmin_marble",
-    "tombstone:blue_marble",
-    "tombstone:green_marble",
     "tombstone:dark_marble",
     "tombstone:white_marble",
+    "tombstone:blue_marble",
+    "tombstone:green_marble",
+
+    "tombstone:carmin_marble",
   ];
 
   dyes.forEach((e, i) => {
@@ -1645,4 +1629,32 @@ ServerEvents.recipes((event) => {
       "8x " + marbles[i]
     );
   });
+
+  //----------------------------------------------//	tombstone marbles
+  marbles.forEach((mar, i) => {
+    data.block.tombstone.forEach((tomb) => {
+      less([tomb, mar], Item.of(tomb, "{model_texture:" + i + "}"));
+    });
+  });
+
+
+less('#forge:rubberwood_logs','4x thermal:rubberwood_planks')
+
+less('thermal:rubberwood_planks','thermal:rubberwood_button')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
