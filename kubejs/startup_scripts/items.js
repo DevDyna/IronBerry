@@ -459,4 +459,6 @@ StartupEvents.registry("item", (event) => {
       .texture("mekanism:item/shard")
       .color(0, colors[i]);
   });
+
+  event.create("quartz_mixture").texture("ironberry:item/quartz_mixture");
 });
