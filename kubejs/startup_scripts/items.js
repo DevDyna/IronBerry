@@ -422,13 +422,41 @@ StartupEvents.registry("item", (event) => {
       f.effect("ars_nouveau:blasting", 20, 2, 0.2);
     });
 
-    event.create('biofuel').texture("thermal:item/biomass")
+  event.create("biofuel").texture("thermal:item/biomass");
 
-    event.create('meltio').texture("mekanism:item/clump").color(0, 0xD5A535);
-    event.create('ainiotzio').texture("mekanism:item/shard").color(0, 0x4B514E);
-    event.create('densio').texture("mekanism:item/clump").color(0, 0x2328BD);
-    event.create('prosperitio').texture("mekanism:item/shard").color(0, 0xD1D1D1);
+  event
+    .create("meltio_clump")
+    .texture("mekanism:item/clump")
+    .color(0, 0xd5a535);
+  event
+    .create("ainiotzio_crystal")
+    .texture("mekanism:item/crystal")
+    .color(0, 0x4b514e);
+  event
+    .create("densio_clump")
+    .texture("mekanism:item/clump")
+    .color(0, 0x2328bd);
+  event
+    .create("prosperitio_crystal")
+    .texture("mekanism:item/crystal")
+    .color(0, 0xd1d1d1);
 
+  let casts = ["blank", "clump", "crystal", "dust", "gem", "shard"];
 
-    event.create('cast_blank').texture("ironberry:item/blank")
+  casts.forEach((e) => {
+    event
+      .create(e + "_cast")
+      .texture("ironberry:item/press/" + e)
+      .tag("thermal:crafting/casts");
+  });
+
+  let colors = [0x989f85, 0x9fd9eb, 0x1d2421, 0x868782, 0x3bb23b, 0xefabf6];
+  let ingots = ["tin", "osmium", "thorium", "boron", "uranium", "magnesium"];
+
+  ingots.forEach((e, i) => {
+    event
+      .create(e + "_shard")
+      .texture("mekanism:item/shard")
+      .color(0, colors[i]);
+  });
 });
