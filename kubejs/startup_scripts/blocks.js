@@ -54,11 +54,11 @@ StartupEvents.registry("block", (event) => {
 
   event
     .create("tungsten_carbide_block")
-    .color(0, 0x5e5e5e)
+    .color(0, 0x9A9A9A)
     .model("ironberry:block/tinted")
     .defaultCutout()
     .item((item) => {
-      item.color(0, 0x5e5e5e);
+      item.color(0, 0x9A9A9A);
       item.parentModel("ironberry:block/tinted");
     });
 
