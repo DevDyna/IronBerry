@@ -104,17 +104,16 @@ ServerEvents.highPriorityData((event) => {
     "twilightforest:arctic_fur",
     "twilightforest:maze_map_focus",
     "ars_nouveau:starby_gift",
+    "minecraft:blaze_rod",
   ];
-  let loot_id = [
+  let loot_count = [
     1, 1, 4, 4, 4, 1, 1, 1, 1, 1, 16, 4, 4, 4, 16, 24, 24, 24, 24, 1, 4, 40, 10,
-    8, 8, 8, 4, 1, 36, 8, 1, 1,
+    8, 8, 8, 4, 1, 36, 8, 1, 1, 8,
   ];
   let objson = [];
 
-  let i = 0;
-  loot_name.forEach((item) => {
-    objson.push(ItemAndCount(item, loot_id[i]));
-    i++;
+  loot_name.forEach((item, i) => {
+    objson.push(ItemAndCount(item, loot_count[i]));
   });
 
   //made for Ironberry Modpack
