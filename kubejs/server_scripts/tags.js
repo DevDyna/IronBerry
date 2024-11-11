@@ -119,6 +119,28 @@ ServerEvents.tags("item", (event) => {
   //-----------------------------------------------------------------------------------//
   //recipe output side removed (as result)
   event.add("ironberry:output", [
+    "mekanism:advanced_universal_cable",
+    "mekanism:elite_logistical_transporter",
+    "mekanism:advanced_logistical_transporter",
+    "mekanism:elite_pressurized_tube",
+    "mekanism:restrictive_transporter",
+    "mekanism:ultimate_logistical_transporter",
+    "mekanism:ultimate_mechanical_pipe",
+    "mekanism:ultimate_chemical_tank",
+    "mekanism:elite_chemical_tank",
+    "mekanism:advanced_mechanical_pipe",
+    "mekanism:basic_universal_cable",
+    "mekanism:ultimate_pressurized_tube",
+    "mekanism:advanced_pressurized_tube",
+    "mekanism:basic_pressurized_tube",
+    "mekanism:ultimate_universal_cable",
+    "mekanism:basic_chemical_tank",
+    "mekanism:diversion_transporter",
+    "mekanism:advanced_chemical_tank",
+    "mekanism:elite_universal_cable",
+    "mekanism:basic_logistical_transporter",
+    "mekanism:elite_mechanical_pipe",
+    "mekanism:basic_mechanical_pipe",
     "biomancy:mascot_patterns",
     "minecraft:creeper_banner_pattern",
     "minecraft:skull_banner_pattern",
@@ -1376,11 +1398,7 @@ ServerEvents.tags("item", (event) => {
     .getObjectIds()
     .filter((value) => "minecraft:echo_shard" != value);
 
-    event.add('ironberry:soul_fixed',ItemSoulTag)
-
-
-
-    
+  event.add("ironberry:soul_fixed", ItemSoulTag);
 });
 
 ServerEvents.tags("block", (event) => {
