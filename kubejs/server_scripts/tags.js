@@ -1377,6 +1377,10 @@ ServerEvents.tags("item", (event) => {
     .filter((value) => "minecraft:echo_shard" != value);
 
     event.add('ironberry:soul_fixed',ItemSoulTag)
+
+
+
+    
 });
 
 ServerEvents.tags("block", (event) => {
