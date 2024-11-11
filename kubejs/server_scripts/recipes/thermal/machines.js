@@ -616,4 +616,15 @@ ServerEvents.recipes((event) => {
     "kubejs:pre_compressed",
     "minecraft:iron_ingot",
   ]);
+
+  thermal.press("2x kubejs:quartz_mixture", [
+    "thermal:quartz_dust",
+    "ae2:certus_quartz_dust",
+  ]);
+
+  thermal.smelter("4x ae2:fluix_smart_cable", [
+    "4x ae2:fluix_covered_cable",
+    "ae2:fluix_crystal",
+    "kubejs:quartz_mixture",
+  ]);
 });
