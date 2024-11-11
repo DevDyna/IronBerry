@@ -16,15 +16,15 @@ ClientEvents.lang("en_us", (event) => {
   event.add("gas.kubejs.exosteam", "Exo-Steam (Gas)");
   event.add("gas.kubejs.fuel_mixture", "Fuel Mixture (Gas)");
 
-  event.add("gateways.battle_gate_large", "Bosses");
+  event.add("gateways.battle_gate_large", "Gateway of Bosses");
 
-  event.add("item.thermal.aquachow.desc", "Increase fishing rolls§r§6");
-  event.add(
-    "item.thermal.deep_aquachow.desc",
-    "Allow to catch Treasure§r§6 items"
-  );
-  event.add("item.thermal.junk_net.desc", "Allow to catch Junk§r§6 items");
- 
+  // event.add("item.thermal.aquachow.desc", "Increase fishing rolls§r§6");
+  // event.add(
+  //   "item.thermal.deep_aquachow.desc",
+  //   "Allow to catch Treasure§r§6 items"
+  // );
+  // event.add("item.thermal.junk_net.desc", "Allow to catch Junk§r§6 items");
+
   /*
   THEY DONT WORK HERE
   */
@@ -36,7 +36,7 @@ ClientEvents.lang("en_us", (event) => {
   // event.add("item.bluepower.diamond_drawplate", "Drawplate");
   // event.add("block.bluepower.amethyst_block", "Tanzanite Block");
   // event.add("item.bluepower.amethyst_gem", "Tanzanite");
-   event.add("singularity.extendedcrafting.crystaltine", "Crystaltine");
+  event.add("singularity.extendedcrafting.crystaltine", "Crystaltine");
   // event.add("item.integrateddynamics.logic_director", "Logic Chorus Circuit");
 
   // event.add("block.ironchest.iron_chest", "Iron Chest");
