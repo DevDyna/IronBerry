@@ -58,8 +58,11 @@ BlockEvents.rightClicked("integrateddynamics:menril_wood", (event) => {
   }
 });
 //############################### pedestal break shortcut ##########################//
-BlockEvents.rightClicked( (event) => {
-  if (event.item.hasTag("forge:tools/pickaxes") && event.block.hasTag('ironberry:pedestals')) {
+BlockEvents.rightClicked((event) => {
+  if (
+    event.item.hasTag("forge:tools/pickaxes") &&
+    event.block.hasTag("ironberry:pedestals")
+  ) {
     if (event.item.getMaxDamage() == event.item.getDamageValue()) {
       event.player.inventory.extractItem(
         event.player.inventory.find(event.item.id),
@@ -94,13 +97,7 @@ BlockEvents.rightClicked((event) => {
     "quark:exposed_cut_copper_vertical_slab",
   ].forEach((b) => {
     if (event.block.id == b && event.item.hasTag("forge:tools/axes")) {
-      let compost = event.block.createEntity("item");
-      compost.y += 0.5;
-      compost.x += 0.5;
-      compost.z += 0.5;
-      compost.item = Item.of("kubejs:patina");
-      compost.item.count = rnd(1, 4);
-      compost.spawn();
+      event.block.popItem(Item.of("kubejs:patina", rnd(1, 4)));
     }
   });
 });
@@ -203,5 +200,20 @@ BlockEvents.rightClicked("reactive:crucible", (event) => {
         ' actionbar {"color":"red","text":"This action was disabled"}'
     );
     event.cancel();
+  }
+});
+//############################### MALWABEE ##########################//
+BlockEvents.rightClicked((event) => {
+  const { block, facing, level, item } = event;
+  const { x, y, z } = block.offset(facing);
+  if (item.nbt != null && item.nbt.get("Pos") != null) item.nbt.remove("Pos");
+  if (item == "kubejs:bee") {
+    let compost = level.createEntity("minecraft:bee");
+    compost.y = y + 0.5;
+    compost.x = x + 0.5;
+    compost.z = z + 0.5;
+    compost.mergeNbt(item.nbt);
+    compost.spawn();
+    item.count--;
   }
 });

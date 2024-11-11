@@ -461,4 +461,5 @@ StartupEvents.registry("item", (event) => {
   });
 
   event.create("quartz_mixture").texture("ironberry:item/quartz_mixture");
+  event.create("bee").parentModel("ironberry:item/bee/drone");
 });

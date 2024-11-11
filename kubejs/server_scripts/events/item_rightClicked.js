@@ -130,19 +130,16 @@ ItemEvents.rightClicked("kubejs:illuminati", (event) => {
   }
 });
 //############################### BEE .NET ##########################//
-ItemEvents.rightClicked("kubejs:net",(event) => {
-  const { item, hand, player } = event;
-  const {entity} = player.rayTrace(2.5)
-  const {block} = entity
+ItemEvents.entityInteracted('kubejs:net',(event) => {
+  const { hand, player,target } = event;
   if (hand == "OFF_HAND") return;
 
-  if (
-    hand == "MAIN_HAND" &&
-    entity != null &&
-    entity.type == "minecraft:bee"
-  ) {
-    block.popItem("kubejs:standard_drone")
-    entity.setRemoved('unloaded_to_chunk')
-    player.swing()
+  player.swing();
+  if (hand == "MAIN_HAND" && target?.type == 'minecraft:bee') {
+    player.spawnItemParticles("minecraft:cobweb", 2);
+    target.spawnItemParticles("minecraft:honeycomb",8);
+    target.block.popItem(Item.of("kubejs:bee",target.nbt))
+    target.setRemoved("killed");
   }
 });
+
