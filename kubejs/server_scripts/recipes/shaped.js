@@ -2620,5 +2620,14 @@ ServerEvents.recipes((event) => {
     ],
     "3x thermal:rubberwood_fence"
   );
-
+  shapex(
+    [
+      "create:brass_sheet",
+      "mekanism:ingot_bronze",
+      "minecraft:air",
+      "mekanism:ingot_bronze",
+      "create:brass_sheet",
+    ],
+    "4x kubejs:blank_cast"
+  );
 });
