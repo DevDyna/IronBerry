@@ -3,8 +3,6 @@
 [player_death]
 	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
 	pvp_unlock_grave = true
-	#Whether to handle player death [false/true|default:true]
-	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = false
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
@@ -43,8 +41,8 @@
 	#The percentage of items that are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	percent_loss_on_death = 0
-	#Graveless Areas
-	no_grave_location = ["0, -300, 0, minecraft:overworld, 20"]
+	#Graveless Dimensions
+	no_grave_dimension = []
 
 #Options related to player's alignment
 [alignment]
