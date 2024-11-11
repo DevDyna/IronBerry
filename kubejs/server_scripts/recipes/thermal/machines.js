@@ -339,68 +339,77 @@ ServerEvents.recipes((event) => {
   );
 
   event.recipes.thermal.refinery(
-    [Fluid.of("kubejs:pertio", 5), Fluid.of("kubejs:alchemio", 5)],
-    [Fluid.of("kubejs:methane", 10)]
+    [Fluid.of("kubejs:pertio", 25), Fluid.of("kubejs:alchemio", 25)],
+    [Fluid.of("kubejs:methane", 50)]
   );
 
   event.recipes.thermal.refinery(
-    [Fluid.of("kubejs:densio", 5), Fluid.of("kubejs:prosperitio", 5)],
-    [Fluid.of("kubejs:pertio", 10)]
+    [Fluid.of("kubejs:densio", 25), Fluid.of("kubejs:prosperitio", 25)],
+    [Fluid.of("kubejs:pertio", 50)]
   );
 
   event.recipes.thermal.refinery(
-    [Fluid.of("kubejs:meltio", 5), Fluid.of("kubejs:ainiotzio", 5)],
-    [Fluid.of("kubejs:alchemio", 10)]
+    [Fluid.of("kubejs:meltio", 25), Fluid.of("kubejs:ainiotzio", 25)],
+    [Fluid.of("kubejs:alchemio", 50)]
   );
 
   event.recipes.thermal.centrifuge(
     [
-      Item.of("nuclearcraft:boron_ingot").withChance(1.75),
-      Item.of("nuclearcraft:thorium_ingot").withChance(1.75),
-      Item.of("mekanism:ingot_uranium").withChance(1.75),
+      Item.of("kubejs:boron_shard").withChance(1.75),
+      Item.of("kubejs:thorium_shard").withChance(1.75),
+      Item.of("kubejs:uranium_shard").withChance(1.75),
     ],
-    [Item.of("kubejs:meltio")]
+    [Item.of("kubejs:meltio_clump")]
   );
   event.recipes.thermal.centrifuge(
     [
       Item.of("minecraft:redstone").withChance(1.5),
       Item.of("minecraft:glowstone_dust").withChance(1.5),
     ],
-    [Item.of("kubejs:ainiotzio")]
+    [Item.of("kubejs:ainiotzio_crystal")]
   );
   event.recipes.thermal.centrifuge(
     [
-      Item.of("nuclearcraft:magnesium_ingot").withChance(1.75),
-      Item.of("thermal:tin_ingot").withChance(1.75),
-      Item.of("mekanism:ingot_osmium").withChance(1.75),
+      Item.of("kubejs:magnesium_shard").withChance(1.75),
+      Item.of("kubejs:tin_shard").withChance(1.75),
+      Item.of("kubejs:osmium_shard").withChance(1.75),
     ],
-    [Item.of("kubejs:densio")]
+    [Item.of("kubejs:densio_clump")]
   );
   event.recipes.thermal.centrifuge(
     [
       Item.of("bluepower:teslatite_dust").withChance(1.5),
       Item.of("thermal:quartz_dust").withChance(1.5),
     ],
-    [Item.of("kubejs:prosperitio")]
+    [Item.of("kubejs:prosperitio_crystal")]
   );
 
-  event.recipes.thermal.chiller("kubejs:meltio", [
+  event.recipes.thermal.chiller("kubejs:meltio_clump", [
     Fluid.of("kubejs:meltio", 250),
-    "thermal:chiller_ingot_cast",
+    "kubejs:clump_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:densio", [
+  event.recipes.thermal.chiller("kubejs:densio_clump", [
     Fluid.of("kubejs:densio", 250),
-    "thermal:chiller_ingot_cast",
+    "kubejs:clump_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:ainiotzio", [
+  event.recipes.thermal.chiller("kubejs:ainiotzio_crystal", [
     Fluid.of("kubejs:ainiotzio", 250),
-    "thermal:chiller_rod_cast",
+    "kubejs:crystal_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:prosperitio", [
+  event.recipes.thermal.chiller("kubejs:prosperitio_crystal", [
     Fluid.of("kubejs:prosperitio", 250),
-    "thermal:chiller_rod_cast",
+    "kubejs:crystal_cast",
   ]);
+
+  let ingots = ["tin", "osmium", "thorium", "boron", "uranium", "magnesium"];
+
+  ingots.forEach((e) => {
+    event.recipes.thermal.crucible(
+      [Fluid.of("kubejs:" + e, 250)],
+      ["kubejs:" + e + "_shard"]
+    );
+  });
 });
