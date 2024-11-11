@@ -631,4 +631,18 @@ ServerEvents.recipes((event) => {
     ["twilightforest:raven_feather", "minecraft:feather"],
     ["twilightforest:raven_feather", "minecraft:feather"]
   );
+
+  scut(
+    [
+      "kubejs:clump_cast",
+      "kubejs:gem_cast",
+      "kubejs:crystal_cast",
+      "kubejs:dust_cast",
+      "thermal:chiller_ball_cast",
+      "thermal:chiller_ingot_cast",
+      "thermal:chiller_rod_cast",
+      "kubejs:shard_cast",
+    ],
+    ["kubejs:blank_cast", "#thermal:crafting/casts"]
+  );
 });
