@@ -603,16 +603,16 @@ ServerEvents.recipes((event) => {
     "pneumaticcraft:plastic",
   ]);
 
-  thermal.smelter("6x pneumaticcraft:capacitor", [
+  thermal.press("6x pneumaticcraft:capacitor", [
     "2x minecraft:redstone_torch",
     "bluepower:teslatite_dust",
   ]);
-  thermal.smelter("6x pneumaticcraft:transistor", [
+  thermal.press("6x pneumaticcraft:transistor", [
     "3x minecraft:redstone_torch",
     "bluepower:tungsten_ingot",
   ]);
 
-  thermal.smelter("2x pneumaticcraft:ingot_iron_compressed", [
+  thermal.press("2x pneumaticcraft:ingot_iron_compressed", [
     "kubejs:pre_compressed",
     "minecraft:iron_ingot",
   ]);
