@@ -1,11 +1,13 @@
 //priority -1
 ServerEvents.recipes((event) => {
+  const { thermal } = event.recipes;
+
   data.recipes.induction.forEach((e) => {
     //[[item_a, item_b], output, outcount]
-    event.recipes.thermal.smelter([Item.of(e[1], e[2])], e[0]);
+    thermal.smelter([Item.of(e[1], e[2])], e[0]);
   });
   let acidize = (input, output) =>
-    event.recipes.thermal.bottler(Item.of(output), [
+    thermal.bottler(Item.of(output), [
       Fluid.of("biomancy:acid", 25),
       Item.of(input),
     ]);
@@ -24,7 +26,7 @@ ServerEvents.recipes((event) => {
     e[1].forEach((b, i) => {
       list.push(Item.of(b, e[2][i]));
     });
-    event.recipes.thermal.pulverizer(list, e[0]);
+    thermal.pulverizer(list, e[0]);
   });
 
   data.recipes.centrifuge.forEach((e) => {
@@ -32,10 +34,10 @@ ServerEvents.recipes((event) => {
     e[2].forEach((it, i) => {
       list.push(Item.of(it, e[3][i]));
     });
-    event.recipes.thermal.centrifuge(list, [Item.of(e[0], e[1])]);
+    thermal.centrifuge(list, [Item.of(e[0], e[1])]);
   });
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("nuclearcraft:boric_acid", 1000),
       "nuclearcraft:rhodochrosite_gem",
@@ -46,7 +48,7 @@ ServerEvents.recipes((event) => {
     "kubejs:lupenio"
   );
 
-  event.recipes.thermal.refinery(
+  thermal.refinery(
     [
       Fluid.of("nuclearcraft:boron_arsenide_solution", 1),
       Fluid.of("nuclearcraft:boron_nitride_solution", 1),
@@ -54,17 +56,17 @@ ServerEvents.recipes((event) => {
     Fluid.of("nuclearcraft:boric_acid", 2)
   );
   data.recipes.chiller.forEach((e) => {
-    event.recipes.thermal.chiller(e[2], [Fluid.of(e[0], e[1]), e[3]]);
+    thermal.chiller(e[2], [Fluid.of(e[0], e[1]), e[3]]);
   });
   data.recipes.crucible.forEach((e) => {
-    event.recipes.thermal.crucible(Fluid.of(e[1], e[2]), e[0]);
+    thermal.crucible(Fluid.of(e[1], e[2]), e[0]);
   });
 
-  event.recipes.thermal.chiller("nuclearcraft:boron_arsenide_gem", [
+  thermal.chiller("nuclearcraft:boron_arsenide_gem", [
     Fluid.of("nuclearcraft:boron_arsenide_solution", 500),
     "thermal:chiller_ball_cast",
   ]);
-  event.recipes.thermal.chiller("nuclearcraft:boron_nitride_gem", [
+  thermal.chiller("nuclearcraft:boron_nitride_gem", [
     Fluid.of("nuclearcraft:boron_nitride_solution", 500),
     "thermal:chiller_ball_cast",
   ]);
@@ -74,46 +76,37 @@ ServerEvents.recipes((event) => {
     e[2].forEach((b, i) => {
       list.push(Fluid.of(b, e[3][i]));
     });
-    event.recipes.thermal.refinery(list, [Fluid.of(e[0], e[1])]);
+    thermal.refinery(list, [Fluid.of(e[0], e[1])]);
   });
 
   data.recipes.bottler.forEach((e) => {
-    event.recipes.thermal.bottler(
-      [Item.of(e[3], e[4])],
-      [e[0], Fluid.of(e[1], e[2])]
-    );
+    thermal.bottler([Item.of(e[3], e[4])], [e[0], Fluid.of(e[1], e[2])]);
   });
 
   data.recipes.brewer.forEach((e) => {
-    event.recipes.thermal.brewer(
-      [Fluid.of(e[3], e[4])],
-      [e[0], Fluid.of(e[1], e[2])]
-    );
+    thermal.brewer([Fluid.of(e[3], e[4])], [e[0], Fluid.of(e[1], e[2])]);
   });
 
   data.recipes.pyrolizer.forEach((e) => {
-    event.recipes.thermal.pyrolyzer(
-      [Fluid.of(e[3], e[4]), Item.of(e[1], e[2])],
-      [e[0]]
-    );
+    thermal.pyrolyzer([Fluid.of(e[3], e[4]), Item.of(e[1], e[2])], [e[0]]);
   });
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["cyclic:peat_fuel_enriched"],
     ["cyclic:peat_fuel", Fluid.of("water", 10)]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["cyclic:biomass"],
     ["#rootsclassic:berries", Fluid.of("water", 10)]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["8x nuclearcraft:plate_basic"],
     ["kubejs:silicon_plated", Fluid.of("kubejs:liquid_silicon", 20)]
   );
 
-  event.recipes.thermal.smelter(
+  thermal.smelter(
     ["nuclearcraft:empty_sink"],
     [
       "pneumaticcraft:plastic",
@@ -122,8 +115,8 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  event.recipes.thermal.smelter(
-    ["nuclearcraft:steel_frame"],
+  thermal.smelter(
+    ["2x nuclearcraft:steel_frame"],
     [
       "nuclearcraft:plate_basic",
       "nuclearcraft:empty_sink",
@@ -131,12 +124,12 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [Fluid.of("pneumaticcraft:vegetable_oil", 100)],
     ["tombstone:bag_of_seeds"]
   );
 
-  event.recipes.thermal.insolator(
+  thermal.insolator(
     [
       Item.of("kubejs:bee_queen").withChance(0.95),
       Item.of("kubejs:bee_drone").withChance(0.5),
@@ -145,44 +138,44 @@ ServerEvents.recipes((event) => {
     ["kubejs:bee_queen"]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["kubejs:bee_unknown"],
     [Fluid.of("pneumaticcraft:vegetable_oil", 50), "kubejs:bee_drone"]
   );
 
-  event.recipes.thermal.sawmill(
+  thermal.sawmill(
     [
       Item.of("kubejs:bee_drone").withChance(0.85),
       Item.of("kubejs:bee_queen").withChance(0.05),
     ],
     ["kubejs:bee_unknown"]
   );
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["quark:sturdy_stone"],
     ["minecraft:cobblestone", Fluid.of("water", 100)]
   );
 
-  event.recipes.thermal.pulverizer(["gravel"], ["#forge:cobblestone"]);
-  event.recipes.thermal.pulverizer(["sand"], ["gravel"]);
+  thermal.pulverizer(["gravel"], ["#forge:cobblestone"]);
+  thermal.pulverizer(["sand"], ["gravel"]);
 
-  event.recipes.thermal.pulverizer(
+  thermal.pulverizer(
     [Item.of("kubejs:biofuel").withChance(0.95)],
     ["#ironberry:bio_vegetables"]
   );
 
-  event.recipes.thermal.smelter(["dirt"], ["kubejs:biofuel", "sand"]);
+  thermal.smelter(["dirt"], ["kubejs:biofuel", "sand"]);
 
-  event.recipes.thermal.insolator(
+  thermal.insolator(
     ["sugar_cane", Item.of("sugar_cane").withChance(0.85)],
     ["sugar_cane"]
   );
 
-  event.recipes.thermal.insolator(
+  thermal.insolator(
     ["2x bamboo", Item.of("bamboo").withChance(0.85)],
     ["bamboo"]
   );
 
-  event.recipes.thermal.insolator(
+  thermal.insolator(
     [
       "bluepower:indigo_flower",
       Item.of("bluepower:indigo_flower").withChance(0.25),
@@ -190,55 +183,49 @@ ServerEvents.recipes((event) => {
     ["bluepower:indigo_flower"]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["4x copper_ingot"],
     ["iron_ingot", Fluid.of("thermal:glowstone", 100)]
   );
 
-  event.recipes.thermal.pyrolyzer(["thermal:silver_ingot"], ["iron_ingot"]);
-  event.recipes.thermal.pyrolyzer(
-    ["thermal:lead_ingot"],
-    ["thermal:silver_ingot"]
-  );
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(["thermal:silver_ingot"], ["iron_ingot"]);
+  thermal.pyrolyzer(["thermal:lead_ingot"], ["thermal:silver_ingot"]);
+  thermal.pyrolyzer(
     ["nuclearcraft:manganese_ingot"],
     ["nuclearcraft:manganese_oxide_ingot"]
   );
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     ["nuclearcraft:manganese_oxide_dust"],
     ["nuclearcraft:rhodochrosite_dust"]
   );
 
-  event.recipes.thermal.crucible(
+  thermal.crucible(
     [Fluid.of("nuclearcraft:condensate_water", 1000)],
     ["ae2:quantum_entangled_singularity"]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["ae2:singularity"],
     ["64x ae2:matter_ball", Fluid.of("nuclearcraft:condensate_water", 10)]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["2x ae2:quantum_entangled_singularity"],
     [Fluid.of("thermal:ender", 25), "ae2:singularity"]
   );
 
-  event.recipes.thermal.bottler("2x create:zinc_ingot", [
+  thermal.bottler("2x create:zinc_ingot", [
     "minecraft:copper_ingot",
     Fluid.of("thermal:glowstone", 100),
   ]);
 
-  event.recipes.thermal.crucible(
-    [Fluid.of("nuclearcraft:zinc", 1000)],
-    "create:zinc_ingot"
-  );
-  event.recipes.thermal.brewer(
+  thermal.crucible([Fluid.of("nuclearcraft:zinc", 1000)], "create:zinc_ingot");
+  thermal.brewer(
     [Fluid.of("nuclearcraft:zirconium", 1000)],
     ["kubejs:mini_pellet", Fluid.of("nuclearcraft:zinc", 1000)]
   );
 
-  event.recipes.thermal.brewer(
+  thermal.brewer(
     [Fluid.of("nuclearcraft:zirconium_molybdenum", 1000)],
     [
       "thoriumreactors:molybdenum_ingot",
@@ -246,7 +233,7 @@ ServerEvents.recipes((event) => {
     ]
   );
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["ten3:powered_tin_ingot"],
     ["ten3:tin_ingot", Fluid.of("nuclearcraft:zirconium_molybdenum", 1000)]
   );
@@ -262,7 +249,7 @@ ServerEvents.recipes((event) => {
     "biomancy:organic_matter",
   ];
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("kubejs:soul", 125),
       Item.of("biomancy:mineral_fragment").withChance(0.25),
@@ -271,7 +258,7 @@ ServerEvents.recipes((event) => {
     ["#ironberry:soul_fixed"]
   );
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("kubejs:soul", 125),
       "reactive:quartz",
@@ -282,7 +269,7 @@ ServerEvents.recipes((event) => {
   );
 
   sources.forEach((sr, i) => {
-    event.recipes.thermal.pyrolyzer(
+    thermal.pyrolyzer(
       [
         Fluid.of("kubejs:" + fluids[i], 125),
         Item.of(ItemResultChem[i]).withChance(0.25),
@@ -292,23 +279,20 @@ ServerEvents.recipes((event) => {
     );
   });
 
-  event.recipes.thermal.pyrolyzer(
-    ["reactive:quartz"],
-    ["minecraft:amethyst_shard"]
-  );
+  thermal.pyrolyzer(["reactive:quartz"], ["minecraft:amethyst_shard"]);
 
-  event.recipes.thermal.bottler(
+  thermal.bottler(
     ["reactive:quartz"],
     ["minecraft:quartz", Fluid.of("kubejs:acid", 125)]
   );
 
-  event.recipes.thermal.smelter("reactive:acid_bottle", [
+  thermal.smelter("reactive:acid_bottle", [
     "minecraft:ghast_tear",
     "reactive:quartz_bottle",
     "twilightforest:borer_essence",
   ]);
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("kubejs:acid", 125),
       Item.of("kubejs:alpha").withChance(2.5),
@@ -317,7 +301,7 @@ ServerEvents.recipes((event) => {
     ["reactive:acid_bottle"]
   );
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("kubejs:acid", 125),
       Item.of("bluepower:amethyst_gem").withChance(2.5),
@@ -328,7 +312,7 @@ ServerEvents.recipes((event) => {
     ["kubejs:beta"]
   );
 
-  event.recipes.thermal.pyrolyzer(
+  thermal.pyrolyzer(
     [
       Fluid.of("kubejs:acid", 125),
       Item.of("bluepower:green_sapphire_gem").withChance(2.5),
@@ -338,22 +322,22 @@ ServerEvents.recipes((event) => {
     ["kubejs:alpha"]
   );
 
-  event.recipes.thermal.refinery(
+  thermal.refinery(
     [Fluid.of("kubejs:pertio", 25), Fluid.of("kubejs:alchemio", 25)],
     [Fluid.of("kubejs:methane", 50)]
   );
 
-  event.recipes.thermal.refinery(
+  thermal.refinery(
     [Fluid.of("kubejs:densio", 25), Fluid.of("kubejs:prosperitio", 25)],
     [Fluid.of("kubejs:pertio", 50)]
   );
 
-  event.recipes.thermal.refinery(
+  thermal.refinery(
     [Fluid.of("kubejs:meltio", 25), Fluid.of("kubejs:ainiotzio", 25)],
     [Fluid.of("kubejs:alchemio", 50)]
   );
 
-  event.recipes.thermal.centrifuge(
+  thermal.centrifuge(
     [
       Item.of("kubejs:boron_shard").withChance(1.75),
       Item.of("kubejs:thorium_shard").withChance(1.75),
@@ -361,14 +345,14 @@ ServerEvents.recipes((event) => {
     ],
     [Item.of("kubejs:meltio_clump")]
   );
-  event.recipes.thermal.centrifuge(
+  thermal.centrifuge(
     [
       Item.of("minecraft:redstone").withChance(1.5),
       Item.of("minecraft:glowstone_dust").withChance(1.5),
     ],
     [Item.of("kubejs:ainiotzio_crystal")]
   );
-  event.recipes.thermal.centrifuge(
+  thermal.centrifuge(
     [
       Item.of("kubejs:magnesium_shard").withChance(1.75),
       Item.of("kubejs:tin_shard").withChance(1.75),
@@ -376,7 +360,7 @@ ServerEvents.recipes((event) => {
     ],
     [Item.of("kubejs:densio_clump")]
   );
-  event.recipes.thermal.centrifuge(
+  thermal.centrifuge(
     [
       Item.of("bluepower:teslatite_dust").withChance(1.5),
       Item.of("thermal:quartz_dust").withChance(1.5),
@@ -384,22 +368,22 @@ ServerEvents.recipes((event) => {
     [Item.of("kubejs:prosperitio_crystal")]
   );
 
-  event.recipes.thermal.chiller("kubejs:meltio_clump", [
+  thermal.chiller("kubejs:meltio_clump", [
     Fluid.of("kubejs:meltio", 250),
     "kubejs:clump_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:densio_clump", [
+  thermal.chiller("kubejs:densio_clump", [
     Fluid.of("kubejs:densio", 250),
     "kubejs:clump_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:ainiotzio_crystal", [
+  thermal.chiller("kubejs:ainiotzio_crystal", [
     Fluid.of("kubejs:ainiotzio", 250),
     "kubejs:crystal_cast",
   ]);
 
-  event.recipes.thermal.chiller("kubejs:prosperitio_crystal", [
+  thermal.chiller("kubejs:prosperitio_crystal", [
     Fluid.of("kubejs:prosperitio", 250),
     "kubejs:crystal_cast",
   ]);
@@ -407,9 +391,229 @@ ServerEvents.recipes((event) => {
   let ingots = ["tin", "osmium", "thorium", "boron", "uranium", "magnesium"];
 
   ingots.forEach((e) => {
-    event.recipes.thermal.crucible(
+    thermal.crucible(
       [Fluid.of("kubejs:" + e, 250)],
       ["kubejs:" + e + "_shard"]
     );
   });
+
+  thermal.smelter("2x nuclearcraft:plate_advanced", [
+    "nuclearcraft:bioplastic",
+    "nuclearcraft:tough_alloy_dust",
+    "nuclearcraft:plate_basic",
+  ]);
+
+  thermal.smelter("8x thoriumreactors:thermal_conductor", [
+    "ten3:redstone_conductor",
+    "thoriumreactors:machine_casing",
+    "thoriumreactors:chromium_ingot",
+  ]);
+  thermal.smelter("8x thoriumreactors:reactor_casing", [
+    "ten3:redstone_storer",
+    "thoriumreactors:machine_casing",
+    "minecraft:netherite_ingot",
+  ]);
+  thermal.smelter("8x thoriumreactors:turbine_casing", [
+    "ten3:redstone_converter",
+    "thoriumreactors:machine_casing",
+    "thoriumreactors:titanium_ingot",
+  ]);
+
+  thermal.smelter("4x thoriumreactors:redstone_processor", [
+    "ae2:printed_silicon",
+    "minecraft:redstone",
+    "kubejs:processor",
+  ]);
+
+  thermal.smelter("4x nuclearcraft:plate_elite", [
+    "nuclearcraft:boron_arsenide_dust",
+    "nuclearcraft:plate_du",
+    "mekanism:teleportation_core",
+  ]);
+
+  thermal.smelter("3x nuclearcraft:extreme_ingot", [
+    "nuclearcraft:crystal_binder_dust",
+    "nuclearcraft:hard_carbon_ingot",
+    "nuclearcraft:super_alloy_ingot",
+  ]);
+  thermal.smelter("3x nuclearcraft:thermoconducting_ingot", [
+    "minecraft:copper_ingot",
+    "nuclearcraft:magnesium_ingot",
+    "nuclearcraft:graphite_ingot",
+  ]);
+
+  thermal.bottler("ars_nouveau:source_gem", [
+    "#ironberry:source_gems",
+    Fluid.of("kubejs:magic", 125),
+  ]);
+
+  let rods = [
+    "minecraft:blaze_rod",
+    "thermal:blizz_rod",
+    "thermal:basalz_rod",
+    "thermal:blitz_rod",
+  ];
+  let rod_powder = [
+    "minecraft:blaze_powder",
+    "thermal:blizz_powder",
+    "thermal:basalz_powder",
+    "thermal:blitz_powder",
+  ];
+  rods.forEach((e, i) => {
+    thermal.pulverizer("4x " + rod_powder[i], e);
+  });
+
+  thermal.smelter("2x nuclearcraft:actuator", [
+    "mekanism:ingot_osmium",
+    "nuclearcraft:plate_basic",
+    "nuclearcraft:ferroboron_ingot",
+  ]);
+
+  thermal.smelter("mekanism:upgrade_speed", [
+    "pneumaticcraft:capacitor",
+    "kubejs:upgrade_template",
+    "pipez:basic_upgrade",
+  ]);
+  thermal.smelter("mekanism:upgrade_energy", [
+    "pneumaticcraft:transistor",
+    "kubejs:upgrade_template",
+    "pipez:basic_upgrade",
+  ]);
+
+  let INDrecipes = [
+    [
+      "thermal:energy_cell",
+      "mekanism:basic_control_circuit",
+      "mekanism:induction_casing",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:advanced_control_circuit",
+      "mekanism:basic_induction_provider",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:elite_control_circuit",
+      "mekanism:advanced_induction_provider",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:ultimate_control_circuit",
+      "mekanism:elite_induction_provider",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:basic_control_circuit",
+      "mekanism:induction_casing",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:advanced_control_circuit",
+      "mekanism:basic_induction_cell",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:elite_control_circuit",
+      "mekanism:advanced_induction_cell",
+    ],
+    [
+      "thermal:energy_cell",
+      "mekanism:ultimate_control_circuit",
+      "mekanism:elite_induction_cell",
+    ],
+  ];
+  let INDresult = [
+    "mekanism:basic_induction_provider",
+    "mekanism:advanced_induction_provider",
+    "mekanism:elite_induction_provider",
+    "mekanism:ultimate_induction_provider",
+    "mekanism:basic_induction_cell",
+    "mekanism:advanced_induction_cell",
+    "mekanism:elite_induction_cell",
+    "mekanism:ultimate_induction_cell",
+  ];
+
+  INDresult.forEach((e, i) => {
+    thermal.smelter(e, INDrecipes[i]);
+  });
+
+  thermal.smelter("2x nuclearcraft:servo", [
+    "mekanism:advanced_control_circuit",
+    "nuclearcraft:graphite_ingot",
+    "nuclearcraft:plate_basic",
+  ]);
+
+  thermal.smelter("nuclearcraft:upgrade_energy", [
+    "pneumaticcraft:transistor",
+    "kubejs:assembly_plate",
+    "pipez:basic_upgrade",
+  ]);
+  thermal.smelter("nuclearcraft:upgrade_speed", [
+    "pneumaticcraft:capacitor",
+    "kubejs:assembly_plate",
+    "pipez:basic_upgrade",
+  ]);
+  thermal.smelter("2x nuclearcraft:motor", [
+    "nuclearcraft:boron_ingot",
+    "nuclearcraft:plate_basic",
+    "mekanism:alloy_reinforced",
+  ]);
+
+  thermal.press("2x nuclearcraft:chassis", [
+    "nuclearcraft:steel_frame",
+    "mekanism:steel_casing",
+  ]);
+
+  thermal.press("2x nuclearcraft:basic_electric_circuit", [
+    "pneumaticcraft:printed_circuit_board",
+    "mekanism:alloy_atomic",
+  ]);
+
+  thermal.press("4x mekanism:steel_casing", [
+    "nuclearcraft:basic_electric_circuit",
+    "mekanismgenerators:fission_reactor_casing",
+  ]);
+
+  thermal.press("2x bluepower:tungsten_ingot", [
+    "twilightforest:fiery_ingot",
+    "kubejs:pre_compressed",
+  ]);
+
+  thermal.bottler("4x bluepower:tungsten_carbide", [
+    Fluid.of("kubejs:coal", 500),
+    "bluepower:tungsten_ingot",
+  ]);
+
+  thermal.pulverizer("thermal:sulfur_dust", "thermal:sulfur");
+  thermal.crucible(Fluid.of("nuclearcraft:sulfur", 250), "thermal:sulfur_dust");
+
+  thermal.bottler("4x thermal:cured_rubber", [
+    Fluid.of("nuclearcraft:sulfur", 125),
+    "thermal:rubber",
+  ]);
+
+  thermal.press("2x kubejs:silicon_plated", [
+    "nuclearcraft:silicon_gem",
+    "pneumaticcraft:plastic",
+  ]);
+
+  thermal.smelter("4x pneumaticcraft:upgrade_matrix", [
+    "pneumaticcraft:printed_circuit_board",
+    "bluepower:teslatite_dust",
+    "pneumaticcraft:plastic",
+  ]);
+
+  thermal.smelter("6x pneumaticcraft:capacitor", [
+    "2x minecraft:redstone_torch",
+    "bluepower:teslatite_dust",
+  ]);
+  thermal.smelter("6x pneumaticcraft:transistor", [
+    "3x minecraft:redstone_torch",
+    "bluepower:tungsten_ingot",
+  ]);
+
+  thermal.smelter("2x pneumaticcraft:ingot_iron_compressed", [
+    "kubejs:pre_compressed",
+    "minecraft:iron_ingot",
+  ]);
 });
