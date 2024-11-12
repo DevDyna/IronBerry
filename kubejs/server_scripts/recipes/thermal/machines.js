@@ -627,4 +627,6 @@ ServerEvents.recipes((event) => {
     "ae2:fluix_crystal",
     "kubejs:quartz_mixture",
   ]);
+
+  thermal.sawmill("kubejs:bee_unknown", "kubejs:bee");
 });
