@@ -18,20 +18,13 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 <p><span style="font-size: 24px;">- Nerfed thermal speed process</span></p>
 <p><span style="font-size: 24px;">- Many recipes now have an alternative way</span></p>
 <p><span style="font-size: 24px;">- Removed thousand of thousand of items from jei (literally 6-7 double iron chest of item types)</span></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p><span style="font-size: 24px;"><strong>Full Changelog:</strong></span></p>
 <p><span style="font-size: 24px;"> <a href="https://github.com/DevDyna/IronBerry/commits/main/?since=2024-07-01&amp;until=2024-11-12&amp;before=cdfdbed5a624e3ec3482b2562857a54bf716418e+35">Github History</a></span></p>
 <p><span style="font-size: 24px;">&nbsp;</span></p>
 <p><span style="font-size: 24px;"><strong>Complete modlist:</strong></span></p>
 <p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/commits/main/.curselist.txt">Github History</a></span></p>
-<p>&nbsp;</p>
 <p><span style="font-size: 24px;"><strong>Fixed issues:</strong></span></p>
-<p>&nbsp;</p>
 <p><span style="font-size: 24px;">&nbsp;#<a href="https://github.com/DevDyna/IronBerry/issues/31">31</a> #<a href="https://github.com/DevDyna/IronBerry/issues/35">35</a> #<a href="https://github.com/DevDyna/IronBerry/issues/36">36</a></span></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p><span style="font-size: 24px;"><strong>Feature Request completed:</strong></span></p>
 <p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/issues/33">#33</a></span></p>
 <p>&nbsp;</p>
