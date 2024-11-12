@@ -28,7 +28,6 @@ config/ars_nouveau-client.toml
 config/ars_nouveau-common.toml
 config/arseng-common.toml
 config/betteradvancements-client.toml
-config/bluepower-common.toml
 config/buildinggadgets-client.toml
 config/classicbar-client.toml
 defaultconfigs/ftbchunks/client-config.snbt
