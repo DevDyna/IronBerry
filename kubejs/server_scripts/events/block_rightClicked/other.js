@@ -216,5 +216,5 @@ BlockEvents.rightClicked((event) => {
   compost.z = z + 0.5;
   compost.mergeNbt(item.nbt);
   compost.spawn();
-  if (!player.isCreative()) item.count--;
+  item.count--;
 });
