@@ -281,7 +281,8 @@ StartupEvents.registry("item", (event) => {
     .parentModel("ironberry:item/net")
     .unstackable()
     .texture("ironberry:item/net")
-    .displayName("Bee Net");
+    .displayName("Bee Net")
+    .tooltip("Allow to collect Bees Item-form");
 
   event
     .create("manganese_nugget")
