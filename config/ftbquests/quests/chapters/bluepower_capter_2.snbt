@@ -2614,6 +2614,11 @@
 					to_observe: "minecraft:bee_nest"
 					type: "observation"
 				}
+				{
+					id: "5E053ED4D207DC83"
+					item: "kubejs:net"
+					type: "item"
+				}
 			]
 			x: 8.0d
 			y: -6.0d
