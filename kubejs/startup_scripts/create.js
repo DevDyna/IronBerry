@@ -172,4 +172,6 @@ StartupEvents.postInit((event) => {
   myst("minecraft:grass", ["farmersdelight:straw"]);
 
   myst("biomancy:primal_bloom", ["biomancy:bloomberry"]);
+  myst('kubejs:net', ['kubejs:bee']);
+
 });
