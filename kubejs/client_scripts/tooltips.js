@@ -1,4 +1,19 @@
 //priority 10
+
+let Strippà = [
+  " ",
+  "I",
+  "II",
+  "III",
+  "IV",
+  "V",
+  "VI",
+  "VII",
+  "VIII",
+  "IX",
+  "X",
+];
+
 ItemEvents.tooltip((event) => {
   /**
    *
@@ -22,6 +37,28 @@ ItemEvents.tooltip((event) => {
       } catch (error) {}
     });
   }
+
+  let date = (ms) =>
+    Math.floor(Math.floor(ms / 20) / 60) + ":" + (Math.floor(ms / 20) % 60);
+
+  event.addAdvanced("kubejs:bee", (item, advanced, text) => {
+    if (item?.nbt?.ActiveEffects != null) {
+      text.add(1, "Active Effects:");
+
+      item.nbt.ActiveEffects.forEach((e, i) => {
+        text.add(
+          2,
+          "[§b" +
+            date(e.Duration) +
+            "§f] §c" +
+            e["forge:id"].replace(/^.*?:/, "").charAt(0).toUpperCase() +
+            e["forge:id"].replace(/^.*?:/, "").slice(1) +
+            " §a" +
+            Strippà[e.Amplifier]
+        );
+      });
+    }
+  });
 
   // /**
   //  *
@@ -138,16 +175,22 @@ ItemEvents.tooltip((event) => {
   }
 
   //Ⓧ Ⓨ Ⓩ §c §a §9
-  tipplusplus("kubejs:rich_bone_meal", "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]");
+  tipplusplus(
+    "kubejs:rich_bone_meal",
+    "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]"
+  );
   tipplusplus("kubejs:rich_bone_meal", "§8[§fArea affected : §b3 blocks§8]");
-  
+
   tipplusplus(
     "kubejs:ore_bone_meal",
     "§8[§fAxis supported : §aⓍ§f §aⓎ§f §aⓏ§8]"
   );
   tipplusplus("kubejs:ore_bone_meal", "§8[§fArea affected : §b7 blocks§8]");
 
-  tipplusplus("kubejs:floreal_bone_meal", "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]");
+  tipplusplus(
+    "kubejs:floreal_bone_meal",
+    "§8[§fAxis supported : §aⓍ§f §cⓎ§f §aⓏ§8]"
+  );
   tipplusplus("kubejs:floreal_bone_meal", "§8[§fArea affected : §b3 blocks§8]");
 
   tipplusplus(
@@ -508,7 +551,10 @@ ItemEvents.tooltip((event) => {
 
   // tipplusplus("ten3:machine_psionicant", "§4aka 2x slots smeltery");
   // tipplusplus("ten3:machine_induction_furnace", "§4aka 3x slots smeltery");
-  tipplusplus("#ten3:catalyst", "§5Matter Condenser §fCatalyst of §aTech Expansion 3");
+  tipplusplus(
+    "#ten3:catalyst",
+    "§5Matter Condenser §fCatalyst of §aTech Expansion 3"
+  );
 
   tipplusplus(
     "minecraft:diorite",
@@ -605,7 +651,6 @@ ItemEvents.tooltip((event) => {
     "pipez:universal_pipe",
     "§cFull statistics are on regular pipes or upgrades"
   );
-
 });
 
 /*
