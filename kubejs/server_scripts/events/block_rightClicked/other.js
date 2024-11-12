@@ -205,15 +205,13 @@ BlockEvents.rightClicked("reactive:crucible", (event) => {
 //############################### MALWABEE ##########################//
 BlockEvents.rightClicked((event) => {
   const { block, facing, level, item } = event;
-  const { x, y, z } = block.offset(facing);
-  if (item.nbt != null && item.nbt.get("Pos") != null) item.nbt.remove("Pos");
-  if (item == "kubejs:bee") {
-    let compost = level.createEntity("minecraft:bee");
-    compost.y = y + 0.5;
-    compost.x = x + 0.5;
-    compost.z = z + 0.5;
-    compost.mergeNbt(item.nbt);
-    compost.spawn();
-    item.count--;
-  }
+
+  if (item?.nbt?.Pos != undefined) item.nbt.remove("Pos");
+  if (item.id != "kubejs:bee") return;
+
+  let compost = level.createEntity("minecraft:bee");
+  compost.setPosition(block.offset(facing).offset(0.5, 0.5, 0.5));
+  compost.mergeNbt(item.nbt);
+  compost.spawn();
+  item.count--;
 });
