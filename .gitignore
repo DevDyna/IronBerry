@@ -230,3 +230,4 @@ config/tombstone/loottables/tombstone-pool-seeker_rod.json
 config/tombstone/loottables/tombstone-pool-lost_treasure.json
 config/tombstone/loottables/tombstone-pool-cat_morning.json
 config/tombstone/loottables/tombstone-pool-chest_treasure.json
+config/bluepower-common.toml
