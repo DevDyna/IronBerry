@@ -2630,4 +2630,17 @@ ServerEvents.recipes((event) => {
     ],
     "4x kubejs:blank_cast"
   );
+
+  shapex(
+    [
+      "minecraft:air",
+      "minecraft:string",
+      "minecraft:string",
+      "minecraft:air",
+      "minecraft:stick",
+      "minecraft:string",
+      "minecraft:stick",
+    ],
+    "kubejs:net"
+  );
 });
