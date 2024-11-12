@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
-    'mekanism:dye_base',
+    "mekanism:dye_base",
     "mekanism:transmitter/logistical_transporter/basic",
     "mekanism:transmitter/restrictive_transporter",
     "mekanism:transmitter/pressurized_tube/basic",
@@ -221,6 +221,7 @@ ServerEvents.recipes((event) => {
     "mekanism:rotary",
     "mekanism:oxidizing",
     "mekanism:processing",
+    "bluepower:alloy_recycling",
   ]);
 
   event.remove({
