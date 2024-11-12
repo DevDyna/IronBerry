@@ -34,23 +34,12 @@ ItemEvents.tooltip((event) => {
       : Math.floor(ms / 20) % 60);
 
   event.addAdvanced("kubejs:bee", (item, advanced, text) => {
-    if (item?.nbt?.Health != null) {
-      let hp_bar = "";
-      for (let i = 0; i < Math.floor(item.nbt.Health / 2); i++) {
-        hp_bar = hp_bar + "\uF998";
-      }
-      if (item.nbt.Health % 2 != 0) {
-        hp_bar = hp_bar + "\uF999";
-      }
-      text.add(3,hp_bar);
-    }
-
     if (item?.nbt?.ActiveEffects != null) {
-      text.add(4, "Active Effects:");
+      text.add(1, "Active Effects:");
 
       item.nbt.ActiveEffects.forEach((e, i) => {
         text.add(
-          5,
+          2,
           "[§b" +
             date(e.Duration) +
             "§f] §c" +
@@ -60,6 +49,19 @@ ItemEvents.tooltip((event) => {
             Strippà[e.Amplifier]
         );
       });
+    } else {
+      text.add(1, "§7No Effects");
+    }
+
+    if (item?.nbt?.Health != null) {
+      let hp_bar = "[§a";
+      for (let i = 0; i < 10; i++) {
+        if (Math.floor(item.nbt.Health) == i) hp_bar = hp_bar + "■§f";
+        hp_bar = hp_bar + "■";
+      }
+      try {
+        text.add(1, hp_bar + "§f]");
+      } catch (e) {}
     }
   });
 
