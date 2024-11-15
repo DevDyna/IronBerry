@@ -13,7 +13,8 @@ body:
           required: true
         - label: I'm using the latest version of this project
           required: true
-
+        - label: It isn't related to [Missing/Wrong Recipes Summary](https://github.com/DevDyna/IronBerry/discussions/27)
+          required: true
           
           
   - type: dropdown
