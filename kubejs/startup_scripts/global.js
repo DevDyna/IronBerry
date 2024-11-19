@@ -2664,12 +2664,7 @@ global.disabledItem = [
 ];
 
 global.clearNBT = [
-  "ten3:machine_pulverizer",
-  "ten3:machine_compressor",
-  "ten3:machine_psionicant",
-  "ten3:machine_induction_furnace",
-  "ten3:machine_refiner",
-  "ten3:machine_enchantment_flusher",
+  'tombstone:lollipop',
   //"thoriumreactors:creative_fluid_tank",
   "ceramicbucket:ceramic_bucket",
   "mekanism:creative_fluid_tank",
