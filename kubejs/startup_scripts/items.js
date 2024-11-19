@@ -462,4 +462,20 @@ StartupEvents.registry("item", (event) => {
 
   event.create("quartz_mixture").texture("ironberry:item/quartz_mixture");
   event.create("bee").parentModel("ironberry:item/bee/drone");
+
+  event
+  .create("purple_alloy_nugget")
+  .texture("thermal:item/invar_nugget")
+  .color(0, 0xBE5FEE);
+  
+  event
+  .create("red_alloy_nugget")
+  .texture("thermal:item/invar_nugget")
+  .color(0, 0xF0394C);
+
+  event
+  .create("blue_alloy_nugget")
+  .texture("thermal:item/invar_nugget")
+  .color(0, 0x739BF9);
+
 });
