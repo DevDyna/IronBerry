@@ -2643,4 +2643,64 @@ ServerEvents.recipes((event) => {
     ],
     "kubejs:net"
   );
+
+  shapex(
+    [
+      "kubejs:purple_alloy_nugget",
+      "minecraft:blaze_powder",
+      "kubejs:purple_alloy_nugget",
+      "minecraft:blaze_powder",
+      "thermal:laser_diode",
+      "minecraft:blaze_powder",
+      "kubejs:purple_alloy_nugget",
+      "minecraft:blaze_powder",
+      "kubejs:purple_alloy_nugget",
+    ],
+    "thermal:upgrade_augment_1"
+  );
+
+  shapex(
+    [
+      "mekanism:nugget_steel",
+      "thermal:basalz_powder",
+      "mekanism:nugget_steel",
+      "twilightforest:arctic_fur",
+      "thermal:laser_diode",
+      "twilightforest:arctic_fur",
+      "mekanism:nugget_steel",
+      "thermal:basalz_powder",
+      "mekanism:nugget_steel",
+    ],
+    "thermal:upgrade_augment_2"
+  );
+
+  shapex(
+    [
+      "ten3:powered_tin_nugget",
+      "thermal:blizz_powder",
+      "ten3:powered_tin_nugget",
+      "thermal:blitz_powder",
+      "thermal:laser_diode",
+      "thermal:blitz_powder",
+      "ten3:powered_tin_nugget",
+      "thermal:blizz_powder",
+      "ten3:powered_tin_nugget",
+    ],
+    "thermal:upgrade_augment_3"
+  );
+
+  shapex(
+    [
+      "kubejs:blue_alloy_nugget",
+      "minecraft:air",
+      "minecraft:air",
+      "minecraft:air",
+      "minecraft:iron_ingot",
+      "kubejs:red_alloy_nugget",
+      "minecraft:air",
+      "kubejs:red_alloy_nugget",
+      "minecraft:air",
+    ],
+    "4x thermal:laser_diode"
+  );
 });
