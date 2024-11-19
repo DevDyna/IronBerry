@@ -6463,6 +6463,11 @@
 			hide_dependency_lines: true
 			id: "6B8DDA098675365C"
 			optional: true
+			rewards: [{
+				id: "49DF5C4CFF40F87A"
+				item: "thermal:electrum_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "247BEA96E5D92771"
 				item: "kubejs:illuminati"
@@ -6505,7 +6510,6 @@
 				item: "thermal:electrum_coin"
 				type: "item"
 			}]
-			subtitle: "I want you!"
 			tasks: [{
 				id: "31A3A1CAC3473BBA"
 				item: {
@@ -6874,6 +6878,7 @@
 				title: "Any #ironberry:magic_trees"
 				type: "item"
 			}]
+			title: "Magic Trees"
 			x: -14.0d
 			y: -16.0d
 		}
