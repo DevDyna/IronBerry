@@ -72,9 +72,7 @@ BlockEvents.rightClicked((event) => {
     } else {
       event.item.setDamageValue(event.item.getDamageValue() + 1);
     }
-    Utils.server.runCommandSilent(
-      `/setblock ${event.block.x} ${event.block.y} ${event.block.z} minecraft:air destroy`
-    );
+    event.level.destroyBlock(event.block.pos,true,event.player)
   }
 });
 //############################### patina ##########################//
