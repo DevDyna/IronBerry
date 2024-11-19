@@ -138,6 +138,8 @@ ItemEvents.tooltip((event) => {
 
 tipplusplus('thermal:device_fisher',"§cIt dont require any fish bait to work!")
 
+tipplusplus('kubejs:net',"Allow to collect §6Bees §fas §aItem§f form")
+
   tip_replace("#ironberry:gift_loot", "§eObtained by open a §6Starbuncle Gift");
   tipplusplus(
     ["ars_nouveau:ritual_wilden_summon", "ars_nouveau:ritual_awakening"],
