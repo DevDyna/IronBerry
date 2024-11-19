@@ -1153,7 +1153,6 @@ global.disabledItem = [
   "mekanism:dust_copper",
   "mekanism:dust_gold",
   "mekanism:dust_iron",
-  "mekanism:nugget_steel",
   "mekanism:nugget_refined_glowstone",
   "mekanism:nugget_refined_obsidian",
   "mekanism:ingot_refined_glowstone",
@@ -2664,7 +2663,7 @@ global.disabledItem = [
 ];
 
 global.clearNBT = [
-  'tombstone:lollipop',
+  "tombstone:lollipop",
   //"thoriumreactors:creative_fluid_tank",
   "ceramicbucket:ceramic_bucket",
   "mekanism:creative_fluid_tank",
@@ -2676,6 +2675,7 @@ global.clearNBT = [
   "tombstone:tablet_of_recall",
   "tombstone:tablet_of_assistance",
   "tombstone:tablet_of_cupidity",
+  "thermal:laser_diode",
 ];
 
 global.uselessItems = [
