@@ -1682,4 +1682,11 @@ ServerEvents.recipes((event) => {
         "minecraft:bucket"
       );
   });
+
+
+  nine_to_one('mekanism:nugget_steel', 'mekanism:ingot_steel')
+  nine_to_one(['kubejs:purple_alloy_nugget', 'bluepower:purple_alloy_ingot'])
+  nine_to_one(['kubejs:red_alloy_nugget', 'bluepower:red_alloy_ingot'])
+  nine_to_one(['kubejs:blue_alloy_nugget', 'bluepower:blue_alloy_ingot'])
+  
 });
