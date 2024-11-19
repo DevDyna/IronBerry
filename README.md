@@ -11,23 +11,41 @@ Starting on a skyblock of grass , dirt , and a ironwood tree , by process iron b
 
 # LATEST CHANGELOG 0.9d:
 
-<p><span style="font-size: 24px;"><strong>Primary changes:</strong></span></p>
-<p><span style="font-size: 24px;">- Updated all mods</span></p>
-<p><span style="font-size: 24px;">- Early started age 7 Conversion</span></p>
-<p><span style="font-size: 24px;">- Unified tons of code</span></p>
-<p><span style="font-size: 24px;">- Nerfed thermal speed process</span></p>
-<p><span style="font-size: 24px;">- Many recipes now have an alternative way</span></p>
-<p><span style="font-size: 24px;">- Removed thousand of thousand of items from jei (literally 6-7 double iron chest of item types)</span></p>
-<p><span style="font-size: 24px;"><strong>Full Changelog:</strong></span></p>
-<p><span style="font-size: 24px;"> <a href="https://github.com/DevDyna/IronBerry/commits/main/?since=2024-07-01&amp;until=2024-11-12&amp;before=cdfdbed5a624e3ec3482b2562857a54bf716418e+35">Github History</a></span></p>
-<p><span style="font-size: 24px;">&nbsp;</span></p>
-<p><span style="font-size: 24px;"><strong>Complete modlist:</strong></span></p>
-<p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/commits/main/.curselist.txt">Github History</a></span></p>
-<p><span style="font-size: 24px;"><strong>Fixed issues:</strong></span></p>
-<p><span style="font-size: 24px;">&nbsp;#<a href="https://github.com/DevDyna/IronBerry/issues/31">31</a> #<a href="https://github.com/DevDyna/IronBerry/issues/35">35</a> #<a href="https://github.com/DevDyna/IronBerry/issues/36">36</a></span></p>
-<p><span style="font-size: 24px;"><strong>Feature Request completed:</strong></span></p>
-<p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/issues/33">#33</a></span></p>
+<p><span style="font-size: 24px;"><strong># MODS</strong></span></p>
 <p>&nbsp;</p>
-# GITHUB COMPARE
-
-[`URL`](https://github.com/DevDyna/IronBerry/compare/main%40%7B30day%7D...main)
+<p><span style="font-size: 24px;">- Updated all mods</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;"><strong># QUEST</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- removed deprecated fish foods</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- added some missing coins</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- modified "A Furious Cocktail" quest to make more intuitive and less *extreme*</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- fixed Magic Trees quest name</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- removed some duplicated coins</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- fixed broken lollipop quest</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;"><strong># KUBEJS</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- modified pedestal break event</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- fixed bee net tooltip</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- added purple , red and blue alloy nuggets</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- added steel nuggets</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- added laser diode</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- added a recipe to TE components</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;">- re-added lollipops (corail tombstone change)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 24px;"><strong>Full Changelog:</strong></span></p>
+<p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/commits/main/?since=2024-11-15&amp;until=2024-11-19">GitHub Compare</a></span><br /><br /></p>
+<p><span style="font-size: 24px;"><strong>Complete modlist:</strong></span></p>
+<p><span style="font-size: 24px;"><a href="https://github.com/DevDyna/IronBerry/commits/main/.curselist.txt">Github ModList</a></span><br /><br /></p>
