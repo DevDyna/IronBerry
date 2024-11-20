@@ -29,7 +29,7 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
-    'bluepower:battery',
+    "bluepower:battery",
     "mekanism:dye_base",
     "mekanism:transmitter/logistical_transporter/basic",
     "mekanism:transmitter/restrictive_transporter",
