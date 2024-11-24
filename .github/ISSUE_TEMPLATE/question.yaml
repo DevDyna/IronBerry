@@ -1,6 +1,6 @@
 name: Question
 description: Need support about progression? How does it work? Write HERE!
-labels: [question, need support]
+labels: [question]
 assignees: DevDyna
 body:
   - type: checkboxes
