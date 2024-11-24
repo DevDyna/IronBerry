@@ -1,6 +1,6 @@
 name: Bug Report
 description: Have you found a bug ? Squash it!
-labels: [bug, need support]
+labels: [bug]
 assignees: DevDyna
 body:
   - type: checkboxes
