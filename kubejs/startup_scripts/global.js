@@ -2663,6 +2663,7 @@ global.disabledItem = [
 ];
 
 global.clearNBT = [
+  "tombstone:christmas_hat",
   "tombstone:lollipop",
   //"thoriumreactors:creative_fluid_tank",
   "ceramicbucket:ceramic_bucket",
