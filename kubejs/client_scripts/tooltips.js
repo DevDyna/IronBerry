@@ -660,6 +660,11 @@ tipplusplus('kubejs:net',"Allow to collect §6Bees §fas §aItem§f form")
     "pipez:universal_pipe",
     "§cFull statistics are on regular pipes or upgrades"
   );
+
+
+
+  tipplusplus("#thermal:machines","§4Experimental Recipes , they can change on later")
+
 });
 
 /*
