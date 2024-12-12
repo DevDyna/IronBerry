@@ -74,8 +74,6 @@
 	teleport_dim = true
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
-	#Allows players to be hurt by special damages related to some items [false/true|default:true]
-	allow_beyond_the_grave_damage = true
 	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
 	#Range: > 1200
 	time_for_phantom_spawn = 72000
@@ -196,6 +194,15 @@
 	#Maximum cooldown in seconds to have a chance to obtain Spectral Bite [30..60|default:30]
 	#Range: 30 ~ 60
 	max_cooldown_spectral_bite = 30
+	#Minimum cooldown in seconds to have a chance to spawn a Spectral Wolf [3..20|default:3]
+	#Range: 20 ~ 90
+	min_cooldown_spectral_conjurer = 60
+	#Maximum cooldown in seconds to have a chance to spawn a Spectral Wolf [30..60|default:30]
+	#Range: 120 ~ 600
+	max_cooldown_spectral_conjurer = 240
+	#Maximum duration of conjured Spectral Wolf [10..300|default:120]
+	#Range: 10 ~ 300
+	max_duration_spectral_conjurer = 60
 
 #Options related to the command recovery and auto-save of players
 [recovery]
