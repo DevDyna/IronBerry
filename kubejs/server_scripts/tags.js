@@ -1516,6 +1516,12 @@ ServerEvents.tags("block", (event) => {
 });
 
 ServerEvents.tags("fluid", (event) => {
+  
+  
+    event.get("forge:water").removeAll()
+    event.add('forge:water','minecraft:water')
+  
+
   event.add("ironberry:chad_water", "minecraft:water");
   event.add("ironberry:chad_steam", "mekanism:steam");
   event.add("ironberry:chad_glow", "thermal:glowstone");
