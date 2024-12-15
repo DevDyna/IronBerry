@@ -2941,3 +2941,15 @@ global.fishing = [
   "minecraft:saddle",
   "supplementaries:antique_ink",
 ];
+
+global.bee = {
+  name: [
+    "common", //base
+    "variant", //base
+    "cultivated", //common + flower + variant
+    "rebel", //common + flower + variant
+    "pale", //cultivated + berries + common
+    "reddish", //cultivated + berries + common
+    "oscure", //cultivated + berries + common
+  ],
+};
