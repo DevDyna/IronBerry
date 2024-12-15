@@ -29,6 +29,7 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'ars_nouveau:enchanters_eye',
     'ars_nouveau:sourcestone',
     "bluepower:battery",
     "mekanism:dye_base",
