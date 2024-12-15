@@ -629,4 +629,7 @@ ServerEvents.recipes((event) => {
   ]);
 
   thermal.sawmill("kubejs:bee_unknown", "kubejs:bee");
+
+thermal.insolator('farmersdelight:rich_soil','farmersdelight:organic_compost')
+thermal.insolator('cyclic:peat_baked','cyclic:peat_unbaked')
 });
