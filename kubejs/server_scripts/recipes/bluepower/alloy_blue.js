@@ -426,4 +426,13 @@ ServerEvents.recipes((event) => {
     "twilightforest:firefly",
     1
   );
+
+
+  alloy(
+    ['#minecraft:leaves'],
+    [8, 1],
+    'minecraft:moss_block',
+    1
+  );
+
 });
