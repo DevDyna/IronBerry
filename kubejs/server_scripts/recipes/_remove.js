@@ -29,6 +29,7 @@ ServerEvents.recipes((event) => {
   //-----------------------------------------------//
 
   remid([
+    'ars_nouveau:sourcestone',
     "bluepower:battery",
     "mekanism:dye_base",
     "mekanism:transmitter/logistical_transporter/basic",
