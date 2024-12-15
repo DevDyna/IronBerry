@@ -129,27 +129,6 @@ ServerEvents.recipes((event) => {
     ["tombstone:bag_of_seeds"]
   );
 
-  thermal.insolator(
-    [
-      Item.of("kubejs:bee_queen").withChance(0.95),
-      Item.of("kubejs:bee_drone").withChance(0.5),
-      Item.of("kubejs:beewax").withChance(0.25),
-    ],
-    ["kubejs:bee_queen"]
-  );
-
-  thermal.bottler(
-    ["kubejs:bee_unknown"],
-    [Fluid.of("pneumaticcraft:vegetable_oil", 50), "kubejs:bee_drone"]
-  );
-
-  thermal.sawmill(
-    [
-      Item.of("kubejs:bee_drone").withChance(0.85),
-      Item.of("kubejs:bee_queen").withChance(0.05),
-    ],
-    ["kubejs:bee_unknown"]
-  );
   thermal.bottler(
     ["quark:sturdy_stone"],
     ["minecraft:cobblestone", Fluid.of("water", 100)]
@@ -181,6 +160,15 @@ ServerEvents.recipes((event) => {
       Item.of("bluepower:indigo_flower").withChance(0.25),
     ],
     ["bluepower:indigo_flower"]
+  );
+
+  thermal.insolator(
+    [
+      Item.of("minecraft:chorus_flower").withChance(0.95),
+      Item.of("minecraft:chorus_fruit").withChance(0.75),
+      Item.of("quark:chorus_fruit_block").withChance(0.05),
+    ],
+    ["minecraft:chorus_flower"]
   );
 
   thermal.bottler(
@@ -628,8 +616,98 @@ ServerEvents.recipes((event) => {
     "kubejs:quartz_mixture",
   ]);
 
-  thermal.sawmill("kubejs:bee_unknown", "kubejs:bee");
+  thermal.insolator(
+    "farmersdelight:rich_soil",
+    "farmersdelight:organic_compost"
+  );
+  thermal.insolator("cyclic:peat_baked", "cyclic:peat_unbaked");
 
-thermal.insolator('farmersdelight:rich_soil','farmersdelight:organic_compost')
-thermal.insolator('cyclic:peat_baked','cyclic:peat_unbaked')
+  thermal.sawmill(
+    [
+      Item.of("kubejs:bee_unknown_variant").withChance(0.5),
+      Item.of("kubejs:bee_unknown_common").withChance(0.5),
+    ],
+    "kubejs:bee"
+  );
+
+  /**
+   *
+   * @param {string} bee1
+   * @param {item} flower
+   * @param {string} bee2
+   * @param {item} out1
+   * @param {item} out2
+   */
+  function BreedBee(bee1, flower, bee2, out1, out2) {
+    let out = Item.exists("kubejs:bee_" + bee1 + "_" + bee2 + "_unknown")
+      ? "kubejs:bee_" + bee1 + "_" + bee2 + "_unknown"
+      : "kubejs:bee_" + bee2 + "_" + bee1 + "_unknown";
+    thermal.smelter(
+      [
+        Item.of(out).withChance(0.5),
+        Item.of("kubejs:bee_unknown_" + bee1).withChance(0.25),
+        Item.of("kubejs:bee_unknown_" + bee2).withChance(0.25),
+      ],
+      ['#ironberry:bee/'+bee1, flower, '#ironberry:bee/'+bee2]
+    );
+    thermal.insolator(
+      [Item.of(out1).withChance(0.5), Item.of(out2).withChance(0.5)],
+      out
+    );
+  }
+
+  //"kubejs:bee_" + name + "_drone"
+  //"kubejs:bee_" + name + "_queen"
+  //"kubejs:bee_unknown_" + name
+  //"kubejs:bee_" + name + "_" + subname + "_unknown"
+  // let dename = global.bee.name;
+
+  let bee_drop = [];
+
+  global.bee.name.forEach((name) => {
+    thermal.sawmill(
+      [
+        Item.of("kubejs:bee_" + name + "_queen").withChance(0.15),
+        Item.of("kubejs:bee_" + name + "_drone").withChance(0.85),
+      ],
+      "kubejs:bee_unknown_" + name
+    );
+
+    thermal.insolator(
+      [
+        Item.of("kubejs:bee_" + name + "_queen").withChance(0.95),
+        Item.of("kubejs:bee_" + name + "_drone").withChance(0.5),
+        Item.of("kubejs:"+name+"_beewax").withChance(0.25),
+      ],
+      ["kubejs:bee_" + name + "_queen"]
+    );
+
+    thermal.bottler(
+      [Item.of("kubejs:bee_unknown_" + name).withChance(0.75)],
+      [
+        Fluid.of("pneumaticcraft:vegetable_oil", 50),
+        "kubejs:bee_" + name + "_drone",
+      ]
+    );
+
+    // dename.forEach((subname) => {
+    //   if (Item.exists("kubejs:bee_" + name + "_" + subname + "_unknown")) {
+    //     thermal.sawmill(
+    //       [
+    //         Item.of("kubejs:bee_unknown_" + name).withChance(0.5),
+    //         Item.of("kubejs:bee_unknown_" + subname).withChance(0.5),
+    //       ],
+    //       "kubejs:bee_" + name + "_" + subname + "_unknown"
+    //     );
+    //   }
+    // });
+  });
+
+  BreedBee(
+    "variant",
+    "#ironberry:indigo_flowers",
+    "common",
+    "kubejs:bee_unknown_cultivated",
+    "kubejs:bee_unknown_rebel"
+  );
 });
