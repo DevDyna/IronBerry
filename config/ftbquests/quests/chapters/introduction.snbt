@@ -590,6 +590,7 @@
 		}
 		{
 			dependencies: ["58B49792D4827F5F"]
+			description: ["{ \"text\": \"                    { link }\", \"color\" : \"green\" , \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/DevDyna/IronBerry/issues/new/choose\" } }"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
