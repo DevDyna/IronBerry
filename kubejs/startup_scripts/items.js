@@ -281,7 +281,7 @@ StartupEvents.registry("item", (event) => {
     .parentModel("ironberry:item/net")
     .unstackable()
     .texture("ironberry:item/net")
-    .displayName("Bee Net")
+    .displayName("Bee Net");
 
   event
     .create("manganese_nugget")
@@ -308,22 +308,6 @@ StartupEvents.registry("item", (event) => {
     .texture("ironberry:item/tungsten_plate")
     .displayName("Tungsten Carbide plate");
 
-  event.create("bee_drone").texture("layer0", "ironberry:item/bee/head");
-
-  event
-    .create("bee_queen")
-    .texture("layer0", "ironberry:item/bee/head")
-    .texture("layer1", "ironberry:item/bee/crown");
-
-  event
-    .create("bee_unknown")
-    .texture("layer0", "ironberry:item/bee/head")
-    // .color(0, 0xEDC343)
-    // .color(1,0x43241B)
-    // .texture("layer0", "item/spawn_egg")
-    // .texture("layer1", "item/spawn_egg_overlay")
-    .texture("layer1", "ironberry:item/unknown");
-
   event.create("beewax").texture("ironberry:item/beewax");
 
   event
@@ -335,7 +319,7 @@ StartupEvents.registry("item", (event) => {
         layer0: "thermal:item/augments/creative_augment_base",
         layer1: "thermal:item/gold_coin_4",
       },
-    }); //give @p kubejs:lucky{AugmentData:{MachineSec:0.4,MachineEnergy:1.5}}
+    }); //give @p kubejs:lucky{AugmentData:{MachineSec:0.75,MachineEnergy:1.5}}
 
   event
     .create("sonic")
@@ -461,21 +445,123 @@ StartupEvents.registry("item", (event) => {
   });
 
   event.create("quartz_mixture").texture("ironberry:item/quartz_mixture");
+
+  event
+    .create("purple_alloy_nugget")
+    .texture("thermal:item/invar_nugget")
+    .color(0, 0xbe5fee);
+
+  event
+    .create("red_alloy_nugget")
+    .texture("thermal:item/invar_nugget")
+    .color(0, 0xf0394c);
+
+  event
+    .create("blue_alloy_nugget")
+    .texture("thermal:item/invar_nugget")
+    .color(0, 0x739bf9);
+
+  //base bee
   event.create("bee").parentModel("ironberry:item/bee/drone");
 
-  event
-  .create("purple_alloy_nugget")
-  .texture("thermal:item/invar_nugget")
-  .color(0, 0xBE5FEE);
+  let bee_name = [
+    "common",       //base
+    "variant",      //base
+    "cultivated",   //common + flower + variant
+    "rebel",        //common + flower + variant
+    "pale",         //cultivated + berries + common
+    "reddish",      //cultivated + berries + common
+    "oscure",       //cultivated + berries + common
+  ];
+    // "glowing",      //cultivated + glow + common
+    // "sarcastic",    //cultivated + iron + common
+    // "sweet",        //cultivated + sweet + common
+    // "lucent",       //cultivated + berries + common
+    // "pure",         //cultivated + berries + common
   
-  event
-  .create("red_alloy_nugget")
-  .texture("thermal:item/invar_nugget")
-  .color(0, 0xF0394C);
 
-  event
-  .create("blue_alloy_nugget")
-  .texture("thermal:item/invar_nugget")
-  .color(0, 0x739BF9);
+  let copy_bee_name = bee_name;
 
+  // [eyes,body]
+  let bee_colors = [
+    [0x7cc9d1, 0xFFEC69],
+    [0x83c6de, 0xBFFF69],
+    [0xf22749, 0x6996FF],
+    [0x8C69FF, 0xFF69E7],
+    [0xDE4A80, 0xBFBBCA],
+    [0xEBEB42, 0xEB8642],
+    [0xE5E0D6, 0x616155],
+  ];
+
+  let bee_registred = [];
+
+  copy_bee_name.forEach((name, name_i) => {
+    event
+      .create("bee_" + name + "_drone")
+      .color(0, bee_colors[name_i][0])
+      .color(1, bee_colors[name_i][1])
+      .texture("layer0", "ironberry:item/bee/eyes/full")
+      .texture("layer1", "ironberry:item/bee/head/full")
+      .displayName(Nominator(name) + " " + Nominator("drone"));
+
+    event
+      .create("bee_" + name + "_queen")
+      .color(0, bee_colors[name_i][0])
+      .color(1, bee_colors[name_i][1])
+      .texture("layer0", "ironberry:item/bee/eyes/full")
+      .texture("layer1", "ironberry:item/bee/head/full")
+      .texture("layer2", "ironberry:item/bee/crown")
+      .displayName(Nominator(name) + " " + Nominator("queen"));
+
+    event
+      .create("bee_unknown_" + name)
+      .color(0, bee_colors[name_i][0])
+      .color(1, bee_colors[name_i][1])
+      .texture("layer0", "ironberry:item/bee/eyes/full")
+      .texture("layer1", "ironberry:item/bee/head/full")
+      .texture("layer2", "ironberry:item/unknown")
+      .displayName(Nominator("unknown") + " " + Nominator(name));
+
+    bee_name.forEach((subname, sub_i) => {
+      if (
+        bee_registred.indexOf(name + "_" + subname) == -1 &&
+        bee_registred.indexOf(subname + "_" + name) == -1 &&
+        subname != name
+      ) {
+        bee_registred.push(name + "_" + subname);
+
+        event
+          .create("bee_" + name + "_" + subname + "_queen")
+          .color(0, bee_colors[name_i][0])
+          .color(1, bee_colors[name_i][1])
+          .color(2, bee_colors[sub_i][0])
+          .color(3, bee_colors[sub_i][1])
+          .texture("layer0", "ironberry:item/bee/eyes/right")
+          .texture("layer1", "ironberry:item/bee/head/right")
+          .texture("layer2", "ironberry:item/bee/eyes/left")
+          .texture("layer3", "ironberry:item/bee/head/left")
+          .texture("layer4", "ironberry:item/bee/crown")
+          .displayName("Bee Queen Mixed")
+          .tooltip(Nominator(name) + " + " + Nominator(subname));
+
+        event
+          .create("bee_" + name + "_" + subname + "_unknown")
+          .color(0, bee_colors[name_i][0])
+          .color(1, bee_colors[name_i][1])
+          .color(2, bee_colors[sub_i][0])
+          .color(3, bee_colors[sub_i][1])
+          .texture("layer0", "ironberry:item/bee/eyes/right")
+          .texture("layer1", "ironberry:item/bee/head/right")
+          .texture("layer2", "ironberry:item/bee/eyes/left")
+          .texture("layer3", "ironberry:item/bee/head/left")
+          .texture("layer4", "ironberry:item/unknown")
+          .displayName("Mixed Unknown Bee")
+          .tooltip(Nominator(name) + " + " + Nominator(subname));
+      }
+    });
+  });
+
+  function Nominator(text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+  }
 });
