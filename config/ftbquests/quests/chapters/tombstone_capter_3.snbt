@@ -5772,7 +5772,7 @@
 			}]
 			tasks: [{
 				id: "32FDC9AAD640404F"
-				item: "tombstone:merchant_stone"
+				item: "tombstone:gemstone_of_merchant"
 				type: "item"
 			}]
 			x: 13.0d
@@ -5797,7 +5797,7 @@
 			subtitle: "Soul on a jar"
 			tasks: [{
 				id: "298DAE514730BA57"
-				item: "tombstone:soul_receptacle"
+				item: "tombstone:receptacle_of_soul"
 				type: "item"
 			}]
 			x: -3.0d
