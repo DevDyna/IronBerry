@@ -109,4 +109,30 @@ ServerEvents.recipes(event => {
     })
 
     
+
+
+    event.custom({
+        "type": "cyclic:crusher",
+        "input": {
+            "item": 'minecraft:grass_block'
+        },
+        "energy": {
+            "ticks": 10,
+            "rfpertick": 5
+        },
+        "result": {
+            "item": 'minecraft:podzol',
+
+            "count": 4
+        },
+        "percent": 50,
+        "bonus": {
+            "item": "minecraft:podzol",
+            "count": 1
+        }
+    })
+
+
+
+
 })
