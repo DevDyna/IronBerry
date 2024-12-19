@@ -616,6 +616,13 @@ ServerEvents.recipes((event) => {
     "kubejs:quartz_mixture",
   ]);
 
+  thermal.pulverizer(
+    [Item.of("minecraft:glow_ink_sac").withChance(0.5), "2x minecraft:ink_sac"],
+    "supplementaries:antique_ink"
+  );
+
+  thermal.press("8x minecraft:podzol", ["minecraft:mud", "minecraft:dirt"]);
+
   thermal.insolator(
     "farmersdelight:rich_soil",
     "farmersdelight:organic_compost"
@@ -648,7 +655,7 @@ ServerEvents.recipes((event) => {
         Item.of("kubejs:bee_unknown_" + bee1).withChance(0.25),
         Item.of("kubejs:bee_unknown_" + bee2).withChance(0.25),
       ],
-      ['#ironberry:bee/'+bee1, flower, '#ironberry:bee/'+bee2]
+      ["#ironberry:bee/" + bee1, flower, "#ironberry:bee/" + bee2]
     );
     thermal.insolator(
       [Item.of(out1).withChance(0.5), Item.of(out2).withChance(0.5)],
@@ -677,7 +684,7 @@ ServerEvents.recipes((event) => {
       [
         Item.of("kubejs:bee_" + name + "_queen").withChance(0.95),
         Item.of("kubejs:bee_" + name + "_drone").withChance(0.5),
-        Item.of("kubejs:"+name+"_beewax").withChance(0.25),
+        Item.of("kubejs:" + name + "_beewax").withChance(0.25),
       ],
       ["kubejs:bee_" + name + "_queen"]
     );
