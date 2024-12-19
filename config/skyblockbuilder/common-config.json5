@@ -139,6 +139,9 @@
     // USE AT YOUR OWN RISK, NO SUPPORT FOR DEFAULT WORLDS WITH THIS ENABLED
     "forceSkyblockCheck": false,
     
+    // You may enable this when you encounter problems with game profiles
+    "forceUnsecureProfileNames": false,
+    
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
     
@@ -231,6 +234,7 @@
     
     // The block settings for generating the different dimensions surfaces.
     // Same format as flat world generation settings (blocks only)
+    // WARNING: Does not work with modded blocks, see https://github.com/MelanX/SkyblockBuilder/issues/133#issuecomment-2075351219
     "surfaceSettings": {
       "minecraft:overworld": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
       "minecraft:the_nether": "",
