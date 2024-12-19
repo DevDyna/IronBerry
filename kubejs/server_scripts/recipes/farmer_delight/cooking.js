@@ -457,7 +457,7 @@ ServerEvents.recipes((event) => {
     recipe_book_tab: "meals",
     result: {
       item: "minecraft:grass_block",
-      count: 1,
+      count: 4,
     },
   });
 
@@ -586,4 +586,30 @@ ServerEvents.recipes((event) => {
       count: 2,
     },
   });
+
+
+
+
+  event.custom({
+    type: "farmersdelight:cooking",
+    cookingtime: 4,
+    experience: 0.0,
+    ingredients: [
+      {
+        item: 'minecraft:mud',
+      },
+      {
+        item: 'biomancy:nutrient_paste',
+      },
+      {
+        item: 'minecraft:dirt',
+      },
+    ],
+    recipe_book_tab: "meals",
+    result: {
+      item: 'minecraft:podzol',
+      count: 4,
+    },
+  });
+
 });
