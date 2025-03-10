@@ -124,7 +124,7 @@ StartupEvents.postInit((event) => {
       '{display:{Name:\'{"text":"Extra time","color":"green","bold":true,"italic":false}\'}}'
     ),
   ]);
-  myst("kubejs:soul", ["tombstone:soul_receptacle"]);
+  myst("kubejs:soul", ["tombstone:receptacle_of_soul"]);
   myst("minecraft:cauldron", ["reactive:crucible"]);
   myst("thoriumreactors:molten_salt_bucket", [
     "thoriumreactors:heated_molten_salt_bucket",
@@ -172,6 +172,5 @@ StartupEvents.postInit((event) => {
   myst("minecraft:grass", ["farmersdelight:straw"]);
 
   myst("biomancy:primal_bloom", ["biomancy:bloomberry"]);
-  myst('kubejs:net', ['kubejs:bee']);
-
+  myst("kubejs:net", ["kubejs:bee"]);
 });
